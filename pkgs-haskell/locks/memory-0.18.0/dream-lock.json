@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "memory",
+    "location": "",
+    "packages": {
+      "memory": "0.18.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
+      "foundation#0.0.29": "b261654d448049cf425bb5d687eb80043d161a8a24859b9abe8d62225a29a6cb"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "memory": {
+      "0.18.0": [
+        [ "memory", "0.18.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "foundation": {
+      "0.0.29": [
+        [ "basement", "0.0.15" ]
+      ]
+    },
+    "memory": {
+      "0.18.0": [
+        [ "basement", "0.0.15" ],
+        [ "basement", "0.0.15" ],
+        [ "foundation", "0.0.29" ],
+        [ "memory", "0.18.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "basement": {
+      "0.0.15": {
+        "hash": "sha256:56c2afb6754e8d16a627331a8a5d473b3d26fd04ba5c9e0fb3475f595b915db4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/basement-0.0.15.tar.gz"
+      }
+    },
+    "foundation": {
+      "0.0.29": {
+        "hash": "sha256:34839bab424ffd5aed228271d75b15a84ed94eab515e44be909a9b37948173c1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/foundation-0.0.29.tar.gz"
+      }
+    },
+    "memory": {
+      "0.18.0": {
+        "hash": "sha256:fd4eb6f638e24b81b4e6cdd68772a531726f2f67686c8969d3407d82f7862e3e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/memory-0.18.0/memory-0.18.0.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "Yampa",
+    "location": "",
+    "packages": {
+      "Yampa": "0.13.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
+      "simple-affine-space#0.1.1": "c2afdf618a641cebe213820ed3df82da62aee325483ea848a267d1d39b41f868",
+      "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "Yampa": {
+      "0.13.6": [
+        [ "random", "1.2.1.1" ],
+        [ "simple-affine-space", "0.1.1" ]
+      ]
+    },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "Yampa": {
+      "0.13.6": {
+        "hash": "sha256:bef3bb93b809b94c9f8824a7bab2ef08a36f5d125a7498bbbf845e09eedafc65",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/Yampa-0.13.6/Yampa-0.13.6.tar.gz"
+      }
+    },
+    "random": {
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
+      }
+    },
+    "simple-affine-space": {
+      "0.1.1": {
+        "hash": "sha256:89a0d1afa3a0f287cbfc41716a9673481c3a6005c1d896bfb10b5f1d27b25e9c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/simple-affine-space-0.1.1.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
+      }
+    }
+  }
+}

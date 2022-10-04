@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "haskeline",
+    "location": "",
+    "packages": {
+      "haskeline": "0.8.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "HUnit#1.6.2.0": "1a79174e8af616117ad39464cac9de205ca923da6582825e97c10786fda933a4",
+      "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "haskeline": {
+      "0.8.2": [
+        [ "haskeline", "0.8.2" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "HUnit": {
+      "1.6.2.0": [
+        [ "call-stack", "0.4.0" ]
+      ]
+    },
+    "haskeline": {
+      "0.8.2": [
+        [ "haskeline", "0.8.2" ],
+        [ "HUnit", "1.6.2.0" ],
+        [ "haskeline", "0.8.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "HUnit": {
+      "1.6.2.0": {
+        "hash": "sha256:b0b7538871ffc058486fc00740886d2f3172f8fa6869936bfe83a5e10bd744ab",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/HUnit-1.6.2.0.tar.gz"
+      }
+    },
+    "call-stack": {
+      "0.4.0": {
+        "hash": "sha256:430bcf8a3404f7e55319573c0b807b1356946f0c8f289bb3d9afb279c636b87b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/call-stack-0.4.0.tar.gz"
+      }
+    },
+    "haskeline": {
+      "0.8.2": {
+        "hash": "sha256:ec9d155c5aff7489c2553e57130ed66f89857188c7a06108900c8d1066fc27df",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/haskeline-0.8.2/haskeline-0.8.2.tar.gz"
+      }
+    }
+  }
+}

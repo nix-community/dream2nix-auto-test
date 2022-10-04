@@ -1,0 +1,240 @@
+{
+  "_generic": {
+    "defaultPackage": "regex-tdfa",
+    "location": "",
+    "packages": {
+      "regex-tdfa": "1.3.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "Glob#0.10.2": "dd2ddbecae8f84e8f4cacb5b856901a19c25ceaa11f2525d3ee88d034acb0081",
+      "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
+      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
+      "code-page#0.2.1": "fe596b0f421abd2894fdb7049b3d76230eb1de6e04e9f635e2695dd55ded856e",
+      "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
+      "doctest-parallel#0.2.5": "7cbd37fc2e858e33fe68989dc950685c5db83719ad3fc21b452e3b0abb98e4bd",
+      "extra#1.7.12": "3ac58d7341976173d1052e7b2837d119212d9afcf911735667c7f1ab67aec25f",
+      "ghc-paths#0.1.0.12": "1c9cf34ed8f2584bc4dd2837657ea3056664daa8127c66264704a3442651bfb4",
+      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
+      "regex-base#0.94.0.2": "4ff4425c710cddf440dfbac6cd52310bb6b23e17902390ff71c9fc7eaafc4fcc",
+      "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
+      "syb#0.7.2.2": "bc800dbd35a17b652082f7f9790fd20d196ea0f44daaa7d5ac46491d8ecc7347",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
+      "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
+      "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "doctest-parallel": {
+      "0.2.5": [
+        [ "doctest-parallel", "0.2.5" ]
+      ]
+    },
+    "regex-tdfa": {
+      "1.3.2": [
+        [ "regex-tdfa", "1.3.2" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "Glob": {
+      "0.10.2": [
+        [ "dlist", "1.0" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "code-page": {
+      "0.2.1": [
+        [ "hsc2hs", "0.68.8" ]
+      ]
+    },
+    "doctest-parallel": {
+      "0.2.5": [
+        [ "Glob", "0.10.2" ],
+        [ "base-compat", "0.12.2" ],
+        [ "code-page", "0.2.1" ],
+        [ "extra", "1.7.12" ],
+        [ "ghc-paths", "0.1.0.12" ],
+        [ "random", "1.2.1.1" ],
+        [ "syb", "0.7.2.2" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "doctest-parallel", "0.2.5" ]
+      ]
+    },
+    "extra": {
+      "1.7.12": [
+        [ "clock", "0.8.3" ]
+      ]
+    },
+    "hashable": {
+      "1.4.1.0": [
+        [ "base-orphans", "0.8.7" ]
+      ]
+    },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "regex-tdfa": {
+      "1.3.2": [
+        [ "regex-base", "0.94.0.2" ],
+        [ "doctest-parallel", "0.2.5" ],
+        [ "regex-tdfa", "1.3.2" ],
+        [ "regex-base", "0.94.0.2" ],
+        [ "regex-tdfa", "1.3.2" ],
+        [ "utf8-string", "1.0.2" ]
+      ]
+    },
+    "unordered-containers": {
+      "0.2.19.1": [
+        [ "hashable", "1.4.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "Glob": {
+      "0.10.2": {
+        "hash": "sha256:6af672ac8427d35cbd42d64142dc288feab266f0be92dae3c696e8860d8173c0",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/Glob-0.10.2.tar.gz"
+      }
+    },
+    "base-compat": {
+      "0.12.2": {
+        "hash": "sha256:a62adc883a5ac436f80e4ae02c3c56111cf1007492f267c291139a668d2150bd",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-compat-0.12.2.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.8.7": {
+        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+      }
+    },
+    "clock": {
+      "0.8.3": {
+        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
+      }
+    },
+    "code-page": {
+      "0.2.1": {
+        "hash": "sha256:b2f90e19c61ed8a6ff7295f7f123d4a9913c790d4cf2c6029bc299293fdb2aaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/code-page-0.2.1.tar.gz"
+      }
+    },
+    "dlist": {
+      "1.0": {
+        "hash": "sha256:173d637328bb173fcc365f30d29ff4a94292a1e0e5558aeb3dfc11de81510115",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/dlist-1.0.tar.gz"
+      }
+    },
+    "doctest-parallel": {
+      "0.2.5": {
+        "hash": "sha256:ec63fdcb9b26084a52d8603d39745abfcfa621b6c99be66803d8bd4ba927be1c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/doctest-parallel-0.2.5.tar.gz"
+      }
+    },
+    "extra": {
+      "1.7.12": {
+        "hash": "sha256:e571a9ec1d8865f0fbb0e0ba1eb575f783b0365c80db19b54a93600bae43b03c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/extra-1.7.12.tar.gz"
+      }
+    },
+    "ghc-paths": {
+      "0.1.0.12": {
+        "hash": "sha256:6ecbe676d073cb07989c61ce4c5709c4e67cbefdd2d55a4095f9388b6fe2c484",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ghc-paths-0.1.0.12.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.1.0": {
+        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+      }
+    },
+    "hsc2hs": {
+      "0.68.8": {
+        "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.8.tar.gz"
+      }
+    },
+    "random": {
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
+      }
+    },
+    "regex-base": {
+      "0.94.0.2": {
+        "hash": "sha256:7b99408f580f5bb67a1c413e0bc735886608251331ad36322020f2169aea2ef1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/regex-base-0.94.0.2.tar.gz"
+      }
+    },
+    "regex-tdfa": {
+      "1.3.2": {
+        "hash": "sha256:2660d7dc5f00718c39454c844d354dea26d605db9864f80951efad5f7284dfd1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/regex-tdfa-1.3.2/regex-tdfa-1.3.2.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
+      }
+    },
+    "syb": {
+      "0.7.2.2": {
+        "hash": "sha256:8143c6983b6248d57f00e47ec3cd16541acbaa55eb8093fedd5b7cee9a95b2e3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/syb-0.7.2.2.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "unordered-containers": {
+      "0.2.19.1": {
+        "hash": "sha256:1b27bec5e0d522b27a6029ebf4c4a6d40acbc083c787008e32fb55c4b1d128d2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unordered-containers-0.2.19.1.tar.gz"
+      }
+    },
+    "utf8-string": {
+      "1.0.2": {
+        "hash": "sha256:ee48deada7600370728c4156cb002441de770d0121ae33a68139a9ed9c19b09a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/utf8-string-1.0.2.tar.gz"
+      }
+    }
+  }
+}

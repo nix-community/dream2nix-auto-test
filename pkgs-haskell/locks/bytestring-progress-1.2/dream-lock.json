@@ -1,0 +1,114 @@
+{
+  "_generic": {
+    "defaultPackage": "bytestring-progress",
+    "location": "",
+    "packages": {
+      "bytestring-progress": "1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
+      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
+      "stm-chans#3.0.0.6": "146039ef0f5331e796165305198c66c91d61a4fc56219914401cab50f1cf0679",
+      "terminal-progress-bar#0.2": "c5543e4ed288c924e860056f62a4d2254513d153fa36efeadcd7b98c492d3b6f",
+      "terminal-size#0.3.3": "bd5f02333982bc8d6017db257b2a0b91870a295b4a37142a0c0525d8f533a48f"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async": {
+      "2.2.4": [
+        [ "hashable", "1.4.1.0" ]
+      ]
+    },
+    "bytestring-progress": {
+      "1.2": [
+        [ "terminal-progress-bar", "0.2" ]
+      ]
+    },
+    "hashable": {
+      "1.4.1.0": [
+        [ "base-orphans", "0.8.7" ]
+      ]
+    },
+    "terminal-progress-bar": {
+      "0.2": [
+        [ "async", "2.2.4" ],
+        [ "stm-chans", "3.0.0.6" ],
+        [ "terminal-size", "0.3.3" ]
+      ]
+    },
+    "terminal-size": {
+      "0.3.3": [
+        [ "hsc2hs", "0.68.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "async": {
+      "2.2.4": {
+        "hash": "sha256:484df85be0e76c4fed9376451e48e1d0c6e97952ce79735b72d54297e7e0a725",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/async-2.2.4.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.8.7": {
+        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+      }
+    },
+    "bytestring-progress": {
+      "1.2": {
+        "hash": "sha256:11ef519d5df71c3837428251aaefc874593ab35630cc7926889d79552fd6bba4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bytestring-progress-1.2/bytestring-progress-1.2.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.1.0": {
+        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+      }
+    },
+    "hsc2hs": {
+      "0.68.8": {
+        "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.8.tar.gz"
+      }
+    },
+    "stm-chans": {
+      "3.0.0.6": {
+        "hash": "sha256:ea6e3e83b67380ada44a566014e2611ef9f98142a8bbb91583fb598425760a12",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/stm-chans-3.0.0.6.tar.gz"
+      }
+    },
+    "terminal-progress-bar": {
+      "0.2": {
+        "hash": "sha256:d6b134fb6f7b1cbe67004153608a77701f45532bad9618ead6dac1dae9f84a14",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/terminal-progress-bar-0.2.tar.gz"
+      }
+    },
+    "terminal-size": {
+      "0.3.3": {
+        "hash": "sha256:8c174c8fa7200be2caffd6d25f789fd3c73f4b7b02989f332a42d7901fca60c3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/terminal-size-0.3.3.tar.gz"
+      }
+    }
+  }
+}

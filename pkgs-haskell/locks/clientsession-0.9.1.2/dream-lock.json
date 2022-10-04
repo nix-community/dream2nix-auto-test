@@ -1,0 +1,441 @@
+{
+  "_generic": {
+    "defaultPackage": "clientsession",
+    "location": "",
+    "packages": {
+      "clientsession": "0.9.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "HUnit#1.6.2.0": "1a79174e8af616117ad39464cac9de205ca923da6582825e97c10786fda933a4",
+      "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
+      "ansi-terminal#0.11.3": "cc499d5f4c09a7213cd752ee69dbb5a5b8f3d1c777274e609eea4bca5c68ac8c",
+      "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
+      "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
+      "byteable#0.1.1": "12eeda93251d4b5d510ac95cf578f5c89d4a399b14ca73116deaf4921a516fdf",
+      "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
+      "cereal#0.5.8.3": "87a227c7b510217ea059db3dd59d9665edd8f0d1d3d8de39458e371a1d9402fb",
+      "cipher-aes#0.2.11": "3f887a53efb0df216d44e954108fd660a7548e6f109bba1f158cc2c792810f8b",
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "cprng-aes#0.6.1": "5f16cee07ffc501078a81bf4e3061e74656c00fa4f7714a0495fc2539734a737",
+      "crypto-api#0.13.3": "e572c0cdc58ba6773ea200ea5261d6bf5fc116d910b52cf1c671d85b940ed6fc",
+      "crypto-cipher-types#0.0.9": "db4b94bd674d5d81caa41e1154396ae09c4de916a85163c8cd7892bc80c4c0cf",
+      "crypto-random#0.0.9": "c1092533ff771d20c041d4d0bed8efa8dff705c49b766be5ce6ce2b59c8aa1ab",
+      "entropy#0.4.1.10": "219a10d58386831dd742982e85841c16822f5c219b7cc6e5afff86f956c5b935",
+      "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
+      "hspec#2.10.6": "c90dbcc629e88e5f56021c7dba26a97109a0c441aeece6ead217ee3fc83dcb68",
+      "hspec-core#2.10.6": "68a74267974fee22f4bc57b5d353391e8dc943b0d7ffaf5d47dab691765ee772",
+      "hspec-discover#2.10.6": "df63254c5aa8c5c2b9233b0067728394936b6c9af7e3a5d3d44df78d888dcefd",
+      "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
+      "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
+      "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
+      "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
+      "securemem#0.1.10": "1e69f378f2837c502ebe02760c136e67e84dfe6052b7ecf694ccbe66c16a86d2",
+      "setenv#0.1.1.3": "c5916ac0d2a828473cd171261328a290afe0abd799db1ac8c310682fe778c45b",
+      "skein#1.0.9.4": "863e3b7293f062e2f62c8e7c4c4e95200dbd3662f3bd641d7e250e91544ba2fc",
+      "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
+      "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
+      "tf-random#0.5": "14012837d0f0e18fdbbe3d56e67da8622ee5e20b180abce952dd50bd9f36b326",
+      "vector#0.13.0.0": "54528e95501742b99462cc543891f21177e7db34d960ce8e3cbb25afb16a9c89",
+      "vector-stream#0.1.0.0": "09b0f8dc4e51936b9d6b04791f0aa03f7c9759b5fb7140eac8a9461cda1e55a3"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "clientsession": {
+      "0.9.1.2": [
+        [ "clientsession", "0.9.1.2" ]
+      ]
+    },
+    "hspec-discover": {
+      "2.10.6": [
+        [ "hspec-discover", "2.10.6" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "HUnit": {
+      "1.6.2.0": [
+        [ "call-stack", "0.4.0" ]
+      ]
+    },
+    "QuickCheck": {
+      "2.14.2": [
+        [ "random", "1.2.1.1" ],
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "ansi-terminal": {
+      "0.11.3": [
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "cipher-aes": {
+      "0.2.11": [
+        [ "byteable", "0.1.1" ],
+        [ "crypto-cipher-types", "0.0.9" ],
+        [ "securemem", "0.1.10" ]
+      ]
+    },
+    "clientsession": {
+      "0.9.1.2": [
+        [ "base64-bytestring", "1.2.1.0" ],
+        [ "cereal", "0.5.8.3" ],
+        [ "cipher-aes", "0.2.11" ],
+        [ "cprng-aes", "0.6.1" ],
+        [ "crypto-api", "0.13.3" ],
+        [ "crypto-random", "0.0.9" ],
+        [ "entropy", "0.4.1.10" ],
+        [ "setenv", "0.1.1.3" ],
+        [ "skein", "1.0.9.4" ],
+        [ "tagged", "0.8.6.1" ],
+        [ "clientsession", "0.9.1.2" ],
+        [ "HUnit", "1.6.2.0" ],
+        [ "QuickCheck", "2.14.2" ],
+        [ "cereal", "0.5.8.3" ],
+        [ "clientsession", "0.9.1.2" ],
+        [ "hspec", "2.10.6" ]
+      ]
+    },
+    "cprng-aes": {
+      "0.6.1": [
+        [ "byteable", "0.1.1" ],
+        [ "cipher-aes", "0.2.11" ],
+        [ "crypto-random", "0.0.9" ]
+      ]
+    },
+    "crypto-api": {
+      "0.13.3": [
+        [ "cereal", "0.5.8.3" ],
+        [ "entropy", "0.4.1.10" ],
+        [ "tagged", "0.8.6.1" ]
+      ]
+    },
+    "crypto-cipher-types": {
+      "0.0.9": [
+        [ "byteable", "0.1.1" ],
+        [ "securemem", "0.1.10" ]
+      ]
+    },
+    "crypto-random": {
+      "0.0.9": [
+        [ "securemem", "0.1.10" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "hspec": {
+      "2.10.6": [
+        [ "QuickCheck", "2.14.2" ],
+        [ "hspec-core", "2.10.6" ],
+        [ "hspec-discover", "2.10.6" ],
+        [ "hspec-expectations", "0.8.2" ]
+      ]
+    },
+    "hspec-core": {
+      "2.10.6": [
+        [ "HUnit", "1.6.2.0" ],
+        [ "QuickCheck", "2.14.2" ],
+        [ "ansi-terminal", "0.11.3" ],
+        [ "call-stack", "0.4.0" ],
+        [ "hspec-expectations", "0.8.2" ],
+        [ "quickcheck-io", "0.2.0" ],
+        [ "random", "1.2.1.1" ],
+        [ "setenv", "0.1.1.3" ],
+        [ "tf-random", "0.5" ]
+      ]
+    },
+    "hspec-discover": {
+      "2.10.6": [
+        [ "hspec-discover", "2.10.6" ]
+      ]
+    },
+    "hspec-expectations": {
+      "0.8.2": [
+        [ "HUnit", "1.6.2.0" ],
+        [ "call-stack", "0.4.0" ]
+      ]
+    },
+    "memory": {
+      "0.18.0": [
+        [ "basement", "0.0.15" ]
+      ]
+    },
+    "quickcheck-io": {
+      "0.2.0": [
+        [ "HUnit", "1.6.2.0" ],
+        [ "QuickCheck", "2.14.2" ]
+      ]
+    },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "securemem": {
+      "0.1.10": [
+        [ "byteable", "0.1.1" ],
+        [ "memory", "0.18.0" ]
+      ]
+    },
+    "skein": {
+      "1.0.9.4": [
+        [ "cereal", "0.5.8.3" ],
+        [ "crypto-api", "0.13.3" ],
+        [ "tagged", "0.8.6.1" ],
+        [ "hsc2hs", "0.68.8" ]
+      ]
+    },
+    "tf-random": {
+      "0.5": [
+        [ "primitive", "0.7.4.0" ],
+        [ "random", "1.2.1.1" ]
+      ]
+    },
+    "vector": {
+      "0.13.0.0": [
+        [ "primitive", "0.7.4.0" ],
+        [ "vector-stream", "0.1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "HUnit": {
+      "1.6.2.0": {
+        "hash": "sha256:b0b7538871ffc058486fc00740886d2f3172f8fa6869936bfe83a5e10bd744ab",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/HUnit-1.6.2.0.tar.gz"
+      }
+    },
+    "QuickCheck": {
+      "2.14.2": {
+        "hash": "sha256:d87b6c85696b601175274361fa62217894401e401e150c3c5d4013ac53cd36f3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/QuickCheck-2.14.2.tar.gz"
+      }
+    },
+    "ansi-terminal": {
+      "0.11.3": {
+        "hash": "sha256:f4d563ecf71fb1d304bcdcad478d97efd9f61f6d9d4797a5d56e7722a92a9e6b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.3.tar.gz"
+      }
+    },
+    "base64-bytestring": {
+      "1.2.1.0": {
+        "hash": "sha256:fbf8ed30edde271eb605352021431d8f1b055f95a56af31fe2eacf6bdfdc49c9",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base64-bytestring-1.2.1.0.tar.gz"
+      }
+    },
+    "basement": {
+      "0.0.15": {
+        "hash": "sha256:56c2afb6754e8d16a627331a8a5d473b3d26fd04ba5c9e0fb3475f595b915db4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/basement-0.0.15.tar.gz"
+      }
+    },
+    "byteable": {
+      "0.1.1": {
+        "hash": "sha256:243b34a1b5b64b39e39fe58f75c18f6cad5b668b10cabcd86816cbde27783fe2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/byteable-0.1.1.tar.gz"
+      }
+    },
+    "call-stack": {
+      "0.4.0": {
+        "hash": "sha256:430bcf8a3404f7e55319573c0b807b1356946f0c8f289bb3d9afb279c636b87b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/call-stack-0.4.0.tar.gz"
+      }
+    },
+    "cereal": {
+      "0.5.8.3": {
+        "hash": "sha256:99905220661b26e5bd91130bd9772554938608a5b1d717240a6eb331121e0f6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cereal-0.5.8.3.tar.gz"
+      }
+    },
+    "cipher-aes": {
+      "0.2.11": {
+        "hash": "sha256:d3b171895698c73da24d7ce97543f725d26637f038de670c0fd4012ca7f95015",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cipher-aes-0.2.11.tar.gz"
+      }
+    },
+    "clientsession": {
+      "0.9.1.2": {
+        "hash": "sha256:5915adc4de26d2a8b03f1a445bac0b0f5d10a5b0380a4eed71b79a20a727d068",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/clientsession-0.9.1.2/clientsession-0.9.1.2.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "cprng-aes": {
+      "0.6.1": {
+        "hash": "sha256:64592a01de8c6683c5e29f538dceee918887ffe211d87214a2e38559d72c21f3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cprng-aes-0.6.1.tar.gz"
+      }
+    },
+    "crypto-api": {
+      "0.13.3": {
+        "hash": "sha256:298a9ea7ce97c8ccf4bfe46d4864092c3a007a56bede73560070db3bf1ac7aa5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/crypto-api-0.13.3.tar.gz"
+      }
+    },
+    "crypto-cipher-types": {
+      "0.0.9": {
+        "hash": "sha256:2073f6b70df7916aebe2da49d224497183662d56d19da87b76f70039430c0a0f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/crypto-cipher-types-0.0.9.tar.gz"
+      }
+    },
+    "crypto-random": {
+      "0.0.9": {
+        "hash": "sha256:170a7a18441379c2d1c19b502ee5919026a19adc6e78641cd4fb40b1d69a6904",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/crypto-random-0.0.9.tar.gz"
+      }
+    },
+    "entropy": {
+      "0.4.1.10": {
+        "hash": "sha256:85ac1d53f1d1c095aedd23fdb20c8e3ada04a7fd8aa6d7e6445ae6a59a277de5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/entropy-0.4.1.10.tar.gz"
+      }
+    },
+    "hsc2hs": {
+      "0.68.8": {
+        "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.8.tar.gz"
+      }
+    },
+    "hspec": {
+      "2.10.6": {
+        "hash": "sha256:1fefa8e38c2aa4918609f860b3c44a80b328fa66abadae04705d989455983e89",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hspec-2.10.6.tar.gz"
+      }
+    },
+    "hspec-core": {
+      "2.10.6": {
+        "hash": "sha256:95efece0ef1e3874711ea6aa378b54dfd06e4b9d757cf8027121c9d90715e0b3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hspec-core-2.10.6.tar.gz"
+      }
+    },
+    "hspec-discover": {
+      "2.10.6": {
+        "hash": "sha256:3b1c7d92330ce9a6fcf636a33ed75137df25558e954cc13779cf32414be9fe74",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hspec-discover-2.10.6.tar.gz"
+      }
+    },
+    "hspec-expectations": {
+      "0.8.2": {
+        "hash": "sha256:819607ea1faf35ce5be34be61c6f50f3389ea43892d56fb28c57a9f5d54fb4ef",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hspec-expectations-0.8.2.tar.gz"
+      }
+    },
+    "memory": {
+      "0.18.0": {
+        "hash": "sha256:fd4eb6f638e24b81b4e6cdd68772a531726f2f67686c8969d3407d82f7862e3e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/memory-0.18.0.tar.gz"
+      }
+    },
+    "primitive": {
+      "0.7.4.0": {
+        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+      }
+    },
+    "quickcheck-io": {
+      "0.2.0": {
+        "hash": "sha256:fb779119d79fe08ff4d502fb6869a70c9a8d5fd8ae0959f605c3c937efd96422",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/quickcheck-io-0.2.0.tar.gz"
+      }
+    },
+    "random": {
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
+      }
+    },
+    "securemem": {
+      "0.1.10": {
+        "hash": "sha256:32895a4748508da58207b4867266601af6259b7109af80bbf5d2e9e598e016a6",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/securemem-0.1.10.tar.gz"
+      }
+    },
+    "setenv": {
+      "0.1.1.3": {
+        "hash": "sha256:e358df39afc03d5a39e2ec650652d845c85c80cc98fe331654deafb4767ecb32",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/setenv-0.1.1.3.tar.gz"
+      }
+    },
+    "skein": {
+      "1.0.9.4": {
+        "hash": "sha256:f882ca0cc5ed336ef898fb3c89579e392900259296b2320edf968b9fc16cb8c9",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/skein-1.0.9.4.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
+      }
+    },
+    "tagged": {
+      "0.8.6.1": {
+        "hash": "sha256:f5e0fcf95f0bb4aa63f428f2c01955a41ea1a42cfcf39145ed631f59a9616c02",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tagged-0.8.6.1.tar.gz"
+      }
+    },
+    "tf-random": {
+      "0.5": {
+        "hash": "sha256:2e30cec027b313c9e1794d326635d8fc5f79b6bf6e7580ab4b00186dadc88510",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tf-random-0.5.tar.gz"
+      }
+    },
+    "vector": {
+      "0.13.0.0": {
+        "hash": "sha256:c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-0.13.0.0.tar.gz"
+      }
+    },
+    "vector-stream": {
+      "0.1.0.0": {
+        "hash": "sha256:a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0.tar.gz"
+      }
+    }
+  }
+}

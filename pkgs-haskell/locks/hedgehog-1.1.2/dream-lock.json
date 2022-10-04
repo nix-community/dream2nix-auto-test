@@ -1,0 +1,390 @@
+{
+  "_generic": {
+    "defaultPackage": "hedgehog",
+    "location": "",
+    "packages": {
+      "hedgehog": "1.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "ansi-terminal#0.11.3": "cc499d5f4c09a7213cd752ee69dbb5a5b8f3d1c777274e609eea4bca5c68ac8c",
+      "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
+      "barbies#2.0.3.1": "d3f475f168c4db54dbe0c8a489129e6a91412f465b5bb01fd72d7b4e6e8c903f",
+      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "concurrent-output#1.10.16": "5d9787082657fed0e3f232796402ff2cd871ea3e6405ad9eb4317635e67345ae",
+      "constraints#0.13.4": "2133e56e14e130a1a40b0737deeaf6859402279720210531723bc19b898c5544",
+      "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
+      "erf#2.0.0.0": "11c5d3747d17b589009cbe9656ca792e4b5b2560d4aa44f6f1e80044794b1a8b",
+      "happy#1.20.0": "5d47dc221a9fe964e36aaaa2e1ab7e8f085a225fd6528d6eff310b92360bbe99",
+      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "haskell-lexer#1.1": "9e0a7633f6bdb59004c6f3144ebfad1edb9e440fc6a94215c3a1d11bcd8656ef",
+      "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
+      "lifted-async#0.10.2.3": "f2d8686be29850211e303c204eb9b9e9a1b57abc6a46e8f113c3afd7d6572ce0",
+      "lifted-base#0.2.3.12": "e94ad0692c9c5d85c373e508f23654f2da8ac8c3e475c2b65ffbc04fb165ad69",
+      "mmorph#1.2.0": "df9b213ec18f811cb3137b478d148f3f1680ee43f841cb775835fa282fdb0295",
+      "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
+      "pretty-show#1.10": "bfef8da0ac4db4fc7f41edfec9e9a701ac206418d70702bff1e40f20d6a2b1f1",
+      "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
+      "resourcet#1.2.6": "0c55be13d24c1e9c1e6d82327ac039a0bf41469c456e3ae678efa8a9beda3a74",
+      "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
+      "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
+      "terminal-size#0.3.3": "bd5f02333982bc8d6017db257b2a0b91870a295b4a37142a0c0525d8f533a48f",
+      "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
+      "type-equality#1": "7cd952c3ebf0da36ee05544e6209a850b22205fa8b749e17f4bacc5a8fe15269",
+      "unliftio-core#0.2.0.1": "f9abcdd3f3d28e4840563efb7b8760d2de9b5707bcd6f53a87f6a0d77bb5a9f7",
+      "wl-pprint-annotated#0.1.0.1": "e7c27191da90d1db047f74dc3d4ca73e5696dfe19e358b014752658da37e3fe2"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "hedgehog": {
+      "1.1.2": [
+        [ "hedgehog", "1.1.2" ]
+      ]
+    },
+    "pretty-show": {
+      "1.10": [
+        [ "pretty-show", "1.10" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "ansi-terminal": {
+      "0.11.3": [
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "async": {
+      "2.2.4": [
+        [ "hashable", "1.4.1.0" ]
+      ]
+    },
+    "barbies": {
+      "2.0.3.1": [
+        [ "distributive", "0.6.2.1" ]
+      ]
+    },
+    "concurrent-output": {
+      "1.10.16": [
+        [ "ansi-terminal", "0.11.3" ],
+        [ "async", "2.2.4" ],
+        [ "terminal-size", "0.3.3" ]
+      ]
+    },
+    "constraints": {
+      "0.13.4": [
+        [ "hashable", "1.4.1.0" ],
+        [ "transformers-compat", "0.7.2" ],
+        [ "type-equality", "1" ]
+      ]
+    },
+    "distributive": {
+      "0.6.2.1": [
+        [ "base-orphans", "0.8.7" ],
+        [ "tagged", "0.8.6.1" ]
+      ]
+    },
+    "hashable": {
+      "1.4.1.0": [
+        [ "base-orphans", "0.8.7" ]
+      ]
+    },
+    "hedgehog": {
+      "1.1.2": [
+        [ "ansi-terminal", "0.11.3" ],
+        [ "async", "2.2.4" ],
+        [ "barbies", "2.0.3.1" ],
+        [ "concurrent-output", "1.10.16" ],
+        [ "erf", "2.0.0.0" ],
+        [ "lifted-async", "0.10.2.3" ],
+        [ "mmorph", "1.2.0" ],
+        [ "monad-control", "1.0.3.1" ],
+        [ "pretty-show", "1.10" ],
+        [ "primitive", "0.7.4.0" ],
+        [ "random", "1.2.1.1" ],
+        [ "resourcet", "1.2.6" ],
+        [ "transformers-base", "0.4.6" ],
+        [ "wl-pprint-annotated", "0.1.0.1" ],
+        [ "hedgehog", "1.1.2" ],
+        [ "mmorph", "1.2.0" ],
+        [ "pretty-show", "1.10" ]
+      ]
+    },
+    "lifted-async": {
+      "0.10.2.3": [
+        [ "async", "2.2.4" ],
+        [ "constraints", "0.13.4" ],
+        [ "lifted-base", "0.2.3.12" ],
+        [ "monad-control", "1.0.3.1" ],
+        [ "transformers-base", "0.4.6" ]
+      ]
+    },
+    "lifted-base": {
+      "0.2.3.12": [
+        [ "monad-control", "1.0.3.1" ],
+        [ "transformers-base", "0.4.6" ]
+      ]
+    },
+    "mmorph": {
+      "1.2.0": [
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "monad-control": {
+      "1.0.3.1": [
+        [ "transformers-base", "0.4.6" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "pretty-show": {
+      "1.10": [
+        [ "haskell-lexer", "1.1" ],
+        [ "happy", "1.20.0" ],
+        [ "pretty-show", "1.10" ]
+      ]
+    },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "resourcet": {
+      "1.2.6": [
+        [ "primitive", "0.7.4.0" ],
+        [ "unliftio-core", "0.2.0.1" ]
+      ]
+    },
+    "terminal-size": {
+      "0.3.3": [
+        [ "hsc2hs", "0.68.8" ]
+      ]
+    },
+    "transformers-base": {
+      "0.4.6": [
+        [ "base-orphans", "0.8.7" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-terminal": {
+      "0.11.3": {
+        "hash": "sha256:f4d563ecf71fb1d304bcdcad478d97efd9f61f6d9d4797a5d56e7722a92a9e6b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.3.tar.gz"
+      }
+    },
+    "async": {
+      "2.2.4": {
+        "hash": "sha256:484df85be0e76c4fed9376451e48e1d0c6e97952ce79735b72d54297e7e0a725",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/async-2.2.4.tar.gz"
+      }
+    },
+    "barbies": {
+      "2.0.3.1": {
+        "hash": "sha256:a13c1fd05e3e006bd0874d77e1930c5225765e83fa9925b2c5c1df314559df3d",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/barbies-2.0.3.1.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.8.7": {
+        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "concurrent-output": {
+      "1.10.16": {
+        "hash": "sha256:b0aa45d8707f504623ed8abc67873bc139fefdb3e391e054c6adad82e7029350",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/concurrent-output-1.10.16.tar.gz"
+      }
+    },
+    "constraints": {
+      "0.13.4": {
+        "hash": "sha256:4186946df4b88c5d7cae3a42aa426f30fd5d249835ea1d290e139cebbf464434",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/constraints-0.13.4.tar.gz"
+      }
+    },
+    "distributive": {
+      "0.6.2.1": {
+        "hash": "sha256:d7351392e078f58caa46630a4b9c643e1e2e9dddee45848c5c8358e7b1316b91",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/distributive-0.6.2.1.tar.gz"
+      }
+    },
+    "erf": {
+      "2.0.0.0": {
+        "hash": "sha256:24f0b79c7e1d25cb2cd44c2258d7a464bf6db8079775b50b60b54a254616b337",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/erf-2.0.0.0.tar.gz"
+      }
+    },
+    "happy": {
+      "1.20.0": {
+        "hash": "sha256:3b1d3a8f93a2723b554d9f07b2cd136be1a7b2fcab1855b12b7aab5cbac8868c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/happy-1.20.0.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.1.0": {
+        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+      }
+    },
+    "haskell-lexer": {
+      "1.1": {
+        "hash": "sha256:313a15cc643322c8badd148867ce25ca1ffc191df9e7eeec5b10bc08c4b563d5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/haskell-lexer-1.1.tar.gz"
+      }
+    },
+    "hedgehog": {
+      "1.1.2": {
+        "hash": "sha256:e1c95456b3ddf815c4b863c8f8229e82548887d1835fdae4fc17433361397335",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hedgehog-1.1.2/hedgehog-1.1.2.tar.gz"
+      }
+    },
+    "hsc2hs": {
+      "0.68.8": {
+        "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.8.tar.gz"
+      }
+    },
+    "lifted-async": {
+      "0.10.2.3": {
+        "hash": "sha256:51ed64e9f5c9c585dc5897288977fca759eb2bdb22aae91f2ac37d962e3309cf",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/lifted-async-0.10.2.3.tar.gz"
+      }
+    },
+    "lifted-base": {
+      "0.2.3.12": {
+        "hash": "sha256:c134a95f56750aae806e38957bb03c59627cda16034af9e00a02b699474317c5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/lifted-base-0.2.3.12.tar.gz"
+      }
+    },
+    "mmorph": {
+      "1.2.0": {
+        "hash": "sha256:61338058eb676b466a462ca45d59f436a77a3bd6b816e4268c6d88522b6a4280",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/mmorph-1.2.0.tar.gz"
+      }
+    },
+    "monad-control": {
+      "1.0.3.1": {
+        "hash": "sha256:ae0baea04d99375ef788140367179994a7178d400a8ce0d9026846546772713c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/monad-control-1.0.3.1.tar.gz"
+      }
+    },
+    "pretty-show": {
+      "1.10": {
+        "hash": "sha256:307f9086e0b063d439dc4f513e36a145e8a57f23de448aefae2a6c00f6da6fd2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/pretty-show-1.10.tar.gz"
+      }
+    },
+    "primitive": {
+      "0.7.4.0": {
+        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+      }
+    },
+    "random": {
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
+      }
+    },
+    "resourcet": {
+      "1.2.6": {
+        "hash": "sha256:f83b35b2106854750ef5f1c34695ea8b7bba6e0572cedf9f2993c5acfdb5fd34",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/resourcet-1.2.6.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
+      }
+    },
+    "tagged": {
+      "0.8.6.1": {
+        "hash": "sha256:f5e0fcf95f0bb4aa63f428f2c01955a41ea1a42cfcf39145ed631f59a9616c02",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tagged-0.8.6.1.tar.gz"
+      }
+    },
+    "terminal-size": {
+      "0.3.3": {
+        "hash": "sha256:8c174c8fa7200be2caffd6d25f789fd3c73f4b7b02989f332a42d7901fca60c3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/terminal-size-0.3.3.tar.gz"
+      }
+    },
+    "transformers-base": {
+      "0.4.6": {
+        "hash": "sha256:323bf8689eb691b122661cffa41a25e00fea7a768433fe2dde35d3da7d32cf90",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-base-0.4.6.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "type-equality": {
+      "1": {
+        "hash": "sha256:4728b502a211454ef682a10d7a3e817c22d06ba509df114bb267ef9d43a08ce8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/type-equality-1.tar.gz"
+      }
+    },
+    "unliftio-core": {
+      "0.2.0.1": {
+        "hash": "sha256:919f0d1297ea2f5373118553c1df2a9405d8b9e31a8307e829da67d4953c299a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unliftio-core-0.2.0.1.tar.gz"
+      }
+    },
+    "wl-pprint-annotated": {
+      "0.1.0.1": {
+        "hash": "sha256:6b662b244b2e318a2923dc7057d707369a29ea4a0e721b4710eac7239cc727af",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/wl-pprint-annotated-0.1.0.1.tar.gz"
+      }
+    }
+  }
+}

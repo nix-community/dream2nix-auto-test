@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "ansi-terminal",
+    "location": "",
+    "packages": {
+      "ansi-terminal": "0.11.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi-terminal": {
+      "0.11.3": [
+        [ "colour", "2.3.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-terminal": {
+      "0.11.3": {
+        "hash": "sha256:f4d563ecf71fb1d304bcdcad478d97efd9f61f6d9d4797a5d56e7722a92a9e6b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.3/ansi-terminal-0.11.3.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    }
+  }
+}

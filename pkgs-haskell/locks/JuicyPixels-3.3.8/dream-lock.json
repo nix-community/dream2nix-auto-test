@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "JuicyPixels",
+    "location": "",
+    "packages": {
+      "JuicyPixels": "3.3.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
+      "vector#0.13.0.0": "54528e95501742b99462cc543891f21177e7db34d960ce8e3cbb25afb16a9c89",
+      "vector-stream#0.1.0.0": "09b0f8dc4e51936b9d6b04791f0aa03f7c9759b5fb7140eac8a9461cda1e55a3",
+      "zlib#0.6.3.0": "8214a9d37580f17f8b675109578a5dbe6853559eef156e34dc2233f1123ace33"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "JuicyPixels": {
+      "3.3.8": [
+        [ "primitive", "0.7.4.0" ],
+        [ "vector", "0.13.0.0" ],
+        [ "zlib", "0.6.3.0" ]
+      ]
+    },
+    "vector": {
+      "0.13.0.0": [
+        [ "primitive", "0.7.4.0" ],
+        [ "vector-stream", "0.1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "JuicyPixels": {
+      "3.3.8": {
+        "hash": "sha256:d3a0f6ca3515a1b3d526cbf79f2e0b0aab57f208ab216f9c26437bbcd86fb63e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/JuicyPixels-3.3.8/JuicyPixels-3.3.8.tar.gz"
+      }
+    },
+    "primitive": {
+      "0.7.4.0": {
+        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+      }
+    },
+    "vector": {
+      "0.13.0.0": {
+        "hash": "sha256:c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-0.13.0.0.tar.gz"
+      }
+    },
+    "vector-stream": {
+      "0.1.0.0": {
+        "hash": "sha256:a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0.tar.gz"
+      }
+    },
+    "zlib": {
+      "0.6.3.0": {
+        "hash": "sha256:9eaa989ad4534438b5beb51c1d3a4c8f6a088fdff0b259a5394fbf39aaee04da",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/zlib-0.6.3.0.tar.gz"
+      }
+    }
+  }
+}

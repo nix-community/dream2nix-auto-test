@@ -1,0 +1,94 @@
+{
+  "_generic": {
+    "defaultPackage": "hxt",
+    "location": "",
+    "packages": {
+      "hxt": "9.3.1.22"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "hxt-charproperties#9.5.0.0": "99802289a01d3efbb0f088b9f5072a12a83730fd7f955dc5158f34a5b57f6ef0",
+      "hxt-regex-xmlschema#9.2.0.7": "26f1a403eaca48e7704e97aa1e0b2629fcbbeff06e232790668e28c0af582b7e",
+      "hxt-unicode#9.0.2.4": "a9266888ae2bb81a59a59c07dfb78df5f11dc9c4866b48d7ae1b5d712567187c",
+      "network-uri#2.6.4.1": "a4765164ed0a2d1668446eb2e03460ce98645fbf083598c690846af79b7de10d",
+      "th-compat#0.1.4": "6ca77c4e80b4e4109e30549c269631a9cc295c8fc2431ce4123972a5f80f7bfc"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hxt": {
+      "9.3.1.22": [
+        [ "hxt-charproperties", "9.5.0.0" ],
+        [ "hxt-regex-xmlschema", "9.2.0.7" ],
+        [ "hxt-unicode", "9.0.2.4" ],
+        [ "network-uri", "2.6.4.1" ]
+      ]
+    },
+    "hxt-regex-xmlschema": {
+      "9.2.0.7": [
+        [ "hxt-charproperties", "9.5.0.0" ]
+      ]
+    },
+    "hxt-unicode": {
+      "9.0.2.4": [
+        [ "hxt-charproperties", "9.5.0.0" ]
+      ]
+    },
+    "network-uri": {
+      "2.6.4.1": [
+        [ "th-compat", "0.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "hxt": {
+      "9.3.1.22": {
+        "hash": "sha256:ef602fe674225527750574dd555dbdf402ab77d054af75d41ca21b42dbb23ad9",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hxt-9.3.1.22/hxt-9.3.1.22.tar.gz"
+      }
+    },
+    "hxt-charproperties": {
+      "9.5.0.0": {
+        "hash": "sha256:28836949512a2aedb63b2a02e0b05a4f519dc3511cfd259804a6e9d59a44a94a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hxt-charproperties-9.5.0.0.tar.gz"
+      }
+    },
+    "hxt-regex-xmlschema": {
+      "9.2.0.7": {
+        "hash": "sha256:b9b6bcfc7d8c5e9a0be87dc56b13a237a51ca2c19c6665a51378a9538b71d97a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hxt-regex-xmlschema-9.2.0.7.tar.gz"
+      }
+    },
+    "hxt-unicode": {
+      "9.0.2.4": {
+        "hash": "sha256:7b5823f3bd94b57022d9d84ab3555303653c5121eaaef2ee1fd4918f3c434466",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hxt-unicode-9.0.2.4.tar.gz"
+      }
+    },
+    "network-uri": {
+      "2.6.4.1": {
+        "hash": "sha256:57856db93608a4d419f681b881c9b8d4448800d5a687587dc37e8a9e0b223584",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/network-uri-2.6.4.1.tar.gz"
+      }
+    },
+    "th-compat": {
+      "0.1.4": {
+        "hash": "sha256:d8f97ac14ab47b6b8a7b0fdb4ff95426322ec56badd01652ac15da4a44d4bab8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-compat-0.1.4.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "hslogger",
+    "location": "",
+    "packages": {
+      "hslogger": "1.2.12"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
+      "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
+      "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hslogger": {
+      "1.2.12": [
+        [ "network", "3.1.2.7" ],
+        [ "old-locale", "1.0.0.7" ]
+      ]
+    },
+    "network": {
+      "3.1.2.7": [
+        [ "hsc2hs", "0.68.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "hsc2hs": {
+      "0.68.8": {
+        "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.8.tar.gz"
+      }
+    },
+    "hslogger": {
+      "1.2.12": {
+        "hash": "sha256:f97a4c89d0921f237999de5d44950127dbe8baa177960ccccbfb79cccfd46c7a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hslogger-1.2.12/hslogger-1.2.12.tar.gz"
+      }
+    },
+    "network": {
+      "3.1.2.7": {
+        "hash": "sha256:7f7620fef1a1af3d3d6747f510e73223a5c600e7d7fd9ace073d1222bdc63d85",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/network-3.1.2.7.tar.gz"
+      }
+    },
+    "old-locale": {
+      "1.0.0.7": {
+        "hash": "sha256:dbaf8bf6b888fb98845705079296a23c3f40ee2f449df7312f7f7f1de18d7b50",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/old-locale-1.0.0.7.tar.gz"
+      }
+    }
+  }
+}

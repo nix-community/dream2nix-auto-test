@@ -1,0 +1,151 @@
+{
+  "_generic": {
+    "defaultPackage": "tasty-hunit",
+    "location": "",
+    "packages": {
+      "tasty-hunit": "0.10.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "ansi-terminal#0.11.3": "cc499d5f4c09a7213cd752ee69dbb5a5b8f3d1c777274e609eea4bca5c68ac8c",
+      "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
+      "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
+      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
+      "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
+      "tasty#1.4.2.3": "5c861bf8954d9e775769d3cfb13f55922839de3d1243dd4418505fdd0e05619a",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
+      "unbounded-delays#0.1.1.1": "d7a2a49f15bdff2a8bdbd76f9d204580ea4be5a9def500c6371d51d8111cbcbe",
+      "wcwidth#0.0.2": "77531eb6683c505c22ab3fa11bbc43d3ce1e7dac21401d4d5a19677d348bb5f3"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi-terminal": {
+      "0.11.3": [
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": [
+        [ "ansi-terminal", "0.11.3" ]
+      ]
+    },
+    "optparse-applicative": {
+      "0.17.0.0": [
+        [ "ansi-wl-pprint", "0.6.9" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "tasty": {
+      "1.4.2.3": [
+        [ "ansi-terminal", "0.11.3" ],
+        [ "clock", "0.8.3" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "tagged", "0.8.6.1" ],
+        [ "unbounded-delays", "0.1.1.1" ],
+        [ "wcwidth", "0.0.2" ]
+      ]
+    },
+    "tasty-hunit": {
+      "0.10.0.1": [
+        [ "call-stack", "0.4.0" ],
+        [ "tasty", "1.4.2.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-terminal": {
+      "0.11.3": {
+        "hash": "sha256:f4d563ecf71fb1d304bcdcad478d97efd9f61f6d9d4797a5d56e7722a92a9e6b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.3.tar.gz"
+      }
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": {
+        "hash": "sha256:a7b2e8e7cd3f02f2954e8b17dc60a0ccd889f49e2068ebb15abfa1d42f7a4eac",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-wl-pprint-0.6.9.tar.gz"
+      }
+    },
+    "call-stack": {
+      "0.4.0": {
+        "hash": "sha256:430bcf8a3404f7e55319573c0b807b1356946f0c8f289bb3d9afb279c636b87b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/call-stack-0.4.0.tar.gz"
+      }
+    },
+    "clock": {
+      "0.8.3": {
+        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "optparse-applicative": {
+      "0.17.0.0": {
+        "hash": "sha256:825b2e4d3dafe0ba64a073366a88062b3712b81f851793d9ce2327bee70af724",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.0.0.tar.gz"
+      }
+    },
+    "tagged": {
+      "0.8.6.1": {
+        "hash": "sha256:f5e0fcf95f0bb4aa63f428f2c01955a41ea1a42cfcf39145ed631f59a9616c02",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tagged-0.8.6.1.tar.gz"
+      }
+    },
+    "tasty": {
+      "1.4.2.3": {
+        "hash": "sha256:c914a7a9a28dfc33dc5a112c349f2e69f536cb66d2b2b44898a3411cbdcad0c6",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-1.4.2.3.tar.gz"
+      }
+    },
+    "tasty-hunit": {
+      "0.10.0.1": {
+        "hash": "sha256:8f903bef276ef503e4ef8b66a1e201c224588e426bc76f7581480f66d47b7048",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-hunit-0.10.0.1/tasty-hunit-0.10.0.1.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "unbounded-delays": {
+      "0.1.1.1": {
+        "hash": "sha256:59ad7e53bfe32ffbf0e703b31490d41d14c70e4745ed49e8adf592ed68dd6185",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unbounded-delays-0.1.1.1.tar.gz"
+      }
+    },
+    "wcwidth": {
+      "0.0.2": {
+        "hash": "sha256:ffc68736a3bbde3e8157710f29f4a99c0ca593c41194579c54a92c62f6c12ed8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/wcwidth-0.0.2.tar.gz"
+      }
+    }
+  }
+}

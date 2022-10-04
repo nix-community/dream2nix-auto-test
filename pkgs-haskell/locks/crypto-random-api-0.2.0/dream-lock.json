@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "crypto-random-api",
+    "location": "",
+    "packages": {
+      "crypto-random-api": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "entropy#0.4.1.10": "219a10d58386831dd742982e85841c16822f5c219b7cc6e5afff86f956c5b935"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "crypto-random-api": {
+      "0.2.0": [
+        [ "entropy", "0.4.1.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "crypto-random-api": {
+      "0.2.0": {
+        "hash": "sha256:56e9777061bd9ce553683d097ba3a11fdc371724060b62ca103f1f291f9f897c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/crypto-random-api-0.2.0/crypto-random-api-0.2.0.tar.gz"
+      }
+    },
+    "entropy": {
+      "0.4.1.10": {
+        "hash": "sha256:85ac1d53f1d1c095aedd23fdb20c8e3ada04a7fd8aa6d7e6445ae6a59a277de5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/entropy-0.4.1.10.tar.gz"
+      }
+    }
+  }
+}

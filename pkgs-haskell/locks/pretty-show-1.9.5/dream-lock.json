@@ -1,0 +1,60 @@
+{
+  "_generic": {
+    "defaultPackage": "pretty-show",
+    "location": "",
+    "packages": {
+      "pretty-show": "1.9.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "happy#1.20.0": "5d47dc221a9fe964e36aaaa2e1ab7e8f085a225fd6528d6eff310b92360bbe99",
+      "haskell-lexer#1.1": "9e0a7633f6bdb59004c6f3144ebfad1edb9e440fc6a94215c3a1d11bcd8656ef"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "pretty-show": {
+      "1.9.5": [
+        [ "pretty-show", "1.9.5" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "pretty-show": {
+      "1.9.5": [
+        [ "haskell-lexer", "1.1" ],
+        [ "happy", "1.20.0" ],
+        [ "pretty-show", "1.9.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "happy": {
+      "1.20.0": {
+        "hash": "sha256:3b1d3a8f93a2723b554d9f07b2cd136be1a7b2fcab1855b12b7aab5cbac8868c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/happy-1.20.0.tar.gz"
+      }
+    },
+    "haskell-lexer": {
+      "1.1": {
+        "hash": "sha256:313a15cc643322c8badd148867ce25ca1ffc191df9e7eeec5b10bc08c4b563d5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/haskell-lexer-1.1.tar.gz"
+      }
+    },
+    "pretty-show": {
+      "1.9.5": {
+        "hash": "sha256:b095bebb79951d2e25a543a591844fb638165672d7b95d325844611297ba423f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/pretty-show-1.9.5/pretty-show-1.9.5.tar.gz"
+      }
+    }
+  }
+}
