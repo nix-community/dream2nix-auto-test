@@ -1,0 +1,156 @@
+{
+  "_generic": {
+    "defaultPackage": "ember-cli-inject-live-reload",
+    "location": "",
+    "packages": {
+      "ember-cli-inject-live-reload": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ember-cli-inject-live-reload": {
+      "2.1.0": [
+        [ "clean-base-url", "1.0.0" ],
+        [ "ember-cli-version-checker", "3.1.3" ]
+      ],
+      "unknown": [
+        [ "ember-cli-inject-live-reload", "2.1.0" ]
+      ]
+    },
+    "ember-cli-version-checker": {
+      "3.1.3": [
+        [ "resolve-package-path", "1.2.7" ],
+        [ "semver", "5.7.1" ]
+      ]
+    },
+    "has": {
+      "1.0.3": [
+        [ "function-bind", "1.1.1" ]
+      ]
+    },
+    "is-core-module": {
+      "2.10.0": [
+        [ "has", "1.0.3" ]
+      ]
+    },
+    "path-root": {
+      "0.1.1": [
+        [ "path-root-regex", "0.1.2" ]
+      ]
+    },
+    "resolve": {
+      "1.22.1": [
+        [ "is-core-module", "2.10.0" ],
+        [ "path-parse", "1.0.7" ],
+        [ "supports-preserve-symlinks-flag", "1.0.0" ]
+      ]
+    },
+    "resolve-package-path": {
+      "1.2.7": [
+        [ "path-root", "0.1.1" ],
+        [ "resolve", "1.22.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "clean-base-url": {
+      "1.0.0": {
+        "hash": "sha512-9q6ZvUAhbKOSRFY7A/irCQ/rF0KIpa3uXpx6izm8+fp7b2H4hLeUJ+F1YYk9+gDQ/X8Q0MEyYs+tG3cht//HTg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clean-base-url/-/clean-base-url-1.0.0.tgz"
+      }
+    },
+    "ember-cli-inject-live-reload": {
+      "2.1.0": {
+        "hash": "sha512-YV5wYRD5PJHmxaxaJt18u6LE6Y+wo455BnmcpN+hGNlChy2piM9/GMvYgTAz/8Vin8RJ5KekqP/w/NEaRndc/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ember-cli-inject-live-reload/-/ember-cli-inject-live-reload-2.1.0.tgz"
+      }
+    },
+    "ember-cli-version-checker": {
+      "3.1.3": {
+        "hash": "sha512-PZNSvpzwWgv68hcXxyjREpj3WWb81A7rtYNQq1lLEgrWIchF8ApKJjWP3NBpHjaatwILkZAV8klair5WFlXAKg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ember-cli-version-checker/-/ember-cli-version-checker-3.1.3.tgz"
+      }
+    },
+    "function-bind": {
+      "1.1.1": {
+        "hash": "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
+      }
+    },
+    "has": {
+      "1.0.3": {
+        "hash": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
+      }
+    },
+    "is-core-module": {
+      "2.10.0": {
+        "hash": "sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz"
+      }
+    },
+    "path-parse": {
+      "1.0.7": {
+        "hash": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
+      }
+    },
+    "path-root": {
+      "0.1.1": {
+        "hash": "sha512-QLcPegTHF11axjfojBIoDygmS2E3Lf+8+jI6wOVmNVenrKSo3mFdSGiIgdSHenczw3wPtlVMQaFVwGmM7BJdtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-root/-/path-root-0.1.1.tgz"
+      }
+    },
+    "path-root-regex": {
+      "0.1.2": {
+        "hash": "sha512-4GlJ6rZDhQZFE0DPVKh0e9jmZ5egZfxTkp7bcRDuPlJXbAwhxcl2dINPUAsjLdejqaLsCeg8axcLjIbvBjN4pQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-root-regex/-/path-root-regex-0.1.2.tgz"
+      }
+    },
+    "resolve": {
+      "1.22.1": {
+        "hash": "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz"
+      }
+    },
+    "resolve-package-path": {
+      "1.2.7": {
+        "hash": "sha512-fVEKHGeK85bGbVFuwO9o1aU0n3vqQGrezPc51JGu9UTXpFQfWq5qCeKxyaRUSvephs+06c5j5rPq/dzHGEo8+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/resolve-package-path/-/resolve-package-path-1.2.7.tgz"
+      }
+    },
+    "semver": {
+      "5.7.1": {
+        "hash": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
+      }
+    },
+    "supports-preserve-symlinks-flag": {
+      "1.0.0": {
+        "hash": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
+      }
+    }
+  }
+}

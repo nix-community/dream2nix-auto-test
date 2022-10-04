@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "karma-sourcemap-loader",
+    "location": "",
+    "packages": {
+      "karma-sourcemap-loader": "0.3.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "karma-sourcemap-loader": {
+      "0.3.8": [
+        [ "graceful-fs", "4.2.10" ]
+      ],
+      "unknown": [
+        [ "karma-sourcemap-loader", "0.3.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "karma-sourcemap-loader": {
+      "0.3.8": {
+        "hash": "sha512-zorxyAakYZuBcHRJE+vbrK2o2JXLFWK8VVjiT/6P+ltLBUGUvqTEkUiQ119MGdOrK7mrmxXHZF1/pfT6GgIZ6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/karma-sourcemap-loader/-/karma-sourcemap-loader-0.3.8.tgz"
+      }
+    }
+  }
+}

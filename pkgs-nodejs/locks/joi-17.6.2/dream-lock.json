@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "joi",
+    "location": "",
+    "packages": {
+      "joi": "17.6.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@hapi/topo": {
+      "5.1.0": [
+        [ "@hapi/hoek", "9.3.0" ]
+      ]
+    },
+    "@sideway/address": {
+      "4.1.4": [
+        [ "@hapi/hoek", "9.3.0" ]
+      ]
+    },
+    "joi": {
+      "17.6.2": [
+        [ "@hapi/hoek", "9.3.0" ],
+        [ "@hapi/topo", "5.1.0" ],
+        [ "@sideway/address", "4.1.4" ],
+        [ "@sideway/formula", "3.0.0" ],
+        [ "@sideway/pinpoint", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "joi", "17.6.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@hapi/hoek": {
+      "9.3.0": {
+        "hash": "sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
+      }
+    },
+    "@hapi/topo": {
+      "5.1.0": {
+        "hash": "sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz"
+      }
+    },
+    "@sideway/address": {
+      "4.1.4": {
+        "hash": "sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/address/-/address-4.1.4.tgz"
+      }
+    },
+    "@sideway/formula": {
+      "3.0.0": {
+        "hash": "sha512-vHe7wZ4NOXVfkoRb8T5otiENVlT7a3IAiw7H5M2+GO+9CDgcVUUsX1zalAztCmwyOr2RUTGJdgB+ZvSVqmdHmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.0.tgz"
+      }
+    },
+    "@sideway/pinpoint": {
+      "2.0.0": {
+        "hash": "sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
+      }
+    },
+    "joi": {
+      "17.6.2": {
+        "hash": "sha512-+gqqdh1xc1wb+Lor0J9toqgeReyDOCqOdG8QSdRcEvwrcRiFQZneUCGKjFjuyBWUb3uaFOgY56yMaZ5FIc+H4w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/joi/-/joi-17.6.2.tgz"
+      }
+    }
+  }
+}

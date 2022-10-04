@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup-plugin-peer-deps-external",
+    "location": "",
+    "packages": {
+      "rollup-plugin-peer-deps-external": "2.2.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rollup": {
+      "2.79.1": [
+        [ "fsevents", "2.3.2" ]
+      ]
+    },
+    "rollup-plugin-peer-deps-external": {
+      "unknown": [
+        [ "rollup-plugin-peer-deps-external", "2.2.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "fsevents": {
+      "2.3.2": {
+        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+      }
+    },
+    "rollup": {
+      "2.79.1": {
+        "hash": "sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz"
+      }
+    },
+    "rollup-plugin-peer-deps-external": {
+      "2.2.4": {
+        "hash": "sha512-AWdukIM1+k5JDdAqV/Cxd+nejvno2FVLVeZ74NKggm3Q5s9cbbcOgUPGdbxPi4BXu7xGaZ8HG12F+thImYu/0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.4.tgz"
+      }
+    }
+  }
+}

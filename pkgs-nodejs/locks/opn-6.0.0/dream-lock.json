@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "opn",
+    "location": "",
+    "packages": {
+      "opn": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "opn": {
+      "6.0.0": [
+        [ "is-wsl", "1.1.0" ]
+      ],
+      "unknown": [
+        [ "opn", "6.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "is-wsl": {
+      "1.1.0": {
+        "hash": "sha512-gfygJYZ2gLTDlmbWMI0CE2MwnFzSN/2SZfkMlItC4K/JBlsWVDB0bO6XhqcY13YXE7iMcAJnzTCJjPiTeJJ0Mw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz"
+      }
+    },
+    "opn": {
+      "6.0.0": {
+        "hash": "sha512-I9PKfIZC+e4RXZ/qr1RhgyCnGgYX0UEIlXgWnCOVACIvFgaC9rz6Won7xbdhoHrd8IIhV7YEpHjreNUNkqCGkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/opn/-/opn-6.0.0.tgz"
+      }
+    }
+  }
+}

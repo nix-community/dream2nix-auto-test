@@ -1,0 +1,171 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup-plugin-node-resolve",
+    "location": "",
+    "packages": {
+      "rollup-plugin-node-resolve": "5.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/resolve": {
+      "0.0.8": [
+        [ "@types/node", "18.8.2" ]
+      ]
+    },
+    "has": {
+      "1.0.3": [
+        [ "function-bind", "1.1.1" ]
+      ]
+    },
+    "is-core-module": {
+      "2.10.0": [
+        [ "has", "1.0.3" ]
+      ]
+    },
+    "resolve": {
+      "1.22.1": [
+        [ "is-core-module", "2.10.0" ],
+        [ "path-parse", "1.0.7" ],
+        [ "supports-preserve-symlinks-flag", "1.0.0" ]
+      ]
+    },
+    "rollup": {
+      "2.79.1": [
+        [ "fsevents", "2.3.2" ]
+      ]
+    },
+    "rollup-plugin-node-resolve": {
+      "5.2.0": [
+        [ "@types/resolve", "0.0.8" ],
+        [ "builtin-modules", "3.3.0" ],
+        [ "is-module", "1.0.0" ],
+        [ "resolve", "1.22.1" ],
+        [ "rollup-pluginutils", "2.8.2" ]
+      ],
+      "unknown": [
+        [ "rollup-plugin-node-resolve", "5.2.0" ]
+      ]
+    },
+    "rollup-pluginutils": {
+      "2.8.2": [
+        [ "estree-walker", "0.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.8.2": {
+        "hash": "sha512-cRMwIgdDN43GO4xMWAfJAecYn8wV4JbsOGHNfNUIDiuYkUYAR5ec4Rj7IO2SAhFPEfpPtLtUTbbny/TCT7aDwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.2.tgz"
+      }
+    },
+    "@types/resolve": {
+      "0.0.8": {
+        "hash": "sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/resolve/-/resolve-0.0.8.tgz"
+      }
+    },
+    "builtin-modules": {
+      "3.3.0": {
+        "hash": "sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/builtin-modules/-/builtin-modules-3.3.0.tgz"
+      }
+    },
+    "estree-walker": {
+      "0.6.1": {
+        "hash": "sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.6.1.tgz"
+      }
+    },
+    "fsevents": {
+      "2.3.2": {
+        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+      }
+    },
+    "function-bind": {
+      "1.1.1": {
+        "hash": "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
+      }
+    },
+    "has": {
+      "1.0.3": {
+        "hash": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
+      }
+    },
+    "is-core-module": {
+      "2.10.0": {
+        "hash": "sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz"
+      }
+    },
+    "is-module": {
+      "1.0.0": {
+        "hash": "sha512-51ypPSPCoTEIN9dy5Oy+h4pShgJmPCygKfyRCISBI+JoWT/2oJvK8QPxmwv7b/p239jXrm9M1mlQbyKJ5A152g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-module/-/is-module-1.0.0.tgz"
+      }
+    },
+    "path-parse": {
+      "1.0.7": {
+        "hash": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
+      }
+    },
+    "resolve": {
+      "1.22.1": {
+        "hash": "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz"
+      }
+    },
+    "rollup": {
+      "2.79.1": {
+        "hash": "sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz"
+      }
+    },
+    "rollup-plugin-node-resolve": {
+      "5.2.0": {
+        "hash": "sha512-jUlyaDXts7TW2CqQ4GaO5VJ4PwwaV8VUGA7+km3n6k6xtOEacf61u0VXwN80phY/evMcaS+9eIeJ9MOyDxt5Zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-5.2.0.tgz"
+      }
+    },
+    "rollup-pluginutils": {
+      "2.8.2": {
+        "hash": "sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz"
+      }
+    },
+    "supports-preserve-symlinks-flag": {
+      "1.0.0": {
+        "hash": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
+      }
+    }
+  }
+}

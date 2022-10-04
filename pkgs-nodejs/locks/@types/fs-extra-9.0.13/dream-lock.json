@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/fs-extra",
+    "location": "",
+    "packages": {
+      "@types/fs-extra": "9.0.13"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/fs-extra": {
+      "9.0.13": [
+        [ "@types/node", "18.8.2" ]
+      ],
+      "unknown": [
+        [ "@types/fs-extra", "9.0.13" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/fs-extra": {
+      "9.0.13": {
+        "hash": "sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/fs-extra/-/fs-extra-9.0.13.tgz"
+      }
+    },
+    "@types/node": {
+      "18.8.2": {
+        "hash": "sha512-cRMwIgdDN43GO4xMWAfJAecYn8wV4JbsOGHNfNUIDiuYkUYAR5ec4Rj7IO2SAhFPEfpPtLtUTbbny/TCT7aDwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.2.tgz"
+      }
+    }
+  }
+}

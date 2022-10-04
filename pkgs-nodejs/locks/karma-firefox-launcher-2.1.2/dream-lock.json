@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "karma-firefox-launcher",
+    "location": "",
+    "packages": {
+      "karma-firefox-launcher": "2.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "is-wsl": {
+      "2.2.0": [
+        [ "is-docker", "2.2.1" ]
+      ]
+    },
+    "karma-firefox-launcher": {
+      "2.1.2": [
+        [ "is-wsl", "2.2.0" ],
+        [ "which", "2.0.2" ]
+      ],
+      "unknown": [
+        [ "karma-firefox-launcher", "2.1.2" ]
+      ]
+    },
+    "which": {
+      "2.0.2": [
+        [ "isexe", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "is-docker": {
+      "2.2.1": {
+        "hash": "sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
+      }
+    },
+    "is-wsl": {
+      "2.2.0": {
+        "hash": "sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-wsl/-/is-wsl-2.2.0.tgz"
+      }
+    },
+    "isexe": {
+      "2.0.0": {
+        "hash": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+      }
+    },
+    "karma-firefox-launcher": {
+      "2.1.2": {
+        "hash": "sha512-VV9xDQU1QIboTrjtGVD4NCfzIH7n01ZXqy/qpBhnOeGVOkG5JYPEm8kuSd7psHE6WouZaQ9Ool92g8LFweSNMA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-2.1.2.tgz"
+      }
+    },
+    "which": {
+      "2.0.2": {
+        "hash": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
+      }
+    }
+  }
+}

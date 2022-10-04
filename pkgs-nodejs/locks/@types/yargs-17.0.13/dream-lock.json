@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/yargs",
+    "location": "",
+    "packages": {
+      "@types/yargs": "17.0.13"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/yargs": {
+      "17.0.13": [
+        [ "@types/yargs-parser", "21.0.0" ]
+      ],
+      "unknown": [
+        [ "@types/yargs", "17.0.13" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/yargs": {
+      "17.0.13": {
+        "hash": "sha512-9sWaruZk2JGxIQU+IhI1fhPYRcQ0UuTNuKuCW9bR5fp7qi2Llf7WDzNa17Cy7TKnh3cdxDOiyTu6gaLS0eDatg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/yargs/-/yargs-17.0.13.tgz"
+      }
+    },
+    "@types/yargs-parser": {
+      "21.0.0": {
+        "hash": "sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.0.tgz"
+      }
+    }
+  }
+}

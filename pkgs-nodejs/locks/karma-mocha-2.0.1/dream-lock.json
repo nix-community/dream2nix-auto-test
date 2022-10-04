@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "karma-mocha",
+    "location": "",
+    "packages": {
+      "karma-mocha": "2.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "karma-mocha": {
+      "2.0.1": [
+        [ "minimist", "1.2.6" ]
+      ],
+      "unknown": [
+        [ "karma-mocha", "2.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "karma-mocha": {
+      "2.0.1": {
+        "hash": "sha512-Tzd5HBjm8his2OA4bouAsATYEpZrp9vC7z5E5j4C5Of5Rrs1jY67RAwXNcVmd/Bnk1wgvQRou0zGVLey44G4tQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/karma-mocha/-/karma-mocha-2.0.1.tgz"
+      }
+    },
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    }
+  }
+}

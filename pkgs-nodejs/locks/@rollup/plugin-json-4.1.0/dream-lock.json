@@ -1,0 +1,91 @@
+{
+  "_generic": {
+    "defaultPackage": "@rollup/plugin-json",
+    "location": "",
+    "packages": {
+      "@rollup/plugin-json": "4.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@rollup/plugin-json": {
+      "4.1.0": [
+        [ "@rollup/pluginutils", "3.1.0" ]
+      ],
+      "unknown": [
+        [ "@rollup/plugin-json", "4.1.0" ]
+      ]
+    },
+    "@rollup/pluginutils": {
+      "3.1.0": [
+        [ "@types/estree", "0.0.39" ],
+        [ "estree-walker", "1.0.1" ],
+        [ "picomatch", "2.3.1" ]
+      ]
+    },
+    "rollup": {
+      "2.79.1": [
+        [ "fsevents", "2.3.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@rollup/plugin-json": {
+      "4.1.0": {
+        "hash": "sha512-yfLbTdNS6amI/2OpmbiBoW12vngr5NW2jCJVZSBEz+H5KfUJZ2M7sDjk0U6GOOdCWFVScShte29o9NezJ53TPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-4.1.0.tgz"
+      }
+    },
+    "@rollup/pluginutils": {
+      "3.1.0": {
+        "hash": "sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-3.1.0.tgz"
+      }
+    },
+    "@types/estree": {
+      "0.0.39": {
+        "hash": "sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/estree/-/estree-0.0.39.tgz"
+      }
+    },
+    "estree-walker": {
+      "1.0.1": {
+        "hash": "sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-1.0.1.tgz"
+      }
+    },
+    "fsevents": {
+      "2.3.2": {
+        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+      }
+    },
+    "picomatch": {
+      "2.3.1": {
+        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+      }
+    },
+    "rollup": {
+      "2.79.1": {
+        "hash": "sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz"
+      }
+    }
+  }
+}

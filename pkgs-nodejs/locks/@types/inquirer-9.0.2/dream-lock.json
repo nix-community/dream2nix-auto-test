@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/inquirer",
+    "location": "",
+    "packages": {
+      "@types/inquirer": "9.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/inquirer": {
+      "9.0.2": [
+        [ "@types/through", "0.0.30" ],
+        [ "rxjs", "7.5.7" ]
+      ],
+      "unknown": [
+        [ "@types/inquirer", "9.0.2" ]
+      ]
+    },
+    "@types/through": {
+      "0.0.30": [
+        [ "@types/node", "18.8.2" ]
+      ]
+    },
+    "rxjs": {
+      "7.5.7": [
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/inquirer": {
+      "9.0.2": {
+        "hash": "sha512-MQc3adiIh/rDxLkjnvL03rSvuHg+/dKif4dn/MRsnE+oU1bAdyuDbW0w+ewR1M/M/u/Z0YAbw7NZYCpgQ5SW8A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/inquirer/-/inquirer-9.0.2.tgz"
+      }
+    },
+    "@types/node": {
+      "18.8.2": {
+        "hash": "sha512-cRMwIgdDN43GO4xMWAfJAecYn8wV4JbsOGHNfNUIDiuYkUYAR5ec4Rj7IO2SAhFPEfpPtLtUTbbny/TCT7aDwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.2.tgz"
+      }
+    },
+    "@types/through": {
+      "0.0.30": {
+        "hash": "sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/through/-/through-0.0.30.tgz"
+      }
+    },
+    "rxjs": {
+      "7.5.7": {
+        "hash": "sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rxjs/-/rxjs-7.5.7.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

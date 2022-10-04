@@ -1,0 +1,84 @@
+{
+  "_generic": {
+    "defaultPackage": "cross-spawn",
+    "location": "",
+    "packages": {
+      "cross-spawn": "7.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cross-spawn": {
+      "7.0.3": [
+        [ "path-key", "3.1.1" ],
+        [ "shebang-command", "2.0.0" ],
+        [ "which", "2.0.2" ]
+      ],
+      "unknown": [
+        [ "cross-spawn", "7.0.3" ]
+      ]
+    },
+    "shebang-command": {
+      "2.0.0": [
+        [ "shebang-regex", "3.0.0" ]
+      ]
+    },
+    "which": {
+      "2.0.2": [
+        [ "isexe", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cross-spawn": {
+      "7.0.3": {
+        "hash": "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
+      }
+    },
+    "isexe": {
+      "2.0.0": {
+        "hash": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+      }
+    },
+    "path-key": {
+      "3.1.1": {
+        "hash": "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
+      }
+    },
+    "shebang-command": {
+      "2.0.0": {
+        "hash": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz"
+      }
+    },
+    "shebang-regex": {
+      "3.0.0": {
+        "hash": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
+      }
+    },
+    "which": {
+      "2.0.2": {
+        "hash": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
+      }
+    }
+  }
+}

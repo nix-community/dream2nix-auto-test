@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "rxjs",
+    "location": "",
+    "packages": {
+      "rxjs": "8.0.0-alpha.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rxjs": {
+      "8.0.0-alpha.5": [
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "rxjs", "8.0.0-alpha.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "rxjs": {
+      "8.0.0-alpha.5": {
+        "hash": "sha512-Q4KwCVxmetpNK5RcbNeQ2vN9Ku1wgr5/LH7Sr0NFcAopR3JKp4tpsmuzIHFiBIg7iHP6Bwr+4SCxRTicFkz9oQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rxjs/-/rxjs-8.0.0-alpha.5.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

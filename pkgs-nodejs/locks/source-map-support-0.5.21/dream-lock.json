@@ -1,0 +1,52 @@
+{
+  "_generic": {
+    "defaultPackage": "source-map-support",
+    "location": "",
+    "packages": {
+      "source-map-support": "0.5.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "source-map-support": {
+      "0.5.21": [
+        [ "buffer-from", "1.1.2" ],
+        [ "source-map", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "source-map-support", "0.5.21" ]
+      ]
+    }
+  },
+  "sources": {
+    "buffer-from": {
+      "1.1.2": {
+        "hash": "sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    },
+    "source-map-support": {
+      "0.5.21": {
+        "hash": "sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz"
+      }
+    }
+  }
+}

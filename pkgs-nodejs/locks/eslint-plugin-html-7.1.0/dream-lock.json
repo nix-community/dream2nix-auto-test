@@ -1,0 +1,106 @@
+{
+  "_generic": {
+    "defaultPackage": "eslint-plugin-html",
+    "location": "",
+    "packages": {
+      "eslint-plugin-html": "7.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dom-serializer": {
+      "2.0.0": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "entities", "4.4.0" ]
+      ]
+    },
+    "domhandler": {
+      "5.0.3": [
+        [ "domelementtype", "2.3.0" ]
+      ]
+    },
+    "domutils": {
+      "3.0.1": [
+        [ "dom-serializer", "2.0.0" ],
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ]
+      ]
+    },
+    "eslint-plugin-html": {
+      "7.1.0": [
+        [ "htmlparser2", "8.0.1" ]
+      ],
+      "unknown": [
+        [ "eslint-plugin-html", "7.1.0" ]
+      ]
+    },
+    "htmlparser2": {
+      "8.0.1": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "domutils", "3.0.1" ],
+        [ "entities", "4.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "dom-serializer": {
+      "2.0.0": {
+        "hash": "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
+      }
+    },
+    "domelementtype": {
+      "2.3.0": {
+        "hash": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+      }
+    },
+    "domhandler": {
+      "5.0.3": {
+        "hash": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz"
+      }
+    },
+    "domutils": {
+      "3.0.1": {
+        "hash": "sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domutils/-/domutils-3.0.1.tgz"
+      }
+    },
+    "entities": {
+      "4.4.0": {
+        "hash": "sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
+      }
+    },
+    "eslint-plugin-html": {
+      "7.1.0": {
+        "hash": "sha512-fNLRraV/e6j8e3XYOC9xgND4j+U7b1Rq+OygMlLcMg+wI/IpVbF+ubQa3R78EjKB9njT6TQOlcK5rFKBVVtdfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eslint-plugin-html/-/eslint-plugin-html-7.1.0.tgz"
+      }
+    },
+    "htmlparser2": {
+      "8.0.1": {
+        "hash": "sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/htmlparser2/-/htmlparser2-8.0.1.tgz"
+      }
+    }
+  }
+}

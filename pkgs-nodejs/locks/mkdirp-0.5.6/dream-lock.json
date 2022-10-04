@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "mkdirp",
+    "location": "",
+    "packages": {
+      "mkdirp": "0.5.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "mkdirp": {
+      "0.5.6": [
+        [ "minimist", "1.2.6" ]
+      ],
+      "unknown": [
+        [ "mkdirp", "0.5.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    },
+    "mkdirp": {
+      "0.5.6": {
+        "hash": "sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz"
+      }
+    }
+  }
+}

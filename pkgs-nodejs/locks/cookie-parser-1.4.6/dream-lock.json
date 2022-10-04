@@ -1,0 +1,52 @@
+{
+  "_generic": {
+    "defaultPackage": "cookie-parser",
+    "location": "",
+    "packages": {
+      "cookie-parser": "1.4.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cookie-parser": {
+      "1.4.6": [
+        [ "cookie", "0.4.1" ],
+        [ "cookie-signature", "1.0.6" ]
+      ],
+      "unknown": [
+        [ "cookie-parser", "1.4.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "cookie": {
+      "0.4.1": {
+        "hash": "sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cookie/-/cookie-0.4.1.tgz"
+      }
+    },
+    "cookie-parser": {
+      "1.4.6": {
+        "hash": "sha512-z3IzaNjdwUC2olLIB5/ITd0/setiaFMLYiZJle7xg5Fe9KWAceil7xszYfHHBtDFYLSgJduS2Ty0P1uJdPDJeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.6.tgz"
+      }
+    },
+    "cookie-signature": {
+      "1.0.6": {
+        "hash": "sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz"
+      }
+    }
+  }
+}

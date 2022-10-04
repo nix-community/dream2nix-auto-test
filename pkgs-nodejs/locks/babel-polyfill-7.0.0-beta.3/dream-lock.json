@@ -1,0 +1,52 @@
+{
+  "_generic": {
+    "defaultPackage": "babel-polyfill",
+    "location": "",
+    "packages": {
+      "babel-polyfill": "7.0.0-beta.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "babel-polyfill": {
+      "7.0.0-beta.3": [
+        [ "core-js", "2.6.12" ],
+        [ "regenerator-runtime", "0.11.1" ]
+      ],
+      "unknown": [
+        [ "babel-polyfill", "7.0.0-beta.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "babel-polyfill": {
+      "7.0.0-beta.3": {
+        "hash": "sha512-wEXpYXn61nCd+so0TOSzydX1mwUjst5Mx2yUV5fVs6AaK+PKqDdoecty2BHoEwaQTKcsq6ihoQZf9oaKV5DvEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-polyfill/-/babel-polyfill-7.0.0-beta.3.tgz"
+      }
+    },
+    "core-js": {
+      "2.6.12": {
+        "hash": "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.11.1": {
+        "hash": "sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/styled-components",
+    "location": "",
+    "packages": {
+      "@types/styled-components": "5.1.26"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/hoist-non-react-statics": {
+      "3.3.1": [
+        [ "@types/react", "18.0.21" ],
+        [ "hoist-non-react-statics", "3.3.2" ]
+      ]
+    },
+    "@types/react": {
+      "18.0.21": [
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/scheduler", "0.16.2" ],
+        [ "csstype", "3.1.1" ]
+      ]
+    },
+    "@types/styled-components": {
+      "5.1.26": [
+        [ "@types/hoist-non-react-statics", "3.3.1" ],
+        [ "@types/react", "18.0.21" ],
+        [ "csstype", "3.1.1" ]
+      ],
+      "unknown": [
+        [ "@types/styled-components", "5.1.26" ]
+      ]
+    },
+    "hoist-non-react-statics": {
+      "3.3.2": [
+        [ "react-is", "16.13.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/hoist-non-react-statics": {
+      "3.3.1": {
+        "hash": "sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz"
+      }
+    },
+    "@types/prop-types": {
+      "15.7.5": {
+        "hash": "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
+      }
+    },
+    "@types/react": {
+      "18.0.21": {
+        "hash": "sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react/-/react-18.0.21.tgz"
+      }
+    },
+    "@types/scheduler": {
+      "0.16.2": {
+        "hash": "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
+      }
+    },
+    "@types/styled-components": {
+      "5.1.26": {
+        "hash": "sha512-KuKJ9Z6xb93uJiIyxo/+ksS7yLjS1KzG6iv5i78dhVg/X3u5t1H7juRWqVmodIdz6wGVaIApo1u01kmFRdJHVw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/styled-components/-/styled-components-5.1.26.tgz"
+      }
+    },
+    "csstype": {
+      "3.1.1": {
+        "hash": "sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz"
+      }
+    },
+    "hoist-non-react-statics": {
+      "3.3.2": {
+        "hash": "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
+      }
+    },
+    "react-is": {
+      "16.13.1": {
+        "hash": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "open",
+    "location": "",
+    "packages": {
+      "open": "8.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "is-wsl": {
+      "2.2.0": [
+        [ "is-docker", "2.2.1" ]
+      ]
+    },
+    "open": {
+      "8.4.0": [
+        [ "define-lazy-prop", "2.0.0" ],
+        [ "is-docker", "2.2.1" ],
+        [ "is-wsl", "2.2.0" ]
+      ],
+      "unknown": [
+        [ "open", "8.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "define-lazy-prop": {
+      "2.0.0": {
+        "hash": "sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/define-lazy-prop/-/define-lazy-prop-2.0.0.tgz"
+      }
+    },
+    "is-docker": {
+      "2.2.1": {
+        "hash": "sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
+      }
+    },
+    "is-wsl": {
+      "2.2.0": {
+        "hash": "sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-wsl/-/is-wsl-2.2.0.tgz"
+      }
+    },
+    "open": {
+      "8.4.0": {
+        "hash": "sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/open/-/open-8.4.0.tgz"
+      }
+    }
+  }
+}
