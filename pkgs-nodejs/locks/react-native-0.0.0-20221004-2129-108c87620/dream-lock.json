@@ -3,7 +3,7 @@
     "defaultPackage": "react-native",
     "location": "",
     "packages": {
-      "react-native": "0.70.2"
+      "react-native": "0.0.0-20221004-2129-108c87620"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -810,8 +810,13 @@
       ]
     },
     "@jest/create-cache-key-function": {
-      "27.5.1": [
-        [ "@jest/types", "27.5.1" ]
+      "29.1.2": [
+        [ "@jest/types", "29.1.2" ]
+      ]
+    },
+    "@jest/schemas": {
+      "29.0.0": [
+        [ "@sinclair/typebox", "0.24.44" ]
       ]
     },
     "@jest/types": {
@@ -827,6 +832,14 @@
         [ "@types/istanbul-reports", "3.0.1" ],
         [ "@types/node", "18.8.2" ],
         [ "@types/yargs", "16.0.4" ],
+        [ "chalk", "4.1.2" ]
+      ],
+      "29.1.2": [
+        [ "@jest/schemas", "29.0.0" ],
+        [ "@types/istanbul-lib-coverage", "2.0.4" ],
+        [ "@types/istanbul-reports", "3.0.1" ],
+        [ "@types/node", "18.8.2" ],
+        [ "@types/yargs", "17.0.13" ],
         [ "chalk", "4.1.2" ]
       ]
     },
@@ -1005,6 +1018,9 @@
       ],
       "16.0.4": [
         [ "@types/yargs-parser", "21.0.0" ]
+      ],
+      "17.0.13": [
+        [ "@types/yargs-parser", "21.0.0" ]
       ]
     },
     "abort-controller": {
@@ -1146,8 +1162,8 @@
     },
     "browserslist": {
       "4.21.4": [
-        [ "caniuse-lite", "1.0.30001415" ],
-        [ "electron-to-chromium", "1.4.271" ],
+        [ "caniuse-lite", "1.0.30001416" ],
+        [ "electron-to-chromium", "1.4.272" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.9" ]
       ]
@@ -2147,19 +2163,19 @@
       ]
     },
     "react": {
-      "18.1.0": [
+      "18.2.0": [
         [ "loose-envify", "1.4.0" ]
       ]
     },
     "react-devtools-core": {
-      "4.24.0": [
+      "4.26.0": [
         [ "shell-quote", "1.7.3" ],
         [ "ws", "7.5.9" ]
       ]
     },
     "react-native": {
-      "0.70.2": [
-        [ "@jest/create-cache-key-function", "27.5.1" ],
+      "0.0.0-20221004-2129-108c87620": [
+        [ "@jest/create-cache-key-function", "29.1.2" ],
         [ "@react-native-community/cli", "9.1.3" ],
         [ "@react-native-community/cli-platform-android", "9.1.0" ],
         [ "@react-native-community/cli-platform-ios", "9.1.2" ],
@@ -2180,24 +2196,24 @@
         [ "nullthrows", "1.1.1" ],
         [ "pretty-format", "26.6.2" ],
         [ "promise", "8.2.0" ],
-        [ "react-devtools-core", "4.24.0" ],
-        [ "react-native-codegen", "0.70.5" ],
-        [ "react-native-gradle-plugin", "0.70.3" ],
+        [ "react-devtools-core", "4.26.0" ],
+        [ "react-native-codegen", "0.71.0" ],
+        [ "react-native-gradle-plugin", "0.71.4" ],
         [ "react-refresh", "0.4.3" ],
         [ "react-shallow-renderer", "16.15.0" ],
         [ "regenerator-runtime", "0.13.9" ],
-        [ "scheduler", "0.22.0" ],
+        [ "scheduler", "0.23.0" ],
         [ "stacktrace-parser", "0.1.10" ],
         [ "use-sync-external-store", "1.2.0" ],
         [ "whatwg-fetch", "3.6.2" ],
         [ "ws", "6.2.2" ]
       ],
       "unknown": [
-        [ "react-native", "0.70.2" ]
+        [ "react-native", "0.0.0-20221004-2129-108c87620" ]
       ]
     },
     "react-native-codegen": {
-      "0.70.5": [
+      "0.71.0": [
         [ "@babel/parser", "7.19.3" ],
         [ "flow-parser", "0.121.0" ],
         [ "jscodeshift", "0.13.1" ],
@@ -2292,7 +2308,7 @@
       ]
     },
     "scheduler": {
-      "0.22.0": [
+      "0.23.0": [
         [ "loose-envify", "1.4.0" ]
       ]
     },
@@ -3401,10 +3417,17 @@
       }
     },
     "@jest/create-cache-key-function": {
-      "27.5.1": {
-        "hash": "sha512-dmH1yW+makpTSURTy8VzdUwFnfQh1G8R+DxO2Ho2FFmBbKFEVm+3jWdvFhE2VqB/LATCTokkP0dotjyQyw5/AQ==",
+      "29.1.2": {
+        "hash": "sha512-s7yfOwnDZhqTzLWOwWjv/Lbg9CkJ7bItz5OVrMa0d+g2bP+rFwDs7FpsKuYpym5tpdbDaXHnF3cbl/e01ZeUcw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@jest/create-cache-key-function/-/create-cache-key-function-27.5.1.tgz"
+        "url": "https://registry.npmjs.org/@jest/create-cache-key-function/-/create-cache-key-function-29.1.2.tgz"
+      }
+    },
+    "@jest/schemas": {
+      "29.0.0": {
+        "hash": "sha512-3Ab5HgYIIAnS0HjqJHQYZS+zXc4tUmTmBH3z83ajI6afXp8X3ZtdLX+nXx+I7LNkJD7uN9LAVhgnjDgZa2z0kA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jest/schemas/-/schemas-29.0.0.tgz"
       }
     },
     "@jest/types": {
@@ -3417,6 +3440,11 @@
         "hash": "sha512-Cx46iJ9QpwQTjIdq5VJu2QTMMs3QlEjI0x1QbBP5W1+nMzyc2XmimiRR/CbX9TO0cPTeUlxWMOu8mslYsJ8DEw==",
         "type": "http",
         "url": "https://registry.npmjs.org/@jest/types/-/types-27.5.1.tgz"
+      },
+      "29.1.2": {
+        "hash": "sha512-DcXGtoTykQB5jiwCmVr8H4vdg2OJhQex3qPkG+ISyDO7xQXbt/4R6dowcRyPemRnkH7JoHvZuxPBdlq+9JxFCg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jest/types/-/types-29.1.2.tgz"
       }
     },
     "@jridgewell/gen-mapping": {
@@ -3585,6 +3613,13 @@
         "url": "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
       }
     },
+    "@sinclair/typebox": {
+      "0.24.44": {
+        "hash": "sha512-ka0W0KN5i6LfrSocduwliMMpqVgohtPFidKdMEOUjoOFCHcOOYkKsPRxfs5f15oPNHTm6ERAm0GV/+/LTKeiWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.44.tgz"
+      }
+    },
     "@types/istanbul-lib-coverage": {
       "2.0.4": {
         "hash": "sha512-z/QT1XN4K4KYuslS23k62yDIDLwLFkzxOuMplDtObz0+y7VqJCaO2o+SPwHCvLFZh7xazvvoor2tA/hPz9ee7g==",
@@ -3623,6 +3658,11 @@
         "hash": "sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==",
         "type": "http",
         "url": "https://registry.npmjs.org/@types/yargs/-/yargs-16.0.4.tgz"
+      },
+      "17.0.13": {
+        "hash": "sha512-9sWaruZk2JGxIQU+IhI1fhPYRcQ0UuTNuKuCW9bR5fp7qi2Llf7WDzNa17Cy7TKnh3cdxDOiyTu6gaLS0eDatg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/yargs/-/yargs-17.0.13.tgz"
       }
     },
     "@types/yargs-parser": {
@@ -3968,10 +4008,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001415": {
-        "hash": "sha512-ER+PfgCJUe8BqunLGWd/1EY4g8AzQcsDAVzdtMGKVtQEmKAwaFfU6vb7EAVIqTMYsqxBorYZi2+22Iouj/y7GQ==",
+      "1.0.30001416": {
+        "hash": "sha512-06wzzdAkCPZO+Qm4e/eNghZBDfVNDsCgw33T27OwBH9unE9S478OYw//Q2L7Npf/zBzs7rjZOszIFQkwQKAEqA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001415.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001416.tgz"
       }
     },
     "chalk": {
@@ -4281,10 +4321,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.271": {
-        "hash": "sha512-BCPBtK07xR1/uY2HFDtl3wK2De66AW4MSiPlLrnPNxKC/Qhccxd59W73654S3y6Rb/k3hmuGJOBnhjfoutetXA==",
+      "1.4.272": {
+        "hash": "sha512-KS6gPPGNrzpVv9HzFVq+Etd0AjZEPr5pvaTBn2yD6KV4+cKW4I0CJoJNgmTG6gUQPAMZ4wIPtcOuoou3qFAZCA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.271.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.272.tgz"
       }
     },
     "emoji-regex": {
@@ -5738,17 +5778,17 @@
       }
     },
     "react": {
-      "18.1.0": {
-        "hash": "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==",
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
       }
     },
     "react-devtools-core": {
-      "4.24.0": {
-        "hash": "sha512-Rw7FzYOOzcfyUPaAm9P3g0tFdGqGq2LLiAI+wjYcp6CsF3DeeMrRS3HZAho4s273C29G/DJhx0e8BpRE/QZNGg==",
+      "4.26.0": {
+        "hash": "sha512-OO0Q+vXtHYCXvRQ6elLiOUph3MjsCpuYktGTLnBpizYm46f8tAPuJKihGkwsceitHSJNpzNIjJaYHgX96CyTUQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-4.24.0.tgz"
+        "url": "https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-4.26.0.tgz"
       }
     },
     "react-is": {
@@ -5759,24 +5799,24 @@
       }
     },
     "react-native": {
-      "0.70.2": {
-        "hash": "sha512-c0Usl1Lc4pApDI66wpHwX8SGBUqXouQ8Z8Q9gX4jBjnmO5E8Vmlv6IM0CWDqbX/tn+aKNHCBLqV5phnCqusGbw==",
+      "0.0.0-20221004-2129-108c87620": {
+        "hash": "sha512-V8TcP9dJmv+4I+xBcfIKSY1q5cCPKOz7VjFEY/W4KfR05bebgAHkTbldijPbXjeGYmbGa0iQqnrOfmiNPqSpfw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/react-native/-/react-native-0.70.2.tgz"
+        "url": "https://registry.npmjs.org/react-native/-/react-native-0.0.0-20221004-2129-108c87620.tgz"
       }
     },
     "react-native-codegen": {
-      "0.70.5": {
-        "hash": "sha512-vXqgCWWIWlzsCtwD6hbmwmCleGNJYm+n4xO9VMfzzlF3xt9gjC7/USSMTf/YZlCK/hDwQU412QrNS6A9OH+mag==",
+      "0.71.0": {
+        "hash": "sha512-QkZapZx7vLNcszJHNkkIaZwsfGiI0quuq3ejJW2C3jMNT+Ed2lkuI8G/sfXAQOWQgX7/9iaeGDxE9Rjiz8EkAg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.70.5.tgz"
+        "url": "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.71.0.tgz"
       }
     },
     "react-native-gradle-plugin": {
-      "0.70.3": {
-        "hash": "sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A==",
+      "0.71.4": {
+        "hash": "sha512-5izzWXIlr5DL5+cx3a6oSA4cgSCw9Kv7WQjHqLxV2I1fSfzjzEdYTaDfrNjdcy71BHeeUB6BEyl70yXpjkCkdA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz"
+        "url": "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.4.tgz"
       }
     },
     "react-refresh": {
@@ -5975,10 +6015,10 @@
       }
     },
     "scheduler": {
-      "0.22.0": {
-        "hash": "sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==",
+      "0.23.0": {
+        "hash": "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.22.0.tgz"
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
       }
     },
     "semver": {
