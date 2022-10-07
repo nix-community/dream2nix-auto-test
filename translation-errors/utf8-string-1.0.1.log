@@ -1,0 +1,37 @@
+
+Translating:: utf8-string (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/utf8-string-1.0.1/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=54
++ '[' 54 -gt 86400 ']'
+/tmp/tmp.B0ifL3nsrq/tmp.pgh3BB531F/tmp.Y9hwm9LhaN ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8559    0  8559    0     0  72413      0 --:--:-- --:--:-- --:--:-- 72533
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: utf8-string (user goal)
+[__0] rejecting: utf8-string-1.0.2, utf8-string-1.0.1.1 (constraint from user
+target requires ==1.0.1)
+[__0] trying: utf8-string-1.0.1
+[__1] next goal: base (dependency of utf8-string)
+[__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: utf8-string =>
+base>=4.3 && <4.9)
+[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
+constraint '>=4.3 && <4.9' from 'utf8-string')
+[__1] rejecting: base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2,
+base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0,
+base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0,
+base-4.2.0.2, base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0,
+base-3.0.3.2, base-3.0.3.1 (constraint from non-upgradeable package requires
+installed instance)
+[__1] fail (backjumping, conflict set: base, utf8-string)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, utf8-string
+

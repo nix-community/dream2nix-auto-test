@@ -1,0 +1,70 @@
+
+Translating:: snap-server (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/snap-server-0.9.3/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=414
++ '[' 414 -gt 86400 ']'
+/tmp/tmp.mMT9wj1rhU/tmp.1O5ROCzQQc/tmp.JUOnVegVuj ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 56318    0 56318    0     0   514k      0 --:--:-- --:--:-- --:--:--  518k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: snap-server (user goal)
+[__0] rejecting: snap-server-1.1.2.0, snap-server-1.1.1.2,
+snap-server-1.1.1.1, snap-server-1.1.1.0, snap-server-1.1.0.0,
+snap-server-1.0.3.3, snap-server-1.0.3.2, snap-server-1.0.3.1,
+snap-server-1.0.3.0, snap-server-1.0.2.2, snap-server-1.0.2.1,
+snap-server-1.0.2.0, snap-server-1.0.1.1, snap-server-1.0.1.0,
+snap-server-1.0.0.0, snap-server-0.9.5.1, snap-server-0.9.5.0,
+snap-server-0.9.4.6, snap-server-0.9.4.5, snap-server-0.9.4.4,
+snap-server-0.9.4.3, snap-server-0.9.4.2, snap-server-0.9.4.1,
+snap-server-0.9.4.0, snap-server-0.9.3.4, snap-server-0.9.3.3,
+snap-server-0.9.3.1 (constraint from user target requires ==0.9.3)
+[__0] trying: snap-server-0.9.3
+[__1] next goal: time (dependency of snap-server)
+[__1] rejecting: time-1.9.3/installed-1.9.3 (conflict: snap-server =>
+time>=1.0 && <1.5)
+[__1] skipping: time-1.12.2, time-1.12.1, time-1.12, time-1.11.1.2,
+time-1.11.1.1, time-1.11.1, time-1.11, time-1.10, time-1.9.3, time-1.9.2,
+time-1.9.1, time-1.9, time-1.8.0.4, time-1.8.0.3, time-1.8.0.2, time-1.8.0.1,
+time-1.8, time-1.7.0.1, time-1.7, time-1.6.0.1, time-1.6, time-1.5.0.1,
+time-1.5 (has the same characteristics that caused the previous version to
+fail: excluded by constraint '>=1.0 && <1.5' from 'snap-server')
+[__1] trying: time-1.4.2
+[__2] next goal: deepseq (dependency of time)
+[__2] rejecting: deepseq-1.4.5.0/installed-1.4.5.0 (conflict: time =>
+deepseq>=1.1 && <1.4)
+[__2] skipping: deepseq-1.4.8.0, deepseq-1.4.7.0, deepseq-1.4.6.1,
+deepseq-1.4.5.0, deepseq-1.4.4.0, deepseq-1.4.3.0, deepseq-1.4.2.0,
+deepseq-1.4.1.2, deepseq-1.4.1.1, deepseq-1.4.1.0, deepseq-1.4.0.0 (has the
+same characteristics that caused the previous version to fail: excluded by
+constraint '>=1.1 && <1.4' from 'time')
+[__2] trying: deepseq-1.3.0.2
+[__3] next goal: array (dependency of deepseq)
+[__3] rejecting: array-0.5.4.0/installed-0.5.4.0 (conflict: deepseq =>
+base>=4.3 && <4.8, array => base==4.15.1.0/installed-4.15.1.0)
+[__3] trying: array-0.5.4.0
+[__4] next goal: base (dependency of snap-server)
+[__4] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: deepseq =>
+base>=4.3 && <4.8)
+[__4] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0 (has the same characteristics that
+caused the previous version to fail: excluded by constraint '>=4.3 && <4.8'
+from 'deepseq')
+[__4] rejecting: base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1,
+base-4.6.0.0, base-4.5.1.0, base-4.5.0.0, base-4.4.1.0, base-4.4.0.0,
+base-4.3.1.0, base-4.3.0.0, base-4.2.0.2, base-4.2.0.1, base-4.2.0.0,
+base-4.1.0.0, base-4.0.0.0, base-3.0.3.2, base-3.0.3.1 (constraint from
+non-upgradeable package requires installed instance)
+[__4] fail (backjumping, conflict set: base, deepseq, snap-server)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: snap-server, time, base, deepseq,
+array
+Try running with --minimize-conflict-set to improve the error message.
+

@@ -1,0 +1,52 @@
+
+Translating:: convertible (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/convertible-1.0.9/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=402
++ '[' 402 -gt 86400 ']'
+/tmp/tmp.5aP8aq6gYx/tmp.U65dL2w5kU/tmp.3Gm1MI3y3J ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 22510    0 22510    0     0   254k      0 --:--:-- --:--:-- --:--:--  255k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: convertible (user goal)
+[__0] rejecting: convertible-1.1.1.1, convertible-1.1.1.0,
+convertible-1.1.0.0, convertible-1.0.11.1, convertible-1.0.11.0,
+convertible-1.0.10.0, convertible-1.0.9.1 (constraint from user target
+requires ==1.0.9)
+[__0] trying: convertible-1.0.9
+[__1] trying: convertible:+splitbase
+[__2] next goal: time (dependency of convertible +splitbase +/-time_gte_113)
+[__2] rejecting: time-1.9.3/installed-1.9.3, time-1.12.2, time-1.12.1,
+time-1.12, time-1.11.1.2, time-1.11.1.1, time-1.11.1, time-1.11, time-1.10,
+time-1.9.3, time-1.9.2, time-1.9.1, time-1.9, time-1.8.0.4, time-1.8.0.3,
+time-1.8.0.2, time-1.8.0.1, time-1.8, time-1.7.0.1, time-1.7, time-1.6.0.1,
+time-1.6, time-1.5.0.1, time-1.5, time-1.4.2, time-1.4.1, time-1.4.0.2,
+time-1.4.0.1, time-1.4, time-1.3, time-1.2.0.5, time-1.2.0.4, time-1.2.0.3,
+time-1.2.0.2, time-1.2.0.1, time-1.2 (conflict: convertible +splitbase
++/-time_gte_113 => time>=1.1.2.4 && <=1.1.4)
+[__2] trying: time-1.1.4
+[__3] next goal: base (dependency of convertible +/-splitbase)
+[__3] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: time => base>=4
+&& <4.7)
+[__3] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
+base-4.7.0.0 (has the same characteristics that caused the previous version to
+fail: excluded by constraint '>=4 && <4.7' from 'time')
+[__3] rejecting: base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
+base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0, base-4.2.0.2,
+base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0, base-3.0.3.2,
+base-3.0.3.1 (constraint from non-upgradeable package requires installed
+instance)
+[__3] fail (backjumping, conflict set: base, convertible, time)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: convertible, base, time,
+convertible:splitbase
+Try running with --minimize-conflict-set to improve the error message.
+

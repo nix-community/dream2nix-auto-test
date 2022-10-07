@@ -1,0 +1,45 @@
+
+Translating:: lifted-base (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/lifted-base-0.1.2/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=374
++ '[' 374 -gt 86400 ']'
+/tmp/tmp.Ym8rqGTDht/tmp.2zCOS9sUFf/tmp.ybblYrOD23 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10965    0 10965    0     0   132k      0 --:--:-- --:--:-- --:--:--  133k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: lifted-base (user goal)
+[__0] rejecting: lifted-base-0.2.3.12, lifted-base-0.2.3.11,
+lifted-base-0.2.3.10, lifted-base-0.2.3.9, lifted-base-0.2.3.8,
+lifted-base-0.2.3.7, lifted-base-0.2.3.6, lifted-base-0.2.3.5,
+lifted-base-0.2.3.4, lifted-base-0.2.3.3, lifted-base-0.2.3.2,
+lifted-base-0.2.3.1, lifted-base-0.2.3.0, lifted-base-0.2.2.2,
+lifted-base-0.2.2.1, lifted-base-0.2.2.0, lifted-base-0.2.1.2,
+lifted-base-0.2.1.1, lifted-base-0.2.1.0, lifted-base-0.2.0.5,
+lifted-base-0.2.0.4, lifted-base-0.2.0.3, lifted-base-0.2.0.2,
+lifted-base-0.2.0.1, lifted-base-0.2 (constraint from user target requires
+==0.1.2)
+[__0] trying: lifted-base-0.1.2
+[__1] next goal: base (dependency of lifted-base)
+[__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: lifted-base =>
+base>=3 && <4.7)
+[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
+base-4.7.0.0 (has the same characteristics that caused the previous version to
+fail: excluded by constraint '>=3 && <4.7' from 'lifted-base')
+[__1] rejecting: base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
+base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0, base-4.2.0.2,
+base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0, base-3.0.3.2,
+base-3.0.3.1 (constraint from non-upgradeable package requires installed
+instance)
+[__1] fail (backjumping, conflict set: base, lifted-base)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: lifted-base, base
+

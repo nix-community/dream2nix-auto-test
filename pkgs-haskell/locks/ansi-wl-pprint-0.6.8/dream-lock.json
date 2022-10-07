@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "ansi-wl-pprint",
+    "location": "",
+    "packages": {
+      "ansi-wl-pprint": "0.6.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "ansi-terminal#0.6.3.1": "bd858414c12857a368adc624639027eb0a680502af3019989d3ac39c155930f3"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi-wl-pprint": {
+      "0.6.8": [
+        [ "ansi-terminal", "0.6.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-terminal": {
+      "0.6.3.1": {
+        "hash": "sha256:458f98e0c9217897f0ff07f730cfc3ed380089936fb31942aec31bb336608095",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.6.3.1.tar.gz"
+      }
+    },
+    "ansi-wl-pprint": {
+      "0.6.8": {
+        "hash": "sha256:5df6b1840f8a59d851b10c7c818551fd930425770efaaf886b930bd591508f84",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-wl-pprint-0.6.8/ansi-wl-pprint-0.6.8.tar.gz"
+      }
+    }
+  }
+}

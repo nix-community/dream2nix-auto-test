@@ -1,0 +1,48 @@
+
+Translating:: authenticate-oauth (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/authenticate-oauth-1.5.1/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=318
++ '[' 318 -gt 86400 ']'
+/tmp/tmp.btbVfjIvi0/tmp.7Qrl2NqOIW/tmp.oEttGf0BfH ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8037    0  8037    0     0  79236      0 --:--:-- --:--:-- --:--:-- 79574
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: authenticate-oauth (user goal)
+[__0] rejecting: authenticate-oauth-1.7, authenticate-oauth-1.6.0.1,
+authenticate-oauth-1.6, authenticate-oauth-1.5.1.2, authenticate-oauth-1.5.1.1
+(constraint from user target requires ==1.5.1)
+[__0] trying: authenticate-oauth-1.5.1
+[__1] next goal: transformers (dependency of authenticate-oauth)
+[__1] rejecting: transformers-0.5.6.2/installed-0.5.6.2 (conflict:
+authenticate-oauth => transformers>=0.1 && <0.5)
+[__1] skipping: transformers-0.6.0.4, transformers-0.6.0.3,
+transformers-0.6.0.2, transformers-0.5.6.2, transformers-0.5.5.2,
+transformers-0.5.5.0, transformers-0.5.4.0, transformers-0.5.2.0,
+transformers-0.5.1.0, transformers-0.5.0.1, transformers-0.5.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=0.1 && <0.5' from 'authenticate-oauth')
+[__1] trying: transformers-0.4.3.0
+[__2] next goal: base (dependency of authenticate-oauth)
+[__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: transformers =>
+base>=2 && <4.9)
+[__2] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
+constraint '>=2 && <4.9' from 'transformers')
+[__2] rejecting: base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2,
+base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0,
+base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0,
+base-4.2.0.2, base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0,
+base-3.0.3.2, base-3.0.3.1 (constraint from non-upgradeable package requires
+installed instance)
+[__2] fail (backjumping, conflict set: authenticate-oauth, base, transformers)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, transformers, authenticate-oauth
+

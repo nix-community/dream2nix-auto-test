@@ -1,0 +1,69 @@
+
+Translating:: cipher-aes128 (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/cipher-aes128-0.6.4/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=466
++ '[' 466 -gt 86400 ']'
+/tmp/tmp.iQnmmKbe5b/tmp.26gQkESVbQ/tmp.6pQcoMTVm7 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 23445    0 23445    0     0   252k      0 --:--:-- --:--:-- --:--:--  254k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: cipher-aes128 (user goal)
+[__0] rejecting: cipher-aes128-0.7.0.6, cipher-aes128-0.7.0.5,
+cipher-aes128-0.7.0.4, cipher-aes128-0.7.0.3, cipher-aes128-0.7.0.2,
+cipher-aes128-0.7.0.1, cipher-aes128-0.7 (constraint from user target requires
+==0.6.4)
+[__0] trying: cipher-aes128-0.6.4
+[__1] next goal: cipher-aes128:setup.Cabal (dependency of cipher-aes128)
+[__1] rejecting: cipher-aes128:setup.Cabal-3.4.1.0/installed-3.4.1.0
+(conflict: cipher-aes128 => cipher-aes128:setup.Cabal>=1.11 && <1.25)
+[__1] skipping: cipher-aes128:setup.Cabal-3.8.1.0,
+cipher-aes128:setup.Cabal-3.6.3.0, cipher-aes128:setup.Cabal-3.6.2.0,
+cipher-aes128:setup.Cabal-3.6.1.0, cipher-aes128:setup.Cabal-3.6.0.0,
+cipher-aes128:setup.Cabal-3.4.1.0, cipher-aes128:setup.Cabal-3.4.0.0,
+cipher-aes128:setup.Cabal-3.2.1.0, cipher-aes128:setup.Cabal-3.2.0.0,
+cipher-aes128:setup.Cabal-3.0.2.0, cipher-aes128:setup.Cabal-3.0.1.0,
+cipher-aes128:setup.Cabal-3.0.0.0, cipher-aes128:setup.Cabal-2.4.1.0,
+cipher-aes128:setup.Cabal-2.4.0.1, cipher-aes128:setup.Cabal-2.4.0.0,
+cipher-aes128:setup.Cabal-2.2.0.1, cipher-aes128:setup.Cabal-2.2.0.0,
+cipher-aes128:setup.Cabal-2.0.1.1, cipher-aes128:setup.Cabal-2.0.1.0,
+cipher-aes128:setup.Cabal-2.0.0.2 (has the same characteristics that caused
+the previous version to fail: excluded by constraint '>=1.11 && <1.25' from
+'cipher-aes128')
+[__1] rejecting: cipher-aes128:setup.Cabal-1.24.2.0,
+cipher-aes128:setup.Cabal-1.24.0.0, cipher-aes128:setup.Cabal-1.22.8.0,
+cipher-aes128:setup.Cabal-1.22.7.0, cipher-aes128:setup.Cabal-1.22.6.0,
+cipher-aes128:setup.Cabal-1.22.5.0, cipher-aes128:setup.Cabal-1.22.4.0,
+cipher-aes128:setup.Cabal-1.22.3.0, cipher-aes128:setup.Cabal-1.22.2.0,
+cipher-aes128:setup.Cabal-1.22.1.1, cipher-aes128:setup.Cabal-1.22.1.0,
+cipher-aes128:setup.Cabal-1.22.0.0, cipher-aes128:setup.Cabal-1.20.0.4,
+cipher-aes128:setup.Cabal-1.20.0.3, cipher-aes128:setup.Cabal-1.20.0.2,
+cipher-aes128:setup.Cabal-1.20.0.1, cipher-aes128:setup.Cabal-1.20.0.0,
+cipher-aes128:setup.Cabal-1.18.1.7, cipher-aes128:setup.Cabal-1.18.1.6,
+cipher-aes128:setup.Cabal-1.18.1.5, cipher-aes128:setup.Cabal-1.18.1.4,
+cipher-aes128:setup.Cabal-1.18.1.3, cipher-aes128:setup.Cabal-1.18.1.2,
+cipher-aes128:setup.Cabal-1.18.1.1, cipher-aes128:setup.Cabal-1.18.1,
+cipher-aes128:setup.Cabal-1.18.0, cipher-aes128:setup.Cabal-1.16.0.3,
+cipher-aes128:setup.Cabal-1.16.0.2, cipher-aes128:setup.Cabal-1.16.0.1,
+cipher-aes128:setup.Cabal-1.16.0, cipher-aes128:setup.Cabal-1.14.0,
+cipher-aes128:setup.Cabal-1.12.0, cipher-aes128:setup.Cabal-1.10.2.0,
+cipher-aes128:setup.Cabal-1.10.1.0, cipher-aes128:setup.Cabal-1.10.0.0,
+cipher-aes128:setup.Cabal-1.8.0.6, cipher-aes128:setup.Cabal-1.8.0.4,
+cipher-aes128:setup.Cabal-1.8.0.2, cipher-aes128:setup.Cabal-1.6.0.3,
+cipher-aes128:setup.Cabal-1.6.0.2, cipher-aes128:setup.Cabal-1.6.0.1,
+cipher-aes128:setup.Cabal-1.4.0.2, cipher-aes128:setup.Cabal-1.4.0.1,
+cipher-aes128:setup.Cabal-1.4.0.0, cipher-aes128:setup.Cabal-1.2.4.0,
+cipher-aes128:setup.Cabal-1.2.3.0, cipher-aes128:setup.Cabal-1.2.2.0,
+cipher-aes128:setup.Cabal-1.2.1, cipher-aes128:setup.Cabal-1.1.6,
+cipher-aes128:setup.Cabal-1.24.1.0 (constraint from minimum version of Cabal
+used by Setup.hs requires >=3.4)
+[__1] fail (backjumping, conflict set: cipher-aes128,
+cipher-aes128:setup.Cabal)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: cipher-aes128:setup.Cabal,
+cipher-aes128
+

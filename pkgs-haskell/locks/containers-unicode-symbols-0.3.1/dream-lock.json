@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "containers-unicode-symbols",
+    "location": "",
+    "packages": {
+      "containers-unicode-symbols": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "base-unicode-symbols#0.2.4.2": "5dc87284ab8d612fefdc32400bf2531db809a9a617c344b85ac752396aa1e7c6",
+      "containers#0.5.11.0": "1af9da3baaddc4f4aaea016b07d4c38ddbf702ce3f0df31120531950837996b8"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "containers-unicode-symbols": {
+      "0.3.1": [
+        [ "base-unicode-symbols", "0.2.4.2" ],
+        [ "containers", "0.5.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "base-unicode-symbols": {
+      "0.2.4.2": {
+        "hash": "sha256:4364d6c403616e9ec0c240c4cb450c66af43ea8483d73c315e96f4ba3cb97062",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-unicode-symbols-0.2.4.2.tar.gz"
+      }
+    },
+    "containers": {
+      "0.5.11.0": {
+        "hash": "sha256:58cd226ad5a147b12240f854a1fbadf809fd56cb9532123d60c1b23d13e04948",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/containers-0.5.11.0.tar.gz"
+      }
+    },
+    "containers-unicode-symbols": {
+      "0.3.1": {
+        "hash": "sha256:c44960699b3cba77eda63333e57e80e97a30ab884b2d0c5f4af793a52e6f7912",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/containers-unicode-symbols-0.3.1/containers-unicode-symbols-0.3.1.tar.gz"
+      }
+    }
+  }
+}

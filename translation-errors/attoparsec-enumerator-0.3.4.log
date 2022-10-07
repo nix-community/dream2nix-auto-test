@@ -1,0 +1,42 @@
+
+Translating:: attoparsec-enumerator (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/attoparsec-enumerator-0.3.4/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=247
++ '[' 247 -gt 86400 ']'
+/tmp/tmp.ZvLGgZV5mT/tmp.COXZMMqdZm/tmp.r79iO4h9v3 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2485  100  2485    0     0  34293      0 --:--:-- --:--:-- --:--:-- 34513
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] trying: attoparsec-enumerator-0.3.4 (user goal)
+[__1] trying: enumerator-0.4.20 (dependency of attoparsec-enumerator)
+[__2] next goal: transformers (dependency of enumerator)
+[__2] rejecting: transformers-0.5.6.2/installed-0.5.6.2 (conflict: enumerator
+=> base>=4.0 && <4.11, transformers => base==4.15.1.0/installed-4.15.1.0)
+[__2] trying: transformers-0.6.0.4
+[__3] next goal: base (dependency of attoparsec-enumerator)
+[__3] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: enumerator =>
+base>=4.0 && <4.11)
+[__3] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0 (has the same characteristics that caused the previous version
+to fail: excluded by constraint '>=4.0 && <4.11' from 'enumerator')
+[__3] rejecting: base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
+base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
+base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0, base-4.2.0.2,
+base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0, base-3.0.3.2,
+base-3.0.3.1 (constraint from non-upgradeable package requires installed
+instance)
+[__3] fail (backjumping, conflict set: attoparsec-enumerator, base,
+enumerator)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: enumerator, base, transformers,
+attoparsec-enumerator
+Try running with --minimize-conflict-set to improve the error message.
+

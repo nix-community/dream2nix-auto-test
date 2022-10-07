@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "regex-posix",
+    "location": "",
+    "packages": {
+      "regex-posix": "0.95.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "regex-base#0.94.0.2": "4ff4425c710cddf440dfbac6cd52310bb6b23e17902390ff71c9fc7eaafc4fcc"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "regex-posix": {
+      "0.95.2": [
+        [ "regex-base", "0.94.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "regex-base": {
+      "0.94.0.2": {
+        "hash": "sha256:7b99408f580f5bb67a1c413e0bc735886608251331ad36322020f2169aea2ef1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/regex-base-0.94.0.2.tar.gz"
+      }
+    },
+    "regex-posix": {
+      "0.95.2": {
+        "hash": "sha256:56019921cd4a4c9682b81ec614236fea816ba8ed8785a1640cd66d8b24fc703e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/regex-posix-0.95.2/regex-posix-0.95.2.tar.gz"
+      }
+    }
+  }
+}

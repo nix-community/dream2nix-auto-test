@@ -1,0 +1,61 @@
+
+Translating:: cabal-install (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/cabal-install-0.14.1/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=389
++ '[' 389 -gt 86400 ']'
+/tmp/tmp.BXXB3hKaFl/tmp.swTuEx9IHv/tmp.4mRVV9gEfL ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  190k    0  190k    0     0  1442k      0 --:--:-- --:--:-- --:--:-- 1451k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: cabal-install (user goal)
+[__0] rejecting: cabal-install-3.8.1.0, cabal-install-3.6.2.0,
+cabal-install-3.6.0.0, cabal-install-3.4.1.0, cabal-install-3.4.0.0,
+cabal-install-3.2.0.0, cabal-install-3.0.0.0, cabal-install-2.4.1.0,
+cabal-install-2.4.0.0, cabal-install-2.2.0.0, cabal-install-2.0.0.1,
+cabal-install-2.0.0.0, cabal-install-1.24.0.2, cabal-install-1.24.0.1,
+cabal-install-1.24.0.0, cabal-install-1.22.9.0, cabal-install-1.22.8.0,
+cabal-install-1.22.7.0, cabal-install-1.22.6.0, cabal-install-1.22.5.0,
+cabal-install-1.22.4.0, cabal-install-1.22.3.0, cabal-install-1.22.2.0,
+cabal-install-1.22.0.1, cabal-install-1.22.0.0, cabal-install-1.20.2.0,
+cabal-install-1.20.1.0, cabal-install-1.20.0.6, cabal-install-1.20.0.5,
+cabal-install-1.20.0.4, cabal-install-1.20.0.3, cabal-install-1.20.0.2,
+cabal-install-1.20.0.1, cabal-install-1.20.0.0, cabal-install-1.18.2.0,
+cabal-install-1.18.1.0, cabal-install-1.18.0.8, cabal-install-1.18.0.7,
+cabal-install-1.18.0.6, cabal-install-1.18.0.5, cabal-install-1.18.0.4,
+cabal-install-1.18.0.3, cabal-install-1.18.0.2, cabal-install-1.18.0.1,
+cabal-install-1.18.0, cabal-install-1.16.1.0, cabal-install-1.16.0.2,
+cabal-install-1.16.0.1, cabal-install-1.16.0 (constraint from user target
+requires ==0.14.1)
+[__0] trying: cabal-install-0.14.1
+[__1] next goal: zlib (dependency of cabal-install)
+[__1] rejecting: zlib-0.6.3.0 (conflict: cabal-install => zlib>=0.4 && <0.6)
+[__1] skipping: zlib-0.6.2.3, zlib-0.6.2.2, zlib-0.6.2.1, zlib-0.6.2,
+zlib-0.6.1.2, zlib-0.6.1.1, zlib-0.6.1.0, zlib-0.6.0.2, zlib-0.6.0.1,
+zlib-0.6.0.0 (has the same characteristics that caused the previous version to
+fail: excluded by constraint '>=0.4 && <0.6' from 'cabal-install')
+[__1] trying: zlib-0.5.4.2
+[__2] next goal: base (dependency of cabal-install +/-bytestring-in-base
++/-old-base)
+[__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: zlib => base>=3
+&& <4.13)
+[__2] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same characteristics that
+caused the previous version to fail: excluded by constraint '>=3 && <4.13'
+from 'zlib')
+[__2] rejecting: base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0,
+base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,
+base-4.8.0.0, base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1,
+base-4.6.0.0, base-4.5.1.0, base-4.5.0.0, base-4.4.1.0, base-4.4.0.0,
+base-4.3.1.0, base-4.3.0.0, base-4.2.0.2, base-4.2.0.1, base-4.2.0.0,
+base-4.1.0.0, base-4.0.0.0, base-3.0.3.2, base-3.0.3.1 (constraint from
+non-upgradeable package requires installed instance)
+[__2] fail (backjumping, conflict set: base, cabal-install, zlib)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: cabal-install, base, zlib
+

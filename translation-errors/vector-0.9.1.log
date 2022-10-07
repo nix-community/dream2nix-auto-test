@@ -1,0 +1,51 @@
+
+Translating:: vector (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/vector-0.9.1/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=3
++ '[' 3 -gt 86400 ']'
+/tmp/tmp.w5TbARLVZC/tmp.ZqbdtrKOyp/tmp.dOdU9QLMlq ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  102k    0  102k    0     0   802k      0 --:--:-- --:--:-- --:--:--  807k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: vector (user goal)
+[__0] rejecting: vector-0.13.0.0, vector-0.12.3.1, vector-0.12.3.0,
+vector-0.12.2.0, vector-0.12.1.2, vector-0.12.0.3, vector-0.12.0.2,
+vector-0.12.0.1, vector-0.12.0.0, vector-0.11.0.0, vector-0.10.12.3,
+vector-0.10.12.2, vector-0.10.12.1, vector-0.10.11.0, vector-0.10.10.0,
+vector-0.10.9.2, vector-0.10.9.1, vector-0.10.9.0, vector-0.10.0.1,
+vector-0.10 (constraint from user target requires ==0.9.1)
+[__0] trying: vector-0.9.1
+[__1] next goal: primitive (dependency of vector)
+[__1] rejecting: primitive-0.7.4.0 (conflict: vector => primitive>=0.4.0.1 &&
+<0.5)
+[__1] skipping: primitive-0.7.3.0, primitive-0.7.2.0, primitive-0.7.1.0,
+primitive-0.7.0.1, primitive-0.7.0.0, primitive-0.6.4.0, primitive-0.6.1.1,
+primitive-0.6.1.0, primitive-0.5.4.0, primitive-0.5.3.0, primitive-0.5.2.1,
+primitive-0.5.1.0, primitive-0.5.0.1, primitive-0.5 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=0.4.0.1 && <0.5' from 'vector')
+[__1] trying: primitive-0.4.1
+[__2] next goal: base (dependency of vector)
+[__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: primitive =>
+base>=4 && <4.7)
+[__2] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
+base-4.7.0.0 (has the same characteristics that caused the previous version to
+fail: excluded by constraint '>=4 && <4.7' from 'primitive')
+[__2] rejecting: base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
+base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0, base-4.2.0.2,
+base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0, base-3.0.3.2,
+base-3.0.3.1 (constraint from non-upgradeable package requires installed
+instance)
+[__2] fail (backjumping, conflict set: base, primitive, vector)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: vector, base, primitive
+

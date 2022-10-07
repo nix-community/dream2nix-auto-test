@@ -1,0 +1,53 @@
+
+Translating:: statistics (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/statistics-0.4.1/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=658
++ '[' 658 -gt 86400 ']'
+/tmp/tmp.kup6BdWOq8/tmp.j5xAIAr439/tmp.nD4uSRqG82 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 22146    0 22146    0     0   182k      0 --:--:-- --:--:-- --:--:--  183k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: statistics (user goal)
+[__0] rejecting: statistics-0.16.1.0, statistics-0.16.0.2,
+statistics-0.16.0.1, statistics-0.15.2.0, statistics-0.15.1.1,
+statistics-0.15.1.0, statistics-0.15.0.0, statistics-0.14.0.2,
+statistics-0.14.0.1, statistics-0.14.0.0, statistics-0.13.3.0,
+statistics-0.13.2.3, statistics-0.13.2.2, statistics-0.13.2.1,
+statistics-0.13.2.0, statistics-0.13.1.1, statistics-0.13.1.0,
+statistics-0.12.0.0, statistics-0.11.0.3, statistics-0.11.0.2,
+statistics-0.11.0.1, statistics-0.11.0.0, statistics-0.10.5.2,
+statistics-0.10.5.1, statistics-0.10.5.0, statistics-0.10.4.1,
+statistics-0.10.4.0, statistics-0.10.3.1, statistics-0.10.3.0,
+statistics-0.10.2.0, statistics-0.10.1.0, statistics-0.10.0.1,
+statistics-0.10.0.0, statistics-0.9.0.0, statistics-0.8.0.5,
+statistics-0.8.0.4, statistics-0.8.0.3, statistics-0.8.0.2,
+statistics-0.8.0.1, statistics-0.8.0.0, statistics-0.7.0.0,
+statistics-0.6.0.2, statistics-0.6.0.1, statistics-0.6.0.0,
+statistics-0.5.1.2, statistics-0.5.1.1, statistics-0.5.1.0, statistics-0.5.0.0
+(constraint from user target requires ==0.4.1)
+[__0] trying: statistics-0.4.1
+[__1] trying: uvector-0.1.1.1 (dependency of statistics)
+[__2] next goal: base (dependency of statistics)
+[__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: uvector =>
+base<4.3)
+[__2] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
+base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
+base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '<4.3' from 'uvector')
+[__2] rejecting: base-4.2.0.2, base-4.2.0.1, base-4.2.0.0, base-4.1.0.0,
+base-4.0.0.0, base-3.0.3.2, base-3.0.3.1 (constraint from non-upgradeable
+package requires installed instance)
+[__2] fail (backjumping, conflict set: base, statistics, uvector)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: statistics, base, uvector
+

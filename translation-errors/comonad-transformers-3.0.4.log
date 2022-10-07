@@ -1,0 +1,48 @@
+
+Translating:: comonad-transformers (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/comonad-transformers-3.0.4/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=420
++ '[' 420 -gt 86400 ']'
+/tmp/tmp.RFJ1UEiZkV/tmp.HSTTKFWutb/tmp.qttZi5qIfJ ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8520    0  8520    0     0  81634      0 --:--:-- --:--:-- --:--:-- 81923
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: comonad-transformers (user goal)
+[__0] rejecting: comonad-transformers-4.0, comonad-transformers-3.1
+(constraint from user target requires ==3.0.4)
+[__0] trying: comonad-transformers-3.0.4
+[__1] next goal: transformers (dependency of comonad-transformers)
+[__1] rejecting: transformers-0.5.6.2/installed-0.5.6.2 (conflict:
+comonad-transformers => transformers>=0.2 && <0.4)
+[__1] skipping: transformers-0.6.0.4, transformers-0.6.0.3,
+transformers-0.6.0.2, transformers-0.5.6.2, transformers-0.5.5.2,
+transformers-0.5.5.0, transformers-0.5.4.0, transformers-0.5.2.0,
+transformers-0.5.1.0, transformers-0.5.0.1, transformers-0.5.0.0,
+transformers-0.4.3.0, transformers-0.4.2.0, transformers-0.4.1.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=0.2 && <0.4' from 'comonad-transformers')
+[__1] trying: transformers-0.3.0.0
+[__2] next goal: base (dependency of comonad-transformers)
+[__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: transformers
++/-applicativeinbase => base>=1.0 && <4.8)
+[__2] rejecting: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
+base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
+base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0, base-4.2.0.2,
+base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0, base-3.0.3.2,
+base-3.0.3.1 (constraint from non-upgradeable package requires installed
+instance)
+[__2] fail (backjumping, conflict set: base, comonad-transformers,
+transformers)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, transformers,
+comonad-transformers
+

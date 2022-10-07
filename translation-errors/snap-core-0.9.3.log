@@ -1,0 +1,59 @@
+
+Translating:: snap-core (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/snap-core-0.9.3/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665157680
+++ date +%s
++ age=300
++ '[' 300 -gt 86400 ']'
+/tmp/tmp.ZPOnV3IoAv/tmp.6zXLI3kuY0/tmp.XpckONZp5a ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 91217    0 91217    0     0   630k      0 --:--:-- --:--:-- --:--:--  631k
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: snap-core (user goal)
+[__0] rejecting: snap-core-1.0.5.0, snap-core-1.0.4.2, snap-core-1.0.4.1,
+snap-core-1.0.4.0, snap-core-1.0.3.2, snap-core-1.0.3.1, snap-core-1.0.3.0,
+snap-core-1.0.2.1, snap-core-1.0.2.0, snap-core-1.0.1.1, snap-core-1.0.1.0,
+snap-core-1.0.0.0, snap-core-0.9.8.0, snap-core-0.9.7.2, snap-core-0.9.7.0,
+snap-core-0.9.6.4, snap-core-0.9.6.3, snap-core-0.9.6.2, snap-core-0.9.6.1,
+snap-core-0.9.6.0, snap-core-0.9.5.0, snap-core-0.9.4.1, snap-core-0.9.4.0,
+snap-core-0.9.3.1 (constraint from user target requires ==0.9.3)
+[__0] trying: snap-core-0.9.3
+[__1] next goal: vector (dependency of snap-core)
+[__1] rejecting: vector-0.13.0.0 (conflict: snap-core => vector>=0.6 && <0.11)
+[__1] skipping: vector-0.12.3.1, vector-0.12.3.0, vector-0.12.2.0,
+vector-0.12.1.2, vector-0.12.0.3, vector-0.12.0.2, vector-0.12.0.1,
+vector-0.12.0.0, vector-0.11.0.0 (has the same characteristics that caused the
+previous version to fail: excluded by constraint '>=0.6 && <0.11' from
+'snap-core')
+[__1] trying: vector-0.10.12.3
+[__2] next goal: primitive (dependency of vector)
+[__2] rejecting: primitive-0.7.4.0 (conflict: vector => primitive>=0.5.0.1 &&
+<0.6.2)
+[__2] skipping: primitive-0.7.3.0, primitive-0.7.2.0, primitive-0.7.1.0,
+primitive-0.7.0.1, primitive-0.7.0.0, primitive-0.6.4.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=0.5.0.1 && <0.6.2' from 'vector')
+[__2] trying: primitive-0.6.1.1
+[__3] next goal: base (dependency of snap-core)
+[__3] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: vector => base>=4
+&& <4.11)
+[__3] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0 (has the same characteristics that caused the previous version
+to fail: excluded by constraint '>=4 && <4.11' from 'vector')
+[__3] rejecting: base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
+base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
+base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
+base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0, base-4.2.0.2,
+base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0, base-3.0.3.2,
+base-3.0.3.1 (constraint from non-upgradeable package requires installed
+instance)
+[__3] fail (backjumping, conflict set: base, snap-core, vector)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, primitive, snap-core, vector
+Try running with --minimize-conflict-set to improve the error message.
+
