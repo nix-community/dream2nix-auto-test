@@ -1,0 +1,58 @@
+{
+  "_generic": {
+    "defaultPackage": "unix",
+    "location": "",
+    "packages": {
+      "unix": "2.8.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "bytestring#0.11.3.1": "0cc97b237df9a34d12de37973ad306391e24b0c262387c4d846bb8d1d65699dd",
+      "filepath#1.4.100.0": "45a49fc8c379b33fdba3c8cc96dcf22b15c50995d0f4b8638e9b6b9423d1b877"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "filepath": {
+      "1.4.100.0": [
+        [ "bytestring", "0.11.3.1" ]
+      ]
+    },
+    "unix": {
+      "2.8.0.0": [
+        [ "bytestring", "0.11.3.1" ],
+        [ "filepath", "1.4.100.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "bytestring": {
+      "0.11.3.1": {
+        "hash": "sha256:50518e1722be212d09df385e0d1054d6e67c3d125b8782413198d50ac52e075a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bytestring-0.11.3.1.tar.gz"
+      }
+    },
+    "filepath": {
+      "1.4.100.0": {
+        "hash": "sha256:691f2d659c902112faad40120bebe606ddc84602aeae57f912d285729da80acc",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/filepath-1.4.100.0.tar.gz"
+      }
+    },
+    "unix": {
+      "2.8.0.0": {
+        "hash": "sha256:882948dd930abb6ef86e6faae97ba8ae7a229a097101616a08461b44ef254b94",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unix-2.8.0.0/unix-2.8.0.0.tar.gz"
+      }
+    }
+  }
+}

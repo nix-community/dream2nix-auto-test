@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "digestive-functors",
+    "location": "",
+    "packages": {
+      "digestive-functors": "0.8.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
+      "semigroups#0.18.5": "41ef9f5f183f66c519c5cddcb3fbfdbc9b67a2b7bfae7d81f91de9ff7367d8c6"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "digestive-functors": {
+      "0.8.4.0": [
+        [ "old-locale", "1.0.0.7" ],
+        [ "semigroups", "0.18.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "digestive-functors": {
+      "0.8.4.0": {
+        "hash": "sha256:e09b098b4c455398e15225abb90906539a1b3d6778bce695844a15bbc007879e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/digestive-functors-0.8.4.0/digestive-functors-0.8.4.0.tar.gz"
+      }
+    },
+    "old-locale": {
+      "1.0.0.7": {
+        "hash": "sha256:dbaf8bf6b888fb98845705079296a23c3f40ee2f449df7312f7f7f1de18d7b50",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/old-locale-1.0.0.7.tar.gz"
+      }
+    },
+    "semigroups": {
+      "0.18.5": {
+        "hash": "sha256:ab2a96af6e81e31b909c37ba65f436f1493dbf387cfe0de10b6586270c4ce29d",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/semigroups-0.18.5.tar.gz"
+      }
+    }
+  }
+}

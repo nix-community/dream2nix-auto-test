@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "biopsl",
+    "location": "",
+    "packages": {
+      "biopsl": "0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "biocore#0.2": "4ee438208448576ff797d6561c7974ce824f953eba274a0facf7659a95100857",
+      "cmdargs#0.10.21": "a347cf8a16af30b9d8378209de0d1b7ac2b7b39e3af5d384383d8ef82315b37f",
+      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "biopsl": {
+      "0.4": [
+        [ "cmdargs", "0.10.21" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "biocore", "0.2" ]
+      ]
+    },
+    "hashable": {
+      "1.4.1.0": [
+        [ "base-orphans", "0.8.7" ]
+      ]
+    },
+    "unordered-containers": {
+      "0.2.19.1": [
+        [ "hashable", "1.4.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "base-orphans": {
+      "0.8.7": {
+        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+      }
+    },
+    "biocore": {
+      "0.2": {
+        "hash": "sha256:d3a619abaf6f58d2f6409de24eb66604e9295c7f37db4fa7a2461a2a2b2c6fc0",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/biocore-0.2.tar.gz"
+      }
+    },
+    "biopsl": {
+      "0.4": {
+        "hash": "sha256:b2be254020a276df342ede835a1c1b1b989763098d7d8a5536c0b86c5f7a3bed",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/biopsl-0.4/biopsl-0.4.tar.gz"
+      }
+    },
+    "cmdargs": {
+      "0.10.21": {
+        "hash": "sha256:f7d8ea5c4e6af368d9b5d2eb994fc29235406fbe91916a6dc63bd883025eca75",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cmdargs-0.10.21.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.1.0": {
+        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+      }
+    },
+    "unordered-containers": {
+      "0.2.19.1": {
+        "hash": "sha256:1b27bec5e0d522b27a6029ebf4c4a6d40acbc083c787008e32fb55c4b1d128d2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unordered-containers-0.2.19.1.tar.gz"
+      }
+    }
+  }
+}

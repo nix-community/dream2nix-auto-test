@@ -1,0 +1,48 @@
+
+Translating:: test-framework-quickcheck2 (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/test-framework-quickcheck2-0.3.0.5/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665162672
+++ date +%s
++ age=796
++ '[' 796 -gt 86400 ']'
+/tmp/tmp.B6tmCACXNM/tmp.a9tsrffvGG/tmp.wP4tKr9gJs ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/test-framework-quickcheck2-0.3.0.5/test-framework-quickcheck2-0.3.0.5.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3844  100  3844    0     0  54821      0 --:--:-- --:--:-- --:--:-- 54914
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] trying: test-framework-quickcheck2-0.3.0.5 (user goal)
+[__1] trying: base-4.15.1.0/installed-4.15.1.0 (dependency of
+test-framework-quickcheck2)
+[__2] next goal: QuickCheck (dependency of test-framework-quickcheck2)
+[__2] rejecting: QuickCheck-2.14.2 (conflict: test-framework-quickcheck2 =>
+QuickCheck>=2.4 && <2.13)
+[__2] skipping: QuickCheck-2.14.1, QuickCheck-2.14, QuickCheck-2.13.2,
+QuickCheck-2.13.1 (has the same characteristics that caused the previous
+version to fail: excluded by constraint '>=2.4 && <2.13' from
+'test-framework-quickcheck2')
+[__2] rejecting: QuickCheck-2.12.6.1 (conflict:
+base==4.15.1.0/installed-4.15.1.0, QuickCheck => base>=4.3 && <4.13)
+[__2] skipping: QuickCheck-2.12.5, QuickCheck-2.12.4, QuickCheck-2.12.3,
+QuickCheck-2.12.2, QuickCheck-2.12.1, QuickCheck-2.12, QuickCheck-2.11.3,
+QuickCheck-2.10.1, QuickCheck-2.10.0.1, QuickCheck-2.10, QuickCheck-2.9.2,
+QuickCheck-2.9.1, QuickCheck-2.9, QuickCheck-2.8.2, QuickCheck-2.8.1,
+QuickCheck-2.8, QuickCheck-2.7.6, QuickCheck-2.7.5, QuickCheck-2.7.4,
+QuickCheck-2.7.3, QuickCheck-2.7.2, QuickCheck-2.7.1, QuickCheck-2.7,
+QuickCheck-2.6, QuickCheck-2.5.1.1, QuickCheck-2.5.1, QuickCheck-2.5,
+QuickCheck-2.4.2, QuickCheck-2.4.1.1, QuickCheck-2.4.1, QuickCheck-2.4.0.1,
+QuickCheck-2.4, QuickCheck-2.3.0.2, QuickCheck-2.3.0.1, QuickCheck-2.3,
+QuickCheck-2.2, QuickCheck-2.1.2, QuickCheck-2.1.1.1, QuickCheck-2.1.1,
+QuickCheck-2.1.0.3, QuickCheck-2.1.0.2, QuickCheck-2.1.0.1, QuickCheck-2.1,
+QuickCheck-1.2.0.1, QuickCheck-1.2.0.0, QuickCheck-1.1.0.0, QuickCheck-1.0,
+QuickCheck-2.13, QuickCheck-2.12.6, QuickCheck-2.11.2, QuickCheck-2.11.1,
+QuickCheck-2.11 (has the same characteristics that caused the previous version
+to fail: excludes 'base' version 4.15.1.0)
+[__2] fail (backjumping, conflict set: QuickCheck, base,
+test-framework-quickcheck2)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, QuickCheck,
+test-framework-quickcheck2
+

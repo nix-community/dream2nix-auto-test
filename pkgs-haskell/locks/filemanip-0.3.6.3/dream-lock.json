@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "filemanip",
+    "location": "",
+    "packages": {
+      "filemanip": "0.3.6.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "unix-compat#0.6": "0f5d0929d838077909d397c7c83b711b89db4ed3d4dafea46af19c04b389b53c"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "filemanip": {
+      "0.3.6.3": [
+        [ "unix-compat", "0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "filemanip": {
+      "0.3.6.3": {
+        "hash": "sha256:8836da17baaaf02ca080c9990ece4e0b0c8d6a128f458f8b64fd07b225ca9846",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/filemanip-0.3.6.3/filemanip-0.3.6.3.tar.gz"
+      }
+    },
+    "unix-compat": {
+      "0.6": {
+        "hash": "sha256:b4cd823a6543ad3aca8e740ecf5f44aabde60f1452b5a55655db5c8b7a44d5f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unix-compat-0.6.tar.gz"
+      }
+    }
+  }
+}

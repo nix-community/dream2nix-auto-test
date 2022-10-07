@@ -1,0 +1,37 @@
+
+Translating:: test-framework-hunit (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/test-framework-hunit-0.3.0.2/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665162672
+++ date +%s
++ age=631
++ '[' 631 -gt 86400 ']'
+/tmp/tmp.kNV2Y32uIC/tmp.kzkVhwc1Uv/tmp.ZDRH2o9fsQ ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/test-framework-hunit-0.3.0.2/test-framework-hunit-0.3.0.2.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2770  100  2770    0     0  46121      0 --:--:-- --:--:-- --:--:-- 46949
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] trying: test-framework-hunit-0.3.0.2 (user goal)
+[__1] trying: test-framework-0.8.2.0 (dependency of test-framework-hunit)
+[__2] trying: base-4.15.1.0/installed-4.15.1.0 (dependency of test-framework)
+[__3] next goal: HUnit (dependency of test-framework-hunit)
+[__3] rejecting: HUnit-1.6.2.0 (conflict: test-framework-hunit => HUnit>=1.2
+&& <1.4)
+[__3] skipping: HUnit-1.6.1.0, HUnit-1.6.0.0, HUnit-1.5.0.0, HUnit-1.4.0.0
+(has the same characteristics that caused the previous version to fail:
+excluded by constraint '>=1.2 && <1.4' from 'test-framework-hunit')
+[__3] rejecting: HUnit-1.3.1.2 (conflict: base==4.15.1.0/installed-4.15.1.0,
+HUnit => base>=4 && <4.11)
+[__3] skipping: HUnit-1.3.1.1, HUnit-1.3.1.0, HUnit-1.3.0.0, HUnit-1.2.5.2,
+HUnit-1.2.5.1, HUnit-1.2.5.0, HUnit-1.2.4.3, HUnit-1.2.4.2, HUnit-1.2.2.3,
+HUnit-1.2.2.1, HUnit-1.2.2.0, HUnit-1.2.0.3, HUnit-1.2.0.2, HUnit-1.2.0.1,
+HUnit-1.2.0.0, HUnit-1.1 (has the same characteristics that caused the
+previous version to fail: excludes 'base' version 4.15.1.0)
+[__3] fail (backjumping, conflict set: HUnit, base, test-framework-hunit)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, HUnit, test-framework-hunit,
+test-framework
+Try running with --minimize-conflict-set to improve the error message.
+

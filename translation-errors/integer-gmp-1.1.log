@@ -1,0 +1,25 @@
+
+Translating:: integer-gmp (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/integer-gmp-1.1/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1665162672
+++ date +%s
++ age=145
++ '[' 145 -gt 86400 ']'
+/tmp/tmp.zIESVVlymK/tmp.3Wj8zjMIL8/tmp.B2YtZsrK7G ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/integer-gmp-1.1/integer-gmp-1.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4526  100  4526    0     0  71109      0 --:--:-- --:--:-- --:--:-- 71841
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] next goal: integer-gmp (user goal)
+[__0] rejecting: integer-gmp-1.1 (only already installed instances can be
+used)
+[__0] rejecting: integer-gmp-1.0.3.0, integer-gmp-1.0.2.0,
+integer-gmp-1.0.1.0, integer-gmp-1.0.0.1, integer-gmp-1.0.0.0,
+integer-gmp-0.5.1.0 (constraint from user target requires ==1.1)
+[__0] fail (backjumping, conflict set: integer-gmp)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: integer-gmp
+

@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "arrow-list",
+    "location": "",
+    "packages": {
+      "arrow-list": "0.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "containers#0.5.11.0": "1af9da3baaddc4f4aaea016b07d4c38ddbf702ce3f0df31120531950837996b8"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "arrow-list": {
+      "0.7": [
+        [ "containers", "0.5.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "arrow-list": {
+      "0.7": {
+        "hash": "sha256:33f836f23648aa2cea11533f7a9941127c397eecdca105b2084dded9e039d5d8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/arrow-list-0.7/arrow-list-0.7.tar.gz"
+      }
+    },
+    "containers": {
+      "0.5.11.0": {
+        "hash": "sha256:58cd226ad5a147b12240f854a1fbadf809fd56cb9532123d60c1b23d13e04948",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/containers-0.5.11.0.tar.gz"
+      }
+    }
+  }
+}
