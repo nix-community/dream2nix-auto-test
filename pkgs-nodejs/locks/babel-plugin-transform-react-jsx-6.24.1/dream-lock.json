@@ -1,0 +1,123 @@
+{
+  "_generic": {
+    "defaultPackage": "babel-plugin-transform-react-jsx",
+    "location": "",
+    "packages": {
+      "babel-plugin-transform-react-jsx": "6.24.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "babel-helper-builder-react-jsx": {
+      "6.26.0": [
+        [ "babel-runtime", "6.26.0" ],
+        [ "babel-types", "6.26.0" ],
+        [ "esutils", "2.0.3" ]
+      ]
+    },
+    "babel-plugin-transform-react-jsx": {
+      "6.24.1": [
+        [ "babel-helper-builder-react-jsx", "6.26.0" ],
+        [ "babel-plugin-syntax-jsx", "6.18.0" ],
+        [ "babel-runtime", "6.26.0" ]
+      ],
+      "unknown": [
+        [ "babel-plugin-transform-react-jsx", "6.24.1" ]
+      ]
+    },
+    "babel-runtime": {
+      "6.26.0": [
+        [ "core-js", "2.6.12" ],
+        [ "regenerator-runtime", "0.11.1" ]
+      ]
+    },
+    "babel-types": {
+      "6.26.0": [
+        [ "babel-runtime", "6.26.0" ],
+        [ "esutils", "2.0.3" ],
+        [ "lodash", "4.17.21" ],
+        [ "to-fast-properties", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "babel-helper-builder-react-jsx": {
+      "6.26.0": {
+        "hash": "sha512-02I9jDjnVEuGy2BR3LRm9nPRb/+Ja0pvZVLr1eI5TYAA/dB0Xoc+WBo50+aDfhGDLhlBY1+QURjn9uvcFd8gzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-6.26.0.tgz"
+      }
+    },
+    "babel-plugin-syntax-jsx": {
+      "6.18.0": {
+        "hash": "sha512-qrPaCSo9c8RHNRHIotaufGbuOBN8rtdC4QrrFFc43vyWCCz7Kl7GL1PGaXtMGQZUXrkCjNEgxDfmAuAabr/rlw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz"
+      }
+    },
+    "babel-plugin-transform-react-jsx": {
+      "6.24.1": {
+        "hash": "sha512-s+q/Y2u2OgDPHRuod3t6zyLoV8pUHc64i/O7ZNgIOEdYTq+ChPeybcKBi/xk9VI60VriILzFPW+dUxAEbTxh2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-6.24.1.tgz"
+      }
+    },
+    "babel-runtime": {
+      "6.26.0": {
+        "hash": "sha512-ITKNuq2wKlW1fJg9sSW52eepoYgZBggvOAHC0u/CYu/qxQ9EVzThCgR69BnSXLHjy2f7SY5zaQ4yt7H9ZVxY2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz"
+      }
+    },
+    "babel-types": {
+      "6.26.0": {
+        "hash": "sha512-zhe3V/26rCWsEZK8kZN+HaQj5yQ1CilTObixFzKW1UWjqG7618Twz6YEsCnjfg5gBcJh02DrpCkS9h98ZqDY+g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-types/-/babel-types-6.26.0.tgz"
+      }
+    },
+    "core-js": {
+      "2.6.12": {
+        "hash": "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
+      }
+    },
+    "esutils": {
+      "2.0.3": {
+        "hash": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.11.1": {
+        "hash": "sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz"
+      }
+    },
+    "to-fast-properties": {
+      "1.0.3": {
+        "hash": "sha512-lxrWP8ejsq+7E3nNjwYmUBMAgjMTZoTI+sdBOpvNyijeDLa29LUn9QaoXAHv4+Z578hbmHHJKZknzxVtvo77og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz"
+      }
+    }
+  }
+}
