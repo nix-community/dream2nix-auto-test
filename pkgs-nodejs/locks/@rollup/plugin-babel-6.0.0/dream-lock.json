@@ -3,7 +3,7 @@
     "defaultPackage": "@rollup/plugin-babel",
     "location": "",
     "packages": {
-      "@rollup/plugin-babel": "5.3.1"
+      "@rollup/plugin-babel": "6.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -19,7 +19,7 @@
     "@ampproject/remapping": {
       "2.2.0": [
         [ "@jridgewell/gen-mapping", "0.1.1" ],
-        [ "@jridgewell/trace-mapping", "0.3.15" ]
+        [ "@jridgewell/trace-mapping", "0.3.16" ]
       ]
     },
     "@babel/code-frame": {
@@ -149,28 +149,27 @@
       "0.3.2": [
         [ "@jridgewell/set-array", "1.1.2" ],
         [ "@jridgewell/sourcemap-codec", "1.4.14" ],
-        [ "@jridgewell/trace-mapping", "0.3.15" ]
+        [ "@jridgewell/trace-mapping", "0.3.16" ]
       ]
     },
     "@jridgewell/trace-mapping": {
-      "0.3.15": [
+      "0.3.16": [
         [ "@jridgewell/resolve-uri", "3.1.0" ],
         [ "@jridgewell/sourcemap-codec", "1.4.14" ]
       ]
     },
     "@rollup/plugin-babel": {
-      "5.3.1": [
+      "6.0.0": [
         [ "@babel/helper-module-imports", "7.18.6" ],
-        [ "@rollup/pluginutils", "3.1.0" ]
+        [ "@rollup/pluginutils", "4.2.1" ]
       ],
       "unknown": [
-        [ "@rollup/plugin-babel", "5.3.1" ]
+        [ "@rollup/plugin-babel", "6.0.0" ]
       ]
     },
     "@rollup/pluginutils": {
-      "3.1.0": [
-        [ "@types/estree", "0.0.39" ],
-        [ "estree-walker", "1.0.1" ],
+      "4.2.1": [
+        [ "estree-walker", "2.0.2" ],
         [ "picomatch", "2.3.1" ]
       ]
     },
@@ -182,7 +181,7 @@
     "browserslist": {
       "4.21.4": [
         [ "caniuse-lite", "1.0.30001418" ],
-        [ "electron-to-chromium", "1.4.275" ],
+        [ "electron-to-chromium", "1.4.276" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -207,11 +206,6 @@
     "debug": {
       "4.3.4": [
         [ "ms", "2.1.2" ]
-      ]
-    },
-    "rollup": {
-      "2.79.1": [
-        [ "fsevents", "2.3.2" ]
       ]
     },
     "supports-color": {
@@ -415,31 +409,24 @@
       }
     },
     "@jridgewell/trace-mapping": {
-      "0.3.15": {
-        "hash": "sha512-oWZNOULl+UbhsgB51uuZzglikfIKSUBO/M9W2OfEjn7cmqoAiCgmv9lyACTUacZwBz0ITnJ2NqjU8Tx0DHL88g==",
+      "0.3.16": {
+        "hash": "sha512-LCQ+NeThyJ4k1W2d+vIKdxuSt9R3pQSZ4P92m7EakaYuXcVWbHuT5bjNcqLd4Rdgi6xYWYDvBJZJLZSLanjDcA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.15.tgz"
+        "url": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.16.tgz"
       }
     },
     "@rollup/plugin-babel": {
-      "5.3.1": {
-        "hash": "sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==",
+      "6.0.0": {
+        "hash": "sha512-qM8YIt/2fVxw5O0wUgAeglyC+qx9mg3UtCCLoSqetmQOKipmnQ/X3I0L2sjjb6BswaYpv2tun25lHViU7JPxLQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz"
+        "url": "https://registry.npmjs.org/@rollup/plugin-babel/-/plugin-babel-6.0.0.tgz"
       }
     },
     "@rollup/pluginutils": {
-      "3.1.0": {
-        "hash": "sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==",
+      "4.2.1": {
+        "hash": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-3.1.0.tgz"
-      }
-    },
-    "@types/estree": {
-      "0.0.39": {
-        "hash": "sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@types/estree/-/estree-0.0.39.tgz"
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
       }
     },
     "ansi-styles": {
@@ -499,10 +486,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.275": {
-        "hash": "sha512-aJeQQ+Hl9Jyyzv4chBqYJwmVRY46N5i2BEX5Cuyk/5gFCUZ5F3i7Hnba6snZftWla7Gglwc5pIgcd+E7cW+rPg==",
+      "1.4.276": {
+        "hash": "sha512-EpuHPqu8YhonqLBXHoU6hDJCD98FCe6KDoet3/gY1qsQ6usjJoHqBH2YIVs8FXaAtHwVL8Uqa/fsYao/vq9VWQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.275.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.276.tgz"
       }
     },
     "escalade": {
@@ -520,17 +507,10 @@
       }
     },
     "estree-walker": {
-      "1.0.1": {
-        "hash": "sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==",
+      "2.0.2": {
+        "hash": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-1.0.1.tgz"
-      }
-    },
-    "fsevents": {
-      "2.3.2": {
-        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
       }
     },
     "gensync": {
@@ -601,13 +581,6 @@
         "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
         "type": "http",
         "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
-      }
-    },
-    "rollup": {
-      "2.79.1": {
-        "hash": "sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz"
       }
     },
     "safe-buffer": {
