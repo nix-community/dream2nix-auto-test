@@ -1,0 +1,64 @@
+{
+  "_generic": {
+    "defaultPackage": "@rollup/plugin-json",
+    "location": "",
+    "packages": {
+      "@rollup/plugin-json": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@rollup/plugin-json": {
+      "5.0.0": [
+        [ "@rollup/pluginutils", "4.2.1" ]
+      ],
+      "unknown": [
+        [ "@rollup/plugin-json", "5.0.0" ]
+      ]
+    },
+    "@rollup/pluginutils": {
+      "4.2.1": [
+        [ "estree-walker", "2.0.2" ],
+        [ "picomatch", "2.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@rollup/plugin-json": {
+      "5.0.0": {
+        "hash": "sha512-LsWDA5wJs/ggzakVuKQhZo7HPRcQZgBa3jWIVxQSFxaRToUGNi8ZBh3+k/gQ+1eInVYJgn4WBRCUkmoDrmmGzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-5.0.0.tgz"
+      }
+    },
+    "@rollup/pluginutils": {
+      "4.2.1": {
+        "hash": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
+      }
+    },
+    "estree-walker": {
+      "2.0.2": {
+        "hash": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
+      }
+    },
+    "picomatch": {
+      "2.3.1": {
+        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+      }
+    }
+  }
+}
