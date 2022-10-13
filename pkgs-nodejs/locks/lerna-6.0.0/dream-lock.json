@@ -248,7 +248,7 @@
       "6.0.0": [
         [ "@lerna/child-process", "6.0.0" ],
         [ "@octokit/plugin-enterprise-rest", "6.0.1" ],
-        [ "@octokit/rest", "19.0.4" ],
+        [ "@octokit/rest", "19.0.5" ],
         [ "git-url-parse", "13.1.0" ],
         [ "npmlog", "6.0.2" ]
       ]
@@ -739,7 +739,7 @@
     "@octokit/core": {
       "4.1.0": [
         [ "@octokit/auth-token", "3.0.2" ],
-        [ "@octokit/graphql", "5.0.2" ],
+        [ "@octokit/graphql", "5.0.3" ],
         [ "@octokit/request", "6.2.2" ],
         [ "@octokit/request-error", "3.0.2" ],
         [ "@octokit/types", "8.0.0" ],
@@ -755,15 +755,15 @@
       ]
     },
     "@octokit/graphql": {
-      "5.0.2": [
+      "5.0.3": [
         [ "@octokit/request", "6.2.2" ],
         [ "@octokit/types", "8.0.0" ],
         [ "universal-user-agent", "6.0.0" ]
       ]
     },
     "@octokit/plugin-paginate-rest": {
-      "4.3.1": [
-        [ "@octokit/types", "7.5.1" ]
+      "5.0.1": [
+        [ "@octokit/types", "8.0.0" ]
       ]
     },
     "@octokit/plugin-rest-endpoint-methods": {
@@ -790,17 +790,14 @@
       ]
     },
     "@octokit/rest": {
-      "19.0.4": [
+      "19.0.5": [
         [ "@octokit/core", "4.1.0" ],
-        [ "@octokit/plugin-paginate-rest", "4.3.1" ],
+        [ "@octokit/plugin-paginate-rest", "5.0.1" ],
         [ "@octokit/plugin-request-log", "1.0.4" ],
         [ "@octokit/plugin-rest-endpoint-methods", "6.7.0" ]
       ]
     },
     "@octokit/types": {
-      "7.5.1": [
-        [ "@octokit/openapi-types", "13.13.1" ]
-      ],
       "8.0.0": [
         [ "@octokit/openapi-types", "14.0.0" ]
       ]
@@ -3070,18 +3067,13 @@
       }
     },
     "@octokit/graphql": {
-      "5.0.2": {
-        "hash": "sha512-eniAoSY+nPBA72fPf6oBRtatjA0Mj87dQ93Gn1aK+UZaCwG20bvfipCWYpwIuoOVjsdulXBbkUAvK5FrSgkThA==",
+      "5.0.3": {
+        "hash": "sha512-VjhqOu2CHo2hwank1y2k8YcqF83zJW6upyP1+0l3wegvpq+4H31zOA5Rkyx76uJBUdJooUR5UnFyclBptzl86Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@octokit/graphql/-/graphql-5.0.2.tgz"
+        "url": "https://registry.npmjs.org/@octokit/graphql/-/graphql-5.0.3.tgz"
       }
     },
     "@octokit/openapi-types": {
-      "13.13.1": {
-        "hash": "sha512-4EuKSk3N95UBWFau3Bz9b3pheQ8jQYbKmBL5+GSuY8YDPDwu03J4BjI+66yNi8aaX/3h1qDpb0mbBkLdr+cfGQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-13.13.1.tgz"
-      },
       "14.0.0": {
         "hash": "sha512-HNWisMYlR8VCnNurDU6os2ikx0s0VyEjDYHNS/h4cgb8DeOxQ0n72HyinUtdDVxJhFy3FWLGl0DJhfEWk3P5Iw==",
         "type": "http",
@@ -3096,10 +3088,10 @@
       }
     },
     "@octokit/plugin-paginate-rest": {
-      "4.3.1": {
-        "hash": "sha512-h8KKxESmSFTcXX409CAxlaOYscEDvN2KGQRsLCGT1NSqRW+D6EXLVQ8vuHhFznS9MuH9QYw1GfsUN30bg8hjVA==",
+      "5.0.1": {
+        "hash": "sha512-7A+rEkS70pH36Z6JivSlR7Zqepz3KVucEFVDnSrgHXzG7WLAzYwcHZbKdfTXHwuTHbkT1vKvz7dHl1+HNf6Qyw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-4.3.1.tgz"
+        "url": "https://registry.npmjs.org/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-5.0.1.tgz"
       }
     },
     "@octokit/plugin-request-log": {
@@ -3131,18 +3123,13 @@
       }
     },
     "@octokit/rest": {
-      "19.0.4": {
-        "hash": "sha512-LwG668+6lE8zlSYOfwPj4FxWdv/qFXYBpv79TWIQEpBLKA9D/IMcWsF/U9RGpA3YqMVDiTxpgVpEW3zTFfPFTA==",
+      "19.0.5": {
+        "hash": "sha512-+4qdrUFq2lk7Va+Qff3ofREQWGBeoTKNqlJO+FGjFP35ZahP+nBenhZiGdu8USSgmq4Ky3IJ/i4u0xbLqHaeow==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@octokit/rest/-/rest-19.0.4.tgz"
+        "url": "https://registry.npmjs.org/@octokit/rest/-/rest-19.0.5.tgz"
       }
     },
     "@octokit/types": {
-      "7.5.1": {
-        "hash": "sha512-Zk4OUMLCSpXNI8KZZn47lVLJSsgMyCimsWWQI5hyjZg7hdYm0kjotaIkbG0Pp8SfU2CofMBzonboTqvzn3FrJA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@octokit/types/-/types-7.5.1.tgz"
-      },
       "8.0.0": {
         "hash": "sha512-65/TPpOJP1i3K4lBJMnWqPUJ6zuOtzhtagDvydAWbEXpbFYA0oMKKyLb95NFZZP0lSh/4b6K+DQlzvYQJQQePg==",
         "type": "http",
