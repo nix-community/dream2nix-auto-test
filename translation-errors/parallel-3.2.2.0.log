@@ -2,17 +2,17 @@
 Translating:: parallel (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/parallel-3.2.2.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1665693873
++ indexTime=1665730195
 ++ date +%s
-+ age=823
-+ '[' 823 -gt 86400 ']'
-/tmp/tmp.KUqWT6PImy/tmp.XIiXDEsK5D/tmp.DFeJxSclMi ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=765
++ '[' 765 -gt 86400 ']'
+/tmp/tmp.5kPxcLjo0p/tmp.6Hjowih0je/tmp.VzCqs4eyMl ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/parallel-3.2.2.0/parallel-3.2.2.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 14681  100 14681    0     0   164k      0 --:--:-- --:--:-- --:--:--  164k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 14681  100 14681    0     0  62276      0 --:--:-- --:--:-- --:--:-- 62472
 Resolving dependencies...
-cabal: Could not resolve dependencies:
+Error: cabal: Could not resolve dependencies:
 [__0] trying: parallel-3.2.2.0 (user goal)
 [__1] next goal: base (dependency of parallel)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: parallel =>

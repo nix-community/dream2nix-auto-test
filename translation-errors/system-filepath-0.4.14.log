@@ -2,17 +2,17 @@
 Translating:: system-filepath (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/system-filepath-0.4.14/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1665693873
++ indexTime=1665730195
 ++ date +%s
-+ age=774
-+ '[' 774 -gt 86400 ']'
-/tmp/tmp.8upSc75yBF/tmp.8LnjJjhtvI/tmp.K5FRP5tS3i ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=718
++ '[' 718 -gt 86400 ']'
+/tmp/tmp.xgmGRiSzub/tmp.91Bl1WoPIN/tmp.5a9K8CEicF ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/system-filepath-0.4.14/system-filepath-0.4.14.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 16663  100 16663    0     0   248k      0 --:--:-- --:--:-- --:--:--  250k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 16663  100 16663    0     0  66015      0 --:--:-- --:--:-- --:--:-- 66123
 Resolving dependencies...
-cabal: Could not resolve dependencies:
+Error: cabal: Could not resolve dependencies:
 [__0] trying: system-filepath-0.4.14 (user goal)
 [__1] next goal: system-filepath:setup.Cabal (dependency of system-filepath)
 [__1] rejecting: system-filepath:setup.Cabal-3.4.1.0/installed-3.4.1.0
