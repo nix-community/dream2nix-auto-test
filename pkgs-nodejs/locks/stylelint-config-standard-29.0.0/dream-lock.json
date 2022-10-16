@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "stylelint",
+    "defaultPackage": "stylelint-config-standard",
     "location": "",
     "packages": {
-      "stylelint": "14.13.0"
+      "stylelint-config-standard": "29.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -403,7 +403,7 @@
       ]
     },
     "stylelint": {
-      "14.13.0": [
+      "14.14.0": [
         [ "@csstools/selector-specificity", "2.0.2" ],
         [ "balanced-match", "2.0.0" ],
         [ "colord", "2.9.3" ],
@@ -442,9 +442,14 @@
         [ "table", "6.8.0" ],
         [ "v8-compile-cache", "2.3.0" ],
         [ "write-file-atomic", "4.0.2" ]
+      ]
+    },
+    "stylelint-config-standard": {
+      "29.0.0": [
+        [ "stylelint-config-recommended", "9.0.0" ]
       ],
       "unknown": [
-        [ "stylelint", "14.13.0" ]
+        [ "stylelint-config-standard", "29.0.0" ]
       ]
     },
     "supports-color": {
@@ -1530,10 +1535,24 @@
       }
     },
     "stylelint": {
-      "14.13.0": {
-        "hash": "sha512-NJSAdloiAB/jgVJKxMR90mWlctvmeBFGFVUvyKngi9+j/qPSJ5ZB+u8jOmGbLTnS7OHrII9NFGehPRyar8U5vg==",
+      "14.14.0": {
+        "hash": "sha512-yUI+4xXfPHVnueYddSQ/e1GuEA/2wVhWQbGj16AmWLtQJtn28lVxfS4b0CsWyVRPgd3Auzi0NXOthIEUhtQmmA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/stylelint/-/stylelint-14.13.0.tgz"
+        "url": "https://registry.npmjs.org/stylelint/-/stylelint-14.14.0.tgz"
+      }
+    },
+    "stylelint-config-recommended": {
+      "9.0.0": {
+        "hash": "sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stylelint-config-recommended/-/stylelint-config-recommended-9.0.0.tgz"
+      }
+    },
+    "stylelint-config-standard": {
+      "29.0.0": {
+        "hash": "sha512-uy8tZLbfq6ZrXy4JKu3W+7lYLgRQBxYTUUB88vPgQ+ZzAxdrvcaSUW9hOMNLYBnwH+9Kkj19M2DHdZ4gKwI7tg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stylelint-config-standard/-/stylelint-config-standard-29.0.0.tgz"
       }
     },
     "supports-color": {
