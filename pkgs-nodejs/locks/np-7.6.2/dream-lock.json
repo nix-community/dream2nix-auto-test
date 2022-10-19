@@ -56,19 +56,22 @@
     "@types/cacheable-request": {
       "6.0.2": [
         [ "@types/http-cache-semantics", "4.0.1" ],
-        [ "@types/keyv", "3.1.4" ],
-        [ "@types/node", "18.11.0" ],
+        [ "@types/keyv", "4.2.0" ],
+        [ "@types/node", "18.11.2" ],
         [ "@types/responselike", "1.0.0" ]
       ]
     },
     "@types/keyv": {
       "3.1.4": [
-        [ "@types/node", "18.11.0" ]
+        [ "@types/node", "18.11.2" ]
+      ],
+      "4.2.0": [
+        [ "keyv", "4.5.0" ]
       ]
     },
     "@types/responselike": {
       "1.0.0": [
-        [ "@types/node", "18.11.0" ]
+        [ "@types/node", "18.11.2" ]
       ]
     },
     "aggregate-error": {
@@ -496,7 +499,7 @@
       ]
     },
     "is-core-module": {
-      "2.10.0": [
+      "2.11.0": [
         [ "has", "1.0.3" ]
       ]
     },
@@ -675,7 +678,7 @@
       ],
       "3.0.3": [
         [ "hosted-git-info", "4.1.0" ],
-        [ "is-core-module", "2.10.0" ],
+        [ "is-core-module", "2.11.0" ],
         [ "semver", "7.3.8" ],
         [ "validate-npm-package-license", "3.0.4" ]
       ]
@@ -901,7 +904,7 @@
     },
     "resolve": {
       "1.22.1": [
-        [ "is-core-module", "2.10.0" ],
+        [ "is-core-module", "2.11.0" ],
         [ "path-parse", "1.0.7" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ]
       ]
@@ -1213,6 +1216,11 @@
         "hash": "sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==",
         "type": "http",
         "url": "https://registry.npmjs.org/@types/keyv/-/keyv-3.1.4.tgz"
+      },
+      "4.2.0": {
+        "hash": "sha512-xoBtGl5R9jeKUhc8ZqeYaRDx04qqJ10yhhXYGmJ4Jr8qKpvMsDQQrNUvF/wUJ4klOtmJeJM+p2Xo3zp9uaC3tw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/keyv/-/keyv-4.2.0.tgz"
       }
     },
     "@types/minimist": {
@@ -1223,10 +1231,10 @@
       }
     },
     "@types/node": {
-      "18.11.0": {
-        "hash": "sha512-IOXCvVRToe7e0ny7HpT/X9Rb2RYtElG1a+VshjwT00HxrM2dWBApHQoqsI6WiY7Q03vdf2bCrIGzVrkF/5t10w==",
+      "18.11.2": {
+        "hash": "sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.0.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.2.tgz"
       }
     },
     "@types/normalize-package-data": {
@@ -2060,10 +2068,10 @@
       }
     },
     "is-core-module": {
-      "2.10.0": {
-        "hash": "sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==",
+      "2.11.0": {
+        "hash": "sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz"
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz"
       }
     },
     "is-docker": {
