@@ -15,7 +15,7 @@
       "Only#0.1": "f92f5da97e647451f1ee7f5bf44914fb75062d08ccd3f36b2000d649c63d13aa",
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
-      "aeson#2.0.3.0": "510c59bece9c6b3d9e999674b869c765cdc3df9f9f90b6871df3e62f87b12fff",
+      "aeson#2.1.1.0": "103ceb1421cd0ffa810bfb1acb1261d60addbde1a041fb5cce0056ff7d7dcdc2",
       "ansi-terminal#0.11.3": "cc499d5f4c09a7213cd752ee69dbb5a5b8f3d1c777274e609eea4bca5c68ac8c",
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
       "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
@@ -47,6 +47,7 @@
       "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
       "easy-file#0.2.2": "72303120495a9fed82276a7987434361edd6dfecafad241d7c6c03b68e4801e5",
       "fast-logger#3.1.1": "9ffbb0d475edf6c3ed13cae0b24202a22a1a29848d9810785849f1f2332b6ee1",
+      "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "hspec#2.10.6": "c90dbcc629e88e5f56021c7dba26a97109a0c441aeece6ead217ee3fc83dcb68",
@@ -73,7 +74,7 @@
       "old-time#1.1.0.3": "c91fbb3ee73d20ccd015842b30f1f29a304893ebe0ae3128b7bbc13d5bb0d4c8",
       "path-pieces#0.2.1": "c713a8d04b3e6b89f1116c1d5fe434305031e17a9f0ad30a457a8402e1d5fc5c",
       "pcre-light#0.4.1.0": "4902ef06b037fd79448c7a63a65c1a4a1bf0bbc15ea7e67e71d52ec995e18460",
-      "persistent#2.14.3.0": "72a0a5b923e3e0c0767c6bad9b511a1ff07aa0fdf7e665b7c9ab44f16514ad54",
+      "persistent#2.14.3.0": "2198d125081caabd0a4422814424fdaaa2bc24d3d778b1e2e3074c59273971e1",
       "persistent-mysql#2.13.1.3": "541ba139cf8c7c9d184b00c40a44f39d9b9dff4cf9d778b16efddbd885a9a84b",
       "persistent-postgresql#2.13.5.0": "4ec08fd2f30b42800b8b622d322f3c5f54d263b5b668adae5aa7a6c8388c041c",
       "persistent-sqlite#2.13.1.0": "20dc8067acd7ddc022f9d811d7344cc9e7def2d7c2a223ceff8cfae6ca4752f3",
@@ -160,13 +161,14 @@
       ]
     },
     "aeson": {
-      "2.0.3.0": [
+      "2.1.1.0": [
         [ "OneTuple", "0.3.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
         [ "base-compat-batteries", "0.12.2" ],
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
+        [ "generically", "0.1" ],
         [ "hashable", "1.4.1.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "primitive", "0.7.4.0" ],
@@ -301,7 +303,7 @@
     },
     "esqueleto": {
       "3.5.8.1": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "conduit", "1.3.4.3" ],
@@ -312,7 +314,7 @@
         [ "unliftio", "0.2.22.0" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "QuickCheck", "2.14.2" ],
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "conduit", "1.3.4.3" ],
@@ -471,7 +473,7 @@
     },
     "persistent": {
       "2.14.3.0": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "base64-bytestring", "1.2.1.0" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -495,7 +497,7 @@
     },
     "persistent-mysql": {
       "2.13.1.3": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "blaze-builder", "0.4.2.2" ],
         [ "conduit", "1.3.4.3" ],
         [ "monad-logger", "0.3.37" ],
@@ -509,7 +511,7 @@
     },
     "persistent-postgresql": {
       "2.13.5.0": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "blaze-builder", "0.4.2.2" ],
         [ "conduit", "1.3.4.3" ],
@@ -526,7 +528,7 @@
     },
     "persistent-sqlite": {
       "2.13.1.0": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "conduit", "1.3.4.3" ],
         [ "microlens-th", "0.4.3.10" ],
         [ "monad-logger", "0.3.37" ],
@@ -545,7 +547,7 @@
     "postgresql-simple": {
       "0.6.4": [
         [ "Only", "0.1" ],
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "bytestring-builder", "0.10.8.2.0" ],
         [ "case-insensitive", "1.2.1.0" ],
@@ -767,10 +769,10 @@
       }
     },
     "aeson": {
-      "2.0.3.0": {
-        "hash": "sha256:19760a2b84764fa3cee65c63df0c80d45497e2f0c3b95d4e6dc2083b8604b325",
+      "2.1.1.0": {
+        "hash": "sha256:a3ae978d67cd8554a6dc11d1e5a4c46280dc90bbc50f3a8787fdd2278524b6ad",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/aeson-2.0.3.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/aeson-2.1.1.0.tar.gz"
       }
     },
     "ansi-terminal": {
@@ -995,6 +997,13 @@
         "hash": "sha256:435f6e7e0771b9b525550c292a941ab5726b233e7d91fdeca707e3cdb531a8e7",
         "type": "http",
         "url": "https://hackage.haskell.org/package/fast-logger-3.1.1.tar.gz"
+      }
+    },
+    "generically": {
+      "0.1": {
+        "hash": "sha256:d5b72880e1d00b24b6c221978d060bea620acc412cdcb62521f3016cbd3f2b71",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/generically-0.1.tar.gz"
       }
     },
     "hashable": {

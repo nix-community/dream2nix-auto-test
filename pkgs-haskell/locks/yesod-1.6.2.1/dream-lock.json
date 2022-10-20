@@ -14,7 +14,7 @@
       "OneTuple#0.3.1": "fc32cb744477befa450a538ea4975cc523f0a2f1585cb5a36e9936a3d18e9a3c",
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
-      "aeson#2.0.3.0": "510c59bece9c6b3d9e999674b869c765cdc3df9f9f90b6871df3e62f87b12fff",
+      "aeson#2.1.1.0": "103ceb1421cd0ffa810bfb1acb1261d60addbde1a041fb5cce0056ff7d7dcdc2",
       "ansi-terminal#0.11.3": "cc499d5f4c09a7213cd752ee69dbb5a5b8f3d1c777274e609eea4bca5c68ac8c",
       "appar#0.1.8": "a5d529bacbb74d566e4c5f9479af0637eac5957705f6db4d2670517489795de8",
       "asn1-encoding#0.9.6": "27ed8f6043aed79630313bb931f7c8e2b510f0b4586cd55c16ae040c7d1ea098",
@@ -69,6 +69,7 @@
       "entropy#0.4.1.10": "219a10d58386831dd742982e85841c16822f5c219b7cc6e5afff86f956c5b935",
       "fast-logger#3.1.1": "9ffbb0d475edf6c3ed13cae0b24202a22a1a29848d9810785849f1f2332b6ee1",
       "file-embed#0.0.15.0": "18beed8999dff37bcffd0d1d8a59dcd406be8e517c10213afefc941091985c06",
+      "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
       "hourglass#0.2.12": "e083f5e030dfebe432e30a9c0fa07a99a54eac992f622442646be561fd7a44e8",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
@@ -95,7 +96,7 @@
       "old-time#1.1.0.3": "c91fbb3ee73d20ccd015842b30f1f29a304893ebe0ae3128b7bbc13d5bb0d4c8",
       "path-pieces#0.2.1": "c713a8d04b3e6b89f1116c1d5fe434305031e17a9f0ad30a457a8402e1d5fc5c",
       "pem#0.2.4": "cc8e62118b783e284dc0fa032f54fe386a3861a948ec88079370a433c103a705",
-      "persistent#2.14.3.0": "72a0a5b923e3e0c0767c6bad9b511a1ff07aa0fdf7e665b7c9ab44f16514ad54",
+      "persistent#2.14.3.0": "2198d125081caabd0a4422814424fdaaa2bc24d3d778b1e2e3074c59273971e1",
       "persistent-template#2.12.0.0": "7c68de6624ff83e14b674745e1c895dcf7c8676f6f24be131c89e2e4c2fa4510",
       "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
       "psqueues#0.2.7.3": "7213d78598d397255b1861df318d9b5058577f86a9b83a8b652540cbdbc83033",
@@ -190,13 +191,14 @@
       ]
     },
     "aeson": {
-      "2.0.3.0": [
+      "2.1.1.0": [
         [ "OneTuple", "0.3.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
         [ "base-compat-batteries", "0.12.2" ],
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
+        [ "generically", "0.1" ],
         [ "hashable", "1.4.1.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "primitive", "0.7.4.0" ],
@@ -571,7 +573,7 @@
     },
     "persistent": {
       "2.14.3.0": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "base64-bytestring", "1.2.1.0" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -659,7 +661,7 @@
     },
     "shakespeare": {
       "2.0.30": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "blaze-markup", "0.8.2.8" ],
         [ "file-embed", "0.0.15.0" ],
@@ -794,7 +796,7 @@
     "wai-extra": {
       "3.1.12.1": [
         [ "HUnit", "1.6.2.0" ],
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "ansi-terminal", "0.11.3" ],
         [ "base64-bytestring", "1.2.1.0" ],
         [ "call-stack", "0.4.0" ],
@@ -879,7 +881,7 @@
     },
     "yaml": {
       "0.11.8.0": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "conduit", "1.3.4.3" ],
         [ "libyaml", "0.1.2" ],
@@ -891,7 +893,7 @@
     },
     "yesod": {
       "1.6.2.1": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "conduit", "1.3.4.3" ],
         [ "data-default-class", "0.1.2.0" ],
         [ "fast-logger", "3.1.1" ],
@@ -912,7 +914,7 @@
     },
     "yesod-core": {
       "1.6.24.0": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "auto-update", "0.1.6" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "blaze-markup", "0.8.2.8" ],
@@ -945,7 +947,7 @@
     },
     "yesod-form": {
       "1.7.3": [
-        [ "aeson", "2.0.3.0" ],
+        [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "blaze-builder", "0.4.2.2" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -1005,10 +1007,10 @@
       }
     },
     "aeson": {
-      "2.0.3.0": {
-        "hash": "sha256:19760a2b84764fa3cee65c63df0c80d45497e2f0c3b95d4e6dc2083b8604b325",
+      "2.1.1.0": {
+        "hash": "sha256:a3ae978d67cd8554a6dc11d1e5a4c46280dc90bbc50f3a8787fdd2278524b6ad",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/aeson-2.0.3.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/aeson-2.1.1.0.tar.gz"
       }
     },
     "ansi-terminal": {
@@ -1387,6 +1389,13 @@
         "hash": "sha256:f066b85d537a20252faa59489f6a854e4e8f39080f08730c9e195e418cec5bdd",
         "type": "http",
         "url": "https://hackage.haskell.org/package/file-embed-0.0.15.0.tar.gz"
+      }
+    },
+    "generically": {
+      "0.1": {
+        "hash": "sha256:d5b72880e1d00b24b6c221978d060bea620acc412cdcb62521f3016cbd3f2b71",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/generically-0.1.tar.gz"
       }
     },
     "hashable": {
