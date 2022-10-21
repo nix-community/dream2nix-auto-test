@@ -1,0 +1,60 @@
+{
+  "_generic": {
+    "defaultPackage": "loader-utils",
+    "location": "",
+    "packages": {
+      "loader-utils": "2.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loader-utils": {
+      "2.0.3": [
+        [ "big.js", "5.2.2" ],
+        [ "emojis-list", "3.0.0" ],
+        [ "json5", "2.2.1" ]
+      ],
+      "unknown": [
+        [ "loader-utils", "2.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "big.js": {
+      "5.2.2": {
+        "hash": "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+      }
+    },
+    "emojis-list": {
+      "3.0.0": {
+        "hash": "sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
+      }
+    },
+    "json5": {
+      "2.2.1": {
+        "hash": "sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
+      }
+    },
+    "loader-utils": {
+      "2.0.3": {
+        "hash": "sha512-THWqIsn8QRnvLl0shHYVBN9syumU8pYWEHPTmkiVGd+7K5eFNVSY6AJhRvgGF70gg1Dz+l/k8WicvFCxdEs60A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.3.tgz"
+      }
+    }
+  }
+}
