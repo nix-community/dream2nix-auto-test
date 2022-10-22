@@ -3,7 +3,7 @@
     "defaultPackage": "@rollup/plugin-typescript",
     "location": "",
     "packages": {
-      "@rollup/plugin-typescript": "9.0.1"
+      "@rollup/plugin-typescript": "9.0.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,16 +17,17 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@rollup/plugin-typescript": {
-      "9.0.1": [
-        [ "@rollup/pluginutils", "4.2.1" ],
+      "9.0.2": [
+        [ "@rollup/pluginutils", "5.0.2" ],
         [ "resolve", "1.22.1" ]
       ],
       "unknown": [
-        [ "@rollup/plugin-typescript", "9.0.1" ]
+        [ "@rollup/plugin-typescript", "9.0.2" ]
       ]
     },
     "@rollup/pluginutils": {
-      "4.2.1": [
+      "5.0.2": [
+        [ "@types/estree", "1.0.0" ],
         [ "estree-walker", "2.0.2" ],
         [ "picomatch", "2.3.1" ]
       ]
@@ -51,17 +52,24 @@
   },
   "sources": {
     "@rollup/plugin-typescript": {
-      "9.0.1": {
-        "hash": "sha512-fj+CTk8+HvFCEwwDQdNgWd0lIJVXtMQ0Z3vH/ZgzFSbK2s1zs5wjZrjzrhViTTN+UF49+P69/tybgKRdGHpj/Q==",
+      "9.0.2": {
+        "hash": "sha512-/sS93vmHUMjzDUsl5scNQr1mUlNE1QjBBvOhmRwJCH8k2RRhDIm3c977B3wdu3t3Ap17W6dDeXP3hj1P1Un1bA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/plugin-typescript/-/plugin-typescript-9.0.1.tgz"
+        "url": "https://registry.npmjs.org/@rollup/plugin-typescript/-/plugin-typescript-9.0.2.tgz"
       }
     },
     "@rollup/pluginutils": {
-      "4.2.1": {
-        "hash": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==",
+      "5.0.2": {
+        "hash": "sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.0.2.tgz"
+      }
+    },
+    "@types/estree": {
+      "1.0.0": {
+        "hash": "sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/estree/-/estree-1.0.0.tgz"
       }
     },
     "estree-walker": {

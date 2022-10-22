@@ -3,7 +3,7 @@
     "defaultPackage": "@rollup/plugin-json",
     "location": "",
     "packages": {
-      "@rollup/plugin-json": "5.0.0"
+      "@rollup/plugin-json": "5.0.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,15 +17,16 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@rollup/plugin-json": {
-      "5.0.0": [
-        [ "@rollup/pluginutils", "4.2.1" ]
+      "5.0.1": [
+        [ "@rollup/pluginutils", "5.0.2" ]
       ],
       "unknown": [
-        [ "@rollup/plugin-json", "5.0.0" ]
+        [ "@rollup/plugin-json", "5.0.1" ]
       ]
     },
     "@rollup/pluginutils": {
-      "4.2.1": [
+      "5.0.2": [
+        [ "@types/estree", "1.0.0" ],
         [ "estree-walker", "2.0.2" ],
         [ "picomatch", "2.3.1" ]
       ]
@@ -33,17 +34,24 @@
   },
   "sources": {
     "@rollup/plugin-json": {
-      "5.0.0": {
-        "hash": "sha512-LsWDA5wJs/ggzakVuKQhZo7HPRcQZgBa3jWIVxQSFxaRToUGNi8ZBh3+k/gQ+1eInVYJgn4WBRCUkmoDrmmGzw==",
+      "5.0.1": {
+        "hash": "sha512-QCwhZZLvM8nRcTHyR1vOgyTMiAnjiNj1ebD/BMRvbO1oc/z14lZH6PfxXeegee2B6mky/u9fia4fxRM4TqrUaw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-5.0.0.tgz"
+        "url": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-5.0.1.tgz"
       }
     },
     "@rollup/pluginutils": {
-      "4.2.1": {
-        "hash": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==",
+      "5.0.2": {
+        "hash": "sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.0.2.tgz"
+      }
+    },
+    "@types/estree": {
+      "1.0.0": {
+        "hash": "sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/estree/-/estree-1.0.0.tgz"
       }
     },
     "estree-walker": {
