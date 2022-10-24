@@ -19,7 +19,7 @@
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
       "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
       "attoparsec#0.14.4": "c0569d86c02cadd403017ea414dcb5e4f7de5380de0d8a92b9337cad84cd5e02",
-      "attoparsec-iso8601#1.0.2.1": "e9599340c5c3cd0812bb7d42c2e7652715365730c1e786bc5ab2bc3d30bf7368",
+      "attoparsec-iso8601#1.1.0.0": "29d590f21adc4112973ad5e874d095f8b403b886932fe7e15567b239f5483539",
       "base-compat#0.11.2": "31bfcb04e73c994e46fa1b6136dffbea75d2f6e27a67c493a97095bc53c8db40",
       "base-compat-batteries#0.11.2": "eb3b976007754ddc16e8d4afacdd1e575ae746edb57dcd0a1a728ccd4b372a69",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
@@ -42,7 +42,7 @@
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
-      "http-api-data#0.4.3": "f4134a06d6544193a4d088df362e132a6cb71a0538f5636bf860971cd0879960",
+      "http-api-data#0.5": "f304551bbdbf3d7ca842fd9e12516a673bf0ea41bfabd6c3c68c0054295098bd",
       "http-client#0.7.13.1": "ecc9168d47a48ab1f895efe7aff50217a185b5591afad7559f8356e74e581ac0",
       "http-media#0.8.0.0": "4d9a0779d26872847a1935a281ed04d15123b5db48930e8c3b72f28db35da8ea",
       "http-types#0.12.3": "f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9",
@@ -65,13 +65,13 @@
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
       "semigroupoids#5.3.7": "fb1a86c250997c269106645724a67bc358235245cf385b589f855ac070d4ada0",
       "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
-      "servant#0.19": "8d1119c20d6eccb56e308642ec376eaa1b267a8dd761aa85a10e299e64371e3c",
+      "servant#0.19": "17efc2539fe6e7683f00eba011bc2b437ed826a0a7ffcf9565567ef5f7c4c842",
       "servant-client-core#0.19": "f022bf97c75d2cf1f8498252f4fb0033873467318ace61b13eadf3c481b362ea",
       "singleton-bool#0.1.6": "b940e8393ddf9d2d7b20a2141672c3120821edd32d1618c7fcfc71458ce996d0",
       "some#1.0.4.1": "f407af0368a40f21a7629dbcb2936b76400c9e8155a3898df85349619ae4302e",
       "sop-core#0.5.0.2": "ff598e3bf9d080dfafa5b743df280419d39784b438d8a99bf52f08a024f6dfdc",
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
-      "streaming-commons#0.2.2.4": "cda37e6d0320ef05160bac35c180b3e980f9267bf00393af6578a632f1ea8429",
+      "streaming-commons#0.2.2.5": "34959abee70e63d370b5a4bee0bc3483c66d1e53906fb5e13844ae8b9a62a4a3",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "string-conversions#0.4.0.1": "9c4075e54aa6cabfe244e07e2a1de720f3e98a0a6980fc671ab9c0da30f0f259",
       "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
@@ -175,7 +175,7 @@
       ]
     },
     "attoparsec-iso8601": {
-      "1.0.2.1": [
+      "1.1.0.0": [
         [ "attoparsec", "0.14.4" ],
         [ "base-compat-batteries", "0.11.2" ],
         [ "time-compat", "1.9.6.1" ]
@@ -262,9 +262,9 @@
       ]
     },
     "http-api-data": {
-      "0.4.3": [
+      "0.5": [
         [ "attoparsec", "0.14.4" ],
-        [ "attoparsec-iso8601", "1.0.2.1" ],
+        [ "attoparsec-iso8601", "1.1.0.0" ],
         [ "base-compat", "0.11.2" ],
         [ "cookie", "0.4.5" ],
         [ "hashable", "1.4.1.0" ],
@@ -288,7 +288,7 @@
         [ "network", "3.1.2.7" ],
         [ "network-uri", "2.6.4.1" ],
         [ "random", "1.2.1.1" ],
-        [ "streaming-commons", "0.2.2.4" ]
+        [ "streaming-commons", "0.2.2.5" ]
       ]
     },
     "http-media": {
@@ -422,7 +422,7 @@
         [ "bifunctors", "5.5.13" ],
         [ "case-insensitive", "1.2.1.0" ],
         [ "constraints", "0.13.4" ],
-        [ "http-api-data", "0.4.3" ],
+        [ "http-api-data", "0.5" ],
         [ "http-media", "0.8.0.0" ],
         [ "http-types", "0.12.3" ],
         [ "mmorph", "1.2.0" ],
@@ -472,7 +472,7 @@
       ]
     },
     "streaming-commons": {
-      "0.2.2.4": [
+      "0.2.2.5": [
         [ "async", "2.2.4" ],
         [ "network", "3.1.2.7" ],
         [ "random", "1.2.1.1" ],
@@ -613,10 +613,10 @@
       }
     },
     "attoparsec-iso8601": {
-      "1.0.2.1": {
-        "hash": "sha256:13342ad347a993b5bc39b47b6c2d1ba13c2f8488cb3950940442ca3ecc36b2fe",
+      "1.1.0.0": {
+        "hash": "sha256:1109a817c448a154ec58047a8f01282530cb40d20fbd5690bc58b1443ecb264a",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/attoparsec-iso8601-1.0.2.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/attoparsec-iso8601-1.1.0.0.tar.gz"
       }
     },
     "base-compat": {
@@ -774,10 +774,10 @@
       }
     },
     "http-api-data": {
-      "0.4.3": {
-        "hash": "sha256:df2747abb477a46c382cd6c2e3a7a2e2f4ba9317fc9de34703e55d4294e02b9c",
+      "0.5": {
+        "hash": "sha256:f7edb4202cd6567e9ec5cda94dec0a823ca0ef00cf2fd7ec2cf80d946776b73f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/http-api-data-0.4.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/http-api-data-0.5.tar.gz"
       }
     },
     "http-client": {
@@ -984,10 +984,10 @@
       }
     },
     "streaming-commons": {
-      "0.2.2.4": {
-        "hash": "sha256:56a1408cce710cddfb04d73757efba439c98fb8043515083a45136902214ccf2",
+      "0.2.2.5": {
+        "hash": "sha256:ca50819bdb2b248ced790e9faab07a3a5369ef702d9f9a932f26438bbeeca704",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/streaming-commons-0.2.2.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/streaming-commons-0.2.2.5.tar.gz"
       }
     },
     "strict": {
