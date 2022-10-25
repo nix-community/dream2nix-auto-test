@@ -45,7 +45,7 @@
       "clientsession#0.9.1.2": "8a1a9099e9289103020af45079b5cfeb3c1b33c6d0fb7bd5a1d8abf985f69574",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
-      "conduit#1.3.4.3": "c32a5f3ee2daff364de2807afeec45996e5633f9a5010c8504472a930ac7153e",
+      "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
       "conduit-extra#1.3.6": "83303e6fea78a683fdbb41682fc8dbc47b1d8830da1f09e88940f9a744a7f984",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "cookie#0.4.5": "22bbe2bea34cfc546eaca2468386035fec521b8dbae52f5aa2f994ed68b35e0e",
@@ -81,7 +81,7 @@
       "lifted-base#0.2.3.12": "e94ad0692c9c5d85c373e508f23654f2da8ac8c3e475c2b65ffbc04fb165ad69",
       "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
-      "monad-logger#0.3.37": "ae31babac1d3fe9806a5c8bcf9d2f6454c3d2e7b226d7a82620e7027ace6caf0",
+      "monad-logger#0.3.37": "0d9a0bd965b516b1855b0e52097581ae5df931c34de5ac626a673f34e7017cce",
       "monad-loops#0.4.3": "ada4f1295ece07f9a7398bc5b40c4532f95a733a8604d2a2f57f05f878766df2",
       "mono-traversable#1.0.15.3": "059bf3c05cdbef2d06b765333fe41c2168ced2503a23de674e2a59ceb2548c48",
       "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
@@ -95,7 +95,7 @@
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "recv#0.0.0": "d146b0decff93c72f043ec06d7bed2ca53595ceb61debb43c94302e657378508",
-      "resourcet#1.2.6": "0c55be13d24c1e9c1e6d82327ac039a0bf41469c456e3ae678efa8a9beda3a74",
+      "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
       "securemem#0.1.10": "1e69f378f2837c502ebe02760c136e67e84dfe6052b7ecf694ccbe66c16a86d2",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
@@ -130,7 +130,7 @@
       "vector#0.12.3.1": "fffbd00912d69ed7be9bc7eeb09f4f475e0d243ec43f916a9fd5bbd219ce7f3e",
       "vector-algorithms#0.9.0.1": "34cc5851ebf2eb80fc62cbb5c6dbe59ab837f1d5366a6c3bf1e09cf34805aaae",
       "wai#3.2.3": "c7518618bdb842116dbc1a4e4553223799eef43add19278c2bbffb4536595fe0",
-      "wai-extra#3.1.12.1": "b1e9e5eccb4a51b77bb8c9aafd6840e918047ffd6048eb538ef34b61a9d2fe8d",
+      "wai-extra#3.1.12.1": "50527bad1b63b3f1c4e29e4415b773fa080d620f6d9981d28f4293e154aa6997",
       "wai-logger#2.4.0": "630b3d573dce5c6a84dfb372d69f8d15f9dbb52d6a04df43e57a44f0ca0eab0a",
       "warp#3.3.23": "0959cc33ae0b2940ebb81f2482095fe9566abaf487cae312284c507c00008fa1",
       "witherable#0.4.2": "cccb36175e088abb4291ee5044b8c04d71acd5c36636902d2520f91508dd4bb8",
@@ -317,7 +317,7 @@
       "1.3.4.3": [
         [ "mono-traversable", "1.0.15.3" ],
         [ "primitive", "0.7.4.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "unliftio-core", "0.2.0.1" ],
         [ "vector", "0.12.3.1" ]
       ]
@@ -329,7 +329,7 @@
         [ "conduit", "1.3.4.3" ],
         [ "network", "3.1.2.7" ],
         [ "primitive", "0.7.4.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "typed-process", "0.2.10.1" ],
         [ "unliftio-core", "0.2.0.1" ]
@@ -502,7 +502,7 @@
         [ "lifted-base", "0.2.3.12" ],
         [ "monad-control", "1.0.3.1" ],
         [ "monad-loops", "0.4.3" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "stm-chans", "3.0.0.6" ],
         [ "transformers-base", "0.4.6" ],
         [ "transformers-compat", "0.7.2" ],
@@ -556,7 +556,7 @@
       ]
     },
     "resourcet": {
-      "1.2.6": [
+      "1.3.0": [
         [ "primitive", "0.7.4.0" ],
         [ "unliftio-core", "0.2.0.1" ]
       ]
@@ -747,7 +747,7 @@
         [ "http2", "3.0.3" ],
         [ "iproute", "1.7.12" ],
         [ "network", "3.1.2.7" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "vault", "0.3.1.5" ],
         [ "wai", "3.2.3" ],
@@ -829,7 +829,7 @@
         [ "path-pieces", "0.2.1" ],
         [ "primitive", "0.7.4.0" ],
         [ "random", "1.2.1.1" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "shakespeare", "2.0.30" ],
         [ "unix-compat", "0.6" ],
         [ "unliftio", "0.2.22.0" ],
@@ -854,7 +854,7 @@
         [ "http-types", "0.12.3" ],
         [ "network", "3.1.2.7" ],
         [ "random", "1.2.1.1" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "shakespeare", "2.0.30" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "unliftio", "0.2.22.0" ],
@@ -1465,10 +1465,10 @@
       }
     },
     "resourcet": {
-      "1.2.6": {
-        "hash": "sha256:f83b35b2106854750ef5f1c34695ea8b7bba6e0572cedf9f2993c5acfdb5fd34",
+      "1.3.0": {
+        "hash": "sha256:ec601785ee42a201f32adb205b8685c983f18757b1bd33d2e806d571e0f9996b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/resourcet-1.2.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/resourcet-1.3.0.tar.gz"
       }
     },
     "scientific": {

@@ -36,7 +36,7 @@
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
-      "conduit#1.3.4.3": "c32a5f3ee2daff364de2807afeec45996e5633f9a5010c8504472a930ac7153e",
+      "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
       "conduit-extra#1.3.6": "83303e6fea78a683fdbb41682fc8dbc47b1d8830da1f09e88940f9a744a7f984",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "cookie#0.4.5": "22bbe2bea34cfc546eaca2468386035fec521b8dbae52f5aa2f994ed68b35e0e",
@@ -65,7 +65,7 @@
       "lift-type#0.1.0.1": "6e38e49bf086fd2203346417d96ad2e6c300d8d8f41d222780abdccc7a4e451b",
       "lifted-base#0.2.3.12": "e94ad0692c9c5d85c373e508f23654f2da8ac8c3e475c2b65ffbc04fb165ad69",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
-      "monad-logger#0.3.37": "ae31babac1d3fe9806a5c8bcf9d2f6454c3d2e7b226d7a82620e7027ace6caf0",
+      "monad-logger#0.3.37": "0d9a0bd965b516b1855b0e52097581ae5df931c34de5ac626a673f34e7017cce",
       "monad-loops#0.4.3": "ada4f1295ece07f9a7398bc5b40c4532f95a733a8604d2a2f57f05f878766df2",
       "mono-traversable#1.0.15.3": "059bf3c05cdbef2d06b765333fe41c2168ced2503a23de674e2a59ceb2548c48",
       "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
@@ -82,7 +82,7 @@
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "resource-pool#0.3.1.0": "dbaadfcc3c1be5391336e2016b28bb2d0c534f245ba9f5af5ed1d5125afc8c1a",
-      "resourcet#1.2.6": "0c55be13d24c1e9c1e6d82327ac039a0bf41469c456e3ae678efa8a9beda3a74",
+      "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
       "safe#0.3.19": "0910dafb8898f52bde4c646e560228a0fd08b1fca5457f222d2f5c0fad6d2039",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
@@ -266,7 +266,7 @@
       "1.3.4.3": [
         [ "mono-traversable", "1.0.15.3" ],
         [ "primitive", "0.7.4.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "unliftio-core", "0.2.0.1" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -278,7 +278,7 @@
         [ "conduit", "1.3.4.3" ],
         [ "network", "3.1.2.7" ],
         [ "primitive", "0.7.4.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "typed-process", "0.2.10.1" ],
         [ "unliftio-core", "0.2.0.1" ]
@@ -415,7 +415,7 @@
         [ "lifted-base", "0.2.3.12" ],
         [ "monad-control", "1.0.3.1" ],
         [ "monad-loops", "0.4.3" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "stm-chans", "3.0.0.6" ],
         [ "transformers-base", "0.4.6" ],
         [ "transformers-compat", "0.7.2" ],
@@ -454,7 +454,7 @@
         [ "monad-logger", "0.3.37" ],
         [ "path-pieces", "0.2.1" ],
         [ "resource-pool", "0.3.1.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "silently", "1.2.5.3" ],
         [ "th-lift-instances", "0.1.20" ],
@@ -476,7 +476,7 @@
         [ "postgresql-libpq", "0.9.4.3" ],
         [ "postgresql-simple", "0.6.4" ],
         [ "resource-pool", "0.3.1.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "string-conversions", "0.4.0.1" ],
         [ "unliftio-core", "0.2.0.1" ],
         [ "vault", "0.3.1.5" ],
@@ -495,7 +495,7 @@
         [ "persistent-qq", "2.12.0.3" ],
         [ "persistent-test", "2.13.1.3" ],
         [ "quickcheck-instances", "0.3.28" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "unliftio", "0.2.22.0" ],
         [ "unliftio-core", "0.2.0.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -524,7 +524,7 @@
         [ "persistent", "2.14.3.0" ],
         [ "quickcheck-instances", "0.3.28" ],
         [ "random", "1.2.1.1" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "transformers-base", "0.4.6" ],
         [ "unliftio", "0.2.22.0" ],
         [ "unliftio-core", "0.2.0.1" ],
@@ -591,7 +591,7 @@
       ]
     },
     "resourcet": {
-      "1.2.6": [
+      "1.3.0": [
         [ "primitive", "0.7.4.0" ],
         [ "unliftio-core", "0.2.0.1" ]
       ]
@@ -1279,10 +1279,10 @@
       }
     },
     "resourcet": {
-      "1.2.6": {
-        "hash": "sha256:f83b35b2106854750ef5f1c34695ea8b7bba6e0572cedf9f2993c5acfdb5fd34",
+      "1.3.0": {
+        "hash": "sha256:ec601785ee42a201f32adb205b8685c983f18757b1bd33d2e806d571e0f9996b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/resourcet-1.2.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/resourcet-1.3.0.tar.gz"
       }
     },
     "safe": {

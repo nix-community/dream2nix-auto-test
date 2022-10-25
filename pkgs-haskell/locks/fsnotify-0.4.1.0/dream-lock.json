@@ -33,7 +33,7 @@
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
-      "conduit#1.3.4.3": "c32a5f3ee2daff364de2807afeec45996e5633f9a5010c8504472a930ac7153e",
+      "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
       "conduit-extra#1.3.6": "83303e6fea78a683fdbb41682fc8dbc47b1d8830da1f09e88940f9a744a7f984",
       "config-ini#0.2.5.0": "25b30b8fada023cb550b7aa837823459f6511ec197873cf477c9a3a479b41ab2",
       "constraints#0.13.4": "2133e56e14e130a1a40b0737deeaf6859402279720210531723bc19b898c5544",
@@ -63,7 +63,7 @@
       "microlens-mtl#0.2.0.2": "ab8f264c6fecd763818c2e73740487ac371a4fd92cc32031c1c9de284a10518e",
       "microlens-th#0.4.3.10": "a2126f80b68c56c2fb7561caebbe17e0a1193fafa6e1624cab9814c4b69e5c90",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
-      "monad-logger#0.3.37": "ae31babac1d3fe9806a5c8bcf9d2f6454c3d2e7b226d7a82620e7027ace6caf0",
+      "monad-logger#0.3.37": "0d9a0bd965b516b1855b0e52097581ae5df931c34de5ac626a673f34e7017cce",
       "monad-loops#0.4.3": "ada4f1295ece07f9a7398bc5b40c4532f95a733a8604d2a2f57f05f878766df2",
       "mono-traversable#1.0.15.3": "059bf3c05cdbef2d06b765333fe41c2168ced2503a23de674e2a59ceb2548c48",
       "mtl-compat#0.2.2": "4257fb56e5690734973aad060010bec6c2857f5c1ac6cf87fc335ed3bc7c85f4",
@@ -77,7 +77,7 @@
       "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
       "profunctors#5.6.2": "3d3685119243a7ebf984fa6af03299d156ab7674a432e2e15ecee2a4fd420fb6",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
-      "resourcet#1.2.6": "0c55be13d24c1e9c1e6d82327ac039a0bf41469c456e3ae678efa8a9beda3a74",
+      "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
       "retry#0.9.3.0": "add44b9b2add217df6f5293785e8b592cdb3721a3a70250a951ebc7b227fd8b0",
       "safe#0.3.19": "0910dafb8898f52bde4c646e560228a0fd08b1fca5457f222d2f5c0fad6d2039",
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
@@ -272,7 +272,7 @@
       "1.3.4.3": [
         [ "mono-traversable", "1.0.15.3" ],
         [ "primitive", "0.7.4.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "unliftio-core", "0.2.0.1" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -284,7 +284,7 @@
         [ "conduit", "1.3.4.3" ],
         [ "network", "3.1.2.7" ],
         [ "primitive", "0.7.4.0" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "typed-process", "0.2.10.1" ],
         [ "unliftio-core", "0.2.0.1" ]
@@ -435,7 +435,7 @@
         [ "lifted-base", "0.2.3.12" ],
         [ "monad-control", "1.0.3.1" ],
         [ "monad-loops", "0.4.3" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "stm-chans", "3.0.0.6" ],
         [ "transformers-base", "0.4.6" ],
         [ "transformers-compat", "0.7.2" ],
@@ -490,7 +490,7 @@
       ]
     },
     "resourcet": {
-      "1.2.6": [
+      "1.3.0": [
         [ "primitive", "0.7.4.0" ],
         [ "unliftio-core", "0.2.0.1" ]
       ]
@@ -1263,10 +1263,10 @@
       }
     },
     "resourcet": {
-      "1.2.6": {
-        "hash": "sha256:f83b35b2106854750ef5f1c34695ea8b7bba6e0572cedf9f2993c5acfdb5fd34",
+      "1.3.0": {
+        "hash": "sha256:ec601785ee42a201f32adb205b8685c983f18757b1bd33d2e806d571e0f9996b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/resourcet-1.2.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/resourcet-1.3.0.tar.gz"
       }
     },
     "retry": {
