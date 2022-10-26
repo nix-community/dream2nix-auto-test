@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "@types/react",
+    "defaultPackage": "@types/react-dom",
     "location": "",
     "packages": {
-      "@types/react": "18.0.22"
+      "@types/react-dom": "18.0.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,13 +17,18 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@types/react": {
-      "18.0.22": [
+      "18.0.23": [
         [ "@types/prop-types", "15.7.5" ],
         [ "@types/scheduler", "0.16.2" ],
         [ "csstype", "3.1.1" ]
+      ]
+    },
+    "@types/react-dom": {
+      "18.0.7": [
+        [ "@types/react", "18.0.23" ]
       ],
       "unknown": [
-        [ "@types/react", "18.0.22" ]
+        [ "@types/react-dom", "18.0.7" ]
       ]
     }
   },
@@ -36,10 +41,17 @@
       }
     },
     "@types/react": {
-      "18.0.22": {
-        "hash": "sha512-4yWc5PyCkZN8ke8K9rQHkTXxHIWHxLzzW6RI1kXVoepkD3vULpKzC2sDtAMKn78h92BRYuzf+7b/ms7ajE6hFw==",
+      "18.0.23": {
+        "hash": "sha512-R1wTULtCiJkudAN2DJGoYYySbGtOdzZyUWAACYinKdiQC8auxso4kLDUhQ7AJ2kh3F6A6z4v69U6tNY39hihVQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/react/-/react-18.0.22.tgz"
+        "url": "https://registry.npmjs.org/@types/react/-/react-18.0.23.tgz"
+      }
+    },
+    "@types/react-dom": {
+      "18.0.7": {
+        "hash": "sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react-dom/-/react-dom-18.0.7.tgz"
       }
     },
     "@types/scheduler": {
