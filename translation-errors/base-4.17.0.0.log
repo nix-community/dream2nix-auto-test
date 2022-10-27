@@ -1,18 +1,16 @@
 
 Translating:: base (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/base-4.17.0.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
-+ cabal update
-Config file path source is default config file.
-Config file not found: /home/runner/.cabal/config
-Writing default configuration to /home/runner/.cabal/config
-Downloading the latest package list from hackage.haskell.org
-Package list of hackage.haskell.org has been updated.
-The index-state is set to 2022-10-25T23:33:39Z.
-/tmp/tmp.AF5X3TmNwc/tmp.bxrNgXgt8B/tmp.4iEUs6AqXB ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1666851734
+++ date +%s
++ age=1
++ '[' 1 -gt 86400 ']'
+/tmp/tmp.iDS4J5PK0e/tmp.4wUZYly61O/tmp.njrg0RLlwO ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/base-4.17.0.0/base-4.17.0.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  817k  100  817k    0     0  3578k      0 --:--:-- --:--:-- --:--:-- 3586k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  817k    0  817k    0     0  2057k      0 --:--:-- --:--:-- --:--:-- 2059k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: base (user goal)
