@@ -51,6 +51,7 @@
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
+      "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "say#0.1.0.1": "f20554ed3bcc198965a934385fbd98f9fd9754705f06eb2ee2b13a9b2c530632",
       "semigroupoids#5.3.7": "fb1a86c250997c269106645724a67bc358235245cf385b589f855ac070d4ada0",
       "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
@@ -63,7 +64,7 @@
       "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
-      "unliftio#0.2.22.0": "2a3f0298a293c48eddd10c25cbbd6206b6e745cee2e648e48e16531a3ef21ce8",
+      "unliftio#0.2.23.0": "2612aac554b752d160e7b77b8751b11aa3d001ae8b28600a382fbfe0d5ca749c",
       "unliftio-core#0.2.0.1": "f9abcdd3f3d28e4840563efb7b8760d2de9b5707bcd6f53a87f6a0d77bb5a9f7",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "vector#0.13.0.0": "54528e95501742b99462cc543891f21177e7db34d960ce8e3cbb25afb16a9c89",
@@ -166,7 +167,7 @@
         [ "primitive", "0.7.4.0" ],
         [ "say", "0.1.0.1" ],
         [ "stm-chans", "3.0.0.6" ],
-        [ "unliftio", "0.2.22.0" ],
+        [ "unliftio", "0.2.23.0" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
         [ "vector-instances", "3.4" ]
@@ -405,8 +406,9 @@
       ]
     },
     "unliftio": {
-      "0.2.22.0": [
+      "0.2.23.0": [
         [ "async", "2.2.4" ],
+        [ "safe-exceptions", "0.1.7.3" ],
         [ "unliftio-core", "0.2.0.1" ]
       ]
     },
@@ -735,6 +737,13 @@
         "url": "https://hackage.haskell.org/package/resourcet-1.3.0.tar.gz"
       }
     },
+    "safe-exceptions": {
+      "0.1.7.3": {
+        "hash": "sha256:91ce28d8f8a6efd31788d4827ed5cdcb9a546ad4053a86c56f7947c66a30b5bf",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/safe-exceptions-0.1.7.3.tar.gz"
+      }
+    },
     "say": {
       "0.1.0.1": {
         "hash": "sha256:f639656fc21925c45f3f55769b9fb7a90699e943376a725e215a5deea473b3e4",
@@ -820,10 +829,10 @@
       }
     },
     "unliftio": {
-      "0.2.22.0": {
-        "hash": "sha256:1fc4adb14bbefa303b01163a6dfd61c3bd7f775cebf8ee812d7194fb27ffbb88",
+      "0.2.23.0": {
+        "hash": "sha256:2d86a3deef6d801991aa6c837c5e6c0d3db916f33226be1428a5a04f626be4fd",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/unliftio-0.2.22.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/unliftio-0.2.23.0.tar.gz"
       }
     },
     "unliftio-core": {

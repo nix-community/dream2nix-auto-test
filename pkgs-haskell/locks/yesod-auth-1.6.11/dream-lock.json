@@ -113,6 +113,7 @@
       "resource-pool#0.3.1.0": "dbaadfcc3c1be5391336e2016b28bb2d0c534f245ba9f5af5ed1d5125afc8c1a",
       "resourcet#1.2.6": "0c55be13d24c1e9c1e6d82327ac039a0bf41469c456e3ae678efa8a9beda3a74",
       "safe#0.3.19": "0910dafb8898f52bde4c646e560228a0fd08b1fca5457f222d2f5c0fad6d2039",
+      "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
       "securemem#0.1.10": "1e69f378f2837c502ebe02760c136e67e84dfe6052b7ecf694ccbe66c16a86d2",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
@@ -144,7 +145,7 @@
       "typed-process#0.2.10.1": "cc35b76f2ce32c708cb2f68a1c4f661a8138196d958e34a2f214208333a73f46",
       "unix-compat#0.6": "0f5d0929d838077909d397c7c83b711b89db4ed3d4dafea46af19c04b389b53c",
       "unix-time#0.4.8": "491783752c61b7132a8e2c508361b5fc15295fd5849929684f3281c60f1d9897",
-      "unliftio#0.2.22.0": "2a3f0298a293c48eddd10c25cbbd6206b6e745cee2e648e48e16531a3ef21ce8",
+      "unliftio#0.2.23.0": "2612aac554b752d160e7b77b8751b11aa3d001ae8b28600a382fbfe0d5ca749c",
       "unliftio-core#0.2.0.1": "f9abcdd3f3d28e4840563efb7b8760d2de9b5707bcd6f53a87f6a0d77bb5a9f7",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f",
@@ -655,7 +656,7 @@
       "1.0.7": [
         [ "base64-bytestring", "1.2.1.0" ],
         [ "entropy", "0.4.1.10" ],
-        [ "unliftio", "0.2.22.0" ],
+        [ "unliftio", "0.2.23.0" ],
         [ "unliftio-core", "0.2.0.1" ]
       ]
     },
@@ -687,7 +688,7 @@
         [ "scientific", "0.3.7.0" ],
         [ "silently", "1.2.5.3" ],
         [ "th-lift-instances", "0.1.20" ],
-        [ "unliftio", "0.2.22.0" ],
+        [ "unliftio", "0.2.23.0" ],
         [ "unliftio-core", "0.2.0.1" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vault", "0.3.1.5" ],
@@ -873,8 +874,9 @@
       ]
     },
     "unliftio": {
-      "0.2.22.0": [
+      "0.2.23.0": [
         [ "async", "2.2.4" ],
+        [ "safe-exceptions", "0.1.7.3" ],
         [ "unliftio-core", "0.2.0.1" ]
       ]
     },
@@ -964,7 +966,7 @@
         [ "streaming-commons", "0.2.2.5" ],
         [ "time-manager", "0.0.0" ],
         [ "unix-compat", "0.6" ],
-        [ "unliftio", "0.2.22.0" ],
+        [ "unliftio", "0.2.23.0" ],
         [ "vault", "0.3.1.5" ],
         [ "wai", "3.2.3" ],
         [ "word8", "0.1.3" ],
@@ -1069,7 +1071,7 @@
         [ "random", "1.2.1.1" ],
         [ "safe", "0.3.19" ],
         [ "shakespeare", "2.0.30" ],
-        [ "unliftio", "0.2.22.0" ],
+        [ "unliftio", "0.2.23.0" ],
         [ "unliftio-core", "0.2.0.1" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "wai", "3.2.3" ],
@@ -1101,7 +1103,7 @@
         [ "resourcet", "1.2.6" ],
         [ "shakespeare", "2.0.30" ],
         [ "unix-compat", "0.6" ],
-        [ "unliftio", "0.2.22.0" ],
+        [ "unliftio", "0.2.23.0" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
         [ "wai", "3.2.3" ],
@@ -1865,6 +1867,13 @@
         "url": "https://hackage.haskell.org/package/safe-0.3.19.tar.gz"
       }
     },
+    "safe-exceptions": {
+      "0.1.7.3": {
+        "hash": "sha256:91ce28d8f8a6efd31788d4827ed5cdcb9a546ad4053a86c56f7947c66a30b5bf",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/safe-exceptions-0.1.7.3.tar.gz"
+      }
+    },
     "scientific": {
       "0.3.7.0": {
         "hash": "sha256:a3a121c4b3d68fb8b9f8c709ab012e48f090ed553609247a805ad070d6b343a9",
@@ -2083,10 +2092,10 @@
       }
     },
     "unliftio": {
-      "0.2.22.0": {
-        "hash": "sha256:1fc4adb14bbefa303b01163a6dfd61c3bd7f775cebf8ee812d7194fb27ffbb88",
+      "0.2.23.0": {
+        "hash": "sha256:2d86a3deef6d801991aa6c837c5e6c0d3db916f33226be1428a5a04f626be4fd",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/unliftio-0.2.22.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/unliftio-0.2.23.0.tar.gz"
       }
     },
     "unliftio-core": {
