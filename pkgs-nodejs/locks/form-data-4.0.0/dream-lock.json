@@ -1,0 +1,84 @@
+{
+  "_generic": {
+    "defaultPackage": "form-data",
+    "location": "",
+    "packages": {
+      "form-data": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "combined-stream": {
+      "1.0.8": [
+        [ "delayed-stream", "1.0.0" ]
+      ]
+    },
+    "form-data": {
+      "4.0.0": [
+        [ "asynckit", "0.4.0" ],
+        [ "combined-stream", "1.0.8" ],
+        [ "mime-types", "2.1.35" ]
+      ],
+      "unknown": [
+        [ "form-data", "4.0.0" ]
+      ]
+    },
+    "mime-types": {
+      "2.1.35": [
+        [ "mime-db", "1.52.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "asynckit": {
+      "0.4.0": {
+        "hash": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
+      }
+    },
+    "combined-stream": {
+      "1.0.8": {
+        "hash": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz"
+      }
+    },
+    "delayed-stream": {
+      "1.0.0": {
+        "hash": "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
+      }
+    },
+    "form-data": {
+      "4.0.0": {
+        "hash": "sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz"
+      }
+    },
+    "mime-db": {
+      "1.52.0": {
+        "hash": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
+      }
+    },
+    "mime-types": {
+      "2.1.35": {
+        "hash": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz"
+      }
+    }
+  }
+}
