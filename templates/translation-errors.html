@@ -1,0 +1,25 @@
+<template id="translation-errors">
+	<span _="
+					 on load
+					 send loadMeterErrors(errors:{{list | length}}) to <meter/> in closest <section[role=tabpanel]/>">
+	</span>
+	<details>
+		<summary>Translation Errors (<span>{{ list | length }}</span> )</summary>
+		<label>Filter by log search:</label>
+		<input _="
+							on keyup
+							show <details/> in closest <details/> when its innerHTML contains my value
+							">
+		{% for line in list %}
+		<details open>
+			<summary>{{ line }}</summary>
+			<pre hx-get="{{name}}/translation-errors/{{ line }}"
+					 hx-trigger="intersect once"
+					 hx-swap="innerHTML"
+					 >....loading data from {{item.name}}
+			</pre>
+		</details>
+		{% endfor %}
+	</details>
+</template>
+<!-- vim: set nu sw=2 ts=2 noet : -->

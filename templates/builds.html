@@ -1,0 +1,36 @@
+<template id="builds">
+	<span _=" on load
+					 send loadMeter(failure:{{checksCountFailure}},success:{{checksCountSuccess}}) to <meter/> in closest <section[role=tabpanel]/>
+					 "></span>
+	<details>
+		<summary>
+			Build Failures (<span>{{checksCountFailure}}</span>)
+		</summary>
+		<label>Filter by name search:</label>
+		<input _="
+							on keyup
+							show <section/> in closest <details/> when its textContent contains my value
+							">
+		{% for item in checks %}
+		{% if 'derivationPath' in item.value.Ok %}
+		<section class="box warn">
+			<a href=
+			"https://hercules-ci.com/accounts/github/nix-community/derivations/{{item.value.Ok.derivationPath}}/log?via-job={{jobid}}">
+				<h4>{{item.path}} : {{item.value.Ok.status}}
+					{{item.value.Error.errorType}}</h4></a>
+		</section>
+		{% else %}
+		<section class="box bad">
+			<h4>{{item.path}} : {{item.value.Ok.status}}
+				{{item.value.Error.errorType}}</h4>
+			<code>{{item.value.Error.errorMessage}}</code>
+			<details>
+				<summary>Trace</summary>
+				<pre>{{item.value.Error.trace}}</pre>
+			</details>
+		</section>
+		{% endif %}
+		{% endfor %}
+	</details>
+</template>
+<!-- vim: set nu sw=2 ts=2 noet : -->
