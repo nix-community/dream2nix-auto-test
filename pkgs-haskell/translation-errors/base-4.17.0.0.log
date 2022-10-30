@@ -1,0 +1,30 @@
+
+Translating:: base (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/base-4.17.0.0/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1666420036
+++ date +%s
++ age=1
++ '[' 1 -gt 86400 ']'
+/tmp/tmp.XewppRZcjC/tmp.CAFGZpleQn/tmp.mmlqKq7dpw ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/base-4.17.0.0/base-4.17.0.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 15081    0 15081    0     0  57808      0 --:--:-- --:--:-- --:--:-- 57781100  817k    0  817k    0     0  1956k      0 --:--:-- --:--:-- --:--:-- 1956k
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] next goal: base (user goal)
+[__0] rejecting: base-4.17.0.0 (only already installed instances can be used)
+[__0] rejecting: base-4.16.3.0, base-4.16.2.0, base-4.16.1.0, base-4.16.0.0,
+base-4.15.1.0/installed-4.15.1.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
+base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0,
+base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0,
+base-4.9.0.0, base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2,
+base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0,
+base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0,
+base-4.2.0.2, base-4.2.0.1, base-4.2.0.0, base-4.1.0.0, base-4.0.0.0,
+base-3.0.3.2, base-3.0.3.1 (constraint from user target requires ==4.17.0.0)
+[__0] fail (backjumping, conflict set: base)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base
+

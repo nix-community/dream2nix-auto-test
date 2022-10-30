@@ -237,7 +237,7 @@
 					<details open>
 						<summary>{%name%} - {{.}}
 						</summary>
-						<pre hx-get="/nix-community/dream2nix-auto-test/{%name%}/translation-errors/{{.}}"
+						<pre hx-get="{%name%}/translation-errors/{{.}}"
 							hx-trigger="load once"
 							hx-swap=innerHTML"
 							hx-ext="ignore: client-side-templates"
@@ -248,7 +248,7 @@
 			</template>
 			{%={{ }}=%}
 
-			<section hx-get="/nix-community/dream2nix-auto-test/{{name}}/translation-errors.json"
+			<section hx-get="{{name}}/translation-errors.json"
 				hx-trigger="intersect once"
 				hx-swap="innerHTML"
 				mustache-template="translation-errors-{{name}}"
@@ -267,19 +267,6 @@
 			mustache-template="branches"
 			>....loading</section>
 	</main>
-	<script type="text/hyperscript">
-eventsource Reloader from http://localhost:8085/reload
-    on message
-        call location.reload()
-    end
-    on error
-        log "error with connecting to reload SSE"
-    end
-    on close
-        log "closing reload SSE"
-    end
-end
-</script>
 </body>
 </html>
 <!-- vim: set sw=2 ts=2 noet : -->

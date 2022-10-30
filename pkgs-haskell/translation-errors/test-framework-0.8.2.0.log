@@ -1,0 +1,54 @@
+
+Translating:: test-framework (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/test-framework-0.8.2.0/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1666420036
+++ date +%s
++ age=488
++ '[' 488 -gt 86400 ']'
+/tmp/tmp.ExkcerfQvM/tmp.RJVgAmlG1R/tmp.tjq1qFHBdF ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/test-framework-0.8.2.0/test-framework-0.8.2.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 21317  100 21317    0     0  92779      0 --:--:-- --:--:-- --:--:-- 93087
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] trying: test-framework-0.8.2.0 (user goal)
+[__1] next goal: time (dependency of test-framework)
+[__1] rejecting: time-1.9.3/installed-1.9.3 (conflict: test-framework =>
+time>=1.1.2 && <1.9)
+[__1] skipping: time-1.12.2, time-1.12.1, time-1.12, time-1.11.1.2,
+time-1.11.1.1, time-1.11.1, time-1.11, time-1.10, time-1.9.3, time-1.9.2,
+time-1.9.1, time-1.9 (has the same characteristics that caused the previous
+version to fail: excluded by constraint '>=1.1.2 && <1.9' from
+'test-framework')
+[__1] trying: time-1.8.0.4
+[__2] next goal: deepseq (dependency of time)
+[__2] rejecting: deepseq-1.4.5.0/installed-1.4.5.0 (conflict: time =>
+base>=4.7 && <4.13, deepseq => base==4.15.1.0/installed-4.15.1.0)
+[__2] trying: deepseq-1.4.8.0
+[__3] next goal: array (dependency of deepseq)
+[__3] rejecting: array-0.5.4.0/installed-0.5.4.0 (conflict: time => base>=4.7
+&& <4.13, array => base==4.15.1.0/installed-4.15.1.0)
+[__3] trying: array-0.5.4.0
+[__4] next goal: base (dependency of test-framework)
+[__4] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: time => base>=4.7
+&& <4.13)
+[__4] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same characteristics that
+caused the previous version to fail: excluded by constraint '>=4.7 && <4.13'
+from 'time')
+[__4] rejecting: base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0,
+base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,
+base-4.8.0.0, base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1,
+base-4.6.0.0, base-4.5.1.0, base-4.5.0.0, base-4.4.1.0, base-4.4.0.0,
+base-4.3.1.0, base-4.3.0.0, base-4.2.0.2, base-4.2.0.1, base-4.2.0.0,
+base-4.1.0.0, base-4.0.0.0, base-3.0.3.2, base-3.0.3.1 (constraint from
+non-upgradeable package requires installed instance)
+[__4] fail (backjumping, conflict set: base, test-framework, time)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, time, deepseq, array,
+test-framework
+Try running with --minimize-conflict-set to improve the error message.
+

@@ -1,0 +1,30 @@
+
+Translating:: cairo (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/cairo-0.13.8.2/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1666420036
+++ date +%s
++ age=328
++ '[' 328 -gt 86400 ']'
+/tmp/tmp.RiAbcbGVdR/tmp.yBdfk5YhwW/tmp.8d7diPAGfG ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/cairo-0.13.8.2/cairo-0.13.8.2.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 53034  100 53034    0     0   209k      0 --:--:-- --:--:-- --:--:--  210k
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] next goal: cairo (user goal)
+[__0] rejecting: cairo-0.13.8.2 (conflict: pkg-config package cairo>=1.2.0,
+not found in the pkg-config database)
+[__0] rejecting: cairo-0.13.8.1, cairo-0.13.8.0, cairo-0.13.6.1,
+cairo-0.13.6.0, cairo-0.13.5.0, cairo-0.13.4.2, cairo-0.13.4.1,
+cairo-0.13.4.0, cairo-0.13.3.1, cairo-0.13.3.0, cairo-0.13.2.0,
+cairo-0.13.1.1, cairo-0.13.1.0, cairo-0.13.0.6, cairo-0.13.0.5,
+cairo-0.13.0.4, cairo-0.13.0.3, cairo-0.13.0.2, cairo-0.13.0.1,
+cairo-0.13.0.0, cairo-0.12.5.3, cairo-0.12.5.1, cairo-0.12.5.0, cairo-0.12.4,
+cairo-0.12.3.1, cairo-0.12.3, cairo-0.12.2, cairo-0.12.1, cairo-0.12.0,
+cairo-0.11.1, cairo-0.11.0 (constraint from user target requires ==0.13.8.2)
+[__0] fail (backjumping, conflict set: cairo)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: cairo
+

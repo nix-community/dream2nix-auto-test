@@ -1,0 +1,26 @@
+
+Translating:: ghc-prim (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/ghc-prim-0.9.0/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1666420036
+++ date +%s
++ age=55
++ '[' 55 -gt 86400 ']'
+/tmp/tmp.NA26P0krmH/tmp.35yvWzt7jM/tmp.9QJKIxVFIi ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/ghc-prim-0.9.0/ghc-prim-0.9.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 54372    0 54372    0     0   115k      0 --:--:-- --:--:-- --:--:--  115k
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] next goal: ghc-prim (user goal)
+[__0] rejecting: ghc-prim-0.9.0 (constraint from non-upgradeable package
+requires installed instance)
+[__0] rejecting: ghc-prim-0.8.0, ghc-prim-0.7.0/installed-0.7.0,
+ghc-prim-0.7.0, ghc-prim-0.6.1, ghc-prim-0.5.3, ghc-prim-0.5.2.0,
+ghc-prim-0.5.1.1, ghc-prim-0.5.1.0, ghc-prim-0.5.0.0, ghc-prim-0.4.0.0,
+ghc-prim-0.3.1.0 (constraint from user target requires ==0.9.0)
+[__0] fail (backjumping, conflict set: ghc-prim)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: ghc-prim
+

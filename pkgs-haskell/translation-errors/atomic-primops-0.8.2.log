@@ -1,0 +1,38 @@
+
+Translating:: atomic-primops (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/atomic-primops-0.8.2/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1666420036
+++ date +%s
++ age=850
++ '[' 850 -gt 86400 ']'
+/tmp/tmp.FNgiwNHvSa/tmp.3OgGlxMqOY/tmp.h5rJwrKPPe ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/atomic-primops-0.8.2/atomic-primops-0.8.2.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 36157    0 36157    0     0  89511      0 --:--:-- --:--:-- --:--:-- 89719
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] next goal: atomic-primops (user goal)
+[__0] rejecting: atomic-primops-0.8.4, atomic-primops-0.8.3 (constraint from
+user target requires ==0.8.2)
+[__0] trying: atomic-primops-0.8.2
+[__1] next goal: base (dependency of atomic-primops)
+[__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: atomic-primops =>
+base>=4.6.0.0 && <4.12)
+[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=4.6.0.0 && <4.12' from 'atomic-primops')
+[__1] rejecting: base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0,
+base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0, base-4.8.0.0,
+base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0,
+base-4.5.1.0, base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0,
+base-4.3.0.0, base-4.2.0.2, base-4.2.0.1, base-4.2.0.0, base-4.1.0.0,
+base-4.0.0.0, base-3.0.3.2, base-3.0.3.1 (constraint from non-upgradeable
+package requires installed instance)
+[__1] fail (backjumping, conflict set: atomic-primops, base)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, atomic-primops
+
