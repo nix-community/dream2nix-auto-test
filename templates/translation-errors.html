@@ -1,22 +1,21 @@
 <template id="translation-errors">
-	<span _="
-					 on load
+	<span
+		_="on load
 					 send loadMeterErrors(errors:{{list | length}}) to <meter/> in closest <section[role=tabpanel]/>">
 	</span>
 	<details>
-		<summary>Translation Errors (<span>{{ list | length }}</span> )</summary>
+		<summary>Translation Errors (<span>{{ list | length }}</span> )
+		</summary>
 		<label>Filter by log search:</label>
-		<input _="
-							on keyup
+		<input _="on keyup
 							show <details/> in closest <details/> when its innerHTML contains my value
 							">
 		{% for line in list %}
 		<details open>
 			<summary>{{ line }}</summary>
-			<pre hx-get="{{name}}/translation-errors/{{ line }}"
-					 hx-trigger="intersect once"
-					 hx-swap="innerHTML"
-					 >....loading data from {{item.name}}
+			<pre hx-ext="ignore:client-side-templates,ignore:filter-hercules-jobs,ignore:filter-hercules-evaluation"
+				hx-get="{{name}}/translation-errors/{{ line }}" hx-trigger="intersect once"
+				hx-swap="innerHTML">....loading data from {{item.name}}
 			</pre>
 		</details>
 		{% endfor %}

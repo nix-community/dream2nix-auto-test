@@ -1,10 +1,7 @@
 <template id="jobs">
 	{% set item = (list.items | first) %}
-	<img class="flex-grow:2 float:right"
-			 style="inline-size: 65px"
-			 height="40"
-			 width="40"
-			 src="{{item.source.committer.imageURL}}">
+	<img class="flex-grow:2 float:right" style="inline-size: 65px" height="40" width="40"
+		src="{{item.source.committer.imageURL}}">
 	<dl>
 		<dt>branch</dt>
 		<dd>{{item.source.ref}}</dd>
@@ -16,18 +13,14 @@
 		<dd id="jobid" data-jobid="{{item.id}}">{{item.id}}</dd>
 		<dt>evaluationId</dt>
 		<dd>
-			<a href="https://hercules-ci.com/github/nix-community/dream2nix-auto-test/jobs/{{item.index}}">{{ item.evaluationId }}</a>
+			<a
+				href="https://hercules-ci.com/github/nix-community/dream2nix-auto-test/jobs/{{item.index}}">{{ item.evaluationId }}</a>
 		</dd>
 	</dl>
-	<div hx-ext="filter-hercules-evaluation, client-side-templates"
-			 hx-disinherit="*"
-			 hx-get="https://hercules-ci.com/api/v1/jobs/{{ item.id }}/evaluation"
-			 hx-swap="outerHTML"
-			 nunjucks-template="builds"
-			 hx-trigger="load once"
-			 data-name="{{name}}"
-			 >
-			 <marquee>loading...</marquee>
+	<div hx-ext="ignore:filter-hercules-jobs,filter-hercules-evaluation, client-side-templates"
+		hx-disinherit="*" hx-get="https://hercules-ci.com/api/v1/jobs/{{ item.id }}/evaluation"
+		hx-swap="outerHTML" nunjucks-template="builds" hx-trigger="load once" data-name="{{name}}">
+		<marquee>loading...</marquee>
 	</div>
 </template>
 <!-- vim: set nu sw=2 ts=2 noet : -->

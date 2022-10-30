@@ -1,0 +1,36 @@
+<template id="branches">
+	<div _="install TabContainer">
+		<div role="tablist">
+			{% for item in list %}
+			<button id="button-{{item.name}}" role="tab" aria-controls="{{item.name}}"
+				aria-selected="false">{{item.name}}</button>
+			{% endfor %}
+		</div>
+		{% for item in list %}
+		<section id="{{item.name}}" role="tabpanel" aria-labelledby="button-{{item.name}}"
+			data-name="{{item.name}}" hx-ext="filter-hercules-jobs, client-side-templates"
+			nunjucks-template="jobs" hx-swap="innerHTML" hx-target="#jobs-{{item.name}}"
+			hx-disinherit="*" hx-trigger="load"
+			hx-get="https://hercules-ci.com/api/v1/site/github/account/nix-community/project/dream2nix-auto-test/jobs?limit=5&amp;ref=refs/heads/{{item.name}}"
+			hidden>
+			<meter style="width: 40%" _="install Meter">
+				<span class="errors" id="{{item.name}}-errors"></span>
+				<span class="failure" id="{{item.name}}-failure"></span>
+				<span class="success" id="{{item.name}}-success"></span>
+			</meter>
+			<label><span></span>% checks (
+				<span class="fails"></span>/<span></span> failed )
+			</label>
+			<div id="jobs-{{item.name}}"></div>
+			<section data-name="{{item.name}}" hx-get="{{item.name}}/translation-errors.json"
+				hx-ext="filter-hercules-jobs, client-side-templates" hx-trigger="load once"
+				hx-swap="innerHTML" nunjucks-template="translation-errors">
+				....loading
+				data
+				from {{item.name}}
+			</section>
+		</section>
+		{% endfor %}
+	</div>
+</template>
+<!-- vim: set nu sw=2 ts=2 noet : -->

@@ -1,6 +1,6 @@
 <template id="builds">
-	<span _=" on load
-					 send loadMeter(failure:{{checksCountFailure}},success:{{checksCountSuccess}}) to <meter/> in closest <section[role=tabpanel]/>
+	<span _="on load
+					send loadMeter(failure:{{checksCountFailure}},success:{{checksCountSuccess}}) to <meter/> in closest <section[role=tabpanel]/>
 					 "></span>
 	<details>
 		<summary>
@@ -14,15 +14,18 @@
 		{% for item in checks %}
 		{% if 'derivationPath' in item.value.Ok %}
 		<section class="box warn">
-			<a href=
-			"https://hercules-ci.com/accounts/github/nix-community/derivations/{{item.value.Ok.derivationPath}}/log?via-job={{jobid}}">
+			<a
+				href="https://hercules-ci.com/accounts/github/nix-community/derivations/{{item.value.Ok.derivationPath}}/log?via-job={{jobid}}">
 				<h4>{{item.path}} : {{item.value.Ok.status}}
-					{{item.value.Error.errorType}}</h4></a>
+					{{item.value.Error.errorType}}
+				</h4>
+			</a>
 		</section>
 		{% else %}
 		<section class="box bad">
 			<h4>{{item.path}} : {{item.value.Ok.status}}
-				{{item.value.Error.errorType}}</h4>
+				{{item.value.Error.errorType}}
+			</h4>
 			<code>{{item.value.Error.errorMessage}}</code>
 			<details>
 				<summary>Trace</summary>

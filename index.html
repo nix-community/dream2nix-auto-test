@@ -1,258 +1,126 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Main</title>
-<script src="https://unpkg.com/htmx.org@1.8.0" integrity="sha384-cZuAZ+ZbwkNRnrKi05G/fjBX+azI9DNOkNYysZ0I/X5ZFgsmMiBXgDZof30F5ofc"
-crossorigin="anonymous"></script>
-<script src="https://unpkg.com/htmx.org@1.8.0/dist/ext/client-side-templates.js"></script>
-<script src="https://unpkg.com/hyperscript.org@0.9.5/dist/_hyperscript_w9y.min.js"></script>
-<link rel="stylesheet" href="https://the.missing.style">
-<!-- <script src="https://unpkg.com/mustache@latest"></script> -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main</title>
+	<link rel="stylesheet" href="https://the.missing.style">
+	<script type="text/hyperscript" src="behaviors.hs"></script>
+	<script src="https://unpkg.com/nunjucks@latest"></script>
+	<script src="https://unpkg.com/htmx.org@1.8.0"
+		integrity="sha384-cZuAZ+ZbwkNRnrKi05G/fjBX+azI9DNOkNYysZ0I/X5ZFgsmMiBXgDZof30F5ofc"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/htmx.org@1.8.0/dist/ext/client-side-templates.js"></script>
+	<script src="https://unpkg.com/hyperscript.org@0.9.5/dist/_hyperscript_w9y.min.js"></script>
+	<style>
+		details[data-status].jobs {}
 
-<script src="https://unpkg.com/nunjucks@latest"></script>
-<style>
-details[data-status].jobs { }
-details[data-status="BuildFailure"].jobs {
-	display: block !important;
-}
-li[data-status="Failure"] {
-	color: red;
-}
-pre {
-	height: 10em;
-	overflow: scroll;
-}
-:root {
-	--line-length: 80vw;
-}
-</style>
-<script type="text/hyperscript">
-behavior Meter
-	on loadMeter(failure,success)
-		put success into (first <span.success/> in me)
-		put failure into (first <span.failure/> in me)
-	end
-	on loadMeterErrors(errors)
-		put errors into (first <span.errors/> in me)
-	end
+		details[data-status="BuildFailure"].jobs {
+			display: block !important;
+		}
 
-	on mutation of characterData or childList or subtree queue all
-		set @data-error to (first <span.errors /> in me).textContent as Int
-		set @data-success to (first <span.success /> in me).textContent as Int
-		set @data-failure to (first <span.failure /> in me).textContent as Int
-		set @value to @data-success
-		set @max to (@data-success as Int + @data-failure as Int + @data-error as Int)
-		set $percent to (100 * ((@value as Int)/(@max as Int))).toFixed(5)
+		li[data-status="Failure"] {
+			color: red;
+		}
 
-		put $percent into the first <span/> in next <label/>
-		put @max into the last <span/> in next <label/>
-		put (@max - @value) into <span.fails/> in next <label/>
-	end
-end
-behavior TabContainer
+		pre {
+			height: 10em;
+			overflow: scroll;
+		}
 
- -- init handles the default tab selection.  If a document hash exists
- -- (and points to one of our tabs) then select it first.  Otherwise,
- -- select the first tab in the list
-	init
-		wait 1s
-		if window.location.hash is not "" then
-		set target to the first <[aria-controls="${window.location.hash.slice(1)}"]/>
-		end
+		:root {
+			--line-length: 80vw;
+		}
+	</style>
+	<my-templates></my-templates>
 
-		if target is null then
-			set target to first <[role=tab]/> in me
-		end
-
-		send select to target
-	end
-
-	-- move to first tab on HOME
-	on keydown[keyCode==36]
-		send select to first <[role=tab]/> in me
-
-	-- move to last tab on END
-	on keydown[keyCode==35]
-		send select to last <[role=tab]/> in me
-
-	-- move to previous tab LEFT ARROW
-	on keydown[keyCode==37]
-		set current to first <[aria-selected=true]/> in me
-		send select to previous <[role=tab]/> from current with wrapping
-
-	-- move to next tab on RIGHT ARROW
-	on keydown[keyCode==39]
-		set current to first <[aria-selected=true]/> in me
-		send select to next <[role=tab]/> from current with wrapping
-
-	-- select highlighted tab on SPACE (expected for ARIA buttons)
-	on keydown[keyCode==32]
-		send select to first <[role=tab]:focus/>
-
-	-- select highlighted tab on ENTER (additional key to select tabs)
-	on keydown[keyCode==13]
-		send select to first <[role=tab]:focus/>
-
-	-- handle mouse clicks directly on tabs
-	on mousedown(target)[button==0] from <[role=tablist] [role=tab] />
-		send select to target
-		end
-
-	-- handle touch events for phones and tablets
-	on touchstart(target) from <[role=tablist] [role=tab] />
-		send select to target
-		end
-
-	on select(target)
-		for tab in <[role=tab] /> in me
-			if tab == target
-				add [@aria-selected="true"] to tab
-				call window.history.replaceState(undefined, tab.innerHTML, "#" + target[@aria-controls])
-			else
-				remove [@aria-selected] from tab
-			end
-		end
-
-		for panel in <[role=tabpanel] /> in me
-			set {hidden: (panel[@id] != target[@aria-controls])} on panel
-		end
-	end
-end
-</script>
-<script>
-class MyTemplates extends HTMLElement {
-		connectedCallback() {
-			let elt = this;
-			for (const t of ["translation-errors","builds","jobs"]){
-				fetch( `./templates/${t}.html` ).then(res => {
-					res.text().then(res=>{
-							console.log(res)
+	<script>
+		// template loader
+		class MyTemplates extends HTMLElement {
+			async connectedCallback() {
+				let elt = this;
+				for (const t of ["branches", "translation-errors", "builds", "jobs"]) {
+					let res = await fetch(`./templates/${t}.html`);
 					let d = document.createElement("div");
-					d.innerHTML = res;
+					d.innerHTML = await res.text();
 					elt.appendChild(d);
-							})
-				})
+				}
+				htmx.trigger("#main-section", "loaded");
 			}
 		}
-}
-customElements.define( 'my-templates', MyTemplates )
+		customElements.define('my-templates', MyTemplates)
 
-htmx.defineExtension("filter-hercules-jobs", {
-transformResponse: function (text, xhr, elt) {
-data = {}
-data.list = JSON.parse(text);
-data.name = elt.dataset['name'];
-return JSON.stringify(data);
-									 },
-});
-htmx.defineExtension("filter-hercules-evaluation", {
-transformResponse: function (text, xhr, elt) {
-var data = JSON.parse(text);
-let success = [];
-let buildFailure = [];
-let dependencyFailure = [];
-data.attributes.forEach(function (item) {
-		if (item.value.Ok === undefined) {
-			console.log(item)
-			return
-		}
-		if (item.value.Ok.status === "BuildFailure") {
-			buildFailure.push(item);
-			return
-		}
-		if (item.value.Ok.status === "DependencyFailure") {
-			dependencyFailure.push(item);
-			return
-		}
-		success.push(item)
+		htmx.defineExtension("filter-hercules-jobs", {
+			transformResponse: function(text, xhr, elt) {
+				data = {}
+				data.list = JSON.parse(text);
+				data.name = elt.dataset['name'];
+				return JSON.stringify(data);
+			},
 		});
-let failures = buildFailure.concat(dependencyFailure)
-data.checks = failures.filter(function (item) {
-		return item.path[0] === "checks";
-		});
-data.checksCountSuccess = success.filter(function (item) {
-		return item.path[0] === "checks";
-		}).length;
-data.checksCountFailure = data.checks.length;
+		htmx.defineExtension("filter-hercules-evaluation", {
+			transformResponse: function(text, xhr, elt) {
+				var data = JSON.parse(text);
+				let success = [];
+				let buildFailure = [];
+				let dependencyFailure = [];
+				data.attributes.forEach(function(item) {
+					if (item.value.Ok === undefined) {
+						buildFailure.push(item)
+						return
+					}
+					if (item.value.Ok.status === "BuildFailure") {
+						buildFailure.push(item);
+						return
+					}
+					if (item.value.Ok.status ===
+						"DependencyFailure") {
+						dependencyFailure.push(item);
+						return
+					}
+					success.push(item)
+				});
+				let failures = buildFailure.concat(dependencyFailure)
+				data.checks = failures.filter(function(item) {
+					return item.path[0] === "checks";
+				});
+				data.checksCountSuccess = success.filter(function(item) {
+					return item.path[0] === "checks";
+				}).length;
+				data.checksCountFailure = data.checks.length;
 
-data.attributes = [];
-data.jobid = htmx.find("#jobid").dataset.jobid;
+				data.attributes = [];
+				data.jobid = htmx.find("#jobid").dataset.jobid;
 
-data.checks.forEach((item, index) => {
-		if (item.value && item.value.Ok && item.value.Ok.derivationPath) {
-		data.checks[index].value.Ok.derivationPath = encodeURIComponent(
-				item.value.Ok.derivationPath
-				);
-		}
-		});
-data.name = elt.dataset['name'];
+				data.checks.forEach((item, index) => {
+					if (item.value && item.value.Ok && item.value
+						.Ok.derivationPath) {
+						data.checks[index].value.Ok
+							.derivationPath = encodeURIComponent(
+								item.value.Ok.derivationPath
+							);
+					}
+				});
+				data.name = elt.dataset['name'];
 
-return JSON.stringify(data);
-									 },
-});
-</script>
-<script>
-var env = nunjucks.configure();
-env.addGlobal("getContext", function () {
-		return this.ctx;
+				return JSON.stringify(data);
+			},
 		});
-</script>
-<my-templates></my-templates>
+	</script>
 </head>
+
 <body>
 
-<main hx-ext="client-side-templates" hx-disinherit="*">
-<h2>dream2nix status</h2>
-<template id="branches">
-<div _="install TabContainer">
-	<div role="tablist">
-		{% for key,item in getContext() %}
-		<button id="button-{{item.name}}" role="tab" aria-controls=
-			"{{item.name}}" aria-selected="false">{{item.name}}</button>
-		{% endfor %}
-	</div>
-	{% for key,item in getContext() %}
-	<section id="{{item.name}}" role="tabpanel" aria-labelledby="button-{{item.name}}" data-name="{{item.name}}"
-		hx-ext="filter-hercules-jobs, client-side-templates"
-		nunjucks-template="jobs" hx-swap="innerHTML"
-		hx-target="#jobs-{{item.name}}" hx-disinherit="*" hx-trigger="load"
-		hx-get="https://hercules-ci.com/api/v1/site/github/account/nix-community/project/dream2nix-auto-test/jobs?limit=5&amp;ref=refs/heads/{{item.name}}"
-		hidden>
-		<meter style="width: 40%" _="install Meter">
-			<span class="errors" id="{{item.name}}-errors"></span>
-			<span class="failure" id="{{item.name}}-failure"></span>
-			<span class="success" id="{{item.name}}-success"></span>
-		</meter>
-		<label><span></span>% checks ( <span class="fails" ></span>/<span></span> failed )</label>
-		<div id="jobs-{{item.name}}"></div>
-		<section data-name="{{item.name}}" hx-get="{{item.name}}/translation-errors.json" hx-trigger="load once" hx-swap="innerHTML"
-			nunjucks-template="translation-errors">....loading data from {{item.name}}
+	<main hx-ext="client-side-templates">
+		<h2>dream2nix status</h2>
+		<section id="main-section" hx-get="indexes.json" hx-trigger="loaded once"
+			hx-swap="innerHTML" nunjucks-template="branches"
+			hx-ext="filter-hercules-jobs"
+			>....loading
 		</section>
-	</section>
-	{% endfor %}
-</div>
-</template>
-<section
-	hx-get="indexes.json"
-	hx-trigger="load once"
-	hx-swap="innerHTML"
-	nunjucks-template="branches">....loading</section>
-</main>
-<script type="text/hyperscript">
-eventsource Reloader from http://localhost:8085/reload
-	on message
-		call location.reload()
-	end
-	on error
-		log "error with connecting to reload SSE"
-	end
-	on close
-		log "closing reload SSE"
-	end
-end
-</script>
+	</main>
 </body>
+
 </html>
 <!-- vim: set nu sw=2 ts=2 noet : -->
