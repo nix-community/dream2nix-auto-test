@@ -2,7 +2,7 @@ branches = $(shell curl https://raw.githubusercontent.com/nix-community/dream2ni
 jsons = $(addsuffix /translation-errors.json,${branches})
 icons = $(addsuffix .svg,${branches})
 
-.PHONY: $(jsons) all pretty
+.PHONY: $(jsons) $(icons) all pretty
 all: $(jsons)
 
 .ONESHELL:

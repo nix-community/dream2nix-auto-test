@@ -13,6 +13,7 @@
 			hx-disinherit="*" hx-trigger="load"
 			hx-get="https://hercules-ci.com/api/v1/site/github/account/nix-community/project/dream2nix-auto-test/jobs?limit=5&amp;ref=refs/heads/{{item.name}}"
 			hidden>
+			<p><img src="https://raw.githubusercontent.com/nix-community/dream2nix-auto-test/gh-pages/{{item.name}}.svg"/></p>
 			<meter style="width: 40%" _="install Meter">
 				<span class="errors" id="{{item.name}}-errors"></span>
 				<span class="failure" id="{{item.name}}-failure"></span>
