@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Main</title>
+	<script src="https://unpkg.com/htmx.org@1.8.0" integrity="sha384-cZuAZ+ZbwkNRnrKi05G/fjBX+azI9DNOkNYysZ0I/X5ZFgsmMiBXgDZof30F5ofc" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/htmx.org@1.8.0/dist/ext/client-side-templates.js"></script>
+	<script src="https://unpkg.com/hyperscript.org@0.9.5/dist/_hyperscript_w9y.min.js"></script>
+	<link rel="stylesheet" href="https://the.missing.style">
+	<script src="https://unpkg.com/mustache@latest"></script>
+	<style>
+		details[data-status].jobs {
+	}
+	details[data-status="BuildFailure"].jobs {
+		display: block !important;
+	}
+	li[data-status="Failure"] {
+		color: red;
+	}
+	pre {
+		height: 10em;
+		overflow: scroll;
+	}
+	:root {
+		--line-length: 80vw;
+	}
+	</style>
+	<script type="text/hyperscript">
+    behavior TabContainer
+
+        -- init handles the default tab selection.  If a document hash exists
+        -- (and points to one of our tabs) then select it first.  Otherwise,
+        -- select the first tab in the list
+        init
+						wait 1s
+            if window.location.hash is not "" then
+                set target to the first <[aria-controls="${window.location.hash.slice(1)}"]/>
+            end
+
+            if target is null then
+                set target to first <[role=tab]/> in me
+            end
+
+            send select to target
+        end
+
+        -- move to first tab on HOME
+        on keydown[keyCode==36]
+            send select to first <[role=tab]/> in me
+
+        -- move to last tab on END
+        on keydown[keyCode==35]
+            send select to last <[role=tab]/> in me
+
+        -- move to previous tab LEFT ARROW
+        on keydown[keyCode==37]
+            set current to first <[aria-selected=true]/> in me
+            send select to previous <[role=tab]/> from current with wrapping
+
+        -- move to next tab on RIGHT ARROW
+        on keydown[keyCode==39]
+            set current to first <[aria-selected=true]/> in me
+            send select to next <[role=tab]/> from current with wrapping
+
+        -- select highlighted tab on SPACE (expected for ARIA buttons)
+        on keydown[keyCode==32]
+            send select to first <[role=tab]:focus/>
+
+        -- select highlighted tab on ENTER (additional key to select tabs)
+        on keydown[keyCode==13]
+            send select to first <[role=tab]:focus/>
+
+        -- handle mouse clicks directly on tabs
+        on mousedown(target)[button==0] from <[role=tablist] [role=tab] />
+            send select to target
+        end
+
+        -- handle touch events for phones and tablets
+        on touchstart(target) from <[role=tablist] [role=tab] />
+            send select to target
+        end
+
+        on select(target)
+            for tab in <[role=tab] /> in me
+                if tab == target
+                    add [@aria-selected="true"] to tab
+                    call window.history.replaceState(undefined, tab.innerHTML, "#" + target[@aria-controls])
+                else
+                    remove [@aria-selected] from tab
+                end
+            end
+
+            for panel in <[role=tabpanel] /> in me
+                set {hidden: (panel[@id] != target[@aria-controls])} on panel
+            end
+        end
+    end
+	</script>
+	<script>
+		htmx.defineExtension('filter-hercules-jobs', {
+    transformResponse : function(text,xhr,elt) {
+			var data = JSON.parse(text)
+			let success=[];
+			let failure=[];
+			data.attributes.forEach(function (item){
+				((item.value.Ok === undefined || item.value.Ok.status === "BuildFailure") ? failure : success).push(item)
+			})
+			data.checks = failure.filter(function(item){
+				return item.path[0] === "checks"
+			})
+			data.checksCountSuccess = success.filter(function(item){
+				return item.path[0] === "checks"
+			}).length;
+			data.checksCountFailure = data.checks.length;
+
+			data.attributes = [];
+			data.jobid = htmx.find("#jobid").dataset.jobid;
+
+			data.checks.forEach((item,index) => {
+				if (item.value && item.value.Ok && item.value.Ok.derivationPath) {
+					data.checks[index].value.Ok.derivationPath =
+					encodeURIComponent(item.value.Ok.derivationPath);
+				}
+			});
+
+			return JSON.stringify(data)
+    }
+  })
+	</script>
+</head>
+<body>
+	<main hx-ext="client-side-templates" _="install TabContainer">
+		<h2>dream2nix status</h3>
+
+
+		<template id="jobs">
+			{{ #items.0 }}
+			<img class="flex-grow:2 float:right" style="inline-size: 65px" height=40 width=40 src="{{source.committer.imageURL}}"></img>
+			<dl>
+				<dt>branch</dt><dd>{{source.ref}}</dd>
+				<dt>commit</dt><dd><a href="{{ source.link }}">{{source.link}}</a></dd>
+				<dt>message</dt><dd>{{ source.message }}</dd>
+				<dt>jobId</dt><dd id="jobid" data-jobid="{{id}}">{{id}}</dd>
+				<dt>evaluationId</dt><dd>
+					<a href="https://hercules-ci.com/github/nix-community/dream2nix-auto-test/jobs/{{index}}">{{ evaluationId }}</a></dd>
+			</dl>
+			<div
+				hx-ext="filter-hercules-jobs, client-side-templates"
+				hx-get="https://hercules-ci.com/api/v1/jobs/{{ id }}/evaluation"
+				hx-swap="innerHTML"
+				mustache-template="builds"
+				hx-trigger="load once">
+				<marquee>loading...</marquee>
+			</div>
+			{{ /items.0 }}
+		</template>
+
+		<template id="builds">
+			<details
+				_="on load
+					send loadMeter(failure:{{checksCountFailure}},success:{{checksCountSuccess}}) to <meter/> in closest <div[role=tabpanel]/>
+				">
+				<summary>Build Failures (<span>{{checksCountFailure}}</span>)</summary>
+				<input _="
+					on keyup
+						show <section/> in closest <details/> when its textContent contains my value
+				"></input>
+			{{#checks}}
+			{{#value.Ok.derivationPath}}
+			<section class="box warn"><a href="https://hercules-ci.com/accounts/github/nix-community/derivations/{{value.Ok.derivationPath}}/log?via-job={{jobid}}">
+					<h4>{{path}} : {{value.Ok.status}} {{value.Error.errorType}}</h4>
+			</a></section>
+			{{/value.Ok.derivationPath}}
+			{{^value.Ok.derivationPath}}
+			<section class="box bad">
+				<h4>{{path}} : {{value.Ok.status}} {{value.Error.errorType}}</h4>
+				<code>{{value.Error.errorMessage}}</code>
+				<details>
+					<summary>Trace</summary>
+					<pre>{{value.Error.trace}}</pre>
+				</details>
+			</section>
+			{{/value.Ok.derivationPath}}
+			{{/checks}}
+			</details>
+		</template>
+
+		<template id="branches">
+		<div
+				_="install TabContainer">
+		<div role="tablist">
+			{{ #.}}
+			<button id="button-{{name}}" role="tab" aria-controls="{{name}}" aria-selected="false">{{name}}</button>
+			{{ /.}}
+		</div>
+
+			{{ #.}}
+			<div id="{{name}}" role="tabpanel" aria-labelledby="button-{{name}}"
+			mustache-template="jobs"
+			hx-swap="innerHTML"
+			hx-target="#jobs-{{name}}"
+			hx-disinherit="*"
+			hx-trigger="load"
+			hx-get="https://hercules-ci.com/api/v1/site/github/account/nix-community/project/dream2nix-auto-test/jobs?limit=5&ref=refs/heads/{{name}}"
+			hidden
+			>
+			<meter id="meter-{{name}}" style="width: 40%" _="
+				on loadMeter(failure,success)
+				  set @data-success to success
+				  set @data-failure to failure
+				end
+				on mutation of @data-success or @data-failure or @data-error queue all
+					set @value to @data-success as Int
+					set @max to (@data-success as Int + @data-failure as Int + @data-error as Int)
+					set $percent to (100 * ((@value as Int)/(@max as Int))).toFixed(5)
+
+					put $percent into the first <span/> in next <label/>
+					put @max into the last <span/> in next <label/>
+					put (@max - @value) into the next <label > .success />
+				 " data-success=0 data-failure=0 data-error=0 value=0 max=100
+				>
+			</meter>
+			<label><span></span>% checks ( <span class="success" ></span>/<span></span> failed )</label>
+			{{={% %}=}}
+			<div id="jobs-{%name%}"></div>
+
+			<template id="translation-errors-{%name%}">
+				<details id="translation_errors">
+					<summary>Translation Errors (<span id="{%name%}-translation-error-count">...</span>)</summary>
+					<label>Filter by log search:</label>
+					<input _="
+						on keyup
+							show <details/> in #translation_errors when its innerHTML contains my value
+					"></input>
+					{{ #. }}
+					<details open>
+						<summary>{%name%} - {{.}}
+						</summary>
+						<pre hx-get="/nix-community/dream2nix-auto-test/{%name%}/translation-errors/{{.}}"
+							hx-trigger="load once"
+							hx-swap=innerHTML"
+							hx-ext="ignore: client-side-templates"
+						>....loading data from {%name%}</pre>
+					</details>
+					{{ /. }}
+				</details>
+			</template>
+			{%={{ }}=%}
+
+			<section hx-get="/nix-community/dream2nix-auto-test/{{name}}/translation-errors.json"
+				hx-trigger="intersect once"
+				hx-swap="innerHTML"
+				mustache-template="translation-errors-{{name}}"
+				_="on htmx:afterSettle
+					 set $len to (<details > details/> in me).length
+					 set #meter-{{name}}@data-error to $len
+					 put $len into #{{name}}-translation-error-count
+					 "
+				>....loading data from {{name}}</section>
+		</div>
+			{{ /.}}
+		</div>
+		</template>
+		<section hx-get="indexes.json"
+			hx-trigger="load once"
+			mustache-template="branches"
+			>....loading</section>
+	</main>
+	<script type="text/hyperscript">
+eventsource Reloader from http://localhost:8085/reload
+    on message
+        call location.reload()
+    end
+    on error
+        log "error with connecting to reload SSE"
+    end
+    on close
+        log "closing reload SSE"
+    end
+end
+</script>
+</body>
+</html>
+<!-- vim: set sw=2 ts=2 noet : -->
+
