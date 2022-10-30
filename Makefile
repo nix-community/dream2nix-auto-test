@@ -3,7 +3,7 @@ jsons = $(addsuffix /translation-errors.json,${branches})
 icons = $(addsuffix .svg,${branches})
 
 .PHONY: $(jsons) $(icons) all pretty
-all: $(jsons)
+all: $(jsons) $(icons)
 
 .ONESHELL:
 ${icons}: %.svg: %

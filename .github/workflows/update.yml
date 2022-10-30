@@ -1,0 +1,23 @@
+name: "Generate Packages"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages
+        fetch-depth: 1
+    - name: Install nix
+      uses: cachix/install-nix-action@v17
+      with:
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+    - name: update
+      run: |
+        nix run
