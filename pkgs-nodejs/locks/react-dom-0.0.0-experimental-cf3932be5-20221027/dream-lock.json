@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "react-dom",
+    "location": "",
+    "packages": {
+      "react-dom": "0.0.0-experimental-cf3932be5-20221027"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "0.0.0-experimental-cf3932be5-20221027": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-dom": {
+      "0.0.0-experimental-cf3932be5-20221027": [
+        [ "loose-envify", "1.4.0" ],
+        [ "scheduler", "0.0.0-experimental-cf3932be5-20221027" ]
+      ],
+      "unknown": [
+        [ "react-dom", "0.0.0-experimental-cf3932be5-20221027" ]
+      ]
+    },
+    "scheduler": {
+      "0.0.0-experimental-cf3932be5-20221027": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "0.0.0-experimental-cf3932be5-20221027": {
+        "hash": "sha512-1bUBJsm+N0lYNg2Gpg6oOyOMbWd+2n+Y3WwFIen1/sr8mmOZqjI4jdKbMZ/5M5Hx6w4Ql21Q/pRYKXaOuS31Nw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-0.0.0-experimental-cf3932be5-20221027.tgz"
+      }
+    },
+    "react-dom": {
+      "0.0.0-experimental-cf3932be5-20221027": {
+        "hash": "sha512-VXeb+A+TYWb6j3keGHg2Rzeh0cg5SCSk6kpOo8R+630a1L1rQpP3TyAc3WKVexXZLJUcn5oK1cwT41uIH12jpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-dom/-/react-dom-0.0.0-experimental-cf3932be5-20221027.tgz"
+      }
+    },
+    "scheduler": {
+      "0.0.0-experimental-cf3932be5-20221027": {
+        "hash": "sha512-IEdx/fPX01Gij40qafYRVo60zrSEPph/b1Iq5mc5w9TP4rZI11ituwhZL5/L7YL7HDIewh4hK+S74DTuPb/rnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.0.0-experimental-cf3932be5-20221027.tgz"
+      }
+    }
+  }
+}
