@@ -162,6 +162,7 @@
 					send loadMeter(failure:{{checksCountFailure}},success:{{checksCountSuccess}}) to <meter/> in closest <div[role=tabpanel]/>
 				">
 				<summary>Build Failures (<span>{{checksCountFailure}}</span>)</summary>
+				<label>Filter by name search:</label>
 				<input _="
 					on keyup
 						show <section/> in closest <details/> when its textContent contains my value
@@ -238,7 +239,7 @@
 						<summary>{%name%} - {{.}}
 						</summary>
 						<pre hx-get="{%name%}/translation-errors/{{.}}"
-							hx-trigger="load once"
+							hx-trigger="intersect once"
 							hx-swap=innerHTML"
 							hx-ext="ignore: client-side-templates"
 						>....loading data from {%name%}</pre>
@@ -249,7 +250,7 @@
 			{%={{ }}=%}
 
 			<section hx-get="{{name}}/translation-errors.json"
-				hx-trigger="intersect once"
+				hx-trigger="load once"
 				hx-swap="innerHTML"
 				mustache-template="translation-errors-{{name}}"
 				_="on htmx:afterSettle
