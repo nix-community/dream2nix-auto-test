@@ -3,7 +3,7 @@
     "defaultPackage": "wai-extra",
     "location": "",
     "packages": {
-      "wai-extra": "3.1.12.1"
+      "wai-extra": "3.1.13.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -17,6 +17,9 @@
       "aeson#2.1.1.0": "103ceb1421cd0ffa810bfb1acb1261d60addbde1a041fb5cce0056ff7d7dcdc2",
       "ansi-terminal#0.11.3": "cc499d5f4c09a7213cd752ee69dbb5a5b8f3d1c777274e609eea4bca5c68ac8c",
       "appar#0.1.8": "a5d529bacbb74d566e4c5f9479af0637eac5957705f6db4d2670517489795de8",
+      "asn1-encoding#0.9.6": "27ed8f6043aed79630313bb931f7c8e2b510f0b4586cd55c16ae040c7d1ea098",
+      "asn1-parse#0.9.5": "77c0126d63070df2d82cb4cfa4febb26c4e280f6d854bc778c2fa4d80ce692b8",
+      "asn1-types#0.3.4": "8e879b3a5bbdd0031232eb84d904b5a3a2c20a18847692b996d774f4ff811355",
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
       "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
       "attoparsec#0.14.4": "c0569d86c02cadd403017ea414dcb5e4f7de5380de0d8a92b9337cad84cd5e02",
@@ -25,7 +28,9 @@
       "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
       "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
+      "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
       "bifunctors#5.5.13": "66f1c1d0cba5de9d8810e2ef0be700b98d3689482f605cc46a69283e92a60840",
+      "bsb-http-chunked#0.0.0.4": "add530e695ea3058bf4f7156a1ca85653ff3635b87ec6d1be8c4891645190f96",
       "byteorder#1.0.4": "a952817dcbe20af0346fb55a28c13e95e2ddbf3e99f9b4fffdc063f150f13b20",
       "cabal-doctest#1.0.9": "21823c6227a483b4faf210d7a55d435563ff69ddf94b48b8af1bba878196c820",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
@@ -34,6 +39,7 @@
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "cookie#0.4.5": "22bbe2bea34cfc546eaca2468386035fec521b8dbae52f5aa2f994ed68b35e0e",
+      "cryptonite#0.30": "12c85dea7be63e5ad90bcb487eb3846bf3c413347f94336fa1dede7b28f9936a",
       "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
@@ -42,30 +48,37 @@
       "fast-logger#3.1.1": "9ffbb0d475edf6c3ed13cae0b24202a22a1a29848d9810785849f1f2332b6ee1",
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hourglass#0.2.12": "e083f5e030dfebe432e30a9c0fa07a99a54eac992f622442646be561fd7a44e8",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "hspec#2.10.6": "c90dbcc629e88e5f56021c7dba26a97109a0c441aeece6ead217ee3fc83dcb68",
       "hspec-core#2.10.6": "68a74267974fee22f4bc57b5d353391e8dc943b0d7ffaf5d47dab691765ee772",
       "hspec-discover#2.10.6": "df63254c5aa8c5c2b9233b0067728394936b6c9af7e3a5d3d44df78d888dcefd",
       "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
+      "http-date#0.0.11": "b278b07f880705e3b0b073206ad26954548b666d616733c9a6b5d50993f547d4",
       "http-types#0.12.3": "f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9",
       "http2#3.0.3": "309c7198fbccf136e949a2b630d7fec2557478c4af4a2c8c5523b71ec00c88b9",
       "indexed-traversable#0.1.2": "52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350",
       "indexed-traversable-instances#0.1.1.1": "04b9fac300cde96de9aaaa0c4237a85045308d0bd4ba360e318febf34ec0bd3a",
       "integer-logarithms#1.0.3.1": "d59bfd1d39808217af2b68789d3c0e57cb7199d47405a276060d88fef4f4017d",
       "iproute#1.7.12": "85d181599fab8ceebf4c849110ad571bea2834d6c8c95ae7da33856c42453f40",
+      "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
       "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
       "network-byte-order#0.1.6": "23d8b609ac43a69d04d5e8f411e5f86a0266c0e8b33b65f8c92ebda64273fe3a",
       "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
       "old-time#1.1.0.3": "c91fbb3ee73d20ccd015842b30f1f29a304893ebe0ae3128b7bbc13d5bb0d4c8",
+      "pem#0.2.4": "cc8e62118b783e284dc0fa032f54fe386a3861a948ec88079370a433c103a705",
       "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
       "psqueues#0.2.7.3": "7213d78598d397255b1861df318d9b5058577f86a9b83a8b652540cbdbc83033",
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
-      "resourcet#1.2.6": "0c55be13d24c1e9c1e6d82327ac039a0bf41469c456e3ae678efa8a9beda3a74",
+      "recv#0.0.0": "d146b0decff93c72f043ec06d7bed2ca53595ceb61debb43c94302e657378508",
+      "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
+      "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
       "semigroupoids#5.3.7": "fb1a86c250997c269106645724a67bc358235245cf385b589f855ac070d4ada0",
       "setenv#0.1.1.3": "c5916ac0d2a828473cd171261328a290afe0abd799db1ac8c310682fe778c45b",
+      "simple-sendfile#0.2.30": "c6893e159dc20eea6d0b805bfd8d9b73e6a6ba3fe72cc396acdc24fdcd33cc38",
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
       "streaming-commons#0.2.2.5": "34959abee70e63d370b5a4bee0bc3483c66d1e53906fb5e13844ae8b9a62a4a3",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
@@ -76,10 +89,11 @@
       "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
       "time-compat#1.9.6.1": "5cf5fa19d32742816fa1423085cbfd626aef433101c0b97bf0e8f720a6f369d8",
-      "time-manager#0.0.0": "d258b1d08f9b926823f5380e9201303b0ebeefe4f9e0047c0cbd7b6728135ee1",
+      "time-manager#0.0.0": "5b6288815180428377d96be9fc3fa9d4d02b7aa2cc04839fb547409b8db68cc3",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
       "unix-compat#0.6": "0f5d0929d838077909d397c7c83b711b89db4ed3d4dafea46af19c04b389b53c",
       "unix-time#0.4.8": "491783752c61b7132a8e2c508361b5fc15295fd5849929684f3281c60f1d9897",
+      "unliftio#0.2.23.0": "2612aac554b752d160e7b77b8751b11aa3d001ae8b28600a382fbfe0d5ca749c",
       "unliftio-core#0.2.0.1": "f9abcdd3f3d28e4840563efb7b8760d2de9b5707bcd6f53a87f6a0d77bb5a9f7",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
@@ -88,8 +102,10 @@
       "vector-stream#0.1.0.0": "09b0f8dc4e51936b9d6b04791f0aa03f7c9759b5fb7140eac8a9461cda1e55a3",
       "wai#3.2.3": "c7518618bdb842116dbc1a4e4553223799eef43add19278c2bbffb4536595fe0",
       "wai-logger#2.4.0": "630b3d573dce5c6a84dfb372d69f8d15f9dbb52d6a04df43e57a44f0ca0eab0a",
+      "warp#3.3.23": "0959cc33ae0b2940ebb81f2482095fe9566abaf487cae312284c507c00008fa1",
       "witherable#0.4.2": "cccb36175e088abb4291ee5044b8c04d71acd5c36636902d2520f91508dd4bb8",
       "word8#0.1.3": "e5464d0600821a116467d4b12fef12b15ff040c3599500e5f0274225e78c6faf",
+      "x509#1.7.7": "90eef2d745a654146fc1c325e035eaddac531e4d2145d4bc1dcf4b8fad439d34",
       "zlib#0.6.3.0": "8214a9d37580f17f8b675109578a5dbe6853559eef156e34dc2233f1123ace33"
     },
     "compiler": {
@@ -109,8 +125,8 @@
       ]
     },
     "wai-extra": {
-      "3.1.12.1": [
-        [ "wai-extra", "3.1.12.1" ]
+      "3.1.13.0": [
+        [ "wai-extra", "3.1.13.0" ]
       ]
     }
   },
@@ -160,6 +176,24 @@
     "ansi-terminal": {
       "0.11.3": [
         [ "colour", "2.3.6" ]
+      ]
+    },
+    "asn1-encoding": {
+      "0.9.6": [
+        [ "asn1-types", "0.3.4" ],
+        [ "hourglass", "0.2.12" ]
+      ]
+    },
+    "asn1-parse": {
+      "0.9.5": [
+        [ "asn1-encoding", "0.9.6" ],
+        [ "asn1-types", "0.3.4" ]
+      ]
+    },
+    "asn1-types": {
+      "0.3.4": [
+        [ "hourglass", "0.2.12" ],
+        [ "memory", "0.18.0" ]
       ]
     },
     "assoc": {
@@ -213,6 +247,12 @@
     "cookie": {
       "0.4.5": [
         [ "data-default-class", "0.1.2.0" ]
+      ]
+    },
+    "cryptonite": {
+      "0.30": [
+        [ "basement", "0.0.15" ],
+        [ "memory", "0.18.0" ]
       ]
     },
     "data-fix": {
@@ -271,6 +311,11 @@
         [ "call-stack", "0.4.0" ]
       ]
     },
+    "http-date": {
+      "0.0.11": [
+        [ "attoparsec", "0.14.4" ]
+      ]
+    },
     "http-types": {
       "0.12.3": [
         [ "case-insensitive", "1.2.1.0" ]
@@ -304,6 +349,11 @@
         [ "network", "3.1.2.7" ]
       ]
     },
+    "memory": {
+      "0.18.0": [
+        [ "basement", "0.0.15" ]
+      ]
+    },
     "network": {
       "3.1.2.7": [
         [ "hsc2hs", "0.68.8" ]
@@ -312,6 +362,12 @@
     "old-time": {
       "1.1.0.3": [
         [ "old-locale", "1.0.0.7" ]
+      ]
+    },
+    "pem": {
+      "0.2.4": [
+        [ "basement", "0.0.15" ],
+        [ "memory", "0.18.0" ]
       ]
     },
     "psqueues": {
@@ -330,8 +386,13 @@
         [ "splitmix", "0.1.0.4" ]
       ]
     },
+    "recv": {
+      "0.0.0": [
+        [ "network", "3.1.2.7" ]
+      ]
+    },
     "resourcet": {
-      "1.2.6": [
+      "1.3.0": [
         [ "primitive", "0.7.4.0" ],
         [ "unliftio-core", "0.2.0.1" ]
       ]
@@ -366,6 +427,11 @@
         [ "tagged", "0.8.6.1" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ]
+      ]
+    },
+    "simple-sendfile": {
+      "0.2.30": [
+        [ "network", "3.1.2.7" ]
       ]
     },
     "streaming-commons": {
@@ -422,6 +488,13 @@
         [ "hsc2hs", "0.68.8" ]
       ]
     },
+    "unliftio": {
+      "0.2.23.0": [
+        [ "async", "2.2.4" ],
+        [ "safe-exceptions", "0.1.7.3" ],
+        [ "unliftio-core", "0.2.0.1" ]
+      ]
+    },
     "unordered-containers": {
       "0.2.19.1": [
         [ "hashable", "1.4.1.0" ]
@@ -453,7 +526,7 @@
       ]
     },
     "wai-extra": {
-      "3.1.12.1": [
+      "3.1.13.0": [
         [ "HUnit", "1.6.2.0" ],
         [ "aeson", "2.1.1.0" ],
         [ "ansi-terminal", "0.11.3" ],
@@ -464,14 +537,14 @@
         [ "data-default-class", "0.1.2.0" ],
         [ "fast-logger", "3.1.1" ],
         [ "http-types", "0.12.3" ],
-        [ "http2", "3.0.3" ],
         [ "iproute", "1.7.12" ],
         [ "network", "3.1.2.7" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "vault", "0.3.1.5" ],
         [ "wai", "3.2.3" ],
         [ "wai-logger", "2.4.0" ],
+        [ "warp", "3.3.23" ],
         [ "word8", "0.1.3" ],
         [ "HUnit", "1.6.2.0" ],
         [ "aeson", "2.1.1.0" ],
@@ -480,13 +553,14 @@
         [ "fast-logger", "3.1.1" ],
         [ "hspec", "2.10.6" ],
         [ "http-types", "0.12.3" ],
-        [ "http2", "3.0.3" ],
         [ "iproute", "1.7.12" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "temporary", "1.3" ],
         [ "wai", "3.2.3" ],
-        [ "wai-extra", "3.1.12.1" ],
-        [ "zlib", "0.6.3.0" ]
+        [ "wai-extra", "3.1.13.0" ],
+        [ "warp", "3.3.23" ],
+        [ "zlib", "0.6.3.0" ],
+        [ "hspec-discover", "2.10.6" ]
       ]
     },
     "wai-logger": {
@@ -499,6 +573,29 @@
         [ "cabal-doctest", "1.0.9" ]
       ]
     },
+    "warp": {
+      "3.3.23": [
+        [ "auto-update", "0.1.6" ],
+        [ "bsb-http-chunked", "0.0.0.4" ],
+        [ "case-insensitive", "1.2.1.0" ],
+        [ "hashable", "1.4.1.0" ],
+        [ "http-date", "0.0.11" ],
+        [ "http-types", "0.12.3" ],
+        [ "http2", "3.0.3" ],
+        [ "iproute", "1.7.12" ],
+        [ "network", "3.1.2.7" ],
+        [ "recv", "0.0.0" ],
+        [ "simple-sendfile", "0.2.30" ],
+        [ "streaming-commons", "0.2.2.5" ],
+        [ "time-manager", "0.0.0" ],
+        [ "unix-compat", "0.6" ],
+        [ "unliftio", "0.2.23.0" ],
+        [ "vault", "0.3.1.5" ],
+        [ "wai", "3.2.3" ],
+        [ "word8", "0.1.3" ],
+        [ "x509", "1.7.7" ]
+      ]
+    },
     "witherable": {
       "0.4.2": [
         [ "base-orphans", "0.8.7" ],
@@ -507,6 +604,17 @@
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "x509": {
+      "1.7.7": [
+        [ "asn1-encoding", "0.9.6" ],
+        [ "asn1-parse", "0.9.5" ],
+        [ "asn1-types", "0.3.4" ],
+        [ "cryptonite", "0.30" ],
+        [ "hourglass", "0.2.12" ],
+        [ "memory", "0.18.0" ],
+        [ "pem", "0.2.4" ]
       ]
     }
   },
@@ -558,6 +666,27 @@
         "hash": "sha256:c4ceeddc26525b58d82c41b6d3e32141371a200a6794aae185b6266ccc81631f",
         "type": "http",
         "url": "https://hackage.haskell.org/package/appar-0.1.8.tar.gz"
+      }
+    },
+    "asn1-encoding": {
+      "0.9.6": {
+        "hash": "sha256:d9f8deabd3b908e5cf83c0d813c08dc0143b3ec1c0d97f660d2cfa02c1c8da0a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/asn1-encoding-0.9.6.tar.gz"
+      }
+    },
+    "asn1-parse": {
+      "0.9.5": {
+        "hash": "sha256:8f1fe1344d30b39dc594d74df2c55209577722af1497204b4c2b6d6e8747f39e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/asn1-parse-0.9.5.tar.gz"
+      }
+    },
+    "asn1-types": {
+      "0.3.4": {
+        "hash": "sha256:78ee92a251379298ca820fa53edbf4b33c539b9fcd887c86f520c30e3b4e21a8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/asn1-types-0.3.4.tar.gz"
       }
     },
     "assoc": {
@@ -616,11 +745,25 @@
         "url": "https://hackage.haskell.org/package/base64-bytestring-1.2.1.0.tar.gz"
       }
     },
+    "basement": {
+      "0.0.15": {
+        "hash": "sha256:56c2afb6754e8d16a627331a8a5d473b3d26fd04ba5c9e0fb3475f595b915db4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/basement-0.0.15.tar.gz"
+      }
+    },
     "bifunctors": {
       "5.5.13": {
         "hash": "sha256:26cc27ade3796cf03bd680f98ebb7b8c0d7fd1b67c1894dc3635f734fba7dbd7",
         "type": "http",
         "url": "https://hackage.haskell.org/package/bifunctors-5.5.13.tar.gz"
+      }
+    },
+    "bsb-http-chunked": {
+      "0.0.0.4": {
+        "hash": "sha256:148309e23eb8b261c1de374712372d62d8c8dc8ee504c392809c7ec33c0a0e7c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bsb-http-chunked-0.0.0.4.tar.gz"
       }
     },
     "byteorder": {
@@ -679,6 +822,13 @@
         "url": "https://hackage.haskell.org/package/cookie-0.4.5.tar.gz"
       }
     },
+    "cryptonite": {
+      "0.30": {
+        "hash": "sha256:56099c8a8aa01d2ee914b670c97c1f818186dbb886e2025b73d9c2afe3496b1d",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cryptonite-0.30.tar.gz"
+      }
+    },
     "data-default-class": {
       "0.1.2.0": {
         "hash": "sha256:4f01b423f000c3e069aaf52a348564a6536797f31498bb85c3db4bd2d0973e56",
@@ -735,6 +885,13 @@
         "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
       }
     },
+    "hourglass": {
+      "0.2.12": {
+        "hash": "sha256:44335b5c402e80c60f1db6a74462be4ea29d1a9043aa994334ffee1164f1ca4a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hourglass-0.2.12.tar.gz"
+      }
+    },
     "hsc2hs": {
       "0.68.8": {
         "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
@@ -768,6 +925,13 @@
         "hash": "sha256:819607ea1faf35ce5be34be61c6f50f3389ea43892d56fb28c57a9f5d54fb4ef",
         "type": "http",
         "url": "https://hackage.haskell.org/package/hspec-expectations-0.8.2.tar.gz"
+      }
+    },
+    "http-date": {
+      "0.0.11": {
+        "hash": "sha256:32f923ac1ad9bdfeadce7c52a03c9ba6225ba60dc14137cb1cdf32ea84ccf4d3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/http-date-0.0.11.tar.gz"
       }
     },
     "http-types": {
@@ -812,6 +976,13 @@
         "url": "https://hackage.haskell.org/package/iproute-1.7.12.tar.gz"
       }
     },
+    "memory": {
+      "0.18.0": {
+        "hash": "sha256:fd4eb6f638e24b81b4e6cdd68772a531726f2f67686c8969d3407d82f7862e3e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/memory-0.18.0.tar.gz"
+      }
+    },
     "network": {
       "3.1.2.7": {
         "hash": "sha256:7f7620fef1a1af3d3d6747f510e73223a5c600e7d7fd9ace073d1222bdc63d85",
@@ -838,6 +1009,13 @@
         "hash": "sha256:1ccb158b0f7851715d36b757c523b026ca1541e2030d02239802ba39b4112bc1",
         "type": "http",
         "url": "https://hackage.haskell.org/package/old-time-1.1.0.3.tar.gz"
+      }
+    },
+    "pem": {
+      "0.2.4": {
+        "hash": "sha256:770c4c1b9cd24b3db7f511f8a48404a0d098999e28573c3743a8a296bb96f8d4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/pem-0.2.4.tar.gz"
       }
     },
     "primitive": {
@@ -868,11 +1046,25 @@
         "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
       }
     },
-    "resourcet": {
-      "1.2.6": {
-        "hash": "sha256:f83b35b2106854750ef5f1c34695ea8b7bba6e0572cedf9f2993c5acfdb5fd34",
+    "recv": {
+      "0.0.0": {
+        "hash": "sha256:5c6872652e1025a701a73d9e97b02796f9433c42e2eec6d7e2acfb544b5ae9fb",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/resourcet-1.2.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/recv-0.0.0.tar.gz"
+      }
+    },
+    "resourcet": {
+      "1.3.0": {
+        "hash": "sha256:ec601785ee42a201f32adb205b8685c983f18757b1bd33d2e806d571e0f9996b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/resourcet-1.3.0.tar.gz"
+      }
+    },
+    "safe-exceptions": {
+      "0.1.7.3": {
+        "hash": "sha256:91ce28d8f8a6efd31788d4827ed5cdcb9a546ad4053a86c56f7947c66a30b5bf",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/safe-exceptions-0.1.7.3.tar.gz"
       }
     },
     "scientific": {
@@ -901,6 +1093,13 @@
         "hash": "sha256:e358df39afc03d5a39e2ec650652d845c85c80cc98fe331654deafb4767ecb32",
         "type": "http",
         "url": "https://hackage.haskell.org/package/setenv-0.1.1.3.tar.gz"
+      }
+    },
+    "simple-sendfile": {
+      "0.2.30": {
+        "hash": "sha256:b6864d2b3c62ff8ea23fa24e9e26f751bfe5253c8efb1f1e4fee2ba91d065284",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/simple-sendfile-0.2.30.tar.gz"
       }
     },
     "splitmix": {
@@ -1001,6 +1200,13 @@
         "url": "https://hackage.haskell.org/package/unix-time-0.4.8.tar.gz"
       }
     },
+    "unliftio": {
+      "0.2.23.0": {
+        "hash": "sha256:2d86a3deef6d801991aa6c837c5e6c0d3db916f33226be1428a5a04f626be4fd",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unliftio-0.2.23.0.tar.gz"
+      }
+    },
     "unliftio-core": {
       "0.2.0.1": {
         "hash": "sha256:919f0d1297ea2f5373118553c1df2a9405d8b9e31a8307e829da67d4953c299a",
@@ -1051,10 +1257,10 @@
       }
     },
     "wai-extra": {
-      "3.1.12.1": {
-        "hash": "sha256:c672a246da981749d368c9e70f13183f987a07d3ca8f59a9fc9d8f2b18a844f9",
+      "3.1.13.0": {
+        "hash": "sha256:df0d2d275bc3c888fae9cf525496140c707cbccfdf013a36dc00e7a94ac38cc0",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/wai-extra-3.1.12.1/wai-extra-3.1.12.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/wai-extra-3.1.13.0/wai-extra-3.1.13.0.tar.gz"
       }
     },
     "wai-logger": {
@@ -1062,6 +1268,13 @@
         "hash": "sha256:057e635acd35a39d6ddae4ba4c5dfa1425e251579bbd3239c7f4b557bc96290a",
         "type": "http",
         "url": "https://hackage.haskell.org/package/wai-logger-2.4.0.tar.gz"
+      }
+    },
+    "warp": {
+      "3.3.23": {
+        "hash": "sha256:bad666f7c8557f5b1d3c5f367cff7115d2627bbd69859e319d2fff823f3b3978",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/warp-3.3.23.tar.gz"
       }
     },
     "witherable": {
@@ -1076,6 +1289,13 @@
         "hash": "sha256:2630934c75728bfbf390c1f0206b225507b354f68d4047b06c018a36823b5d8a",
         "type": "http",
         "url": "https://hackage.haskell.org/package/word8-0.1.3.tar.gz"
+      }
+    },
+    "x509": {
+      "1.7.7": {
+        "hash": "sha256:59c6920fe5d53f1e6a15176bd853f1a18422be87cd8496772ff4571828a568fe",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/x509-1.7.7.tar.gz"
       }
     },
     "zlib": {
