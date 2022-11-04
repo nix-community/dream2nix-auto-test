@@ -3,7 +3,7 @@
     "defaultPackage": "jsdoc",
     "location": "",
     "packages": {
-      "jsdoc": "3.6.11"
+      "jsdoc": "4.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -16,6 +16,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "@jsdoc/salty": {
+      "0.2.1": [
+        [ "lodash", "4.17.21" ]
+      ]
+    },
     "@types/markdown-it": {
       "12.2.3": [
         [ "@types/linkify-it", "3.0.2" ],
@@ -33,8 +38,9 @@
       ]
     },
     "jsdoc": {
-      "3.6.11": [
+      "4.0.0": [
         [ "@babel/parser", "7.20.1" ],
+        [ "@jsdoc/salty", "0.2.1" ],
         [ "@types/markdown-it", "12.2.3" ],
         [ "bluebird", "3.7.2" ],
         [ "catharsis", "0.9.0" ],
@@ -47,11 +53,10 @@
         [ "mkdirp", "1.0.4" ],
         [ "requizzle", "0.2.3" ],
         [ "strip-json-comments", "3.1.1" ],
-        [ "taffydb", "2.6.2" ],
         [ "underscore", "1.13.6" ]
       ],
       "unknown": [
-        [ "jsdoc", "3.6.11" ]
+        [ "jsdoc", "4.0.0" ]
       ]
     },
     "klaw": {
@@ -85,6 +90,13 @@
         "hash": "sha512-hp0AYxaZJhxULfM1zyp7Wgr+pSUKBcP3M+PHnSzWGdXOzg/kHWIgiUWARvubhUKGOEw3xqY4x+lyZ9ytBVcELw==",
         "type": "http",
         "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.20.1.tgz"
+      }
+    },
+    "@jsdoc/salty": {
+      "0.2.1": {
+        "hash": "sha512-JXwylDNSHa549N9uceDYu8D4GMXwSo3H8CCPYEQqxhhHpxD28+lRl2b3bS/caaPj5w1YD3SWtrficJNTnUjGpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jsdoc/salty/-/salty-0.2.1.tgz"
       }
     },
     "@types/linkify-it": {
@@ -158,10 +170,10 @@
       }
     },
     "jsdoc": {
-      "3.6.11": {
-        "hash": "sha512-8UCU0TYeIYD9KeLzEcAu2q8N/mx9O3phAGl32nmHlE0LpaJL71mMkP4d+QE5zWfNt50qheHtOZ0qoxVrsX5TUg==",
+      "4.0.0": {
+        "hash": "sha512-tzTgkklbWKrlaQL2+e3NNgLcZu3NaK2vsHRx7tyHQ+H5jcB9Gx0txSd2eJWlMC/xU1+7LQu4s58Ry0RkuaEQVg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/jsdoc/-/jsdoc-3.6.11.tgz"
+        "url": "https://registry.npmjs.org/jsdoc/-/jsdoc-4.0.0.tgz"
       }
     },
     "klaw": {
@@ -232,13 +244,6 @@
         "hash": "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==",
         "type": "http",
         "url": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
-      }
-    },
-    "taffydb": {
-      "2.6.2": {
-        "hash": "sha512-y3JaeRSplks6NYQuCOj3ZFMO3j60rTwbuKCvZxsAraGYH2epusatvZ0baZYA01WsGqJBq/Dl6vOrMUJqyMj8kA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/taffydb/-/taffydb-2.6.2.tgz"
       }
     },
     "uc.micro": {

@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "@angular/common",
+    "defaultPackage": "@angular/router",
     "location": "",
     "packages": {
-      "@angular/common": "14.2.8"
+      "@angular/router": "14.2.9"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,16 +17,26 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@angular/common": {
-      "14.2.8": [
+      "14.2.9": [
         [ "tslib", "2.4.1" ]
-      ],
-      "unknown": [
-        [ "@angular/common", "14.2.8" ]
       ]
     },
     "@angular/core": {
-      "14.2.8": [
+      "14.2.9": [
         [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@angular/platform-browser": {
+      "14.2.9": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@angular/router": {
+      "14.2.9": [
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@angular/router", "14.2.9" ]
       ]
     },
     "rxjs": {
@@ -42,17 +52,31 @@
   },
   "sources": {
     "@angular/common": {
-      "14.2.8": {
-        "hash": "sha512-JSPN2h1EcyWjHWtOzRQmoX48ZacTjLAYwW9ZRmBpYs6Ptw5xZ39ARTJfQNcNnJleqYju2E6BNkGnLpbtWQjNDA==",
+      "14.2.9": {
+        "hash": "sha512-nC1He98gj4FQqSo31Fb9ZJ+Ao3jJbmAg1JAdF5L0tkY70YydM91HXAp/JDrJ12O7IomenAwEHONFCVxgUfqUJw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@angular/common/-/common-14.2.8.tgz"
+        "url": "https://registry.npmjs.org/@angular/common/-/common-14.2.9.tgz"
       }
     },
     "@angular/core": {
-      "14.2.8": {
-        "hash": "sha512-cgnII9vJGJDLsfr7KsBfU2l+QQUmQIRIP3ImKhBxicw2IHKCSb2mYwoeLV46jaLyHyUMTLRHKUYUR4XtSPnb8A==",
+      "14.2.9": {
+        "hash": "sha512-6bExQgGmN9qmBbVMl7WaZ1KFSfTgFK+MmLbvoh4a29b47h7wvEuUWO7ulczzoUJQfMGfXU/4ypEW1a8ZhX+Xrg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@angular/core/-/core-14.2.8.tgz"
+        "url": "https://registry.npmjs.org/@angular/core/-/core-14.2.9.tgz"
+      }
+    },
+    "@angular/platform-browser": {
+      "14.2.9": {
+        "hash": "sha512-cvKFyHZp69scDj+tOmknWsdyarpNjpuFHbn2Tn3K9HLJsNHOvP2g8d/KwHl5atRscnDK1ztNh+FUKhGmQZsbng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-14.2.9.tgz"
+      }
+    },
+    "@angular/router": {
+      "14.2.9": {
+        "hash": "sha512-xg5Ajmn7mt6bosUDDotGzWORMfNGqi1otOUT8Sj2TpkvJebCaOS78GBBMnF8H5zaq8Pi+IsLM46kSJakFGdnVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/router/-/router-14.2.9.tgz"
       }
     },
     "rxjs": {
