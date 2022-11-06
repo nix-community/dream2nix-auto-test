@@ -3,7 +3,7 @@
     "defaultPackage": "MonadRandom",
     "location": "",
     "packages": {
-      "MonadRandom": "0.5.3"
+      "MonadRandom": "0.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -13,7 +13,7 @@
       "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
-      "transformers-compat#0.6.6": "510709db2b12d1510d70de824ee544ca0a9e6f27aa7e299218cbacc0750b4a5e"
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643"
     },
     "compiler": {
       "name": "ghc",
@@ -23,10 +23,10 @@
   "cyclicDependencies": {},
   "dependencies": {
     "MonadRandom": {
-      "0.5.3": [
+      "0.6": [
         [ "primitive", "0.7.4.0" ],
         [ "random", "1.2.1.1" ],
-        [ "transformers-compat", "0.6.6" ]
+        [ "transformers-compat", "0.7.2" ]
       ]
     },
     "random": {
@@ -37,10 +37,10 @@
   },
   "sources": {
     "MonadRandom": {
-      "0.5.3": {
-        "hash": "sha256:27184dadda0a49abac0208a1e6576b14217a60dc45b6839cd9e90af25ee00a9f",
+      "0.6": {
+        "hash": "sha256:c9388630895c3e68035ab804004de852b63a95d083aa140dc0e1481c854ed044",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/MonadRandom-0.5.3/MonadRandom-0.5.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/MonadRandom-0.6/MonadRandom-0.6.tar.gz"
       }
     },
     "primitive": {
@@ -65,10 +65,10 @@
       }
     },
     "transformers-compat": {
-      "0.6.6": {
-        "hash": "sha256:7e2e0251e5e6d28142615a4b950a3fabac9c0b7804b1ec4a4ae985f19519a9f9",
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/transformers-compat-0.6.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
       }
     }
   }
