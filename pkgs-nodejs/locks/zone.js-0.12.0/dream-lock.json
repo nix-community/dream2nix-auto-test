@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "zone.js",
+    "location": "",
+    "packages": {
+      "zone.js": "0.12.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "zone.js": {
+      "0.12.0": [
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "zone.js", "0.12.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    },
+    "zone.js": {
+      "0.12.0": {
+        "hash": "sha512-XtC+I5dXU14HrzidAKBNMqneIVUykLEAA1x+v4KVrd6AUPWlwYORF8KgsVqvgdHiKZ4BkxxjvYi/ksEixTPR0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/zone.js/-/zone.js-0.12.0.tgz"
+      }
+    }
+  }
+}
