@@ -2,15 +2,15 @@
 Translating:: atomic-primops (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/atomic-primops-0.8.2/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1667975110
++ indexTime=1668061239
 ++ date +%s
-+ age=868
-+ '[' 868 -gt 86400 ']'
-/tmp/tmp.6gITQeAvL6/tmp.sPtpQi999s/tmp.r13x6Tb0Zv ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=861
++ '[' 861 -gt 86400 ']'
+/tmp/tmp.BHQE5U6DZg/tmp.DENfJHJ8JD/tmp.oGpO8b5i6b ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/atomic-primops-0.8.2/atomic-primops-0.8.2.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 36157    0 36157    0     0   114k      0 --:--:-- --:--:-- --:--:--  114k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 36157  100 36157    0     0  91798      0 --:--:-- --:--:-- --:--:-- 91769
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: atomic-primops (user goal)
@@ -20,10 +20,10 @@ user target requires ==0.8.2)
 [__1] next goal: base (dependency of atomic-primops)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: atomic-primops =>
 base>=4.6.0.0 && <4.12)
-[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
-base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
-base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0 (has the same
-characteristics that caused the previous version to fail: excluded by
+[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
+base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
+base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
 constraint '>=4.6.0.0 && <4.12' from 'atomic-primops')
 [__1] rejecting: base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0,
 base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0, base-4.8.0.0,

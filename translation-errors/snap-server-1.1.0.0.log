@@ -2,15 +2,15 @@
 Translating:: snap-server (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/snap-server-1.1.0.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1667975110
++ indexTime=1668061239
 ++ date +%s
-+ age=578
-+ '[' 578 -gt 86400 ']'
-/tmp/tmp.a1tMcRasVo/tmp.qn88wiGyRX/tmp.fYoKhD5qnN ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=573
++ '[' 573 -gt 86400 ']'
+/tmp/tmp.UnQWAhUjCo/tmp.NG5PwNj9Je/tmp.EY4ygwJYXg ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/snap-server-1.1.0.0/snap-server-1.1.0.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0100 74090    0 74090    0     0  15779      0 --:--:--  0:00:04 --:--:-- 17594
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 74090  100 74090    0     0   282k      0 --:--:-- --:--:-- --:--:--  283k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: snap-server (user goal)
@@ -21,10 +21,10 @@ snap-server-1.1.1.1, snap-server-1.1.1.0 (constraint from user target requires
 [__1] next goal: base (dependency of snap-server)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: snap-server =>
 base>=4.6 && <4.12)
-[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
-base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
-base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0 (has the same
-characteristics that caused the previous version to fail: excluded by
+[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
+base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
+base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
 constraint '>=4.6 && <4.12' from 'snap-server')
 [__1] rejecting: base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0,
 base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0, base-4.8.0.0,
