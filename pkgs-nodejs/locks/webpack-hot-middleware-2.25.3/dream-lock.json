@@ -1,0 +1,72 @@
+{
+  "_generic": {
+    "defaultPackage": "webpack-hot-middleware",
+    "location": "",
+    "packages": {
+      "webpack-hot-middleware": "2.25.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "strip-ansi": {
+      "6.0.1": [
+        [ "ansi-regex", "5.0.1" ]
+      ]
+    },
+    "webpack-hot-middleware": {
+      "2.25.3": [
+        [ "ansi-html-community", "0.0.8" ],
+        [ "html-entities", "2.3.3" ],
+        [ "strip-ansi", "6.0.1" ]
+      ],
+      "unknown": [
+        [ "webpack-hot-middleware", "2.25.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-html-community": {
+      "0.0.8": {
+        "hash": "sha512-1APHAyr3+PCamwNw3bXCPp4HFLONZt/yIH0sZp0/469KWNTEy+qN5jQ3GVX6DMZ1UXAi34yVwtTeaG/HpBuuzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
+      }
+    },
+    "ansi-regex": {
+      "5.0.1": {
+        "hash": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
+      }
+    },
+    "html-entities": {
+      "2.3.3": {
+        "hash": "sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/html-entities/-/html-entities-2.3.3.tgz"
+      }
+    },
+    "strip-ansi": {
+      "6.0.1": {
+        "hash": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
+      }
+    },
+    "webpack-hot-middleware": {
+      "2.25.3": {
+        "hash": "sha512-IK/0WAHs7MTu1tzLTjio73LjS3Ov+VvBKQmE8WPlJutgG5zT6Urgq/BbAdRrHTRpyzK0dvAvFh1Qg98akxgZpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webpack-hot-middleware/-/webpack-hot-middleware-2.25.3.tgz"
+      }
+    }
+  }
+}
