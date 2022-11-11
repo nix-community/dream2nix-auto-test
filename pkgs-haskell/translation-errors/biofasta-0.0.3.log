@@ -2,15 +2,15 @@
 Translating:: biofasta (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/biofasta-0.0.3/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1667110836
++ indexTime=1668147764
 ++ date +%s
-+ age=560
-+ '[' 560 -gt 86400 ']'
-/tmp/tmp.dFc5UIOTGf/tmp.lX0Okrqhzu/tmp.X3YNZkR99k ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=379
++ '[' 379 -gt 86400 ']'
+/tmp/tmp.e1H4PEJAqo/tmp.LB9SGP7TXt/tmp.G6FPs8qATh ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/biofasta-0.0.3/biofasta-0.0.3.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 14468  100 14468    0     0  65202      0 --:--:-- --:--:-- --:--:-- 65466
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 14468  100 14468    0     0  82111      0 --:--:-- --:--:-- --:--:-- 82204
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: biofasta-0.0.3 (user goal)
@@ -18,11 +18,12 @@ Error: cabal: Could not resolve dependencies:
 [__2] next goal: base (dependency of biofasta)
 [__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: biocore =>
 base>=3 && <4.11)
-[__2] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
-base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
-base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
-base-4.11.0.0 (has the same characteristics that caused the previous version
-to fail: excluded by constraint '>=3 && <4.11' from 'biocore')
+[__2] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
+base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
+base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0,
+base-4.11.1.0, base-4.11.0.0 (has the same characteristics that caused the
+previous version to fail: excluded by constraint '>=3 && <4.11' from
+'biocore')
 [__2] rejecting: base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
 base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
 base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,
