@@ -1,8 +1,8 @@
-name: "Generate Packages"
+name: "Generate gh-pages"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 5 * * *'
 
 jobs:
   update:
