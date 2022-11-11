@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "raf",
+    "location": "",
+    "packages": {
+      "raf": "3.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "raf": {
+      "3.4.1": [
+        [ "performance-now", "2.1.0" ]
+      ],
+      "unknown": [
+        [ "raf", "3.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "performance-now": {
+      "2.1.0": {
+        "hash": "sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
+      }
+    },
+    "raf": {
+      "3.4.1": {
+        "hash": "sha512-Sq4CW4QhwOHE8ucn6J34MqtZCeWFP2aQSmrlroYgqAV1PjStIhJXxYuTgUIfkEk7zTLjmIjLmU5q+fbD1NnOJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/raf/-/raf-3.4.1.tgz"
+      }
+    }
+  }
+}
