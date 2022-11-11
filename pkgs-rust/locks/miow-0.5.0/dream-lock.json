@@ -1,0 +1,213 @@
+{
+  "_generic": {
+    "defaultPackage": "miow",
+    "location": "",
+    "packages": {
+      "miow": "0.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "miow": {
+        "0.5.0": {
+          "description": "A zero overhead I/O library for Windows, focusing on IOCP and async I/O\nabstractions.\n", "homepage": "https://github.com/yoshuawuyts/miow", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "miow": {
+        "0.5.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "getrandom": {
+      "0.2.8": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.137" ],
+        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
+      ]
+    },
+    "miow": {
+      "0.5.0": [
+        [ "rand", "0.8.5" ],
+        [ "socket2", "0.4.7" ],
+        [ "windows-sys", "0.42.0" ]
+      ]
+    },
+    "rand": {
+      "0.8.5": [
+        [ "libc", "0.2.137" ],
+        [ "rand_chacha", "0.3.1" ],
+        [ "rand_core", "0.6.4" ]
+      ]
+    },
+    "rand_chacha": {
+      "0.3.1": [
+        [ "ppv-lite86", "0.2.17" ],
+        [ "rand_core", "0.6.4" ]
+      ]
+    },
+    "rand_core": {
+      "0.6.4": [
+        [ "getrandom", "0.2.8" ]
+      ]
+    },
+    "socket2": {
+      "0.4.7": [
+        [ "libc", "0.2.137" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "windows-sys": {
+      "0.42.0": [
+        [ "windows_aarch64_gnullvm", "0.42.0" ],
+        [ "windows_aarch64_msvc", "0.42.0" ],
+        [ "windows_i686_gnu", "0.42.0" ],
+        [ "windows_i686_msvc", "0.42.0" ],
+        [ "windows_x86_64_gnu", "0.42.0" ],
+        [ "windows_x86_64_gnullvm", "0.42.0" ],
+        [ "windows_x86_64_msvc", "0.42.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "getrandom": {
+      "0.2.8": {
+        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "miow": {
+      "0.5.0": {
+        "hash": "52ffbca2f655e33c08be35d87278e5b18b89550a37dbd598c20db92f6a471123",
+        "type": "crates-io"
+      }
+    },
+    "ppv-lite86": {
+      "0.2.17": {
+        "hash": "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_chacha": {
+      "0.3.1": {
+        "hash": "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
+        "type": "crates-io"
+      }
+    },
+    "socket2": {
+      "0.4.7": {
+        "hash": "02e2d2db9033d13a1567121ddd7a095ee144db4e1ca1b1bda3419bc0da294ebd",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.11.0+wasi-snapshot-preview1": {
+        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    },
+    "windows-sys": {
+      "0.42.0": {
+        "hash": "5a3e1820f08b8513f676f7ab6c1f99ff312fb97b553d30ff4dd86f9f15728aa7",
+        "type": "crates-io"
+      }
+    },
+    "windows_aarch64_gnullvm": {
+      "0.42.0": {
+        "hash": "41d2aa71f6f0cbe00ae5167d90ef3cfe66527d6f613ca78ac8024c3ccab9a19e",
+        "type": "crates-io"
+      }
+    },
+    "windows_aarch64_msvc": {
+      "0.42.0": {
+        "hash": "dd0f252f5a35cac83d6311b2e795981f5ee6e67eb1f9a7f64eb4500fbc4dcdb4",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_gnu": {
+      "0.42.0": {
+        "hash": "fbeae19f6716841636c28d695375df17562ca208b2b7d0dc47635a50ae6c5de7",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_msvc": {
+      "0.42.0": {
+        "hash": "84c12f65daa39dd2babe6e442988fc329d6243fdce47d7d2d155b8d874862246",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_gnu": {
+      "0.42.0": {
+        "hash": "bf7b1b21b5362cbc318f686150e5bcea75ecedc74dd157d874d754a2ca44b0ed",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_gnullvm": {
+      "0.42.0": {
+        "hash": "09d525d2ba30eeb3297665bd434a54297e4170c7f1a44cad4ef58095b4cd2028",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_msvc": {
+      "0.42.0": {
+        "hash": "f40009d85759725a34da6d89a94e63d7bdc50a862acf0dbc7c8e488f1edcb6f5",
+        "type": "crates-io"
+      }
+    }
+  }
+}

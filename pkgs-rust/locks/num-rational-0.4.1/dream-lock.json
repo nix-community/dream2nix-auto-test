@@ -1,0 +1,95 @@
+{
+  "_generic": {
+    "defaultPackage": "num-rational",
+    "location": "",
+    "packages": {
+      "num-rational": "0.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num-rational": {
+        "0.4.1": {
+          "description": "Rational numbers implementation for Rust", "homepage": "https://github.com/rust-num/num-rational", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num-rational": {
+        "0.4.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num-bigint": {
+      "0.4.3": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-integer": {
+      "0.1.45": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-rational": {
+      "0.4.1": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-bigint", "0.4.3" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ],
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "num-bigint": {
+      "0.4.3": {
+        "hash": "f93ab6289c7b344a8a9f60f88d80aa20032336fe78da341afc91c8a2341fc75f",
+        "type": "crates-io"
+      }
+    },
+    "num-integer": {
+      "0.1.45": {
+        "hash": "225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9",
+        "type": "crates-io"
+      }
+    },
+    "num-rational": {
+      "0.4.1": {
+        "hash": "0638a1c9d0a3c0914158145bc76cff373a75a627e6ecbfb71cbe6f453a5a19b0",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    }
+  }
+}

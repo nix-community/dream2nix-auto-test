@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "ucd-trie",
+    "location": "",
+    "packages": {
+      "ucd-trie": "0.1.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "ucd-trie": {
+        "0.1.5": {
+          "description": "A trie for storing Unicode codepoint sets and maps.\n", "homepage": "https://github.com/BurntSushi/ucd-generate", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "ucd-trie": {
+        "0.1.5": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ucd-trie": {
+      "0.1.5": [
+        [ "once_cell", "1.16.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "once_cell": {
+      "1.16.0": {
+        "hash": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
+        "type": "crates-io"
+      }
+    },
+    "ucd-trie": {
+      "0.1.5": {
+        "hash": "9e79c4d996edb816c91e4308506774452e55e95c3c9de07b6729e17e15a5ef81",
+        "type": "crates-io"
+      }
+    }
+  }
+}

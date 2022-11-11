@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "unicode-width",
+    "location": "",
+    "packages": {
+      "unicode-width": "0.1.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "unicode-width": {
+        "0.1.10": {
+          "description": "Determine displayed width of `char` and `str` types\naccording to Unicode Standard Annex #11 rules.\n", "homepage": "https://github.com/unicode-rs/unicode-width", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "unicode-width": {
+        "0.1.10": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unicode-width": {
+      "0.1.10": [
+        [ "compiler_builtins", "0.1.83" ],
+        [ "rustc-std-workspace-core", "1.0.0" ],
+        [ "rustc-std-workspace-std", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "compiler_builtins": {
+      "0.1.83": {
+        "hash": "70ee07c7fcd313705c3556f0e3070c4f235568d740c0e3fa7532af64c5d98917",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-std": {
+      "1.0.1": {
+        "hash": "aba676a20abe46e5b0f1b0deae474aaaf31407e6c71147159890574599da04ef",
+        "type": "crates-io"
+      }
+    },
+    "unicode-width": {
+      "0.1.10": {
+        "hash": "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b",
+        "type": "crates-io"
+      }
+    }
+  }
+}

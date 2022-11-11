@@ -1,0 +1,271 @@
+{
+  "_generic": {
+    "defaultPackage": "gcc",
+    "location": "",
+    "packages": {
+      "gcc": "0.3.55"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "gcc": {
+        "0.3.55": {
+          "description": "**Deprecated** crate, renamed to `cc`\n\nA build-time dependency for Cargo build scripts to assist in invoking the native\nC compiler to compile native C code into a static archive to be linked into Rust\ncode.\n", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "gcc": {
+        "0.3.55": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "crossbeam-channel": {
+      "0.5.6": [
+        [ "cfg-if", "1.0.0" ],
+        [ "crossbeam-utils", "0.8.12" ]
+      ]
+    },
+    "crossbeam-deque": {
+      "0.8.2": [
+        [ "cfg-if", "1.0.0" ],
+        [ "crossbeam-epoch", "0.9.11" ],
+        [ "crossbeam-utils", "0.8.12" ]
+      ]
+    },
+    "crossbeam-epoch": {
+      "0.9.11": [
+        [ "autocfg", "1.1.0" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "crossbeam-utils", "0.8.12" ],
+        [ "memoffset", "0.6.5" ],
+        [ "scopeguard", "1.1.0" ]
+      ]
+    },
+    "crossbeam-utils": {
+      "0.8.12": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "gcc": {
+      "0.3.55": [
+        [ "rayon", "0.8.2" ],
+        [ "tempdir", "0.3.7" ]
+      ]
+    },
+    "hermit-abi": {
+      "0.1.19": [
+        [ "libc", "0.2.137" ]
+      ]
+    },
+    "memoffset": {
+      "0.6.5": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
+    "num_cpus": {
+      "1.14.0": [
+        [ "hermit-abi", "0.1.19" ],
+        [ "libc", "0.2.137" ]
+      ]
+    },
+    "rand": {
+      "0.4.6": [
+        [ "fuchsia-cprng", "0.1.1" ],
+        [ "libc", "0.2.137" ],
+        [ "rand_core", "0.3.1" ],
+        [ "rdrand", "0.4.0" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "rand_core": {
+      "0.3.1": [
+        [ "rand_core", "0.4.2" ]
+      ]
+    },
+    "rayon": {
+      "0.8.2": [
+        [ "rayon-core", "1.9.3" ]
+      ]
+    },
+    "rayon-core": {
+      "1.9.3": [
+        [ "crossbeam-channel", "0.5.6" ],
+        [ "crossbeam-deque", "0.8.2" ],
+        [ "crossbeam-utils", "0.8.12" ],
+        [ "num_cpus", "1.14.0" ]
+      ]
+    },
+    "rdrand": {
+      "0.4.0": [
+        [ "rand_core", "0.3.1" ]
+      ]
+    },
+    "remove_dir_all": {
+      "0.5.3": [
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "tempdir": {
+      "0.3.7": [
+        [ "rand", "0.4.6" ],
+        [ "remove_dir_all", "0.5.3" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-channel": {
+      "0.5.6": {
+        "hash": "c2dd04ddaf88237dc3b8d8f9a3c1004b506b54b3313403944054d23c0870c521",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-deque": {
+      "0.8.2": {
+        "hash": "715e8152b692bba2d374b53d4875445368fdf21a94751410af607a5ac677d1fc",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-epoch": {
+      "0.9.11": {
+        "hash": "f916dfc5d356b0ed9dae65f1db9fc9770aa2851d2662b988ccf4fe3516e86348",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-utils": {
+      "0.8.12": {
+        "hash": "edbafec5fa1f196ca66527c1b12c2ec4745ca14b50f1ad8f9f6f720b55d11fac",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-cprng": {
+      "0.1.1": {
+        "hash": "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba",
+        "type": "crates-io"
+      }
+    },
+    "gcc": {
+      "0.3.55": {
+        "hash": "8f5f3913fa0bfe7ee1fd8248b6b9f42a5af4b9d65ec2dd2c3c26132b950ecfc2",
+        "type": "crates-io"
+      }
+    },
+    "hermit-abi": {
+      "0.1.19": {
+        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "memoffset": {
+      "0.6.5": {
+        "hash": "5aa361d4faea93603064a027415f07bd8e1d5c88c9fbf68bf56a285428fd79ce",
+        "type": "crates-io"
+      }
+    },
+    "num_cpus": {
+      "1.14.0": {
+        "hash": "f6058e64324c71e02bc2b150e4f3bc8286db6c83092132ffa3f6b1eab0f9def5",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.4.6": {
+        "hash": "552840b97013b1a26992c11eac34bdd778e464601a4c2054b5f0bff7c6761293",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.3.1": {
+        "hash": "7a6fdeb83b075e8266dcc8762c22776f6877a63111121f5f8c7411e5be7eed4b",
+        "type": "crates-io"
+      },
+      "0.4.2": {
+        "hash": "9c33a3c44ca05fa6f1807d8e6743f3824e8509beca625669633be0acbdf509dc",
+        "type": "crates-io"
+      }
+    },
+    "rayon": {
+      "0.8.2": {
+        "hash": "b614fe08b6665cb9a231d07ac1364b0ef3cb3698f1239ee0c4c3a88a524f54c8",
+        "type": "crates-io"
+      }
+    },
+    "rayon-core": {
+      "1.9.3": {
+        "hash": "258bcdb5ac6dad48491bb2992db6b7cf74878b0384908af124823d118c99683f",
+        "type": "crates-io"
+      }
+    },
+    "rdrand": {
+      "0.4.0": {
+        "hash": "678054eb77286b51581ba43620cc911abf02758c91f93f479767aed0f90458b2",
+        "type": "crates-io"
+      }
+    },
+    "remove_dir_all": {
+      "0.5.3": {
+        "hash": "3acd125665422973a33ac9d3dd2df85edad0f4ae9b00dafb1a05e43a9f5ef8e7",
+        "type": "crates-io"
+      }
+    },
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
+        "type": "crates-io"
+      }
+    },
+    "tempdir": {
+      "0.3.7": {
+        "hash": "15f2b5fb00ccdf689e0149d1b1b3c03fead81c2b37735d812fa8bddbbf41b6d8",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

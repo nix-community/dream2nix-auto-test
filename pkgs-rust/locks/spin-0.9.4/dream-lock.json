@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "spin",
+    "location": "",
+    "packages": {
+      "spin": "0.9.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "spin": {
+        "0.9.4": {
+          "description": "Spin-based synchronization primitives", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "spin": {
+        "0.9.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lock_api": {
+      "0.4.1": [
+        [ "scopeguard", "1.1.0" ]
+      ]
+    },
+    "spin": {
+      "0.9.4": [
+        [ "lock_api", "0.4.1" ],
+        [ "portable-atomic", "0.3.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "lock_api": {
+      "0.4.1": {
+        "hash": "28247cc5a5be2f05fbcd76dd0cf2c7d3b5400cb978a28042abcd4fa0b3f8261c",
+        "type": "crates-io"
+      }
+    },
+    "portable-atomic": {
+      "0.3.4": {
+        "hash": "763095e04dcbeb889b2ab35296ecb18a20fe16b4e9877ce64aab73d8fd05a8c3",
+        "type": "crates-io"
+      }
+    },
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
+        "type": "crates-io"
+      }
+    },
+    "spin": {
+      "0.9.4": {
+        "hash": "7f6002a767bff9e83f8eeecf883ecb8011875a21ae8da43bffb817a57e78cc09",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "_generic": {
+    "defaultPackage": "bytemuck",
+    "location": "",
+    "packages": {
+      "bytemuck": "1.12.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "bytemuck": {
+        "1.12.3": {
+          "description": "A crate for mucking around with piles of bytes.", "license": [   "zlib",   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "bytemuck": {
+        "1.12.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bytemuck": {
+      "1.12.3": [
+        [ "bytemuck_derive", "1.3.0" ]
+      ]
+    },
+    "bytemuck_derive": {
+      "1.3.0": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "bytemuck": {
+      "1.12.3": {
+        "hash": "aaa3a8d9a1ca92e282c96a32d6511b695d7d994d1d102ba85d279f9b2756947f",
+        "type": "crates-io"
+      }
+    },
+    "bytemuck_derive": {
+      "1.3.0": {
+        "hash": "5fe233b960f12f8007e3db2d136e3cb1c291bfd7396e384ee76025fc1a3932b4",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

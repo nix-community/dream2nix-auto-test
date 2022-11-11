@@ -1,0 +1,79 @@
+{
+  "_generic": {
+    "defaultPackage": "proc-macro-error-attr",
+    "location": "",
+    "packages": {
+      "proc-macro-error-attr": "1.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "proc-macro-error-attr": {
+        "1.0.4": {
+          "description": "Attribute macro for proc-macro-error crate", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "proc-macro-error-attr": {
+        "1.0.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proc-macro-error-attr": {
+      "1.0.4": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    }
+  },
+  "sources": {
+    "proc-macro-error-attr": {
+      "1.0.4": {
+        "hash": "a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

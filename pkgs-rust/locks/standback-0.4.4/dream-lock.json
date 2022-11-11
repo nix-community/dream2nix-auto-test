@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "standback",
+    "location": "",
+    "packages": {
+      "standback": "0.4.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "standback": {
+        "0.4.4": {
+          "description": "New standard library, old compiler.", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "standback": {
+        "0.4.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "standback": {
+      "0.4.4": [
+        [ "easy-ext", "1.0.1" ],
+        [ "libc", "0.2.137" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "easy-ext": {
+      "1.0.1": {
+        "hash": "49457524c7e65648794c98283282a0b7c73b10018e7091f1cdcfff314fd7ae59",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "standback": {
+      "0.4.4": {
+        "hash": "65830fc2f5e53e904a5e2ffc75c5a6582019563bbba103145d4decada88c13ef",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

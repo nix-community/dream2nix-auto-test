@@ -1,0 +1,91 @@
+{
+  "_generic": {
+    "defaultPackage": "cexpr",
+    "location": "",
+    "packages": {
+      "cexpr": "0.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "cexpr": {
+        "0.6.0": {
+          "description": "A C expression parser and evaluator", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "cexpr": {
+        "0.6.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cexpr": {
+      "0.6.0": [
+        [ "clang-sys", "0.28.1" ],
+        [ "nom", "7.1.1" ]
+      ]
+    },
+    "clang-sys": {
+      "0.28.1": [
+        [ "glob", "0.3.0" ],
+        [ "libc", "0.2.137" ]
+      ]
+    },
+    "nom": {
+      "7.1.1": [
+        [ "memchr", "2.5.0" ],
+        [ "minimal-lexical", "0.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "cexpr": {
+      "0.6.0": {
+        "hash": "6fac387a98bb7c37292057cffc56d62ecb629900026402633ae9160df93a8766",
+        "type": "crates-io"
+      }
+    },
+    "clang-sys": {
+      "0.28.1": {
+        "hash": "81de550971c976f176130da4b2978d3b524eaa0fd9ac31f3ceb5ae1231fb4853",
+        "type": "crates-io"
+      }
+    },
+    "glob": {
+      "0.3.0": {
+        "hash": "9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "minimal-lexical": {
+      "0.2.1": {
+        "hash": "68354c5c6bd36d73ff3feceb05efa59b6acb7626617f4962be322a825e61f79a",
+        "type": "crates-io"
+      }
+    },
+    "nom": {
+      "7.1.1": {
+        "hash": "a8903e5a29a317527874d0402f867152a3d21c908bb0b933e416c65e301d4c36",
+        "type": "crates-io"
+      }
+    }
+  }
+}

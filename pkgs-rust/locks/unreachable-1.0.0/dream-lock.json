@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "unreachable",
+    "location": "",
+    "packages": {
+      "unreachable": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "unreachable": {
+        "1.0.0": {
+          "description": "An unreachable code optimization hint in stable rust.", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "unreachable": {
+        "1.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unreachable": {
+      "1.0.0": [
+        [ "void", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "unreachable": {
+      "1.0.0": {
+        "hash": "382810877fe448991dfc7f0dd6e3ae5d58088fd0ea5e35189655f84e6814fa56",
+        "type": "crates-io"
+      }
+    },
+    "void": {
+      "1.0.2": {
+        "hash": "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d",
+        "type": "crates-io"
+      }
+    }
+  }
+}

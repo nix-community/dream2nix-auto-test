@@ -1,0 +1,124 @@
+{
+  "_generic": {
+    "defaultPackage": "colored",
+    "location": "",
+    "packages": {
+      "colored": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "colored": {
+        "2.0.0": {
+          "description": "The most simple way to add colors in your terminal", "homepage": "https://github.com/mackwic/colored", "license": [   "mpl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "colored": {
+        "2.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi_term": {
+      "0.12.1": [
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "atty": {
+      "0.2.14": [
+        [ "hermit-abi", "0.1.15" ],
+        [ "libc", "0.2.72" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "colored": {
+      "2.0.0": [
+        [ "ansi_term", "0.12.1" ],
+        [ "atty", "0.2.14" ],
+        [ "lazy_static", "1.4.0" ],
+        [ "rspec", "1.0.0-beta.3" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "hermit-abi": {
+      "0.1.15": [
+        [ "libc", "0.2.72" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi_term": {
+      "0.12.1": {
+        "hash": "d52a9bb7ec0cf484c551830a7ce27bd20d67eac647e1befb56b0be4ee39a55d2",
+        "type": "crates-io"
+      }
+    },
+    "atty": {
+      "0.2.14": {
+        "hash": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
+        "type": "crates-io"
+      }
+    },
+    "colored": {
+      "2.0.0": {
+        "hash": "b3616f750b84d8f0de8a58bda93e08e2a81ad3f523089b05f1dffecab48c6cbd",
+        "type": "crates-io"
+      }
+    },
+    "hermit-abi": {
+      "0.1.15": {
+        "hash": "3deed196b6e7f9e44a2ae8d94225d80302d81208b1bb673fd21fe634645c85a9",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.72": {
+        "hash": "a9f8082297d534141b30c8d39e9b1773713ab50fdbe4ff30f750d063b3bfd701",
+        "type": "crates-io"
+      }
+    },
+    "rspec": {
+      "1.0.0-beta.3": {
+        "hash": "292964ba6cf097dd3a1fc94c286c8eabf74a0afe709d059d2370e4f1fc766ae2",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

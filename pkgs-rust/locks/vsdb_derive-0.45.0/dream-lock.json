@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "vsdb_derive",
+    "location": "",
+    "packages": {
+      "vsdb_derive": "0.45.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "vsdb_derive": {
+        "0.45.0": {
+          "description": "Some procedure macro implementations for vsdb.", "homepage": "https://github.com/rust-util-collections/vsdb", "license": [   "gpl3"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "vsdb_derive": {
+        "0.45.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "vsdb_derive": {
+      "0.45.0": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    }
+  },
+  "sources": {
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "vsdb_derive": {
+      "0.45.0": {
+        "hash": "1cd13d1e9d13124f6bfe0d5814940af0f8c29c890ea9ed5de45e6d4c2805879c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

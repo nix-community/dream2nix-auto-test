@@ -1,0 +1,55 @@
+{
+  "_generic": {
+    "defaultPackage": "rustc-demangle",
+    "location": "",
+    "packages": {
+      "rustc-demangle": "0.1.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "rustc-demangle": {
+        "0.1.21": {
+          "description": "Rust compiler symbol demangling.\n", "homepage": "https://github.com/alexcrichton/rustc-demangle", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "rustc-demangle": {
+        "0.1.21": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rustc-demangle": {
+      "0.1.21": [
+        [ "compiler_builtins", "0.1.83" ],
+        [ "rustc-std-workspace-core", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "compiler_builtins": {
+      "0.1.83": {
+        "hash": "70ee07c7fcd313705c3556f0e3070c4f235568d740c0e3fa7532af64c5d98917",
+        "type": "crates-io"
+      }
+    },
+    "rustc-demangle": {
+      "0.1.21": {
+        "hash": "7ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

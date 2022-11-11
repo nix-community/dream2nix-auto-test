@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "wait-timeout",
+    "location": "",
+    "packages": {
+      "wait-timeout": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "wait-timeout": {
+        "0.2.0": {
+          "description": "A crate to wait on a child process with a timeout specified across Unix and\nWindows platforms.\n", "homepage": "https://github.com/alexcrichton/wait-timeout", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "wait-timeout": {
+        "0.2.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "wait-timeout": {
+      "0.2.0": [
+        [ "libc", "0.2.137" ]
+      ]
+    }
+  },
+  "sources": {
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "wait-timeout": {
+      "0.2.0": {
+        "hash": "9f200f5b12eb75f8c1ed65abd4b2db8a6e1b138a20de009dacee265a2498f3f6",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_generic": {
+    "defaultPackage": "lazy_static",
+    "location": "",
+    "packages": {
+      "lazy_static": "1.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "lazy_static": {
+        "1.4.0": {
+          "description": "A macro for declaring lazily evaluated statics in Rust.", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "lazy_static": {
+        "1.4.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lazy_static": {
+      "1.4.0": [
+        [ "doc-comment", "0.3.3" ],
+        [ "spin", "0.5.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "spin": {
+      "0.5.2": {
+        "hash": "6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d",
+        "type": "crates-io"
+      }
+    }
+  }
+}

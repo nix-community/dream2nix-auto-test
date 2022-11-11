@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "pin-project-internal",
+    "location": "",
+    "packages": {
+      "pin-project-internal": "1.0.12"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "pin-project-internal": {
+        "1.0.12": {
+          "description": "Implementation detail of the `pin-project` crate.\n", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "pin-project-internal": {
+        "1.0.12": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pin-project-internal": {
+      "1.0.12": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "pin-project-internal": {
+      "1.0.12": {
+        "hash": "069bdb1e05adc7a8990dce9cc75370895fbe4e3d58b9b73bf1aee56359344a55",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

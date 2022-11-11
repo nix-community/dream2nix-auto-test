@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "form_urlencoded",
+    "location": "",
+    "packages": {
+      "form_urlencoded": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "form_urlencoded": {
+        "1.1.0": {
+          "description": "Parser and serializer for the application/x-www-form-urlencoded syntax, as used by HTML forms.", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "form_urlencoded": {
+        "1.1.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "form_urlencoded": {
+      "1.1.0": [
+        [ "percent-encoding", "2.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "form_urlencoded": {
+      "1.1.0": {
+        "hash": "a9c384f161156f5260c24a097c56119f9be8c798586aecc13afbcbe7b7e26bf8",
+        "type": "crates-io"
+      }
+    },
+    "percent-encoding": {
+      "2.2.0": {
+        "hash": "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e",
+        "type": "crates-io"
+      }
+    }
+  }
+}

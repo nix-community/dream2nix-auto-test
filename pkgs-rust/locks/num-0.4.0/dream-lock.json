@@ -1,0 +1,163 @@
+{
+  "_generic": {
+    "defaultPackage": "num",
+    "location": "",
+    "packages": {
+      "num": "0.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num": {
+        "0.4.0": {
+          "description": "A collection of numeric types and traits for Rust, including bigint,\ncomplex, rational, range iterators, generic integers, and more!\n", "homepage": "https://github.com/rust-num/num", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num": {
+        "0.4.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num": {
+      "0.4.0": [
+        [ "num-bigint", "0.4.3" ],
+        [ "num-complex", "0.4.2" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-iter", "0.1.43" ],
+        [ "num-rational", "0.4.1" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-bigint": {
+      "0.4.3": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ],
+        [ "rand", "0.8.5" ],
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "num-complex": {
+      "0.4.2": [
+        [ "num-traits", "0.2.15" ],
+        [ "rand", "0.8.5" ],
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "num-integer": {
+      "0.1.45": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-iter": {
+      "0.1.43": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-rational": {
+      "0.4.1": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-bigint", "0.4.3" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ],
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ],
+        [ "libm", "0.2.6" ]
+      ]
+    },
+    "rand": {
+      "0.8.5": [
+        [ "rand_core", "0.6.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "libm": {
+      "0.2.6": {
+        "hash": "348108ab3fba42ec82ff6e9564fc4ca0247bdccdc68dd8af9764bbc79c3c8ffb",
+        "type": "crates-io"
+      }
+    },
+    "num": {
+      "0.4.0": {
+        "hash": "43db66d1170d347f9a065114077f7dccb00c1b9478c89384490a3425279a4606",
+        "type": "crates-io"
+      }
+    },
+    "num-bigint": {
+      "0.4.3": {
+        "hash": "f93ab6289c7b344a8a9f60f88d80aa20032336fe78da341afc91c8a2341fc75f",
+        "type": "crates-io"
+      }
+    },
+    "num-complex": {
+      "0.4.2": {
+        "hash": "7ae39348c8bc5fbd7f40c727a9925f03517afd2ab27d46702108b6a7e5414c19",
+        "type": "crates-io"
+      }
+    },
+    "num-integer": {
+      "0.1.45": {
+        "hash": "225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9",
+        "type": "crates-io"
+      }
+    },
+    "num-iter": {
+      "0.1.43": {
+        "hash": "7d03e6c028c5dc5cac6e2dec0efda81fc887605bb3d884578bb6d6bf7514e252",
+        "type": "crates-io"
+      }
+    },
+    "num-rational": {
+      "0.4.1": {
+        "hash": "0638a1c9d0a3c0914158145bc76cff373a75a627e6ecbfb71cbe6f453a5a19b0",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    }
+  }
+}

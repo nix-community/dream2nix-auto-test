@@ -1,0 +1,78 @@
+{
+  "_generic": {
+    "defaultPackage": "futures-cpupool",
+    "location": "",
+    "packages": {
+      "futures-cpupool": "0.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "futures-cpupool": {
+        "0.1.8": {
+          "description": "An implementation of thread pools which hand out futures to the results of the\ncomputation on the threads themselves.\n", "homepage": "https://github.com/alexcrichton/futures-rs", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "futures-cpupool": {
+        "0.1.8": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "futures-cpupool": {
+      "0.1.8": [
+        [ "futures", "0.1.31" ],
+        [ "num_cpus", "1.14.0" ]
+      ]
+    },
+    "hermit-abi": {
+      "0.1.19": [
+        [ "libc", "0.2.137" ]
+      ]
+    },
+    "num_cpus": {
+      "1.14.0": [
+        [ "hermit-abi", "0.1.19" ],
+        [ "libc", "0.2.137" ]
+      ]
+    }
+  },
+  "sources": {
+    "futures": {
+      "0.1.31": {
+        "hash": "3a471a38ef8ed83cd6e40aa59c1ffe17db6855c18e3604d9c4ed8c08ebc28678",
+        "type": "crates-io"
+      }
+    },
+    "futures-cpupool": {
+      "0.1.8": {
+        "hash": "ab90cde24b3319636588d0c35fe03b1333857621051837ed769faefb4c2162e4",
+        "type": "crates-io"
+      }
+    },
+    "hermit-abi": {
+      "0.1.19": {
+        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "num_cpus": {
+      "1.14.0": {
+        "hash": "f6058e64324c71e02bc2b150e4f3bc8286db6c83092132ffa3f6b1eab0f9def5",
+        "type": "crates-io"
+      }
+    }
+  }
+}

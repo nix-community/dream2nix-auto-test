@@ -1,0 +1,74 @@
+{
+  "_generic": {
+    "defaultPackage": "headers-core",
+    "location": "",
+    "packages": {
+      "headers-core": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "headers-core": {
+        "0.2.0": {
+          "description": "typed HTTP headers core trait", "homepage": "https://hyper.rs", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "headers-core": {
+        "0.2.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "headers-core": {
+      "0.2.0": [
+        [ "http", "0.2.8" ]
+      ]
+    },
+    "http": {
+      "0.2.8": [
+        [ "bytes", "1.2.1" ],
+        [ "fnv", "1.0.7" ],
+        [ "itoa", "1.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "bytes": {
+      "1.2.1": {
+        "hash": "ec8a7b6a70fde80372154c65702f00a0f56f3e1c36abbc6c440484be248856db",
+        "type": "crates-io"
+      }
+    },
+    "fnv": {
+      "1.0.7": {
+        "hash": "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1",
+        "type": "crates-io"
+      }
+    },
+    "headers-core": {
+      "0.2.0": {
+        "hash": "e7f66481bfee273957b1f20485a4ff3362987f85b2c236580d81b4eb7a326429",
+        "type": "crates-io"
+      }
+    },
+    "http": {
+      "0.2.8": {
+        "hash": "75f43d41e26995c17e71ee126451dd3941010b0514a81a9d11f3b341debc2399",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.4": {
+        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
+        "type": "crates-io"
+      }
+    }
+  }
+}

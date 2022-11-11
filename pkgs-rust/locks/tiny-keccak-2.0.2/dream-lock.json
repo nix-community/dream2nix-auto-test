@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "tiny-keccak",
+    "location": "",
+    "packages": {
+      "tiny-keccak": "2.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "tiny-keccak": {
+        "2.0.2": {
+          "description": "An implementation of Keccak derived functions.", "homepage": "https://github.com/debris/tiny-keccak", "license": [   "cc0"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "tiny-keccak": {
+        "2.0.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tiny-keccak": {
+      "2.0.2": [
+        [ "crunchy", "0.2.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "crunchy": {
+      "0.2.2": {
+        "hash": "7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7",
+        "type": "crates-io"
+      }
+    },
+    "tiny-keccak": {
+      "2.0.2": {
+        "hash": "2c9d3793400a45f954c52e73d068316d76b6f4e36977e3fcebb13a2721e80237",
+        "type": "crates-io"
+      }
+    }
+  }
+}

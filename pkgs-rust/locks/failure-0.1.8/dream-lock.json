@@ -1,0 +1,163 @@
+{
+  "_generic": {
+    "defaultPackage": "failure",
+    "location": "",
+    "packages": {
+      "failure": "0.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "failure": {
+        "0.1.8": {
+          "description": "Experimental error handling abstraction.", "homepage": "https://rust-lang-nursery.github.io/failure/", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "failure": {
+        "0.1.8": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "backtrace": {
+      "0.3.46": [
+        [ "backtrace-sys", "0.1.37" ],
+        [ "cfg-if", "0.1.10" ],
+        [ "libc", "0.2.69" ],
+        [ "rustc-demangle", "0.1.16" ]
+      ]
+    },
+    "backtrace-sys": {
+      "0.1.37": [
+        [ "cc", "1.0.52" ],
+        [ "libc", "0.2.69" ]
+      ]
+    },
+    "failure": {
+      "0.1.8": [
+        [ "backtrace", "0.3.46" ],
+        [ "failure_derive", "0.1.7" ]
+      ]
+    },
+    "failure_derive": {
+      "0.1.7": [
+        [ "proc-macro2", "1.0.12" ],
+        [ "quote", "1.0.4" ],
+        [ "syn", "1.0.18" ],
+        [ "synstructure", "0.12.3" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.12": [
+        [ "unicode-xid", "0.2.0" ]
+      ]
+    },
+    "quote": {
+      "1.0.4": [
+        [ "proc-macro2", "1.0.12" ]
+      ]
+    },
+    "syn": {
+      "1.0.18": [
+        [ "proc-macro2", "1.0.12" ],
+        [ "quote", "1.0.4" ],
+        [ "unicode-xid", "0.2.0" ]
+      ]
+    },
+    "synstructure": {
+      "0.12.3": [
+        [ "proc-macro2", "1.0.12" ],
+        [ "quote", "1.0.4" ],
+        [ "syn", "1.0.18" ],
+        [ "unicode-xid", "0.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "backtrace": {
+      "0.3.46": {
+        "hash": "b1e692897359247cc6bb902933361652380af0f1b7651ae5c5013407f30e109e",
+        "type": "crates-io"
+      }
+    },
+    "backtrace-sys": {
+      "0.1.37": {
+        "hash": "18fbebbe1c9d1f383a9cc7e8ccdb471b91c8d024ee9c2ca5b5346121fe8b4399",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.52": {
+        "hash": "c3d87b23d6a92cd03af510a5ade527033f6aa6fa92161e2d5863a907d4c5e31d",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "0.1.10": {
+        "hash": "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822",
+        "type": "crates-io"
+      }
+    },
+    "failure": {
+      "0.1.8": {
+        "hash": "d32e9bd16cc02eae7db7ef620b392808b89f6a5e16bb3497d159c6b92a0f4f86",
+        "type": "crates-io"
+      }
+    },
+    "failure_derive": {
+      "0.1.7": {
+        "hash": "030a733c8287d6213886dd487564ff5c8f6aae10278b3588ed177f9d18f8d231",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.69": {
+        "hash": "99e85c08494b21a9054e7fe1374a732aeadaff3980b6990b94bfd3a70f690005",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.12": {
+        "hash": "8872cf6f48eee44265156c111456a700ab3483686b3f96df4cf5481c89157319",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.4": {
+        "hash": "4c1f4b0efa5fc5e8ceb705136bfee52cfdb6a4e3509f770b478cd6ed434232a7",
+        "type": "crates-io"
+      }
+    },
+    "rustc-demangle": {
+      "0.1.16": {
+        "hash": "4c691c0e608126e00913e33f0ccf3727d5fc84573623b8d65b2df340b5201783",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.18": {
+        "hash": "410a7488c0a728c7ceb4ad59b9567eb4053d02e8cc7f5c0e0eeeb39518369213",
+        "type": "crates-io"
+      }
+    },
+    "synstructure": {
+      "0.12.3": {
+        "hash": "67656ea1dc1b41b1451851562ea232ec2e5a80242139f7e679ceccfb5d61f545",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.0": {
+        "hash": "826e7639553986605ec5979c7dd957c7895e93eabed50ab2ffa7f6128a75097c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

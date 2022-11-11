@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "radium",
+    "location": "",
+    "packages": {
+      "radium": "0.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "radium": {
+        "0.7.0": {
+          "description": "Portable interfaces for maybe-atomic types", "homepage": "https://github.com/bitvecto-rs/radium", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "radium": {
+        "0.7.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "radium": {
+      "0.7.0": [
+        [ "static_assertions", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "radium": {
+      "0.7.0": {
+        "hash": "dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09",
+        "type": "crates-io"
+      }
+    },
+    "static_assertions": {
+      "1.1.0": {
+        "hash": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

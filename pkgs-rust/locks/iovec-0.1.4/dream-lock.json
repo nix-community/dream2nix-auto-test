@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "iovec",
+    "location": "",
+    "packages": {
+      "iovec": "0.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "iovec": {
+        "0.1.4": {
+          "description": "Portable buffer type for scatter/gather I/O operations\n", "homepage": "https://github.com/carllerche/iovec", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "iovec": {
+        "0.1.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "iovec": {
+      "0.1.4": [
+        [ "libc", "0.2.137" ]
+      ]
+    }
+  },
+  "sources": {
+    "iovec": {
+      "0.1.4": {
+        "hash": "b2b3ea6ff95e175473f8ffe6a7eb7c00d054240321b84c57051175fe3c1e075e",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    }
+  }
+}

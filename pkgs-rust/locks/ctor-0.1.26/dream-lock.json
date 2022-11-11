@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "ctor",
+    "location": "",
+    "packages": {
+      "ctor": "0.1.26"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "ctor": {
+        "0.1.26": {
+          "description": "__attribute__((constructor)) for Rust", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "ctor": {
+        "0.1.26": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ctor": {
+      "0.1.26": [
+        [ "libc-print", "0.1.20" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.102" ]
+      ]
+    },
+    "libc-print": {
+      "0.1.20": [
+        [ "libc", "0.2.135" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.102": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "ctor": {
+      "0.1.26": {
+        "hash": "6d2301688392eb071b0bf1a37be05c469d3cc4dbbd95df672fe28ab021e6a096",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.135": {
+        "hash": "68783febc7782c6c5cb401fbda4de5a9898be1762314da0bb2c10ced61f18b0c",
+        "type": "crates-io"
+      }
+    },
+    "libc-print": {
+      "0.1.20": {
+        "hash": "a574491aebd99996f31b32469bbd3b50e580c35f6305663d68f6d6b28eaced09",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.102": {
+        "hash": "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "_generic": {
+    "defaultPackage": "convert_case",
+    "location": "",
+    "packages": {
+      "convert_case": "0.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "convert_case": {
+        "0.6.0": {
+          "description": "Convert strings into any case", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "convert_case": {
+        "0.6.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "convert_case": {
+      "0.6.0": [
+        [ "rand", "0.7.3" ],
+        [ "strum", "0.18.0" ],
+        [ "strum_macros", "0.18.0" ],
+        [ "unicode-segmentation", "1.10.0" ]
+      ]
+    },
+    "getrandom": {
+      "0.1.16": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.137" ],
+        [ "wasi", "0.9.0+wasi-snapshot-preview1" ]
+      ]
+    },
+    "heck": {
+      "0.3.3": [
+        [ "unicode-segmentation", "1.10.0" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "rand": {
+      "0.7.3": [
+        [ "getrandom", "0.1.16" ],
+        [ "libc", "0.2.137" ],
+        [ "rand_chacha", "0.2.2" ],
+        [ "rand_core", "0.5.1" ],
+        [ "rand_hc", "0.2.0" ]
+      ]
+    },
+    "rand_chacha": {
+      "0.2.2": [
+        [ "ppv-lite86", "0.2.17" ],
+        [ "rand_core", "0.5.1" ]
+      ]
+    },
+    "rand_core": {
+      "0.5.1": [
+        [ "getrandom", "0.1.16" ]
+      ]
+    },
+    "rand_hc": {
+      "0.2.0": [
+        [ "rand_core", "0.5.1" ]
+      ]
+    },
+    "strum_macros": {
+      "0.18.0": [
+        [ "heck", "0.3.3" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "convert_case": {
+      "0.6.0": {
+        "hash": "ec182b0ca2f35d8fc196cf3404988fd8b8c739a4d270ff118a398feb0cbec1ca",
+        "type": "crates-io"
+      }
+    },
+    "getrandom": {
+      "0.1.16": {
+        "hash": "8fc3cb4d91f53b50155bdcfd23f6a4c39ae1969c2ae85982b135750cccaf5fce",
+        "type": "crates-io"
+      }
+    },
+    "heck": {
+      "0.3.3": {
+        "hash": "6d621efb26863f0e9924c6ac577e8275e5e6b77455db64ffa6c65c904e9e132c",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "ppv-lite86": {
+      "0.2.17": {
+        "hash": "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.7.3": {
+        "hash": "6a6b1679d49b24bbfe0c803429aa1874472f50d9b363131f0e89fc356b544d03",
+        "type": "crates-io"
+      }
+    },
+    "rand_chacha": {
+      "0.2.2": {
+        "hash": "f4c8ed856279c9737206bf725bf36935d8666ead7aa69b52be55af369d193402",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.5.1": {
+        "hash": "90bde5296fc891b0cef12a6d03ddccc162ce7b2aff54160af9338f8d40df6d19",
+        "type": "crates-io"
+      }
+    },
+    "rand_hc": {
+      "0.2.0": {
+        "hash": "ca3129af7b92a17112d59ad498c6f81eaf463253766b90396d39ea7a39d6613c",
+        "type": "crates-io"
+      }
+    },
+    "strum": {
+      "0.18.0": {
+        "hash": "57bd81eb48f4c437cadc685403cad539345bf703d78e63707418431cecd4522b",
+        "type": "crates-io"
+      }
+    },
+    "strum_macros": {
+      "0.18.0": {
+        "hash": "87c85aa3f8ea653bfd3ddf25f7ee357ee4d204731f6aa9ad04002306f6e2774c",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "unicode-segmentation": {
+      "1.10.0": {
+        "hash": "0fdbf052a0783de01e944a6ce7a8cb939e295b1e7be835a1112c3b9a7f047a5a",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.9.0+wasi-snapshot-preview1": {
+        "hash": "cccddf32554fecc6acb585f82a32a72e28b48f8c4c1883ddfeeeaa96f7d8e519",
+        "type": "crates-io"
+      }
+    }
+  }
+}

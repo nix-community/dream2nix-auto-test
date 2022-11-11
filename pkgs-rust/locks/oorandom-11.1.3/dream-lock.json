@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "oorandom",
+    "location": "",
+    "packages": {
+      "oorandom": "11.1.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "oorandom": {
+        "11.1.3": {
+          "description": "A tiny, robust PRNG implementation.", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "oorandom": {
+        "11.1.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "oorandom": {
+      "11.1.3": [
+        [ "rand_core", "0.5.1" ],
+        [ "rand_pcg", "0.2.1" ],
+        [ "random-fast-rng", "0.1.1" ],
+        [ "randomize", "3.0.1" ]
+      ]
+    },
+    "rand_pcg": {
+      "0.2.1": [
+        [ "rand_core", "0.5.1" ]
+      ]
+    },
+    "random-fast-rng": {
+      "0.1.1": [
+        [ "random-trait", "0.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "oorandom": {
+      "11.1.3": {
+        "hash": "0ab1bc2a289d34bd04a330323ac98a1b4bc82c9d9fcb1e66b63caa84da26b575",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.5.1": {
+        "hash": "90bde5296fc891b0cef12a6d03ddccc162ce7b2aff54160af9338f8d40df6d19",
+        "type": "crates-io"
+      }
+    },
+    "rand_pcg": {
+      "0.2.1": {
+        "hash": "16abd0c1b639e9eb4d7c50c0b8100b0d0f849be2349829c740fe8e6eb4816429",
+        "type": "crates-io"
+      }
+    },
+    "random-fast-rng": {
+      "0.1.1": {
+        "hash": "95784e84a571f44dc7fd4f0d3ab3f493d3c07b90d695450890490a89d83905a3",
+        "type": "crates-io"
+      }
+    },
+    "random-trait": {
+      "0.1.1": {
+        "hash": "0d3186af2e04abe646626095b37293d7485027e8591c56430dfda49894a28447",
+        "type": "crates-io"
+      }
+    },
+    "randomize": {
+      "3.0.1": {
+        "hash": "88c38c99b51f33c9fcc655252bf02ac8048eb70f35244e4697b0de9c473e940a",
+        "type": "crates-io"
+      }
+    }
+  }
+}

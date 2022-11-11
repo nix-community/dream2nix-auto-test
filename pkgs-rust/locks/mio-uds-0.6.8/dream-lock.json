@@ -1,0 +1,300 @@
+{
+  "_generic": {
+    "defaultPackage": "mio-uds",
+    "location": "",
+    "packages": {
+      "mio-uds": "0.6.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "mio-uds": {
+        "0.6.8": {
+          "description": "Unix domain socket bindings for mio\n", "homepage": "https://github.com/deprecrated/mio-uds", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "mio-uds": {
+        "0.6.8": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fuchsia-zircon": {
+      "0.3.3": [
+        [ "bitflags", "1.3.2" ],
+        [ "fuchsia-zircon-sys", "0.3.3" ]
+      ]
+    },
+    "iovec": {
+      "0.1.4": [
+        [ "libc", "0.2.137" ]
+      ]
+    },
+    "kernel32-sys": {
+      "0.2.2": [
+        [ "winapi", "0.2.8" ],
+        [ "winapi-build", "0.1.1" ]
+      ]
+    },
+    "log": {
+      "0.4.17": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "mio": {
+      "0.6.23": [
+        [ "cfg-if", "0.1.10" ],
+        [ "fuchsia-zircon", "0.3.3" ],
+        [ "fuchsia-zircon-sys", "0.3.3" ],
+        [ "iovec", "0.1.4" ],
+        [ "kernel32-sys", "0.2.2" ],
+        [ "libc", "0.2.137" ],
+        [ "log", "0.4.17" ],
+        [ "miow", "0.2.2" ],
+        [ "net2", "0.2.38" ],
+        [ "slab", "0.4.7" ],
+        [ "winapi", "0.2.8" ]
+      ]
+    },
+    "mio-uds": {
+      "0.6.8": [
+        [ "iovec", "0.1.4" ],
+        [ "libc", "0.2.137" ],
+        [ "mio", "0.6.23" ],
+        [ "tempdir", "0.3.7" ]
+      ]
+    },
+    "miow": {
+      "0.2.2": [
+        [ "kernel32-sys", "0.2.2" ],
+        [ "net2", "0.2.38" ],
+        [ "winapi", "0.2.8" ],
+        [ "ws2_32-sys", "0.2.1" ]
+      ]
+    },
+    "net2": {
+      "0.2.38": [
+        [ "cfg-if", "0.1.10" ],
+        [ "libc", "0.2.137" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "rand": {
+      "0.4.6": [
+        [ "fuchsia-cprng", "0.1.1" ],
+        [ "libc", "0.2.137" ],
+        [ "rand_core", "0.3.1" ],
+        [ "rdrand", "0.4.0" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "rand_core": {
+      "0.3.1": [
+        [ "rand_core", "0.4.2" ]
+      ]
+    },
+    "rdrand": {
+      "0.4.0": [
+        [ "rand_core", "0.3.1" ]
+      ]
+    },
+    "remove_dir_all": {
+      "0.5.3": [
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "slab": {
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
+    "tempdir": {
+      "0.3.7": [
+        [ "rand", "0.4.6" ],
+        [ "remove_dir_all", "0.5.3" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "ws2_32-sys": {
+      "0.2.1": [
+        [ "winapi", "0.2.8" ],
+        [ "winapi-build", "0.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "0.1.10": {
+        "hash": "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822",
+        "type": "crates-io"
+      },
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-cprng": {
+      "0.1.1": {
+        "hash": "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-zircon": {
+      "0.3.3": {
+        "hash": "2e9763c69ebaae630ba35f74888db465e49e259ba1bc0eda7d06f4a067615d82",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-zircon-sys": {
+      "0.3.3": {
+        "hash": "3dcaa9ae7725d12cdb85b3ad99a434db70b468c09ded17e012d86b5c1010f7a7",
+        "type": "crates-io"
+      }
+    },
+    "iovec": {
+      "0.1.4": {
+        "hash": "b2b3ea6ff95e175473f8ffe6a7eb7c00d054240321b84c57051175fe3c1e075e",
+        "type": "crates-io"
+      }
+    },
+    "kernel32-sys": {
+      "0.2.2": {
+        "hash": "7507624b29483431c0ba2d82aece8ca6cdba9382bff4ddd0f7490560c056098d",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.17": {
+        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+        "type": "crates-io"
+      }
+    },
+    "mio": {
+      "0.6.23": {
+        "hash": "4afd66f5b91bf2a3bc13fad0e21caedac168ca4c707504e75585648ae80e4cc4",
+        "type": "crates-io"
+      }
+    },
+    "mio-uds": {
+      "0.6.8": {
+        "hash": "afcb699eb26d4332647cc848492bbc15eafb26f08d0304550d5aa1f612e066f0",
+        "type": "crates-io"
+      }
+    },
+    "miow": {
+      "0.2.2": {
+        "hash": "ebd808424166322d4a38da87083bfddd3ac4c131334ed55856112eb06d46944d",
+        "type": "crates-io"
+      }
+    },
+    "net2": {
+      "0.2.38": {
+        "hash": "74d0df99cfcd2530b2e694f6e17e7f37b8e26bb23983ac530c0c97408837c631",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.4.6": {
+        "hash": "552840b97013b1a26992c11eac34bdd778e464601a4c2054b5f0bff7c6761293",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.3.1": {
+        "hash": "7a6fdeb83b075e8266dcc8762c22776f6877a63111121f5f8c7411e5be7eed4b",
+        "type": "crates-io"
+      },
+      "0.4.2": {
+        "hash": "9c33a3c44ca05fa6f1807d8e6743f3824e8509beca625669633be0acbdf509dc",
+        "type": "crates-io"
+      }
+    },
+    "rdrand": {
+      "0.4.0": {
+        "hash": "678054eb77286b51581ba43620cc911abf02758c91f93f479767aed0f90458b2",
+        "type": "crates-io"
+      }
+    },
+    "remove_dir_all": {
+      "0.5.3": {
+        "hash": "3acd125665422973a33ac9d3dd2df85edad0f4ae9b00dafb1a05e43a9f5ef8e7",
+        "type": "crates-io"
+      }
+    },
+    "slab": {
+      "0.4.7": {
+        "hash": "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef",
+        "type": "crates-io"
+      }
+    },
+    "tempdir": {
+      "0.3.7": {
+        "hash": "15f2b5fb00ccdf689e0149d1b1b3c03fead81c2b37735d812fa8bddbbf41b6d8",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.2.8": {
+        "hash": "167dc9d6949a9b857f3451275e911c3f44255842c1f7a76f33c55103a909087a",
+        "type": "crates-io"
+      },
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-build": {
+      "0.1.1": {
+        "hash": "2d315eee3b34aca4797b2da6b13ed88266e6d612562a0c46390af8299fc699bc",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    },
+    "ws2_32-sys": {
+      "0.2.1": {
+        "hash": "d59cefebd0c892fa2dd6de581e937301d8552cb44489cdff035c6187cb63fa5e",
+        "type": "crates-io"
+      }
+    }
+  }
+}

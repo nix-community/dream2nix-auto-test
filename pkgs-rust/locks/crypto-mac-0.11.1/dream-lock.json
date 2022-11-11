@@ -1,0 +1,93 @@
+{
+  "_generic": {
+    "defaultPackage": "crypto-mac",
+    "location": "",
+    "packages": {
+      "crypto-mac": "0.11.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "crypto-mac": {
+        "0.11.1": {
+          "description": "Trait for Message Authentication Code (MAC) algorithms", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "crypto-mac": {
+        "0.11.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cipher": {
+      "0.3.0": [
+        [ "generic-array", "0.14.6" ]
+      ]
+    },
+    "crypto-mac": {
+      "0.11.1": [
+        [ "blobby", "0.3.1" ],
+        [ "cipher", "0.3.0" ],
+        [ "generic-array", "0.14.6" ],
+        [ "subtle", "2.4.1" ]
+      ]
+    },
+    "generic-array": {
+      "0.14.6": [
+        [ "typenum", "1.15.0" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "blobby": {
+      "0.3.1": {
+        "hash": "847495c209977a90e8aad588b959d0ca9f5dc228096d29a6bd3defd53f35eaec",
+        "type": "crates-io"
+      }
+    },
+    "cipher": {
+      "0.3.0": {
+        "hash": "7ee52072ec15386f770805afd189a01c8841be8696bed250fa2f13c4c0d6dfb7",
+        "type": "crates-io"
+      }
+    },
+    "crypto-mac": {
+      "0.11.1": {
+        "hash": "b1d1a86f49236c215f271d40892d5fc950490551400b02ef360692c29815c714",
+        "type": "crates-io"
+      }
+    },
+    "generic-array": {
+      "0.14.6": {
+        "hash": "bff49e947297f3312447abdca79f45f4738097cc82b06e72054d2223f601f1b9",
+        "type": "crates-io"
+      }
+    },
+    "subtle": {
+      "2.4.1": {
+        "hash": "6bdef32e8150c2a081110b42772ffe7d7c9032b606bc226c8260fd97e0976601",
+        "type": "crates-io"
+      }
+    },
+    "typenum": {
+      "1.15.0": {
+        "hash": "dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

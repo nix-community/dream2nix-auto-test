@@ -1,0 +1,71 @@
+{
+  "_generic": {
+    "defaultPackage": "threadpool",
+    "location": "",
+    "packages": {
+      "threadpool": "1.8.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "threadpool": {
+        "1.8.1": {
+          "description": "A thread pool for running a number of jobs on a fixed set of worker threads.\n", "homepage": "https://github.com/rust-threadpool/rust-threadpool", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "threadpool": {
+        "1.8.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hermit-abi": {
+      "0.1.19": [
+        [ "libc", "0.2.137" ]
+      ]
+    },
+    "num_cpus": {
+      "1.14.0": [
+        [ "hermit-abi", "0.1.19" ],
+        [ "libc", "0.2.137" ]
+      ]
+    },
+    "threadpool": {
+      "1.8.1": [
+        [ "num_cpus", "1.14.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "hermit-abi": {
+      "0.1.19": {
+        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "num_cpus": {
+      "1.14.0": {
+        "hash": "f6058e64324c71e02bc2b150e4f3bc8286db6c83092132ffa3f6b1eab0f9def5",
+        "type": "crates-io"
+      }
+    },
+    "threadpool": {
+      "1.8.1": {
+        "hash": "d050e60b33d41c19108b32cea32164033a9013fe3b46cbd4457559bfbf77afaa",
+        "type": "crates-io"
+      }
+    }
+  }
+}

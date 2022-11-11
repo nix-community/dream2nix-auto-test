@@ -1,0 +1,93 @@
+{
+  "_generic": {
+    "defaultPackage": "tokio-current-thread",
+    "location": "",
+    "packages": {
+      "tokio-current-thread": "0.1.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "tokio-current-thread": {
+        "0.1.7": {
+          "description": "Single threaded executor which manage many tasks concurrently on the current thread.\n", "homepage": "https://github.com/tokio-rs/tokio", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "tokio-current-thread": {
+        "0.1.7": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "crossbeam-utils": {
+      "0.7.2": [
+        [ "autocfg", "1.1.0" ],
+        [ "cfg-if", "0.1.10" ],
+        [ "lazy_static", "1.4.0" ]
+      ]
+    },
+    "tokio-current-thread": {
+      "0.1.7": [
+        [ "futures", "0.1.31" ],
+        [ "tokio-executor", "0.1.10" ]
+      ]
+    },
+    "tokio-executor": {
+      "0.1.10": [
+        [ "crossbeam-utils", "0.7.2" ],
+        [ "futures", "0.1.31" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "0.1.10": {
+        "hash": "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-utils": {
+      "0.7.2": {
+        "hash": "c3c7c73a2d1e9fc0886a08b93e98eb643461230d5f1925e4036204d5f2e261a8",
+        "type": "crates-io"
+      }
+    },
+    "futures": {
+      "0.1.31": {
+        "hash": "3a471a38ef8ed83cd6e40aa59c1ffe17db6855c18e3604d9c4ed8c08ebc28678",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "tokio-current-thread": {
+      "0.1.7": {
+        "hash": "b1de0e32a83f131e002238d7ccde18211c0a5397f60cbfffcb112868c2e0e20e",
+        "type": "crates-io"
+      }
+    },
+    "tokio-executor": {
+      "0.1.10": {
+        "hash": "fb2d1b8f4548dbf5e1f7818512e9c406860678f29c300cdf0ebac72d1a3a1671",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "Inflector",
+    "location": "",
+    "packages": {
+      "Inflector": "0.11.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "Inflector": {
+        "0.11.4": {
+          "description": "Adds String based inflections for Rust. Snake, kebab, camel, sentence, class, title and table cases as well as ordinalize, deordinalize, demodulize, foreign key, and pluralize/singularize are supported as both traits and pure functions acting on String types.\n", "homepage": "https://github.com/whatisinternet/inflector", "license": [   "bsd2"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "Inflector": {
+        "0.11.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "Inflector": {
+      "0.11.4": [
+        [ "lazy_static", "1.4.0" ],
+        [ "regex", "1.7.0" ]
+      ]
+    },
+    "aho-corasick": {
+      "0.7.19": [
+        [ "memchr", "2.5.0" ]
+      ]
+    },
+    "regex": {
+      "1.7.0": [
+        [ "aho-corasick", "0.7.19" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.6.28" ]
+      ]
+    }
+  },
+  "sources": {
+    "Inflector": {
+      "0.11.4": {
+        "hash": "fe438c63458706e03479442743baae6c88256498e6431708f6dfc520a26515d3",
+        "type": "crates-io"
+      }
+    },
+    "aho-corasick": {
+      "0.7.19": {
+        "hash": "b4f55bd91a0978cbfd91c457a164bab8b4001c833b7f323132c0a4e1922dd44e",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.7.0": {
+        "hash": "e076559ef8e241f2ae3479e36f97bd5741c0330689e217ad51ce2c76808b868a",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.28": {
+        "hash": "456c603be3e8d448b072f410900c09faf164fbce2d480456f50eea6e25f9c848",
+        "type": "crates-io"
+      }
+    }
+  }
+}

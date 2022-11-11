@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "num-integer",
+    "location": "",
+    "packages": {
+      "num-integer": "0.1.45"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num-integer": {
+        "0.1.45": {
+          "description": "Integer traits and functions", "homepage": "https://github.com/rust-num/num-integer", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num-integer": {
+        "0.1.45": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num-integer": {
+      "0.1.45": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "num-integer": {
+      "0.1.45": {
+        "hash": "225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    }
+  }
+}

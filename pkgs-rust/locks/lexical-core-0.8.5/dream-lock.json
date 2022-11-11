@@ -1,0 +1,142 @@
+{
+  "_generic": {
+    "defaultPackage": "lexical-core",
+    "location": "",
+    "packages": {
+      "lexical-core": "0.8.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "lexical-core": {
+        "0.8.5": {
+          "description": "Lexical, to- and from-string conversion routines.", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "lexical-core": {
+        "0.8.5": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "approx": {
+      "0.5.1": [
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "lexical-core": {
+      "0.8.5": [
+        [ "approx", "0.5.1" ],
+        [ "lexical-parse-float", "0.8.5" ],
+        [ "lexical-parse-integer", "0.8.6" ],
+        [ "lexical-util", "0.8.5" ],
+        [ "lexical-write-float", "0.8.5" ],
+        [ "lexical-write-integer", "0.8.5" ]
+      ]
+    },
+    "lexical-parse-float": {
+      "0.8.5": [
+        [ "lexical-parse-integer", "0.8.6" ],
+        [ "lexical-util", "0.8.5" ],
+        [ "static_assertions", "1.1.0" ]
+      ]
+    },
+    "lexical-parse-integer": {
+      "0.8.6": [
+        [ "lexical-util", "0.8.5" ],
+        [ "static_assertions", "1.1.0" ]
+      ]
+    },
+    "lexical-util": {
+      "0.8.5": [
+        [ "static_assertions", "1.1.0" ]
+      ]
+    },
+    "lexical-write-float": {
+      "0.8.5": [
+        [ "lexical-util", "0.8.5" ],
+        [ "lexical-write-integer", "0.8.5" ],
+        [ "static_assertions", "1.1.0" ]
+      ]
+    },
+    "lexical-write-integer": {
+      "0.8.5": [
+        [ "lexical-util", "0.8.5" ],
+        [ "static_assertions", "1.1.0" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "approx": {
+      "0.5.1": {
+        "hash": "cab112f0a86d568ea0e627cc1d6be74a1e9cd55214684db5561995f6dad897c6",
+        "type": "crates-io"
+      }
+    },
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "lexical-core": {
+      "0.8.5": {
+        "hash": "2cde5de06e8d4c2faabc400238f9ae1c74d5412d03a7bd067645ccbc47070e46",
+        "type": "crates-io"
+      }
+    },
+    "lexical-parse-float": {
+      "0.8.5": {
+        "hash": "683b3a5ebd0130b8fb52ba0bdc718cc56815b6a097e28ae5a6997d0ad17dc05f",
+        "type": "crates-io"
+      }
+    },
+    "lexical-parse-integer": {
+      "0.8.6": {
+        "hash": "6d0994485ed0c312f6d965766754ea177d07f9c00c9b82a5ee62ed5b47945ee9",
+        "type": "crates-io"
+      }
+    },
+    "lexical-util": {
+      "0.8.5": {
+        "hash": "5255b9ff16ff898710eb9eb63cb39248ea8a5bb036bea8085b1a767ff6c4e3fc",
+        "type": "crates-io"
+      }
+    },
+    "lexical-write-float": {
+      "0.8.5": {
+        "hash": "accabaa1c4581f05a3923d1b4cfd124c329352288b7b9da09e766b0668116862",
+        "type": "crates-io"
+      }
+    },
+    "lexical-write-integer": {
+      "0.8.5": {
+        "hash": "e1b6f3d1f4422866b68192d62f77bc5c700bee84f3069f2469d7bc8c77852446",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    },
+    "static_assertions": {
+      "1.1.0": {
+        "hash": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

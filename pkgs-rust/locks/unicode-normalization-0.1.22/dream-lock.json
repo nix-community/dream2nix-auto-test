@@ -1,0 +1,59 @@
+{
+  "_generic": {
+    "defaultPackage": "unicode-normalization",
+    "location": "",
+    "packages": {
+      "unicode-normalization": "0.1.22"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "unicode-normalization": {
+        "0.1.22": {
+          "description": "This crate provides functions for normalization of\nUnicode strings, including Canonical and Compatible\nDecomposition and Recomposition, as described in\nUnicode Standard Annex #15.\n", "homepage": "https://github.com/unicode-rs/unicode-normalization", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "unicode-normalization": {
+        "0.1.22": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tinyvec": {
+      "1.6.0": [
+        [ "tinyvec_macros", "0.1.0" ]
+      ]
+    },
+    "unicode-normalization": {
+      "0.1.22": [
+        [ "tinyvec", "1.6.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "tinyvec": {
+      "1.6.0": {
+        "hash": "87cc5ceb3875bb20c2890005a4e226a4651264a5c75edb2421b52861a0a0cb50",
+        "type": "crates-io"
+      }
+    },
+    "tinyvec_macros": {
+      "0.1.0": {
+        "hash": "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c",
+        "type": "crates-io"
+      }
+    },
+    "unicode-normalization": {
+      "0.1.22": {
+        "hash": "5c5713f0fc4b5db668a2ac63cdb7bb4469d8c9fed047b1d0292cc7b0ce2ba921",
+        "type": "crates-io"
+      }
+    }
+  }
+}

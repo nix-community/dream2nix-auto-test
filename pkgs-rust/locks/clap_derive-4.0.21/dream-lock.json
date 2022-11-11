@@ -1,0 +1,128 @@
+{
+  "_generic": {
+    "defaultPackage": "clap_derive",
+    "location": "",
+    "packages": {
+      "clap_derive": "4.0.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "clap_derive": {
+        "4.0.21": {
+          "description": "Parse command line argument by defining a struct, derive crate.", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "clap_derive": {
+        "4.0.21": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clap_derive": {
+      "4.0.21": [
+        [ "heck", "0.4.0" ],
+        [ "proc-macro-error", "1.0.4" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "proc-macro-error": {
+      "1.0.4": [
+        [ "proc-macro-error-attr", "1.0.4" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "proc-macro-error-attr": {
+      "1.0.4": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "clap_derive": {
+      "4.0.21": {
+        "hash": "0177313f9f02afc995627906bbd8967e2be069f5261954222dac78290c2b9014",
+        "type": "crates-io"
+      }
+    },
+    "heck": {
+      "0.4.0": {
+        "hash": "2540771e65fc8cb83cd6e8a237f70c319bd5c29f78ed1084ba5d50eeac86f7f9",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro-error": {
+      "1.0.4": {
+        "hash": "da25490ff9892aab3fcf7c36f08cfb902dd3e71ca0f9f9517bea02a73a5ce38c",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro-error-attr": {
+      "1.0.4": {
+        "hash": "a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "cmake",
+    "location": "",
+    "packages": {
+      "cmake": "0.1.49"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "cmake": {
+        "0.1.49": {
+          "description": "A build dependency for running `cmake` to build a native library\n", "homepage": "https://github.com/rust-lang/cmake-rs", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "cmake": {
+        "0.1.49": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cmake": {
+      "0.1.49": [
+        [ "cc", "1.0.76" ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.76": {
+        "hash": "76a284da2e6fe2092f2353e51713435363112dfd60030e22add80be333fb928f",
+        "type": "crates-io"
+      }
+    },
+    "cmake": {
+      "0.1.49": {
+        "hash": "db34956e100b30725f2eb215f90d4871051239535632f84fea3bc92722c66b7c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

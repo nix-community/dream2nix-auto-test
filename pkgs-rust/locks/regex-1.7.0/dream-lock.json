@@ -1,0 +1,141 @@
+{
+  "_generic": {
+    "defaultPackage": "regex",
+    "location": "",
+    "packages": {
+      "regex": "1.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "regex": {
+        "1.7.0": {
+          "description": "An implementation of regular expressions for Rust. This implementation uses\nfinite automata and guarantees linear time matching on all inputs.\n", "homepage": "https://github.com/rust-lang/regex", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "regex": {
+        "1.7.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "aho-corasick": {
+      "0.7.18": [
+        [ "memchr", "2.4.0" ]
+      ]
+    },
+    "getrandom": {
+      "0.2.2": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.94" ],
+        [ "wasi", "0.10.2+wasi-snapshot-preview1" ]
+      ]
+    },
+    "quickcheck": {
+      "1.0.3": [
+        [ "rand", "0.8.3" ]
+      ]
+    },
+    "rand": {
+      "0.8.3": [
+        [ "rand_core", "0.6.2" ]
+      ]
+    },
+    "rand_core": {
+      "0.6.2": [
+        [ "getrandom", "0.2.2" ]
+      ]
+    },
+    "regex": {
+      "1.7.0": [
+        [ "aho-corasick", "0.7.18" ],
+        [ "lazy_static", "1.4.0" ],
+        [ "memchr", "2.4.0" ],
+        [ "quickcheck", "1.0.3" ],
+        [ "rand", "0.8.3" ],
+        [ "regex-syntax", "0.6.28" ]
+      ]
+    }
+  },
+  "sources": {
+    "aho-corasick": {
+      "0.7.18": {
+        "hash": "1e37cfd5e7657ada45f742d6e99ca5788580b5c529dc78faf11ece6dc702656f",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "getrandom": {
+      "0.2.2": {
+        "hash": "c9495705279e7140bf035dde1f6e750c162df8b625267cd52cc44e0b156732c8",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.94": {
+        "hash": "18794a8ad5b29321f790b55d93dfba91e125cb1a9edbd4f8e3150acc771c1a5e",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.4.0": {
+        "hash": "b16bd47d9e329435e309c58469fe0791c2d0d1ba96ec0954152a5ae2b04387dc",
+        "type": "crates-io"
+      }
+    },
+    "quickcheck": {
+      "1.0.3": {
+        "hash": "588f6378e4dd99458b60ec275b4477add41ce4fa9f64dcba6f15adccb19b50d6",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.3": {
+        "hash": "0ef9e7e66b4468674bfcb0c81af8b7fa0bb154fa9f28eb840da5c447baeb8d7e",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.2": {
+        "hash": "34cf66eb183df1c5876e2dcf6b13d57340741e8dc255b48e40a26de954d06ae7",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.7.0": {
+        "hash": "e076559ef8e241f2ae3479e36f97bd5741c0330689e217ad51ce2c76808b868a",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.28": {
+        "hash": "456c603be3e8d448b072f410900c09faf164fbce2d480456f50eea6e25f9c848",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.10.2+wasi-snapshot-preview1": {
+        "hash": "fd6fbd9a79829dd1ad0cc20627bf1ed606756a7f77edff7b66b7064f9cb327c6",
+        "type": "crates-io"
+      }
+    }
+  }
+}

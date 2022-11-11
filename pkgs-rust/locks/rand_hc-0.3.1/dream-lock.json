@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "rand_hc",
+    "location": "",
+    "packages": {
+      "rand_hc": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "rand_hc": {
+        "0.3.1": {
+          "description": "HC128 random number generator\n", "homepage": "https://rust-random.github.io/book", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "rand_hc": {
+        "0.3.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rand_hc": {
+      "0.3.1": [
+        [ "rand_core", "0.6.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "rand_core": {
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
+        "type": "crates-io"
+      }
+    },
+    "rand_hc": {
+      "0.3.1": {
+        "hash": "d51e9f596de227fda2ea6c84607f5558e196eeaf43c986b724ba4fb8fdf497e7",
+        "type": "crates-io"
+      }
+    }
+  }
+}

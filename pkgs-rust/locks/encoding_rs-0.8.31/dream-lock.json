@@ -1,0 +1,168 @@
+{
+  "_generic": {
+    "defaultPackage": "encoding_rs",
+    "location": "",
+    "packages": {
+      "encoding_rs": "0.8.31"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "encoding_rs": {
+        "0.8.31": {
+          "description": "A Gecko-oriented implementation of the Encoding Standard", "homepage": "https://docs.rs/encoding_rs/", "license": [   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "encoding_rs": {
+        "0.8.31": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bincode": {
+      "1.3.3": [
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "encoding_rs": {
+      "0.8.31": [
+        [ "bincode", "1.3.3" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "packed_simd_2", "0.3.8" ],
+        [ "serde", "1.0.147" ],
+        [ "serde_derive", "1.0.147" ],
+        [ "serde_json", "1.0.87" ]
+      ]
+    },
+    "packed_simd_2": {
+      "0.3.8": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libm", "0.1.4" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.147": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "serde_json": {
+      "1.0.87": [
+        [ "itoa", "1.0.4" ],
+        [ "ryu", "1.0.11" ],
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "bincode": {
+      "1.3.3": {
+        "hash": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "encoding_rs": {
+      "0.8.31": {
+        "hash": "9852635589dc9f9ea1b6fe9f05b50ef208c85c834a562f0c6abb1c475736ec2b",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.4": {
+        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
+        "type": "crates-io"
+      }
+    },
+    "libm": {
+      "0.1.4": {
+        "hash": "7fc7aa29613bd6a620df431842069224d8bc9011086b1db4c0e0cd47fa03ec9a",
+        "type": "crates-io"
+      }
+    },
+    "packed_simd_2": {
+      "0.3.8": {
+        "hash": "a1914cd452d8fccd6f9db48147b29fd4ae05bea9dc5d9ad578509f72415de282",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.11": {
+        "hash": "4501abdff3ae82a1c1b477a17252eb69cee9e66eb915c1abaa4f44d873df9f09",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.147": {
+        "hash": "4f1d362ca8fc9c3e3a7484440752472d68a6caa98f1ab81d99b5dfe517cec852",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.87": {
+        "hash": "6ce777b7b150d76b9cf60d28b55f5847135a003f7d7350c6be7a773508ce7d45",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

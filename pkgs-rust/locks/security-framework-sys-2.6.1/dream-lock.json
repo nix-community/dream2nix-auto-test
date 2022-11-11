@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "security-framework-sys",
+    "location": "",
+    "packages": {
+      "security-framework-sys": "2.6.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "security-framework-sys": {
+        "2.6.1": {
+          "description": "Apple `Security.framework` low-level FFI bindings", "homepage": "https://lib.rs/crates/security-framework-sys", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "security-framework-sys": {
+        "2.6.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "security-framework-sys": {
+      "2.6.1": [
+        [ "core-foundation-sys", "0.8.3" ],
+        [ "libc", "0.2.137" ]
+      ]
+    }
+  },
+  "sources": {
+    "core-foundation-sys": {
+      "0.8.3": {
+        "hash": "5827cebf4670468b8772dd191856768aedcb1b0278a04f989f7766351917b9dc",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "security-framework-sys": {
+      "2.6.1": {
+        "hash": "0160a13a177a45bfb43ce71c01580998474f556ad854dcbca936dd2841a5c556",
+        "type": "crates-io"
+      }
+    }
+  }
+}

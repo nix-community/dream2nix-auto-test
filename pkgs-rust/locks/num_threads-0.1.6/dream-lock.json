@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "num_threads",
+    "location": "",
+    "packages": {
+      "num_threads": "0.1.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num_threads": {
+        "0.1.6": {
+          "description": "A minimal library that determines the number of running threads for the current process.", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num_threads": {
+        "0.1.6": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num_threads": {
+      "0.1.6": [
+        [ "libc", "0.2.137" ]
+      ]
+    }
+  },
+  "sources": {
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "num_threads": {
+      "0.1.6": {
+        "hash": "2819ce041d2ee131036f4fc9d6ae7ae125a3a40e97ba64d04fe799ad9dabbb44",
+        "type": "crates-io"
+      }
+    }
+  }
+}

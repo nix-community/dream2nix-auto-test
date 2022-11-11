@@ -1,0 +1,96 @@
+{
+  "_generic": {
+    "defaultPackage": "linked-hash-map",
+    "location": "",
+    "packages": {
+      "linked-hash-map": "0.5.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "linked-hash-map": {
+        "0.5.6": {
+          "description": "A HashMap wrapper that holds key-value pairs in insertion order", "homepage": "https://github.com/contain-rs/linked-hash-map", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "linked-hash-map": {
+        "0.5.6": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "heapsize": {
+      "0.4.2": [
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "linked-hash-map": {
+      "0.5.6": [
+        [ "heapsize", "0.4.2" ],
+        [ "serde", "1.0.147" ],
+        [ "serde_test", "1.0.147" ]
+      ]
+    },
+    "serde_test": {
+      "1.0.147": [
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "heapsize": {
+      "0.4.2": {
+        "hash": "1679e6ea370dee694f91f1dc469bf94cf8f52051d147aec3e1f9497c6fc22461",
+        "type": "crates-io"
+      }
+    },
+    "linked-hash-map": {
+      "0.5.6": {
+        "hash": "0717cef1bc8b636c6e1c1bbdefc09e6322da8a9321966e8928ef80d20f7f770f",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    },
+    "serde_test": {
+      "1.0.147": {
+        "hash": "641666500e4e6fba7b91b73651a375cb53579468ab3c38389289b802797cad94",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

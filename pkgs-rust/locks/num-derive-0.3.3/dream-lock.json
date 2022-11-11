@@ -1,0 +1,184 @@
+{
+  "_generic": {
+    "defaultPackage": "num-derive",
+    "location": "",
+    "packages": {
+      "num-derive": "0.3.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num-derive": {
+        "0.3.3": {
+          "description": "Numeric syntax extensions", "homepage": "https://github.com/rust-num/num-derive", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num-derive": {
+        "0.3.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num": {
+      "0.3.1": [
+        [ "num-bigint", "0.3.3" ],
+        [ "num-complex", "0.3.1" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-iter", "0.1.43" ],
+        [ "num-rational", "0.3.2" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-bigint": {
+      "0.3.3": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-complex": {
+      "0.3.1": [
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-derive": {
+      "0.3.3": [
+        [ "num", "0.3.1" ],
+        [ "num-traits", "0.2.15" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "num-integer": {
+      "0.1.45": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-iter": {
+      "0.1.43": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-rational": {
+      "0.3.2": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-bigint", "0.3.3" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "num": {
+      "0.3.1": {
+        "hash": "8b7a8e9be5e039e2ff869df49155f1c06bd01ade2117ec783e56ab0932b67a8f",
+        "type": "crates-io"
+      }
+    },
+    "num-bigint": {
+      "0.3.3": {
+        "hash": "5f6f7833f2cbf2360a6cfd58cd41a53aa7a90bd4c202f5b1c7dd2ed73c57b2c3",
+        "type": "crates-io"
+      }
+    },
+    "num-complex": {
+      "0.3.1": {
+        "hash": "747d632c0c558b87dbabbe6a82f3b4ae03720d0646ac5b7b4dae89394be5f2c5",
+        "type": "crates-io"
+      }
+    },
+    "num-derive": {
+      "0.3.3": {
+        "hash": "876a53fff98e03a936a674b29568b0e605f06b29372c2489ff4de23f1949743d",
+        "type": "crates-io"
+      }
+    },
+    "num-integer": {
+      "0.1.45": {
+        "hash": "225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9",
+        "type": "crates-io"
+      }
+    },
+    "num-iter": {
+      "0.1.43": {
+        "hash": "7d03e6c028c5dc5cac6e2dec0efda81fc887605bb3d884578bb6d6bf7514e252",
+        "type": "crates-io"
+      }
+    },
+    "num-rational": {
+      "0.3.2": {
+        "hash": "12ac428b1cb17fce6f731001d307d351ec70a6d202fc2e60f7d4c5e42d8f4f07",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "_generic": {
+    "defaultPackage": "async-task",
+    "location": "",
+    "packages": {
+      "async-task": "4.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "async-task": {
+        "4.3.0": {
+          "description": "Task abstraction for building executors", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "async-task": {
+        "4.3.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async-channel": {
+      "1.6.1": [
+        [ "concurrent-queue", "1.2.2" ],
+        [ "event-listener", "2.5.2" ],
+        [ "futures-core", "0.3.21" ]
+      ]
+    },
+    "async-executor": {
+      "1.4.1": [
+        [ "async-task", "4.2.0" ],
+        [ "concurrent-queue", "1.2.2" ],
+        [ "fastrand", "1.7.0" ],
+        [ "futures-lite", "1.12.0" ],
+        [ "once_cell", "1.12.0" ],
+        [ "slab", "0.4.6" ]
+      ]
+    },
+    "async-fs": {
+      "1.5.0": [
+        [ "async-lock", "2.5.0" ],
+        [ "blocking", "1.2.0" ],
+        [ "futures-lite", "1.12.0" ]
+      ]
+    },
+    "async-io": {
+      "1.7.0": [
+        [ "concurrent-queue", "1.2.2" ],
+        [ "futures-lite", "1.12.0" ],
+        [ "libc", "0.2.126" ],
+        [ "log", "0.4.17" ],
+        [ "once_cell", "1.12.0" ],
+        [ "parking", "2.0.0" ],
+        [ "polling", "2.2.0" ],
+        [ "slab", "0.4.6" ],
+        [ "socket2", "0.4.4" ],
+        [ "waker-fn", "1.1.0" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "async-lock": {
+      "2.5.0": [
+        [ "event-listener", "2.5.2" ]
+      ]
+    },
+    "async-net": {
+      "1.6.1": [
+        [ "async-io", "1.7.0" ],
+        [ "blocking", "1.2.0" ],
+        [ "futures-lite", "1.12.0" ]
+      ]
+    },
+    "async-process": {
+      "1.4.0": [
+        [ "async-io", "1.7.0" ],
+        [ "blocking", "1.2.0" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "event-listener", "2.5.2" ],
+        [ "futures-lite", "1.12.0" ],
+        [ "libc", "0.2.126" ],
+        [ "once_cell", "1.12.0" ],
+        [ "signal-hook", "0.3.14" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "async-task": {
+      "4.3.0": [
+        [ "atomic-waker", "1.0.0" ],
+        [ "easy-parallel", "3.2.0" ],
+        [ "flaky_test", "0.1.0" ],
+        [ "flume", "0.10.13" ],
+        [ "once_cell", "1.12.0" ],
+        [ "smol", "1.2.5" ]
+      ]
+    },
+    "blocking": {
+      "1.2.0": [
+        [ "async-channel", "1.6.1" ],
+        [ "async-task", "4.2.0" ],
+        [ "atomic-waker", "1.0.0" ],
+        [ "fastrand", "1.7.0" ],
+        [ "futures-lite", "1.12.0" ],
+        [ "once_cell", "1.12.0" ]
+      ]
+    },
+    "concurrent-queue": {
+      "1.2.2": [
+        [ "cache-padded", "1.2.0" ]
+      ]
+    },
+    "fastrand": {
+      "1.7.0": [
+        [ "instant", "0.1.12" ]
+      ]
+    },
+    "flaky_test": {
+      "0.1.0": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "syn", "1.0.98" ]
+      ]
+    },
+    "flume": {
+      "0.10.13": [
+        [ "spin", "0.9.3" ]
+      ]
+    },
+    "futures-lite": {
+      "1.12.0": [
+        [ "fastrand", "1.7.0" ],
+        [ "futures-core", "0.3.21" ],
+        [ "futures-io", "0.3.21" ],
+        [ "memchr", "2.5.0" ],
+        [ "parking", "2.0.0" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "waker-fn", "1.1.0" ]
+      ]
+    },
+    "instant": {
+      "0.1.12": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "lock_api": {
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ],
+        [ "scopeguard", "1.1.0" ]
+      ]
+    },
+    "log": {
+      "0.4.17": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "polling": {
+      "2.2.0": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.126" ],
+        [ "log", "0.4.17" ],
+        [ "wepoll-ffi", "0.1.2" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.40": [
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "quote": {
+      "1.0.20": [
+        [ "proc-macro2", "1.0.40" ]
+      ]
+    },
+    "signal-hook": {
+      "0.3.14": [
+        [ "libc", "0.2.126" ],
+        [ "signal-hook-registry", "1.4.0" ]
+      ]
+    },
+    "signal-hook-registry": {
+      "1.4.0": [
+        [ "libc", "0.2.126" ]
+      ]
+    },
+    "smol": {
+      "1.2.5": [
+        [ "async-channel", "1.6.1" ],
+        [ "async-executor", "1.4.1" ],
+        [ "async-fs", "1.5.0" ],
+        [ "async-io", "1.7.0" ],
+        [ "async-lock", "2.5.0" ],
+        [ "async-net", "1.6.1" ],
+        [ "async-process", "1.4.0" ],
+        [ "blocking", "1.2.0" ],
+        [ "futures-lite", "1.12.0" ],
+        [ "once_cell", "1.12.0" ]
+      ]
+    },
+    "socket2": {
+      "0.4.4": [
+        [ "libc", "0.2.126" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "spin": {
+      "0.9.3": [
+        [ "lock_api", "0.4.7" ]
+      ]
+    },
+    "syn": {
+      "1.0.98": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "wepoll-ffi": {
+      "0.1.2": [
+        [ "cc", "1.0.73" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "async-channel": {
+      "1.6.1": {
+        "hash": "2114d64672151c0c5eaa5e131ec84a74f06e1e559830dabba01ca30605d66319",
+        "type": "crates-io"
+      }
+    },
+    "async-executor": {
+      "1.4.1": {
+        "hash": "871f9bb5e0a22eeb7e8cf16641feb87c9dc67032ccf8ff49e772eb9941d3a965",
+        "type": "crates-io"
+      }
+    },
+    "async-fs": {
+      "1.5.0": {
+        "hash": "8b3ca4f8ff117c37c278a2f7415ce9be55560b846b5bc4412aaa5d29c1c3dae2",
+        "type": "crates-io"
+      }
+    },
+    "async-io": {
+      "1.7.0": {
+        "hash": "e5e18f61464ae81cde0a23e713ae8fd299580c54d697a35820cfd0625b8b0e07",
+        "type": "crates-io"
+      }
+    },
+    "async-lock": {
+      "2.5.0": {
+        "hash": "e97a171d191782fba31bb902b14ad94e24a68145032b7eedf871ab0bc0d077b6",
+        "type": "crates-io"
+      }
+    },
+    "async-net": {
+      "1.6.1": {
+        "hash": "5373304df79b9b4395068fb080369ec7178608827306ce4d081cba51cac551df",
+        "type": "crates-io"
+      }
+    },
+    "async-process": {
+      "1.4.0": {
+        "hash": "cf2c06e30a24e8c78a3987d07f0930edf76ef35e027e7bdb063fccafdad1f60c",
+        "type": "crates-io"
+      }
+    },
+    "async-task": {
+      "4.2.0": {
+        "hash": "30696a84d817107fc028e049980e09d5e140e8da8f1caeb17e8e950658a3cea9",
+        "type": "crates-io"
+      },
+      "4.3.0": {
+        "hash": "7a40729d2133846d9ed0ea60a8b9541bccddab49cd30f0715a1da672fe9a2524",
+        "type": "crates-io"
+      }
+    },
+    "atomic-waker": {
+      "1.0.0": {
+        "hash": "065374052e7df7ee4047b1160cca5e1467a12351a40b3da123c870ba0b8eda2a",
+        "type": "crates-io"
+      }
+    },
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "blocking": {
+      "1.2.0": {
+        "hash": "c6ccb65d468978a086b69884437ded69a90faab3bbe6e67f242173ea728acccc",
+        "type": "crates-io"
+      }
+    },
+    "cache-padded": {
+      "1.2.0": {
+        "hash": "c1db59621ec70f09c5e9b597b220c7a2b43611f4710dc03ceb8748637775692c",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "concurrent-queue": {
+      "1.2.2": {
+        "hash": "30ed07550be01594c6026cff2a1d7fe9c8f683caa798e12b68694ac9e88286a3",
+        "type": "crates-io"
+      }
+    },
+    "easy-parallel": {
+      "3.2.0": {
+        "hash": "6907e25393cdcc1f4f3f513d9aac1e840eb1cc341a0fccb01171f7d14d10b946",
+        "type": "crates-io"
+      }
+    },
+    "event-listener": {
+      "2.5.2": {
+        "hash": "77f3309417938f28bf8228fcff79a4a37103981e3e186d2ccd19c74b38f4eb71",
+        "type": "crates-io"
+      }
+    },
+    "fastrand": {
+      "1.7.0": {
+        "hash": "c3fcf0cee53519c866c09b5de1f6c56ff9d647101f81c1964fa632e148896cdf",
+        "type": "crates-io"
+      }
+    },
+    "flaky_test": {
+      "0.1.0": {
+        "hash": "479cde5eb168cf5a056dd98f311cbfab7494c216394e4fb9eba0336827a8db93",
+        "type": "crates-io"
+      }
+    },
+    "flume": {
+      "0.10.13": {
+        "hash": "1ceeb589a3157cac0ab8cc585feb749bd2cea5cb55a6ee802ad72d9fd38303da",
+        "type": "crates-io"
+      }
+    },
+    "futures-core": {
+      "0.3.21": {
+        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+        "type": "crates-io"
+      }
+    },
+    "futures-io": {
+      "0.3.21": {
+        "hash": "fc4045962a5a5e935ee2fdedaa4e08284547402885ab326734432bed5d12966b",
+        "type": "crates-io"
+      }
+    },
+    "futures-lite": {
+      "1.12.0": {
+        "hash": "7694489acd39452c77daa48516b894c153f192c3578d5a839b62c58099fcbf48",
+        "type": "crates-io"
+      }
+    },
+    "instant": {
+      "0.1.12": {
+        "hash": "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "lock_api": {
+      "0.4.7": {
+        "hash": "327fa5b6a6940e4699ec49a9beae1ea4845c6bab9314e4f84ac68742139d8c53",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.17": {
+        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.12.0": {
+        "hash": "7709cef83f0c1f58f666e746a08b21e0085f7440fa6a29cc194d68aac97a4225",
+        "type": "crates-io"
+      }
+    },
+    "parking": {
+      "2.0.0": {
+        "hash": "427c3892f9e783d91cc128285287e70a59e206ca452770ece88a76f7a3eddd72",
+        "type": "crates-io"
+      }
+    },
+    "pin-project-lite": {
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+        "type": "crates-io"
+      }
+    },
+    "polling": {
+      "2.2.0": {
+        "hash": "685404d509889fade3e86fe3a5803bca2ec09b0c0778d5ada6ec8bf7a8de5259",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.40": {
+        "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.20": {
+        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+        "type": "crates-io"
+      }
+    },
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
+        "type": "crates-io"
+      }
+    },
+    "signal-hook": {
+      "0.3.14": {
+        "hash": "a253b5e89e2698464fc26b545c9edceb338e18a89effeeecfea192c3025be29d",
+        "type": "crates-io"
+      }
+    },
+    "signal-hook-registry": {
+      "1.4.0": {
+        "hash": "e51e73328dc4ac0c7ccbda3a494dfa03df1de2f46018127f60c693f2648455b0",
+        "type": "crates-io"
+      }
+    },
+    "slab": {
+      "0.4.6": {
+        "hash": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32",
+        "type": "crates-io"
+      }
+    },
+    "smol": {
+      "1.2.5": {
+        "hash": "85cf3b5351f3e783c1d79ab5fc604eeed8b8ae9abd36b166e8b87a089efd85e4",
+        "type": "crates-io"
+      }
+    },
+    "socket2": {
+      "0.4.4": {
+        "hash": "66d72b759436ae32898a2af0a14218dbf55efde3feeb170eb623637db85ee1e0",
+        "type": "crates-io"
+      }
+    },
+    "spin": {
+      "0.9.3": {
+        "hash": "c530c2b0d0bf8b69304b39fe2001993e267461948b890cd037d8ad4293fa1a0d",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.98": {
+        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.1": {
+        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+        "type": "crates-io"
+      }
+    },
+    "waker-fn": {
+      "1.1.0": {
+        "hash": "9d5b2c62b4012a3e1eca5a7e077d13b3bf498c4073e33ccd58626607748ceeca",
+        "type": "crates-io"
+      }
+    },
+    "wepoll-ffi": {
+      "0.1.2": {
+        "hash": "d743fdedc5c64377b5fc2bc036b01c7fd642205a0d96356034ae3404d49eb7fb",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

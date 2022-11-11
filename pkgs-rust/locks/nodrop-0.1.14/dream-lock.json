@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "nodrop",
+    "location": "",
+    "packages": {
+      "nodrop": "0.1.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "nodrop": {
+        "0.1.14": {
+          "description": "A wrapper type to inhibit drop (destructor).\n\n***Deprecated: Use ManuallyDrop or MaybeUninit instead!***\n", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "nodrop": {
+        "0.1.14": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nodrop": {
+      "0.1.14": [
+        [ "nodrop-union", "0.1.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "nodrop": {
+      "0.1.14": {
+        "hash": "72ef4a56884ca558e5ddb05a1d1e7e1bfd9a68d9ed024c21704cc98872dae1bb",
+        "type": "crates-io"
+      }
+    },
+    "nodrop-union": {
+      "0.1.11": {
+        "hash": "6cf66f80e9b8d448ad2e5bc23f7afb951f3dcebba845c5b0b7aae714e0bda9c0",
+        "type": "crates-io"
+      }
+    }
+  }
+}

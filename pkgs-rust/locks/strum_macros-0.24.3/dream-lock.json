@@ -1,0 +1,107 @@
+{
+  "_generic": {
+    "defaultPackage": "strum_macros",
+    "location": "",
+    "packages": {
+      "strum_macros": "0.24.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "strum_macros": {
+        "0.24.3": {
+          "description": "Helpful macros for working with enums and strings", "homepage": "https://github.com/Peternator7/strum", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "strum_macros": {
+        "0.24.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "strum_macros": {
+      "0.24.3": [
+        [ "heck", "0.4.0" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "rustversion", "1.0.9" ],
+        [ "strum", "0.24.1" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "heck": {
+      "0.4.0": {
+        "hash": "2540771e65fc8cb83cd6e8a237f70c319bd5c29f78ed1084ba5d50eeac86f7f9",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "rustversion": {
+      "1.0.9": {
+        "hash": "97477e48b4cf8603ad5f7aaf897467cf42ab4218a38ef76fb14c2d6773a6d6a8",
+        "type": "crates-io"
+      }
+    },
+    "strum": {
+      "0.24.1": {
+        "hash": "063e6045c0e62079840579a7e47a355ae92f60eb74daaf156fb1e84ba164e63f",
+        "type": "crates-io"
+      }
+    },
+    "strum_macros": {
+      "0.24.3": {
+        "hash": "1e385be0d24f186b4ce2f9982191e7101bb737312ad61c1f2f984f34bcf85d59",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

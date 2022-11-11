@@ -1,0 +1,74 @@
+{
+  "_generic": {
+    "defaultPackage": "num-iter",
+    "location": "",
+    "packages": {
+      "num-iter": "0.1.43"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num-iter": {
+        "0.1.43": {
+          "description": "External iterators for generic mathematics", "homepage": "https://github.com/rust-num/num-iter", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num-iter": {
+        "0.1.43": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num-integer": {
+      "0.1.45": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-iter": {
+      "0.1.43": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "num-integer": {
+      "0.1.45": {
+        "hash": "225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9",
+        "type": "crates-io"
+      }
+    },
+    "num-iter": {
+      "0.1.43": {
+        "hash": "7d03e6c028c5dc5cac6e2dec0efda81fc887605bb3d884578bb6d6bf7514e252",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    }
+  }
+}

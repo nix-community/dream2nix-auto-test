@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "xml-rs",
+    "location": "",
+    "packages": {
+      "xml-rs": "0.8.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "xml-rs": {
+        "0.8.4": {
+          "description": "An XML library in pure Rust", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "xml-rs": {
+        "0.8.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "xml-rs": {
+      "0.8.4": [
+        [ "doc-comment", "0.3.3" ],
+        [ "lazy_static", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "xml-rs": {
+      "0.8.4": {
+        "hash": "d2d7d3948613f75c98fd9328cfdcc45acc4d360655289d0a7d4ec931392200a3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "_generic": {
+    "defaultPackage": "same-file",
+    "location": "",
+    "packages": {
+      "same-file": "1.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "same-file": {
+        "1.0.6": {
+          "description": "A simple crate for determining whether two file paths point to the same file.\n", "homepage": "https://github.com/BurntSushi/same-file", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "same-file": {
+        "1.0.6": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "same-file": {
+      "1.0.6": [
+        [ "doc-comment", "0.3.1" ],
+        [ "winapi-util", "0.1.1" ]
+      ]
+    },
+    "winapi": {
+      "0.3.2": [
+        [ "winapi-i686-pc-windows-gnu", "0.3.2" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.3.2" ]
+      ]
+    },
+    "winapi-util": {
+      "0.1.1": [
+        [ "winapi", "0.3.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "doc-comment": {
+      "0.3.1": {
+        "hash": "923dea538cea0aa3025e8685b20d6ee21ef99c4f77e954a30febbaac5ec73a97",
+        "type": "crates-io"
+      }
+    },
+    "same-file": {
+      "1.0.6": {
+        "hash": "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.2": {
+        "hash": "890b38836c01d72fdb636d15c9cfc52ec7fd783b330abc93cd1686f4308dfccc",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.3.2": {
+        "hash": "ec6667f60c23eca65c561e63a13d81b44234c2e38a6b6c959025ee907ec614cc",
+        "type": "crates-io"
+      }
+    },
+    "winapi-util": {
+      "0.1.1": {
+        "hash": "afc5508759c5bf4285e61feb862b6083c8480aec864fa17a81fdec6f69b461ab",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.3.2": {
+        "hash": "98f12c52b2630cd05d2c3ffd8e008f7f48252c042b4871c72aed9dc733b96668",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "owning_ref",
+    "location": "",
+    "packages": {
+      "owning_ref": "0.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "owning_ref": {
+        "0.4.1": {
+          "description": "A library for creating references that carry their owner with them.", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "owning_ref": {
+        "0.4.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "owning_ref": {
+      "0.4.1": [
+        [ "stable_deref_trait", "1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "owning_ref": {
+      "0.4.1": {
+        "hash": "6ff55baddef9e4ad00f88b6c743a2a8062d4c6ade126c2a528644b8e444d52ce",
+        "type": "crates-io"
+      }
+    },
+    "stable_deref_trait": {
+      "1.2.0": {
+        "hash": "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

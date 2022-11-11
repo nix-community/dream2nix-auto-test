@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "csv-core",
+    "location": "",
+    "packages": {
+      "csv-core": "0.1.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "csv-core": {
+        "0.1.10": {
+          "description": "Bare bones CSV parsing with no_std support.", "homepage": "https://github.com/BurntSushi/rust-csv", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "csv-core": {
+        "0.1.10": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "csv-core": {
+      "0.1.10": [
+        [ "arrayvec", "0.5.2" ],
+        [ "memchr", "2.5.0" ]
+      ]
+    },
+    "memchr": {
+      "2.5.0": [
+        [ "libc", "0.2.137" ]
+      ]
+    }
+  },
+  "sources": {
+    "arrayvec": {
+      "0.5.2": {
+        "hash": "23b62fc65de8e4e7f52534fb52b0f3ed04746ae267519eef2a83941e8085068b",
+        "type": "crates-io"
+      }
+    },
+    "csv-core": {
+      "0.1.10": {
+        "hash": "2b2466559f260f48ad25fe6317b3c8dac77b5bdb5763ac7d9d6103530663bc90",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    }
+  }
+}

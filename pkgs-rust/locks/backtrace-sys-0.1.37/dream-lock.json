@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "backtrace-sys",
+    "location": "",
+    "packages": {
+      "backtrace-sys": "0.1.37"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "backtrace-sys": {
+        "0.1.37": {
+          "description": "Bindings to the libbacktrace gcc library\n", "homepage": "https://github.com/alexcrichton/backtrace-rs", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "backtrace-sys": {
+        "0.1.37": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "backtrace-sys": {
+      "0.1.37": [
+        [ "cc", "1.0.76" ],
+        [ "compiler_builtins", "0.1.83" ],
+        [ "libc", "0.2.137" ],
+        [ "rustc-std-workspace-core", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "backtrace-sys": {
+      "0.1.37": {
+        "hash": "18fbebbe1c9d1f383a9cc7e8ccdb471b91c8d024ee9c2ca5b5346121fe8b4399",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.76": {
+        "hash": "76a284da2e6fe2092f2353e51713435363112dfd60030e22add80be333fb928f",
+        "type": "crates-io"
+      }
+    },
+    "compiler_builtins": {
+      "0.1.83": {
+        "hash": "70ee07c7fcd313705c3556f0e3070c4f235568d740c0e3fa7532af64c5d98917",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

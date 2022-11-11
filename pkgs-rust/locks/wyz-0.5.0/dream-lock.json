@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "wyz",
+    "location": "",
+    "packages": {
+      "wyz": "0.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "wyz": {
+        "0.5.0": {
+          "description": "myrrlyn\u2019s utility collection", "homepage": "https://myrrlyn.net/crates/wyz", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "wyz": {
+        "0.5.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "typemap": {
+      "0.3.3": [
+        [ "unsafe-any", "0.4.2" ]
+      ]
+    },
+    "unsafe-any": {
+      "0.4.2": [
+        [ "traitobject", "0.1.0" ]
+      ]
+    },
+    "wyz": {
+      "0.5.0": [
+        [ "once_cell", "1.16.0" ],
+        [ "tap", "1.0.1" ],
+        [ "typemap", "0.3.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "once_cell": {
+      "1.16.0": {
+        "hash": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
+        "type": "crates-io"
+      }
+    },
+    "tap": {
+      "1.0.1": {
+        "hash": "55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369",
+        "type": "crates-io"
+      }
+    },
+    "traitobject": {
+      "0.1.0": {
+        "hash": "efd1f82c56340fdf16f2a953d7bda4f8fdffba13d93b00844c25572110b26079",
+        "type": "crates-io"
+      }
+    },
+    "typemap": {
+      "0.3.3": {
+        "hash": "653be63c80a3296da5551e1bfd2cca35227e13cdd08c6668903ae2f4f77aa1f6",
+        "type": "crates-io"
+      }
+    },
+    "unsafe-any": {
+      "0.4.2": {
+        "hash": "f30360d7979f5e9c6e6cea48af192ea8fab4afb3cf72597154b8f08935bc9c7f",
+        "type": "crates-io"
+      }
+    },
+    "wyz": {
+      "0.5.0": {
+        "hash": "30b31594f29d27036c383b53b59ed3476874d518f0efb151b27a4c275141390e",
+        "type": "crates-io"
+      }
+    }
+  }
+}

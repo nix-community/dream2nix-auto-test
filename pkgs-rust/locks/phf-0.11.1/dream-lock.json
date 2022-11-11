@@ -1,0 +1,184 @@
+{
+  "_generic": {
+    "defaultPackage": "phf",
+    "location": "",
+    "packages": {
+      "phf": "0.11.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "phf": {
+        "0.11.1": {
+          "description": "Runtime support for perfect hash function data structures", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "phf": {
+        "0.11.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "phf": {
+      "0.11.1": [
+        [ "phf_macros", "0.11.1" ],
+        [ "phf_shared", "0.11.1" ],
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "phf_generator": {
+      "0.11.1": [
+        [ "phf_shared", "0.11.1" ],
+        [ "rand", "0.8.5" ]
+      ]
+    },
+    "phf_macros": {
+      "0.11.1": [
+        [ "phf_generator", "0.11.1" ],
+        [ "phf_shared", "0.11.1" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ],
+        [ "unicase", "2.6.0" ]
+      ]
+    },
+    "phf_shared": {
+      "0.11.1": [
+        [ "siphasher", "0.3.10" ],
+        [ "uncased", "0.9.7" ],
+        [ "unicase", "2.6.0" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "rand": {
+      "0.8.5": [
+        [ "rand_core", "0.6.4" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "uncased": {
+      "0.9.7": [
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "unicase": {
+      "2.6.0": [
+        [ "version_check", "0.9.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "phf": {
+      "0.11.1": {
+        "hash": "928c6535de93548188ef63bb7c4036bd415cd8f36ad25af44b9789b2ee72a48c",
+        "type": "crates-io"
+      }
+    },
+    "phf_generator": {
+      "0.11.1": {
+        "hash": "b1181c94580fa345f50f19d738aaa39c0ed30a600d95cb2d3e23f94266f14fbf",
+        "type": "crates-io"
+      }
+    },
+    "phf_macros": {
+      "0.11.1": {
+        "hash": "92aacdc5f16768709a569e913f7451034034178b05bdc8acda226659a3dccc66",
+        "type": "crates-io"
+      }
+    },
+    "phf_shared": {
+      "0.11.1": {
+        "hash": "e1fb5f6f826b772a8d4c0394209441e7d37cbbb967ae9c7e0e8134365c9ee676",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    },
+    "siphasher": {
+      "0.3.10": {
+        "hash": "7bd3e3206899af3f8b12af284fafc038cc1dc2b41d1b89dd17297221c5d225de",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "uncased": {
+      "0.9.7": {
+        "hash": "09b01702b0fd0b3fadcf98e098780badda8742d4f4a7676615cad90e8ac73622",
+        "type": "crates-io"
+      }
+    },
+    "unicase": {
+      "2.6.0": {
+        "hash": "50f37be617794602aabbeee0be4f259dc1778fabe05e2d67ee8f79326d5cb4f6",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

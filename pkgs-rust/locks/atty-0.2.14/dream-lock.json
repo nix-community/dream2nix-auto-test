@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "atty",
+    "location": "",
+    "packages": {
+      "atty": "0.2.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "atty": {
+        "0.2.14": {
+          "description": "A simple interface for querying atty", "homepage": "https://github.com/softprops/atty", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "atty": {
+        "0.2.14": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "atty": {
+      "0.2.14": [
+        [ "hermit-abi", "0.1.6" ],
+        [ "libc", "0.2.66" ],
+        [ "winapi", "0.3.4" ]
+      ]
+    },
+    "hermit-abi": {
+      "0.1.6": [
+        [ "libc", "0.2.66" ]
+      ]
+    },
+    "winapi": {
+      "0.3.4": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "atty": {
+      "0.2.14": {
+        "hash": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
+        "type": "crates-io"
+      }
+    },
+    "hermit-abi": {
+      "0.1.6": {
+        "hash": "eff2656d88f158ce120947499e971d743c05dbcbed62e5bd2f38f1698bbc3772",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.66": {
+        "hash": "d515b1f41455adea1313a4a2ac8a8a477634fbae63cc6100e3aebb207ce61558",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.4": {
+        "hash": "04e3bd221fcbe8a271359c04f21a76db7d0c6028862d1bb5512d85e1e2eb5bb3",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

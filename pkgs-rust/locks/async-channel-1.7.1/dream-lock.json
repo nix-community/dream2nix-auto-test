@@ -1,0 +1,157 @@
+{
+  "_generic": {
+    "defaultPackage": "async-channel",
+    "location": "",
+    "packages": {
+      "async-channel": "1.7.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "async-channel": {
+        "1.7.1": {
+          "description": "Async multi-producer multi-consumer channel", "homepage": "https://github.com/smol-rs/async-channel", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "async-channel": {
+        "1.7.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async-channel": {
+      "1.7.1": [
+        [ "concurrent-queue", "1.2.4" ],
+        [ "easy-parallel", "3.2.0" ],
+        [ "event-listener", "2.5.3" ],
+        [ "futures-core", "0.3.25" ],
+        [ "futures-lite", "1.12.0" ]
+      ]
+    },
+    "concurrent-queue": {
+      "1.2.4": [
+        [ "cache-padded", "1.2.0" ]
+      ]
+    },
+    "fastrand": {
+      "1.8.0": [
+        [ "instant", "0.1.12" ]
+      ]
+    },
+    "futures-lite": {
+      "1.12.0": [
+        [ "fastrand", "1.8.0" ],
+        [ "futures-core", "0.3.25" ],
+        [ "futures-io", "0.3.25" ],
+        [ "memchr", "2.5.0" ],
+        [ "parking", "2.0.0" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "waker-fn", "1.1.0" ]
+      ]
+    },
+    "instant": {
+      "0.1.12": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "async-channel": {
+      "1.7.1": {
+        "hash": "e14485364214912d3b19cc3435dde4df66065127f05fa0d75c712f36f12c2f28",
+        "type": "crates-io"
+      }
+    },
+    "cache-padded": {
+      "1.2.0": {
+        "hash": "c1db59621ec70f09c5e9b597b220c7a2b43611f4710dc03ceb8748637775692c",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "concurrent-queue": {
+      "1.2.4": {
+        "hash": "af4780a44ab5696ea9e28294517f1fffb421a83a25af521333c838635509db9c",
+        "type": "crates-io"
+      }
+    },
+    "easy-parallel": {
+      "3.2.0": {
+        "hash": "6907e25393cdcc1f4f3f513d9aac1e840eb1cc341a0fccb01171f7d14d10b946",
+        "type": "crates-io"
+      }
+    },
+    "event-listener": {
+      "2.5.3": {
+        "hash": "0206175f82b8d6bf6652ff7d71a1e27fd2e4efde587fd368662814d6ec1d9ce0",
+        "type": "crates-io"
+      }
+    },
+    "fastrand": {
+      "1.8.0": {
+        "hash": "a7a407cfaa3385c4ae6b23e84623d48c2798d06e3e6a1878f7f59f17b3f86499",
+        "type": "crates-io"
+      }
+    },
+    "futures-core": {
+      "0.3.25": {
+        "hash": "04909a7a7e4633ae6c4a9ab280aeb86da1236243a77b694a49eacd659a4bd3ac",
+        "type": "crates-io"
+      }
+    },
+    "futures-io": {
+      "0.3.25": {
+        "hash": "00f5fb52a06bdcadeb54e8d3671f8888a39697dcb0b81b23b55174030427f4eb",
+        "type": "crates-io"
+      }
+    },
+    "futures-lite": {
+      "1.12.0": {
+        "hash": "7694489acd39452c77daa48516b894c153f192c3578d5a839b62c58099fcbf48",
+        "type": "crates-io"
+      }
+    },
+    "instant": {
+      "0.1.12": {
+        "hash": "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "parking": {
+      "2.0.0": {
+        "hash": "427c3892f9e783d91cc128285287e70a59e206ca452770ece88a76f7a3eddd72",
+        "type": "crates-io"
+      }
+    },
+    "pin-project-lite": {
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+        "type": "crates-io"
+      }
+    },
+    "waker-fn": {
+      "1.1.0": {
+        "hash": "9d5b2c62b4012a3e1eca5a7e077d13b3bf498c4073e33ccd58626607748ceeca",
+        "type": "crates-io"
+      }
+    }
+  }
+}

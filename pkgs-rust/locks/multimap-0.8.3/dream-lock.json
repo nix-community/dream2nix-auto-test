@@ -1,0 +1,60 @@
+{
+  "_generic": {
+    "defaultPackage": "multimap",
+    "location": "",
+    "packages": {
+      "multimap": "0.8.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "multimap": {
+        "0.8.3": {
+          "description": "A multimap implementation.", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "multimap": {
+        "0.8.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "multimap": {
+      "0.8.3": [
+        [ "serde", "1.0.147" ],
+        [ "serde_test", "1.0.147" ]
+      ]
+    },
+    "serde_test": {
+      "1.0.147": [
+        [ "serde", "1.0.147" ]
+      ]
+    }
+  },
+  "sources": {
+    "multimap": {
+      "0.8.3": {
+        "hash": "e5ce46fe64a9d73be07dcbe690a38ce1b293be448fd8ce1e6c1b8062c9f72c6a",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    },
+    "serde_test": {
+      "1.0.147": {
+        "hash": "641666500e4e6fba7b91b73651a375cb53579468ab3c38389289b802797cad94",
+        "type": "crates-io"
+      }
+    }
+  }
+}

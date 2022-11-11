@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "foreign-types",
+    "location": "",
+    "packages": {
+      "foreign-types": "0.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "foreign-types": {
+        "0.5.0": {
+          "description": "A framework for Rust wrappers over C APIs", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "foreign-types": {
+        "0.5.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "foreign-types": {
+      "0.5.0": [
+        [ "foreign-types-macros", "0.2.2" ],
+        [ "foreign-types-shared", "0.3.1" ]
+      ]
+    },
+    "foreign-types-macros": {
+      "0.2.2": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "foreign-types": {
+      "0.5.0": {
+        "hash": "d737d9aa519fb7b749cbc3b962edcf310a8dd1f4b67c91c4f83975dbdd17d965",
+        "type": "crates-io"
+      }
+    },
+    "foreign-types-macros": {
+      "0.2.2": {
+        "hash": "c8469d0d40519bc608ec6863f1cc88f3f1deee15913f2f3b3e573d81ed38cccc",
+        "type": "crates-io"
+      }
+    },
+    "foreign-types-shared": {
+      "0.3.1": {
+        "hash": "aa9a19cbb55df58761df49b23516a86d432839add4af60fc256da840f66ed35b",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

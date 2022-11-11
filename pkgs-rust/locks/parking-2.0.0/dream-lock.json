@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "parking",
+    "location": "",
+    "packages": {
+      "parking": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "parking": {
+        "2.0.0": {
+          "description": "Thread parking and unparking", "homepage": "https://github.com/stjepang/parking", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "parking": {
+        "2.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "parking": {
+      "2.0.0": [
+        [ "easy-parallel", "3.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "easy-parallel": {
+      "3.2.0": {
+        "hash": "6907e25393cdcc1f4f3f513d9aac1e840eb1cc341a0fccb01171f7d14d10b946",
+        "type": "crates-io"
+      }
+    },
+    "parking": {
+      "2.0.0": {
+        "hash": "427c3892f9e783d91cc128285287e70a59e206ca452770ece88a76f7a3eddd72",
+        "type": "crates-io"
+      }
+    }
+  }
+}

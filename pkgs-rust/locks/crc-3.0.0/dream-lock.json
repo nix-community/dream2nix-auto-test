@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "crc",
+    "location": "",
+    "packages": {
+      "crc": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "crc": {
+        "3.0.0": {
+          "description": "Rust implementation of CRC(16, 32, 64) with support of various standards", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "crc": {
+        "3.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "crc": {
+      "3.0.0": [
+        [ "crc-catalog", "2.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "crc": {
+      "3.0.0": {
+        "hash": "53757d12b596c16c78b83458d732a5d1a17ab3f53f2f7412f6fb57cc8a140ab3",
+        "type": "crates-io"
+      }
+    },
+    "crc-catalog": {
+      "2.1.0": {
+        "hash": "2d0165d2900ae6778e36e80bbc4da3b5eefccee9ba939761f9c2882a5d9af3ff",
+        "type": "crates-io"
+      }
+    }
+  }
+}

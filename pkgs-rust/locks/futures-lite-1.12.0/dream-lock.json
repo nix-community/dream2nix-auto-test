@@ -1,0 +1,131 @@
+{
+  "_generic": {
+    "defaultPackage": "futures-lite",
+    "location": "",
+    "packages": {
+      "futures-lite": "1.12.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "futures-lite": {
+        "1.12.0": {
+          "description": "Futures, streams, and async I/O combinators", "homepage": "https://github.com/smol-rs/futures-lite", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "futures-lite": {
+        "1.12.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fastrand": {
+      "1.8.0": [
+        [ "instant", "0.1.12" ]
+      ]
+    },
+    "futures-lite": {
+      "1.12.0": [
+        [ "fastrand", "1.8.0" ],
+        [ "futures-core", "0.3.25" ],
+        [ "futures-io", "0.3.25" ],
+        [ "memchr", "2.5.0" ],
+        [ "parking", "2.0.0" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "spin_on", "0.1.1" ],
+        [ "waker-fn", "1.1.0" ]
+      ]
+    },
+    "instant": {
+      "0.1.12": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "spin_on": {
+      "0.1.1": [
+        [ "pin-utils", "0.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "fastrand": {
+      "1.8.0": {
+        "hash": "a7a407cfaa3385c4ae6b23e84623d48c2798d06e3e6a1878f7f59f17b3f86499",
+        "type": "crates-io"
+      }
+    },
+    "futures-core": {
+      "0.3.25": {
+        "hash": "04909a7a7e4633ae6c4a9ab280aeb86da1236243a77b694a49eacd659a4bd3ac",
+        "type": "crates-io"
+      }
+    },
+    "futures-io": {
+      "0.3.25": {
+        "hash": "00f5fb52a06bdcadeb54e8d3671f8888a39697dcb0b81b23b55174030427f4eb",
+        "type": "crates-io"
+      }
+    },
+    "futures-lite": {
+      "1.12.0": {
+        "hash": "7694489acd39452c77daa48516b894c153f192c3578d5a839b62c58099fcbf48",
+        "type": "crates-io"
+      }
+    },
+    "instant": {
+      "0.1.12": {
+        "hash": "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "parking": {
+      "2.0.0": {
+        "hash": "427c3892f9e783d91cc128285287e70a59e206ca452770ece88a76f7a3eddd72",
+        "type": "crates-io"
+      }
+    },
+    "pin-project-lite": {
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+        "type": "crates-io"
+      }
+    },
+    "pin-utils": {
+      "0.1.0": {
+        "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
+        "type": "crates-io"
+      }
+    },
+    "spin_on": {
+      "0.1.1": {
+        "hash": "076e103ed41b9864aa838287efe5f4e3a7a0362dd00671ae62a212e5e4612da2",
+        "type": "crates-io"
+      }
+    },
+    "waker-fn": {
+      "1.1.0": {
+        "hash": "9d5b2c62b4012a3e1eca5a7e077d13b3bf498c4073e33ccd58626607748ceeca",
+        "type": "crates-io"
+      }
+    }
+  }
+}

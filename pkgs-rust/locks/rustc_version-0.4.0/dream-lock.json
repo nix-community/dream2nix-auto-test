@@ -1,0 +1,55 @@
+{
+  "_generic": {
+    "defaultPackage": "rustc_version",
+    "location": "",
+    "packages": {
+      "rustc_version": "0.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "rustc_version": {
+        "0.4.0": {
+          "description": "A library for querying the version of a installed rustc compiler", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "rustc_version": {
+        "0.4.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rustc_version": {
+      "0.4.0": [
+        [ "doc-comment", "0.3.3" ],
+        [ "semver", "1.0.14" ]
+      ]
+    }
+  },
+  "sources": {
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "type": "crates-io"
+      }
+    },
+    "rustc_version": {
+      "0.4.0": {
+        "hash": "bfa0f585226d2e68097d4f95d113b15b83a82e819ab25717ec0590d9584ef366",
+        "type": "crates-io"
+      }
+    },
+    "semver": {
+      "1.0.14": {
+        "hash": "e25dfac463d778e353db5be2449d1cce89bd6fd23c9f1ea21310ce6e5a1b29c4",
+        "type": "crates-io"
+      }
+    }
+  }
+}

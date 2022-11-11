@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "clap_lex",
+    "location": "",
+    "packages": {
+      "clap_lex": "0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "clap_lex": {
+        "0.3.0": {
+          "description": "Minimal, flexible command line parser", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "clap_lex": {
+        "0.3.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clap_lex": {
+      "0.3.0": [
+        [ "os_str_bytes", "6.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "clap_lex": {
+      "0.3.0": {
+        "hash": "0d4198f73e42b4936b35b5bb248d81d2b595ecb170da0bac7655c54eedfa8da8",
+        "type": "crates-io"
+      }
+    },
+    "os_str_bytes": {
+      "6.4.0": {
+        "hash": "7b5bf27447411e9ee3ff51186bf7a08e16c341efdde93f4d823e8844429bed7e",
+        "type": "crates-io"
+      }
+    }
+  }
+}

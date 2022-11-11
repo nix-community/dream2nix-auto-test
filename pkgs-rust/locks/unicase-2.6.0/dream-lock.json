@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "unicase",
+    "location": "",
+    "packages": {
+      "unicase": "2.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "unicase": {
+        "2.6.0": {
+          "description": "A case-insensitive wrapper around strings.", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "unicase": {
+        "2.6.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unicase": {
+      "2.6.0": [
+        [ "version_check", "0.9.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "unicase": {
+      "2.6.0": {
+        "hash": "50f37be617794602aabbeee0be4f259dc1778fabe05e2d67ee8f79326d5cb4f6",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

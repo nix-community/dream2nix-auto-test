@@ -1,0 +1,305 @@
+{
+  "_generic": {
+    "defaultPackage": "num_enum",
+    "location": "",
+    "packages": {
+      "num_enum": "0.5.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num_enum": {
+        "0.5.7": {
+          "description": "Procedural macros to make inter-operation between primitives and enums easier.", "license": [   "bsd3",   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num_enum": {
+        "0.5.7": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num_enum": {
+      "0.5.7": [
+        [ "anyhow", "1.0.66" ],
+        [ "num_enum_derive", "0.5.7" ],
+        [ "rustversion", "1.0.9" ],
+        [ "trybuild", "1.0.71" ],
+        [ "walkdir", "2.3.2" ]
+      ]
+    },
+    "num_enum_derive": {
+      "0.5.7": [
+        [ "proc-macro-crate", "1.2.1" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "proc-macro-crate": {
+      "1.2.1": [
+        [ "once_cell", "1.16.0" ],
+        [ "thiserror", "1.0.37" ],
+        [ "toml", "0.5.9" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "same-file": {
+      "1.0.6": [
+        [ "winapi-util", "0.1.5" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.147": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "serde_json": {
+      "1.0.87": [
+        [ "itoa", "1.0.4" ],
+        [ "ryu", "1.0.11" ],
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "termcolor": {
+      "1.1.3": [
+        [ "winapi-util", "0.1.5" ]
+      ]
+    },
+    "thiserror": {
+      "1.0.37": [
+        [ "thiserror-impl", "1.0.37" ]
+      ]
+    },
+    "thiserror-impl": {
+      "1.0.37": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "toml": {
+      "0.5.9": [
+        [ "serde", "1.0.147" ]
+      ]
+    },
+    "trybuild": {
+      "1.0.71": [
+        [ "glob", "0.3.0" ],
+        [ "once_cell", "1.16.0" ],
+        [ "serde", "1.0.147" ],
+        [ "serde_derive", "1.0.147" ],
+        [ "serde_json", "1.0.87" ],
+        [ "termcolor", "1.1.3" ],
+        [ "toml", "0.5.9" ]
+      ]
+    },
+    "walkdir": {
+      "2.3.2": [
+        [ "same-file", "1.0.6" ],
+        [ "winapi", "0.3.9" ],
+        [ "winapi-util", "0.1.5" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "winapi-util": {
+      "0.1.5": [
+        [ "winapi", "0.3.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "anyhow": {
+      "1.0.66": {
+        "hash": "216261ddc8289130e551ddcd5ce8a064710c0d064a4d2895c67151c92b5443f6",
+        "type": "crates-io"
+      }
+    },
+    "glob": {
+      "0.3.0": {
+        "hash": "9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.4": {
+        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
+        "type": "crates-io"
+      }
+    },
+    "num_enum": {
+      "0.5.7": {
+        "hash": "cf5395665662ef45796a4ff5486c5d41d29e0c09640af4c5f17fd94ee2c119c9",
+        "type": "crates-io"
+      }
+    },
+    "num_enum_derive": {
+      "0.5.7": {
+        "hash": "3b0498641e53dd6ac1a4f22547548caa6864cc4933784319cd1775271c5a46ce",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.16.0": {
+        "hash": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro-crate": {
+      "1.2.1": {
+        "hash": "eda0fc3b0fb7c975631757e14d9049da17374063edb6ebbcbc54d880d4fe94e9",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "rustversion": {
+      "1.0.9": {
+        "hash": "97477e48b4cf8603ad5f7aaf897467cf42ab4218a38ef76fb14c2d6773a6d6a8",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.11": {
+        "hash": "4501abdff3ae82a1c1b477a17252eb69cee9e66eb915c1abaa4f44d873df9f09",
+        "type": "crates-io"
+      }
+    },
+    "same-file": {
+      "1.0.6": {
+        "hash": "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.147": {
+        "hash": "4f1d362ca8fc9c3e3a7484440752472d68a6caa98f1ab81d99b5dfe517cec852",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.87": {
+        "hash": "6ce777b7b150d76b9cf60d28b55f5847135a003f7d7350c6be7a773508ce7d45",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "termcolor": {
+      "1.1.3": {
+        "hash": "bab24d30b911b2376f3a13cc2cd443142f0c81dda04c118693e35b3835757755",
+        "type": "crates-io"
+      }
+    },
+    "thiserror": {
+      "1.0.37": {
+        "hash": "10deb33631e3c9018b9baf9dcbbc4f737320d2b576bac10f6aefa048fa407e3e",
+        "type": "crates-io"
+      }
+    },
+    "thiserror-impl": {
+      "1.0.37": {
+        "hash": "982d17546b47146b28f7c22e3d08465f6b8903d0ea13c1660d9d84a6e7adcdbb",
+        "type": "crates-io"
+      }
+    },
+    "toml": {
+      "0.5.9": {
+        "hash": "8d82e1a7758622a465f8cee077614c73484dac5b836c02ff6a40d5d1010324d7",
+        "type": "crates-io"
+      }
+    },
+    "trybuild": {
+      "1.0.71": {
+        "hash": "ea496675d71016e9bc76aa42d87f16aefd95447cc5818e671e12b2d7e269075d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "walkdir": {
+      "2.3.2": {
+        "hash": "808cf2735cd4b6866113f648b791c6adc5714537bc222d9347bb203386ffda56",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-util": {
+      "0.1.5": {
+        "hash": "70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

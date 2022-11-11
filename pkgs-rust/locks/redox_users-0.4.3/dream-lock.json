@@ -1,0 +1,267 @@
+{
+  "_generic": {
+    "defaultPackage": "redox_users",
+    "location": "",
+    "packages": {
+      "redox_users": "0.4.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "redox_users": {
+        "0.4.3": {
+          "description": "A Rust library to access Redox users and groups functionality", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "redox_users": {
+        "0.4.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "blake2b_simd": {
+      "0.5.11": [
+        [ "arrayref", "0.3.6" ],
+        [ "arrayvec", "0.5.2" ],
+        [ "constant_time_eq", "0.1.5" ]
+      ]
+    },
+    "crossbeam-utils": {
+      "0.8.12": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "getrandom": {
+      "0.2.8": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.137" ],
+        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "redox_syscall": {
+      "0.2.16": [
+        [ "bitflags", "1.3.2" ]
+      ]
+    },
+    "redox_users": {
+      "0.4.3": [
+        [ "getrandom", "0.2.8" ],
+        [ "redox_syscall", "0.2.16" ],
+        [ "rust-argon2", "0.8.3" ],
+        [ "thiserror", "1.0.37" ],
+        [ "zeroize", "1.5.7" ]
+      ]
+    },
+    "rust-argon2": {
+      "0.8.3": [
+        [ "base64", "0.13.1" ],
+        [ "blake2b_simd", "0.5.11" ],
+        [ "constant_time_eq", "0.1.5" ],
+        [ "crossbeam-utils", "0.8.12" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "synstructure": {
+      "0.12.6": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ],
+        [ "unicode-xid", "0.2.4" ]
+      ]
+    },
+    "thiserror": {
+      "1.0.37": [
+        [ "thiserror-impl", "1.0.37" ]
+      ]
+    },
+    "thiserror-impl": {
+      "1.0.37": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
+      ]
+    },
+    "zeroize": {
+      "1.5.7": [
+        [ "zeroize_derive", "1.3.2" ]
+      ]
+    },
+    "zeroize_derive": {
+      "1.3.2": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ],
+        [ "synstructure", "0.12.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "arrayref": {
+      "0.3.6": {
+        "hash": "a4c527152e37cf757a3f78aae5a06fbeefdb07ccc535c980a3208ee3060dd544",
+        "type": "crates-io"
+      }
+    },
+    "arrayvec": {
+      "0.5.2": {
+        "hash": "23b62fc65de8e4e7f52534fb52b0f3ed04746ae267519eef2a83941e8085068b",
+        "type": "crates-io"
+      }
+    },
+    "base64": {
+      "0.13.1": {
+        "hash": "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8",
+        "type": "crates-io"
+      }
+    },
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "blake2b_simd": {
+      "0.5.11": {
+        "hash": "afa748e348ad3be8263be728124b24a24f268266f6f5d58af9d75f6a40b5c587",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "constant_time_eq": {
+      "0.1.5": {
+        "hash": "245097e9a4535ee1e3e3931fcfcd55a796a44c643e8596ff6566d68f09b87bbc",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-utils": {
+      "0.8.12": {
+        "hash": "edbafec5fa1f196ca66527c1b12c2ec4745ca14b50f1ad8f9f6f720b55d11fac",
+        "type": "crates-io"
+      }
+    },
+    "getrandom": {
+      "0.2.8": {
+        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "redox_syscall": {
+      "0.2.16": {
+        "hash": "fb5a58c1855b4b6819d59012155603f0b22ad30cad752600aadfcb695265519a",
+        "type": "crates-io"
+      }
+    },
+    "redox_users": {
+      "0.4.3": {
+        "hash": "b033d837a7cf162d7993aded9304e30a83213c648b6e389db233191f891e5c2b",
+        "type": "crates-io"
+      }
+    },
+    "rust-argon2": {
+      "0.8.3": {
+        "hash": "4b18820d944b33caa75a71378964ac46f58517c92b6ae5f762636247c09e78fb",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "synstructure": {
+      "0.12.6": {
+        "hash": "f36bdaa60a83aca3921b5259d5400cbf5e90fc51931376a9bd4a0eb79aa7210f",
+        "type": "crates-io"
+      }
+    },
+    "thiserror": {
+      "1.0.37": {
+        "hash": "10deb33631e3c9018b9baf9dcbbc4f737320d2b576bac10f6aefa048fa407e3e",
+        "type": "crates-io"
+      }
+    },
+    "thiserror-impl": {
+      "1.0.37": {
+        "hash": "982d17546b47146b28f7c22e3d08465f6b8903d0ea13c1660d9d84a6e7adcdbb",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.4": {
+        "hash": "f962df74c8c05a667b5ee8bcf162993134c104e96440b663c8daa176dc772d8c",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.11.0+wasi-snapshot-preview1": {
+        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
+        "type": "crates-io"
+      }
+    },
+    "zeroize": {
+      "1.5.7": {
+        "hash": "c394b5bd0c6f669e7275d9c20aa90ae064cb22e75a1cad54e1b34088034b149f",
+        "type": "crates-io"
+      }
+    },
+    "zeroize_derive": {
+      "1.3.2": {
+        "hash": "3f8f187641dad4f680d25c4bfc4225b418165984179f26ca76ec4fb6441d3a17",
+        "type": "crates-io"
+      }
+    }
+  }
+}

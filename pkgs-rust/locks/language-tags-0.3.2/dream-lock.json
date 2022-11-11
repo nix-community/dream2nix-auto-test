@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "language-tags",
+    "location": "",
+    "packages": {
+      "language-tags": "0.3.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "language-tags": {
+        "0.3.2": {
+          "description": "Language tags for Rust", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "language-tags": {
+        "0.3.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "language-tags": {
+      "0.3.2": [
+        [ "bencher", "0.1.5" ],
+        [ "serde", "1.0.147" ],
+        [ "serde_json", "1.0.87" ]
+      ]
+    },
+    "serde_json": {
+      "1.0.87": [
+        [ "itoa", "1.0.4" ],
+        [ "ryu", "1.0.11" ],
+        [ "serde", "1.0.147" ]
+      ]
+    }
+  },
+  "sources": {
+    "bencher": {
+      "0.1.5": {
+        "hash": "7dfdb4953a096c551ce9ace855a604d702e6e62d77fac690575ae347571717f5",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.4": {
+        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
+        "type": "crates-io"
+      }
+    },
+    "language-tags": {
+      "0.3.2": {
+        "hash": "d4345964bb142484797b161f473a503a434de77149dd8c7427788c6e13379388",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.11": {
+        "hash": "4501abdff3ae82a1c1b477a17252eb69cee9e66eb915c1abaa4f44d873df9f09",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.87": {
+        "hash": "6ce777b7b150d76b9cf60d28b55f5847135a003f7d7350c6be7a773508ce7d45",
+        "type": "crates-io"
+      }
+    }
+  }
+}

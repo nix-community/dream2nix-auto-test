@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "cpufeatures",
+    "location": "",
+    "packages": {
+      "cpufeatures": "0.2.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "cpufeatures": {
+        "0.2.5": {
+          "description": "Lightweight runtime CPU feature detection for x86/x86_64 and aarch64 with\nno_std support and support for mobile targets including Android and iOS\n", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "cpufeatures": {
+        "0.2.5": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cpufeatures": {
+      "0.2.5": [
+        [ "libc", "0.2.137" ]
+      ]
+    }
+  },
+  "sources": {
+    "cpufeatures": {
+      "0.2.5": {
+        "hash": "28d997bd5e24a5928dd43e46dc529867e207907fe0b239c3477d924f7f2ca320",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "_generic": {
+    "defaultPackage": "getrandom",
+    "location": "",
+    "packages": {
+      "getrandom": "0.2.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "getrandom": {
+        "0.2.8": {
+          "description": "A small cross-platform library for retrieving random data from system source", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "getrandom": {
+        "0.2.8": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "console_error_panic_hook": {
+      "0.1.7": [
+        [ "cfg-if", "1.0.0" ],
+        [ "wasm-bindgen", "0.2.83" ]
+      ]
+    },
+    "getrandom": {
+      "0.2.8": [
+        [ "cfg-if", "1.0.0" ],
+        [ "compiler_builtins", "0.1.83" ],
+        [ "js-sys", "0.3.60" ],
+        [ "libc", "0.2.137" ],
+        [ "rustc-std-workspace-core", "1.0.0" ],
+        [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
+        [ "wasm-bindgen", "0.2.83" ],
+        [ "wasm-bindgen-test", "0.3.33" ]
+      ]
+    },
+    "js-sys": {
+      "0.3.60": [
+        [ "wasm-bindgen", "0.2.83" ]
+      ]
+    },
+    "libc": {
+      "0.2.137": [
+        [ "rustc-std-workspace-core", "1.0.0" ]
+      ]
+    },
+    "log": {
+      "0.4.17": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.47": [
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "quote": {
+      "1.0.21": [
+        [ "proc-macro2", "1.0.47" ]
+      ]
+    },
+    "syn": {
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "unicode-ident", "1.0.5" ]
+      ]
+    },
+    "wasi": {
+      "0.11.0+wasi-snapshot-preview1": [
+        [ "compiler_builtins", "0.1.83" ],
+        [ "rustc-std-workspace-alloc", "1.0.0" ],
+        [ "rustc-std-workspace-core", "1.0.0" ]
+      ]
+    },
+    "wasm-bindgen": {
+      "0.2.83": [
+        [ "cfg-if", "1.0.0" ],
+        [ "wasm-bindgen-macro", "0.2.83" ]
+      ]
+    },
+    "wasm-bindgen-backend": {
+      "0.2.83": [
+        [ "bumpalo", "3.11.1" ],
+        [ "log", "0.4.17" ],
+        [ "once_cell", "1.16.0" ],
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ],
+        [ "wasm-bindgen-shared", "0.2.83" ]
+      ]
+    },
+    "wasm-bindgen-futures": {
+      "0.4.33": [
+        [ "cfg-if", "1.0.0" ],
+        [ "js-sys", "0.3.60" ],
+        [ "wasm-bindgen", "0.2.83" ],
+        [ "web-sys", "0.3.60" ]
+      ]
+    },
+    "wasm-bindgen-macro": {
+      "0.2.83": [
+        [ "quote", "1.0.21" ],
+        [ "wasm-bindgen-macro-support", "0.2.83" ]
+      ]
+    },
+    "wasm-bindgen-macro-support": {
+      "0.2.83": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ],
+        [ "wasm-bindgen-backend", "0.2.83" ],
+        [ "wasm-bindgen-shared", "0.2.83" ]
+      ]
+    },
+    "wasm-bindgen-test": {
+      "0.3.33": [
+        [ "console_error_panic_hook", "0.1.7" ],
+        [ "js-sys", "0.3.60" ],
+        [ "scoped-tls", "1.0.1" ],
+        [ "wasm-bindgen", "0.2.83" ],
+        [ "wasm-bindgen-futures", "0.4.33" ],
+        [ "wasm-bindgen-test-macro", "0.3.33" ]
+      ]
+    },
+    "wasm-bindgen-test-macro": {
+      "0.3.33": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ]
+      ]
+    },
+    "web-sys": {
+      "0.3.60": [
+        [ "js-sys", "0.3.60" ],
+        [ "wasm-bindgen", "0.2.83" ]
+      ]
+    }
+  },
+  "sources": {
+    "bumpalo": {
+      "3.11.1": {
+        "hash": "572f695136211188308f16ad2ca5c851a712c464060ae6974944458eb83880ba",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "compiler_builtins": {
+      "0.1.83": {
+        "hash": "70ee07c7fcd313705c3556f0e3070c4f235568d740c0e3fa7532af64c5d98917",
+        "type": "crates-io"
+      }
+    },
+    "console_error_panic_hook": {
+      "0.1.7": {
+        "hash": "a06aeb73f470f66dcdbf7223caeebb85984942f22f1adb2a088cf9668146bbbc",
+        "type": "crates-io"
+      }
+    },
+    "getrandom": {
+      "0.2.8": {
+        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
+        "type": "crates-io"
+      }
+    },
+    "js-sys": {
+      "0.3.60": {
+        "hash": "49409df3e3bf0856b916e2ceaca09ee28e6871cf7d9ce97a692cacfdb2a25a47",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.17": {
+        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.16.0": {
+        "hash": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-alloc": {
+      "1.0.0": {
+        "hash": "ff66d57013a5686e1917ed6a025d54dd591fcda71a41fe07edf4d16726aefa86",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    },
+    "scoped-tls": {
+      "1.0.1": {
+        "hash": "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.11.0+wasi-snapshot-preview1": {
+        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen": {
+      "0.2.83": {
+        "hash": "eaf9f5aceeec8be17c128b2e93e031fb8a4d469bb9c4ae2d7dc1888b26887268",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-backend": {
+      "0.2.83": {
+        "hash": "4c8ffb332579b0557b52d268b91feab8df3615f265d5270fec2a8c95b17c1142",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-futures": {
+      "0.4.33": {
+        "hash": "23639446165ca5a5de86ae1d8896b737ae80319560fbaa4c2887b7da6e7ebd7d",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-macro": {
+      "0.2.83": {
+        "hash": "052be0f94026e6cbc75cdefc9bae13fd6052cdcaf532fa6c45e7ae33a1e6c810",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-macro-support": {
+      "0.2.83": {
+        "hash": "07bc0c051dc5f23e307b13285f9d75df86bfdf816c5721e573dec1f9b8aa193c",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-shared": {
+      "0.2.83": {
+        "hash": "1c38c045535d93ec4f0b4defec448e4291638ee608530863b1e2ba115d4fff7f",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-test": {
+      "0.3.33": {
+        "hash": "09d2fff962180c3fadf677438054b1db62bee4aa32af26a45388af07d1287e1d",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-test-macro": {
+      "0.3.33": {
+        "hash": "4683da3dfc016f704c9f82cf401520c4f1cb3ee440f7f52b3d6ac29506a49ca7",
+        "type": "crates-io"
+      }
+    },
+    "web-sys": {
+      "0.3.60": {
+        "hash": "bcda906d8be16e728fd5adc5b729afad4e444e106ab28cd1c7256e54fa61510f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

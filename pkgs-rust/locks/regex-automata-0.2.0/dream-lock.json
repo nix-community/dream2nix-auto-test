@@ -1,0 +1,80 @@
+{
+  "_generic": {
+    "defaultPackage": "regex-automata",
+    "location": "",
+    "packages": {
+      "regex-automata": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "regex-automata": {
+        "0.2.0": {
+          "description": "Automata construction and matching using regular expressions.", "homepage": "https://github.com/BurntSushi/regex-automata", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "regex-automata": {
+        "0.2.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "log": {
+      "0.4.17": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "regex-automata": {
+      "0.2.0": [
+        [ "fst", "0.4.7" ],
+        [ "log", "0.4.17" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.6.28" ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "fst": {
+      "0.4.7": {
+        "hash": "7ab85b9b05e3978cc9a9cf8fea7f01b494e1a09ed3037e16ba39edc7a29eb61a",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.17": {
+        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "regex-automata": {
+      "0.2.0": {
+        "hash": "e9368763f5a9b804326f3af749e16f9abf378d227bcdee7634b13d8f17793782",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.28": {
+        "hash": "456c603be3e8d448b072f410900c09faf164fbce2d480456f50eea6e25f9c848",
+        "type": "crates-io"
+      }
+    }
+  }
+}

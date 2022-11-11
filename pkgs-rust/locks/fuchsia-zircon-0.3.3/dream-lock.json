@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "fuchsia-zircon",
+    "location": "",
+    "packages": {
+      "fuchsia-zircon": "0.3.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "fuchsia-zircon": {
+        "0.3.3": {
+          "description": "Rust bindings for the Zircon kernel", "license": [   "bsd3"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "fuchsia-zircon": {
+        "0.3.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fuchsia-zircon": {
+      "0.3.3": [
+        [ "bitflags", "1.3.2" ],
+        [ "fuchsia-zircon-sys", "0.3.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-zircon": {
+      "0.3.3": {
+        "hash": "2e9763c69ebaae630ba35f74888db465e49e259ba1bc0eda7d06f4a067615d82",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-zircon-sys": {
+      "0.3.3": {
+        "hash": "3dcaa9ae7725d12cdb85b3ad99a434db70b468c09ded17e012d86b5c1010f7a7",
+        "type": "crates-io"
+      }
+    }
+  }
+}

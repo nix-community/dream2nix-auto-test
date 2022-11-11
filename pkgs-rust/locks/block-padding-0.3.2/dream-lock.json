@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "block-padding",
+    "location": "",
+    "packages": {
+      "block-padding": "0.3.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "block-padding": {
+        "0.3.2": {
+          "description": "Padding and unpadding of messages divided into blocks.", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "block-padding": {
+        "0.3.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "block-padding": {
+      "0.3.2": [
+        [ "generic-array", "0.14.6" ]
+      ]
+    },
+    "generic-array": {
+      "0.14.6": [
+        [ "typenum", "1.15.0" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "block-padding": {
+      "0.3.2": {
+        "hash": "0a90ec2df9600c28a01c56c4784c9207a96d2451833aeceb8cc97e4c9548bb78",
+        "type": "crates-io"
+      }
+    },
+    "generic-array": {
+      "0.14.6": {
+        "hash": "bff49e947297f3312447abdca79f45f4738097cc82b06e72054d2223f601f1b9",
+        "type": "crates-io"
+      }
+    },
+    "typenum": {
+      "1.15.0": {
+        "hash": "dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}
