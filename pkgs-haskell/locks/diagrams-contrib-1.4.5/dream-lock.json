@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "diagrams",
+    "defaultPackage": "diagrams-contrib",
     "location": "",
     "packages": {
-      "diagrams": "1.4.0.1"
+      "diagrams-contrib": "1.4.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -11,11 +11,13 @@
   "_subsystem": {
     "cabalHashes": {
       "Boolean#0.2.4": "a16b532a00eb3f29e8e588f3ca5c225370eef3dd963ee833d88b241ac680dc71",
+      "HUnit#1.6.2.0": "1a79174e8af616117ad39464cac9de205ca923da6582825e97c10786fda933a4",
       "JuicyPixels#3.3.8": "c50e7a610ec33e04f04256dc62da8ce667b014ede72c8c6730dd5039c681e70d",
       "MemoTrie#0.6.10": "e31ca1473059ee8256738869520e68cef374b179e9b1eec15b181cbfd599702d",
       "MonadRandom#0.6": "972d28e2a954139277064db49ab2de9822123d37cbd4d5a18d3567038907049e",
       "NumInstances#1.4": "d498d51e0fb23822706ca5e24944d014fdc1fd55bcd57f075f9797316eec0187",
       "OneTuple#0.3.1": "fc32cb744477befa450a538ea4975cc523f0a2f1585cb5a36e9936a3d18e9a3c",
+      "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "active#0.2.0.16": "0fc2d83741b9b09f9d3867d29b14d6f996aff1cec13810af1285788993b8b730",
       "adjunctions#4.4.2": "4c6fb647f522c46c0af513f705dab1d890860e536e0405c78389d425296ac0b4",
@@ -24,10 +26,8 @@
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
       "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
       "bifunctors#5.5.13": "66f1c1d0cba5de9d8810e2ef0be700b98d3689482f605cc46a69283e92a60840",
       "binary-orphans#1.0.3": "0a84acf16708f40e8e99eebd8e12323f037a0ee4ed6145323ce9300927b2a01b",
-      "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
       "bytes#0.17.2": "317d07ae22a999341b373706db2a4ef03cd43f33c8b43db813afce919e323a3b",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "cereal#0.5.8.3": "87a227c7b510217ea059db3dd59d9665edd8f0d1d3d8de39458e371a1d9402fb",
@@ -41,14 +41,13 @@
       "data-default-instances-containers#0.0.1": "6e1f4b28028a3bc455aaf4b5a9104b71ea72cff78b1b8041863df7afd1a8deb3",
       "data-default-instances-dlist#0.0.1": "4286abacbb256c392907701be16986a6e07f2beaf2778e7bd925465655d9e301",
       "data-default-instances-old-locale#0.0.1": "d4a757f68f0f83531fcb34a4525fe6769c54a45182e28ffdfff19c2b0ace42fb",
-      "diagrams-contrib#1.4.5": "64e618bd78b17b8889d67ed1a34974d3ec3188678bf01bf6e70082bed6644cde",
       "diagrams-core#1.5.0.1": "1ae7c35c61da6acc4f0cba6ac9457da9b507ae95456512e76a7cc109003cb0c0",
       "diagrams-lib#1.4.5.3": "3254bde663b2ba9b24dc9b208d2955fe8d3d944d3c8c81df3990b696a72c5a13",
       "diagrams-solve#0.1.3": "10ecc7080d2521202bd635673ccea9b4ee10dbd4c784a1e186879e805f0ce636",
-      "diagrams-svg#1.4.3.1": "2060a54662caa103ec9ce9e132204892ffdc3843b71671556e9998ef929cd508",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
       "dual-tree#0.2.3.1": "fdae62646fb4383a49b2d30862bb0824a06114b81fc74b65f3246c6ceb096006",
+      "extensible-exceptions#0.1.1.4": "eb5fe684a7ffe8d1ed2ed6cdaec7dfb29efc780811ea7158a64edc2abc516f47",
       "fast-math#1.0.2": "91181eb836e54413cc5a841e797c42b2264954e893ea530b6fc4da0dccf6a8b7",
       "fingertree#0.1.5.0": "dee81b0538430657e086189a80d17196bd91442adfdec2d73459e3029edfc1a8",
       "force-layout#0.4.0.6": "77f292407832d609f08cb5c718302c513220586c24fbceab3295227f11d4e108",
@@ -57,6 +56,7 @@
       "groups#0.5.3": "b536d995c65281f5b891a694213fe4abce2fcee71ebda08bb9ec9e334cdcc741",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
       "hinotify#0.4.1": "88b8934da67b526df25b1b00d57621ed0570989ad35e73b99883c80a6503990c",
+      "hostname#1.0": "8203b6ecd14ca1ef12f73a471b0a6a4be3ad4568d8b84f2bc4bc9e0abb8c4153",
       "indexed-traversable#0.1.2": "52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350",
       "indexed-traversable-instances#0.1.1.1": "04b9fac300cde96de9aaaa0c4237a85045308d0bd4ba360e318febf34ec0bd3a",
       "integer-logarithms#1.0.3.1": "d59bfd1d39808217af2b68789d3c0e57cb7199d47405a276060d88fef4f4017d",
@@ -82,6 +82,8 @@
       "profunctors#5.6.2": "3d3685119243a7ebf984fa6af03299d156ab7674a432e2e15ecee2a4fd420fb6",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "reflection#2.1.6": "f41afef54a696377bb7591e12969a56e7a4a1cf1d2a32210ab24c6a7aa9bd7ae",
+      "regex-base#0.94.0.2": "4ff4425c710cddf440dfbac6cd52310bb6b23e17902390ff71c9fc7eaafc4fcc",
+      "regex-posix#0.96.0.1": "9dbba4b65a3bb6975d9740814be5593c6b2d2d6a0b3febc8ec940edb9a9bbdf4",
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
       "semigroupoids#5.3.7": "fb1a86c250997c269106645724a67bc358235245cf385b589f855ac070d4ada0",
@@ -89,8 +91,10 @@
       "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
-      "svg-builder#0.1.1": "5f44fc6623bf28b6067a5d619dbb9a78825d453266b6f02f69b1e5a03caaf9b2",
       "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
+      "test-framework#0.8.2.0": "af3e5d38b3429aaf3964e91f4a4dcf25cfe0a35d22898ff5ce8121b6310e54e9",
+      "test-framework-hunit#0.3.0.2": "7fd007e9cb082cd64a2213a6d36acf057f7d6df6b5343a088e81b2b3a9a23545",
+      "test-framework-quickcheck2#0.3.0.5": "909afdaa4d11c102608e143f5bf94889b86f8e5408bc0ad0de9b285aa3c3f455",
       "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
@@ -101,6 +105,7 @@
       "vector-space#0.16": "3b93ce68ceb96b173d472b17c89283e5a652a270a40b33f49d65d8b7dd4492e8",
       "vector-stream#0.1.0.0": "09b0f8dc4e51936b9d6b04791f0aa03f7c9759b5fb7140eac8a9461cda1e55a3",
       "void#0.7.3": "13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546",
+      "xml#1.3.14": "c7a33d37c968c769723931a33e4e795f0aadda6cb62e7073ded8a2db52509d95",
       "zlib#0.6.3.0": "8214a9d37580f17f8b675109578a5dbe6853559eef156e34dc2233f1123ace33"
     },
     "compiler": {
@@ -110,6 +115,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "HUnit": {
+      "1.6.2.0": [
+        [ "call-stack", "0.4.0" ]
+      ]
+    },
     "JuicyPixels": {
       "3.3.8": [
         [ "primitive", "0.7.4.0" ],
@@ -132,6 +142,12 @@
     "OneTuple": {
       "0.3.1": [
         [ "base-orphans", "0.8.7" ]
+      ]
+    },
+    "QuickCheck": {
+      "2.14.2": [
+        [ "random", "1.2.1.1" ],
+        [ "splitmix", "0.1.0.4" ]
       ]
     },
     "active": {
@@ -252,14 +268,6 @@
         [ "old-locale", "1.0.0.7" ]
       ]
     },
-    "diagrams": {
-      "1.4.0.1": [
-        [ "diagrams-contrib", "1.4.5" ],
-        [ "diagrams-core", "1.5.0.1" ],
-        [ "diagrams-lib", "1.4.5.3" ],
-        [ "diagrams-svg", "1.4.3.1" ]
-      ]
-    },
     "diagrams-contrib": {
       "1.4.5": [
         [ "MonadRandom", "0.6" ],
@@ -280,7 +288,13 @@
         [ "mtl-compat", "0.2.2" ],
         [ "random", "1.2.1.1" ],
         [ "semigroups", "0.20" ],
-        [ "split", "0.2.3.5" ]
+        [ "split", "0.2.3.5" ],
+        [ "HUnit", "1.6.2.0" ],
+        [ "QuickCheck", "2.14.2" ],
+        [ "diagrams-lib", "1.4.5.3" ],
+        [ "test-framework", "0.8.2.0" ],
+        [ "test-framework-hunit", "0.3.0.2" ],
+        [ "test-framework-quickcheck2", "0.3.0.5" ]
       ]
     },
     "diagrams-core": {
@@ -320,22 +334,6 @@
         [ "semigroups", "0.20" ],
         [ "tagged", "0.8.6.1" ],
         [ "unordered-containers", "0.2.19.1" ]
-      ]
-    },
-    "diagrams-svg": {
-      "1.4.3.1": [
-        [ "JuicyPixels", "3.3.8" ],
-        [ "base64-bytestring", "1.2.1.0" ],
-        [ "colour", "2.3.6" ],
-        [ "diagrams-core", "1.5.0.1" ],
-        [ "diagrams-lib", "1.4.5.3" ],
-        [ "hashable", "1.4.1.0" ],
-        [ "lens", "5.2" ],
-        [ "monoid-extras", "0.6.1" ],
-        [ "optparse-applicative", "0.17.0.0" ],
-        [ "semigroups", "0.20" ],
-        [ "split", "0.2.3.5" ],
-        [ "svg-builder", "0.1.1" ]
       ]
     },
     "distributive": {
@@ -539,6 +537,11 @@
         [ "splitmix", "0.1.0.4" ]
       ]
     },
+    "regex-posix": {
+      "0.96.0.1": [
+        [ "regex-base", "0.94.0.2" ]
+      ]
+    },
     "scientific": {
       "0.3.7.0": [
         [ "hashable", "1.4.1.0" ],
@@ -566,11 +569,30 @@
         [ "these", "1.1.1.1" ]
       ]
     },
-    "svg-builder": {
-      "0.1.1": [
-        [ "blaze-builder", "0.4.2.2" ],
-        [ "hashable", "1.4.1.0" ],
-        [ "unordered-containers", "0.2.19.1" ]
+    "test-framework": {
+      "0.8.2.0": [
+        [ "ansi-terminal", "0.11.3" ],
+        [ "ansi-wl-pprint", "0.6.9" ],
+        [ "hostname", "1.0" ],
+        [ "old-locale", "1.0.0.7" ],
+        [ "random", "1.2.1.1" ],
+        [ "regex-posix", "0.96.0.1" ],
+        [ "xml", "1.3.14" ]
+      ]
+    },
+    "test-framework-hunit": {
+      "0.3.0.2": [
+        [ "HUnit", "1.6.2.0" ],
+        [ "extensible-exceptions", "0.1.1.4" ],
+        [ "test-framework", "0.8.2.0" ]
+      ]
+    },
+    "test-framework-quickcheck2": {
+      "0.3.0.5": [
+        [ "QuickCheck", "2.14.2" ],
+        [ "extensible-exceptions", "0.1.1.4" ],
+        [ "random", "1.2.1.1" ],
+        [ "test-framework", "0.8.2.0" ]
       ]
     },
     "these": {
@@ -612,6 +634,13 @@
         "url": "https://hackage.haskell.org/package/Boolean-0.2.4.tar.gz"
       }
     },
+    "HUnit": {
+      "1.6.2.0": {
+        "hash": "sha256:b0b7538871ffc058486fc00740886d2f3172f8fa6869936bfe83a5e10bd744ab",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/HUnit-1.6.2.0.tar.gz"
+      }
+    },
     "JuicyPixels": {
       "3.3.8": {
         "hash": "sha256:d3a0f6ca3515a1b3d526cbf79f2e0b0aab57f208ab216f9c26437bbcd86fb63e",
@@ -645,6 +674,13 @@
         "hash": "sha256:98853682d52fb4cc37a45cd186fbd77cf2565d3df5171acc4cf026427e103eef",
         "type": "http",
         "url": "https://hackage.haskell.org/package/OneTuple-0.3.1.tar.gz"
+      }
+    },
+    "QuickCheck": {
+      "2.14.2": {
+        "hash": "sha256:d87b6c85696b601175274361fa62217894401e401e150c3c5d4013ac53cd36f3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/QuickCheck-2.14.2.tar.gz"
       }
     },
     "StateVar": {
@@ -703,13 +739,6 @@
         "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
       }
     },
-    "base64-bytestring": {
-      "1.2.1.0": {
-        "hash": "sha256:fbf8ed30edde271eb605352021431d8f1b055f95a56af31fe2eacf6bdfdc49c9",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/base64-bytestring-1.2.1.0.tar.gz"
-      }
-    },
     "bifunctors": {
       "5.5.13": {
         "hash": "sha256:26cc27ade3796cf03bd680f98ebb7b8c0d7fd1b67c1894dc3635f734fba7dbd7",
@@ -722,13 +751,6 @@
         "hash": "sha256:e2e554823ce6758cbbfb64acb8b5905d3c226eab18b5fcaf5d7c79252114602c",
         "type": "http",
         "url": "https://hackage.haskell.org/package/binary-orphans-1.0.3.tar.gz"
-      }
-    },
-    "blaze-builder": {
-      "0.4.2.2": {
-        "hash": "sha256:2cdc998c021d3a5f2a66a95138b93386271c26a117e7676d78264a90e536af67",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/blaze-builder-0.4.2.2.tar.gz"
       }
     },
     "bytes": {
@@ -822,18 +844,11 @@
         "url": "https://hackage.haskell.org/package/data-default-instances-old-locale-0.0.1.tar.gz"
       }
     },
-    "diagrams": {
-      "1.4.0.1": {
-        "hash": "sha256:b8067f745971e22f3df9777c137da0f9b2d514045ae4e9bbabfb2e31858c7ef8",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/diagrams-1.4.0.1/diagrams-1.4.0.1.tar.gz"
-      }
-    },
     "diagrams-contrib": {
       "1.4.5": {
         "hash": "sha256:900baf9c40a36b637400bb58dbab260d3b654a1249809153c4fdd6ec2152286c",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/diagrams-contrib-1.4.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/diagrams-contrib-1.4.5/diagrams-contrib-1.4.5.tar.gz"
       }
     },
     "diagrams-core": {
@@ -857,13 +872,6 @@
         "url": "https://hackage.haskell.org/package/diagrams-solve-0.1.3.tar.gz"
       }
     },
-    "diagrams-svg": {
-      "1.4.3.1": {
-        "hash": "sha256:67080a0aa846f2931c14855560c4bbd848c44935f5ada4dbd6d93074707d5400",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/diagrams-svg-1.4.3.1.tar.gz"
-      }
-    },
     "distributive": {
       "0.6.2.1": {
         "hash": "sha256:d7351392e078f58caa46630a4b9c643e1e2e9dddee45848c5c8358e7b1316b91",
@@ -883,6 +891,13 @@
         "hash": "sha256:d0394b94c312a5ae032ee72d811400e3f435138ea05f7be6a4d019131a19d5a6",
         "type": "http",
         "url": "https://hackage.haskell.org/package/dual-tree-0.2.3.1.tar.gz"
+      }
+    },
+    "extensible-exceptions": {
+      "0.1.1.4": {
+        "hash": "sha256:6ce5e8801760385a408dab71b53550f87629e661b260bdc2cd41c6a439b6e388",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/extensible-exceptions-0.1.1.4.tar.gz"
       }
     },
     "fast-math": {
@@ -939,6 +954,13 @@
         "hash": "sha256:1307b100aeaf35d0d0f582d4897fac9cde39505ec52c915e213118e56674f81a",
         "type": "http",
         "url": "https://hackage.haskell.org/package/hinotify-0.4.1.tar.gz"
+      }
+    },
+    "hostname": {
+      "1.0": {
+        "hash": "sha256:9b43dab1b6da521f35685b20555da00738c8e136eb972458c786242406a9cf5c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hostname-1.0.tar.gz"
       }
     },
     "indexed-traversable": {
@@ -1116,6 +1138,20 @@
         "url": "https://hackage.haskell.org/package/reflection-2.1.6.tar.gz"
       }
     },
+    "regex-base": {
+      "0.94.0.2": {
+        "hash": "sha256:7b99408f580f5bb67a1c413e0bc735886608251331ad36322020f2169aea2ef1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/regex-base-0.94.0.2.tar.gz"
+      }
+    },
+    "regex-posix": {
+      "0.96.0.1": {
+        "hash": "sha256:c7827c391919227711e1cff0a762b1678fd8739f9c902fc183041ff34f59259c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/regex-posix-0.96.0.1.tar.gz"
+      }
+    },
     "safe-exceptions": {
       "0.1.7.3": {
         "hash": "sha256:91ce28d8f8a6efd31788d4827ed5cdcb9a546ad4053a86c56f7947c66a30b5bf",
@@ -1165,18 +1201,32 @@
         "url": "https://hackage.haskell.org/package/strict-0.4.0.1.tar.gz"
       }
     },
-    "svg-builder": {
-      "0.1.1": {
-        "hash": "sha256:4fd0e3f2cbc5601fc69e7eab41588cbfa1150dc508d9d86bf5f3d393880382cc",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/svg-builder-0.1.1.tar.gz"
-      }
-    },
     "tagged": {
       "0.8.6.1": {
         "hash": "sha256:f5e0fcf95f0bb4aa63f428f2c01955a41ea1a42cfcf39145ed631f59a9616c02",
         "type": "http",
         "url": "https://hackage.haskell.org/package/tagged-0.8.6.1.tar.gz"
+      }
+    },
+    "test-framework": {
+      "0.8.2.0": {
+        "hash": "sha256:f5aec7a15dbcb39e951bcf6502606fd99d751197b5510f41706899aa7e660ac2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/test-framework-0.8.2.0.tar.gz"
+      }
+    },
+    "test-framework-hunit": {
+      "0.3.0.2": {
+        "hash": "sha256:95cb8ee02a850b164bfdabdf4dbc839d621361f3ac770ad21ea43a8bde360bf8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/test-framework-hunit-0.3.0.2.tar.gz"
+      }
+    },
+    "test-framework-quickcheck2": {
+      "0.3.0.5": {
+        "hash": "sha256:c9f678d4ec30599172eb887031f0bce2012b532daeb713836bd912bff64eee59",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/test-framework-quickcheck2-0.3.0.5.tar.gz"
       }
     },
     "th-abstraction": {
@@ -1247,6 +1297,13 @@
         "hash": "sha256:53af758ddc37dc63981671e503438d02c6f64a2d8744e9bec557a894431f7317",
         "type": "http",
         "url": "https://hackage.haskell.org/package/void-0.7.3.tar.gz"
+      }
+    },
+    "xml": {
+      "1.3.14": {
+        "hash": "sha256:32d1a1a9f21a59176d84697f96ae3a13a0198420e3e4f1c48abbab7d2425013d",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/xml-1.3.14.tar.gz"
       }
     },
     "zlib": {
