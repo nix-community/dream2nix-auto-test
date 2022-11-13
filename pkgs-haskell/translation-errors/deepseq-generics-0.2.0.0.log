@@ -2,27 +2,27 @@
 Translating:: deepseq-generics (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/deepseq-generics-0.2.0.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1668334444
++ indexTime=1667110836
 ++ date +%s
-+ age=695
-+ '[' 695 -gt 86400 ']'
-/tmp/tmp.Opuq6Jqwnk/tmp.FVbK4uEvEq/tmp.WEAV9v1wZI ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=905
++ '[' 905 -gt 86400 ']'
+/tmp/tmp.NVEQwl9hYS/tmp.4iaXm9JoK6/tmp.qsNFJpdUBB ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/deepseq-generics-0.2.0.0/deepseq-generics-0.2.0.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  5192  100  5192    0     0  27056      0 --:--:-- --:--:-- --:--:-- 27041
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  5192  100  5192    0     0  25829      0 --:--:-- --:--:-- --:--:-- 25960
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: deepseq-generics-0.2.0.0 (user goal)
 [__1] next goal: base (dependency of deepseq-generics)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: deepseq-generics
 => base>=4.5 && <4.10)
-[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
-base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0,
-base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0 (has the same
-characteristics that caused the previous version to fail: excluded by
-constraint '>=4.5 && <4.10' from 'deepseq-generics')
+[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0 (has the same characteristics that
+caused the previous version to fail: excluded by constraint '>=4.5 && <4.10'
+from 'deepseq-generics')
 [__1] rejecting: base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,
 base-4.8.0.0, base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1,
 base-4.6.0.0, base-4.5.1.0, base-4.5.0.0, base-4.4.1.0, base-4.4.0.0,

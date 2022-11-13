@@ -2,27 +2,27 @@
 Translating:: old-time (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/old-time-1.1.0.3/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1668334444
++ indexTime=1667110836
 ++ date +%s
-+ age=372
-+ '[' 372 -gt 86400 ']'
-/tmp/tmp.2YjI8juz68/tmp.jfWjGvM1gC/tmp.hBlT6Tzvjz ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=489
++ '[' 489 -gt 86400 ']'
+/tmp/tmp.r6NO3ldkzx/tmp.9JblsbJKSv/tmp.x03ysKUOOk ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/old-time-1.1.0.3/old-time-1.1.0.3.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 74219  100 74219    0     0   374k      0 --:--:-- --:--:-- --:--:--  375k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 74219  100 74219    0     0   314k      0 --:--:-- --:--:-- --:--:--  315k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: old-time-1.1.0.3 (user goal)
 [__1] next goal: base (dependency of old-time)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: old-time =>
 base>=4.7 && <4.9)
-[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
-base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0,
-base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0,
-base-4.9.0.0 (has the same characteristics that caused the previous version to
-fail: excluded by constraint '>=4.7 && <4.9' from 'old-time')
+[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
+constraint '>=4.7 && <4.9' from 'old-time')
 [__1] rejecting: base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2,
 base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0,
 base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0,
