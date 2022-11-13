@@ -12,6 +12,7 @@
 							show <section/> in closest <details/> when its textContent contains my value
 							">
 		{% for item in checks %}
+		{% if 'Ok' in item.value %}
 		{% if 'derivationPath' in item.value.Ok %}
 		<section class="box warn">
 			<a
@@ -32,6 +33,9 @@
 				<pre>{{item.value.Error.trace}}</pre>
 			</details>
 		</section>
+		{% endif %}
+		{% else %}
+		<section class="box bad">{{item.value|dump}}</section>
 		{% endif %}
 		{% endfor %}
 	</details>
