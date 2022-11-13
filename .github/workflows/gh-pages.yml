@@ -2,6 +2,8 @@ name: "Generate gh-pages"
 on:
   workflow_dispatch:
   push:
+  schedule:
+    - cron: '*/10 * * * *'  # every 10th minute
 
 jobs:
   update:
