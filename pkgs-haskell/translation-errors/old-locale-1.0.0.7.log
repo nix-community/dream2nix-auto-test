@@ -2,27 +2,27 @@
 Translating:: old-locale (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/old-locale-1.0.0.7/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1667110836
++ indexTime=1668334444
 ++ date +%s
-+ age=160
-+ '[' 160 -gt 86400 ']'
-/tmp/tmp.28mOFJf6TH/tmp.tlLnM1vtrd/tmp.dFGAj65jJ2 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=125
++ '[' 125 -gt 86400 ']'
+/tmp/tmp.Qq4wq3rhQU/tmp.uB8yeNDeCx/tmp.Btpmi3E11A ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/old-locale-1.0.0.7/old-locale-1.0.0.7.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3384  100  3384    0     0  14584      0 --:--:-- --:--:-- --:--:-- 14649
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3384  100  3384    0     0  20752      0 --:--:-- --:--:-- --:--:-- 20760
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: old-locale-1.0.0.7 (user goal)
 [__1] next goal: base (dependency of old-locale)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: old-locale =>
 base>=4.2 && <4.9)
-[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
-base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
-base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
-base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0 (has
-the same characteristics that caused the previous version to fail: excluded by
-constraint '>=4.2 && <4.9' from 'old-locale')
+[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
+base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
+base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0,
+base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0,
+base-4.9.0.0 (has the same characteristics that caused the previous version to
+fail: excluded by constraint '>=4.2 && <4.9' from 'old-locale')
 [__1] rejecting: base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2,
 base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0,
 base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0,

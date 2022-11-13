@@ -2,15 +2,15 @@
 Translating:: derive (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/derive-2.6.4/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1667110836
++ indexTime=1668334444
 ++ date +%s
-+ age=936
-+ '[' 936 -gt 86400 ']'
-/tmp/tmp.PT2Xspe3yW/tmp.Cvh2AVfRPd/tmp.SrpR7zDvES ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=719
++ '[' 719 -gt 86400 ']'
+/tmp/tmp.8C8Y00u86N/tmp.hH0k4oPWDf/tmp.paoIrQl7CU ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/derive-2.6.4/derive-2.6.4.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 54508  100 54508    0     0   221k      0 --:--:-- --:--:-- --:--:--  222k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 54508  100 54508    0     0   201k      0 --:--:-- --:--:-- --:--:--  201k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: derive (user goal)
@@ -27,11 +27,11 @@ that caused the previous version to fail: excluded by constraint '>=1.20 &&
 [__2] next goal: base (dependency of derive)
 [__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: haskell-src-exts
 => base>=4.5 && <4.13)
-[__2] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
-base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
-base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same characteristics that
-caused the previous version to fail: excluded by constraint '>=4.5 && <4.13'
-from 'haskell-src-exts')
+[__2] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
+base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
+base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=4.5 && <4.13' from 'haskell-src-exts')
 [__2] rejecting: base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0,
 base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,
 base-4.8.0.0, base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1,
