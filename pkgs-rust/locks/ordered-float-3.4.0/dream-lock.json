@@ -48,6 +48,11 @@
         [ "cfg-if", "1.0.0" ]
       ]
     },
+    "memoffset": {
+      "0.7.1": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
     "num-traits": {
       "0.2.15": [
         [ "autocfg", "1.1.0" ]
@@ -64,7 +69,7 @@
         [ "schemars", "0.8.11" ],
         [ "serde", "1.0.147" ],
         [ "serde_test", "1.0.147" ],
-        [ "speedy", "0.8.3" ]
+        [ "speedy", "0.8.4" ]
       ]
     },
     "proc-macro2": {
@@ -207,6 +212,11 @@
         [ "serde", "1.0.147" ]
       ]
     },
+    "speedy": {
+      "0.8.4": [
+        [ "memoffset", "0.7.1" ]
+      ]
+    },
     "syn": {
       "1.0.103": [
         [ "proc-macro2", "1.0.47" ],
@@ -330,6 +340,12 @@
     "libc": {
       "0.2.137": {
         "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
+        "type": "crates-io"
+      }
+    },
+    "memoffset": {
+      "0.7.1": {
+        "hash": "5de893c32cde5f383baa4c04c5d6dbdd735cfd4a794b0debdb2bb1b421da5ff4",
         "type": "crates-io"
       }
     },
@@ -506,8 +522,8 @@
       }
     },
     "speedy": {
-      "0.8.3": {
-        "hash": "7f45b0970d87b76e449484d8a530a9c48ad04df2645d9af2148a74b82f368fa1",
+      "0.8.4": {
+        "hash": "aeb1062f9072e95a68041e748d3bdb2e4bc8e14ee7f5f1d8765d5bb3e057411d",
         "type": "crates-io"
       }
     },
