@@ -1,0 +1,87 @@
+
+Translating:: safe (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/safe-0.3.17/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1668493136
+++ date +%s
++ age=112
++ '[' 112 -gt 86400 ']'
+/tmp/tmp.dFZrNVL4Y4/tmp.NfYgD6JTvq/tmp.mz9MREhtPI ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/safe-0.3.17/safe-0.3.17.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10524    0 10524    0     0  40360      0 --:--:-- --:--:-- --:--:-- 40476
+Resolving dependencies...
+Wrote freeze file:
+/tmp/tmp.dFZrNVL4Y4/tmp.NfYgD6JTvq/tmp.mz9MREhtPI/source/cabal.project.freeze
+/tmp/tmp.dFZrNVL4Y4/tmp.NfYgD6JTvq/tmp.mz9MREhtPI
+~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+/tmp/tmp.dFZrNVL4Y4/tmp.NfYgD6JTvq/tmp.mz9MREhtPI/tmp.bzuNj7odEP ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+Traceback (most recent call last):
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 898, in resolve_from_url
+    document = self.store[url]
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/_utils.py", line 28, in __getitem__
+    return self.store[self.normalize(uri)]
+KeyError: 'file:///nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 1505, in open_local_file
+    stats = os.stat(localfile)
+FileNotFoundError: [Errno 2] No such file or directory: '/nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 901, in resolve_from_url
+    document = self.resolve_remote(url)
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 1007, in resolve_remote
+    with urlopen(uri) as url:
+  File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 1483, in file_open
+    return self.open_local_file(req)
+  File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 1522, in open_local_file
+    raise URLError(exp)
+urllib.error.URLError: <urlopen error [Errno 2] No such file or directory: '/nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/bin/.jsonschema-wrapped", line 9, in <module>
+    sys.exit(main())
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/cli.py", line 228, in main
+    sys.exit(run(arguments=parse_args(args=args)))
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/cli.py", line 281, in run
+    exit_code |= _validate_instance(
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/cli.py", line 218, in _validate_instance
+    for error in validator.iter_errors(instance):
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 278, in iter_errors
+    for error in errors:
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/_validators.py", line 362, in allOf
+    yield from validator.descend(instance, subschema, schema_path=index)
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 295, in descend
+    for error in self.evolve(schema=schema).iter_errors(instance):
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 278, in iter_errors
+    for error in errors:
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/_validators.py", line 414, in if_
+    yield from validator.descend(instance, then, schema_path="then")
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 295, in descend
+    for error in self.evolve(schema=schema).iter_errors(instance):
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 278, in iter_errors
+    for error in errors:
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/_validators.py", line 294, in ref
+    scope, resolved = validator.resolver.resolve(ref)
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 887, in resolve
+    return url, self._remote_cache(url)
+  File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 903, in resolve_from_url
+    raise exceptions.RefResolutionError(exc)
+jsonschema.exceptions.RefResolutionError: <urlopen error [Errno 2] No such file or directory: '/nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'>
