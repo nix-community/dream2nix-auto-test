@@ -3,7 +3,7 @@
     "defaultPackage": "uuid",
     "location": "",
     "packages": {
-      "uuid": "1.2.1"
+      "uuid": "1.2.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "uuid": {
-        "1.2.1": {
+        "1.2.2": {
           "description": "A library to generate and parse UUIDs.", "homepage": "https://github.com/uuid-rs/uuid", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "uuid": {
-        "1.2.1": {}
+        "1.2.2": {}
       }
     }
   },
@@ -33,7 +33,7 @@
     },
     "bincode": {
       "1.3.3": [
-        [ "serde", "1.0.145" ]
+        [ "serde", "1.0.147" ]
       ]
     },
     "block-buffer": {
@@ -66,10 +66,10 @@
       ]
     },
     "getrandom": {
-      "0.2.7": [
+      "0.2.8": [
         [ "cfg-if", "1.0.0" ],
         [ "js-sys", "0.3.60" ],
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.137" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
         [ "wasm-bindgen", "0.2.83" ]
       ]
@@ -90,65 +90,57 @@
       ]
     },
     "proc-macro2": {
-      "1.0.46": [
+      "1.0.47": [
         [ "unicode-ident", "1.0.5" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.46" ]
+        [ "proc-macro2", "1.0.47" ]
       ]
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.137" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.4" ]
       ]
     },
     "rand_chacha": {
       "0.3.1": [
-        [ "ppv-lite86", "0.2.16" ],
+        [ "ppv-lite86", "0.2.17" ],
         [ "rand_core", "0.6.4" ]
       ]
     },
     "rand_core": {
       "0.6.4": [
-        [ "getrandom", "0.2.7" ]
+        [ "getrandom", "0.2.8" ]
       ]
     },
     "serde_derive": {
-      "1.0.145": [
-        [ "proc-macro2", "1.0.46" ],
+      "1.0.147": [
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ]
+        [ "syn", "1.0.103" ]
       ]
     },
     "serde_json": {
-      "1.0.85": [
+      "1.0.87": [
         [ "itoa", "1.0.4" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.145" ]
+        [ "serde", "1.0.147" ]
       ]
     },
     "serde_test": {
-      "1.0.145": [
-        [ "serde", "1.0.145" ]
+      "1.0.147": [
+        [ "serde", "1.0.147" ]
       ]
     },
     "syn": {
-      "1.0.102": [
-        [ "proc-macro2", "1.0.46" ],
+      "1.0.103": [
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.5" ]
-      ]
-    },
-    "synstructure": {
-      "0.12.6": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ],
-        [ "unicode-xid", "0.2.4" ]
       ]
     },
     "termcolor": {
@@ -158,37 +150,37 @@
     },
     "toml": {
       "0.5.9": [
-        [ "serde", "1.0.145" ]
+        [ "serde", "1.0.147" ]
       ]
     },
     "trybuild": {
-      "1.0.70": [
+      "1.0.71": [
         [ "glob", "0.3.0" ],
-        [ "once_cell", "1.15.0" ],
-        [ "serde", "1.0.145" ],
-        [ "serde_derive", "1.0.145" ],
-        [ "serde_json", "1.0.85" ],
+        [ "once_cell", "1.16.0" ],
+        [ "serde", "1.0.147" ],
+        [ "serde_derive", "1.0.147" ],
+        [ "serde_json", "1.0.87" ],
         [ "termcolor", "1.1.3" ],
         [ "toml", "0.5.9" ]
       ]
     },
     "uuid": {
-      "1.2.1": [
-        [ "arbitrary", "1.1.3" ],
+      "1.2.2": [
+        [ "arbitrary", "1.2.0" ],
         [ "atomic", "0.5.1" ],
         [ "bincode", "1.3.3" ],
-        [ "getrandom", "0.2.7" ],
+        [ "getrandom", "0.2.8" ],
         [ "md-5", "0.10.5" ],
         [ "rand", "0.8.5" ],
         [ "rustversion", "1.0.9" ],
-        [ "serde", "1.0.145" ],
-        [ "serde_derive", "1.0.145" ],
-        [ "serde_json", "1.0.85" ],
-        [ "serde_test", "1.0.145" ],
+        [ "serde", "1.0.147" ],
+        [ "serde_derive", "1.0.147" ],
+        [ "serde_json", "1.0.87" ],
+        [ "serde_test", "1.0.147" ],
         [ "sha1_smol", "1.0.0" ],
         [ "slog", "2.7.0" ],
-        [ "trybuild", "1.0.70" ],
-        [ "uuid-macro-internal", "1.2.1" ],
+        [ "trybuild", "1.0.71" ],
+        [ "uuid-macro-internal", "1.2.2" ],
         [ "wasm-bindgen", "0.2.83" ],
         [ "wasm-bindgen-test", "0.3.33" ],
         [ "windows-sys", "0.42.0" ],
@@ -196,10 +188,10 @@
       ]
     },
     "uuid-macro-internal": {
-      "1.2.1": [
-        [ "proc-macro2", "1.0.46" ],
+      "1.2.2": [
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ]
+        [ "syn", "1.0.103" ]
       ]
     },
     "wasm-bindgen": {
@@ -210,12 +202,12 @@
     },
     "wasm-bindgen-backend": {
       "0.2.83": [
-        [ "bumpalo", "3.11.0" ],
+        [ "bumpalo", "3.11.1" ],
         [ "log", "0.4.17" ],
-        [ "once_cell", "1.15.0" ],
-        [ "proc-macro2", "1.0.46" ],
+        [ "once_cell", "1.16.0" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ],
+        [ "syn", "1.0.103" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
     },
@@ -235,9 +227,9 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.83": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ],
+        [ "syn", "1.0.103" ],
         [ "wasm-bindgen-backend", "0.2.83" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
@@ -246,7 +238,7 @@
       "0.3.33": [
         [ "console_error_panic_hook", "0.1.7" ],
         [ "js-sys", "0.3.60" ],
-        [ "scoped-tls", "1.0.0" ],
+        [ "scoped-tls", "1.0.1" ],
         [ "wasm-bindgen", "0.2.83" ],
         [ "wasm-bindgen-futures", "0.4.33" ],
         [ "wasm-bindgen-test-macro", "0.3.33" ]
@@ -254,7 +246,7 @@
     },
     "wasm-bindgen-test-macro": {
       "0.3.33": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ]
       ]
     },
@@ -289,21 +281,21 @@
     "zerocopy": {
       "0.6.1": [
         [ "byteorder", "1.4.3" ],
-        [ "zerocopy-derive", "0.3.1" ]
+        [ "zerocopy-derive", "0.3.2" ]
       ]
     },
     "zerocopy-derive": {
-      "0.3.1": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "syn", "1.0.102" ],
-        [ "synstructure", "0.12.6" ]
+      "0.3.2": [
+        [ "proc-macro2", "1.0.47" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.103" ]
       ]
     }
   },
   "sources": {
     "arbitrary": {
-      "1.1.3": {
-        "hash": "5a7924531f38b1970ff630f03eb20a2fde69db5c590c93b0f3482e95dcc5fd60",
+      "1.2.0": {
+        "hash": "29d47fbf90d5149a107494b15a7dc8d69b351be2db3bb9691740e88ec17fd880",
         "type": "crates-io"
       }
     },
@@ -332,8 +324,8 @@
       }
     },
     "bumpalo": {
-      "3.11.0": {
-        "hash": "c1ad822118d20d2c234f427000d5acc36eabe1e29a348c89b63dd60b13f28e5d",
+      "3.11.1": {
+        "hash": "572f695136211188308f16ad2ca5c851a712c464060ae6974944458eb83880ba",
         "type": "crates-io"
       }
     },
@@ -374,8 +366,8 @@
       }
     },
     "getrandom": {
-      "0.2.7": {
-        "hash": "4eb1a864a501629691edf6c15a593b7a51eebaa1e8468e9ddc623de7c9b58ec6",
+      "0.2.8": {
+        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
         "type": "crates-io"
       }
     },
@@ -398,8 +390,8 @@
       }
     },
     "libc": {
-      "0.2.134": {
-        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
+      "0.2.137": {
+        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
         "type": "crates-io"
       }
     },
@@ -416,20 +408,20 @@
       }
     },
     "once_cell": {
-      "1.15.0": {
-        "hash": "e82dad04139b71a90c080c8463fe0dc7902db5192d939bd0950f074d014339e1",
+      "1.16.0": {
+        "hash": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
         "type": "crates-io"
       }
     },
     "ppv-lite86": {
-      "0.2.16": {
-        "hash": "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872",
+      "0.2.17": {
+        "hash": "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de",
         "type": "crates-io"
       }
     },
     "proc-macro2": {
-      "1.0.46": {
-        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
         "type": "crates-io"
       }
     },
@@ -470,32 +462,32 @@
       }
     },
     "scoped-tls": {
-      "1.0.0": {
-        "hash": "ea6a9290e3c9cf0f18145ef7ffa62d68ee0bf5fcd651017e586dc7fd5da448c2",
+      "1.0.1": {
+        "hash": "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294",
         "type": "crates-io"
       }
     },
     "serde": {
-      "1.0.145": {
-        "hash": "728eb6351430bccb993660dfffc5a72f91ccc1295abaa8ce19b27ebe4f75568b",
+      "1.0.147": {
+        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.145": {
-        "hash": "81fa1584d3d1bcacd84c277a0dfe21f5b0f6accf4a23d04d4c6d61f1af522b4c",
+      "1.0.147": {
+        "hash": "4f1d362ca8fc9c3e3a7484440752472d68a6caa98f1ab81d99b5dfe517cec852",
         "type": "crates-io"
       }
     },
     "serde_json": {
-      "1.0.85": {
-        "hash": "e55a28e3aaef9d5ce0506d0a14dbba8054ddc7e499ef522dd8b26859ec9d4a44",
+      "1.0.87": {
+        "hash": "6ce777b7b150d76b9cf60d28b55f5847135a003f7d7350c6be7a773508ce7d45",
         "type": "crates-io"
       }
     },
     "serde_test": {
-      "1.0.145": {
-        "hash": "9c17d2112159132660b4c5399e274f676fb75a2f8d70b7468f18f045b71138ed",
+      "1.0.147": {
+        "hash": "641666500e4e6fba7b91b73651a375cb53579468ab3c38389289b802797cad94",
         "type": "crates-io"
       }
     },
@@ -512,14 +504,8 @@
       }
     },
     "syn": {
-      "1.0.102": {
-        "hash": "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1",
-        "type": "crates-io"
-      }
-    },
-    "synstructure": {
-      "0.12.6": {
-        "hash": "f36bdaa60a83aca3921b5259d5400cbf5e90fc51931376a9bd4a0eb79aa7210f",
+      "1.0.103": {
+        "hash": "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d",
         "type": "crates-io"
       }
     },
@@ -536,8 +522,8 @@
       }
     },
     "trybuild": {
-      "1.0.70": {
-        "hash": "95f85ea8716eb36835f1f685d3511013906246e87077e322a587957091f84426",
+      "1.0.71": {
+        "hash": "ea496675d71016e9bc76aa42d87f16aefd95447cc5818e671e12b2d7e269075d",
         "type": "crates-io"
       }
     },
@@ -553,21 +539,15 @@
         "type": "crates-io"
       }
     },
-    "unicode-xid": {
-      "0.2.4": {
-        "hash": "f962df74c8c05a667b5ee8bcf162993134c104e96440b663c8daa176dc772d8c",
-        "type": "crates-io"
-      }
-    },
     "uuid": {
-      "1.2.1": {
-        "hash": "feb41e78f93363bb2df8b0e86a2ca30eed7806ea16ea0c790d757cf93f79be83",
+      "1.2.2": {
+        "hash": "422ee0de9031b5b948b97a8fc04e3aa35230001a722ddd27943e0be31564ce4c",
         "type": "crates-io"
       }
     },
     "uuid-macro-internal": {
-      "1.2.1": {
-        "hash": "44cc305b0c375fa2f078537bbe564516cb1946c1defa4041aa0e3f9cd5e07c4a",
+      "1.2.2": {
+        "hash": "73bc89f2894593e665241e0052c3791999e6787b7c4831daa0a5c2e637e276d8",
         "type": "crates-io"
       }
     },
@@ -716,8 +696,8 @@
       }
     },
     "zerocopy-derive": {
-      "0.3.1": {
-        "hash": "a0fbc82b82efe24da867ee52e015e58178684bd9dd64c34e66bdf21da2582a9f",
+      "0.3.2": {
+        "hash": "6505e6815af7de1746a08f69c69606bb45695a17149517680f3b2149713b19a3",
         "type": "crates-io"
       }
     }
