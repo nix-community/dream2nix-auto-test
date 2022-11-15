@@ -2,15 +2,15 @@
 Translating:: http-media (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/http-media-0.7.1.3/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1667110836
++ indexTime=1668493136
 ++ date +%s
-+ age=860
-+ '[' 860 -gt 86400 ']'
-/tmp/tmp.URbd15G2rc/tmp.FSzU6W9YHn/tmp.YFLGiaMfOP ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=700
++ '[' 700 -gt 86400 ']'
+/tmp/tmp.IQ4OB2Jvuz/tmp.cdaaJd8kL6/tmp.UoBRiwtFjX ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/http-media-0.7.1.3/http-media-0.7.1.3.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 15782  100 15782    0     0  71658      0 --:--:-- --:--:-- --:--:-- 71411
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 15782  100 15782    0     0  72469      0 --:--:-- --:--:-- --:--:-- 72728
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: http-media (user goal)
@@ -20,11 +20,11 @@ Error: cabal: Could not resolve dependencies:
 [__1] next goal: base (dependency of http-media)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: http-media =>
 base>=4.7 && <4.13)
-[__1] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
-base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
-base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same characteristics that
-caused the previous version to fail: excluded by constraint '>=4.7 && <4.13'
-from 'http-media')
+[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
+base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
+base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=4.7 && <4.13' from 'http-media')
 [__1] rejecting: base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0,
 base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,
 base-4.8.0.0, base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1,
