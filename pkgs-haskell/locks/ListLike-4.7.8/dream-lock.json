@@ -3,7 +3,7 @@
     "defaultPackage": "ListLike",
     "location": "",
     "packages": {
-      "ListLike": "4.7.7"
+      "ListLike": "4.7.8"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -19,7 +19,8 @@
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
       "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f",
-      "vector#0.12.3.1": "fffbd00912d69ed7be9bc7eeb09f4f475e0d243ec43f916a9fd5bbd219ce7f3e"
+      "vector#0.13.0.0": "54528e95501742b99462cc543891f21177e7db34d960ce8e3cbb25afb16a9c89",
+      "vector-stream#0.1.0.0": "09b0f8dc4e51936b9d6b04791f0aa03f7c9759b5fb7140eac8a9461cda1e55a3"
     },
     "compiler": {
       "name": "ghc",
@@ -28,8 +29,8 @@
   },
   "cyclicDependencies": {
     "ListLike": {
-      "4.7.7": [
-        [ "ListLike", "4.7.7" ]
+      "4.7.8": [
+        [ "ListLike", "4.7.8" ]
       ]
     }
   },
@@ -40,19 +41,19 @@
       ]
     },
     "ListLike": {
-      "4.7.7": [
+      "4.7.8": [
         [ "dlist", "1.0" ],
         [ "fmlist", "0.9.4" ],
         [ "utf8-string", "1.0.2" ],
-        [ "vector", "0.12.3.1" ],
+        [ "vector", "0.13.0.0" ],
         [ "HUnit", "1.6.2.0" ],
-        [ "ListLike", "4.7.7" ],
+        [ "ListLike", "4.7.8" ],
         [ "QuickCheck", "2.14.2" ],
         [ "dlist", "1.0" ],
         [ "fmlist", "0.9.4" ],
         [ "random", "1.2.1.1" ],
         [ "utf8-string", "1.0.2" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "QuickCheck": {
@@ -67,8 +68,9 @@
       ]
     },
     "vector": {
-      "0.12.3.1": [
-        [ "primitive", "0.7.4.0" ]
+      "0.13.0.0": [
+        [ "primitive", "0.7.4.0" ],
+        [ "vector-stream", "0.1.0.0" ]
       ]
     }
   },
@@ -81,10 +83,10 @@
       }
     },
     "ListLike": {
-      "4.7.7": {
-        "hash": "sha256:0a01cd234aa4a1e97c07ce09e24e6c95f6bb423add96d387fb5bd2e1f2779e40",
+      "4.7.8": {
+        "hash": "sha256:9a7929f29011e5647b39b8d6ef1cadf76a6ada19b747eabec5fdc077bc7437d1",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ListLike-4.7.7/ListLike-4.7.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/ListLike-4.7.8/ListLike-4.7.8.tar.gz"
       }
     },
     "QuickCheck": {
@@ -144,10 +146,17 @@
       }
     },
     "vector": {
-      "0.12.3.1": {
-        "hash": "sha256:fb4a53c02bd4d7fdf155c0604da9a5bb0f3b3bfce5d9960aea11c2ae235b9f35",
+      "0.13.0.0": {
+        "hash": "sha256:c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/vector-0.12.3.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/vector-0.13.0.0.tar.gz"
+      }
+    },
+    "vector-stream": {
+      "0.1.0.0": {
+        "hash": "sha256:a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0.tar.gz"
       }
     }
   }
