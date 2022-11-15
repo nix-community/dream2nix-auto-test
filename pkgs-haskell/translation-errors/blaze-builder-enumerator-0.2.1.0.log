@@ -2,15 +2,15 @@
 Translating:: blaze-builder-enumerator (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/blaze-builder-enumerator-0.2.1.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1668493136
++ indexTime=1667110836
 ++ date +%s
-+ age=517
-+ '[' 517 -gt 86400 ']'
-/tmp/tmp.9ncTHFSAgR/tmp.iLo3wOVMm4/tmp.gK20D5ehej ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=636
++ '[' 636 -gt 86400 ']'
+/tmp/tmp.YzfZ8qMGXL/tmp.7TgwTYq5eC/tmp.06AVoWA6kh ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/blaze-builder-enumerator-0.2.1.0/blaze-builder-enumerator-0.2.1.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4248  100  4248    0     0  21287      0 --:--:-- --:--:-- --:--:-- 21346
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4248  100  4248    0     0  21791      0 --:--:-- --:--:-- --:--:-- 21896
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: blaze-builder-enumerator-0.2.1.0 (user goal)
@@ -27,12 +27,12 @@ constraint '>=0.2 && <0.5' from 'blaze-builder-enumerator')
 [__2] next goal: base (dependency of blaze-builder-enumerator)
 [__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: transformers =>
 base>=2 && <4.9)
-[__2] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
-base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0,
-base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0,
-base-4.9.0.0 (has the same characteristics that caused the previous version to
-fail: excluded by constraint '>=2 && <4.9' from 'transformers')
+[__2] skipping: base-4.17.0.0, base-4.16.3.0, base-4.16.2.0, base-4.16.1.0,
+base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0,
+base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0,
+base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
+constraint '>=2 && <4.9' from 'transformers')
 [__2] rejecting: base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2,
 base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0,
 base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0,
