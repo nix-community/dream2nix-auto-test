@@ -2,35 +2,35 @@
 Translating:: IfElse (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/IfElse-0.85/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1668547358
++ indexTime=1668579562
 ++ date +%s
-+ age=760
-+ '[' 760 -gt 86400 ']'
-/tmp/tmp.SpwD4wYpXB/tmp.kHDf70fduV/tmp.4jDnVScTQ3 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=765
++ '[' 765 -gt 86400 ']'
+/tmp/tmp.PKZsdKFxyV/tmp.NjxU5yHQb3/tmp.qw8lCfpVBm ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/IfElse-0.85/IfElse-0.85.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2865  100  2865    0     0  15988      0 --:--:-- --:--:-- --:--:-- 16005
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2865  100  2865    0     0  16728      0 --:--:-- --:--:-- --:--:-- 16656
 Resolving dependencies...
 Wrote freeze file:
-/tmp/tmp.SpwD4wYpXB/tmp.kHDf70fduV/tmp.4jDnVScTQ3/source/cabal.project.freeze
-/tmp/tmp.SpwD4wYpXB/tmp.kHDf70fduV/tmp.4jDnVScTQ3
+/tmp/tmp.PKZsdKFxyV/tmp.NjxU5yHQb3/tmp.qw8lCfpVBm/source/cabal.project.freeze
+/tmp/tmp.PKZsdKFxyV/tmp.NjxU5yHQb3/tmp.qw8lCfpVBm
 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
-/tmp/tmp.SpwD4wYpXB/tmp.kHDf70fduV/tmp.4jDnVScTQ3/tmp.v1qN19Wsgq ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+/tmp/tmp.PKZsdKFxyV/tmp.NjxU5yHQb3/tmp.qw8lCfpVBm/tmp.ssecUAYrPJ ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 Traceback (most recent call last):
   File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 898, in resolve_from_url
     document = self.store[url]
   File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/_utils.py", line 28, in __getitem__
     return self.store[self.normalize(uri)]
-KeyError: 'file:///nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'
+KeyError: 'file:///nix/store/nly5kpfrbfgj19jxvr26m92vyw1g0m6f-specifications/subsystems/haskell/dream-lock-schema.json'
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 1505, in open_local_file
     stats = os.stat(localfile)
-FileNotFoundError: [Errno 2] No such file or directory: '/nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'
+FileNotFoundError: [Errno 2] No such file or directory: '/nix/store/nly5kpfrbfgj19jxvr26m92vyw1g0m6f-specifications/subsystems/haskell/dream-lock-schema.json'
 
 During handling of the above exception, another exception occurred:
 
@@ -51,7 +51,7 @@ Traceback (most recent call last):
     return self.open_local_file(req)
   File "/nix/store/9srs642k875z3qdk8glapjycncf2pa51-python3-3.10.7/lib/python3.10/urllib/request.py", line 1522, in open_local_file
     raise URLError(exp)
-urllib.error.URLError: <urlopen error [Errno 2] No such file or directory: '/nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'>
+urllib.error.URLError: <urlopen error [Errno 2] No such file or directory: '/nix/store/nly5kpfrbfgj19jxvr26m92vyw1g0m6f-specifications/subsystems/haskell/dream-lock-schema.json'>
 
 During handling of the above exception, another exception occurred:
 
@@ -84,4 +84,4 @@ Traceback (most recent call last):
     return url, self._remote_cache(url)
   File "/nix/store/wn8v1ip49z63xq832yb6019p2aayzpz5-python3.10-jsonschema-4.16.0/lib/python3.10/site-packages/jsonschema/validators.py", line 903, in resolve_from_url
     raise exceptions.RefResolutionError(exc)
-jsonschema.exceptions.RefResolutionError: <urlopen error [Errno 2] No such file or directory: '/nix/store/7mhcv043bjf87b5dz250k10xiq620w41-specifications/subsystems/haskell/dream-lock-schema.json'>
+jsonschema.exceptions.RefResolutionError: <urlopen error [Errno 2] No such file or directory: '/nix/store/nly5kpfrbfgj19jxvr26m92vyw1g0m6f-specifications/subsystems/haskell/dream-lock-schema.json'>
