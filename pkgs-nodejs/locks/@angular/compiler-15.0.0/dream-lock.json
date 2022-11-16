@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "@angular/compiler",
+    "location": "",
+    "packages": {
+      "@angular/compiler": "15.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@angular/compiler": {
+      "15.0.0": [
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@angular/compiler", "15.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@angular/compiler": {
+      "15.0.0": {
+        "hash": "sha512-k+tsyKpbPvumBr0qtGZ/bisoq/1evvTa6dCUR126Yb1bX0HlBodwIqu9Xjh3nY90hMak+3zHznj6kJB83LoLeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/compiler/-/compiler-15.0.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}
