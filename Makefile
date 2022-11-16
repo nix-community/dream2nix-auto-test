@@ -18,6 +18,9 @@ ${icons}: %.svg: %
 	export name="$<"
 	envsubst < template.svg > $<.svg
 
+indexes.json:
+	curl https://raw.githubusercontent.com/nix-community/dream2nix-auto-test/main/indexes.json | jq > indexes.json
+
 pretty:
 	js-beautify -r -t -w 100 templates/* index.html
 
