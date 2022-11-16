@@ -20,6 +20,10 @@
 				<h4>{{item.path}} : {{item.value.Ok.status}}
 					{{item.value.Error.errorType}}
 				</h4>
+				<details>
+					<summary>{{item.path}} : {{item.value.Ok.status}}</summary>
+					<section _="on htmx:sendError log detail then put 'see error in console, likely CORS, sorry' into me" hx-get="https://hercules-ci.com/accounts/github/nix-community/derivations/{{item.value.Ok.derivationPath}}/log/lines?via-job={{jobid}}" hx-trigger="intersect once"></section>
+				</details>
 			</a>
 		</section>
 		{% else %}

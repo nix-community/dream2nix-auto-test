@@ -38,15 +38,22 @@
 			data-name="custom" hx-disinherit="*"
 			nunjucks-template="jobs" hx-swap="innerHTML" hx-target="#jobs-custom"
 				hx-trigger="from-hyperscript"
+				_="on htmx:sendError log detail then put 'see error in console, likely CORS, sorry' into me"
 			hidden>
-			<!-- hx-get="https://hercules-ci.com/api/v1/site/github/account/nix-community/project/dream2nix-auto-test/jobs?limit=5&amp;ref=refs/heads/{{item.name}}" -->
-			<!-- hx-trigger="change from:#input-custom" -->
-			<input 
+			<input
 				id="input-custom"
 				_="
 					 on change fetch `https://api.github.com/repos/nix-community/dream2nix-auto-test/statuses/${my value}` as json
-					 then set target to it[0].target_url
+					 then set result to it[0]
+					 then log result
+					 then put JSON.stringify(result) into #jobs-custom
+					 then set target to result.target_url
 					 then set target to target.split('/').slice(-1)[0]
+					 then set url to `https://hercules-ci.com/api/v1/jobs?site=github&account=nix-community&project=dream2nix-auto-test&index=${target}`
+					 then make an <a.thing/>
+					 then put it after me
+					 then put url into it
+					 set it's @href to url
 					 fetch `https://hercules-ci.com/api/v1/jobs?site=github&account=nix-community&project=dream2nix-auto-test&index=${target}`
 					 then set #custom@hx-get to target
 					 call htmx.process(#custom)
