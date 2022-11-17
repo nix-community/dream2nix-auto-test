@@ -3,7 +3,7 @@
     "defaultPackage": "vsdb",
     "location": "",
     "packages": {
-      "vsdb": "0.48.4"
+      "vsdb": "0.48.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "vsdb": {
-        "0.48.4": {
+        "0.48.5": {
           "description": "A stuctured DB with some 'Git-like' features, mainly used in blockchain projects.", "homepage": "https://github.com/rust-util-collections/vsdb", "license": [   "gpl3"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "vsdb": {
-        "0.48.4": {}
+        "0.48.5": {}
       }
     }
   },
@@ -61,7 +61,7 @@
         [ "cc", "1.0.76" ],
         [ "cfg-if", "1.0.0" ],
         [ "constant_time_eq", "0.1.5" ],
-        [ "digest", "0.10.5" ]
+        [ "digest", "0.10.6" ]
       ]
     },
     "block-buffer": {
@@ -186,7 +186,7 @@
       ]
     },
     "digest": {
-      "0.10.5": [
+      "0.10.6": [
         [ "block-buffer", "0.10.3" ],
         [ "crypto-common", "0.1.6" ],
         [ "subtle", "2.4.1" ]
@@ -496,7 +496,7 @@
       ]
     },
     "vsdb": {
-      "0.48.4": [
+      "0.48.5": [
         [ "bcs", "0.1.4" ],
         [ "criterion", "0.4.0" ],
         [ "hex", "0.4.3" ],
@@ -506,11 +506,11 @@
         [ "ruc", "3.0.0" ],
         [ "serde", "1.0.147" ],
         [ "serde_json", "1.0.87" ],
-        [ "vsdb_core", "0.48.3" ]
+        [ "vsdb_core", "0.48.4" ]
       ]
     },
     "vsdb_core": {
-      "0.48.3": [
+      "0.48.4": [
         [ "blake3", "1.3.1" ],
         [ "hash-db", "0.15.2" ],
         [ "once_cell", "1.16.0" ],
@@ -837,8 +837,8 @@
       }
     },
     "digest": {
-      "0.10.5": {
-        "hash": "adfbc57365a37acbd2ebf2b64d7e69bb766e2fea813521ed536f5d0520dcf86c",
+      "0.10.6": {
+        "hash": "8168378f4e5023e7218c89c891c0fd8ecdb5e5e4f18cb78f38cf245dd021e76f",
         "type": "crates-io"
       }
     },
@@ -1345,14 +1345,14 @@
       }
     },
     "vsdb": {
-      "0.48.4": {
-        "hash": "1831825e5e709852152c80e64851cf0fdac75796d903070105171a37ec05f869",
+      "0.48.5": {
+        "hash": "4b4c9eae266ceae8c8ecef444b94fed89b4401e90d14fea369a473d990666e46",
         "type": "crates-io"
       }
     },
     "vsdb_core": {
-      "0.48.3": {
-        "hash": "914b9c6999073c84da3f98b6ead1e17ae43559f91b67cd0f5f12004f13bf6dce",
+      "0.48.4": {
+        "hash": "9a55c59cee33d8136544e25ccc6a0b67aeb15b5f2694fb33d0003b8673bba777",
         "type": "crates-io"
       }
     },
