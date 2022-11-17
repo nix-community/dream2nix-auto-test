@@ -3,7 +3,7 @@
     "defaultPackage": "webpack-cli",
     "location": "",
     "packages": {
-      "webpack-cli": "4.10.0"
+      "webpack-cli": "5.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -123,11 +123,6 @@
         [ "@xtuc/long", "4.2.2" ]
       ]
     },
-    "@webpack-cli/info": {
-      "1.5.0": [
-        [ "envinfo", "7.8.1" ]
-      ]
-    },
     "ajv": {
       "6.12.6": [
         [ "fast-deep-equal", "3.1.3" ],
@@ -240,7 +235,7 @@
       ]
     },
     "rechoir": {
-      "0.7.1": [
+      "0.8.0": [
         [ "resolve", "1.22.1" ]
       ]
     },
@@ -352,22 +347,23 @@
       ]
     },
     "webpack-cli": {
-      "4.10.0": [
+      "5.0.0": [
         [ "@discoveryjs/json-ext", "0.5.7" ],
-        [ "@webpack-cli/configtest", "1.2.0" ],
-        [ "@webpack-cli/info", "1.5.0" ],
-        [ "@webpack-cli/serve", "1.7.0" ],
+        [ "@webpack-cli/configtest", "2.0.0" ],
+        [ "@webpack-cli/info", "2.0.0" ],
+        [ "@webpack-cli/serve", "2.0.0" ],
         [ "colorette", "2.0.19" ],
-        [ "commander", "7.2.0" ],
+        [ "commander", "9.4.1" ],
         [ "cross-spawn", "7.0.3" ],
+        [ "envinfo", "7.8.1" ],
         [ "fastest-levenshtein", "1.0.16" ],
         [ "import-local", "3.1.0" ],
-        [ "interpret", "2.2.0" ],
-        [ "rechoir", "0.7.1" ],
+        [ "interpret", "3.1.1" ],
+        [ "rechoir", "0.8.0" ],
         [ "webpack-merge", "5.8.0" ]
       ],
       "unknown": [
-        [ "webpack-cli", "4.10.0" ]
+        [ "webpack-cli", "5.0.0" ]
       ]
     },
     "webpack-merge": {
@@ -573,24 +569,24 @@
       }
     },
     "@webpack-cli/configtest": {
-      "1.2.0": {
-        "hash": "sha512-4FB8Tj6xyVkyqjj1OaTqCjXYULB9FMkqQ8yGrZjRDrYh0nOE+7Lhs45WioWQQMV+ceFlE368Ukhe6xdvJM9Egg==",
+      "2.0.0": {
+        "hash": "sha512-war4OU8NGjBqU3DP3bx6ciODXIh7dSXcpQq+P4K2Tqyd8L5OjZ7COx9QXx/QdCIwL2qoX09Wr4Cwf7uS4qdEng==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@webpack-cli/configtest/-/configtest-1.2.0.tgz"
+        "url": "https://registry.npmjs.org/@webpack-cli/configtest/-/configtest-2.0.0.tgz"
       }
     },
     "@webpack-cli/info": {
-      "1.5.0": {
-        "hash": "sha512-e8tSXZpw2hPl2uMJY6fsMswaok5FdlGNRTktvFk2sD8RjH0hE2+XistawJx1vmKteh4NmGmNUrp+Tb2w+udPcQ==",
+      "2.0.0": {
+        "hash": "sha512-NNxDgbo4VOkNhOlTgY0Elhz3vKpOJq4/PKeKg7r8cmYM+GQA9vDofLYyup8jS6EpUvhNmR30cHTCEIyvXpskwA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@webpack-cli/info/-/info-1.5.0.tgz"
+        "url": "https://registry.npmjs.org/@webpack-cli/info/-/info-2.0.0.tgz"
       }
     },
     "@webpack-cli/serve": {
-      "1.7.0": {
-        "hash": "sha512-oxnCNGj88fL+xzV+dacXs44HcDwf1ovs3AuEzvP7mqXw7fQntqIhQ1BRmynh4qEKQSSSRSWVyXRjmTbZIX9V2Q==",
+      "2.0.0": {
+        "hash": "sha512-Rumq5mHvGXamnOh3O8yLk1sjx8dB30qF1OeR6VC00DIR6SLJ4bwwUGKC4pE7qBFoQyyh0H9sAg3fikYgAqVR0w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@webpack-cli/serve/-/serve-1.7.0.tgz"
+        "url": "https://registry.npmjs.org/@webpack-cli/serve/-/serve-2.0.0.tgz"
       }
     },
     "@xtuc/ieee754": {
@@ -683,10 +679,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
       },
-      "7.2.0": {
-        "hash": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+      "9.4.1": {
+        "hash": "sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
+        "url": "https://registry.npmjs.org/commander/-/commander-9.4.1.tgz"
       }
     },
     "cross-spawn": {
@@ -835,10 +831,10 @@
       }
     },
     "interpret": {
-      "2.2.0": {
-        "hash": "sha512-Ju0Bz/cEia55xDwUWEa8+olFpCiQoypjnQySseKtmjNrnps3P+xfpUmGr90T7yjlVJmOtybRvPXhKMbHr+fWnw==",
+      "3.1.1": {
+        "hash": "sha512-6xwYfHbajpoF0xLW+iwLkhwgvLoZDfjYfoFNu8ftMoXINzwuymNLd9u/KmwtdT2GbR+/Cz66otEGEVVUHX9QLQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/interpret/-/interpret-2.2.0.tgz"
+        "url": "https://registry.npmjs.org/interpret/-/interpret-3.1.1.tgz"
       }
     },
     "is-core-module": {
@@ -1017,10 +1013,10 @@
       }
     },
     "rechoir": {
-      "0.7.1": {
-        "hash": "sha512-/njmZ8s1wVeR6pjTZ+0nCnv8SpZNRMT2D1RLOJQESlYFDBvwpTA4KWJpZ+sBJ4+vhjILRcK7JIFdGCdxEAAitg==",
+      "0.8.0": {
+        "hash": "sha512-/vxpCXddiX8NGfGO/mTafwjq4aFa/71pvamip0++IQk3zG8cbCj0fifNPrjjF1XMXUne91jL9OoxmdykoEtifQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rechoir/-/rechoir-0.7.1.tgz"
+        "url": "https://registry.npmjs.org/rechoir/-/rechoir-0.8.0.tgz"
       }
     },
     "resolve": {
@@ -1164,10 +1160,10 @@
       }
     },
     "webpack-cli": {
-      "4.10.0": {
-        "hash": "sha512-NLhDfH/h4O6UOy+0LSso42xvYypClINuMNBVVzX4vX98TmTaTUxwRbXdhucbFMd2qLaCTcLq/PdYrvi8onw90w==",
+      "5.0.0": {
+        "hash": "sha512-AACDTo20yG+xn6HPW5xjbn2Be4KUzQPebWXsDMHwPPyKh9OnTOJgZN2Nc+g/FZKV3ObRTYsGvibAvc+5jAUrVA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/webpack-cli/-/webpack-cli-4.10.0.tgz"
+        "url": "https://registry.npmjs.org/webpack-cli/-/webpack-cli-5.0.0.tgz"
       }
     },
     "webpack-merge": {
