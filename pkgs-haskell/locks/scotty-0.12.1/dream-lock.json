@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "wai-middleware-static",
+    "defaultPackage": "scotty",
     "location": "",
     "packages": {
-      "wai-middleware-static": "0.9.2"
+      "scotty": "0.12.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -27,7 +27,6 @@
       "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
       "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "base16-bytestring#1.0.2.0": "64abad7816ab8cabed8489e29f807b3a6f828e0b2cec0eae404323d69d36df9a",
       "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
       "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
       "bifunctors#5.5.13": "66f1c1d0cba5de9d8810e2ef0be700b98d3689482f605cc46a69283e92a60840",
@@ -41,14 +40,12 @@
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "cookie#0.4.5": "22bbe2bea34cfc546eaca2468386035fec521b8dbae52f5aa2f994ed68b35e0e",
-      "cryptohash-sha1#0.11.101.0": "ab8868780b49b7954efe54f4ff5a1f3be712bdaeac53500bb13c8a75a8cbe92f",
       "cryptonite#0.30": "12c85dea7be63e5ad90bcb487eb3846bf3c413347f94336fa1dede7b28f9936a",
       "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
       "easy-file#0.2.2": "72303120495a9fed82276a7987434361edd6dfecafad241d7c6c03b68e4801e5",
-      "expiring-cache-map#0.0.6.1": "6f298903cb33395b87adaa04874c590dcc1b3903c9e3b3b09ee376a768c4bccc",
       "fast-logger#3.1.1": "9ffbb0d475edf6c3ed13cae0b24202a22a1a29848d9810785849f1f2332b6ee1",
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
@@ -58,7 +55,6 @@
       "hspec-core#2.10.6": "68a74267974fee22f4bc57b5d353391e8dc943b0d7ffaf5d47dab691765ee772",
       "hspec-discover#2.10.6": "df63254c5aa8c5c2b9233b0067728394936b6c9af7e3a5d3d44df78d888dcefd",
       "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
-      "hspec-expectations-lifted#0.10.0": "d00d16c52d67e9967418cf9301e45250fd72cec2a87770b64872b23cab038b28",
       "hspec-wai#0.11.1": "fe359f4af85d7a09ba3d67a11ff3a2e29ec09aa6156ec19cfb163b0672d4432b",
       "http-date#0.0.11": "b278b07f880705e3b0b073206ad26954548b666d616733c9a6b5d50993f547d4",
       "http-types#0.12.3": "f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9",
@@ -67,10 +63,10 @@
       "indexed-traversable-instances#0.1.1.1": "04b9fac300cde96de9aaaa0c4237a85045308d0bd4ba360e318febf34ec0bd3a",
       "integer-logarithms#1.0.3.1": "d59bfd1d39808217af2b68789d3c0e57cb7199d47405a276060d88fef4f4017d",
       "iproute#1.7.12": "85d181599fab8ceebf4c849110ad571bea2834d6c8c95ae7da33856c42453f40",
-      "logging-facade#0.3.1": "72d14587eb028373f7bf946af9bba45935ff99084999f2e7b744ff0c6ab7b145",
+      "lifted-base#0.2.3.12": "e94ad0692c9c5d85c373e508f23654f2da8ac8c3e475c2b65ffbc04fb165ad69",
+      "lucid#2.11.1": "2d59c84586abddc07010d17e7b8c74740ad632404716bc28ea0068d607ac3772",
       "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
-      "mime-types#0.1.1.0": "c68f421c569e325ec4c5595a6916cc6336cf11c7f11bc569a62c6a32214454ad",
-      "mockery#0.3.5": "da66b8baf6ad9d4a0867e453e68381c601f9e1f74f27de894141e4749d118cd7",
+      "mmorph#1.2.0": "df9b213ec18f811cb3137b478d148f3f1680ee43f841cb775835fa282fdb0295",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
       "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
       "network-byte-order#0.1.6": "23d8b609ac43a69d04d5e8f411e5f86a0266c0e8b33b65f8c92ebda64273fe3a",
@@ -88,12 +84,11 @@
       "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
-      "scotty#0.12.1": "887a4ccd4ec81a63154a731804ee9369e268c566086e7c3074e4edf171e5f1a2",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
       "semigroupoids#5.3.7": "fb1a86c250997c269106645724a67bc358235245cf385b589f855ac070d4ada0",
-      "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
       "setenv#0.1.1.3": "c5916ac0d2a828473cd171261328a290afe0abd799db1ac8c310682fe778c45b",
       "simple-sendfile#0.2.30": "c6893e159dc20eea6d0b805bfd8d9b73e6a6ba3fe72cc396acdc24fdcd33cc38",
+      "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
       "streaming-commons#0.2.2.5": "34959abee70e63d370b5a4bee0bc3483c66d1e53906fb5e13844ae8b9a62a4a3",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
@@ -120,6 +115,7 @@
       "wai-extra#3.1.13.0": "fc3e7c337ac46733ce2da7a0d6422185387b3bb3709e72403a359eb19678db37",
       "wai-logger#2.4.0": "630b3d573dce5c6a84dfb372d69f8d15f9dbb52d6a04df43e57a44f0ca0eab0a",
       "warp#3.3.23": "0959cc33ae0b2940ebb81f2482095fe9566abaf487cae312284c507c00008fa1",
+      "weigh#0.0.16": "cfd5dd99d3e0a18ff3156050f7696e55b51b95832e88554a7a3161f15cb8e178",
       "witherable#0.4.2": "cccb36175e088abb4291ee5044b8c04d71acd5c36636902d2520f91508dd4bb8",
       "word8#0.1.3": "e5464d0600821a116467d4b12fef12b15ff040c3599500e5f0274225e78c6faf",
       "x509#1.7.7": "90eef2d745a654146fc1c325e035eaddac531e4d2145d4bc1dcf4b8fad439d34",
@@ -141,9 +137,9 @@
         [ "hspec-discover", "2.10.6" ]
       ]
     },
-    "wai-middleware-static": {
-      "0.9.2": [
-        [ "wai-middleware-static", "0.9.2" ]
+    "scotty": {
+      "0.12.1": [
+        [ "scotty", "0.12.1" ]
       ]
     }
   },
@@ -283,12 +279,6 @@
         [ "tagged", "0.8.6.1" ]
       ]
     },
-    "expiring-cache-map": {
-      "0.0.6.1": [
-        [ "hashable", "1.4.1.0" ],
-        [ "unordered-containers", "0.2.19.1" ]
-      ]
-    },
     "fast-logger": {
       "3.1.1": [
         [ "auto-update", "0.1.6" ],
@@ -332,11 +322,6 @@
       "0.8.2": [
         [ "HUnit", "1.6.2.0" ],
         [ "call-stack", "0.4.0" ]
-      ]
-    },
-    "hspec-expectations-lifted": {
-      "0.10.0": [
-        [ "hspec-expectations", "0.8.2" ]
       ]
     },
     "hspec-wai": {
@@ -389,9 +374,17 @@
         [ "network", "3.1.2.7" ]
       ]
     },
-    "logging-facade": {
-      "0.3.1": [
-        [ "call-stack", "0.4.0" ]
+    "lifted-base": {
+      "0.2.3.12": [
+        [ "monad-control", "1.0.3.1" ],
+        [ "transformers-base", "0.4.6" ]
+      ]
+    },
+    "lucid": {
+      "2.11.1": [
+        [ "blaze-builder", "0.4.2.2" ],
+        [ "hashable", "1.4.1.0" ],
+        [ "mmorph", "1.2.0" ]
       ]
     },
     "memory": {
@@ -399,11 +392,9 @@
         [ "basement", "0.0.15" ]
       ]
     },
-    "mockery": {
-      "0.3.5": [
-        [ "base-compat", "0.12.2" ],
-        [ "logging-facade", "0.3.1" ],
-        [ "temporary", "1.3" ]
+    "mmorph": {
+      "1.2.0": [
+        [ "transformers-compat", "0.7.2" ]
       ]
     },
     "monad-control": {
@@ -488,7 +479,21 @@
         [ "transformers-compat", "0.7.2" ],
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
-        [ "warp", "3.3.23" ]
+        [ "warp", "3.3.23" ],
+        [ "async", "2.2.4" ],
+        [ "data-default-class", "0.1.2.0" ],
+        [ "hspec", "2.10.6" ],
+        [ "hspec-wai", "0.11.1" ],
+        [ "http-types", "0.12.3" ],
+        [ "lifted-base", "0.2.3.12" ],
+        [ "network", "3.1.2.7" ],
+        [ "scotty", "0.12.1" ],
+        [ "wai", "3.2.3" ],
+        [ "hspec-discover", "2.10.6" ],
+        [ "data-default-class", "0.1.2.0" ],
+        [ "lucid", "2.11.1" ],
+        [ "scotty", "0.12.1" ],
+        [ "weigh", "0.0.16" ]
       ]
     },
     "semialign": {
@@ -651,27 +656,6 @@
         [ "cabal-doctest", "1.0.9" ]
       ]
     },
-    "wai-middleware-static": {
-      "0.9.2": [
-        [ "base16-bytestring", "1.0.2.0" ],
-        [ "cryptohash-sha1", "0.11.101.0" ],
-        [ "expiring-cache-map", "0.0.6.1" ],
-        [ "http-types", "0.12.3" ],
-        [ "mime-types", "0.1.1.0" ],
-        [ "old-locale", "1.0.0.7" ],
-        [ "semigroups", "0.20" ],
-        [ "wai", "3.2.3" ],
-        [ "hspec", "2.10.6" ],
-        [ "hspec-expectations-lifted", "0.10.0" ],
-        [ "hspec-wai", "0.11.1" ],
-        [ "http-types", "0.12.3" ],
-        [ "mockery", "0.3.5" ],
-        [ "scotty", "0.12.1" ],
-        [ "wai-extra", "3.1.13.0" ],
-        [ "wai-middleware-static", "0.9.2" ],
-        [ "hspec-discover", "2.10.6" ]
-      ]
-    },
     "warp": {
       "3.3.23": [
         [ "auto-update", "0.1.6" ],
@@ -693,6 +677,12 @@
         [ "wai", "3.2.3" ],
         [ "word8", "0.1.3" ],
         [ "x509", "1.7.7" ]
+      ]
+    },
+    "weigh": {
+      "0.0.16": [
+        [ "split", "0.2.3.5" ],
+        [ "temporary", "1.3" ]
       ]
     },
     "witherable": {
@@ -837,13 +827,6 @@
         "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
       }
     },
-    "base16-bytestring": {
-      "1.0.2.0": {
-        "hash": "sha256:1d5a91143ef0e22157536093ec8e59d226a68220ec89378d5dcaeea86472c784",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/base16-bytestring-1.0.2.0.tar.gz"
-      }
-    },
     "base64-bytestring": {
       "1.2.1.0": {
         "hash": "sha256:fbf8ed30edde271eb605352021431d8f1b055f95a56af31fe2eacf6bdfdc49c9",
@@ -935,13 +918,6 @@
         "url": "https://hackage.haskell.org/package/cookie-0.4.5.tar.gz"
       }
     },
-    "cryptohash-sha1": {
-      "0.11.101.0": {
-        "hash": "sha256:a4042c97ad02eb68e766577ca35c01970c33e96cfd74ccb4dd403e3476a23241",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/cryptohash-sha1-0.11.101.0.tar.gz"
-      }
-    },
     "cryptonite": {
       "0.30": {
         "hash": "sha256:56099c8a8aa01d2ee914b670c97c1f818186dbb886e2025b73d9c2afe3496b1d",
@@ -982,13 +958,6 @@
         "hash": "sha256:52f52e72ba48d60935932401c233a72bf45c582871238aecc5a18021ce67b47e",
         "type": "http",
         "url": "https://hackage.haskell.org/package/easy-file-0.2.2.tar.gz"
-      }
-    },
-    "expiring-cache-map": {
-      "0.0.6.1": {
-        "hash": "sha256:0e3bc294978b46ee59bf0b4a7e7a5bd7ed5da7bc261ffebdb0cb1b60353c64b9",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/expiring-cache-map-0.0.6.1.tar.gz"
       }
     },
     "fast-logger": {
@@ -1054,13 +1023,6 @@
         "url": "https://hackage.haskell.org/package/hspec-expectations-0.8.2.tar.gz"
       }
     },
-    "hspec-expectations-lifted": {
-      "0.10.0": {
-        "hash": "sha256:22cdf1509b396fea2f53a0bb88dec3552f540d58cc60962a82970264c1e73828",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-expectations-lifted-0.10.0.tar.gz"
-      }
-    },
     "hspec-wai": {
       "0.11.1": {
         "hash": "sha256:32a86bf44ff70345718102f013f6dded35a96ceeda1aa4cc132af9c2a29e910f",
@@ -1117,11 +1079,18 @@
         "url": "https://hackage.haskell.org/package/iproute-1.7.12.tar.gz"
       }
     },
-    "logging-facade": {
-      "0.3.1": {
-        "hash": "sha256:2b16b3353b77c6ab92a82dc3f04724447a67f02c76d50c274177d8778e14c166",
+    "lifted-base": {
+      "0.2.3.12": {
+        "hash": "sha256:c134a95f56750aae806e38957bb03c59627cda16034af9e00a02b699474317c5",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/logging-facade-0.3.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/lifted-base-0.2.3.12.tar.gz"
+      }
+    },
+    "lucid": {
+      "2.11.1": {
+        "hash": "sha256:dcf57142ca1ad5e6dcecfaf4dba703031886c286f8b07ba8cd4470b077e6798e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/lucid-2.11.1.tar.gz"
       }
     },
     "memory": {
@@ -1131,18 +1100,11 @@
         "url": "https://hackage.haskell.org/package/memory-0.18.0.tar.gz"
       }
     },
-    "mime-types": {
-      "0.1.1.0": {
-        "hash": "sha256:ebd01ed4e37142cb3233d4ffe55fe879b64d4a0b5802c8bc6afa1c7670f9e11b",
+    "mmorph": {
+      "1.2.0": {
+        "hash": "sha256:61338058eb676b466a462ca45d59f436a77a3bd6b816e4268c6d88522b6a4280",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/mime-types-0.1.1.0.tar.gz"
-      }
-    },
-    "mockery": {
-      "0.3.5": {
-        "hash": "sha256:b7a1edacd3d32dc7f0e28c67877209d3ca3551d1da186f6445f825f3477dd727",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/mockery-0.3.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/mmorph-1.2.0.tar.gz"
       }
     },
     "monad-control": {
@@ -1268,7 +1230,7 @@
       "0.12.1": {
         "hash": "sha256:1e2a33ff37765d9e1de7fc7b8f20a75b91b008ada60c1e445df06c7fc614db4a",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/scotty-0.12.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/scotty-0.12.1/scotty-0.12.1.tar.gz"
       }
     },
     "semialign": {
@@ -1285,13 +1247,6 @@
         "url": "https://hackage.haskell.org/package/semigroupoids-5.3.7.tar.gz"
       }
     },
-    "semigroups": {
-      "0.20": {
-        "hash": "sha256:902d2e33c96b40a89de5957f2a9e097197afcc35e257e45b32ebe770993673e1",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/semigroups-0.20.tar.gz"
-      }
-    },
     "setenv": {
       "0.1.1.3": {
         "hash": "sha256:e358df39afc03d5a39e2ec650652d845c85c80cc98fe331654deafb4767ecb32",
@@ -1304,6 +1259,13 @@
         "hash": "sha256:b6864d2b3c62ff8ea23fa24e9e26f751bfe5253c8efb1f1e4fee2ba91d065284",
         "type": "http",
         "url": "https://hackage.haskell.org/package/simple-sendfile-0.2.30.tar.gz"
+      }
+    },
+    "split": {
+      "0.2.3.5": {
+        "hash": "sha256:bf8aa8d610354a2b576946a6c838251ec5988c8374100638e6b2604513b93159",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/split-0.2.3.5.tar.gz"
       }
     },
     "splitmix": {
@@ -1481,18 +1443,18 @@
         "url": "https://hackage.haskell.org/package/wai-logger-2.4.0.tar.gz"
       }
     },
-    "wai-middleware-static": {
-      "0.9.2": {
-        "hash": "sha256:6c0c87558f04807896377535f7801a16b4ddfd9de1a203ef5a45de915907d5fa",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/wai-middleware-static-0.9.2/wai-middleware-static-0.9.2.tar.gz"
-      }
-    },
     "warp": {
       "3.3.23": {
         "hash": "sha256:bad666f7c8557f5b1d3c5f367cff7115d2627bbd69859e319d2fff823f3b3978",
         "type": "http",
         "url": "https://hackage.haskell.org/package/warp-3.3.23.tar.gz"
+      }
+    },
+    "weigh": {
+      "0.0.16": {
+        "hash": "sha256:a92a19209b6e8999be21fed8c6ddad8cddf5b98352341b58d2c3e3ef4e96eb8e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/weigh-0.0.16.tar.gz"
       }
     },
     "witherable": {
