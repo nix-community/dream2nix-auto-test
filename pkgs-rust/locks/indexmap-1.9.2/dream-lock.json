@@ -3,7 +3,7 @@
     "defaultPackage": "indexmap",
     "location": "",
     "packages": {
-      "indexmap": "1.9.1"
+      "indexmap": "1.9.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "indexmap": {
-        "1.9.1": {
+        "1.9.2": {
           "description": "A hash table with consistent order and fast iteration.", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "indexmap": {
-        "1.9.1": {}
+        "1.9.2": {}
       }
     }
   },
@@ -71,7 +71,8 @@
       ]
     },
     "indexmap": {
-      "1.9.1": [
+      "1.9.2": [
+        [ "arbitrary", "1.2.0" ],
         [ "autocfg", "1.1.0" ],
         [ "fnv", "1.0.7" ],
         [ "fxhash", "0.2.1" ],
@@ -183,6 +184,12 @@
     }
   },
   "sources": {
+    "arbitrary": {
+      "1.2.0": {
+        "hash": "29d47fbf90d5149a107494b15a7dc8d69b351be2db3bb9691740e88ec17fd880",
+        "type": "crates-io"
+      }
+    },
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
@@ -262,8 +269,8 @@
       }
     },
     "indexmap": {
-      "1.9.1": {
-        "hash": "10a35a97730320ffe8e2d410b5d3b69279b98d2c14bdb8b70ea89ecf7888d41e",
+      "1.9.2": {
+        "hash": "1885e79c1fc4b10f0e172c475f458b7f7b93061064d98c3293e98c5ba0c8b399",
         "type": "crates-io"
       }
     },
