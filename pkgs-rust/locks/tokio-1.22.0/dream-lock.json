@@ -3,7 +3,7 @@
     "defaultPackage": "tokio",
     "location": "",
     "packages": {
-      "tokio": "1.21.2"
+      "tokio": "1.22.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "tokio": {
-        "1.21.2": {
+        "1.22.0": {
           "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n", "homepage": "https://tokio.rs", "license": [   "mit"
           ]
         }
@@ -20,19 +20,19 @@
     },
     "relPathReplacements": {
       "tokio": {
-        "1.21.2": {}
+        "1.22.0": {}
       }
     }
   },
   "cyclicDependencies": {
     "tokio-stream": {
       "0.1.11": [
-        [ "tokio", "1.21.2" ]
+        [ "tokio", "1.22.0" ]
       ]
     },
     "tokio-test": {
       "0.4.2": [
-        [ "tokio", "1.21.2" ]
+        [ "tokio", "1.22.0" ]
       ]
     }
   },
@@ -175,7 +175,7 @@
         [ "pin-utils", "0.1.0" ],
         [ "scoped-tls", "1.0.1" ],
         [ "serde", "1.0.147" ],
-        [ "serde_json", "1.0.87" ],
+        [ "serde_json", "1.0.88" ],
         [ "tracing", "0.1.37" ],
         [ "tracing-subscriber", "0.3.16" ]
       ]
@@ -395,7 +395,7 @@
       ]
     },
     "serde_json": {
-      "1.0.87": [
+      "1.0.88": [
         [ "itoa", "1.0.4" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.147" ]
@@ -445,7 +445,7 @@
       ]
     },
     "tokio": {
-      "1.21.2": [
+      "1.22.0": [
         [ "async-stream", "0.3.3" ],
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.2.1" ],
@@ -485,7 +485,7 @@
       "0.1.11": [
         [ "futures-core", "0.3.25" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.21.2" ]
+        [ "tokio", "1.22.0" ]
       ]
     },
     "tokio-test": {
@@ -493,7 +493,7 @@
         [ "async-stream", "0.3.3" ],
         [ "bytes", "1.2.1" ],
         [ "futures-core", "0.3.25" ],
-        [ "tokio", "1.21.2" ],
+        [ "tokio", "1.22.0" ],
         [ "tokio-stream", "0.1.11" ]
       ]
     },
@@ -1157,8 +1157,8 @@
       }
     },
     "serde_json": {
-      "1.0.87": {
-        "hash": "6ce777b7b150d76b9cf60d28b55f5847135a003f7d7350c6be7a773508ce7d45",
+      "1.0.88": {
+        "hash": "8e8b3801309262e8184d9687fb697586833e939767aea0dda89f5a8e650e8bd7",
         "type": "crates-io"
       }
     },
@@ -1217,8 +1217,8 @@
       }
     },
     "tokio": {
-      "1.21.2": {
-        "hash": "a9e03c497dc955702ba729190dc4aac6f2a0ce97f913e5b1b5912fc5039d9099",
+      "1.22.0": {
+        "hash": "d76ce4a75fb488c605c54bf610f221cea8b0dafb53333c1a67e8ee199dcd2ae3",
         "type": "crates-io"
       }
     },

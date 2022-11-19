@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "instant",
+    "defaultPackage": "async-lock",
     "location": "",
     "packages": {
-      "instant": "0.1.12"
+      "async-lock": "2.6.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,35 +11,67 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "instant": {
-        "0.1.12": {
-          "description": "A partial replacement for std::time::Instant that works on WASM too.", "license": [   "bsd3"
+      "async-lock": {
+        "2.6.0": {
+          "description": "Async synchronization primitives", "license": [   "asl20",   "mit"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "instant": {
-        "0.1.12": {}
+      "async-lock": {
+        "2.6.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "async-channel": {
+      "1.7.1": [
+        [ "concurrent-queue", "1.2.4" ],
+        [ "event-listener", "2.5.3" ],
+        [ "futures-core", "0.3.25" ]
+      ]
+    },
+    "async-lock": {
+      "2.6.0": [
+        [ "async-channel", "1.7.1" ],
+        [ "event-listener", "2.5.3" ],
+        [ "fastrand", "1.8.0" ],
+        [ "futures-lite", "1.12.0" ],
+        [ "wasm-bindgen-test", "0.3.33" ]
+      ]
+    },
+    "concurrent-queue": {
+      "1.2.4": [
+        [ "cache-padded", "1.2.0" ]
+      ]
+    },
     "console_error_panic_hook": {
       "0.1.7": [
         [ "cfg-if", "1.0.0" ],
         [ "wasm-bindgen", "0.2.83" ]
       ]
     },
+    "fastrand": {
+      "1.8.0": [
+        [ "instant", "0.1.12" ]
+      ]
+    },
+    "futures-lite": {
+      "1.12.0": [
+        [ "fastrand", "1.8.0" ],
+        [ "futures-core", "0.3.25" ],
+        [ "futures-io", "0.3.25" ],
+        [ "memchr", "2.5.0" ],
+        [ "parking", "2.0.0" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "waker-fn", "1.1.0" ]
+      ]
+    },
     "instant": {
       "0.1.12": [
-        [ "cfg-if", "1.0.0" ],
-        [ "js-sys", "0.3.60" ],
-        [ "stdweb", "0.4.20" ],
-        [ "wasm-bindgen", "0.2.83" ],
-        [ "wasm-bindgen-test", "0.3.33" ],
-        [ "web-sys", "0.3.60" ]
+        [ "cfg-if", "1.0.0" ]
       ]
     },
     "js-sys": {
@@ -60,68 +92,6 @@
     "quote": {
       "1.0.21": [
         [ "proc-macro2", "1.0.47" ]
-      ]
-    },
-    "rustc_version": {
-      "0.2.3": [
-        [ "semver", "0.9.0" ]
-      ]
-    },
-    "semver": {
-      "0.9.0": [
-        [ "semver-parser", "0.7.0" ]
-      ]
-    },
-    "serde_derive": {
-      "1.0.147": [
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.103" ]
-      ]
-    },
-    "serde_json": {
-      "1.0.88": [
-        [ "itoa", "1.0.4" ],
-        [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.147" ]
-      ]
-    },
-    "sha1": {
-      "0.6.1": [
-        [ "sha1_smol", "1.0.0" ]
-      ]
-    },
-    "stdweb": {
-      "0.4.20": [
-        [ "discard", "1.0.4" ],
-        [ "rustc_version", "0.2.3" ],
-        [ "serde", "1.0.147" ],
-        [ "serde_json", "1.0.88" ],
-        [ "stdweb-derive", "0.5.3" ],
-        [ "stdweb-internal-macros", "0.2.9" ],
-        [ "stdweb-internal-runtime", "0.1.5" ],
-        [ "wasm-bindgen", "0.2.83" ]
-      ]
-    },
-    "stdweb-derive": {
-      "0.5.3": [
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
-        [ "serde", "1.0.147" ],
-        [ "serde_derive", "1.0.147" ],
-        [ "syn", "1.0.103" ]
-      ]
-    },
-    "stdweb-internal-macros": {
-      "0.2.9": [
-        [ "base-x", "0.2.11" ],
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
-        [ "serde", "1.0.147" ],
-        [ "serde_derive", "1.0.147" ],
-        [ "serde_json", "1.0.88" ],
-        [ "sha1", "0.6.1" ],
-        [ "syn", "1.0.103" ]
       ]
     },
     "syn": {
@@ -195,9 +165,15 @@
     }
   },
   "sources": {
-    "base-x": {
-      "0.2.11": {
-        "hash": "4cbbc9d0964165b47557570cce6c952866c2678457aca742aafc9fb771d30270",
+    "async-channel": {
+      "1.7.1": {
+        "hash": "e14485364214912d3b19cc3435dde4df66065127f05fa0d75c712f36f12c2f28",
+        "type": "crates-io"
+      }
+    },
+    "async-lock": {
+      "2.6.0": {
+        "hash": "c8101efe8695a6c17e02911402145357e718ac92d3ff88ae8419e84b1707b685",
         "type": "crates-io"
       }
     },
@@ -207,9 +183,21 @@
         "type": "crates-io"
       }
     },
+    "cache-padded": {
+      "1.2.0": {
+        "hash": "c1db59621ec70f09c5e9b597b220c7a2b43611f4710dc03ceb8748637775692c",
+        "type": "crates-io"
+      }
+    },
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "concurrent-queue": {
+      "1.2.4": {
+        "hash": "af4780a44ab5696ea9e28294517f1fffb421a83a25af521333c838635509db9c",
         "type": "crates-io"
       }
     },
@@ -219,21 +207,39 @@
         "type": "crates-io"
       }
     },
-    "discard": {
-      "1.0.4": {
-        "hash": "212d0f5754cb6769937f4501cc0e67f4f4483c8d2c3e1e922ee9edbe4ab4c7c0",
+    "event-listener": {
+      "2.5.3": {
+        "hash": "0206175f82b8d6bf6652ff7d71a1e27fd2e4efde587fd368662814d6ec1d9ce0",
+        "type": "crates-io"
+      }
+    },
+    "fastrand": {
+      "1.8.0": {
+        "hash": "a7a407cfaa3385c4ae6b23e84623d48c2798d06e3e6a1878f7f59f17b3f86499",
+        "type": "crates-io"
+      }
+    },
+    "futures-core": {
+      "0.3.25": {
+        "hash": "04909a7a7e4633ae6c4a9ab280aeb86da1236243a77b694a49eacd659a4bd3ac",
+        "type": "crates-io"
+      }
+    },
+    "futures-io": {
+      "0.3.25": {
+        "hash": "00f5fb52a06bdcadeb54e8d3671f8888a39697dcb0b81b23b55174030427f4eb",
+        "type": "crates-io"
+      }
+    },
+    "futures-lite": {
+      "1.12.0": {
+        "hash": "7694489acd39452c77daa48516b894c153f192c3578d5a839b62c58099fcbf48",
         "type": "crates-io"
       }
     },
     "instant": {
       "0.1.12": {
         "hash": "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c",
-        "type": "crates-io"
-      }
-    },
-    "itoa": {
-      "1.0.4": {
-        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
         "type": "crates-io"
       }
     },
@@ -249,9 +255,27 @@
         "type": "crates-io"
       }
     },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
     "once_cell": {
       "1.16.0": {
         "hash": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
+        "type": "crates-io"
+      }
+    },
+    "parking": {
+      "2.0.0": {
+        "hash": "427c3892f9e783d91cc128285287e70a59e206ca452770ece88a76f7a3eddd72",
+        "type": "crates-io"
+      }
+    },
+    "pin-project-lite": {
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
         "type": "crates-io"
       }
     },
@@ -267,87 +291,9 @@
         "type": "crates-io"
       }
     },
-    "rustc_version": {
-      "0.2.3": {
-        "hash": "138e3e0acb6c9fb258b19b67cb8abd63c00679d2851805ea151465464fe9030a",
-        "type": "crates-io"
-      }
-    },
-    "ryu": {
-      "1.0.11": {
-        "hash": "4501abdff3ae82a1c1b477a17252eb69cee9e66eb915c1abaa4f44d873df9f09",
-        "type": "crates-io"
-      }
-    },
     "scoped-tls": {
       "1.0.1": {
         "hash": "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294",
-        "type": "crates-io"
-      }
-    },
-    "semver": {
-      "0.9.0": {
-        "hash": "1d7eb9ef2c18661902cc47e535f9bc51b78acd254da71d375c2f6720d9a40403",
-        "type": "crates-io"
-      }
-    },
-    "semver-parser": {
-      "0.7.0": {
-        "hash": "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3",
-        "type": "crates-io"
-      }
-    },
-    "serde": {
-      "1.0.147": {
-        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
-        "type": "crates-io"
-      }
-    },
-    "serde_derive": {
-      "1.0.147": {
-        "hash": "4f1d362ca8fc9c3e3a7484440752472d68a6caa98f1ab81d99b5dfe517cec852",
-        "type": "crates-io"
-      }
-    },
-    "serde_json": {
-      "1.0.88": {
-        "hash": "8e8b3801309262e8184d9687fb697586833e939767aea0dda89f5a8e650e8bd7",
-        "type": "crates-io"
-      }
-    },
-    "sha1": {
-      "0.6.1": {
-        "hash": "c1da05c97445caa12d05e848c4a4fcbbea29e748ac28f7e80e9b010392063770",
-        "type": "crates-io"
-      }
-    },
-    "sha1_smol": {
-      "1.0.0": {
-        "hash": "ae1a47186c03a32177042e55dbc5fd5aee900b8e0069a8d70fba96a9375cd012",
-        "type": "crates-io"
-      }
-    },
-    "stdweb": {
-      "0.4.20": {
-        "hash": "d022496b16281348b52d0e30ae99e01a73d737b2f45d38fed4edf79f9325a1d5",
-        "type": "crates-io"
-      }
-    },
-    "stdweb-derive": {
-      "0.5.3": {
-        "hash": "c87a60a40fccc84bef0652345bbbbbe20a605bf5d0ce81719fc476f5c03b50ef",
-        "type": "crates-io"
-      }
-    },
-    "stdweb-internal-macros": {
-      "0.2.9": {
-        "hash": "58fa5ff6ad0d98d1ffa8cb115892b6e69d67799f6763e162a1c9db421dc22e11",
-        "type": "crates-io"
-      }
-    },
-    "stdweb-internal-runtime": {
-      "0.1.5": {
-        "hash": "213701ba3370744dcd1a12960caa4843b3d68b4d1c0a5d575e0d65b2ee9d16c0",
         "type": "crates-io"
       }
     },
@@ -360,6 +306,12 @@
     "unicode-ident": {
       "1.0.5": {
         "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
+        "type": "crates-io"
+      }
+    },
+    "waker-fn": {
+      "1.1.0": {
+        "hash": "9d5b2c62b4012a3e1eca5a7e077d13b3bf498c4073e33ccd58626607748ceeca",
         "type": "crates-io"
       }
     },
