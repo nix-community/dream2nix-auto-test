@@ -3,7 +3,7 @@
     "defaultPackage": "crossbeam-queue",
     "location": "",
     "packages": {
-      "crossbeam-queue": "0.3.6"
+      "crossbeam-queue": "0.3.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "crossbeam-queue": {
-        "0.3.6": {
+        "0.3.7": {
           "description": "Concurrent queues", "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-queue", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,21 +20,21 @@
     },
     "relPathReplacements": {
       "crossbeam-queue": {
-        "0.3.6": {}
+        "0.3.7": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "crossbeam-queue": {
-      "0.3.6": [
+      "0.3.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "crossbeam-utils", "0.8.12" ],
+        [ "crossbeam-utils", "0.8.13" ],
         [ "rand", "0.8.5" ]
       ]
     },
     "crossbeam-utils": {
-      "0.8.12": [
+      "0.8.13": [
         [ "cfg-if", "1.0.0" ]
       ]
     },
@@ -72,14 +72,14 @@
       }
     },
     "crossbeam-queue": {
-      "0.3.6": {
-        "hash": "1cd42583b04998a5363558e5f9291ee5a5ff6b49944332103f251e7479a82aa7",
+      "0.3.7": {
+        "hash": "ebb3d1683412e9be6a15533314f00ec223c0762c522a3f77f048b265aab4470c",
         "type": "crates-io"
       }
     },
     "crossbeam-utils": {
-      "0.8.12": {
-        "hash": "edbafec5fa1f196ca66527c1b12c2ec4745ca14b50f1ad8f9f6f720b55d11fac",
+      "0.8.13": {
+        "hash": "422f23e724af1240ec469ea1e834d87a4b59ce2efe2c6a96256b0c47e2fd86aa",
         "type": "crates-io"
       }
     },

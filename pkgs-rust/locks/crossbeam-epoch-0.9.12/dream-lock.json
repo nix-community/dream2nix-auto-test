@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "crossbeam-utils",
+    "defaultPackage": "crossbeam-epoch",
     "location": "",
     "packages": {
-      "crossbeam-utils": "0.8.12"
+      "crossbeam-epoch": "0.9.12"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,27 +11,37 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "crossbeam-utils": {
-        "0.8.12": {
-          "description": "Utilities for concurrent programming", "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-utils", "license": [   "mit",   "asl20"
+      "crossbeam-epoch": {
+        "0.9.12": {
+          "description": "Epoch-based garbage collection", "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-epoch", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "crossbeam-utils": {
-        "0.8.12": {}
+      "crossbeam-epoch": {
+        "0.9.12": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "crossbeam-utils": {
-      "0.8.12": [
+    "crossbeam-epoch": {
+      "0.9.12": [
+        [ "autocfg", "1.1.0" ],
         [ "cfg-if", "1.0.0" ],
+        [ "crossbeam-utils", "0.8.13" ],
         [ "loom", "0.5.6" ],
+        [ "memoffset", "0.7.1" ],
         [ "rand", "0.8.5" ],
-        [ "rustversion", "1.0.9" ]
+        [ "rustversion", "1.0.9" ],
+        [ "scopeguard", "1.1.0" ]
+      ]
+    },
+    "crossbeam-utils": {
+      "0.8.13": [
+        [ "cfg-if", "1.0.0" ],
+        [ "loom", "0.5.6" ]
       ]
     },
     "generator": {
@@ -67,6 +77,11 @@
     "matchers": {
       "0.1.0": [
         [ "regex-automata", "0.1.10" ]
+      ]
+    },
+    "memoffset": {
+      "0.7.1": [
+        [ "autocfg", "1.1.0" ]
       ]
     },
     "nu-ansi-term": {
@@ -189,6 +204,12 @@
     }
   },
   "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
     "cc": {
       "1.0.76": {
         "hash": "76a284da2e6fe2092f2353e51713435363112dfd60030e22add80be333fb928f",
@@ -201,9 +222,15 @@
         "type": "crates-io"
       }
     },
+    "crossbeam-epoch": {
+      "0.9.12": {
+        "hash": "96bf8df95e795db1a4aca2957ad884a2df35413b24bbeb3114422f3cc21498e8",
+        "type": "crates-io"
+      }
+    },
     "crossbeam-utils": {
-      "0.8.12": {
-        "hash": "edbafec5fa1f196ca66527c1b12c2ec4745ca14b50f1ad8f9f6f720b55d11fac",
+      "0.8.13": {
+        "hash": "422f23e724af1240ec469ea1e834d87a4b59ce2efe2c6a96256b0c47e2fd86aa",
         "type": "crates-io"
       }
     },
@@ -246,6 +273,12 @@
     "matchers": {
       "0.1.0": {
         "hash": "8263075bb86c5a1b1427b5ae862e8889656f126e9f77c484496e8b47cf5c5558",
+        "type": "crates-io"
+      }
+    },
+    "memoffset": {
+      "0.7.1": {
+        "hash": "5de893c32cde5f383baa4c04c5d6dbdd735cfd4a794b0debdb2bb1b421da5ff4",
         "type": "crates-io"
       }
     },
@@ -336,6 +369,12 @@
     "scoped-tls": {
       "1.0.1": {
         "hash": "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294",
+        "type": "crates-io"
+      }
+    },
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
         "type": "crates-io"
       }
     },
