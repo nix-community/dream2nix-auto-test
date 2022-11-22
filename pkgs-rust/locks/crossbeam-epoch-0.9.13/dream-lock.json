@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "bytes",
+    "defaultPackage": "crossbeam-epoch",
     "location": "",
     "packages": {
-      "bytes": "1.2.1"
+      "crossbeam-epoch": "0.9.13"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,26 +11,37 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "bytes": {
-        "1.2.1": {
-          "description": "Types and traits for working with bytes", "license": [   "mit"
+      "crossbeam-epoch": {
+        "0.9.13": {
+          "description": "Epoch-based garbage collection", "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-epoch", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "bytes": {
-        "1.2.1": {}
+      "crossbeam-epoch": {
+        "0.9.13": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "bytes": {
-      "1.2.1": [
+    "crossbeam-epoch": {
+      "0.9.13": [
+        [ "autocfg", "1.1.0" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "crossbeam-utils", "0.8.14" ],
         [ "loom", "0.5.6" ],
-        [ "serde", "1.0.147" ],
-        [ "serde_test", "1.0.147" ]
+        [ "memoffset", "0.7.1" ],
+        [ "rand", "0.8.5" ],
+        [ "rustversion", "1.0.9" ],
+        [ "scopeguard", "1.1.0" ]
+      ]
+    },
+    "crossbeam-utils": {
+      "0.8.14": [
+        [ "cfg-if", "1.0.0" ],
+        [ "loom", "0.5.6" ]
       ]
     },
     "generator": {
@@ -40,6 +51,13 @@
         [ "log", "0.4.17" ],
         [ "rustversion", "1.0.9" ],
         [ "windows", "0.32.0" ]
+      ]
+    },
+    "getrandom": {
+      "0.2.8": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.137" ],
+        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
     "log": {
@@ -61,6 +79,11 @@
         [ "regex-automata", "0.1.10" ]
       ]
     },
+    "memoffset": {
+      "0.7.1": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
     "nu-ansi-term": {
       "0.46.0": [
         [ "overload", "0.1.1" ],
@@ -77,6 +100,24 @@
         [ "proc-macro2", "1.0.47" ]
       ]
     },
+    "rand": {
+      "0.8.5": [
+        [ "libc", "0.2.137" ],
+        [ "rand_chacha", "0.3.1" ],
+        [ "rand_core", "0.6.4" ]
+      ]
+    },
+    "rand_chacha": {
+      "0.3.1": [
+        [ "ppv-lite86", "0.2.17" ],
+        [ "rand_core", "0.6.4" ]
+      ]
+    },
+    "rand_core": {
+      "0.6.4": [
+        [ "getrandom", "0.2.8" ]
+      ]
+    },
     "regex": {
       "1.7.0": [
         [ "regex-syntax", "0.6.28" ]
@@ -85,11 +126,6 @@
     "regex-automata": {
       "0.1.10": [
         [ "regex-syntax", "0.6.28" ]
-      ]
-    },
-    "serde_test": {
-      "1.0.147": [
-        [ "serde", "1.0.147" ]
       ]
     },
     "sharded-slab": {
@@ -168,9 +204,9 @@
     }
   },
   "sources": {
-    "bytes": {
-      "1.2.1": {
-        "hash": "ec8a7b6a70fde80372154c65702f00a0f56f3e1c36abbc6c440484be248856db",
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
         "type": "crates-io"
       }
     },
@@ -186,9 +222,27 @@
         "type": "crates-io"
       }
     },
+    "crossbeam-epoch": {
+      "0.9.13": {
+        "hash": "01a9af1f4c2ef74bb8aa1f7e19706bc72d03598c8a570bb5de72243c7a9d9d5a",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-utils": {
+      "0.8.14": {
+        "hash": "4fb766fa798726286dbbb842f174001dab8abc7b627a1dd86e0b7222a95d929f",
+        "type": "crates-io"
+      }
+    },
     "generator": {
       "0.7.1": {
         "hash": "cc184cace1cea8335047a471cc1da80f18acf8a76f3bab2028d499e328948ec7",
+        "type": "crates-io"
+      }
+    },
+    "getrandom": {
+      "0.2.8": {
+        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
         "type": "crates-io"
       }
     },
@@ -222,6 +276,12 @@
         "type": "crates-io"
       }
     },
+    "memoffset": {
+      "0.7.1": {
+        "hash": "5de893c32cde5f383baa4c04c5d6dbdd735cfd4a794b0debdb2bb1b421da5ff4",
+        "type": "crates-io"
+      }
+    },
     "nu-ansi-term": {
       "0.46.0": {
         "hash": "77a8165726e8236064dbb45459242600304b42a5ea24ee2948e18e023bf7ba84",
@@ -246,6 +306,12 @@
         "type": "crates-io"
       }
     },
+    "ppv-lite86": {
+      "0.2.17": {
+        "hash": "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de",
+        "type": "crates-io"
+      }
+    },
     "proc-macro2": {
       "1.0.47": {
         "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
@@ -255,6 +321,24 @@
     "quote": {
       "1.0.21": {
         "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_chacha": {
+      "0.3.1": {
+        "hash": "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
         "type": "crates-io"
       }
     },
@@ -288,15 +372,9 @@
         "type": "crates-io"
       }
     },
-    "serde": {
-      "1.0.147": {
-        "hash": "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965",
-        "type": "crates-io"
-      }
-    },
-    "serde_test": {
-      "1.0.147": {
-        "hash": "641666500e4e6fba7b91b73651a375cb53579468ab3c38389289b802797cad94",
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
         "type": "crates-io"
       }
     },
@@ -363,6 +441,12 @@
     "valuable": {
       "0.1.0": {
         "hash": "830b7e5d4d90034032940e4ace0d9a9a057e7a45cd94e6c007832e39edb82f6d",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.11.0+wasi-snapshot-preview1": {
+        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
         "type": "crates-io"
       }
     },

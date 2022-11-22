@@ -3,7 +3,7 @@
     "defaultPackage": "object",
     "location": "",
     "packages": {
-      "object": "0.29.0"
+      "object": "0.30.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "object": {
-        "0.29.0": {
+        "0.30.0": {
           "description": "A unified interface for reading and writing object file formats.", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,15 +20,15 @@
     },
     "relPathReplacements": {
       "object": {
-        "0.29.0": {}
+        "0.30.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "ahash": {
-      "0.7.6": [
-        [ "getrandom", "0.2.8" ],
+      "0.8.2": [
+        [ "cfg-if", "1.0.0" ],
         [ "once_cell", "1.16.0" ],
         [ "version_check", "0.9.4" ]
       ]
@@ -44,16 +44,9 @@
         [ "miniz_oxide", "0.5.4" ]
       ]
     },
-    "getrandom": {
-      "0.2.8": [
-        [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.137" ],
-        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
-      ]
-    },
     "hashbrown": {
-      "0.12.3": [
-        [ "ahash", "0.7.6" ]
+      "0.13.1": [
+        [ "ahash", "0.8.2" ]
       ]
     },
     "indexmap": {
@@ -74,11 +67,11 @@
       ]
     },
     "object": {
-      "0.29.0": [
+      "0.30.0": [
         [ "compiler_builtins", "0.1.84" ],
         [ "crc32fast", "1.3.2" ],
         [ "flate2", "1.0.24" ],
-        [ "hashbrown", "0.12.3" ],
+        [ "hashbrown", "0.13.1" ],
         [ "indexmap", "1.9.2" ],
         [ "memchr", "2.5.0" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
@@ -95,8 +88,8 @@
       }
     },
     "ahash": {
-      "0.7.6": {
-        "hash": "fcb51a0695d8f838b1ee009b3fbf66bda078cd64590202a864a8f3e8c4315c47",
+      "0.8.2": {
+        "hash": "bf6ccdb167abbf410dcb915cabd428929d7f6a04980b54a11f26a39f1c7f7107",
         "type": "crates-io"
       }
     },
@@ -130,27 +123,19 @@
         "type": "crates-io"
       }
     },
-    "getrandom": {
-      "0.2.8": {
-        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
-        "type": "crates-io"
-      }
-    },
     "hashbrown": {
       "0.12.3": {
         "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
+        "type": "crates-io"
+      },
+      "0.13.1": {
+        "hash": "33ff8ae62cd3a9102e5637afc8452c55acf3844001bd5374e0b0bd7b6616c038",
         "type": "crates-io"
       }
     },
     "indexmap": {
       "1.9.2": {
         "hash": "1885e79c1fc4b10f0e172c475f458b7f7b93061064d98c3293e98c5ba0c8b399",
-        "type": "crates-io"
-      }
-    },
-    "libc": {
-      "0.2.137": {
-        "hash": "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89",
         "type": "crates-io"
       }
     },
@@ -167,8 +152,8 @@
       }
     },
     "object": {
-      "0.29.0": {
-        "hash": "21158b2c33aa6d4561f1c0a6ea283ca92bc54802a93b263e910746d679a7eb53",
+      "0.30.0": {
+        "hash": "239da7f290cfa979f43f85a8efeee9a8a76d0827c356d37f9d3d7254d6b537fb",
         "type": "crates-io"
       }
     },
@@ -193,12 +178,6 @@
     "version_check": {
       "0.9.4": {
         "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
-        "type": "crates-io"
-      }
-    },
-    "wasi": {
-      "0.11.0+wasi-snapshot-preview1": {
-        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
         "type": "crates-io"
       }
     },
