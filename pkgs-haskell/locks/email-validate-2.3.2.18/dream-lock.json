@@ -3,7 +3,7 @@
     "defaultPackage": "email-validate",
     "location": "",
     "packages": {
-      "email-validate": "2.3.2.16"
+      "email-validate": "2.3.2.18"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -17,16 +17,15 @@
       "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
-      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
       "code-page#0.2.1": "fe596b0f421abd2894fdb7049b3d76230eb1de6e04e9f635e2695dd55ded856e",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
-      "doctest#0.19.0": "7dd2cc8a61ff23445f578434232e1ee004988b82c830822949118da4fabe808e",
+      "doctest#0.20.1": "c0e08af88e034f41673477be0350ceae69faea2db03a4c10b289fa9c20d27cbb",
       "ghc-paths#0.1.0.12": "1c9cf34ed8f2584bc4dd2837657ea3056664daa8127c66264704a3442651bfb4",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
-      "hspec#2.9.7": "68732c76946f111db3ecf28fa1ab11f1468c287448b139e57d543bd25a382cf0",
-      "hspec-core#2.9.7": "153ca954ceb8eb7dff782d3de9af59553bc54284a45e7085aca5b443a5486111",
-      "hspec-discover#2.9.7": "7b8e52d85c07e8cfed6723255f738fb69ae08d3c0edfd3e458837496897ee629",
+      "hspec#2.10.6": "c90dbcc629e88e5f56021c7dba26a97109a0c441aeece6ead217ee3fc83dcb68",
+      "hspec-core#2.10.6": "68a74267974fee22f4bc57b5d353391e8dc943b0d7ffaf5d47dab691765ee772",
+      "hspec-discover#2.10.6": "df63254c5aa8c5c2b9233b0067728394936b6c9af7e3a5d3d44df78d888dcefd",
       "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
       "integer-logarithms#1.0.3.1": "d59bfd1d39808217af2b68789d3c0e57cb7199d47405a276060d88fef4f4017d",
       "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
@@ -50,18 +49,18 @@
       ]
     },
     "doctest": {
-      "0.19.0": [
-        [ "doctest", "0.19.0" ]
+      "0.20.1": [
+        [ "doctest", "0.20.1" ]
       ]
     },
     "email-validate": {
-      "2.3.2.16": [
-        [ "email-validate", "2.3.2.16" ]
+      "2.3.2.18": [
+        [ "email-validate", "2.3.2.18" ]
       ]
     },
     "hspec-discover": {
-      "2.9.7": [
-        [ "hspec-discover", "2.9.7" ]
+      "2.10.6": [
+        [ "hspec-discover", "2.10.6" ]
       ]
     }
   },
@@ -94,25 +93,25 @@
       ]
     },
     "doctest": {
-      "0.19.0": [
+      "0.20.1": [
         [ "base-compat", "0.12.2" ],
         [ "code-page", "0.2.1" ],
-        [ "doctest", "0.19.0" ],
         [ "ghc-paths", "0.1.0.12" ],
         [ "syb", "0.7.2.2" ],
         [ "base-compat", "0.12.2" ],
         [ "code-page", "0.2.1" ],
+        [ "doctest", "0.20.1" ],
         [ "ghc-paths", "0.1.0.12" ],
         [ "syb", "0.7.2.2" ]
       ]
     },
     "email-validate": {
-      "2.3.2.16": [
+      "2.3.2.18": [
         [ "attoparsec", "0.14.4" ],
         [ "QuickCheck", "2.14.2" ],
-        [ "email-validate", "2.3.2.16" ],
-        [ "hspec", "2.9.7" ],
-        [ "doctest", "0.19.0" ]
+        [ "email-validate", "2.3.2.18" ],
+        [ "hspec", "2.10.6" ],
+        [ "doctest", "0.20.1" ]
       ]
     },
     "hashable": {
@@ -121,20 +120,19 @@
       ]
     },
     "hspec": {
-      "2.9.7": [
+      "2.10.6": [
         [ "QuickCheck", "2.14.2" ],
-        [ "hspec-core", "2.9.7" ],
-        [ "hspec-discover", "2.9.7" ],
+        [ "hspec-core", "2.10.6" ],
+        [ "hspec-discover", "2.10.6" ],
         [ "hspec-expectations", "0.8.2" ]
       ]
     },
     "hspec-core": {
-      "2.9.7": [
+      "2.10.6": [
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
         [ "ansi-terminal", "0.11.4" ],
         [ "call-stack", "0.4.0" ],
-        [ "clock", "0.8.3" ],
         [ "hspec-expectations", "0.8.2" ],
         [ "quickcheck-io", "0.2.0" ],
         [ "random", "1.2.1.1" ],
@@ -143,8 +141,8 @@
       ]
     },
     "hspec-discover": {
-      "2.9.7": [
-        [ "hspec-discover", "2.9.7" ]
+      "2.10.6": [
+        [ "hspec-discover", "2.10.6" ]
       ]
     },
     "hspec-expectations": {
@@ -228,13 +226,6 @@
         "url": "https://hackage.haskell.org/package/call-stack-0.4.0.tar.gz"
       }
     },
-    "clock": {
-      "0.8.3": {
-        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
-      }
-    },
     "code-page": {
       "0.2.1": {
         "hash": "sha256:b2f90e19c61ed8a6ff7295f7f123d4a9913c790d4cf2c6029bc299293fdb2aaa",
@@ -250,17 +241,17 @@
       }
     },
     "doctest": {
-      "0.19.0": {
-        "hash": "sha256:2815d77e33c9f8ce0c004f59d94595f090a7cc44cde0a48c489747575197d5f2",
+      "0.20.1": {
+        "hash": "sha256:44a56fd4b70f22f314ad67dcff21e32e8e96da2129d2405cb5a177cc36be4b02",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/doctest-0.19.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/doctest-0.20.1.tar.gz"
       }
     },
     "email-validate": {
-      "2.3.2.16": {
-        "hash": "sha256:b8e5f155c1ba78ae25be88858b201d138cd1363519572edd9a13a9d086f023b3",
+      "2.3.2.18": {
+        "hash": "sha256:97492da27ec2e856b807a6703be5952b15fdc9be855a32a81526e68a8b2f7185",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/email-validate-2.3.2.16/email-validate-2.3.2.16.tar.gz"
+        "url": "https://hackage.haskell.org/package/email-validate-2.3.2.18/email-validate-2.3.2.18.tar.gz"
       }
     },
     "ghc-paths": {
@@ -285,24 +276,24 @@
       }
     },
     "hspec": {
-      "2.9.7": {
-        "hash": "sha256:81ddacf76445fb547010d3582ec9d81d7cd9285258ca74bfeefd653525765a24",
+      "2.10.6": {
+        "hash": "sha256:1fefa8e38c2aa4918609f860b3c44a80b328fa66abadae04705d989455983e89",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-2.9.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-2.10.6.tar.gz"
       }
     },
     "hspec-core": {
-      "2.9.7": {
-        "hash": "sha256:16819b4b10fd22be4a72ec7f919417f722b0eba448c62be538e34e8e23fe1910",
+      "2.10.6": {
+        "hash": "sha256:95efece0ef1e3874711ea6aa378b54dfd06e4b9d757cf8027121c9d90715e0b3",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-core-2.9.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-core-2.10.6.tar.gz"
       }
     },
     "hspec-discover": {
-      "2.9.7": {
-        "hash": "sha256:65e933fe21a88a15409b0ec4d6d67fccacbaa410b96ece9e59e81a2e7b9b6614",
+      "2.10.6": {
+        "hash": "sha256:3b1c7d92330ce9a6fcf636a33ed75137df25558e954cc13779cf32414be9fe74",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-discover-2.9.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-discover-2.10.6.tar.gz"
       }
     },
     "hspec-expectations": {
