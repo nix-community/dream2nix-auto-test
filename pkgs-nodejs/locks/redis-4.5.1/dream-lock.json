@@ -3,7 +3,7 @@
     "defaultPackage": "redis",
     "location": "",
     "packages": {
-      "redis": "4.5.0"
+      "redis": "4.5.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,23 +17,23 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@redis/client": {
-      "1.4.0": [
+      "1.4.2": [
         [ "cluster-key-slot", "1.1.1" ],
         [ "generic-pool", "3.9.0" ],
         [ "yallist", "4.0.0" ]
       ]
     },
     "redis": {
-      "4.5.0": [
+      "4.5.1": [
         [ "@redis/bloom", "1.1.0" ],
-        [ "@redis/client", "1.4.0" ],
+        [ "@redis/client", "1.4.2" ],
         [ "@redis/graph", "1.1.0" ],
         [ "@redis/json", "1.0.4" ],
         [ "@redis/search", "1.1.0" ],
         [ "@redis/time-series", "1.0.4" ]
       ],
       "unknown": [
-        [ "redis", "4.5.0" ]
+        [ "redis", "4.5.1" ]
       ]
     }
   },
@@ -46,10 +46,10 @@
       }
     },
     "@redis/client": {
-      "1.4.0": {
-        "hash": "sha512-1gEj1AkyXPlkcC/9/T5xpDcQF8ntERURjLBgEWMTdUZqe181zfI9BY3jc2OzjTLkvZh5GV7VT4ktoJG2fV2ufw==",
+      "1.4.2": {
+        "hash": "sha512-oUdEjE0I7JS5AyaAjkD3aOXn9NhO7XKyPyXEyrgFDu++VrVBHUPnV6dgEya9TcMuj5nIJRuCzCm8ZP+c9zCHPw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@redis/client/-/client-1.4.0.tgz"
+        "url": "https://registry.npmjs.org/@redis/client/-/client-1.4.2.tgz"
       }
     },
     "@redis/graph": {
@@ -95,10 +95,10 @@
       }
     },
     "redis": {
-      "4.5.0": {
-        "hash": "sha512-oZGAmOKG+RPnHo0UxM5GGjJ0dBd/Vi4fs3MYwM1p2baDoXC0wpm0yOdpxVS9K+0hM84ycdysp2eHg2xGoQ4FEw==",
+      "4.5.1": {
+        "hash": "sha512-oxXSoIqMJCQVBTfxP6BNTCtDMyh9G6Vi5wjdPdV/sRKkufyZslDqCScSGcOr6XGR/reAWZefz7E4leM31RgdBA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/redis/-/redis-4.5.0.tgz"
+        "url": "https://registry.npmjs.org/redis/-/redis-4.5.1.tgz"
       }
     },
     "yallist": {
