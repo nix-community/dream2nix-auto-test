@@ -3,7 +3,7 @@
     "defaultPackage": "sha-1",
     "location": "",
     "packages": {
-      "sha-1": "0.10.0"
+      "sha-1": "0.10.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,15 +12,15 @@
     "gitSources": [],
     "meta": {
       "sha-1": {
-        "0.10.0": {
-          "description": "SHA-1 hash function", "license": [   "mit",   "asl20"
+        "0.10.1": {
+          "description": "SHA-1 hash function. This crate is deprecated! Use the sha1 crate instead.", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
       "sha-1": {
-        "0.10.0": {}
+        "0.10.1": {}
       }
     }
   },
@@ -46,6 +46,7 @@
       "0.10.6": [
         [ "blobby", "0.3.1" ],
         [ "block-buffer", "0.10.3" ],
+        [ "const-oid", "0.9.1" ],
         [ "crypto-common", "0.1.6" ]
       ]
     },
@@ -67,7 +68,7 @@
       ]
     },
     "sha-1": {
-      "0.10.0": [
+      "0.10.1": [
         [ "cfg-if", "1.0.0" ],
         [ "cpufeatures", "0.2.5" ],
         [ "digest", "0.10.6" ],
@@ -103,6 +104,12 @@
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "const-oid": {
+      "0.9.1": {
+        "hash": "cec318a675afcb6a1ea1d4340e2d377e56e47c266f28043ceccbf4412ddfdd3b",
         "type": "crates-io"
       }
     },
@@ -155,8 +162,8 @@
       }
     },
     "sha-1": {
-      "0.10.0": {
-        "hash": "028f48d513f9678cda28f6e4064755b3fbb2af6acd672f2c209b62323f7aea0f",
+      "0.10.1": {
+        "hash": "f5058ada175748e33390e40e872bd0fe59a19f265d0158daa551c5a88a76009c",
         "type": "crates-io"
       }
     },

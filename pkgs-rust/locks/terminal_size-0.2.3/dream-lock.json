@@ -3,7 +3,7 @@
     "defaultPackage": "terminal_size",
     "location": "",
     "packages": {
-      "terminal_size": "0.2.2"
+      "terminal_size": "0.2.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "terminal_size": {
-        "0.2.2": {
+        "0.2.3": {
           "description": "Gets the size of your Linux or Windows terminal", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "terminal_size": {
-        "0.2.2": {}
+        "0.2.3": {}
       }
     }
   },
@@ -35,23 +35,29 @@
     },
     "errno-dragonfly": {
       "0.1.2": [
-        [ "cc", "1.0.74" ],
+        [ "cc", "1.0.73" ],
         [ "libc", "0.2.137" ]
       ]
     },
+    "io-lifetimes": {
+      "1.0.3": [
+        [ "libc", "0.2.137" ],
+        [ "windows-sys", "0.42.0" ]
+      ]
+    },
     "rustix": {
-      "0.35.13": [
+      "0.36.4": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.2.8" ],
-        [ "io-lifetimes", "0.7.5" ],
+        [ "io-lifetimes", "1.0.3" ],
         [ "libc", "0.2.137" ],
-        [ "linux-raw-sys", "0.0.46" ],
+        [ "linux-raw-sys", "0.1.3" ],
         [ "windows-sys", "0.42.0" ]
       ]
     },
     "terminal_size": {
-      "0.2.2": [
-        [ "rustix", "0.35.13" ],
+      "0.2.3": [
+        [ "rustix", "0.36.4" ],
         [ "windows-sys", "0.42.0" ]
       ]
     },
@@ -81,8 +87,8 @@
       }
     },
     "cc": {
-      "1.0.74": {
-        "hash": "581f5dba903aac52ea3feb5ec4810848460ee833876f1f9b0fdeab1f19091574",
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
         "type": "crates-io"
       }
     },
@@ -99,8 +105,8 @@
       }
     },
     "io-lifetimes": {
-      "0.7.5": {
-        "hash": "59ce5ef949d49ee85593fc4d3f3f95ad61657076395cbbce23e2121fc5542074",
+      "1.0.3": {
+        "hash": "46112a93252b123d31a119a8d1a1ac19deac4fac6e0e8b0df58f0d4e5870e63c",
         "type": "crates-io"
       }
     },
@@ -111,20 +117,20 @@
       }
     },
     "linux-raw-sys": {
-      "0.0.46": {
-        "hash": "d4d2456c373231a208ad294c33dc5bff30051eafd954cd4caae83a712b12854d",
+      "0.1.3": {
+        "hash": "8f9f08d8963a6c613f4b1a78f4f4a4dbfadf8e6545b2d72861731e4858b8b47f",
         "type": "crates-io"
       }
     },
     "rustix": {
-      "0.35.13": {
-        "hash": "727a1a6d65f786ec22df8a81ca3121107f235970dc1705ed681d3e6e8b9cd5f9",
+      "0.36.4": {
+        "hash": "cb93e85278e08bb5788653183213d3a60fc242b10cb9be96586f5a73dcb67c23",
         "type": "crates-io"
       }
     },
     "terminal_size": {
-      "0.2.2": {
-        "hash": "40ca90c434fd12083d1a6bdcbe9f92a14f96c8a1ba600ba451734ac334521f7a",
+      "0.2.3": {
+        "hash": "cb20089a8ba2b69debd491f8d2d023761cbf196e999218c591fa1e7e15a21907",
         "type": "crates-io"
       }
     },
