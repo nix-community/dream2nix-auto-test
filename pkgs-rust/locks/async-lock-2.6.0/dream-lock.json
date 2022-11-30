@@ -27,15 +27,15 @@
   "cyclicDependencies": {},
   "dependencies": {
     "async-channel": {
-      "1.7.1": [
-        [ "concurrent-queue", "1.2.4" ],
+      "1.8.0": [
+        [ "concurrent-queue", "2.0.0" ],
         [ "event-listener", "2.5.3" ],
         [ "futures-core", "0.3.25" ]
       ]
     },
     "async-lock": {
       "2.6.0": [
-        [ "async-channel", "1.7.1" ],
+        [ "async-channel", "1.8.0" ],
         [ "event-listener", "2.5.3" ],
         [ "fastrand", "1.8.0" ],
         [ "futures-lite", "1.12.0" ],
@@ -43,14 +43,19 @@
       ]
     },
     "concurrent-queue": {
-      "1.2.4": [
-        [ "cache-padded", "1.2.0" ]
+      "2.0.0": [
+        [ "crossbeam-utils", "0.8.14" ]
       ]
     },
     "console_error_panic_hook": {
       "0.1.7": [
         [ "cfg-if", "1.0.0" ],
         [ "wasm-bindgen", "0.2.83" ]
+      ]
+    },
+    "crossbeam-utils": {
+      "0.8.14": [
+        [ "cfg-if", "1.0.0" ]
       ]
     },
     "fastrand": {
@@ -166,8 +171,8 @@
   },
   "sources": {
     "async-channel": {
-      "1.7.1": {
-        "hash": "e14485364214912d3b19cc3435dde4df66065127f05fa0d75c712f36f12c2f28",
+      "1.8.0": {
+        "hash": "cf46fee83e5ccffc220104713af3292ff9bc7c64c7de289f66dae8e38d826833",
         "type": "crates-io"
       }
     },
@@ -183,12 +188,6 @@
         "type": "crates-io"
       }
     },
-    "cache-padded": {
-      "1.2.0": {
-        "hash": "c1db59621ec70f09c5e9b597b220c7a2b43611f4710dc03ceb8748637775692c",
-        "type": "crates-io"
-      }
-    },
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
@@ -196,14 +195,20 @@
       }
     },
     "concurrent-queue": {
-      "1.2.4": {
-        "hash": "af4780a44ab5696ea9e28294517f1fffb421a83a25af521333c838635509db9c",
+      "2.0.0": {
+        "hash": "bd7bef69dc86e3c610e4e7aed41035e2a7ed12e72dd7530f61327a6579a4390b",
         "type": "crates-io"
       }
     },
     "console_error_panic_hook": {
       "0.1.7": {
         "hash": "a06aeb73f470f66dcdbf7223caeebb85984942f22f1adb2a088cf9668146bbbc",
+        "type": "crates-io"
+      }
+    },
+    "crossbeam-utils": {
+      "0.8.14": {
+        "hash": "4fb766fa798726286dbbb842f174001dab8abc7b627a1dd86e0b7222a95d929f",
         "type": "crates-io"
       }
     },

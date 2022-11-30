@@ -31,8 +31,8 @@
       ]
     },
     "async-channel": {
-      "1.7.1": [
-        [ "concurrent-queue", "1.2.4" ],
+      "1.8.0": [
+        [ "concurrent-queue", "2.0.0" ],
         [ "event-listener", "2.5.3" ],
         [ "futures-core", "0.3.25" ]
       ]
@@ -57,7 +57,7 @@
     },
     "async-global-executor": {
       "2.3.1": [
-        [ "async-channel", "1.7.1" ],
+        [ "async-channel", "1.8.0" ],
         [ "async-executor", "1.5.0" ],
         [ "async-io", "1.12.0" ],
         [ "async-lock", "2.6.0" ],
@@ -75,7 +75,7 @@
         [ "libc", "0.2.137" ],
         [ "log", "0.4.17" ],
         [ "parking", "2.0.0" ],
-        [ "polling", "2.5.0" ],
+        [ "polling", "2.5.1" ],
         [ "slab", "0.4.7" ],
         [ "socket2", "0.4.7" ],
         [ "waker-fn", "1.1.0" ],
@@ -112,7 +112,7 @@
     },
     "async-std": {
       "1.12.0": [
-        [ "async-channel", "1.7.1" ],
+        [ "async-channel", "1.8.0" ],
         [ "async-global-executor", "2.3.1" ],
         [ "async-io", "1.12.0" ],
         [ "async-lock", "2.6.0" ],
@@ -121,7 +121,7 @@
         [ "futures-core", "0.3.25" ],
         [ "futures-io", "0.3.25" ],
         [ "futures-lite", "1.12.0" ],
-        [ "gloo-timers", "0.2.4" ],
+        [ "gloo-timers", "0.2.5" ],
         [ "kv-log-macro", "1.0.7" ],
         [ "log", "0.4.17" ],
         [ "memchr", "2.5.0" ],
@@ -141,7 +141,7 @@
     },
     "blocking": {
       "1.3.0": [
-        [ "async-channel", "1.7.1" ],
+        [ "async-channel", "1.8.0" ],
         [ "async-lock", "2.6.0" ],
         [ "async-task", "4.3.0" ],
         [ "atomic-waker", "1.0.0" ],
@@ -184,9 +184,6 @@
       ]
     },
     "concurrent-queue": {
-      "1.2.4": [
-        [ "cache-padded", "1.2.0" ]
-      ],
       "2.0.0": [
         [ "crossbeam-utils", "0.8.14" ]
       ]
@@ -215,7 +212,7 @@
         [ "serde", "1.0.148" ],
         [ "serde_derive", "1.0.148" ],
         [ "serde_json", "1.0.89" ],
-        [ "smol", "1.2.5" ],
+        [ "smol", "1.3.0" ],
         [ "tempfile", "3.3.0" ],
         [ "tinytemplate", "1.2.1" ],
         [ "tokio", "1.22.0" ],
@@ -336,7 +333,7 @@
       ]
     },
     "gloo-timers": {
-      "0.2.4": [
+      "0.2.5": [
         [ "futures-channel", "0.3.25" ],
         [ "futures-core", "0.3.25" ],
         [ "js-sys", "0.3.60" ],
@@ -411,7 +408,7 @@
       ]
     },
     "polling": {
-      "2.5.0": [
+      "2.5.1": [
         [ "autocfg", "1.1.0" ],
         [ "cfg-if", "1.0.0" ],
         [ "libc", "0.2.137" ],
@@ -524,8 +521,8 @@
       ]
     },
     "smol": {
-      "1.2.5": [
-        [ "async-channel", "1.7.1" ],
+      "1.3.0": [
+        [ "async-channel", "1.8.0" ],
         [ "async-executor", "1.5.0" ],
         [ "async-fs", "1.6.0" ],
         [ "async-io", "1.12.0" ],
@@ -533,8 +530,7 @@
         [ "async-net", "1.7.0" ],
         [ "async-process", "1.6.0" ],
         [ "blocking", "1.3.0" ],
-        [ "futures-lite", "1.12.0" ],
-        [ "once_cell", "1.16.0" ]
+        [ "futures-lite", "1.12.0" ]
       ]
     },
     "socket2": {
@@ -673,8 +669,8 @@
       }
     },
     "async-channel": {
-      "1.7.1": {
-        "hash": "e14485364214912d3b19cc3435dde4df66065127f05fa0d75c712f36f12c2f28",
+      "1.8.0": {
+        "hash": "cf46fee83e5ccffc220104713af3292ff9bc7c64c7de289f66dae8e38d826833",
         "type": "crates-io"
       }
     },
@@ -774,12 +770,6 @@
         "type": "crates-io"
       }
     },
-    "cache-padded": {
-      "1.2.0": {
-        "hash": "c1db59621ec70f09c5e9b597b220c7a2b43611f4710dc03ceb8748637775692c",
-        "type": "crates-io"
-      }
-    },
     "cast": {
       "0.3.0": {
         "hash": "37b2a672a2cb129a2e41c10b1224bb368f9f37a2b16b612598138befd7b37eb5",
@@ -829,10 +819,6 @@
       }
     },
     "concurrent-queue": {
-      "1.2.4": {
-        "hash": "af4780a44ab5696ea9e28294517f1fffb421a83a25af521333c838635509db9c",
-        "type": "crates-io"
-      },
       "2.0.0": {
         "hash": "bd7bef69dc86e3c610e4e7aed41035e2a7ed12e72dd7530f61327a6579a4390b",
         "type": "crates-io"
@@ -971,8 +957,8 @@
       }
     },
     "gloo-timers": {
-      "0.2.4": {
-        "hash": "5fb7d06c1c8cc2a29bee7ec961009a0b2caa0793ee4900c2ffb348734ba1c8f9",
+      "0.2.5": {
+        "hash": "98c4a8d6391675c6b2ee1a6c8d06e8e2d03605c44cec1270675985a4c2a5500b",
         "type": "crates-io"
       }
     },
@@ -1131,8 +1117,8 @@
       }
     },
     "polling": {
-      "2.5.0": {
-        "hash": "9f7d73f1eaed1ca1fb37b54dcc9b38e3b17d6c7b8ecb7abfffcac8d0351f17d4",
+      "2.5.1": {
+        "hash": "166ca89eb77fd403230b9c156612965a81e094ec6ec3aa13663d4c8b113fa748",
         "type": "crates-io"
       }
     },
@@ -1275,8 +1261,8 @@
       }
     },
     "smol": {
-      "1.2.5": {
-        "hash": "85cf3b5351f3e783c1d79ab5fc604eeed8b8ae9abd36b166e8b87a089efd85e4",
+      "1.3.0": {
+        "hash": "13f2b548cd8447f8de0fdf1c592929f70f4fc7039a05e47404b0d096ec6987a1",
         "type": "crates-io"
       }
     },
