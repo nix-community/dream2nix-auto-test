@@ -23,7 +23,7 @@
       "Rasterific#0.7.5.4": "b74007bb298cb6a1e7bd42c6b45df311ffe982f6c5161360b077d4492b6177dd",
       "SHA#1.6.4.4": "3b7523df3e2186ae8c5ac78c745efb586814afe9c775b886a747556d9f4d429c",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
-      "active#0.2.0.16": "0fc2d83741b9b09f9d3867d29b14d6f996aff1cec13810af1285788993b8b730",
+      "active#0.2.0.16": "c892097f30adbb891035b703fee2b7d5668d513cbb21975f2e8e045672e6ce33",
       "adjunctions#4.4.2": "4c6fb647f522c46c0af513f705dab1d890860e536e0405c78389d425296ac0b4",
       "aeson#2.0.3.0": "510c59bece9c6b3d9e999674b869c765cdc3df9f9f90b6871df3e62f87b12fff",
       "aeson-pretty#0.8.9": "f7b1808efab1b9edd0efbdfc2cd47e7dfe8bbd42ee970d1d3780112a4de125a1",
@@ -75,7 +75,7 @@
       "data-default-instances-old-locale#0.0.1": "d4a757f68f0f83531fcb34a4525fe6769c54a45182e28ffdfff19c2b0ace42fb",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "diagrams-builder#0.8.0.5": "661c3e81c3de2dc161a6ee477d951b9158a322ce8364010b4cdb992296983c40",
-      "diagrams-core#1.5.0.1": "1ae7c35c61da6acc4f0cba6ac9457da9b507ae95456512e76a7cc109003cb0c0",
+      "diagrams-core#1.5.0.1": "d5e7b6c7d164bbb8bca0e9818fae23041de865498fe05bd925d97700b65f50bd",
       "diagrams-lib#1.4.5.3": "64877854ce8227c616eadcca9fd94b86af628f0880bf175777222d88321076f6",
       "diagrams-rasterific#1.4.2.2": "4ebad1ff8338e8434e080048dbbc0d9f8fc82b43f4e8f1766ece5731492e73ee",
       "diagrams-solve#0.1.3": "10ecc7080d2521202bd635673ccea9b4ee10dbd4c784a1e186879e805f0ce636",
@@ -88,7 +88,7 @@
       "emojis#0.1.2": "3932d99972b998464beb4d67eddebeb00a21dab3e3b2d68bdb996e5cb0ccbc26",
       "file-embed#0.0.15.0": "18beed8999dff37bcffd0d1d8a59dcd406be8e517c10213afefc941091985c06",
       "fingertree#0.1.5.0": "dee81b0538430657e086189a80d17196bd91442adfdec2d73459e3029edfc1a8",
-      "free#5.1.9": "f4cef1f00b5686b4c93a4ed2306ebfa8fe27c5bd10adb8c57dfaf86f3bf3768c",
+      "free#5.1.10": "b88705deb7b5fefce0bc8186ccab6c1ef58858c759fb27171e4c4443efef5973",
       "fsnotify#0.4.1.0": "44540beabea36aeeef930aa4d5f28091d431904bc9923b6ac4d358831c651235",
       "ghc-paths#0.1.0.12": "1c9cf34ed8f2584bc4dd2837657ea3056664daa8127c66264704a3442651bfb4",
       "groups#0.5.3": "b536d995c65281f5b891a694213fe4abce2fcee71ebda08bb9ec9e334cdcc741",
@@ -269,6 +269,8 @@
   "dependencies": {
     "BlogLiterately": {
       "0.8.8.1": [
+        [ "BlogLiterately", "0.8.8.1" ],
+        [ "cmdargs", "0.10.21" ],
         [ "HTTP", "4000.4.1" ],
         [ "HaXml", "1.25.12" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -285,9 +287,7 @@
         [ "split", "0.2.3.5" ],
         [ "strict", "0.4.0.1" ],
         [ "tagsoup", "0.14.8" ],
-        [ "temporary", "1.3" ],
-        [ "BlogLiterately", "0.8.8.1" ],
-        [ "cmdargs", "0.10.21" ]
+        [ "temporary", "1.3" ]
       ]
     },
     "BlogLiterately-diagrams": {
@@ -367,7 +367,7 @@
         [ "FontyFruity", "0.5.3.5" ],
         [ "JuicyPixels", "3.3.8" ],
         [ "dlist", "1.0" ],
-        [ "free", "5.1.9" ],
+        [ "free", "5.1.10" ],
         [ "primitive", "0.7.4.0" ],
         [ "vector", "0.13.0.0" ],
         [ "vector-algorithms", "0.9.0.1" ]
@@ -387,7 +387,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "free", "5.1.9" ],
+        [ "free", "5.1.10" ],
         [ "profunctors", "5.6.2" ],
         [ "semigroupoids", "5.3.7" ],
         [ "semigroups", "0.20" ],
@@ -751,7 +751,7 @@
       ]
     },
     "free": {
-      "5.1.9": [
+      "5.1.10": [
         [ "comonad", "5.0.8" ],
         [ "distributive", "0.6.2.1" ],
         [ "indexed-traversable", "0.1.2" ],
@@ -1029,7 +1029,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "free", "5.1.9" ],
+        [ "free", "5.1.10" ],
         [ "invariant", "0.6" ],
         [ "profunctors", "5.6.2" ],
         [ "semigroupoids", "5.3.7" ],
@@ -1046,7 +1046,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "free", "5.1.9" ],
+        [ "free", "5.1.10" ],
         [ "hashable", "1.4.1.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
@@ -2098,10 +2098,10 @@
       }
     },
     "free": {
-      "5.1.9": {
-        "hash": "sha256:2e751309408550ebccc2708170ec8473eac1e35b4bc1016bee0776ac938e9fee",
+      "5.1.10": {
+        "hash": "sha256:12dea4ff94dd475d4249e93abb385d9c0399c13e3cb3f4132d316e0b32700e72",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/free-5.1.9.tar.gz"
+        "url": "https://hackage.haskell.org/package/free-5.1.10.tar.gz"
       }
     },
     "fsnotify": {
