@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "@storybook/addons",
+    "defaultPackage": "@storybook/addon-links",
     "location": "",
     "packages": {
-      "@storybook/addons": "6.5.13"
+      "@storybook/addon-links": "6.5.14"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -16,33 +16,49 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "@storybook/addons": {
-      "6.5.13": [
-        [ "@storybook/api", "6.5.13" ],
-        [ "@storybook/channels", "6.5.13" ],
-        [ "@storybook/client-logger", "6.5.13" ],
-        [ "@storybook/core-events", "6.5.13" ],
+    "@storybook/addon-links": {
+      "6.5.14": [
+        [ "@storybook/addons", "6.5.14" ],
+        [ "@storybook/client-logger", "6.5.14" ],
+        [ "@storybook/core-events", "6.5.14" ],
         [ "@storybook/csf", "0.0.2--canary.4566f4d.1" ],
-        [ "@storybook/router", "6.5.13" ],
-        [ "@storybook/theming", "6.5.13" ],
+        [ "@storybook/router", "6.5.14" ],
+        [ "@types/qs", "6.9.7" ],
+        [ "core-js", "3.26.1" ],
+        [ "global", "4.4.0" ],
+        [ "prop-types", "15.8.1" ],
+        [ "qs", "6.11.0" ],
+        [ "regenerator-runtime", "0.13.11" ],
+        [ "ts-dedent", "2.2.0" ]
+      ],
+      "unknown": [
+        [ "@storybook/addon-links", "6.5.14" ]
+      ]
+    },
+    "@storybook/addons": {
+      "6.5.14": [
+        [ "@storybook/api", "6.5.14" ],
+        [ "@storybook/channels", "6.5.14" ],
+        [ "@storybook/client-logger", "6.5.14" ],
+        [ "@storybook/core-events", "6.5.14" ],
+        [ "@storybook/csf", "0.0.2--canary.4566f4d.1" ],
+        [ "@storybook/router", "6.5.14" ],
+        [ "@storybook/theming", "6.5.14" ],
         [ "@types/webpack-env", "1.18.0" ],
         [ "core-js", "3.26.1" ],
         [ "global", "4.4.0" ],
         [ "regenerator-runtime", "0.13.11" ]
-      ],
-      "unknown": [
-        [ "@storybook/addons", "6.5.13" ]
       ]
     },
     "@storybook/api": {
-      "6.5.13": [
-        [ "@storybook/channels", "6.5.13" ],
-        [ "@storybook/client-logger", "6.5.13" ],
-        [ "@storybook/core-events", "6.5.13" ],
+      "6.5.14": [
+        [ "@storybook/channels", "6.5.14" ],
+        [ "@storybook/client-logger", "6.5.14" ],
+        [ "@storybook/core-events", "6.5.14" ],
         [ "@storybook/csf", "0.0.2--canary.4566f4d.1" ],
-        [ "@storybook/router", "6.5.13" ],
+        [ "@storybook/router", "6.5.14" ],
         [ "@storybook/semver", "7.3.2" ],
-        [ "@storybook/theming", "6.5.13" ],
+        [ "@storybook/theming", "6.5.14" ],
         [ "core-js", "3.26.1" ],
         [ "fast-deep-equal", "3.1.3" ],
         [ "global", "4.4.0" ],
@@ -56,20 +72,20 @@
       ]
     },
     "@storybook/channels": {
-      "6.5.13": [
+      "6.5.14": [
         [ "core-js", "3.26.1" ],
         [ "ts-dedent", "2.2.0" ],
         [ "util-deprecate", "1.0.2" ]
       ]
     },
     "@storybook/client-logger": {
-      "6.5.13": [
+      "6.5.14": [
         [ "core-js", "3.26.1" ],
         [ "global", "4.4.0" ]
       ]
     },
     "@storybook/core-events": {
-      "6.5.13": [
+      "6.5.14": [
         [ "core-js", "3.26.1" ]
       ]
     },
@@ -79,8 +95,8 @@
       ]
     },
     "@storybook/router": {
-      "6.5.13": [
-        [ "@storybook/client-logger", "6.5.13" ],
+      "6.5.14": [
+        [ "@storybook/client-logger", "6.5.14" ],
         [ "core-js", "3.26.1" ],
         [ "memoizerific", "1.11.3" ],
         [ "qs", "6.11.0" ],
@@ -94,8 +110,8 @@
       ]
     },
     "@storybook/theming": {
-      "6.5.13": [
-        [ "@storybook/client-logger", "6.5.13" ],
+      "6.5.14": [
+        [ "@storybook/client-logger", "6.5.14" ],
         [ "core-js", "3.26.1" ],
         [ "memoizerific", "1.11.3" ],
         [ "regenerator-runtime", "0.13.11" ]
@@ -177,6 +193,13 @@
         [ "p-limit", "2.3.0" ]
       ]
     },
+    "prop-types": {
+      "15.8.1": [
+        [ "loose-envify", "1.4.0" ],
+        [ "object-assign", "4.1.1" ],
+        [ "react-is", "16.13.1" ]
+      ]
+    },
     "qs": {
       "6.11.0": [
         [ "side-channel", "1.0.4" ]
@@ -219,39 +242,46 @@
     }
   },
   "sources": {
-    "@storybook/addons": {
-      "6.5.13": {
-        "hash": "sha512-18CqzNnrGMfeZtiKz+R/3rHtSNnfNwz6y6prIQIbWseK16jY8ELTfIFGviwO5V2OqpbHDQi5+xQQ63QAIb89YA==",
+    "@storybook/addon-links": {
+      "6.5.14": {
+        "hash": "sha512-Q4gNVFi3PqJH/YYmYJ6xX7a2VPZYs8QV97fMIjdg7/k4FLelSRj7QfsHc7jO2RGG2qQpenapO569jFoVNAW4/Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@storybook/addons/-/addons-6.5.13.tgz"
+        "url": "https://registry.npmjs.org/@storybook/addon-links/-/addon-links-6.5.14.tgz"
+      }
+    },
+    "@storybook/addons": {
+      "6.5.14": {
+        "hash": "sha512-8wVy1eDKipj+dmWpVmmPa1p2jYVqDvrkWll4IsP/KU7AYFCiyCiVAd1ZPDv9EhDnwArfYYjrdJjAl6gmP0UMag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@storybook/addons/-/addons-6.5.14.tgz"
       }
     },
     "@storybook/api": {
-      "6.5.13": {
-        "hash": "sha512-xVSmB7/IuFd6G7eiJjbI2MuS7SZunoUM6d+YCWpjiehfMeX47MXt1gZtOwFrgJC1ShZlefXFahq/dvxwtmWs+w==",
+      "6.5.14": {
+        "hash": "sha512-RpgEWV4mxD1mNsGWkjSNq3+B/LFNIhXZc4OapEEK5u0jgCZKB7OCsRL9NJZB5WfpyN+vx8SwbUTgo8DIkes3qw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@storybook/api/-/api-6.5.13.tgz"
+        "url": "https://registry.npmjs.org/@storybook/api/-/api-6.5.14.tgz"
       }
     },
     "@storybook/channels": {
-      "6.5.13": {
-        "hash": "sha512-sGYSilE30bz0jG+HdHnkv0B4XkAv2hP+KRZr4xmnv+MOOQpRnZpJ5Z3HVU16s17cj/83NWihKj6BuKcEVzyilg==",
+      "6.5.14": {
+        "hash": "sha512-hHpr4Sya6fuEDhy7vnfD2QnL5wy1CaAK9BC0FLupndXnQyKJtygfIaUP4a0B2KntuNPbzPhclb2Hb4yM7CExmQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@storybook/channels/-/channels-6.5.13.tgz"
+        "url": "https://registry.npmjs.org/@storybook/channels/-/channels-6.5.14.tgz"
       }
     },
     "@storybook/client-logger": {
-      "6.5.13": {
-        "hash": "sha512-F2SMW3LWFGXLm2ENTwTitrLWJgmMXRf3CWQXdN2EbkNCIBHy5Zcbt+91K4OX8e2e5h9gjGfrdYbyYDYOoUCEfA==",
+      "6.5.14": {
+        "hash": "sha512-r1pY69DGKzX9/GngkudthaaPxPlka16zjG7Y58psunwcoUuH3riAP1cjqhXt5+S8FKCNI/MGb82PLlCPX2Liuw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@storybook/client-logger/-/client-logger-6.5.13.tgz"
+        "url": "https://registry.npmjs.org/@storybook/client-logger/-/client-logger-6.5.14.tgz"
       }
     },
     "@storybook/core-events": {
-      "6.5.13": {
-        "hash": "sha512-kL745tPpRKejzHToA3/CoBNbI+NPRVk186vGxXBmk95OEg0TlwgQExP8BnqEtLlRZMbW08e4+6kilc1M1M4N5w==",
+      "6.5.14": {
+        "hash": "sha512-PLu0M8Mqt9ruN5RupgcFKHEybiSm3CdWQyylWO5FRGg+WZV3BCm0aI8ujvO1GAm+YEi57Lull+M9d6NUycTpRg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@storybook/core-events/-/core-events-6.5.13.tgz"
+        "url": "https://registry.npmjs.org/@storybook/core-events/-/core-events-6.5.14.tgz"
       }
     },
     "@storybook/csf": {
@@ -262,10 +292,10 @@
       }
     },
     "@storybook/router": {
-      "6.5.13": {
-        "hash": "sha512-sf5aogfirH5ucD0d0hc2mKf2iyWsZsvXhr5kjxUQmgkcoflkGUWhc34sbSQVRQ1i8K5lkLIDH/q2s1Zr2SbzhQ==",
+      "6.5.14": {
+        "hash": "sha512-AvHbpRUAHnzm5pmwFPjDR09uPjQITD6kA0QNa2pe+7/Q/b4k40z5dHvHZJ/YhWhwVwGqGBG20KdDOl30wLXAZw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@storybook/router/-/router-6.5.13.tgz"
+        "url": "https://registry.npmjs.org/@storybook/router/-/router-6.5.14.tgz"
       }
     },
     "@storybook/semver": {
@@ -276,10 +306,10 @@
       }
     },
     "@storybook/theming": {
-      "6.5.13": {
-        "hash": "sha512-oif5NGFAUQhizo50r+ctw2hZNLWV4dPHai+L/gFvbaSeRBeHSNkIcMoZ2FlrO566HdGZTDutYXcR+xus8rI28g==",
+      "6.5.14": {
+        "hash": "sha512-3ff6RLZGaIil/AFJ0/BRlE2hhdPrC5v6wGbRfroZVmGldRCxio/7+KAA3LH6cuHnjK5MeBcCBaHuxzXqGmbEFw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@storybook/theming/-/theming-6.5.13.tgz"
+        "url": "https://registry.npmjs.org/@storybook/theming/-/theming-6.5.14.tgz"
       }
     },
     "@types/is-function": {
@@ -287,6 +317,13 @@
         "hash": "sha512-A79HEEiwXTFtfY+Bcbo58M2GRYzCr9itHWzbzHVFNEYCcoU/MMGwYYf721gBrnhpj1s6RGVVha/IgNFnR0Iw/Q==",
         "type": "http",
         "url": "https://registry.npmjs.org/@types/is-function/-/is-function-1.0.1.tgz"
+      }
+    },
+    "@types/qs": {
+      "6.9.7": {
+        "hash": "sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/qs/-/qs-6.9.7.tgz"
       }
     },
     "@types/webpack-env": {
@@ -450,6 +487,13 @@
         "url": "https://registry.npmjs.org/min-document/-/min-document-2.19.0.tgz"
       }
     },
+    "object-assign": {
+      "4.1.1": {
+        "hash": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+      }
+    },
     "object-inspect": {
       "1.12.2": {
         "hash": "sha512-z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==",
@@ -492,6 +536,13 @@
         "url": "https://registry.npmjs.org/process/-/process-0.11.10.tgz"
       }
     },
+    "prop-types": {
+      "15.8.1": {
+        "hash": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
+      }
+    },
     "qs": {
       "6.11.0": {
         "hash": "sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==",
@@ -511,6 +562,13 @@
         "hash": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==",
         "type": "http",
         "url": "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+      }
+    },
+    "react-is": {
+      "16.13.1": {
+        "hash": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
       }
     },
     "regenerator-runtime": {
