@@ -15,9 +15,10 @@
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
-      "hspec#2.10.6": "c90dbcc629e88e5f56021c7dba26a97109a0c441aeece6ead217ee3fc83dcb68",
-      "hspec-core#2.10.6": "68a74267974fee22f4bc57b5d353391e8dc943b0d7ffaf5d47dab691765ee772",
-      "hspec-discover#2.10.6": "df63254c5aa8c5c2b9233b0067728394936b6c9af7e3a5d3d44df78d888dcefd",
+      "haskell-lexer#1.1": "9e0a7633f6bdb59004c6f3144ebfad1edb9e440fc6a94215c3a1d11bcd8656ef",
+      "hspec#2.10.7": "7a11550ecd1d741fdca9415a4190279d8113107a20e4e59da9b199c5c0fb0107",
+      "hspec-core#2.10.7": "fa6e13c51d7542492d39e9208d0c4be564bc39a6a788f5a3fe9e864e5fe242ea",
+      "hspec-discover#2.10.7": "55c33806a9700cea5fa3446db224984a09d5f2d4e0ac9a728812784e454b08c1",
       "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
       "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
@@ -33,8 +34,8 @@
   },
   "cyclicDependencies": {
     "hspec-discover": {
-      "2.10.6": [
-        [ "hspec-discover", "2.10.6" ]
+      "2.10.7": [
+        [ "hspec-discover", "2.10.7" ]
       ]
     }
   },
@@ -57,25 +58,26 @@
     },
     "clay": {
       "0.14.0": [
-        [ "hspec", "2.10.6" ],
-        [ "hspec-discover", "2.10.6" ],
-        [ "hspec-discover", "2.10.6" ]
+        [ "hspec", "2.10.7" ],
+        [ "hspec-discover", "2.10.7" ],
+        [ "hspec-discover", "2.10.7" ]
       ]
     },
     "hspec": {
-      "2.10.6": [
+      "2.10.7": [
         [ "QuickCheck", "2.14.2" ],
-        [ "hspec-core", "2.10.6" ],
-        [ "hspec-discover", "2.10.6" ],
+        [ "hspec-core", "2.10.7" ],
+        [ "hspec-discover", "2.10.7" ],
         [ "hspec-expectations", "0.8.2" ]
       ]
     },
     "hspec-core": {
-      "2.10.6": [
+      "2.10.7": [
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
         [ "ansi-terminal", "0.11.4" ],
         [ "call-stack", "0.4.0" ],
+        [ "haskell-lexer", "1.1" ],
         [ "hspec-expectations", "0.8.2" ],
         [ "quickcheck-io", "0.2.0" ],
         [ "random", "1.2.1.1" ],
@@ -84,8 +86,8 @@
       ]
     },
     "hspec-discover": {
-      "2.10.6": [
-        [ "hspec-discover", "2.10.6" ]
+      "2.10.7": [
+        [ "hspec-discover", "2.10.7" ]
       ]
     },
     "hspec-expectations": {
@@ -155,25 +157,32 @@
         "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
       }
     },
-    "hspec": {
-      "2.10.6": {
-        "hash": "sha256:1fefa8e38c2aa4918609f860b3c44a80b328fa66abadae04705d989455983e89",
+    "haskell-lexer": {
+      "1.1": {
+        "hash": "sha256:313a15cc643322c8badd148867ce25ca1ffc191df9e7eeec5b10bc08c4b563d5",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-2.10.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/haskell-lexer-1.1.tar.gz"
+      }
+    },
+    "hspec": {
+      "2.10.7": {
+        "hash": "sha256:39a7bb9f2a491666ce2ebb271cd546ec27acbe174ec1ebc325345fe09265d18c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hspec-2.10.7.tar.gz"
       }
     },
     "hspec-core": {
-      "2.10.6": {
-        "hash": "sha256:95efece0ef1e3874711ea6aa378b54dfd06e4b9d757cf8027121c9d90715e0b3",
+      "2.10.7": {
+        "hash": "sha256:4f58394439eae30d3f558c6a23becc6df0b71a90a0c0e00fa7ebbac2da933306",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-core-2.10.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-core-2.10.7.tar.gz"
       }
     },
     "hspec-discover": {
-      "2.10.6": {
-        "hash": "sha256:3b1c7d92330ce9a6fcf636a33ed75137df25558e954cc13779cf32414be9fe74",
+      "2.10.7": {
+        "hash": "sha256:6d87bcc2a113098d04a9b7d120d6a7a9ba4efe29cf7e2545c4f476b4d046a377",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-discover-2.10.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-discover-2.10.7.tar.gz"
       }
     },
     "hspec-expectations": {
