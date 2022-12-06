@@ -3,7 +3,7 @@
     "defaultPackage": "antd",
     "location": "",
     "packages": {
-      "antd": "5.0.3"
+      "antd": "5.0.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -18,7 +18,7 @@
   "dependencies": {
     "@ant-design/colors": {
       "6.0.0": [
-        [ "@ctrl/tinycolor", "3.4.1" ]
+        [ "@ctrl/tinycolor", "3.5.0" ]
       ]
     },
     "@ant-design/cssinjs": {
@@ -55,6 +55,11 @@
         [ "regenerator-runtime", "0.13.11" ]
       ]
     },
+    "@rc-component/mini-decimal": {
+      "1.0.1": [
+        [ "@babel/runtime", "7.20.6" ]
+      ]
+    },
     "@rc-component/portal": {
       "1.0.3": [
         [ "@babel/runtime", "7.20.6" ],
@@ -72,13 +77,13 @@
       ]
     },
     "antd": {
-      "5.0.3": [
+      "5.0.4": [
         [ "@ant-design/colors", "6.0.0" ],
         [ "@ant-design/cssinjs", "1.1.0" ],
         [ "@ant-design/icons", "4.8.0" ],
         [ "@ant-design/react-slick", "0.29.2" ],
         [ "@babel/runtime", "7.20.6" ],
-        [ "@ctrl/tinycolor", "3.4.1" ],
+        [ "@ctrl/tinycolor", "3.5.0" ],
         [ "@rc-component/tour", "1.0.1" ],
         [ "classnames", "2.3.2" ],
         [ "copy-to-clipboard", "3.3.3" ],
@@ -93,7 +98,7 @@
         [ "rc-field-form", "1.27.3" ],
         [ "rc-image", "5.12.1" ],
         [ "rc-input", "0.1.4" ],
-        [ "rc-input-number", "7.3.11" ],
+        [ "rc-input-number", "7.4.0" ],
         [ "rc-mentions", "1.13.1" ],
         [ "rc-menu", "9.8.1" ],
         [ "rc-motion", "2.6.2" ],
@@ -121,7 +126,7 @@
         [ "shallowequal", "1.1.0" ]
       ],
       "unknown": [
-        [ "antd", "5.0.3" ]
+        [ "antd", "5.0.4" ]
       ]
     },
     "copy-to-clipboard": {
@@ -224,8 +229,9 @@
       ]
     },
     "rc-input-number": {
-      "7.3.11": [
+      "7.4.0": [
         [ "@babel/runtime", "7.20.6" ],
+        [ "@rc-component/mini-decimal", "1.0.1" ],
         [ "classnames", "2.3.2" ],
         [ "rc-util", "5.25.2" ]
       ]
@@ -503,10 +509,10 @@
       }
     },
     "@ctrl/tinycolor": {
-      "3.4.1": {
-        "hash": "sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==",
+      "3.5.0": {
+        "hash": "sha512-tlJpwF40DEQcfR/QF+wNMVyGMaO9FQp6Z1Wahj4Gk3CJQYHwA2xVG7iKDFdW6zuxZY9XWOpGcfNCTsX4McOsOg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz"
+        "url": "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.5.0.tgz"
       }
     },
     "@emotion/hash": {
@@ -521,6 +527,13 @@
         "hash": "sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==",
         "type": "http",
         "url": "https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz"
+      }
+    },
+    "@rc-component/mini-decimal": {
+      "1.0.1": {
+        "hash": "sha512-9N8nRk0oKj1qJzANKl+n9eNSMUGsZtjwNuDCiZ/KA+dt1fE3zq5x2XxclRcAbOIXnZcJ53ozP2Pa60gyELXagA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.0.1.tgz"
       }
     },
     "@rc-component/portal": {
@@ -538,10 +551,10 @@
       }
     },
     "antd": {
-      "5.0.3": {
-        "hash": "sha512-Gqkba0earlR5H6gfT4nsyV3W9rL1Up1+clEXsa1+9Jem/geC2phBImpjWgVjqOjH3L5Oi8SHe0NeYBagDxwP5g==",
+      "5.0.4": {
+        "hash": "sha512-SbMmMTpenY8OfNABJl9/xEGhLP+2mQBbFxelT8ySFb7BR6KwsaVbz6BJOaBWmHBwNq86gXQWJtouQ9Znb6p0RA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/antd/-/antd-5.0.3.tgz"
+        "url": "https://registry.npmjs.org/antd/-/antd-5.0.4.tgz"
       }
     },
     "array-tree-filter": {
@@ -699,10 +712,10 @@
       }
     },
     "rc-input-number": {
-      "7.3.11": {
-        "hash": "sha512-aMWPEjFeles6PQnMqP5eWpxzsvHm9rh1jQOWXExUEIxhX62Fyl/ptifLHOn17+waDG1T/YUb6flfJbvwRhHrbA==",
+      "7.4.0": {
+        "hash": "sha512-r/Oub/sPYbzqLNUOHnnc9sbCu78a81KX+RCbRwmpvB4W6nptUySbdWS5KHV4Hak5CAE1LAd+wWm5JjvZizG1FA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-input-number/-/rc-input-number-7.3.11.tgz"
+        "url": "https://registry.npmjs.org/rc-input-number/-/rc-input-number-7.4.0.tgz"
       }
     },
     "rc-mentions": {
