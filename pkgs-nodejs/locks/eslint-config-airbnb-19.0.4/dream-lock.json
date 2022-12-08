@@ -17,17 +17,17 @@
   "cyclicDependencies": {
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.6": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     }
   },
@@ -98,7 +98,7 @@
       "3.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -107,7 +107,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -115,7 +115,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -123,7 +123,7 @@
       "1.1.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-shim-unscopables", "1.0.0" ],
         [ "get-intrinsic", "1.1.3" ]
       ]
@@ -184,13 +184,14 @@
       ]
     },
     "es-abstract": {
-      "1.20.4": [
+      "1.20.5": [
         [ "call-bind", "1.0.2" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "get-symbol-description", "1.0.0" ],
+        [ "gopd", "1.0.1" ],
         [ "has", "1.0.3" ],
         [ "has-property-descriptors", "1.0.0" ],
         [ "has-symbols", "1.0.3" ],
@@ -402,7 +403,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -437,6 +438,11 @@
     "globals": {
       "13.18.0": [
         [ "type-fest", "0.20.2" ]
+      ]
+    },
+    "gopd": {
+      "1.0.1": [
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "has": {
@@ -584,27 +590,27 @@
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "object.fromentries": {
       "2.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "object.hasown": {
       "1.1.2": [
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "object.values": {
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "once": {
@@ -696,7 +702,7 @@
       "4.0.8": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.3" ],
@@ -708,14 +714,14 @@
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "strip-ansi": {
@@ -1073,10 +1079,10 @@
       }
     },
     "es-abstract": {
-      "1.20.4": {
-        "hash": "sha512-0UtvRN79eMe2L+UNEF1BwRe364sj/DXhQ/k5FmivgoSdpM90b8Jc0mDzKMGo7QS0BVbOP/bTwBKNnDc9rNzaPA==",
+      "1.20.5": {
+        "hash": "sha512-7h8MM2EQhsCA7pU/Nv78qOXFpD8Rhqd12gYiSJVkrH9+e8VuA8JlPJK/hQjjlLv6pJvx/z1iRFKzYb0XT/RuAQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.4.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.5.tgz"
       }
     },
     "es-shim-unscopables": {
@@ -1341,6 +1347,13 @@
         "hash": "sha512-/mR4KI8Ps2spmoc0Ulu9L7agOF0du1CZNQ3dke8yItYlyKNmGrkONemBbd6V8UTc1Wgcqn21t3WYB7dbRmh6/A==",
         "type": "http",
         "url": "https://registry.npmjs.org/globals/-/globals-13.18.0.tgz"
+      }
+    },
+    "gopd": {
+      "1.0.1": {
+        "hash": "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz"
       }
     },
     "grapheme-splitter": {

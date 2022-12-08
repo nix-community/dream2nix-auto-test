@@ -17,17 +17,17 @@
   "cyclicDependencies": {
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.6": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     }
   },
@@ -208,7 +208,7 @@
       "3.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -217,7 +217,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -357,13 +357,14 @@
       ]
     },
     "es-abstract": {
-      "1.20.4": [
+      "1.20.5": [
         [ "call-bind", "1.0.2" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "get-symbol-description", "1.0.0" ],
+        [ "gopd", "1.0.1" ],
         [ "has", "1.0.3" ],
         [ "has-property-descriptors", "1.0.0" ],
         [ "has-symbols", "1.0.3" ],
@@ -674,7 +675,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -721,6 +722,11 @@
         [ "ignore", "5.2.1" ],
         [ "merge2", "1.4.1" ],
         [ "slash", "4.0.0" ]
+      ]
+    },
+    "gopd": {
+      "1.0.1": [
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "has": {
@@ -997,7 +1003,7 @@
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "once": {
@@ -1219,14 +1225,14 @@
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "strip-ansi": {
@@ -1402,10 +1408,10 @@
         [ "lodash-es", "4.17.21" ],
         [ "meow", "11.0.0" ],
         [ "open-editor", "4.0.0" ],
-        [ "prettier", "2.8.0" ],
+        [ "prettier", "2.8.1" ],
         [ "slash", "5.0.0" ],
         [ "to-absolute-glob", "2.0.2" ],
-        [ "typescript", "4.9.3" ]
+        [ "typescript", "4.9.4" ]
       ],
       "unknown": [
         [ "xo", "0.53.1" ]
@@ -2125,10 +2131,10 @@
       }
     },
     "es-abstract": {
-      "1.20.4": {
-        "hash": "sha512-0UtvRN79eMe2L+UNEF1BwRe364sj/DXhQ/k5FmivgoSdpM90b8Jc0mDzKMGo7QS0BVbOP/bTwBKNnDc9rNzaPA==",
+      "1.20.5": {
+        "hash": "sha512-7h8MM2EQhsCA7pU/Nv78qOXFpD8Rhqd12gYiSJVkrH9+e8VuA8JlPJK/hQjjlLv6pJvx/z1iRFKzYb0XT/RuAQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.4.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.5.tgz"
       }
     },
     "es-module-lexer": {
@@ -2594,6 +2600,13 @@
         "hash": "sha512-LKSDZXToac40u8Q1PQtZihbNdTYSNMuWe+K5l+oa6KgDzSvVrHXlJy40hUP522RjAIoNLJYBJi7ow+rbFpIhHQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/globby/-/globby-13.1.2.tgz"
+      }
+    },
+    "gopd": {
+      "1.0.1": {
+        "hash": "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz"
       }
     },
     "graceful-fs": {
@@ -3548,10 +3561,10 @@
       }
     },
     "prettier": {
-      "2.8.0": {
-        "hash": "sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==",
+      "2.8.1": {
+        "hash": "sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/prettier/-/prettier-2.8.0.tgz"
+        "url": "https://registry.npmjs.org/prettier/-/prettier-2.8.1.tgz"
       }
     },
     "prettier-linter-helpers": {
@@ -4010,10 +4023,10 @@
       }
     },
     "typescript": {
-      "4.9.3": {
-        "hash": "sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==",
+      "4.9.4": {
+        "hash": "sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/typescript/-/typescript-4.9.3.tgz"
+        "url": "https://registry.npmjs.org/typescript/-/typescript-4.9.4.tgz"
       }
     },
     "unbox-primitive": {

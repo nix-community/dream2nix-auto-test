@@ -38,17 +38,17 @@
     },
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.6": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     }
   },
@@ -1720,7 +1720,7 @@
       "3.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -1734,7 +1734,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -1742,7 +1742,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -1750,7 +1750,7 @@
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-array-method-boxes-properly", "1.0.0" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -1759,7 +1759,7 @@
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "es-array-method-boxes-properly", "1.0.0" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -2041,7 +2041,7 @@
         [ "promise-inflight", "1.0.1" ],
         [ "rimraf", "3.0.2" ],
         [ "ssri", "8.0.1" ],
-        [ "tar", "6.1.12" ],
+        [ "tar", "6.1.13" ],
         [ "unique-filename", "1.1.1" ]
       ]
     },
@@ -2492,13 +2492,14 @@
       ]
     },
     "es-abstract": {
-      "1.20.4": [
+      "1.20.5": [
         [ "call-bind", "1.0.2" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "get-symbol-description", "1.0.0" ],
+        [ "gopd", "1.0.1" ],
         [ "has", "1.0.3" ],
         [ "has-property-descriptors", "1.0.0" ],
         [ "has-symbols", "1.0.3" ],
@@ -2839,7 +2840,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -2922,6 +2923,11 @@
         [ "ignore", "4.0.6" ],
         [ "pify", "4.0.1" ],
         [ "slash", "2.0.0" ]
+      ]
+    },
+    "gopd": {
+      "1.0.1": [
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "handlebars": {
@@ -3497,6 +3503,9 @@
     "minipass": {
       "3.3.6": [
         [ "yallist", "4.0.0" ]
+      ],
+      "4.0.0": [
+        [ "yallist", "4.0.0" ]
       ]
     },
     "minipass-collect": {
@@ -3668,14 +3677,14 @@
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "object.fromentries": {
       "2.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "object.getownpropertydescriptors": {
@@ -3683,7 +3692,7 @@
         [ "array.prototype.reduce", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "object.pick": {
@@ -3695,7 +3704,7 @@
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "on-finished": {
@@ -3942,7 +3951,7 @@
         [ "array.prototype.map", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "iterate-value", "1.0.2" ]
       ]
@@ -3951,7 +3960,7 @@
       "3.1.4": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "prompts": {
@@ -4465,7 +4474,7 @@
       "4.0.8": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ],
+        [ "es-abstract", "1.20.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.3" ],
@@ -4477,28 +4486,28 @@
       "3.1.4": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.padstart": {
       "3.1.4": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.4" ]
+        [ "es-abstract", "1.20.5" ]
       ]
     },
     "string_decoder": {
@@ -4558,10 +4567,10 @@
       ]
     },
     "tar": {
-      "6.1.12": [
+      "6.1.13": [
         [ "chownr", "2.0.0" ],
         [ "fs-minipass", "2.1.0" ],
-        [ "minipass", "3.3.6" ],
+        [ "minipass", "4.0.0" ],
         [ "minizlib", "2.1.2" ],
         [ "mkdirp", "1.0.4" ],
         [ "yallist", "4.0.0" ]
@@ -8026,10 +8035,10 @@
       }
     },
     "es-abstract": {
-      "1.20.4": {
-        "hash": "sha512-0UtvRN79eMe2L+UNEF1BwRe364sj/DXhQ/k5FmivgoSdpM90b8Jc0mDzKMGo7QS0BVbOP/bTwBKNnDc9rNzaPA==",
+      "1.20.5": {
+        "hash": "sha512-7h8MM2EQhsCA7pU/Nv78qOXFpD8Rhqd12gYiSJVkrH9+e8VuA8JlPJK/hQjjlLv6pJvx/z1iRFKzYb0XT/RuAQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.4.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.5.tgz"
       }
     },
     "es-array-method-boxes-properly": {
@@ -8632,6 +8641,13 @@
         "hash": "sha512-ollPHROa5mcxDEkwg6bPt3QbEf4pDQSNtd6JPL1YvOvAo/7/0VAm9TccUeoTmarjPw4pfUthSCqcyfNB1I3ZSg==",
         "type": "http",
         "url": "https://registry.npmjs.org/globby/-/globby-9.2.0.tgz"
+      }
+    },
+    "gopd": {
+      "1.0.1": {
+        "hash": "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz"
       }
     },
     "graceful-fs": {
@@ -9917,6 +9933,11 @@
         "hash": "sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==",
         "type": "http",
         "url": "https://registry.npmjs.org/minipass/-/minipass-3.3.6.tgz"
+      },
+      "4.0.0": {
+        "hash": "sha512-g2Uuh2jEKoht+zvO6vJqXmYpflPqzRBT+Th2h01DKh5z7wbY/AZ2gCQ78cP70YoHPyFdY30YBV5WxgLOEwOykw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minipass/-/minipass-4.0.0.tgz"
       }
     },
     "minipass-collect": {
@@ -11765,10 +11786,10 @@
       }
     },
     "tar": {
-      "6.1.12": {
-        "hash": "sha512-jU4TdemS31uABHd+Lt5WEYJuzn+TJTCBLljvIAHZOz6M9Os5pJ4dD+vRFLxPa/n3T0iEFzpi+0x1UfuDZYbRMw==",
+      "6.1.13": {
+        "hash": "sha512-jdIBIN6LTIe2jqzay/2vtYLlBHa3JF42ot3h1dW8Q0PaAG4v8rm0cvpVePtau5C6OKXGGcgO9q2AMNSWxiLqKw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/tar/-/tar-6.1.12.tgz"
+        "url": "https://registry.npmjs.org/tar/-/tar-6.1.13.tgz"
       }
     },
     "telejson": {
@@ -11972,10 +11993,10 @@
       }
     },
     "typescript": {
-      "4.9.3": {
-        "hash": "sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==",
+      "4.9.4": {
+        "hash": "sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/typescript/-/typescript-4.9.3.tgz"
+        "url": "https://registry.npmjs.org/typescript/-/typescript-4.9.4.tgz"
       }
     },
     "uglify-js": {
