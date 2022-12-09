@@ -3,7 +3,7 @@
     "defaultPackage": "puppeteer",
     "location": "",
     "packages": {
-      "puppeteer": "19.3.0"
+      "puppeteer": "19.4.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -30,7 +30,7 @@
     },
     "@types/yauzl": {
       "2.10.0": [
-        [ "@types/node", "18.11.11" ]
+        [ "@types/node", "18.11.12" ]
       ]
     },
     "agent-base": {
@@ -75,12 +75,11 @@
       ]
     },
     "cosmiconfig": {
-      "7.0.1": [
-        [ "@types/parse-json", "4.0.0" ],
+      "8.0.0": [
         [ "import-fresh", "3.3.0" ],
+        [ "js-yaml", "4.1.0" ],
         [ "parse-json", "5.2.0" ],
-        [ "path-type", "4.0.0" ],
-        [ "yaml", "1.10.2" ]
+        [ "path-type", "4.0.0" ]
       ]
     },
     "cross-fetch": {
@@ -149,6 +148,11 @@
         [ "wrappy", "1.0.2" ]
       ]
     },
+    "js-yaml": {
+      "4.1.0": [
+        [ "argparse", "2.0.1" ]
+      ]
+    },
     "minimatch": {
       "3.1.2": [
         [ "brace-expansion", "1.1.11" ]
@@ -184,23 +188,23 @@
       ]
     },
     "puppeteer": {
-      "19.3.0": [
-        [ "cosmiconfig", "7.0.1" ],
-        [ "devtools-protocol", "0.0.1056733" ],
+      "19.4.0": [
+        [ "cosmiconfig", "8.0.0" ],
+        [ "devtools-protocol", "0.0.1068969" ],
         [ "https-proxy-agent", "5.0.1" ],
         [ "progress", "2.0.3" ],
         [ "proxy-from-env", "1.1.0" ],
-        [ "puppeteer-core", "19.3.0" ]
+        [ "puppeteer-core", "19.4.0" ]
       ],
       "unknown": [
-        [ "puppeteer", "19.3.0" ]
+        [ "puppeteer", "19.4.0" ]
       ]
     },
     "puppeteer-core": {
-      "19.3.0": [
+      "19.4.0": [
         [ "cross-fetch", "3.1.5" ],
         [ "debug", "4.3.4" ],
-        [ "devtools-protocol", "0.0.1056733" ],
+        [ "devtools-protocol", "0.0.1068969" ],
         [ "extract-zip", "2.0.1" ],
         [ "https-proxy-agent", "5.0.1" ],
         [ "proxy-from-env", "1.1.0" ],
@@ -291,17 +295,10 @@
       }
     },
     "@types/node": {
-      "18.11.11": {
-        "hash": "sha512-KJ021B1nlQUBLopzZmPBVuGU9un7WJd/W4ya7Ih02B4Uwky5Nja0yGYav2EfYIk0RR2Q9oVhf60S2XR1BCWJ2g==",
+      "18.11.12": {
+        "hash": "sha512-FgD3NtTAKvyMmD44T07zz2fEf+OKwutgBCEVM8GcvMGVGaDktiLNTDvPwC/LUe3PinMW+X6CuLOF2Ui1mAlSXg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.11.tgz"
-      }
-    },
-    "@types/parse-json": {
-      "4.0.0": {
-        "hash": "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.12.tgz"
       }
     },
     "@types/yauzl": {
@@ -323,6 +320,13 @@
         "hash": "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==",
         "type": "http",
         "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz"
+      }
+    },
+    "argparse": {
+      "2.0.1": {
+        "hash": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz"
       }
     },
     "balanced-match": {
@@ -410,10 +414,10 @@
       }
     },
     "cosmiconfig": {
-      "7.0.1": {
-        "hash": "sha512-a1YWNUV2HwGimB7dU2s1wUMurNKjpx60HxBB6xUM8Re+2s1g1IIfJvFR0/iCF+XHdE0GMTKTuLR32UQff4TEyQ==",
+      "8.0.0": {
+        "hash": "sha512-da1EafcpH6b/TD8vDRaWV7xFINlHlF6zKsGwS1TsuVJTZRkquaS5HTMq7uq6h31619QjbsYl21gVDOm32KM1vQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-7.0.1.tgz"
+        "url": "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.0.0.tgz"
       }
     },
     "cross-fetch": {
@@ -431,10 +435,10 @@
       }
     },
     "devtools-protocol": {
-      "0.0.1056733": {
-        "hash": "sha512-CmTu6SQx2g3TbZzDCAV58+LTxVdKplS7xip0g5oDXpZ+isr0rv5dDP8ToyVRywzPHkCCPKgKgScEcwz4uPWDIA==",
+      "0.0.1068969": {
+        "hash": "sha512-ATFTrPbY1dKYhPPvpjtwWKSK2mIwGmRwX54UASn9THEuIZCe2n9k3vVuMmt6jWeL+e5QaaguEv/pMyR+JQB7VQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1056733.tgz"
+        "url": "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1068969.tgz"
       }
     },
     "end-of-stream": {
@@ -556,6 +560,13 @@
         "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
       }
     },
+    "js-yaml": {
+      "4.1.0": {
+        "hash": "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz"
+      }
+    },
     "json-parse-even-better-errors": {
       "2.3.1": {
         "hash": "sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==",
@@ -662,17 +673,17 @@
       }
     },
     "puppeteer": {
-      "19.3.0": {
-        "hash": "sha512-WJbi/ULaeuFOz7cfMgJlJCBAZiyqIFeQ6os4h5ex3PVTt2qosXgwI9eruFZqFAwJRv8x5pOuMhWR0aSRgyDqEg==",
+      "19.4.0": {
+        "hash": "sha512-sRzWEfFSZCCcFUJflGtYI2V7A6qK4Jht+2JiI2LZgn+Nv/LOZZsBDEaGl98ZrS8oEcUA5on4p2yJbE0nzHNzIg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/puppeteer/-/puppeteer-19.3.0.tgz"
+        "url": "https://registry.npmjs.org/puppeteer/-/puppeteer-19.4.0.tgz"
       }
     },
     "puppeteer-core": {
-      "19.3.0": {
-        "hash": "sha512-P8VAAOBnBJo/7DKJnj1b0K9kZBF2D8lkdL94CjJ+DZKCp182LQqYemPI9omUSZkh4bgykzXjZhaVR1qtddTTQg==",
+      "19.4.0": {
+        "hash": "sha512-gG/jxseleZStinBn86x8r7trjcE4jcjx1hIQWOpACQhquHYMuKnrWxkzg+EDn8sN3wUtF/Ry9mtJgjM49oUOFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-19.3.0.tgz"
+        "url": "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-19.4.0.tgz"
       }
     },
     "readable-stream": {
@@ -785,13 +796,6 @@
         "hash": "sha512-+s49uSmZpvtAsd2h37vIPy1RBusaLawVe8of+GyEPsaJTCMpj/2v8NpeK1SHXjBlQ95lQTmQofOJnFiLoaN3yw==",
         "type": "http",
         "url": "https://registry.npmjs.org/ws/-/ws-8.10.0.tgz"
-      }
-    },
-    "yaml": {
-      "1.10.2": {
-        "hash": "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
       }
     },
     "yauzl": {
