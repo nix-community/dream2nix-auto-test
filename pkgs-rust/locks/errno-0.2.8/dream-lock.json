@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "errno",
+    "location": "",
+    "packages": {
+      "errno": "0.2.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "errno": {
+        "0.2.8": {
+          "description": "Cross-platform interface to the `errno` variable.", "license": []
+        }
+      }
+    },
+    "relPathReplacements": {
+      "errno": {
+        "0.2.8": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "errno": {
+      "0.2.8": [
+        [ "errno-dragonfly", "0.1.2" ],
+        [ "libc", "0.2.138" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "errno-dragonfly": {
+      "0.1.2": [
+        [ "cc", "1.0.77" ],
+        [ "libc", "0.2.138" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.77": {
+        "hash": "e9f73505338f7d905b19d18738976aae232eb46b8efc15554ffc56deb5d9ebe4",
+        "type": "crates-io"
+      }
+    },
+    "errno": {
+      "0.2.8": {
+        "hash": "f639046355ee4f37944e44f60642c6f3a7efa3cf6b78c78a0d989a8ce6c396a1",
+        "type": "crates-io"
+      }
+    },
+    "errno-dragonfly": {
+      "0.1.2": {
+        "hash": "aa68f1b12764fab894d2755d2518754e71b4fd80ecfb822714a1206c2aab39bf",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.138": {
+        "hash": "db6d7e329c562c5dfab7a46a2afabc8b987ab9a4834c9d1ca04dc54c1546cef8",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}
