@@ -1,0 +1,27 @@
+
+Translating:: digest (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/digest-0.0.1.4/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1670912279
+++ date +%s
++ age=515
++ '[' 515 -gt 86400 ']'
+/tmp/tmp.jMhUDhsz4h/tmp.xCdebWtnEj/tmp.H1jLEansBO ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/digest-0.0.1.4/digest-0.0.1.4.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3703  100  3703    0     0  18274      0 --:--:-- --:--:-- --:--:-- 18331
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] next goal: digest (user goal)
+[__0] rejecting: digest-0.0.1.4 (conflict: pkg-config package zlib-any, not
+found in the pkg-config database)
+[__0] rejecting: digest-0.0.1.3, digest-0.0.1.2, digest-0.0.1.1,
+digest-0.0.1.0, digest-0.0.0.9, digest-0.0.0.8, digest-0.0.0.7,
+digest-0.0.0.6, digest-0.0.0.5, digest-0.0.0.4, digest-0.0.0.3,
+digest-0.0.0.2, digest-0.0.0.1 (constraint from user target requires
+==0.0.1.4)
+[__0] fail (backjumping, conflict set: digest)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: digest
+
