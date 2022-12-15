@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup",
+    "location": "",
+    "packages": {
+      "rollup": "3.7.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rollup": {
+      "3.7.4": [
+        [ "fsevents", "2.3.2" ]
+      ],
+      "unknown": [
+        [ "rollup", "3.7.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "fsevents": {
+      "2.3.2": {
+        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+      }
+    },
+    "rollup": {
+      "3.7.4": {
+        "hash": "sha512-jN9rx3k5pfg9H9al0r0y1EYKSeiRANZRYX32SuNXAnKzh6cVyf4LZVto1KAuDnbHT03E1CpsgqDKaqQ8FZtgxw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup/-/rollup-3.7.4.tgz"
+      }
+    }
+  }
+}
