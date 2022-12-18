@@ -3,7 +3,7 @@
     "defaultPackage": "@rollup/plugin-commonjs",
     "location": "",
     "packages": {
-      "@rollup/plugin-commonjs": "23.0.5"
+      "@rollup/plugin-commonjs": "23.0.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,16 +17,16 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@rollup/plugin-commonjs": {
-      "23.0.5": [
+      "23.0.6": [
         [ "@rollup/pluginutils", "5.0.2" ],
         [ "commondir", "1.0.1" ],
         [ "estree-walker", "2.0.2" ],
         [ "glob", "8.0.3" ],
         [ "is-reference", "1.2.1" ],
-        [ "magic-string", "0.26.7" ]
+        [ "magic-string", "0.27.0" ]
       ],
       "unknown": [
-        [ "@rollup/plugin-commonjs", "23.0.5" ]
+        [ "@rollup/plugin-commonjs", "23.0.6" ]
       ]
     },
     "@rollup/pluginutils": {
@@ -62,8 +62,8 @@
       ]
     },
     "magic-string": {
-      "0.26.7": [
-        [ "sourcemap-codec", "1.4.8" ]
+      "0.27.0": [
+        [ "@jridgewell/sourcemap-codec", "1.4.14" ]
       ]
     },
     "minimatch": {
@@ -78,11 +78,18 @@
     }
   },
   "sources": {
-    "@rollup/plugin-commonjs": {
-      "23.0.5": {
-        "hash": "sha512-IwI51j5kCmLMYsErEvZAID/pg7Z1qgyVJ+QIPDDIg1AOPbIGbdTCjuHDWIBCtoF1dvMkXfQv7B2eTadjnLRbmA==",
+    "@jridgewell/sourcemap-codec": {
+      "1.4.14": {
+        "hash": "sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/plugin-commonjs/-/plugin-commonjs-23.0.5.tgz"
+        "url": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz"
+      }
+    },
+    "@rollup/plugin-commonjs": {
+      "23.0.6": {
+        "hash": "sha512-1AluUd3YGLWCJSw9V/w4LqkrhUZGAzLyLCrP6yAMrxnubGxVMpHkjRAHGZlnkJdDFmsHuZYbOx7u7m5Q4GG1Ng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/plugin-commonjs/-/plugin-commonjs-23.0.6.tgz"
       }
     },
     "@rollup/pluginutils": {
@@ -163,10 +170,10 @@
       }
     },
     "magic-string": {
-      "0.26.7": {
-        "hash": "sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==",
+      "0.27.0": {
+        "hash": "sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.26.7.tgz"
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.27.0.tgz"
       }
     },
     "minimatch": {
@@ -188,13 +195,6 @@
         "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
         "type": "http",
         "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
-      }
-    },
-    "sourcemap-codec": {
-      "1.4.8": {
-        "hash": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
       }
     },
     "wrappy": {
