@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "semver",
+    "location": "",
+    "packages": {
+      "semver": "1.0.15"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "semver": {
+        "1.0.15": {
+          "description": "Parser and evaluator for Cargo's flavor of Semantic Versioning", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "semver": {
+        "1.0.15": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "semver": {
+      "1.0.15": [
+        [ "serde", "1.0.151" ]
+      ]
+    }
+  },
+  "sources": {
+    "semver": {
+      "1.0.15": {
+        "hash": "3bfa246f936730408c0abee392cc1a50b118ece708c7f630516defd64480c7d8",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.151": {
+        "hash": "97fed41fc1a24994d044e6db6935e69511a1153b52c15eb42493b26fa87feba0",
+        "type": "crates-io"
+      }
+    }
+  }
+}

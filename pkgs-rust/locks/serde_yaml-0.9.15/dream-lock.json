@@ -1,0 +1,164 @@
+{
+  "_generic": {
+    "defaultPackage": "serde_yaml",
+    "location": "",
+    "packages": {
+      "serde_yaml": "0.9.15"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "serde_yaml": {
+        "0.9.15": {
+          "description": "YAML data format for Serde", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "serde_yaml": {
+        "0.9.15": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "indexmap": {
+      "1.9.2": [
+        [ "autocfg", "1.1.0" ],
+        [ "hashbrown", "0.12.3" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.48": [
+        [ "unicode-ident", "1.0.6" ]
+      ]
+    },
+    "quote": {
+      "1.0.22": [
+        [ "proc-macro2", "1.0.48" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.151": [
+        [ "proc-macro2", "1.0.48" ],
+        [ "quote", "1.0.22" ],
+        [ "syn", "1.0.106" ]
+      ]
+    },
+    "serde_yaml": {
+      "0.9.15": [
+        [ "anyhow", "1.0.67" ],
+        [ "indexmap", "1.9.2" ],
+        [ "indoc", "1.0.8" ],
+        [ "itoa", "1.0.5" ],
+        [ "ryu", "1.0.12" ],
+        [ "serde", "1.0.151" ],
+        [ "serde_derive", "1.0.151" ],
+        [ "unsafe-libyaml", "0.2.5" ]
+      ]
+    },
+    "syn": {
+      "1.0.106": [
+        [ "proc-macro2", "1.0.48" ],
+        [ "quote", "1.0.22" ],
+        [ "unicode-ident", "1.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "anyhow": {
+      "1.0.67": {
+        "hash": "7724808837b77f4b4de9d283820f9d98bcf496d5692934b857a2399d31ff22e6",
+        "type": "crates-io"
+      }
+    },
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "hashbrown": {
+      "0.12.3": {
+        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
+        "type": "crates-io"
+      }
+    },
+    "indexmap": {
+      "1.9.2": {
+        "hash": "1885e79c1fc4b10f0e172c475f458b7f7b93061064d98c3293e98c5ba0c8b399",
+        "type": "crates-io"
+      }
+    },
+    "indoc": {
+      "1.0.8": {
+        "hash": "da2d6f23ffea9d7e76c53eee25dfb67bcd8fde7f1198b0855350698c9f07c780",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.5": {
+        "hash": "fad582f4b9e86b6caa621cabeb0963332d92eea04729ab12892c2533951e6440",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.48": {
+        "hash": "e9d89e5dba24725ae5678020bf8f1357a9aa7ff10736b551adbcd3f8d17d766f",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.22": {
+        "hash": "556d0f47a940e895261e77dc200d5eadfc6ef644c179c6f5edfc105e3a2292c8",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.12": {
+        "hash": "7b4b9743ed687d4b4bcedf9ff5eaa7398495ae14e61cba0a295704edbc7decde",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.151": {
+        "hash": "97fed41fc1a24994d044e6db6935e69511a1153b52c15eb42493b26fa87feba0",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.151": {
+        "hash": "255abe9a125a985c05190d687b320c12f9b1f0b99445e608c21ba0782c719ad8",
+        "type": "crates-io"
+      }
+    },
+    "serde_yaml": {
+      "0.9.15": {
+        "hash": "62f33c5a526b140e830219698a1bafd340d3206cfa37371ed00442babaf53105",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.106": {
+        "hash": "09ee3a69cd2c7e06684677e5629b3878b253af05e4714964204279c6bc02cf0b",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.6": {
+        "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
+        "type": "crates-io"
+      }
+    },
+    "unsafe-libyaml": {
+      "0.2.5": {
+        "hash": "bc7ed8ba44ca06be78ea1ad2c3682a43349126c8818054231ee6f4748012aed2",
+        "type": "crates-io"
+      }
+    }
+  }
+}
