@@ -148,10 +148,11 @@
       "servant-server#0.19.2": "131254b45be496584507fcb2997fa1c042eb088a214dcadfb8efd0b2dafdb5b3",
       "simple-sendfile#0.2.30": "c6893e159dc20eea6d0b805bfd8d9b73e6a6ba3fe72cc396acdc24fdcd33cc38",
       "singleton-bool#0.1.6": "b940e8393ddf9d2d7b20a2141672c3120821edd32d1618c7fcfc71458ce996d0",
-      "skylighting#0.13.1.2": "58f71c061bc806ec1c8dbaeabf08d0fe1116d8a24ab95c03de60d389a62c104f",
-      "skylighting-core#0.13.1.2": "eeb0a5527c7e8cbd1cba5bc1e31bcc1c995015df4eeff0e3bc6d5fec39bc67b9",
+      "skylighting#0.13.2": "8256cf117bd751d6416d6f522ac8f10523d76e86f1a3e3801da65b0956e262f9",
+      "skylighting-core#0.13.2": "346eeea692b2b6189c19d00c00ece4055191c9ae646ed32742bbe5c7dbdb48d2",
       "skylighting-format-ansi#0.1": "4e525cb8fc5f13d9cf9d1f1d07120cc494d91bbfe39045c41b7ab6cf1c77a361",
       "skylighting-format-blaze-html#0.1.1": "9e6cf17156f6b379439aece1cd79ff3baefe41bd0eb617882aba656d07be12d1",
+      "skylighting-format-context#0.1": "9a803a1aeba0b8a7f45acc530fe361c2c743fa0ba58284dac9d33555f852d4cc",
       "skylighting-format-latex#0.1": "8631854e20604e497816b0bfdbcaaed7ff622e58fbbc365d4c3d08ef30052bd3",
       "socks#0.6.1": "ac190808eea704672df18f702e8f2ad0b7a4d0af528e95ee55ea6ee0be672e2a",
       "some#1.0.4.1": "f407af0368a40f21a7629dbcb2936b76400c9e8155a3898df85349619ae4302e",
@@ -188,7 +189,7 @@
       "typed-process#0.2.10.1": "cc35b76f2ce32c708cb2f68a1c4f661a8138196d958e34a2f214208333a73f46",
       "unbounded-delays#0.1.1.1": "d7a2a49f15bdff2a8bdbd76f9d204580ea4be5a9def500c6371d51d8111cbcbe",
       "unicode-collation#0.1.3.3": "28bf15f9d518c75032c16d5de624e80547a9466bb4227c6b7401c1ae4cfd6e1b",
-      "unicode-data#0.4.0": "0210d8633979e679d92e1d61c7056547a353f0cfb3871e2fdcccc2435dd42569",
+      "unicode-data#0.4.0.1": "2b08954ab3218d3e098ad1e55f3986e9d889f244197842c4447d65d87e78644b",
       "unicode-transforms#0.4.0.1": "a7a72896ca10a59ce57e61975f6f0d8c345fbc67b5d629248d508b7fb71eb5c6",
       "uniplate#1.6.13": "c8b715570d0b4baa72512e677552dd3f98372a64bf9de000e779bd4162fd7be7",
       "unix-compat#0.6": "0f5d0929d838077909d397c7c83b711b89db4ed3d4dafea46af19c04b389b53c",
@@ -447,7 +448,7 @@
     },
     "commonmark": {
       "0.2.2": [
-        [ "unicode-data", "0.4.0" ],
+        [ "unicode-data", "0.4.0.1" ],
         [ "unicode-transforms", "0.4.0.1" ]
       ]
     },
@@ -901,8 +902,8 @@
         [ "safe", "0.3.19" ],
         [ "scientific", "0.3.7.0" ],
         [ "servant-server", "0.19.2" ],
-        [ "skylighting", "0.13.1.2" ],
-        [ "skylighting-core", "0.13.1.2" ],
+        [ "skylighting", "0.13.2" ],
+        [ "skylighting-core", "0.13.2" ],
         [ "split", "0.2.3.5" ],
         [ "syb", "0.7.2.2" ],
         [ "tagsoup", "0.14.8" ],
@@ -1083,15 +1084,16 @@
       ]
     },
     "skylighting": {
-      "0.13.1.2": [
-        [ "skylighting-core", "0.13.1.2" ],
+      "0.13.2": [
+        [ "skylighting-core", "0.13.2" ],
         [ "skylighting-format-ansi", "0.1" ],
         [ "skylighting-format-blaze-html", "0.1.1" ],
+        [ "skylighting-format-context", "0.1" ],
         [ "skylighting-format-latex", "0.1" ]
       ]
     },
     "skylighting-core": {
-      "0.13.1.2": [
+      "0.13.2": [
         [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "base64-bytestring", "1.2.1.0" ],
@@ -1106,18 +1108,23 @@
       "0.1": [
         [ "ansi-terminal", "0.11.4" ],
         [ "colour", "2.3.6" ],
-        [ "skylighting-core", "0.13.1.2" ]
+        [ "skylighting-core", "0.13.2" ]
       ]
     },
     "skylighting-format-blaze-html": {
       "0.1.1": [
         [ "blaze-html", "0.9.1.2" ],
-        [ "skylighting-core", "0.13.1.2" ]
+        [ "skylighting-core", "0.13.2" ]
+      ]
+    },
+    "skylighting-format-context": {
+      "0.1": [
+        [ "skylighting-core", "0.13.2" ]
       ]
     },
     "skylighting-format-latex": {
       "0.1": [
-        [ "skylighting-core", "0.13.1.2" ]
+        [ "skylighting-core", "0.13.2" ]
       ]
     },
     "socks": {
@@ -1284,7 +1291,7 @@
     },
     "unicode-transforms": {
       "0.4.0.1": [
-        [ "unicode-data", "0.4.0" ]
+        [ "unicode-data", "0.4.0.1" ]
       ]
     },
     "uniplate": {
@@ -2479,17 +2486,17 @@
       }
     },
     "skylighting": {
-      "0.13.1.2": {
-        "hash": "sha256:5b0da8c6c6515650afbce628f66512322f7b147f95c8f6a48193e46e1a0ca116",
+      "0.13.2": {
+        "hash": "sha256:e920cd246fe2107a0e302196c6e776b18e9e2c8ad68026fa2d8ae1d6d2980436",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/skylighting-0.13.1.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/skylighting-0.13.2.tar.gz"
       }
     },
     "skylighting-core": {
-      "0.13.1.2": {
-        "hash": "sha256:bf56213edcb89a807351ec564beb6f471829327070154d7a4a9ce07861fc0101",
+      "0.13.2": {
+        "hash": "sha256:05156ea0633bf037480a8e21d54af8390c1b227893d0bcb7cd880e69fd739f47",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/skylighting-core-0.13.1.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/skylighting-core-0.13.2.tar.gz"
       }
     },
     "skylighting-format-ansi": {
@@ -2504,6 +2511,13 @@
         "hash": "sha256:b1139b4df369de93d1ec6d8a2ed02bf11d559f9eaf71c31434fb5b19ba48ef13",
         "type": "http",
         "url": "https://hackage.haskell.org/package/skylighting-format-blaze-html-0.1.1.tar.gz"
+      }
+    },
+    "skylighting-format-context": {
+      "0.1": {
+        "hash": "sha256:e07a7215a60c2554f94b9b05210d3132cf88b693eee7ca51fd9cdad93fb4db18",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/skylighting-format-context-0.1.tar.gz"
       }
     },
     "skylighting-format-latex": {
@@ -2759,10 +2773,10 @@
       }
     },
     "unicode-data": {
-      "0.4.0": {
-        "hash": "sha256:4890d5a26cae879ea573dc07408e833ad49937a9a551a3bbdc4fa77718644127",
+      "0.4.0.1": {
+        "hash": "sha256:37a5dea6801940beb65c4ac4b9d0f7e653a686cf773507f0ca61c210e0b06080",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/unicode-data-0.4.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/unicode-data-0.4.0.1.tar.gz"
       }
     },
     "unicode-transforms": {
