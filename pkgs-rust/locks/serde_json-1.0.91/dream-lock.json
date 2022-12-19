@@ -3,7 +3,7 @@
     "defaultPackage": "serde_json",
     "location": "",
     "packages": {
-      "serde_json": "1.0.90"
+      "serde_json": "1.0.91"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "serde_json": {
-        "1.0.90": {
+        "1.0.91": {
           "description": "A JSON serialization file format", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,23 +20,23 @@
     },
     "relPathReplacements": {
       "serde_json": {
-        "1.0.90": {}
+        "1.0.91": {}
       }
     }
   },
   "cyclicDependencies": {
     "trybuild": {
       "1.0.73": [
-        [ "serde_json", "1.0.90" ]
+        [ "serde_json", "1.0.91" ]
       ]
     }
   },
   "dependencies": {
     "automod": {
-      "1.0.5": [
-        [ "proc-macro2", "1.0.48" ],
-        [ "quote", "1.0.22" ],
-        [ "syn", "1.0.106" ]
+      "1.0.6": [
+        [ "proc-macro2", "1.0.49" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
       ]
     },
     "indexmap": {
@@ -46,7 +46,7 @@
       ]
     },
     "proc-macro2": {
-      "1.0.48": [
+      "1.0.49": [
         [ "unicode-ident", "1.0.6" ]
       ]
     },
@@ -56,8 +56,8 @@
       ]
     },
     "quote": {
-      "1.0.22": [
-        [ "proc-macro2", "1.0.48" ]
+      "1.0.23": [
+        [ "proc-macro2", "1.0.49" ]
       ]
     },
     "ref-cast": {
@@ -67,9 +67,9 @@
     },
     "ref-cast-impl": {
       "1.0.14": [
-        [ "proc-macro2", "1.0.48" ],
-        [ "quote", "1.0.22" ],
-        [ "syn", "1.0.106" ]
+        [ "proc-macro2", "1.0.49" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
       ]
     },
     "serde": {
@@ -84,14 +84,14 @@
     },
     "serde_derive": {
       "1.0.151": [
-        [ "proc-macro2", "1.0.48" ],
-        [ "quote", "1.0.22" ],
-        [ "syn", "1.0.106" ]
+        [ "proc-macro2", "1.0.49" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
       ]
     },
     "serde_json": {
-      "1.0.90": [
-        [ "automod", "1.0.5" ],
+      "1.0.91": [
+        [ "automod", "1.0.6" ],
         [ "indexmap", "1.9.2" ],
         [ "indoc", "1.0.8" ],
         [ "itoa", "1.0.5" ],
@@ -121,9 +121,9 @@
       ]
     },
     "syn": {
-      "1.0.106": [
-        [ "proc-macro2", "1.0.48" ],
-        [ "quote", "1.0.22" ],
+      "1.0.107": [
+        [ "proc-macro2", "1.0.49" ],
+        [ "quote", "1.0.23" ],
         [ "unicode-ident", "1.0.6" ]
       ]
     },
@@ -144,7 +144,7 @@
         [ "once_cell", "1.16.0" ],
         [ "serde", "1.0.151" ],
         [ "serde_derive", "1.0.151" ],
-        [ "serde_json", "1.0.90" ],
+        [ "serde_json", "1.0.91" ],
         [ "termcolor", "1.1.3" ],
         [ "toml", "0.5.10" ]
       ]
@@ -169,8 +169,8 @@
       }
     },
     "automod": {
-      "1.0.5": {
-        "hash": "3f64c08e61cf03f368040e626bfb3bdf5c7ed2f6e28e3b37b1ef82bdd4c7b317",
+      "1.0.6": {
+        "hash": "72c426e0c379613fb47e64539a570809a580b377c3971f676f62d16aaa5084f6",
         "type": "crates-io"
       }
     },
@@ -235,8 +235,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.48": {
-        "hash": "e9d89e5dba24725ae5678020bf8f1357a9aa7ff10736b551adbcd3f8d17d766f",
+      "1.0.49": {
+        "hash": "57a8eca9f9c4ffde41714334dee777596264c7825420f521abc92b5b5deb63a5",
         "type": "crates-io"
       }
     },
@@ -247,8 +247,8 @@
       }
     },
     "quote": {
-      "1.0.22": {
-        "hash": "556d0f47a940e895261e77dc200d5eadfc6ef644c179c6f5edfc105e3a2292c8",
+      "1.0.23": {
+        "hash": "8856d8364d252a14d474036ea1358d63c9e6965c8e5c1885c18f73d70bff9c7b",
         "type": "crates-io"
       }
     },
@@ -295,8 +295,8 @@
       }
     },
     "serde_json": {
-      "1.0.90": {
-        "hash": "8778cc0b528968fe72abec38b5db5a20a70d148116cd9325d2bc5f5180ca3faf",
+      "1.0.91": {
+        "hash": "877c235533714907a8c2464236f5c4b2a17262ef1bd71f38f35ea592c8da6883",
         "type": "crates-io"
       }
     },
@@ -313,8 +313,8 @@
       }
     },
     "syn": {
-      "1.0.106": {
-        "hash": "09ee3a69cd2c7e06684677e5629b3878b253af05e4714964204279c6bc02cf0b",
+      "1.0.107": {
+        "hash": "1f4064b5b16e03ae50984a5a8ed5d4f8803e6bc1fd170a3cda91a1be4b18e3f5",
         "type": "crates-io"
       }
     },
