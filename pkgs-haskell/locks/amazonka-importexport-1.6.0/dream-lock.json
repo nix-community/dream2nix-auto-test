@@ -37,7 +37,6 @@
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
       "cereal#0.5.8.3": "87a227c7b510217ea059db3dd59d9665edd8f0d1d3d8de39458e371a1d9402fb",
-      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
@@ -90,7 +89,7 @@
       "streaming-commons#0.2.2.5": "34959abee70e63d370b5a4bee0bc3483c66d1e53906fb5e13844ae8b9a62a4a3",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
-      "tasty#1.4.2.3": "5c861bf8954d9e775769d3cfb13f55922839de3d1243dd4418505fdd0e05619a",
+      "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
       "tasty-hunit#0.10.0.3": "ba774024f3a26100c559dbef41e030bdf443408ed848691f7b9aa85b6fb218c3",
       "temporary#1.3": "3a66c136f700dbf42f3c5000ca93e80b26dead51e54322c83272b236c1ec8ef1",
       "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
@@ -101,14 +100,12 @@
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
       "typed-process#0.2.10.1": "cc35b76f2ce32c708cb2f68a1c4f661a8138196d958e34a2f214208333a73f46",
-      "unbounded-delays#0.1.1.1": "d7a2a49f15bdff2a8bdbd76f9d204580ea4be5a9def500c6371d51d8111cbcbe",
       "unliftio-core#0.2.0.1": "f9abcdd3f3d28e4840563efb7b8760d2de9b5707bcd6f53a87f6a0d77bb5a9f7",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
       "vector#0.12.3.1": "fffbd00912d69ed7be9bc7eeb09f4f475e0d243ec43f916a9fd5bbd219ce7f3e",
       "vector-algorithms#0.9.0.1": "34cc5851ebf2eb80fc62cbb5c6dbe59ab837f1d5366a6c3bf1e09cf34805aaae",
       "void#0.7.3": "13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546",
-      "wcwidth#0.0.2": "77531eb6683c505c22ab3fa11bbc43d3ce1e7dac21401d4d5a19677d348bb5f3",
       "x509#1.7.7": "90eef2d745a654146fc1c325e035eaddac531e4d2145d4bc1dcf4b8fad439d34",
       "x509-store#1.6.9": "1f1abeab5bacf1407b920d0f34f4c35a5ad450ff0d8121cd3dc76460f81e711d",
       "x509-system#1.6.7": "45ddd5db19f18be80614e058e8838765f2749a8afcfd2b292bd6afb36820a3c0",
@@ -210,7 +207,7 @@
         [ "amazonka-core", "1.6.0" ],
         [ "amazonka-importexport", "1.6.0" ],
         [ "amazonka-test", "1.6.0" ],
-        [ "tasty", "1.4.2.3" ],
+        [ "tasty", "1.4.3" ],
         [ "tasty-hunit", "0.10.0.3" ],
         [ "unordered-containers", "0.2.19.1" ]
       ]
@@ -227,7 +224,7 @@
         [ "http-client", "0.5.14" ],
         [ "http-types", "0.12.3" ],
         [ "resourcet", "1.3.0" ],
-        [ "tasty", "1.4.2.3" ],
+        [ "tasty", "1.4.3" ],
         [ "tasty-hunit", "0.10.0.3" ],
         [ "temporary", "1.3" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -621,19 +618,16 @@
       ]
     },
     "tasty": {
-      "1.4.2.3": [
+      "1.4.3": [
         [ "ansi-terminal", "0.11.4" ],
-        [ "clock", "0.8.3" ],
         [ "optparse-applicative", "0.17.0.0" ],
-        [ "tagged", "0.8.6.1" ],
-        [ "unbounded-delays", "0.1.1.1" ],
-        [ "wcwidth", "0.0.2" ]
+        [ "tagged", "0.8.6.1" ]
       ]
     },
     "tasty-hunit": {
       "0.10.0.3": [
         [ "call-stack", "0.4.0" ],
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     },
     "temporary": {
@@ -965,13 +959,6 @@
         "hash": "sha256:99905220661b26e5bd91130bd9772554938608a5b1d717240a6eb331121e0f6a",
         "type": "http",
         "url": "https://hackage.haskell.org/package/cereal-0.5.8.3.tar.gz"
-      }
-    },
-    "clock": {
-      "0.8.3": {
-        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
       }
     },
     "colour": {
@@ -1339,10 +1326,10 @@
       }
     },
     "tasty": {
-      "1.4.2.3": {
-        "hash": "sha256:c914a7a9a28dfc33dc5a112c349f2e69f536cb66d2b2b44898a3411cbdcad0c6",
+      "1.4.3": {
+        "hash": "sha256:f420da9560267271dce8a0007a1cb77c06987f0d129eb0f613110ce61f71cb00",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/tasty-1.4.2.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/tasty-1.4.3.tar.gz"
       }
     },
     "tasty-hunit": {
@@ -1415,13 +1402,6 @@
         "url": "https://hackage.haskell.org/package/typed-process-0.2.10.1.tar.gz"
       }
     },
-    "unbounded-delays": {
-      "0.1.1.1": {
-        "hash": "sha256:59ad7e53bfe32ffbf0e703b31490d41d14c70e4745ed49e8adf592ed68dd6185",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/unbounded-delays-0.1.1.1.tar.gz"
-      }
-    },
     "unliftio-core": {
       "0.2.0.1": {
         "hash": "sha256:919f0d1297ea2f5373118553c1df2a9405d8b9e31a8307e829da67d4953c299a",
@@ -1462,13 +1442,6 @@
         "hash": "sha256:53af758ddc37dc63981671e503438d02c6f64a2d8744e9bec557a894431f7317",
         "type": "http",
         "url": "https://hackage.haskell.org/package/void-0.7.3.tar.gz"
-      }
-    },
-    "wcwidth": {
-      "0.0.2": {
-        "hash": "sha256:ffc68736a3bbde3e8157710f29f4a99c0ca593c41194579c54a92c62f6c12ed8",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/wcwidth-0.0.2.tar.gz"
       }
     },
     "x509": {

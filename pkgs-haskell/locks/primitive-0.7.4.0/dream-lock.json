@@ -14,19 +14,16 @@
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
       "quickcheck-classes-base#0.6.2.0": "dc3db3e11bcc378e04f9d1e9615237dc82dbee85b7931d152b059f4e815d1506",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
       "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
-      "tasty#1.4.2.3": "5c861bf8954d9e775769d3cfb13f55922839de3d1243dd4418505fdd0e05619a",
+      "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
       "tasty-bench#0.3.2": "e7678a19114e1ff5effbe9b96a4688fa085cee39a50003d1170ec271f83e0792",
       "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
-      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
-      "unbounded-delays#0.1.1.1": "d7a2a49f15bdff2a8bdbd76f9d204580ea4be5a9def500c6371d51d8111cbcbe",
-      "wcwidth#0.0.2": "77531eb6683c505c22ab3fa11bbc43d3ce1e7dac21401d4d5a19677d348bb5f3"
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643"
     },
     "compiler": {
       "name": "ghc",
@@ -72,7 +69,7 @@
         [ "primitive", "0.7.4.0" ],
         [ "quickcheck-classes-base", "0.6.2.0" ],
         [ "tagged", "0.8.6.1" ],
-        [ "tasty", "1.4.2.3" ],
+        [ "tasty", "1.4.3" ],
         [ "tasty-quickcheck", "0.10.2" ],
         [ "transformers-compat", "0.7.2" ]
       ]
@@ -88,18 +85,15 @@
       ]
     },
     "tasty": {
-      "1.4.2.3": [
+      "1.4.3": [
         [ "ansi-terminal", "0.11.4" ],
-        [ "clock", "0.8.3" ],
         [ "optparse-applicative", "0.17.0.0" ],
-        [ "tagged", "0.8.6.1" ],
-        [ "unbounded-delays", "0.1.1.1" ],
-        [ "wcwidth", "0.0.2" ]
+        [ "tagged", "0.8.6.1" ]
       ]
     },
     "tasty-bench": {
       "0.3.2": [
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     },
     "tasty-quickcheck": {
@@ -108,7 +102,7 @@
         [ "optparse-applicative", "0.17.0.0" ],
         [ "random", "1.2.1.1" ],
         [ "tagged", "0.8.6.1" ],
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     }
   },
@@ -139,13 +133,6 @@
         "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
         "type": "http",
         "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
-      }
-    },
-    "clock": {
-      "0.8.3": {
-        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
       }
     },
     "colour": {
@@ -198,10 +185,10 @@
       }
     },
     "tasty": {
-      "1.4.2.3": {
-        "hash": "sha256:c914a7a9a28dfc33dc5a112c349f2e69f536cb66d2b2b44898a3411cbdcad0c6",
+      "1.4.3": {
+        "hash": "sha256:f420da9560267271dce8a0007a1cb77c06987f0d129eb0f613110ce61f71cb00",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/tasty-1.4.2.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/tasty-1.4.3.tar.gz"
       }
     },
     "tasty-bench": {
@@ -223,20 +210,6 @@
         "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
         "type": "http",
         "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
-      }
-    },
-    "unbounded-delays": {
-      "0.1.1.1": {
-        "hash": "sha256:59ad7e53bfe32ffbf0e703b31490d41d14c70e4745ed49e8adf592ed68dd6185",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/unbounded-delays-0.1.1.1.tar.gz"
-      }
-    },
-    "wcwidth": {
-      "0.0.2": {
-        "hash": "sha256:ffc68736a3bbde3e8157710f29f4a99c0ca593c41194579c54a92c62f6c12ed8",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/wcwidth-0.0.2.tar.gz"
       }
     }
   }

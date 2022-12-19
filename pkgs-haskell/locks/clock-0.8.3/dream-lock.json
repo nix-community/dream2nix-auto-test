@@ -60,6 +60,8 @@
       "statistics#0.16.1.2": "b20c8c52eb9f7d4e4a7b15f639f29595c22d72b7265d8ab7f480c43398e59ed0",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
+      "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
+      "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
       "text-short#0.1.5": "ebb77383743e214138cf9387875bc7d2665c5584b2e489fe1461240f19e7b53e",
       "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
@@ -205,7 +207,10 @@
     "clock": {
       "0.8.3": [
         [ "clock", "0.8.3" ],
-        [ "criterion", "1.6.0.0" ]
+        [ "criterion", "1.6.0.0" ],
+        [ "clock", "0.8.3" ],
+        [ "tasty", "1.4.3" ],
+        [ "tasty-quickcheck", "0.10.2" ]
       ]
     },
     "code-page": {
@@ -378,6 +383,22 @@
         [ "assoc", "1.0.2" ],
         [ "hashable", "1.4.1.0" ],
         [ "these", "1.1.1.1" ]
+      ]
+    },
+    "tasty": {
+      "1.4.3": [
+        [ "ansi-terminal", "0.11.4" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "tagged", "0.8.6.1" ]
+      ]
+    },
+    "tasty-quickcheck": {
+      "0.10.2": [
+        [ "QuickCheck", "2.14.2" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "random", "1.2.1.1" ],
+        [ "tagged", "0.8.6.1" ],
+        [ "tasty", "1.4.3" ]
       ]
     },
     "text-short": {
@@ -798,6 +819,20 @@
         "hash": "sha256:f5e0fcf95f0bb4aa63f428f2c01955a41ea1a42cfcf39145ed631f59a9616c02",
         "type": "http",
         "url": "https://hackage.haskell.org/package/tagged-0.8.6.1.tar.gz"
+      }
+    },
+    "tasty": {
+      "1.4.3": {
+        "hash": "sha256:f420da9560267271dce8a0007a1cb77c06987f0d129eb0f613110ce61f71cb00",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-1.4.3.tar.gz"
+      }
+    },
+    "tasty-quickcheck": {
+      "0.10.2": {
+        "hash": "sha256:b4884c815db26a543ee1062664ee051ac89d51b2c2526d30029c6eb95b36cce2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-quickcheck-0.10.2.tar.gz"
       }
     },
     "text-short": {

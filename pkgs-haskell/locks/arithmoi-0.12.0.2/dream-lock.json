@@ -25,7 +25,6 @@
       "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "chimera#0.3.2.0": "faeea0b173d2ef45f4bf64ec0f3734ad8c3964c1893185a1a05c31ed9c7133a7",
-      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "constraints#0.13.4": "2133e56e14e130a1a40b0737deeaf6859402279720210531723bc19b898c5544",
@@ -61,7 +60,7 @@
       "splitmix#0.1.0.4": "804e2574bc7e32d08cbab91e47ee6287b4df7d50851d73f9e778f94a9a7814c7",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "tagged#0.8.6.1": "8a24aef29b8e35447ccc56658ea07c2aded30bfa8130ea057e382936e17c74a6",
-      "tasty#1.4.2.3": "5c861bf8954d9e775769d3cfb13f55922839de3d1243dd4418505fdd0e05619a",
+      "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
       "tasty-bench#0.3.2": "e7678a19114e1ff5effbe9b96a4688fa085cee39a50003d1170ec271f83e0792",
       "tasty-hunit#0.10.0.3": "ba774024f3a26100c559dbef41e030bdf443408ed848691f7b9aa85b6fb218c3",
       "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
@@ -74,13 +73,11 @@
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
       "type-equality#1": "7cd952c3ebf0da36ee05544e6209a850b22205fa8b749e17f4bacc5a8fe15269",
-      "unbounded-delays#0.1.1.1": "d7a2a49f15bdff2a8bdbd76f9d204580ea4be5a9def500c6371d51d8111cbcbe",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
       "vector#0.13.0.0": "54528e95501742b99462cc543891f21177e7db34d960ce8e3cbb25afb16a9c89",
       "vector-stream#0.1.0.0": "09b0f8dc4e51936b9d6b04791f0aa03f7c9759b5fb7140eac8a9461cda1e55a3",
       "void#0.7.3": "13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546",
-      "wcwidth#0.0.2": "77531eb6683c505c22ab3fa11bbc43d3ce1e7dac21401d4d5a19677d348bb5f3",
       "witherable#0.4.2": "cccb36175e088abb4291ee5044b8c04d71acd5c36636902d2520f91508dd4bb8"
     },
     "compiler": {
@@ -190,7 +187,7 @@
         [ "random", "1.2.1.1" ],
         [ "semirings", "0.6" ],
         [ "smallcheck", "1.2.1" ],
-        [ "tasty", "1.4.2.3" ],
+        [ "tasty", "1.4.3" ],
         [ "tasty-hunit", "0.10.0.3" ],
         [ "tasty-quickcheck", "0.10.2" ],
         [ "tasty-rerun", "1.1.18" ],
@@ -393,24 +390,21 @@
       ]
     },
     "tasty": {
-      "1.4.2.3": [
+      "1.4.3": [
         [ "ansi-terminal", "0.11.4" ],
-        [ "clock", "0.8.3" ],
         [ "optparse-applicative", "0.17.0.0" ],
-        [ "tagged", "0.8.6.1" ],
-        [ "unbounded-delays", "0.1.1.1" ],
-        [ "wcwidth", "0.0.2" ]
+        [ "tagged", "0.8.6.1" ]
       ]
     },
     "tasty-bench": {
       "0.3.2": [
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     },
     "tasty-hunit": {
       "0.10.0.3": [
         [ "call-stack", "0.4.0" ],
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     },
     "tasty-quickcheck": {
@@ -419,7 +413,7 @@
         [ "optparse-applicative", "0.17.0.0" ],
         [ "random", "1.2.1.1" ],
         [ "tagged", "0.8.6.1" ],
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     },
     "tasty-rerun": {
@@ -427,7 +421,7 @@
         [ "optparse-applicative", "0.17.0.0" ],
         [ "split", "0.2.3.5" ],
         [ "tagged", "0.8.6.1" ],
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     },
     "tasty-smallcheck": {
@@ -435,7 +429,7 @@
         [ "optparse-applicative", "0.17.0.0" ],
         [ "smallcheck", "1.2.1" ],
         [ "tagged", "0.8.6.1" ],
-        [ "tasty", "1.4.2.3" ]
+        [ "tasty", "1.4.3" ]
       ]
     },
     "text-short": {
@@ -600,13 +594,6 @@
         "hash": "sha256:094e90d99fb58f282c1380ec21519bcd7fa89222912fb539062bc33354b011dd",
         "type": "http",
         "url": "https://hackage.haskell.org/package/chimera-0.3.2.0.tar.gz"
-      }
-    },
-    "clock": {
-      "0.8.3": {
-        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
       }
     },
     "colour": {
@@ -855,10 +842,10 @@
       }
     },
     "tasty": {
-      "1.4.2.3": {
-        "hash": "sha256:c914a7a9a28dfc33dc5a112c349f2e69f536cb66d2b2b44898a3411cbdcad0c6",
+      "1.4.3": {
+        "hash": "sha256:f420da9560267271dce8a0007a1cb77c06987f0d129eb0f613110ce61f71cb00",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/tasty-1.4.2.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/tasty-1.4.3.tar.gz"
       }
     },
     "tasty-bench": {
@@ -945,13 +932,6 @@
         "url": "https://hackage.haskell.org/package/type-equality-1.tar.gz"
       }
     },
-    "unbounded-delays": {
-      "0.1.1.1": {
-        "hash": "sha256:59ad7e53bfe32ffbf0e703b31490d41d14c70e4745ed49e8adf592ed68dd6185",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/unbounded-delays-0.1.1.1.tar.gz"
-      }
-    },
     "unordered-containers": {
       "0.2.19.1": {
         "hash": "sha256:1b27bec5e0d522b27a6029ebf4c4a6d40acbc083c787008e32fb55c4b1d128d2",
@@ -985,13 +965,6 @@
         "hash": "sha256:53af758ddc37dc63981671e503438d02c6f64a2d8744e9bec557a894431f7317",
         "type": "http",
         "url": "https://hackage.haskell.org/package/void-0.7.3.tar.gz"
-      }
-    },
-    "wcwidth": {
-      "0.0.2": {
-        "hash": "sha256:ffc68736a3bbde3e8157710f29f4a99c0ca593c41194579c54a92c62f6c12ed8",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/wcwidth-0.0.2.tar.gz"
       }
     },
     "witherable": {
