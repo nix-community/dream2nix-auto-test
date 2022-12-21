@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "minimatch",
+    "location": "",
+    "packages": {
+      "minimatch": "5.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "brace-expansion": {
+      "2.0.1": [
+        [ "balanced-match", "1.0.2" ]
+      ]
+    },
+    "minimatch": {
+      "5.1.2": [
+        [ "brace-expansion", "2.0.1" ]
+      ],
+      "unknown": [
+        [ "minimatch", "5.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "balanced-match": {
+      "1.0.2": {
+        "hash": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+      }
+    },
+    "brace-expansion": {
+      "2.0.1": {
+        "hash": "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz"
+      }
+    },
+    "minimatch": {
+      "5.1.2": {
+        "hash": "sha512-bNH9mmM9qsJ2X4r2Nat1B//1dJVcn3+iBLa3IgqJ7EbGaDNepL9QSHOxN4ng33s52VMMhhIfgCYDk3C4ZmlDAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-5.1.2.tgz"
+      }
+    }
+  }
+}
