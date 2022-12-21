@@ -3,7 +3,7 @@
     "defaultPackage": "prost",
     "location": "",
     "packages": {
-      "prost": "0.11.3"
+      "prost": "0.11.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "prost": {
-        "0.11.3": {
+        "0.11.5": {
           "description": "A Protocol Buffers implementation for the Rust Language.", "license": [   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "prost": {
-        "0.11.3": {}
+        "0.11.5": {}
       }
     }
   },
@@ -142,6 +142,9 @@
     "hermit-abi": {
       "0.1.19": [
         [ "libc", "0.2.138" ]
+      ],
+      "0.2.6": [
+        [ "libc", "0.2.138" ]
       ]
     },
     "instant": {
@@ -175,8 +178,8 @@
       ]
     },
     "num_cpus": {
-      "1.14.0": [
-        [ "hermit-abi", "0.1.19" ],
+      "1.15.0": [
+        [ "hermit-abi", "0.2.6" ],
         [ "libc", "0.2.138" ]
       ]
     },
@@ -216,18 +219,18 @@
       ]
     },
     "prost": {
-      "0.11.3": [
+      "0.11.5": [
         [ "bytes", "1.3.0" ],
         [ "criterion", "0.3.6" ],
         [ "env_logger", "0.8.4" ],
         [ "log", "0.4.17" ],
         [ "proptest", "1.0.0" ],
-        [ "prost-derive", "0.11.2" ],
+        [ "prost-derive", "0.11.5" ],
         [ "rand", "0.8.5" ]
       ]
     },
     "prost-derive": {
-      "0.11.2": [
+      "0.11.5": [
         [ "anyhow", "1.0.68" ],
         [ "itertools", "0.10.5" ],
         [ "proc-macro2", "1.0.49" ],
@@ -274,7 +277,7 @@
         [ "crossbeam-channel", "0.5.6" ],
         [ "crossbeam-deque", "0.8.2" ],
         [ "crossbeam-utils", "0.8.14" ],
-        [ "num_cpus", "1.14.0" ]
+        [ "num_cpus", "1.15.0" ]
       ]
     },
     "redox_syscall": {
@@ -582,6 +585,10 @@
       "0.1.19": {
         "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
         "type": "crates-io"
+      },
+      "0.2.6": {
+        "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
+        "type": "crates-io"
       }
     },
     "instant": {
@@ -649,8 +656,8 @@
       }
     },
     "num_cpus": {
-      "1.14.0": {
-        "hash": "f6058e64324c71e02bc2b150e4f3bc8286db6c83092132ffa3f6b1eab0f9def5",
+      "1.15.0": {
+        "hash": "0fac9e2da13b5eb447a6ce3d392f23a29d8694bff781bf03a16cd9ac8697593b",
         "type": "crates-io"
       }
     },
@@ -703,14 +710,14 @@
       }
     },
     "prost": {
-      "0.11.3": {
-        "hash": "c0b18e655c21ff5ac2084a5ad0611e827b3f92badf79f4910b5a5c58f4d87ff0",
+      "0.11.5": {
+        "hash": "c01db6702aa05baa3f57dec92b8eeeeb4cb19e894e73996b32a4093289e54592",
         "type": "crates-io"
       }
     },
     "prost-derive": {
-      "0.11.2": {
-        "hash": "164ae68b6587001ca506d3bf7f1000bfa248d0e1217b618108fba4ec1d0cc306",
+      "0.11.5": {
+        "hash": "c8842bad1a5419bca14eac663ba798f6bc19c413c2fdceb5f3ba3b0932d96720",
         "type": "crates-io"
       }
     },

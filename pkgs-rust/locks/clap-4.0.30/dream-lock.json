@@ -3,7 +3,7 @@
     "defaultPackage": "clap",
     "location": "",
     "packages": {
-      "clap": "4.0.29"
+      "clap": "4.0.30"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "clap": {
-        "4.0.29": {
+        "4.0.30": {
           "description": "A simple to use, efficient, and full-featured Command Line Argument Parser", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "clap": {
-        "4.0.29": {}
+        "4.0.30": {}
       }
     }
   },
@@ -29,13 +29,6 @@
     "addr2line": {
       "0.17.0": [
         [ "gimli", "0.26.2" ]
-      ]
-    },
-    "atty": {
-      "0.2.14": [
-        [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.137" ],
-        [ "winapi", "0.3.9" ]
       ]
     },
     "backtrace": {
@@ -50,7 +43,7 @@
       ]
     },
     "clap": {
-      "4.0.29": [
+      "4.0.30": [
         [ "backtrace", "0.3.66" ],
         [ "bitflags", "1.3.2" ],
         [ "clap_derive", "4.0.21" ],
@@ -60,13 +53,13 @@
         [ "once_cell", "1.16.0" ],
         [ "rustversion", "1.0.9" ],
         [ "shlex", "1.1.0" ],
-        [ "snapbox", "0.4.1" ],
+        [ "snapbox", "0.4.3" ],
         [ "static_assertions", "1.1.0" ],
         [ "strsim", "0.10.0" ],
         [ "termcolor", "1.1.3" ],
         [ "terminal_size", "0.2.1" ],
-        [ "trybuild", "1.0.71" ],
-        [ "trycmd", "0.14.3" ],
+        [ "trybuild", "1.0.72" ],
+        [ "trycmd", "0.14.5" ],
         [ "unic-emoji-char", "0.9.0" ],
         [ "unicase", "2.6.0" ],
         [ "unicode-width", "0.1.9" ]
@@ -93,10 +86,10 @@
       ]
     },
     "concolor": {
-      "0.0.9": [
-        [ "atty", "0.2.14" ],
+      "0.0.11": [
         [ "bitflags", "1.3.2" ],
-        [ "concolor-query", "0.1.0" ]
+        [ "concolor-query", "0.1.0" ],
+        [ "is-terminal", "0.4.1" ]
       ]
     },
     "crossbeam-channel": {
@@ -298,15 +291,15 @@
       ]
     },
     "snapbox": {
-      "0.4.1": [
-        [ "concolor", "0.0.9" ],
+      "0.4.3": [
+        [ "concolor", "0.0.11" ],
         [ "libc", "0.2.137" ],
         [ "normalize-line-endings", "0.3.0" ],
         [ "os_pipe", "1.1.1" ],
         [ "similar", "2.2.0" ],
         [ "snapbox-macros", "0.3.1" ],
         [ "wait-timeout", "0.2.0" ],
-        [ "winapi", "0.3.9" ],
+        [ "windows-sys", "0.42.0" ],
         [ "yansi", "0.5.1" ]
       ]
     },
@@ -348,7 +341,7 @@
       ]
     },
     "trybuild": {
-      "1.0.71": [
+      "1.0.72": [
         [ "glob", "0.3.0" ],
         [ "once_cell", "1.16.0" ],
         [ "serde", "1.0.147" ],
@@ -359,7 +352,7 @@
       ]
     },
     "trycmd": {
-      "0.14.3": [
+      "0.14.5": [
         [ "escargot", "0.5.7" ],
         [ "glob", "0.3.0" ],
         [ "humantime", "2.1.0" ],
@@ -367,7 +360,7 @@
         [ "rayon", "1.5.3" ],
         [ "serde", "1.0.147" ],
         [ "shlex", "1.1.0" ],
-        [ "snapbox", "0.4.1" ],
+        [ "snapbox", "0.4.3" ],
         [ "toml_edit", "0.15.0" ]
       ]
     },
@@ -441,12 +434,6 @@
         "type": "crates-io"
       }
     },
-    "atty": {
-      "0.2.14": {
-        "hash": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
-        "type": "crates-io"
-      }
-    },
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
@@ -484,8 +471,8 @@
       }
     },
     "clap": {
-      "4.0.29": {
-        "hash": "4d63b9e9c07271b9957ad22c173bae2a4d9a81127680962039296abcd2f8251d",
+      "4.0.30": {
+        "hash": "656ad1e55e23d287773f7d8192c300dc715c3eeded93b3da651d11c42cfd74d2",
         "type": "crates-io"
       }
     },
@@ -508,8 +495,8 @@
       }
     },
     "concolor": {
-      "0.0.9": {
-        "hash": "b90f9dcd9490a97db91a85ccd79e38a87e14323f0bb824659ee3274e9143ba37",
+      "0.0.11": {
+        "hash": "318d6c16e73b3a900eb212ad6a82fc7d298c5ab8184c7a9998646455bc474a16",
         "type": "crates-io"
       }
     },
@@ -824,8 +811,8 @@
       }
     },
     "snapbox": {
-      "0.4.1": {
-        "hash": "827c00e91b15e2674d8a5270bae91f898693cbf9561cbb58d8eaa31974597293",
+      "0.4.3": {
+        "hash": "efbd7b250c7243273b5aec4ca366fced84ad716d110bb7baae4814678952ebde",
         "type": "crates-io"
       }
     },
@@ -884,14 +871,14 @@
       }
     },
     "trybuild": {
-      "1.0.71": {
-        "hash": "ea496675d71016e9bc76aa42d87f16aefd95447cc5818e671e12b2d7e269075d",
+      "1.0.72": {
+        "hash": "db29f438342820400f2d9acfec0d363e987a38b2950bdb50a7069ed17b2148ee",
         "type": "crates-io"
       }
     },
     "trycmd": {
-      "0.14.3": {
-        "hash": "3b3e659433fd96381bbbd80a5d2a664e930444e222ea28e434fd4f6810525101",
+      "0.14.5": {
+        "hash": "e381af441e13a3635303d26769620a9454aef05ec3303711efc3f1dd785a33af",
         "type": "crates-io"
       }
     },
