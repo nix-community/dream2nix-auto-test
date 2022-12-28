@@ -81,7 +81,7 @@
       "haddock-library#1.10.0": "8f3e564752f95e375915d17a63b6dfb576b2b11673e4cf80f259b6fd4666ceba",
       "happy#1.20.0": "5d47dc221a9fe964e36aaaa2e1ab7e8f085a225fd6528d6eff310b92360bbe99",
       "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
-      "haskell-lexer#1.1": "9e0a7633f6bdb59004c6f3144ebfad1edb9e440fc6a94215c3a1d11bcd8656ef",
+      "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "hinotify#0.4.1": "88b8934da67b526df25b1b00d57621ed0570989ad35e73b99883c80a6503990c",
       "hourglass#0.2.12": "e083f5e030dfebe432e30a9c0fa07a99a54eac992f622442646be561fd7a44e8",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
@@ -870,6 +870,7 @@
     },
     "pandoc": {
       "2.17.1.1": [
+        [ "pandoc", "2.17.1.1" ],
         [ "Glob", "0.10.2" ],
         [ "JuicyPixels", "3.3.7" ],
         [ "SHA", "1.6.4.4" ],
@@ -926,8 +927,7 @@
         [ "xml-conduit", "1.9.1.1" ],
         [ "yaml", "0.11.8.0" ],
         [ "zip-archive", "0.4.2.2" ],
-        [ "zlib", "0.6.3.0" ],
-        [ "pandoc", "2.17.1.1" ]
+        [ "zlib", "0.6.3.0" ]
       ]
     },
     "pandoc-lua-marshal": {
@@ -954,7 +954,7 @@
     },
     "pretty-show": {
       "1.10": [
-        [ "haskell-lexer", "1.1" ],
+        [ "haskell-lexer", "1.1.1" ],
         [ "happy", "1.20.0" ],
         [ "pretty-show", "1.10" ]
       ]
@@ -1918,10 +1918,10 @@
       }
     },
     "haskell-lexer": {
-      "1.1": {
-        "hash": "sha256:313a15cc643322c8badd148867ce25ca1ffc191df9e7eeec5b10bc08c4b563d5",
+      "1.1.1": {
+        "hash": "sha256:c8eeda569a30f115244c17920247ba2c45d11b3e30805f648a878f7855d8f349",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/haskell-lexer-1.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/haskell-lexer-1.1.1.tar.gz"
       }
     },
     "hinotify": {
