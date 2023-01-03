@@ -1,0 +1,33 @@
+
+Translating:: ghc (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/ghc-9.4.4/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1672726528
+++ date +%s
++ age=162
++ '[' 162 -gt 86400 ']'
+/tmp/tmp.HK8sPPR2EK/tmp.nNpMzfBmKi/tmp.RsJBiAXV3A ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/ghc-9.4.4/ghc-9.4.4.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 5005k  100 5005k    0     0  11.6M      0 --:--:-- --:--:-- --:--:-- 11.6M
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] trying: ghc-9.4.4 (user goal)
+[__1] next goal: template-haskell (dependency of ghc)
+[__1] rejecting: template-haskell-2.17.0.0/installed-2.17.0.0 (conflict: ghc
+=> template-haskell>=2.19 && <2.20)
+[__1] rejecting: template-haskell-2.19.0.0, template-haskell-2.18.0.0,
+template-haskell-2.17.0.0, template-haskell-2.16.0.0,
+template-haskell-2.15.0.0, template-haskell-2.14.0.0,
+template-haskell-2.13.0.0, template-haskell-2.12.0.0,
+template-haskell-2.11.1.0, template-haskell-2.11.0.0,
+template-haskell-2.10.0.0, template-haskell-2.9.0.0, template-haskell-2.8.0.0,
+template-haskell-2.7.0.0, template-haskell-2.6.0.0, template-haskell-2.5.0.0,
+template-haskell-2.4.0.1, template-haskell-2.4.0.0, template-haskell-2.3.0.1,
+template-haskell-2.3.0.0, template-haskell-2.2.0.0 (constraint from
+non-upgradeable package requires installed instance)
+[__1] fail (backjumping, conflict set: ghc, template-haskell)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: template-haskell, ghc
+
