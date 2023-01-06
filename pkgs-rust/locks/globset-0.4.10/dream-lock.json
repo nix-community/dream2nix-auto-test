@@ -3,7 +3,7 @@
     "defaultPackage": "globset",
     "location": "",
     "packages": {
-      "globset": "0.4.9"
+      "globset": "0.4.10"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "globset": {
-        "0.4.9": {
+        "0.4.10": {
           "description": "Cross platform single glob and glob set matching. Glob set matching is the\nprocess of matching one or more glob patterns against a single candidate path\nsimultaneously, and returning all of the globs that matched.\n", "homepage": "https://github.com/BurntSushi/ripgrep/tree/master/crates/globset", "license": [   "unlicense",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "globset": {
-        "0.4.9": {}
+        "0.4.10": {}
       }
     }
   },
@@ -32,14 +32,15 @@
       ]
     },
     "bstr": {
-      "0.2.17": [
-        [ "memchr", "2.5.0" ]
+      "1.1.0": [
+        [ "memchr", "2.5.0" ],
+        [ "serde", "1.0.152" ]
       ]
     },
     "globset": {
-      "0.4.9": [
+      "0.4.10": [
         [ "aho-corasick", "0.7.20" ],
-        [ "bstr", "0.2.17" ],
+        [ "bstr", "1.1.0" ],
         [ "fnv", "1.0.7" ],
         [ "glob", "0.3.0" ],
         [ "lazy_static", "1.4.0" ],
@@ -77,8 +78,8 @@
       }
     },
     "bstr": {
-      "0.2.17": {
-        "hash": "ba3569f383e8f1598449f1a423e72e99569137b47740b1da11ef19af3d5c3223",
+      "1.1.0": {
+        "hash": "b45ea9b00a7b3f2988e9a65ad3917e62123c38dba709b666506207be96d1790b",
         "type": "crates-io"
       }
     },
@@ -101,8 +102,8 @@
       }
     },
     "globset": {
-      "0.4.9": {
-        "hash": "0a1e17342619edbc21a964c2afbeb6c820c6a2560032872f397bb97ea127bd0a",
+      "0.4.10": {
+        "hash": "029d74589adefde59de1a0c4f4732695c32805624aec7b68d91503d4dba79afc",
         "type": "crates-io"
       }
     },
