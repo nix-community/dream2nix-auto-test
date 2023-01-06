@@ -17,17 +17,17 @@
   "cyclicDependencies": {
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.6": [
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     }
   },
@@ -98,7 +98,7 @@
       "3.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ],
+        [ "es-abstract", "1.21.0" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -107,7 +107,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ],
+        [ "es-abstract", "1.21.0" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -115,7 +115,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ],
+        [ "es-abstract", "1.21.0" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -123,7 +123,7 @@
       "1.1.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ],
+        [ "es-abstract", "1.21.0" ],
         [ "es-shim-unscopables", "1.0.0" ],
         [ "get-intrinsic", "1.1.3" ]
       ]
@@ -184,23 +184,28 @@
       ]
     },
     "es-abstract": {
-      "1.20.5": [
+      "1.21.0": [
         [ "call-bind", "1.0.2" ],
+        [ "es-set-tostringtag", "2.0.1" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "get-symbol-description", "1.0.0" ],
+        [ "globalthis", "1.0.3" ],
         [ "gopd", "1.0.1" ],
         [ "has", "1.0.3" ],
         [ "has-property-descriptors", "1.0.0" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.4" ],
+        [ "is-array-buffer", "3.0.1" ],
         [ "is-callable", "1.2.7" ],
         [ "is-negative-zero", "2.0.2" ],
         [ "is-regex", "1.1.4" ],
         [ "is-shared-array-buffer", "1.0.2" ],
         [ "is-string", "1.0.7" ],
+        [ "is-typed-array", "1.1.10" ],
         [ "is-weakref", "1.0.2" ],
         [ "object-inspect", "1.12.2" ],
         [ "object-keys", "1.1.1" ],
@@ -209,7 +214,16 @@
         [ "safe-regex-test", "1.0.0" ],
         [ "string.prototype.trimend", "1.0.6" ],
         [ "string.prototype.trimstart", "1.0.6" ],
-        [ "unbox-primitive", "1.0.2" ]
+        [ "typed-array-length", "1.0.4" ],
+        [ "unbox-primitive", "1.0.2" ],
+        [ "which-typed-array", "1.1.9" ]
+      ]
+    },
+    "es-set-tostringtag": {
+      "2.0.1": [
+        [ "get-intrinsic", "1.1.3" ],
+        [ "has", "1.0.3" ],
+        [ "has-tostringtag", "1.0.0" ]
       ]
     },
     "es-shim-unscopables": {
@@ -319,7 +333,7 @@
         [ "aria-query", "4.2.2" ],
         [ "array-includes", "3.1.6" ],
         [ "ast-types-flow", "0.0.7" ],
-        [ "axe-core", "4.6.1" ],
+        [ "axe-core", "4.6.2" ],
         [ "axobject-query", "2.2.0" ],
         [ "damerau-levenshtein", "1.0.8" ],
         [ "emoji-regex", "9.2.2" ],
@@ -399,11 +413,16 @@
         [ "rimraf", "3.0.2" ]
       ]
     },
+    "for-each": {
+      "0.3.3": [
+        [ "is-callable", "1.2.7" ]
+      ]
+    },
     "function.prototype.name": {
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ],
+        [ "es-abstract", "1.21.0" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -438,6 +457,11 @@
     "globals": {
       "13.19.0": [
         [ "type-fest", "0.20.2" ]
+      ]
+    },
+    "globalthis": {
+      "1.0.3": [
+        [ "define-properties", "1.1.4" ]
       ]
     },
     "gopd": {
@@ -477,6 +501,13 @@
         [ "get-intrinsic", "1.1.3" ],
         [ "has", "1.0.3" ],
         [ "side-channel", "1.0.4" ]
+      ]
+    },
+    "is-array-buffer": {
+      "3.0.1": [
+        [ "call-bind", "1.0.2" ],
+        [ "get-intrinsic", "1.1.3" ],
+        [ "is-typed-array", "1.1.10" ]
       ]
     },
     "is-bigint": {
@@ -529,6 +560,15 @@
     "is-symbol": {
       "1.0.4": [
         [ "has-symbols", "1.0.3" ]
+      ]
+    },
+    "is-typed-array": {
+      "1.1.10": [
+        [ "available-typed-arrays", "1.0.5" ],
+        [ "call-bind", "1.0.2" ],
+        [ "for-each", "0.3.3" ],
+        [ "gopd", "1.0.1" ],
+        [ "has-tostringtag", "1.0.0" ]
       ]
     },
     "is-weakref": {
@@ -590,27 +630,27 @@
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "object.fromentries": {
       "2.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "object.hasown": {
       "1.1.2": [
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "object.values": {
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "once": {
@@ -702,7 +742,7 @@
       "4.0.8": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ],
+        [ "es-abstract", "1.21.0" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.4" ],
@@ -714,14 +754,14 @@
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.5" ]
+        [ "es-abstract", "1.21.0" ]
       ]
     },
     "strip-ansi": {
@@ -745,6 +785,13 @@
     "type-check": {
       "0.4.0": [
         [ "prelude-ls", "1.2.1" ]
+      ]
+    },
+    "typed-array-length": {
+      "1.0.4": [
+        [ "call-bind", "1.0.2" ],
+        [ "for-each", "0.3.3" ],
+        [ "is-typed-array", "1.1.10" ]
       ]
     },
     "unbox-primitive": {
@@ -772,6 +819,16 @@
         [ "is-number-object", "1.0.7" ],
         [ "is-string", "1.0.7" ],
         [ "is-symbol", "1.0.4" ]
+      ]
+    },
+    "which-typed-array": {
+      "1.1.9": [
+        [ "available-typed-arrays", "1.0.5" ],
+        [ "call-bind", "1.0.2" ],
+        [ "for-each", "0.3.3" ],
+        [ "gopd", "1.0.1" ],
+        [ "has-tostringtag", "1.0.0" ],
+        [ "is-typed-array", "1.1.10" ]
       ]
     }
   },
@@ -930,11 +987,18 @@
         "url": "https://registry.npmjs.org/ast-types-flow/-/ast-types-flow-0.0.7.tgz"
       }
     },
-    "axe-core": {
-      "4.6.1": {
-        "hash": "sha512-lCZN5XRuOnpG4bpMq8v0khrWtUOn+i8lZSb6wHZH56ZfbIEv6XwJV84AAueh9/zi7qPVJ/E4yz6fmsiyOmXR4w==",
+    "available-typed-arrays": {
+      "1.0.5": {
+        "hash": "sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/axe-core/-/axe-core-4.6.1.tgz"
+        "url": "https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz"
+      }
+    },
+    "axe-core": {
+      "4.6.2": {
+        "hash": "sha512-b1WlTV8+XKLj9gZy2DZXgQiyDp9xkkoe2a6U6UbYccScq2wgH/YwCeI2/Jq2mgo0HzQxqJOjWZBLeA/mqsk5Mg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/axe-core/-/axe-core-4.6.2.tgz"
       }
     },
     "axobject-query": {
@@ -1079,10 +1143,17 @@
       }
     },
     "es-abstract": {
-      "1.20.5": {
-        "hash": "sha512-7h8MM2EQhsCA7pU/Nv78qOXFpD8Rhqd12gYiSJVkrH9+e8VuA8JlPJK/hQjjlLv6pJvx/z1iRFKzYb0XT/RuAQ==",
+      "1.21.0": {
+        "hash": "sha512-GUGtW7eXQay0c+PRq0sGIKSdaBorfVqsCMhGHo4elP7YVqZu9nCZS4UkK4gv71gOWNMra/PaSKD3ao1oWExO0g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.5.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.0.tgz"
+      }
+    },
+    "es-set-tostringtag": {
+      "2.0.1": {
+        "hash": "sha512-g3OMbtlwY3QewlqAiMLI47KywjWZoEytKr8pf6iTC8uJq5bIAH52Z9pnQ8pVL6whrCto53JZDuUIsifGeLorTg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.0.1.tgz"
       }
     },
     "es-shim-unscopables": {
@@ -1286,6 +1357,13 @@
         "url": "https://registry.npmjs.org/flatted/-/flatted-3.2.7.tgz"
       }
     },
+    "for-each": {
+      "0.3.3": {
+        "hash": "sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/for-each/-/for-each-0.3.3.tgz"
+      }
+    },
     "fs.realpath": {
       "1.0.0": {
         "hash": "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==",
@@ -1349,6 +1427,13 @@
         "url": "https://registry.npmjs.org/globals/-/globals-13.19.0.tgz"
       }
     },
+    "globalthis": {
+      "1.0.3": {
+        "hash": "sha512-sFdI5LyBiNTHjRd7cGPWapiHWMOXKyuBNX/cWJ3NfzrZQVa8GI/8cofCl74AOVqq9W5kNmguTIzJ/1s2gyI9wA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/globalthis/-/globalthis-1.0.3.tgz"
+      }
+    },
     "gopd": {
       "1.0.1": {
         "hash": "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==",
@@ -1389,6 +1474,13 @@
         "hash": "sha512-62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.0.tgz"
+      }
+    },
+    "has-proto": {
+      "1.0.1": {
+        "hash": "sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
       }
     },
     "has-symbols": {
@@ -1445,6 +1537,13 @@
         "hash": "sha512-tA8URYccNzMo94s5MQZgH8NB/XTa6HsOo0MLfXTKKEnHVVdegzaQoFZ7Jp44bdvLvY2waT5dc+j5ICEswhi7UQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/internal-slot/-/internal-slot-1.0.4.tgz"
+      }
+    },
+    "is-array-buffer": {
+      "3.0.1": {
+        "hash": "sha512-ASfLknmY8Xa2XtB4wmbz13Wu202baeA18cJBCeCy0wXUHZF0IPyVEXqKEcd+t2fNSLLL1vC6k7lxZEojNbISXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.1.tgz"
       }
     },
     "is-bigint": {
@@ -1543,6 +1642,13 @@
         "hash": "sha512-C/CPBqKWnvdcxqIARxyOh4v1UUEOCHpgDa0WYgpKDFMszcrPcffg5uhwSgPCLD2WWxmq6isisz87tzT01tuGhg==",
         "type": "http",
         "url": "https://registry.npmjs.org/is-symbol/-/is-symbol-1.0.4.tgz"
+      }
+    },
+    "is-typed-array": {
+      "1.1.10": {
+        "hash": "sha512-PJqgEHiWZvMpaFZ3uTc8kHPM4+4ADTlDniuQL7cU/UDA0Ql7F70yGfHph3cLNe+c9toaigv+DFzTJKhc2CtO6A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.10.tgz"
       }
     },
     "is-weakref": {
@@ -2017,6 +2123,13 @@
         "url": "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
       }
     },
+    "typed-array-length": {
+      "1.0.4": {
+        "hash": "sha512-KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/typed-array-length/-/typed-array-length-1.0.4.tgz"
+      }
+    },
     "unbox-primitive": {
       "1.0.2": {
         "hash": "sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==",
@@ -2043,6 +2156,13 @@
         "hash": "sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==",
         "type": "http",
         "url": "https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz"
+      }
+    },
+    "which-typed-array": {
+      "1.1.9": {
+        "hash": "sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.9.tgz"
       }
     },
     "word-wrap": {
