@@ -24,10 +24,11 @@
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "extensible-exceptions#0.1.1.4": "eb5fe684a7ffe8d1ed2ed6cdaec7dfb29efc780811ea7158a64edc2abc516f47",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "hostname#1.0": "8203b6ecd14ca1ef12f73a471b0a6a4be3ad4568d8b84f2bc4bc9e0abb8c4153",
       "indexed-traversable#0.1.2": "52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350",
       "integer-logarithms#1.0.3.1": "d59bfd1d39808217af2b68789d3c0e57cb7199d47405a276060d88fef4f4017d",
@@ -122,14 +123,14 @@
     },
     "case-insensitive": {
       "1.2.1.0": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "cassava": {
       "0.5.3.0": [
         [ "Only", "0.1" ],
         [ "attoparsec", "0.14.4" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "text-short", "0.1.5" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -138,7 +139,7 @@
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
         [ "cassava", "0.5.3.0" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "quickcheck-instances", "0.3.28" ],
         [ "scientific", "0.3.7.0" ],
         [ "test-framework", "0.8.2.0" ],
@@ -158,7 +159,7 @@
     },
     "data-fix": {
       "0.3.2": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "distributive": {
@@ -168,8 +169,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "old-time": {
@@ -183,7 +185,7 @@
         [ "QuickCheck", "2.14.2" ],
         [ "case-insensitive", "1.2.1.0" ],
         [ "data-fix", "0.3.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "old-time", "1.1.0.3" ],
         [ "primitive", "0.7.4.0" ],
@@ -212,7 +214,7 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
@@ -220,7 +222,7 @@
     "strict": {
       "0.4.0.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "these", "1.1.1.1" ]
       ]
     },
@@ -252,29 +254,29 @@
     },
     "text-short": {
       "0.1.5": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "these": {
       "1.1.1.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "time-compat": {
       "1.9.6.1": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "uuid-types": {
       "1.0.5": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "random", "1.2.1.1" ]
       ]
     },
@@ -391,6 +393,13 @@
         "url": "https://hackage.haskell.org/package/comonad-5.0.8.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "data-fix": {
       "0.3.2": {
         "hash": "sha256:3a172d3bc0639c327345e965f9d9023e099425814b28dcdb7b60ff66d66219cc",
@@ -413,10 +422,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "hostname": {

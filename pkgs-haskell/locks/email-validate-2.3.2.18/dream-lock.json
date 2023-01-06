@@ -19,9 +19,10 @@
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "code-page#0.2.1": "fe596b0f421abd2894fdb7049b3d76230eb1de6e04e9f635e2695dd55ded856e",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "doctest#0.20.1": "c0e08af88e034f41673477be0350ceae69faea2db03a4c10b289fa9c20d27cbb",
       "ghc-paths#0.1.0.12": "1c9cf34ed8f2584bc4dd2837657ea3056664daa8127c66264704a3442651bfb4",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "hspec#2.10.8": "97e32946a2e7f92ae7a8e1f684eec2c0b5f341d574c7bb93d36a57e47c7a8d14",
@@ -116,8 +117,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "hspec": {
@@ -166,7 +168,7 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
@@ -242,6 +244,13 @@
         "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "doctest": {
       "0.20.1": {
         "hash": "sha256:44a56fd4b70f22f314ad67dcff21e32e8e96da2129d2405cb5a177cc36be4b02",
@@ -264,10 +273,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "haskell-lexer": {

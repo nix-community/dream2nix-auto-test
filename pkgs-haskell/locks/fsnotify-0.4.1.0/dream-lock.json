@@ -38,6 +38,7 @@
       "config-ini#0.2.5.0": "25b30b8fada023cb550b7aa837823459f6511ec197873cf477c9a3a479b41ab2",
       "constraints#0.13.4": "2133e56e14e130a1a40b0737deeaf6859402279720210531723bc19b898c5544",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "data-clist#0.2": "b764c5a8a7bc1bc9b7bcca7f34af911757397fbd58c0d2431dcaeb2fb88ab0d5",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
@@ -47,7 +48,7 @@
       "free#5.1.10": "b88705deb7b5fefce0bc8186ccab6c1ef58858c759fb27171e4c4443efef5973",
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "happy#1.20.0": "5d47dc221a9fe964e36aaaa2e1ab7e8f085a225fd6528d6eff310b92360bbe99",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "haskell-src-exts#1.23.1": "339841f4a6710e915a0bac8df18d8a454c11d626131aee4d05b6be150b7f863e",
       "haskell-src-meta#0.8.11": "c4a50c38afe65fd1c21143e44b2e9cbce23c1384a6b261108cd2ef84e3407eeb",
@@ -177,7 +178,7 @@
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
         [ "generically", "0.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "primitive", "0.7.4.0" ],
         [ "scientific", "0.3.7.0" ],
@@ -212,7 +213,7 @@
     },
     "async": {
       "2.2.4": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "attoparsec": {
@@ -257,7 +258,7 @@
     },
     "case-insensitive": {
       "1.2.1.0": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "comonad": {
@@ -298,7 +299,7 @@
     },
     "constraints": {
       "0.13.4": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "transformers-compat", "0.7.2" ],
         [ "type-equality", "1" ]
       ]
@@ -310,7 +311,7 @@
     },
     "data-fix": {
       "0.3.2": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "distributive": {
@@ -357,8 +358,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "haskell-src-exts": {
@@ -444,7 +446,7 @@
     },
     "mono-traversable": {
       "1.0.15.3": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "split", "0.2.3.5" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
@@ -595,14 +597,14 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
     },
     "semialign": {
       "1.2.0.1": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "semigroupoids", "5.3.7" ],
@@ -619,7 +621,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.6.1" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ]
@@ -636,7 +638,7 @@
     "strict": {
       "0.4.0.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "these", "1.1.1.1" ]
       ]
     },
@@ -662,7 +664,7 @@
     },
     "text-short": {
       "0.1.5": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "text-zipper": {
@@ -697,13 +699,13 @@
     "these": {
       "1.1.1.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "time-compat": {
       "1.9.6.1": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "transformers-base": {
@@ -733,12 +735,12 @@
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "uuid-types": {
       "1.0.5": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "random", "1.2.1.1" ]
       ]
     },
@@ -759,7 +761,7 @@
       "5.37": [
         [ "ansi-terminal", "0.11.4" ],
         [ "blaze-builder", "0.4.2.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "microlens", "0.4.13.1" ],
         [ "microlens-mtl", "0.2.0.3" ],
         [ "microlens-th", "0.4.3.11" ],
@@ -778,7 +780,7 @@
     "witherable": {
       "0.4.2": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -983,6 +985,13 @@
         "url": "https://hackage.haskell.org/package/contravariant-1.5.5.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "data-clist": {
       "0.2": {
         "hash": "sha256:1c3a1ebd71e8f6fe30afdb3797c4852db7fb0b4e3c145fc53e8282eb4303b212",
@@ -1054,10 +1063,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "haskell-lexer": {

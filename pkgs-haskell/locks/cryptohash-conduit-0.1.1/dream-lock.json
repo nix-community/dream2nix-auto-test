@@ -20,7 +20,8 @@
       "conduit-extra#1.3.6": "83303e6fea78a683fdbb41682fc8dbc47b1d8830da1f09e88940f9a744a7f984",
       "cryptohash#0.11.9": "59d9494ba0cc9eef087ecba2e12e4d3e2d3b0327dd1542af552e3dca0e7de70d",
       "cryptonite#0.30": "12c85dea7be63e5ad90bcb487eb3846bf3c413347f94336fa1dede7b28f9936a",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "integer-logarithms#1.0.3.1": "d59bfd1d39808217af2b68789d3c0e57cb7199d47405a276060d88fef4f4017d",
       "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
@@ -56,7 +57,7 @@
   "dependencies": {
     "async": {
       "2.2.4": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "attoparsec": {
@@ -115,8 +116,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "memory": {
@@ -126,7 +128,7 @@
     },
     "mono-traversable": {
       "1.0.15.3": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "split", "0.2.3.5" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
@@ -151,7 +153,7 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
@@ -172,7 +174,7 @@
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "vector": {
@@ -267,11 +269,18 @@
         "url": "https://hackage.haskell.org/package/cryptonite-0.30.tar.gz"
       }
     },
-    "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "hsc2hs": {

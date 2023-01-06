@@ -16,10 +16,11 @@
       "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "dictionary-sharing#0.1.0.0": "6990c4cb6e5c7fd2b3c545576accc2c00a56cdc52ffe646f70680d781893c7d6",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "groups#0.5.3": "b536d995c65281f5b891a694213fe4abce2fcee71ebda08bb9ec9e334cdcc741",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "indexed-traversable#0.1.2": "52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350",
       "monoid-extras#0.6.2": "87cb78c643d89ee09d5d6de28b0921ad7eab4fb6938739f808797d693d4b43c0",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
@@ -92,8 +93,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "monoid-extras": {
@@ -114,7 +116,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.6.1" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ]
@@ -135,7 +137,7 @@
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     }
   },
@@ -182,6 +184,13 @@
         "url": "https://hackage.haskell.org/package/contravariant-1.5.5.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "dictionary-sharing": {
       "0.1.0.0": {
         "hash": "sha256:8c3b5184d5d6056433d51a49c5402e4ab7b0260073d5342685b8e141d2be5a01",
@@ -211,10 +220,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "indexed-traversable": {

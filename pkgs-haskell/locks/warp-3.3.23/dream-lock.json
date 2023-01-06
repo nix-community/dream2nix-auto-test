@@ -29,11 +29,12 @@
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
-      "cookie#0.4.5": "22bbe2bea34cfc546eaca2468386035fec521b8dbae52f5aa2f994ed68b35e0e",
+      "cookie#0.4.6": "00f3a7d5604a3ccbfe89b9c52f8eb1edea753dc273d015333895118f32683ecd",
       "cryptonite#0.30": "12c85dea7be63e5ad90bcb487eb3846bf3c413347f94336fa1dede7b28f9936a",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
       "gauge#0.2.5": "8d60450bdec985c146d5632d4f5a8d60cec27d71ba6787ed1ee64d945d4c7c33",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "hourglass#0.2.12": "e083f5e030dfebe432e30a9c0fa07a99a54eac992f622442646be561fd7a44e8",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
@@ -136,7 +137,7 @@
     },
     "async": {
       "2.2.4": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "attoparsec": {
@@ -147,11 +148,11 @@
     },
     "case-insensitive": {
       "1.2.1.0": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "cookie": {
-      "0.4.5": [
+      "0.4.6": [
         [ "data-default-class", "0.1.2.0" ]
       ]
     },
@@ -168,8 +169,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "hspec": {
@@ -211,7 +213,7 @@
         [ "base64-bytestring", "1.2.1.0" ],
         [ "blaze-builder", "0.4.2.2" ],
         [ "case-insensitive", "1.2.1.0" ],
-        [ "cookie", "0.4.5" ],
+        [ "cookie", "0.4.6" ],
         [ "http-types", "0.12.3" ],
         [ "iproute", "1.7.12" ],
         [ "mime-types", "0.1.1.0" ],
@@ -278,7 +280,7 @@
     },
     "psqueues": {
       "0.2.7.3": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "quickcheck-io": {
@@ -299,7 +301,7 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
@@ -343,12 +345,12 @@
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "vault": {
       "0.3.1.5": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "unordered-containers", "0.2.19.1" ]
       ]
     },
@@ -370,7 +372,7 @@
         [ "auto-update", "0.1.6" ],
         [ "bsb-http-chunked", "0.0.0.4" ],
         [ "case-insensitive", "1.2.1.0" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "http-date", "0.0.11" ],
         [ "http-types", "0.12.3" ],
         [ "http2", "3.0.3" ],
@@ -388,7 +390,7 @@
         [ "x509", "1.7.7" ],
         [ "auto-update", "0.1.6" ],
         [ "gauge", "0.2.5" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "http-date", "0.0.11" ],
         [ "http-types", "0.12.3" ],
         [ "network", "3.1.2.7" ],
@@ -401,7 +403,7 @@
         [ "auto-update", "0.1.6" ],
         [ "bsb-http-chunked", "0.0.0.4" ],
         [ "case-insensitive", "1.2.1.0" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "hspec", "2.10.8" ],
         [ "http-client", "0.7.13.1" ],
         [ "http-date", "0.0.11" ],
@@ -569,10 +571,10 @@
       }
     },
     "cookie": {
-      "0.4.5": {
-        "hash": "sha256:707f94d1b31018b91d6a1e9e19ef5413e20d02cab00ad93a5fd7d7b3b46a3583",
+      "0.4.6": {
+        "hash": "sha256:8c41a956c32b9733d525a53d43b0338a236a34d36658ecc4364c8249a6664baa",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/cookie-0.4.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/cookie-0.4.6.tar.gz"
       }
     },
     "cryptonite": {
@@ -580,6 +582,13 @@
         "hash": "sha256:56099c8a8aa01d2ee914b670c97c1f818186dbb886e2025b73d9c2afe3496b1d",
         "type": "http",
         "url": "https://hackage.haskell.org/package/cryptonite-0.30.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
       }
     },
     "data-default-class": {
@@ -597,10 +606,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "haskell-lexer": {

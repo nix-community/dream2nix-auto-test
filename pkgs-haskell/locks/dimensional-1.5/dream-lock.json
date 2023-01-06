@@ -36,6 +36,7 @@
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "criterion#1.6.0.0": "76280dace017fe1fab4dae35d57992a48e70a3cfcdb2a4563923cd2502a7268c",
       "criterion-measurement#0.2.0.0": "8c6127b22a53aebc7d5a9dbf8fd870f128b93be3069fe7fed969e4c253cd9626",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "dense-linear-algebra#0.1.0.0": "918e5fa7e367a58446dcd2b2288a7d84113b0820b5b5e1cef5bd1bdc601b4368",
@@ -45,7 +46,7 @@
       "exact-pi#0.5.0.2": "23bc58e15fa2c4f992af4c61af35c9a4b635706f3fdb135c5e98c093088b9d35",
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "ghc-paths#0.1.0.12": "1c9cf34ed8f2584bc4dd2837657ea3056664daa8127c66264704a3442651bfb4",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "hspec#2.10.8": "97e32946a2e7f92ae7a8e1f684eec2c0b5f341d574c7bb93d36a57e47c7a8d14",
@@ -154,7 +155,7 @@
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
         [ "generically", "0.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "primitive", "0.7.4.0" ],
         [ "scientific", "0.3.7.0" ],
@@ -189,7 +190,7 @@
     },
     "async": {
       "2.2.4": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "attoparsec": {
@@ -226,7 +227,7 @@
       "0.5.3.0": [
         [ "Only", "0.1" ],
         [ "attoparsec", "0.14.4" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "text-short", "0.1.5" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -283,7 +284,7 @@
     },
     "data-fix": {
       "0.3.2": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "dense-linear-algebra": {
@@ -339,8 +340,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "hspec": {
@@ -426,14 +428,14 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
     },
     "semialign": {
       "1.2.0.1": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "semigroupoids", "5.3.7" ],
@@ -450,7 +452,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.6.1" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ]
@@ -476,13 +478,13 @@
     "strict": {
       "0.4.0.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "these", "1.1.1.1" ]
       ]
     },
     "text-short": {
       "0.1.5": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "tf-random": {
@@ -494,23 +496,23 @@
     "these": {
       "1.1.1.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "time-compat": {
       "1.9.6.1": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "uuid-types": {
       "1.0.5": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "random", "1.2.1.1" ]
       ]
     },
@@ -540,7 +542,7 @@
     "witherable": {
       "0.4.2": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -731,6 +733,13 @@
         "url": "https://hackage.haskell.org/package/criterion-measurement-0.2.0.0.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "data-default-class": {
       "0.1.2.0": {
         "hash": "sha256:4f01b423f000c3e069aaf52a348564a6536797f31498bb85c3db4bd2d0973e56",
@@ -802,10 +811,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "haskell-lexer": {

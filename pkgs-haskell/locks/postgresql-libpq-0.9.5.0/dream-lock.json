@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "postgresql-libpq",
+    "location": "",
+    "packages": {
+      "postgresql-libpq": "0.9.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "postgresql-libpq": {
+      "0.9.5.0": [
+        [ "hsc2hs", "0.68.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "hsc2hs": {
+      "0.68.8": {
+        "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.8.tar.gz"
+      }
+    },
+    "postgresql-libpq": {
+      "0.9.5.0": {
+        "hash": "sha256:d1592bd805c088bb0c136c03eea92af9c1d7dbd85e32d0b6d522fd940f325470",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/postgresql-libpq-0.9.5.0/postgresql-libpq-0.9.5.0.tar.gz"
+      }
+    }
+  }
+}

@@ -16,7 +16,8 @@
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
       "bibtex#0.1.0.6": "3ce2181b6840115c42fab2eb17175c76d304af63222bd525d9058ff33f12fd80",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "latex#0.1.0.4": "f424cdaa8b12f8c71e9d70a91141f9209883ac3eef8d2afccbab3298048a1925",
       "loop#0.3.0": "bcc65428e53e9325523fdb80af3c04750548d8ee3f9ad6841272ca679f331bf2",
       "matrix#0.3.6.1": "96ab17d9a959cd5c0e9e6db5bc48069dba5f6fa17f7f4aea838d22f35e7bc047",
@@ -51,7 +52,7 @@
       "3.22.3.1": [
         [ "QuickCheck", "2.14.2" ],
         [ "bibtex", "0.1.0.6" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "matrix", "0.3.6.1" ],
         [ "prettyprinter", "1.7.1" ],
         [ "HaTeX", "3.22.3.1" ],
@@ -84,8 +85,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "latex": {
@@ -185,11 +187,18 @@
         "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
       }
     },
-    "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "latex": {

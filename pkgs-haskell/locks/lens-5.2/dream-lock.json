@@ -44,6 +44,7 @@
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "criterion#1.6.0.0": "76280dace017fe1fab4dae35d57992a48e70a3cfcdb2a4563923cd2502a7268c",
       "criterion-measurement#0.2.0.0": "8c6127b22a53aebc7d5a9dbf8fd870f128b93be3069fe7fed969e4c253cd9626",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "dense-linear-algebra#0.1.0.0": "918e5fa7e367a58446dcd2b2288a7d84113b0820b5b5e1cef5bd1bdc601b4368",
@@ -57,7 +58,7 @@
       "gloss#1.13.2.1": "273d02d30e1896932d45424dab6022a16986c0ed3eef6937776b5f40854ce51c",
       "gloss-rendering#1.13.1.1": "e7e1e16596a0b30dfc35c8f09685fc0642faefa8729227abaad99bdb2f1ba883",
       "half#0.3.1": "5aabf5325762b2d6335b9e3f88602431af2b954e14b058bea3e93168a8e0eb53",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "hostname#1.0": "8203b6ecd14ca1ef12f73a471b0a6a4be3ad4568d8b84f2bc4bc9e0abb8c4153",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "indexed-traversable#0.1.2": "52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350",
@@ -176,7 +177,7 @@
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
         [ "generically", "0.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "primitive", "0.7.4.0" ],
         [ "scientific", "0.3.7.0" ],
@@ -211,7 +212,7 @@
     },
     "async": {
       "2.2.4": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "attoparsec": {
@@ -248,7 +249,7 @@
       "0.5.3.0": [
         [ "Only", "0.1" ],
         [ "attoparsec", "0.14.4" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "text-short", "0.1.5" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -305,7 +306,7 @@
     },
     "data-fix": {
       "0.3.2": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "dense-linear-algebra": {
@@ -341,8 +342,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "indexed-traversable-instances": {
@@ -391,7 +393,7 @@
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
         [ "free", "5.1.10" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "kan-extensions", "5.2.5" ],
@@ -488,14 +490,14 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
     },
     "semialign": {
       "1.2.0.1": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "semigroupoids", "5.3.7" ],
@@ -512,7 +514,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.6.1" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ]
@@ -538,7 +540,7 @@
     "strict": {
       "0.4.0.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "these", "1.1.1.1" ]
       ]
     },
@@ -570,19 +572,19 @@
     },
     "text-short": {
       "0.1.5": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "these": {
       "1.1.1.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "time-compat": {
       "1.9.6.1": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "transformers-base": {
@@ -593,12 +595,12 @@
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "uuid-types": {
       "1.0.5": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "random", "1.2.1.1" ]
       ]
     },
@@ -628,7 +630,7 @@
     "witherable": {
       "0.4.2": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -826,6 +828,13 @@
         "url": "https://hackage.haskell.org/package/criterion-measurement-0.2.0.0.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "data-default-class": {
       "0.1.2.0": {
         "hash": "sha256:4f01b423f000c3e069aaf52a348564a6536797f31498bb85c3db4bd2d0973e56",
@@ -890,10 +899,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "hostname": {

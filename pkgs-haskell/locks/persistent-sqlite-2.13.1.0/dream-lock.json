@@ -37,7 +37,8 @@
       "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
       "conduit-extra#1.3.6": "83303e6fea78a683fdbb41682fc8dbc47b1d8830da1f09e88940f9a744a7f984",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
-      "cookie#0.4.5": "22bbe2bea34cfc546eaca2468386035fec521b8dbae52f5aa2f994ed68b35e0e",
+      "cookie#0.4.6": "00f3a7d5604a3ccbfe89b9c52f8eb1edea753dc273d015333895118f32683ecd",
+      "data-array-byte#0.1.0.1": "b00dc13ae6e94004f59dc8552e8849c314fd96decc46d52fe3b5ac3da1d6f109",
       "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
@@ -45,7 +46,7 @@
       "easy-file#0.2.2": "72303120495a9fed82276a7987434361edd6dfecafad241d7c6c03b68e4801e5",
       "fast-logger#3.1.1": "9ffbb0d475edf6c3ed13cae0b24202a22a1a29848d9810785849f1f2332b6ee1",
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
-      "hashable#1.4.1.0": "50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "hspec#2.10.8": "97e32946a2e7f92ae7a8e1f684eec2c0b5f341d574c7bb93d36a57e47c7a8d14",
@@ -69,7 +70,7 @@
       "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
       "old-time#1.1.0.3": "c91fbb3ee73d20ccd015842b30f1f29a304893ebe0ae3128b7bbc13d5bb0d4c8",
       "path-pieces#0.2.1": "c713a8d04b3e6b89f1116c1d5fe434305031e17a9f0ad30a457a8402e1d5fc5c",
-      "persistent#2.14.4.3": "22237669897fed2b71de521bfeba7f8e0677e54992920288ae1fa8206a4711fc",
+      "persistent#2.14.4.4": "e0da522a52246aa3e3e9295daddf765ca7ed7c753cf3d26fe3b88dbaa42c6320",
       "persistent-test#2.13.1.3": "a296ecb2c01cd75d46c4dc4d801dadf543e14a00cd7cbfecbe44a0dde45be012",
       "primitive#0.7.4.0": "89b88a3e08493b7727fa4089b0692bfbdf7e1e666ef54635f458644eb8358764",
       "quickcheck-instances#0.3.28": "eeed853ebe7194bb1c5ac888a5a084a65d05d7f8ed5b049f908544ab632c297c",
@@ -163,7 +164,7 @@
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
         [ "generically", "0.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "primitive", "0.7.4.0" ],
         [ "scientific", "0.3.7.0" ],
@@ -193,7 +194,7 @@
     },
     "async": {
       "2.2.4": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "attoparsec": {
@@ -241,7 +242,7 @@
     },
     "case-insensitive": {
       "1.2.1.0": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "comonad": {
@@ -280,13 +281,13 @@
       ]
     },
     "cookie": {
-      "0.4.5": [
+      "0.4.6": [
         [ "data-default-class", "0.1.2.0" ]
       ]
     },
     "data-fix": {
       "0.3.2": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "distributive": {
@@ -304,8 +305,9 @@
       ]
     },
     "hashable": {
-      "1.4.1.0": [
-        [ "base-orphans", "0.8.7" ]
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "hspec": {
@@ -346,8 +348,8 @@
         [ "attoparsec", "0.14.4" ],
         [ "attoparsec-iso8601", "1.1.0.0" ],
         [ "base-compat", "0.12.2" ],
-        [ "cookie", "0.4.5" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "cookie", "0.4.6" ],
+        [ "hashable", "1.4.2.0" ],
         [ "http-types", "0.12.3" ],
         [ "tagged", "0.8.6.1" ],
         [ "time-compat", "1.9.6.1" ],
@@ -404,7 +406,7 @@
     },
     "mono-traversable": {
       "1.0.15.3": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "split", "0.2.3.5" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
@@ -422,7 +424,7 @@
       ]
     },
     "persistent": {
-      "2.14.4.3": [
+      "2.14.4.4": [
         [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "base64-bytestring", "1.2.1.0" ],
@@ -451,7 +453,7 @@
         [ "conduit", "1.3.4.3" ],
         [ "microlens-th", "0.4.3.11" ],
         [ "monad-logger", "0.3.37" ],
-        [ "persistent", "2.14.4.3" ],
+        [ "persistent", "2.14.4.4" ],
         [ "resource-pool", "0.3.1.0" ],
         [ "resourcet", "1.3.0" ],
         [ "unliftio-core", "0.2.0.1" ],
@@ -463,7 +465,7 @@
         [ "hspec", "2.10.8" ],
         [ "microlens", "0.4.13.1" ],
         [ "monad-logger", "0.3.37" ],
-        [ "persistent", "2.14.4.3" ],
+        [ "persistent", "2.14.4.4" ],
         [ "persistent-sqlite", "2.13.1.0" ],
         [ "persistent-test", "2.13.1.3" ],
         [ "resourcet", "1.3.0" ],
@@ -486,7 +488,7 @@
         [ "monad-control", "1.0.3.1" ],
         [ "monad-logger", "0.3.37" ],
         [ "path-pieces", "0.2.1" ],
-        [ "persistent", "2.14.4.3" ],
+        [ "persistent", "2.14.4.4" ],
         [ "quickcheck-instances", "0.3.28" ],
         [ "random", "1.2.1.1" ],
         [ "resourcet", "1.3.0" ],
@@ -502,7 +504,7 @@
         [ "QuickCheck", "2.14.2" ],
         [ "case-insensitive", "1.2.1.0" ],
         [ "data-fix", "0.3.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "old-time", "1.1.0.3" ],
         [ "primitive", "0.7.4.0" ],
@@ -543,14 +545,14 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
     },
     "semialign": {
       "1.2.0.1": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "semigroupoids", "5.3.7" ],
@@ -567,7 +569,7 @@
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.6.1" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ]
@@ -584,7 +586,7 @@
     "strict": {
       "0.4.0.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "these", "1.1.1.1" ]
       ]
     },
@@ -600,7 +602,7 @@
     },
     "text-short": {
       "0.1.5": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "tf-random": {
@@ -623,13 +625,13 @@
     "these": {
       "1.1.1.1": [
         [ "assoc", "1.0.2" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "time-compat": {
       "1.9.6.1": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "transformers-base": {
@@ -659,18 +661,18 @@
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.4.1.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "uuid-types": {
       "1.0.5": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "random", "1.2.1.1" ]
       ]
     },
     "vault": {
       "0.3.1.5": [
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "unordered-containers", "0.2.19.1" ]
       ]
     },
@@ -690,7 +692,7 @@
     "witherable": {
       "0.4.2": [
         [ "base-orphans", "0.8.7" ],
-        [ "hashable", "1.4.1.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -889,10 +891,17 @@
       }
     },
     "cookie": {
-      "0.4.5": {
-        "hash": "sha256:707f94d1b31018b91d6a1e9e19ef5413e20d02cab00ad93a5fd7d7b3b46a3583",
+      "0.4.6": {
+        "hash": "sha256:8c41a956c32b9733d525a53d43b0338a236a34d36658ecc4364c8249a6664baa",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/cookie-0.4.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/cookie-0.4.6.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
       }
     },
     "data-default-class": {
@@ -945,10 +954,10 @@
       }
     },
     "hashable": {
-      "1.4.1.0": {
-        "hash": "sha256:e1b305c280e66ad827edeaedd6933b9fc4174f626882877eab2a08344e665e87",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.4.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "haskell-lexer": {
@@ -1113,10 +1122,10 @@
       }
     },
     "persistent": {
-      "2.14.4.3": {
-        "hash": "sha256:9bcd87a086cf3cf21caff393ded12ade500cce7c7f7cba95db366b2686d3f214",
+      "2.14.4.4": {
+        "hash": "sha256:43390f3f2de3a64c439d849e613bf72c94eea61c71a47ec26bbeb45c542b2782",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/persistent-2.14.4.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/persistent-2.14.4.4.tar.gz"
       }
     },
     "persistent-sqlite": {
