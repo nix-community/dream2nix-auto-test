@@ -98,7 +98,7 @@
       "hslua-module-doclayout#1.0.4": "2d526e1095328aaede64a40a9276abe257596f6c73e893bbfa0432b2744aaaa7",
       "hslua-module-path#1.0.3": "9764d9a4f1ddc0cf47e91dbf23919095434f4926cebea82de516cf2731e89089",
       "hslua-module-system#1.0.2": "1958499d7a04f7faad2f98a134f988d3fe6d95f914b5090acc0032ffadcbfba1",
-      "hslua-module-text#1.0.3": "cb61aaab1c04f74af07ba34ab98c02712ac8dd8991eef4e522d7fc0ca6660c87",
+      "hslua-module-text#1.0.3.1": "101cc63fcbfce9ff03532278db19879c4ed6a89e942a5f42a251e55a7df2046b",
       "hslua-module-version#1.0.3": "0722de7a187152e182d384c52585e3402a8a3ef7a6da1422a3ebc982576654a1",
       "hslua-objectorientation#2.2.1": "0a7703080502e1e40f74db581fbaac963ce12691f30ae3e2129055723ade15a9",
       "hslua-packaging#2.2.1": "bb63fb69d4c1dfb5fcaecd36714ab666abef427d31bcace8939fe5547c39db4c",
@@ -666,7 +666,7 @@
       ]
     },
     "hslua-module-text": {
-      "1.0.3": [
+      "1.0.3.1": [
         [ "hslua-core", "2.2.1" ],
         [ "hslua-marshalling", "2.2.1" ],
         [ "hslua-packaging", "2.2.1" ]
@@ -884,7 +884,7 @@
         [ "hslua-module-doclayout", "1.0.4" ],
         [ "hslua-module-path", "1.0.3" ],
         [ "hslua-module-system", "1.0.2" ],
-        [ "hslua-module-text", "1.0.3" ],
+        [ "hslua-module-text", "1.0.3.1" ],
         [ "hslua-module-version", "1.0.3" ],
         [ "http-client", "0.7.13.1" ],
         [ "http-client-tls", "0.3.6.1" ],
@@ -2125,10 +2125,10 @@
       }
     },
     "hslua-module-text": {
-      "1.0.3": {
-        "hash": "sha256:7b1a4d8c281431cb864dec31875d3d4eda9d6b6287d210c69a1c07171ad56d3d",
+      "1.0.3.1": {
+        "hash": "sha256:0c331eaacad080a85da7160726c3f9e61102e329ef42607aa04b08acea46b608",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hslua-module-text-1.0.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/hslua-module-text-1.0.3.1.tar.gz"
       }
     },
     "hslua-module-version": {

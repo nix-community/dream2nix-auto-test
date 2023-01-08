@@ -2,15 +2,15 @@
 Translating:: attoparsec-enumerator (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/attoparsec-enumerator-0.3.4/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1672985840
++ indexTime=1673158610
 ++ date +%s
-+ age=256
-+ '[' 256 -gt 86400 ']'
-/tmp/tmp.gCsEdfgBOg/tmp.Jz5qgEvFp1/tmp.Fu6XPNEviW ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=271
++ '[' 271 -gt 86400 ']'
+/tmp/tmp.XWTvY44ctY/tmp.WoN92Jy8AN/tmp.9nYuPsbiGU ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/attoparsec-enumerator-0.3.4/attoparsec-enumerator-0.3.4.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2485  100  2485    0     0  15974      0 --:--:-- --:--:-- --:--:-- 16241
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2485    0  2485    0     0   9542      0 --:--:-- --:--:-- --:--:--  9557
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: attoparsec-enumerator-0.3.4 (user goal)
@@ -18,7 +18,7 @@ Error: cabal: Could not resolve dependencies:
 [__2] next goal: transformers (dependency of enumerator)
 [__2] rejecting: transformers-0.5.6.2/installed-0.5.6.2 (conflict: enumerator
 => base>=4.0 && <4.11, transformers => base==4.15.1.0/installed-4.15.1.0)
-[__2] trying: transformers-0.6.0.4
+[__2] trying: transformers-0.6.0.5
 [__3] next goal: base (dependency of attoparsec-enumerator)
 [__3] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: enumerator =>
 base>=4.0 && <4.11)
