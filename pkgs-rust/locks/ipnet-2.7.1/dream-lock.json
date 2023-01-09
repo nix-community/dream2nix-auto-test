@@ -3,7 +3,7 @@
     "defaultPackage": "ipnet",
     "location": "",
     "packages": {
-      "ipnet": "2.7.0"
+      "ipnet": "2.7.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "ipnet": {
-        "2.7.0": {
+        "2.7.1": {
           "description": "Provides types and useful methods for working with IPv4 and IPv6 network addresses, commonly called IP prefixes. The new `IpNet`, `Ipv4Net`, and `Ipv6Net` types build on the existing `IpAddr`, `Ipv4Addr`, and `Ipv6Addr` types already provided in Rust's standard library and align to their design to stay consistent. The module also provides useful traits that extend `Ipv4Addr` and `Ipv6Addr` with methods for `Add`, `Sub`, `BitAnd`, and `BitOr` operations. The module only uses stable feature so it is guaranteed to compile using the stable toolchain.", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,14 +20,14 @@
     },
     "relPathReplacements": {
       "ipnet": {
-        "2.7.0": {}
+        "2.7.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "ipnet": {
-      "2.7.0": [
+      "2.7.1": [
         [ "schemars", "0.8.11" ],
         [ "serde", "1.0.152" ],
         [ "serde_test", "1.0.152" ]
@@ -106,8 +106,8 @@
       }
     },
     "ipnet": {
-      "2.7.0": {
-        "hash": "11b0d96e660696543b251e58030cf9787df56da39dab19ad60eae7353040917e",
+      "2.7.1": {
+        "hash": "30e22bd8629359895450b59ea7a776c850561b96a3b1d31321c1949d9e6c9146",
         "type": "crates-io"
       }
     },
