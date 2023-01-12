@@ -1,0 +1,286 @@
+{
+  "_generic": {
+    "defaultPackage": "hjsmin",
+    "location": "",
+    "packages": {
+      "hjsmin": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "alex#3.2.7.1": "ab26a38cefae59403f746370e5a0c943b8d5bda098eb83f37052b2429ee780ce",
+      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
+      "binary#0.8.9.1": "81f468c1c75fd6535152ab69b2d32ac6cfcc03e345267b069abe4da56ec95801",
+      "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
+      "bytestring#0.11.3.1": "0cc97b237df9a34d12de37973ad306391e24b0c262387c4d846bb8d1d65699dd",
+      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "directory#1.3.8.0": "89f3645066c8a1456d237adcbc955c668abe7beca3ccc61a5843b3c4fbf426c6",
+      "extra#1.7.12": "3ac58d7341976173d1052e7b2837d119212d9afcf911735667c7f1ab67aec25f",
+      "filepath#1.4.100.0": "45a49fc8c379b33fdba3c8cc96dcf22b15c50995d0f4b8638e9b6b9423d1b877",
+      "happy#1.20.0": "5d47dc221a9fe964e36aaaa2e1ab7e8f085a225fd6528d6eff310b92360bbe99",
+      "language-javascript#0.7.1.0": "3c68380fc4794475ff4ebec608f8cf7ce9b15b9b69eb938d423f8aafdefbe0d7",
+      "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
+      "process#1.6.16.0": "1b9c267e475d4492b80edc1f58d08c458d4a10d17ea95294356443855b125616",
+      "text#2.0.1": "907ecca6d20c42dafceb709ebac546f5d72e8b7dda3c39b286888c2f09e3bad8",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
+      "unix#2.8.0.0": "5e4626217ca5b00e0589e09f491c6448289b625d99bb132a112d8c3dc724d8ce",
+      "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "alex": {
+      "3.2.7.1": [
+        [ "directory", "1.3.8.0" ]
+      ]
+    },
+    "ansi-terminal": {
+      "0.11.4": [
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": [
+        [ "ansi-terminal", "0.11.4" ]
+      ]
+    },
+    "binary": {
+      "0.8.9.1": [
+        [ "bytestring", "0.11.3.1" ]
+      ]
+    },
+    "blaze-builder": {
+      "0.4.2.2": [
+        [ "bytestring", "0.11.3.1" ],
+        [ "text", "2.0.1" ]
+      ]
+    },
+    "directory": {
+      "1.3.8.0": [
+        [ "filepath", "1.4.100.0" ],
+        [ "unix", "2.8.0.0" ]
+      ]
+    },
+    "extra": {
+      "1.7.12": [
+        [ "clock", "0.8.3" ],
+        [ "directory", "1.3.8.0" ],
+        [ "filepath", "1.4.100.0" ],
+        [ "process", "1.6.16.0" ],
+        [ "unix", "2.8.0.0" ]
+      ]
+    },
+    "filepath": {
+      "1.4.100.0": [
+        [ "bytestring", "0.11.3.1" ]
+      ]
+    },
+    "hjsmin": {
+      "0.2.1": [
+        [ "bytestring", "0.11.3.1" ],
+        [ "language-javascript", "0.7.1.0" ],
+        [ "text", "2.0.1" ],
+        [ "bytestring", "0.11.3.1" ],
+        [ "language-javascript", "0.7.1.0" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "text", "2.0.1" ],
+        [ "directory", "1.3.8.0" ],
+        [ "extra", "1.7.12" ],
+        [ "filepath", "1.4.100.0" ],
+        [ "process", "1.6.16.0" ],
+        [ "unix", "2.8.0.0" ]
+      ]
+    },
+    "language-javascript": {
+      "0.7.1.0": [
+        [ "blaze-builder", "0.4.2.2" ],
+        [ "bytestring", "0.11.3.1" ],
+        [ "text", "2.0.1" ],
+        [ "utf8-string", "1.0.2" ],
+        [ "happy", "1.20.0" ],
+        [ "alex", "3.2.7.1" ]
+      ]
+    },
+    "optparse-applicative": {
+      "0.17.0.0": [
+        [ "ansi-wl-pprint", "0.6.9" ],
+        [ "process", "1.6.16.0" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "process": {
+      "1.6.16.0": [
+        [ "directory", "1.3.8.0" ],
+        [ "filepath", "1.4.100.0" ],
+        [ "unix", "2.8.0.0" ]
+      ]
+    },
+    "text": {
+      "2.0.1": [
+        [ "binary", "0.8.9.1" ],
+        [ "bytestring", "0.11.3.1" ]
+      ]
+    },
+    "unix": {
+      "2.8.0.0": [
+        [ "bytestring", "0.11.3.1" ],
+        [ "filepath", "1.4.100.0" ]
+      ]
+    },
+    "utf8-string": {
+      "1.0.2": [
+        [ "bytestring", "0.11.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "alex": {
+      "3.2.7.1": {
+        "hash": "sha256:9bd2f1a27e8f1b2ffdb5b2fbd3ed82b6f0e85191459a1b24ffcbef4e68a81bec",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/alex-3.2.7.1.tar.gz"
+      }
+    },
+    "ansi-terminal": {
+      "0.11.4": {
+        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+      }
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": {
+        "hash": "sha256:a7b2e8e7cd3f02f2954e8b17dc60a0ccd889f49e2068ebb15abfa1d42f7a4eac",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-wl-pprint-0.6.9.tar.gz"
+      }
+    },
+    "binary": {
+      "0.8.9.1": {
+        "hash": "sha256:ac21ca63452dfc9b0bcab87c57699c531d87f7a9bcb6230ca46fba1b7faeebc0",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/binary-0.8.9.1.tar.gz"
+      }
+    },
+    "blaze-builder": {
+      "0.4.2.2": {
+        "hash": "sha256:2cdc998c021d3a5f2a66a95138b93386271c26a117e7676d78264a90e536af67",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/blaze-builder-0.4.2.2.tar.gz"
+      }
+    },
+    "bytestring": {
+      "0.11.3.1": {
+        "hash": "sha256:50518e1722be212d09df385e0d1054d6e67c3d125b8782413198d50ac52e075a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bytestring-0.11.3.1.tar.gz"
+      }
+    },
+    "clock": {
+      "0.8.3": {
+        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "directory": {
+      "1.3.8.0": {
+        "hash": "sha256:dbf7bb2d10e524c43f799a3e75a2cd069e71359facb875f4dc4052bde2c1bd37",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/directory-1.3.8.0.tar.gz"
+      }
+    },
+    "extra": {
+      "1.7.12": {
+        "hash": "sha256:e571a9ec1d8865f0fbb0e0ba1eb575f783b0365c80db19b54a93600bae43b03c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/extra-1.7.12.tar.gz"
+      }
+    },
+    "filepath": {
+      "1.4.100.0": {
+        "hash": "sha256:691f2d659c902112faad40120bebe606ddc84602aeae57f912d285729da80acc",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/filepath-1.4.100.0.tar.gz"
+      }
+    },
+    "happy": {
+      "1.20.0": {
+        "hash": "sha256:3b1d3a8f93a2723b554d9f07b2cd136be1a7b2fcab1855b12b7aab5cbac8868c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/happy-1.20.0.tar.gz"
+      }
+    },
+    "hjsmin": {
+      "0.2.1": {
+        "hash": "sha256:4db43835a4cdfd79b9e18238fdd86c0de7e656813f8b8083c3ba8630d322cd90",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hjsmin-0.2.1/hjsmin-0.2.1.tar.gz"
+      }
+    },
+    "language-javascript": {
+      "0.7.1.0": {
+        "hash": "sha256:d1a036aa4c747fa7a347e78dc6d3609a3d51dc28580ff6b897a27646ca7ad168",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/language-javascript-0.7.1.0.tar.gz"
+      }
+    },
+    "optparse-applicative": {
+      "0.17.0.0": {
+        "hash": "sha256:825b2e4d3dafe0ba64a073366a88062b3712b81f851793d9ce2327bee70af724",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.0.0.tar.gz"
+      }
+    },
+    "process": {
+      "1.6.16.0": {
+        "hash": "sha256:bbc21380d1271aa0dd57934f0b7a4f790f3f6cd12a27eed3eefcd46677ca9328",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/process-1.6.16.0.tar.gz"
+      }
+    },
+    "text": {
+      "2.0.1": {
+        "hash": "sha256:b00a2466c50e2c300a85e76424967e40d751652bfa6707d13d300b8b4ba087da",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/text-2.0.1.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "unix": {
+      "2.8.0.0": {
+        "hash": "sha256:882948dd930abb6ef86e6faae97ba8ae7a229a097101616a08461b44ef254b94",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unix-2.8.0.0.tar.gz"
+      }
+    },
+    "utf8-string": {
+      "1.0.2": {
+        "hash": "sha256:ee48deada7600370728c4156cb002441de770d0121ae33a68139a9ed9c19b09a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/utf8-string-1.0.2.tar.gz"
+      }
+    }
+  }
+}
