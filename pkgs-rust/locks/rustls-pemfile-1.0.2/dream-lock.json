@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "rustls-pemfile",
+    "location": "",
+    "packages": {
+      "rustls-pemfile": "1.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "rustls-pemfile": {
+        "1.0.2": {
+          "description": "Basic .pem file parser for keys and certificates", "homepage": "https://github.com/rustls/pemfile", "license": [   "asl20",   "isc",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "rustls-pemfile": {
+        "1.0.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rustls-pemfile": {
+      "1.0.2": [
+        [ "base64", "0.21.0" ],
+        [ "bencher", "0.1.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "base64": {
+      "0.21.0": {
+        "hash": "a4a4ddaa51a5bc52a6948f74c06d20aaaddb71924eab79b8c97a8c556e942d6a",
+        "type": "crates-io"
+      }
+    },
+    "bencher": {
+      "0.1.5": {
+        "hash": "7dfdb4953a096c551ce9ace855a604d702e6e62d77fac690575ae347571717f5",
+        "type": "crates-io"
+      }
+    },
+    "rustls-pemfile": {
+      "1.0.2": {
+        "hash": "d194b56d58803a43635bdc398cd17e383d6f71f9182b9a192c127ca42494a59b",
+        "type": "crates-io"
+      }
+    }
+  }
+}

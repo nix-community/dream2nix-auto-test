@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "parking_lot",
+    "defaultPackage": "parking_lot_core",
     "location": "",
     "packages": {
-      "parking_lot": "0.12.1"
+      "parking_lot_core": "0.9.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "parking_lot": {
-        "0.12.1": {
-          "description": "More compact and efficient implementations of the standard synchronization primitives.", "license": [   "mit",   "asl20"
+      "parking_lot_core": {
+        "0.9.6": {
+          "description": "An advanced API for creating custom synchronization primitives.", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "parking_lot": {
-        "0.12.1": {}
+      "parking_lot_core": {
+        "0.9.6": {}
       }
     }
   },
@@ -42,30 +42,10 @@
         [ "rustc-demangle", "0.1.21" ]
       ]
     },
-    "bincode": {
-      "1.3.3": [
-        [ "serde", "1.0.152" ]
-      ]
-    },
-    "getrandom": {
-      "0.2.8": [
-        [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.139" ],
-        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
-      ]
-    },
     "indexmap": {
       "1.9.2": [
         [ "autocfg", "1.1.0" ],
         [ "hashbrown", "0.12.3" ]
-      ]
-    },
-    "lock_api": {
-      "0.4.9": [
-        [ "autocfg", "1.1.0" ],
-        [ "owning_ref", "0.4.1" ],
-        [ "scopeguard", "1.1.0" ],
-        [ "serde", "1.0.152" ]
       ]
     },
     "miniz_oxide": {
@@ -76,19 +56,6 @@
     "object": {
       "0.30.2": [
         [ "memchr", "2.5.0" ]
-      ]
-    },
-    "owning_ref": {
-      "0.4.1": [
-        [ "stable_deref_trait", "1.2.0" ]
-      ]
-    },
-    "parking_lot": {
-      "0.12.1": [
-        [ "bincode", "1.3.3" ],
-        [ "lock_api", "0.4.9" ],
-        [ "parking_lot_core", "0.9.6" ],
-        [ "rand", "0.8.5" ]
       ]
     },
     "parking_lot_core": {
@@ -107,24 +74,6 @@
       "0.6.2": [
         [ "fixedbitset", "0.4.2" ],
         [ "indexmap", "1.9.2" ]
-      ]
-    },
-    "rand": {
-      "0.8.5": [
-        [ "libc", "0.2.139" ],
-        [ "rand_chacha", "0.3.1" ],
-        [ "rand_core", "0.6.4" ]
-      ]
-    },
-    "rand_chacha": {
-      "0.3.1": [
-        [ "ppv-lite86", "0.2.17" ],
-        [ "rand_core", "0.6.4" ]
-      ]
-    },
-    "rand_core": {
-      "0.6.4": [
-        [ "getrandom", "0.2.8" ]
       ]
     },
     "redox_syscall": {
@@ -182,12 +131,6 @@
         "type": "crates-io"
       }
     },
-    "bincode": {
-      "1.3.3": {
-        "hash": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
-        "type": "crates-io"
-      }
-    },
     "bitflags": {
       "1.3.2": {
         "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
@@ -209,12 +152,6 @@
     "fixedbitset": {
       "0.4.2": {
         "hash": "0ce7134b9999ecaf8bcd65542e436736ef32ddca1b3e06094cb6ec5755203b80",
-        "type": "crates-io"
-      }
-    },
-    "getrandom": {
-      "0.2.8": {
-        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
         "type": "crates-io"
       }
     },
@@ -242,12 +179,6 @@
         "type": "crates-io"
       }
     },
-    "lock_api": {
-      "0.4.9": {
-        "hash": "435011366fe56583b16cf956f9df0095b405b82d76425bc8981c0e22e60ec4df",
-        "type": "crates-io"
-      }
-    },
     "memchr": {
       "2.5.0": {
         "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
@@ -266,18 +197,6 @@
         "type": "crates-io"
       }
     },
-    "owning_ref": {
-      "0.4.1": {
-        "hash": "6ff55baddef9e4ad00f88b6c743a2a8062d4c6ade126c2a528644b8e444d52ce",
-        "type": "crates-io"
-      }
-    },
-    "parking_lot": {
-      "0.12.1": {
-        "hash": "3742b2c103b9f06bc9fff0a37ff4912935851bee6d36f3c02bcc755bcfec228f",
-        "type": "crates-io"
-      }
-    },
     "parking_lot_core": {
       "0.9.6": {
         "hash": "ba1ef8814b5c993410bb3adfad7a5ed269563e4a2f90c41f5d85be7fb47133bf",
@@ -287,30 +206,6 @@
     "petgraph": {
       "0.6.2": {
         "hash": "e6d5014253a1331579ce62aa67443b4a658c5e7dd03d4bc6d302b94474888143",
-        "type": "crates-io"
-      }
-    },
-    "ppv-lite86": {
-      "0.2.17": {
-        "hash": "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de",
-        "type": "crates-io"
-      }
-    },
-    "rand": {
-      "0.8.5": {
-        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
-        "type": "crates-io"
-      }
-    },
-    "rand_chacha": {
-      "0.3.1": {
-        "hash": "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88",
-        "type": "crates-io"
-      }
-    },
-    "rand_core": {
-      "0.6.4": {
-        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
         "type": "crates-io"
       }
     },
@@ -326,39 +221,15 @@
         "type": "crates-io"
       }
     },
-    "scopeguard": {
-      "1.1.0": {
-        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
-        "type": "crates-io"
-      }
-    },
-    "serde": {
-      "1.0.152": {
-        "hash": "bb7d1f0d3021d347a83e556fc4683dea2ea09d87bccdf88ff5c12545d89d5efb",
-        "type": "crates-io"
-      }
-    },
     "smallvec": {
       "1.10.0": {
         "hash": "a507befe795404456341dfab10cef66ead4c041f62b8b11bbb92bffe5d0953e0",
         "type": "crates-io"
       }
     },
-    "stable_deref_trait": {
-      "1.2.0": {
-        "hash": "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3",
-        "type": "crates-io"
-      }
-    },
     "thread-id": {
       "4.0.0": {
         "hash": "5fdfe0627923f7411a43ec9ec9c39c3a9b4151be313e0922042581fb6c9b717f",
-        "type": "crates-io"
-      }
-    },
-    "wasi": {
-      "0.11.0+wasi-snapshot-preview1": {
-        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
         "type": "crates-io"
       }
     },

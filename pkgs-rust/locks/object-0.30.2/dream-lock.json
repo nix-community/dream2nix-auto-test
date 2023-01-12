@@ -1,0 +1,191 @@
+{
+  "_generic": {
+    "defaultPackage": "object",
+    "location": "",
+    "packages": {
+      "object": "0.30.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "object": {
+        "0.30.2": {
+          "description": "A unified interface for reading and writing object file formats.", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "object": {
+        "0.30.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ahash": {
+      "0.8.2": [
+        [ "cfg-if", "1.0.0" ],
+        [ "once_cell", "1.17.0" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "crc32fast": {
+      "1.3.2": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "flate2": {
+      "1.0.25": [
+        [ "crc32fast", "1.3.2" ],
+        [ "miniz_oxide", "0.6.2" ]
+      ]
+    },
+    "hashbrown": {
+      "0.13.2": [
+        [ "ahash", "0.8.2" ]
+      ]
+    },
+    "indexmap": {
+      "1.9.2": [
+        [ "autocfg", "1.1.0" ],
+        [ "hashbrown", "0.12.3" ]
+      ]
+    },
+    "memchr": {
+      "2.5.0": [
+        [ "compiler_builtins", "0.1.86" ],
+        [ "rustc-std-workspace-core", "1.0.0" ]
+      ]
+    },
+    "miniz_oxide": {
+      "0.6.2": [
+        [ "adler", "1.0.2" ]
+      ]
+    },
+    "object": {
+      "0.30.2": [
+        [ "compiler_builtins", "0.1.86" ],
+        [ "crc32fast", "1.3.2" ],
+        [ "flate2", "1.0.25" ],
+        [ "hashbrown", "0.13.2" ],
+        [ "indexmap", "1.9.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "rustc-std-workspace-alloc", "1.0.0" ],
+        [ "rustc-std-workspace-core", "1.0.0" ],
+        [ "wasmparser", "0.57.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "adler": {
+      "1.0.2": {
+        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
+        "type": "crates-io"
+      }
+    },
+    "ahash": {
+      "0.8.2": {
+        "hash": "bf6ccdb167abbf410dcb915cabd428929d7f6a04980b54a11f26a39f1c7f7107",
+        "type": "crates-io"
+      }
+    },
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "compiler_builtins": {
+      "0.1.86": {
+        "hash": "5dae98c88e576098d7ab13ebcb40cc43e5114b2beafe61a87cda9200649ff205",
+        "type": "crates-io"
+      }
+    },
+    "crc32fast": {
+      "1.3.2": {
+        "hash": "b540bd8bc810d3885c6ea91e2018302f68baba2129ab3e88f32389ee9370880d",
+        "type": "crates-io"
+      }
+    },
+    "flate2": {
+      "1.0.25": {
+        "hash": "a8a2db397cb1c8772f31494cb8917e48cd1e64f0fa7efac59fbd741a0a8ce841",
+        "type": "crates-io"
+      }
+    },
+    "hashbrown": {
+      "0.12.3": {
+        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
+        "type": "crates-io"
+      },
+      "0.13.2": {
+        "hash": "43a3c133739dddd0d2990f9a4bdf8eb4b21ef50e4851ca85ab661199821d510e",
+        "type": "crates-io"
+      }
+    },
+    "indexmap": {
+      "1.9.2": {
+        "hash": "1885e79c1fc4b10f0e172c475f458b7f7b93061064d98c3293e98c5ba0c8b399",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "miniz_oxide": {
+      "0.6.2": {
+        "hash": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa",
+        "type": "crates-io"
+      }
+    },
+    "object": {
+      "0.30.2": {
+        "hash": "2b8c786513eb403643f2a88c244c2aaa270ef2153f55094587d0c48a3cf22a83",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.17.0": {
+        "hash": "6f61fba1741ea2b3d6a1e3178721804bb716a68a6aeba1149b5d52e3d464ea66",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-alloc": {
+      "1.0.0": {
+        "hash": "ff66d57013a5686e1917ed6a025d54dd591fcda71a41fe07edf4d16726aefa86",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    },
+    "wasmparser": {
+      "0.57.0": {
+        "hash": "32fddd575d477c6e9702484139cf9f23dcd554b06d185ed0f56c857dd3a47aa6",
+        "type": "crates-io"
+      }
+    }
+  }
+}

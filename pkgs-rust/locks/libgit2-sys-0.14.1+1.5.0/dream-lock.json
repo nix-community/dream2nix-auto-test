@@ -1,0 +1,163 @@
+{
+  "_generic": {
+    "defaultPackage": "libgit2-sys",
+    "location": "",
+    "packages": {
+      "libgit2-sys": "0.14.1+1.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "libgit2-sys": {
+        "0.14.1+1.5.0": {
+          "description": "Native bindings to the libgit2 library", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "libgit2-sys": {
+        "0.14.1+1.5.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cc": {
+      "1.0.78": [
+        [ "jobserver", "0.1.25" ]
+      ]
+    },
+    "cmake": {
+      "0.1.49": [
+        [ "cc", "1.0.78" ]
+      ]
+    },
+    "jobserver": {
+      "0.1.25": [
+        [ "libc", "0.2.139" ]
+      ]
+    },
+    "libgit2-sys": {
+      "0.14.1+1.5.0": [
+        [ "cc", "1.0.78" ],
+        [ "libc", "0.2.139" ],
+        [ "libssh2-sys", "0.2.23" ],
+        [ "libz-sys", "1.1.8" ],
+        [ "openssl-sys", "0.9.80" ],
+        [ "pkg-config", "0.3.26" ]
+      ]
+    },
+    "libssh2-sys": {
+      "0.2.23": [
+        [ "cc", "1.0.78" ],
+        [ "libc", "0.2.139" ],
+        [ "libz-sys", "1.1.8" ],
+        [ "openssl-sys", "0.9.80" ],
+        [ "pkg-config", "0.3.26" ],
+        [ "vcpkg", "0.2.15" ]
+      ]
+    },
+    "libz-sys": {
+      "1.1.8": [
+        [ "cc", "1.0.78" ],
+        [ "cmake", "0.1.49" ],
+        [ "libc", "0.2.139" ],
+        [ "pkg-config", "0.3.26" ],
+        [ "vcpkg", "0.2.15" ]
+      ]
+    },
+    "openssl-src": {
+      "111.24.0+1.1.1s": [
+        [ "cc", "1.0.78" ]
+      ]
+    },
+    "openssl-sys": {
+      "0.9.80": [
+        [ "autocfg", "1.1.0" ],
+        [ "cc", "1.0.78" ],
+        [ "libc", "0.2.139" ],
+        [ "openssl-src", "111.24.0+1.1.1s" ],
+        [ "pkg-config", "0.3.26" ],
+        [ "vcpkg", "0.2.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.78": {
+        "hash": "a20104e2335ce8a659d6dd92a51a767a0c062599c73b343fd152cb401e828c3d",
+        "type": "crates-io"
+      }
+    },
+    "cmake": {
+      "0.1.49": {
+        "hash": "db34956e100b30725f2eb215f90d4871051239535632f84fea3bc92722c66b7c",
+        "type": "crates-io"
+      }
+    },
+    "jobserver": {
+      "0.1.25": {
+        "hash": "068b1ee6743e4d11fb9c6a1e6064b3693a1b600e7f5f5988047d98b3dc9fb90b",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.139": {
+        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
+        "type": "crates-io"
+      }
+    },
+    "libgit2-sys": {
+      "0.14.1+1.5.0": {
+        "hash": "4a07fb2692bc3593bda59de45a502bb3071659f2c515e28c71e728306b038e17",
+        "type": "crates-io"
+      }
+    },
+    "libssh2-sys": {
+      "0.2.23": {
+        "hash": "b094a36eb4b8b8c8a7b4b8ae43b2944502be3e59cd87687595cf6b0a71b3f4ca",
+        "type": "crates-io"
+      }
+    },
+    "libz-sys": {
+      "1.1.8": {
+        "hash": "9702761c3935f8cc2f101793272e202c72b99da8f4224a19ddcf1279a6450bbf",
+        "type": "crates-io"
+      }
+    },
+    "openssl-src": {
+      "111.24.0+1.1.1s": {
+        "hash": "3498f259dab01178c6228c6b00dcef0ed2a2d5e20d648c017861227773ea4abd",
+        "type": "crates-io"
+      }
+    },
+    "openssl-sys": {
+      "0.9.80": {
+        "hash": "23bbbf7854cd45b83958ebe919f0e8e516793727652e27fda10a8384cfc790b7",
+        "type": "crates-io"
+      }
+    },
+    "pkg-config": {
+      "0.3.26": {
+        "hash": "6ac9a59f73473f1b8d852421e59e64809f025994837ef743615c6d0c5b305160",
+        "type": "crates-io"
+      }
+    },
+    "vcpkg": {
+      "0.2.15": {
+        "hash": "accd4ea62f7bb7a82fe23066fb0957d48ef677f6eeb8215f372f52e48bb32426",
+        "type": "crates-io"
+      }
+    }
+  }
+}

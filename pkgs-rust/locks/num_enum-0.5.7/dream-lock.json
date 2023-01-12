@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "anyhow",
+    "defaultPackage": "num_enum",
     "location": "",
     "packages": {
-      "anyhow": "1.0.68"
+      "num_enum": "0.5.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,80 +11,43 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "anyhow": {
-        "1.0.68": {
-          "description": "Flexible concrete Error type built on std::error::Error", "license": [   "mit",   "asl20"
+      "num_enum": {
+        "0.5.7": {
+          "description": "Procedural macros to make inter-operation between primitives and enums easier.", "license": [   "bsd3",   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "anyhow": {
-        "1.0.68": {}
+      "num_enum": {
+        "0.5.7": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "addr2line": {
-      "0.19.0": [
-        [ "gimli", "0.27.0" ]
-      ]
-    },
-    "anyhow": {
-      "1.0.68": [
-        [ "backtrace", "0.3.67" ],
-        [ "futures", "0.3.25" ],
+    "num_enum": {
+      "0.5.7": [
+        [ "anyhow", "1.0.68" ],
+        [ "num_enum_derive", "0.5.7" ],
         [ "rustversion", "1.0.11" ],
-        [ "syn", "1.0.107" ],
+        [ "trybuild", "1.0.75" ],
+        [ "walkdir", "2.3.2" ]
+      ]
+    },
+    "num_enum_derive": {
+      "0.5.7": [
+        [ "proc-macro-crate", "1.2.1" ],
+        [ "proc-macro2", "1.0.49" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
+      ]
+    },
+    "proc-macro-crate": {
+      "1.2.1": [
+        [ "once_cell", "1.17.0" ],
         [ "thiserror", "1.0.38" ],
-        [ "trybuild", "1.0.75" ]
-      ]
-    },
-    "backtrace": {
-      "0.3.67": [
-        [ "addr2line", "0.19.0" ],
-        [ "cc", "1.0.78" ],
-        [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.139" ],
-        [ "miniz_oxide", "0.6.2" ],
-        [ "object", "0.30.2" ],
-        [ "rustc-demangle", "0.1.21" ]
-      ]
-    },
-    "futures": {
-      "0.3.25": [
-        [ "futures-channel", "0.3.25" ],
-        [ "futures-core", "0.3.25" ],
-        [ "futures-io", "0.3.25" ],
-        [ "futures-sink", "0.3.25" ],
-        [ "futures-task", "0.3.25" ],
-        [ "futures-util", "0.3.25" ]
-      ]
-    },
-    "futures-channel": {
-      "0.3.25": [
-        [ "futures-core", "0.3.25" ],
-        [ "futures-sink", "0.3.25" ]
-      ]
-    },
-    "futures-util": {
-      "0.3.25": [
-        [ "futures-core", "0.3.25" ],
-        [ "futures-sink", "0.3.25" ],
-        [ "futures-task", "0.3.25" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "pin-utils", "0.1.0" ]
-      ]
-    },
-    "miniz_oxide": {
-      "0.6.2": [
-        [ "adler", "1.0.2" ]
-      ]
-    },
-    "object": {
-      "0.30.2": [
-        [ "memchr", "2.5.0" ]
+        [ "toml", "0.5.10" ]
       ]
     },
     "proc-macro2": {
@@ -95,6 +58,11 @@
     "quote": {
       "1.0.23": [
         [ "proc-macro2", "1.0.49" ]
+      ]
+    },
+    "same-file": {
+      "1.0.6": [
+        [ "winapi-util", "0.1.5" ]
       ]
     },
     "serde_derive": {
@@ -142,7 +110,6 @@
     },
     "trybuild": {
       "1.0.75": [
-        [ "dissimilar", "1.0.5" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.0" ],
         [ "serde", "1.0.152" ],
@@ -150,6 +117,13 @@
         [ "serde_json", "1.0.91" ],
         [ "termcolor", "1.1.3" ],
         [ "toml", "0.5.10" ]
+      ]
+    },
+    "walkdir": {
+      "2.3.2": [
+        [ "same-file", "1.0.6" ],
+        [ "winapi", "0.3.9" ],
+        [ "winapi-util", "0.1.5" ]
       ]
     },
     "winapi": {
@@ -165,93 +139,9 @@
     }
   },
   "sources": {
-    "addr2line": {
-      "0.19.0": {
-        "hash": "a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97",
-        "type": "crates-io"
-      }
-    },
-    "adler": {
-      "1.0.2": {
-        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
-        "type": "crates-io"
-      }
-    },
     "anyhow": {
       "1.0.68": {
         "hash": "2cb2f989d18dd141ab8ae82f64d1a8cdd37e0840f73a406896cf5e99502fab61",
-        "type": "crates-io"
-      }
-    },
-    "backtrace": {
-      "0.3.67": {
-        "hash": "233d376d6d185f2a3093e58f283f60f880315b6c60075b01f36b3b85154564ca",
-        "type": "crates-io"
-      }
-    },
-    "cc": {
-      "1.0.78": {
-        "hash": "a20104e2335ce8a659d6dd92a51a767a0c062599c73b343fd152cb401e828c3d",
-        "type": "crates-io"
-      }
-    },
-    "cfg-if": {
-      "1.0.0": {
-        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
-        "type": "crates-io"
-      }
-    },
-    "dissimilar": {
-      "1.0.5": {
-        "hash": "bd5f0c7e4bd266b8ab2550e6238d2e74977c23c15536ac7be45e9c95e2e3fbbb",
-        "type": "crates-io"
-      }
-    },
-    "futures": {
-      "0.3.25": {
-        "hash": "38390104763dc37a5145a53c29c63c1290b5d316d6086ec32c293f6736051bb0",
-        "type": "crates-io"
-      }
-    },
-    "futures-channel": {
-      "0.3.25": {
-        "hash": "52ba265a92256105f45b719605a571ffe2d1f0fea3807304b522c1d778f79eed",
-        "type": "crates-io"
-      }
-    },
-    "futures-core": {
-      "0.3.25": {
-        "hash": "04909a7a7e4633ae6c4a9ab280aeb86da1236243a77b694a49eacd659a4bd3ac",
-        "type": "crates-io"
-      }
-    },
-    "futures-io": {
-      "0.3.25": {
-        "hash": "00f5fb52a06bdcadeb54e8d3671f8888a39697dcb0b81b23b55174030427f4eb",
-        "type": "crates-io"
-      }
-    },
-    "futures-sink": {
-      "0.3.25": {
-        "hash": "39c15cf1a4aa79df40f1bb462fb39676d0ad9e366c2a33b590d7c66f4f81fcf9",
-        "type": "crates-io"
-      }
-    },
-    "futures-task": {
-      "0.3.25": {
-        "hash": "2ffb393ac5d9a6eaa9d3fdf37ae2776656b706e200c8e16b1bdb227f5198e6ea",
-        "type": "crates-io"
-      }
-    },
-    "futures-util": {
-      "0.3.25": {
-        "hash": "197676987abd2f9cadff84926f410af1c183608d36641465df73ae8211dc65d6",
-        "type": "crates-io"
-      }
-    },
-    "gimli": {
-      "0.27.0": {
-        "hash": "dec7af912d60cdbd3677c1af9352ebae6fb8394d165568a2234df0fa00f87793",
         "type": "crates-io"
       }
     },
@@ -267,27 +157,15 @@
         "type": "crates-io"
       }
     },
-    "libc": {
-      "0.2.139": {
-        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
+    "num_enum": {
+      "0.5.7": {
+        "hash": "cf5395665662ef45796a4ff5486c5d41d29e0c09640af4c5f17fd94ee2c119c9",
         "type": "crates-io"
       }
     },
-    "memchr": {
-      "2.5.0": {
-        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
-        "type": "crates-io"
-      }
-    },
-    "miniz_oxide": {
-      "0.6.2": {
-        "hash": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa",
-        "type": "crates-io"
-      }
-    },
-    "object": {
-      "0.30.2": {
-        "hash": "2b8c786513eb403643f2a88c244c2aaa270ef2153f55094587d0c48a3cf22a83",
+    "num_enum_derive": {
+      "0.5.7": {
+        "hash": "3b0498641e53dd6ac1a4f22547548caa6864cc4933784319cd1775271c5a46ce",
         "type": "crates-io"
       }
     },
@@ -297,15 +175,9 @@
         "type": "crates-io"
       }
     },
-    "pin-project-lite": {
-      "0.2.9": {
-        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
-        "type": "crates-io"
-      }
-    },
-    "pin-utils": {
-      "0.1.0": {
-        "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
+    "proc-macro-crate": {
+      "1.2.1": {
+        "hash": "eda0fc3b0fb7c975631757e14d9049da17374063edb6ebbcbc54d880d4fe94e9",
         "type": "crates-io"
       }
     },
@@ -321,12 +193,6 @@
         "type": "crates-io"
       }
     },
-    "rustc-demangle": {
-      "0.1.21": {
-        "hash": "7ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342",
-        "type": "crates-io"
-      }
-    },
     "rustversion": {
       "1.0.11": {
         "hash": "5583e89e108996506031660fe09baa5011b9dd0341b89029313006d1fb508d70",
@@ -336,6 +202,12 @@
     "ryu": {
       "1.0.12": {
         "hash": "7b4b9743ed687d4b4bcedf9ff5eaa7398495ae14e61cba0a295704edbc7decde",
+        "type": "crates-io"
+      }
+    },
+    "same-file": {
+      "1.0.6": {
+        "hash": "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502",
         "type": "crates-io"
       }
     },
@@ -396,6 +268,12 @@
     "unicode-ident": {
       "1.0.6": {
         "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
+        "type": "crates-io"
+      }
+    },
+    "walkdir": {
+      "2.3.2": {
+        "hash": "808cf2735cd4b6866113f648b791c6adc5714537bc222d9347bb203386ffda56",
         "type": "crates-io"
       }
     },
