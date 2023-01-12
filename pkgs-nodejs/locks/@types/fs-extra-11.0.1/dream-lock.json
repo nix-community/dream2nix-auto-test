@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/fs-extra",
+    "location": "",
+    "packages": {
+      "@types/fs-extra": "11.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/fs-extra": {
+      "11.0.1": [
+        [ "@types/jsonfile", "6.1.1" ],
+        [ "@types/node", "18.11.18" ]
+      ],
+      "unknown": [
+        [ "@types/fs-extra", "11.0.1" ]
+      ]
+    },
+    "@types/jsonfile": {
+      "6.1.1": [
+        [ "@types/node", "18.11.18" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/fs-extra": {
+      "11.0.1": {
+        "hash": "sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/fs-extra/-/fs-extra-11.0.1.tgz"
+      }
+    },
+    "@types/jsonfile": {
+      "6.1.1": {
+        "hash": "sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/jsonfile/-/jsonfile-6.1.1.tgz"
+      }
+    },
+    "@types/node": {
+      "18.11.18": {
+        "hash": "sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.18.tgz"
+      }
+    }
+  }
+}
