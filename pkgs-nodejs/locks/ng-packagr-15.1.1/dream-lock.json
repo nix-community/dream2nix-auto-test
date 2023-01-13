@@ -3,7 +3,7 @@
     "defaultPackage": "ng-packagr",
     "location": "",
     "packages": {
-      "ng-packagr": "15.0.3"
+      "ng-packagr": "15.1.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -184,7 +184,7 @@
       ]
     },
     "@rollup/plugin-json": {
-      "5.0.2": [
+      "6.0.0": [
         [ "@rollup/pluginutils", "5.0.2" ]
       ]
     },
@@ -236,7 +236,7 @@
     "autoprefixer": {
       "10.4.13": [
         [ "browserslist", "4.21.4" ],
-        [ "caniuse-lite", "1.0.30001442" ],
+        [ "caniuse-lite", "1.0.30001444" ],
         [ "fraction.js", "4.2.0" ],
         [ "normalize-range", "0.1.2" ],
         [ "picocolors", "1.0.0" ],
@@ -266,7 +266,7 @@
     },
     "browserslist": {
       "4.21.4": [
-        [ "caniuse-lite", "1.0.30001442" ],
+        [ "caniuse-lite", "1.0.30001444" ],
         [ "electron-to-chromium", "1.4.284" ],
         [ "node-releases", "2.0.8" ],
         [ "update-browserslist-db", "1.0.10" ]
@@ -432,6 +432,13 @@
         [ "function-bind", "1.1.1" ]
       ]
     },
+    "hdr-histogram-js": {
+      "2.0.3": [
+        [ "@assemblyscript/loader", "0.10.1" ],
+        [ "base64-js", "1.5.1" ],
+        [ "pako", "1.0.11" ]
+      ]
+    },
     "iconv-lite": {
       "0.6.3": [
         [ "safer-buffer", "2.1.2" ]
@@ -560,8 +567,8 @@
       ]
     },
     "ng-packagr": {
-      "15.0.3": [
-        [ "@rollup/plugin-json", "5.0.2" ],
+      "15.1.1": [
+        [ "@rollup/plugin-json", "6.0.0" ],
         [ "@rollup/plugin-node-resolve", "15.0.1" ],
         [ "ajv", "8.12.0" ],
         [ "ansi-colors", "4.1.3" ],
@@ -580,14 +587,21 @@
         [ "jsonc-parser", "3.2.0" ],
         [ "less", "4.1.3" ],
         [ "ora", "5.4.1" ],
+        [ "piscina", "3.2.0" ],
         [ "postcss", "8.4.21" ],
         [ "postcss-url", "10.1.3" ],
-        [ "rollup", "3.9.1" ],
+        [ "rollup", "3.10.0" ],
         [ "rxjs", "7.8.0" ],
         [ "sass", "1.57.1" ]
       ],
       "unknown": [
-        [ "ng-packagr", "15.0.3" ]
+        [ "ng-packagr", "15.1.1" ]
+      ]
+    },
+    "nice-napi": {
+      "1.0.2": [
+        [ "node-addon-api", "3.2.1" ],
+        [ "node-gyp-build", "4.6.0" ]
       ]
     },
     "once": {
@@ -626,6 +640,14 @@
     "p-map": {
       "4.0.0": [
         [ "aggregate-error", "3.1.0" ]
+      ]
+    },
+    "piscina": {
+      "3.2.0": [
+        [ "eventemitter-asyncresource", "1.0.0" ],
+        [ "hdr-histogram-js", "2.0.3" ],
+        [ "hdr-histogram-percentiles-obj", "3.0.0" ],
+        [ "nice-napi", "1.0.2" ]
       ]
     },
     "pkg-dir": {
@@ -674,7 +696,7 @@
       ]
     },
     "rollup": {
-      "3.9.1": [
+      "3.10.0": [
         [ "fsevents", "2.3.2" ]
       ]
     },
@@ -810,6 +832,13 @@
         "hash": "sha512-mKeXolM/plP9ebkHy3YGxHx0Yg63d09S0QCpdIcmvrbJpaPeM2D1SAkbDpO46T4BsfgfWHtSYByb5JcesrYrpQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-15.1.0.tgz"
+      }
+    },
+    "@assemblyscript/loader": {
+      "0.10.1": {
+        "hash": "sha512-H71nDOOL8Y7kWRLqf6Sums+01Q5msqBW2KhDUTemh1tvY04eSkSXrK0uj/4mmY0Xr16/3zyZmsrxN7CKuRbNRg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@assemblyscript/loader/-/loader-0.10.1.tgz"
       }
     },
     "@babel/code-frame": {
@@ -1161,10 +1190,10 @@
       }
     },
     "@rollup/plugin-json": {
-      "5.0.2": {
-        "hash": "sha512-D1CoOT2wPvadWLhVcmpkDnesTzjhNIQRWLsc3fA49IFOP2Y84cFOOJ+nKGYedvXHKUsPeq07HR4hXpBBr+CHlA==",
+      "6.0.0": {
+        "hash": "sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-5.0.2.tgz"
+        "url": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-6.0.0.tgz"
       }
     },
     "@rollup/plugin-node-resolve": {
@@ -1325,10 +1354,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001442": {
-        "hash": "sha512-239m03Pqy0hwxYPYR5JwOIxRJfLTWtle9FV8zosfV5pHg+/51uD4nxcUlM8+mWWGfwKtt8lJNHnD3cWw9VZ6ow==",
+      "1.0.30001444": {
+        "hash": "sha512-ecER9xgJQVMqcrxThKptsW0pPxSae8R2RB87LNa+ivW9ppNWRHEplXcDzkCOP4LYWGj8hunXLqaiC41iBATNyg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001442.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001444.tgz"
       }
     },
     "chalk": {
@@ -1552,6 +1581,13 @@
         "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
       }
     },
+    "eventemitter-asyncresource": {
+      "1.0.0": {
+        "hash": "sha512-39F7TBIV0G7gTelxwbEqnwhp90eqCPON1k0NwNfwhgKn4Co4ybUbj2pECcXT0B3ztRKZ7Pw1JujUUgmQJHcVAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eventemitter-asyncresource/-/eventemitter-asyncresource-1.0.0.tgz"
+      }
+    },
     "fast-deep-equal": {
       "3.1.3": {
         "hash": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
@@ -1679,6 +1715,20 @@
         "hash": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
+      }
+    },
+    "hdr-histogram-js": {
+      "2.0.3": {
+        "hash": "sha512-Hkn78wwzWHNCp2uarhzQ2SGFLU3JY8SBDDd3TAABK4fc30wm+MuPOrg5QVFVfkKOQd6Bfz3ukJEI+q9sXEkK1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hdr-histogram-js/-/hdr-histogram-js-2.0.3.tgz"
+      }
+    },
+    "hdr-histogram-percentiles-obj": {
+      "3.0.0": {
+        "hash": "sha512-7kIufnBqdsBGcSZLPJwqHT3yhk1QTsSlFsVD3kx5ixH/AlgBs9yM1q6DPhXZ8f8gtdqgh7N7/5btRLpQsS2gHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hdr-histogram-percentiles-obj/-/hdr-histogram-percentiles-obj-3.0.0.tgz"
       }
     },
     "iconv-lite": {
@@ -2013,10 +2063,31 @@
       }
     },
     "ng-packagr": {
-      "15.0.3": {
-        "hash": "sha512-QRP6X2cuO3AmukYOr+b84gamDWbE2R/cdAedhUSRRYaYD9IhQWVYr64pNiu5VwWNf43zaWWp8UGfKuDjoYYMvg==",
+      "15.1.1": {
+        "hash": "sha512-TT5JtYJkKuYnUaCIQH/ArE+D1xjpjWnQjvbfRxd6/wypi0nDfSYvq96CLd1zphgMOp+Ofd8Xyet0K73znygxCA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ng-packagr/-/ng-packagr-15.0.3.tgz"
+        "url": "https://registry.npmjs.org/ng-packagr/-/ng-packagr-15.1.1.tgz"
+      }
+    },
+    "nice-napi": {
+      "1.0.2": {
+        "hash": "sha512-px/KnJAJZf5RuBGcfD+Sp2pAKq0ytz8j+1NehvgIGFkvtvFrDM3T8E4x/JJODXK9WZow8RRGrbA9QQ3hs+pDhA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nice-napi/-/nice-napi-1.0.2.tgz"
+      }
+    },
+    "node-addon-api": {
+      "3.2.1": {
+        "hash": "sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.2.1.tgz"
+      }
+    },
+    "node-gyp-build": {
+      "4.6.0": {
+        "hash": "sha512-NTZVKn9IylLwUzaKjkas1e4u2DLNcV4rdYagA4PWdPwW87Bi7z+BznyKSRwS/761tV/lzCGXplWsiaMjLqP2zQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.6.0.tgz"
       }
     },
     "node-releases": {
@@ -2089,6 +2160,13 @@
         "url": "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
       }
     },
+    "pako": {
+      "1.0.11": {
+        "hash": "sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz"
+      }
+    },
     "parse-node-version": {
       "1.0.1": {
         "hash": "sha512-3YHlOa/JgH6Mnpr05jP9eDG254US9ek25LyIxZlDItp2iJtwyaXQb57lBYLdT3MowkUFYEV2XXNAYIPlESvJlA==",
@@ -2129,6 +2207,13 @@
         "hash": "sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==",
         "type": "http",
         "url": "https://registry.npmjs.org/pify/-/pify-4.0.1.tgz"
+      }
+    },
+    "piscina": {
+      "3.2.0": {
+        "hash": "sha512-yn/jMdHRw+q2ZJhFhyqsmANcbF6V2QwmD84c6xRau+QpQOmtrBCoRGdvTfeuFDYXB5W2m6MfLkjkvQa9lUSmIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/piscina/-/piscina-3.2.0.tgz"
       }
     },
     "pkg-dir": {
@@ -2230,10 +2315,10 @@
       }
     },
     "rollup": {
-      "3.9.1": {
-        "hash": "sha512-GswCYHXftN8ZKGVgQhTFUJB/NBXxrRGgO2NCy6E8s1rwEJ4Q9/VttNqcYfEvx4dTo4j58YqdC3OVztPzlKSX8w==",
+      "3.10.0": {
+        "hash": "sha512-JmRYz44NjC1MjVF2VKxc0M1a97vn+cDxeqWmnwyAF4FvpjK8YFdHpaqvQB+3IxCvX05vJxKZkoMDU8TShhmJVA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rollup/-/rollup-3.9.1.tgz"
+        "url": "https://registry.npmjs.org/rollup/-/rollup-3.10.0.tgz"
       }
     },
     "rxjs": {
@@ -2385,10 +2470,10 @@
       }
     },
     "typescript": {
-      "4.8.4": {
-        "hash": "sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==",
+      "4.9.4": {
+        "hash": "sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/typescript/-/typescript-4.8.4.tgz"
+        "url": "https://registry.npmjs.org/typescript/-/typescript-4.9.4.tgz"
       }
     },
     "unique-filename": {
