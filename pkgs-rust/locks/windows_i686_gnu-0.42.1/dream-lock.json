@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "windows_x86_64_msvc",
+    "defaultPackage": "windows_i686_gnu",
     "location": "",
     "packages": {
-      "windows_x86_64_msvc": "0.42.0"
+      "windows_i686_gnu": "0.42.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,25 +11,25 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "windows_x86_64_msvc": {
-        "0.42.0": {
+      "windows_i686_gnu": {
+        "0.42.1": {
           "description": "Code gen support for the windows crate", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "windows_x86_64_msvc": {
-        "0.42.0": {}
+      "windows_i686_gnu": {
+        "0.42.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {},
   "sources": {
-    "windows_x86_64_msvc": {
-      "0.42.0": {
-        "hash": "f40009d85759725a34da6d89a94e63d7bdc50a862acf0dbc7c8e488f1edcb6f5",
+    "windows_i686_gnu": {
+      "0.42.1": {
+        "hash": "de3887528ad530ba7bdbb1faa8275ec7a1155a45ffa57c37993960277145d640",
         "type": "crates-io"
       }
     }
