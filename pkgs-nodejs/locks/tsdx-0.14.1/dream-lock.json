@@ -1455,7 +1455,7 @@
     "deep-equal": {
       "2.2.0": [
         [ "call-bind", "1.0.2" ],
-        [ "es-get-iterator", "1.1.2" ],
+        [ "es-get-iterator", "1.1.3" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "is-arguments", "1.1.1" ],
         [ "is-array-buffer", "3.0.1" ],
@@ -1568,7 +1568,7 @@
       ]
     },
     "es-get-iterator": {
-      "1.1.2": [
+      "1.1.3": [
         [ "call-bind", "1.0.2" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "has-symbols", "1.0.3" ],
@@ -1576,7 +1576,8 @@
         [ "is-map", "2.0.2" ],
         [ "is-set", "2.0.2" ],
         [ "is-string", "1.0.7" ],
-        [ "isarray", "2.0.5" ]
+        [ "isarray", "2.0.5" ],
+        [ "stop-iteration-iterator", "1.0.0" ]
       ]
     },
     "es-set-tostringtag": {
@@ -3331,6 +3332,11 @@
       "0.1.2": [
         [ "define-property", "0.2.5" ],
         [ "object-copy", "0.1.0" ]
+      ]
+    },
+    "stop-iteration-iterator": {
+      "1.0.0": [
+        [ "internal-slot", "1.0.4" ]
       ]
     },
     "string-length": {
@@ -5836,10 +5842,10 @@
       }
     },
     "es-get-iterator": {
-      "1.1.2": {
-        "hash": "sha512-+DTO8GYwbMCwbywjimwZMHp8AuYXOS2JZFWoi2AlPOS3ebnII9w/NLpNZtA7A0YLaVDw+O7KFCeoIV7OPvM7hQ==",
+      "1.1.3": {
+        "hash": "sha512-sPZmqHBe6JIiTfN5q2pEi//TwxmAFHwj/XEuYjTuse78i8KxaqMTTzxPoFKuzRpDpTJ+0NAbpfenkmH2rePtuw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-get-iterator/-/es-get-iterator-1.1.2.tgz"
+        "url": "https://registry.npmjs.org/es-get-iterator/-/es-get-iterator-1.1.3.tgz"
       }
     },
     "es-set-tostringtag": {
@@ -8749,6 +8755,13 @@
         "hash": "sha512-ZnWpYnYugiOVEY5GkcuJK1io5V8QmNYChG62gSit9pQVGErXtrKuPC55ITaVSukmMta5qpMU7vqLt2Lnni4f/g==",
         "type": "http",
         "url": "https://registry.npmjs.org/stealthy-require/-/stealthy-require-1.1.1.tgz"
+      }
+    },
+    "stop-iteration-iterator": {
+      "1.0.0": {
+        "hash": "sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stop-iteration-iterator/-/stop-iteration-iterator-1.0.0.tgz"
       }
     },
     "string-length": {
