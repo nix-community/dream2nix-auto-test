@@ -3,7 +3,7 @@
     "defaultPackage": "atomic-waker",
     "location": "",
     "packages": {
-      "atomic-waker": "1.0.0"
+      "atomic-waker": "1.1.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,23 +12,24 @@
     "gitSources": [],
     "meta": {
       "atomic-waker": {
-        "1.0.0": {
-          "description": "A synchronization primitive for task wakeup", "homepage": "https://github.com/stjepang/atomic-waker", "license": [   "asl20",   "mit"
+        "1.1.0": {
+          "description": "A synchronization primitive for task wakeup", "license": [   "asl20",   "mit"
           ]
         }
       }
     },
     "relPathReplacements": {
       "atomic-waker": {
-        "1.0.0": {}
+        "1.1.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "atomic-waker": {
-      "1.0.0": [
-        [ "futures", "0.3.25" ]
+      "1.1.0": [
+        [ "futures", "0.3.25" ],
+        [ "portable-atomic", "1.0.0" ]
       ]
     },
     "futures": {
@@ -101,8 +102,8 @@
   },
   "sources": {
     "atomic-waker": {
-      "1.0.0": {
-        "hash": "065374052e7df7ee4047b1160cca5e1467a12351a40b3da123c870ba0b8eda2a",
+      "1.1.0": {
+        "hash": "debc29dde2e69f9e47506b525f639ed42300fc014a3e007832592448fa8e4599",
         "type": "crates-io"
       }
     },
@@ -181,6 +182,12 @@
     "pin-utils": {
       "0.1.0": {
         "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
+        "type": "crates-io"
+      }
+    },
+    "portable-atomic": {
+      "1.0.0": {
+        "hash": "5c451f4df4647bb419f57e4849a6366f63d56c56f0472da09835273f3ede2260",
         "type": "crates-io"
       }
     },
