@@ -108,7 +108,7 @@
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "recv#0.0.0": "d146b0decff93c72f043ec06d7bed2ca53595ceb61debb43c94302e657378508",
-      "resource-pool#0.3.1.0": "dbaadfcc3c1be5391336e2016b28bb2d0c534f245ba9f5af5ed1d5125afc8c1a",
+      "resource-pool#0.4.0.0": "9c1e448a159875e21a7e68697feee2b61a4e584720974fa465a2fa1bc0776c73",
       "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
@@ -147,9 +147,9 @@
       "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
       "vault#0.3.1.5": "c34d37d73a8cedbb0ef57b89540ebe54f9dadf7ec3cea27acbd049b4edd85cae",
-      "vector#0.13.0.0": "54528e95501742b99462cc543891f21177e7db34d960ce8e3cbb25afb16a9c89",
+      "vector#0.13.0.0": "a1e8aff02a45115dec8997c50fd4ea6a24742cbccaa0f1282fdbb4725f60a6a5",
       "vector-algorithms#0.9.0.1": "34cc5851ebf2eb80fc62cbb5c6dbe59ab837f1d5366a6c3bf1e09cf34805aaae",
-      "vector-stream#0.1.0.0": "09b0f8dc4e51936b9d6b04791f0aa03f7c9759b5fb7140eac8a9461cda1e55a3",
+      "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca",
       "wai#3.2.3": "c7518618bdb842116dbc1a4e4553223799eef43add19278c2bbffb4536595fe0",
       "wai-extra#3.1.13.0": "fc3e7c337ac46733ce2da7a0d6422185387b3bb3709e72403a359eb19678db37",
       "wai-logger#2.4.0": "630b3d573dce5c6a84dfb372d69f8d15f9dbb52d6a04df43e57a44f0ca0eab0a",
@@ -627,7 +627,7 @@
         [ "lift-type", "0.1.1.1" ],
         [ "monad-logger", "0.3.37" ],
         [ "path-pieces", "0.2.1" ],
-        [ "resource-pool", "0.3.1.0" ],
+        [ "resource-pool", "0.4.0.0" ],
         [ "resourcet", "1.3.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "silently", "1.2.5.3" ],
@@ -661,7 +661,8 @@
       ]
     },
     "resource-pool": {
-      "0.3.1.0": [
+      "0.4.0.0": [
+        [ "hashable", "1.4.2.0" ],
         [ "primitive", "0.7.4.0" ]
       ]
     },
@@ -997,7 +998,7 @@
         [ "conduit", "1.3.4.3" ],
         [ "persistent", "2.14.4.4" ],
         [ "persistent-template", "2.12.0.0" ],
-        [ "resource-pool", "0.3.1.0" ],
+        [ "resource-pool", "0.4.0.0" ],
         [ "resourcet", "1.3.0" ],
         [ "yesod-core", "1.6.24.0" ]
       ]
@@ -1691,10 +1692,10 @@
       }
     },
     "resource-pool": {
-      "0.3.1.0": {
-        "hash": "sha256:fe14a0f90526ff5e1629ff6bf19025ebb18354352718abc7814095d001f58c4e",
+      "0.4.0.0": {
+        "hash": "sha256:8c0d783e3e75788d65f79157309132999f1bbb70684bacc2ea5dd18f904ae9b1",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/resource-pool-0.3.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/resource-pool-0.4.0.0.tar.gz"
       }
     },
     "resourcet": {
