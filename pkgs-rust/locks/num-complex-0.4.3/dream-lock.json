@@ -1,0 +1,223 @@
+{
+  "_generic": {
+    "defaultPackage": "num-complex",
+    "location": "",
+    "packages": {
+      "num-complex": "0.4.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "num-complex": {
+        "0.4.3": {
+          "description": "Complex numbers implementation for Rust", "homepage": "https://github.com/rust-num/num-complex", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "num-complex": {
+        "0.4.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bytecheck": {
+      "0.6.9": [
+        [ "bytecheck_derive", "0.6.9" ],
+        [ "ptr_meta", "0.1.4" ]
+      ]
+    },
+    "bytecheck_derive": {
+      "0.6.9": [
+        [ "proc-macro2", "1.0.50" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
+      ]
+    },
+    "num-complex": {
+      "0.4.3": [
+        [ "bytecheck", "0.6.9" ],
+        [ "bytemuck", "1.13.0" ],
+        [ "num-traits", "0.2.15" ],
+        [ "rand", "0.8.5" ],
+        [ "rkyv", "0.7.39" ],
+        [ "serde", "1.0.152" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ],
+        [ "libm", "0.2.6" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.50": [
+        [ "unicode-ident", "1.0.6" ]
+      ]
+    },
+    "ptr_meta": {
+      "0.1.4": [
+        [ "ptr_meta_derive", "0.1.4" ]
+      ]
+    },
+    "ptr_meta_derive": {
+      "0.1.4": [
+        [ "proc-macro2", "1.0.50" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
+      ]
+    },
+    "quote": {
+      "1.0.23": [
+        [ "proc-macro2", "1.0.50" ]
+      ]
+    },
+    "rand": {
+      "0.8.5": [
+        [ "rand_core", "0.6.4" ]
+      ]
+    },
+    "rkyv": {
+      "0.7.39": [
+        [ "ptr_meta", "0.1.4" ],
+        [ "rkyv_derive", "0.7.39" ],
+        [ "seahash", "4.1.0" ]
+      ]
+    },
+    "rkyv_derive": {
+      "0.7.39": [
+        [ "proc-macro2", "1.0.50" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
+      ]
+    },
+    "syn": {
+      "1.0.107": [
+        [ "proc-macro2", "1.0.50" ],
+        [ "quote", "1.0.23" ],
+        [ "unicode-ident", "1.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "bytecheck": {
+      "0.6.9": {
+        "hash": "d11cac2c12b5adc6570dad2ee1b87eff4955dac476fe12d81e5fdd352e52406f",
+        "type": "crates-io"
+      }
+    },
+    "bytecheck_derive": {
+      "0.6.9": {
+        "hash": "13e576ebe98e605500b3c8041bb888e966653577172df6dd97398714eb30b9bf",
+        "type": "crates-io"
+      }
+    },
+    "bytemuck": {
+      "1.13.0": {
+        "hash": "c041d3eab048880cb0b86b256447da3f18859a163c3b8d8893f4e6368abe6393",
+        "type": "crates-io"
+      }
+    },
+    "libm": {
+      "0.2.6": {
+        "hash": "348108ab3fba42ec82ff6e9564fc4ca0247bdccdc68dd8af9764bbc79c3c8ffb",
+        "type": "crates-io"
+      }
+    },
+    "num-complex": {
+      "0.4.3": {
+        "hash": "02e0d21255c828d6f128a1e41534206671e8c3ea0c62f32291e808dc82cff17d",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.50": {
+        "hash": "6ef7d57beacfaf2d8aee5937dab7b7f28de3cb8b1828479bb5de2a7106f2bae2",
+        "type": "crates-io"
+      }
+    },
+    "ptr_meta": {
+      "0.1.4": {
+        "hash": "0738ccf7ea06b608c10564b31debd4f5bc5e197fc8bfe088f68ae5ce81e7a4f1",
+        "type": "crates-io"
+      }
+    },
+    "ptr_meta_derive": {
+      "0.1.4": {
+        "hash": "16b845dbfca988fa33db069c0e230574d15a3088f147a87b64c7589eb662c9ac",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.23": {
+        "hash": "8856d8364d252a14d474036ea1358d63c9e6965c8e5c1885c18f73d70bff9c7b",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
+        "type": "crates-io"
+      }
+    },
+    "rkyv": {
+      "0.7.39": {
+        "hash": "cec2b3485b07d96ddfd3134767b8a447b45ea4eb91448d0a35180ec0ffd5ed15",
+        "type": "crates-io"
+      }
+    },
+    "rkyv_derive": {
+      "0.7.39": {
+        "hash": "6eaedadc88b53e36dd32d940ed21ae4d850d5916f2581526921f553a72ac34c4",
+        "type": "crates-io"
+      }
+    },
+    "seahash": {
+      "4.1.0": {
+        "hash": "1c107b6f4780854c8b126e228ea8869f4d7b71260f962fefb57b996b8959ba6b",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.152": {
+        "hash": "bb7d1f0d3021d347a83e556fc4683dea2ea09d87bccdf88ff5c12545d89d5efb",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.107": {
+        "hash": "1f4064b5b16e03ae50984a5a8ed5d4f8803e6bc1fd170a3cda91a1be4b18e3f5",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.6": {
+        "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
+        "type": "crates-io"
+      }
+    }
+  }
+}
