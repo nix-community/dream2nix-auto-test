@@ -3,7 +3,7 @@
     "defaultPackage": "git2",
     "location": "",
     "packages": {
-      "git2": "0.16.0"
+      "git2": "0.16.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "git2": {
-        "0.16.0": {
+        "0.16.1": {
           "description": "Bindings to libgit2 for interoperating with git repositories. This library is\nboth threadsafe and memory safe and allows both reading and writing git\nrepositories.\n", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "git2": {
-        "0.16.0": {}
+        "0.16.1": {}
       }
     }
   },
@@ -71,10 +71,10 @@
       ]
     },
     "git2": {
-      "0.16.0": [
+      "0.16.1": [
         [ "bitflags", "1.3.2" ],
         [ "libc", "0.2.126" ],
-        [ "libgit2-sys", "0.14.1+1.5.0" ],
+        [ "libgit2-sys", "0.14.2+1.5.1" ],
         [ "log", "0.4.17" ],
         [ "openssl-probe", "0.1.5" ],
         [ "openssl-sys", "0.9.75" ],
@@ -113,7 +113,7 @@
       ]
     },
     "libgit2-sys": {
-      "0.14.1+1.5.0": [
+      "0.14.2+1.5.1": [
         [ "cc", "1.0.73" ],
         [ "libc", "0.2.126" ],
         [ "libssh2-sys", "0.2.23" ],
@@ -329,8 +329,8 @@
       }
     },
     "git2": {
-      "0.16.0": {
-        "hash": "be36bc9e0546df253c0cc41fd0af34f5e92845ad8509462ec76672fac6997f5b",
+      "0.16.1": {
+        "hash": "ccf7f68c2995f392c49fffb4f95ae2c873297830eb25c6bc4c114ce8f4562acc",
         "type": "crates-io"
       }
     },
@@ -377,8 +377,8 @@
       }
     },
     "libgit2-sys": {
-      "0.14.1+1.5.0": {
-        "hash": "4a07fb2692bc3593bda59de45a502bb3071659f2c515e28c71e728306b038e17",
+      "0.14.2+1.5.1": {
+        "hash": "7f3d95f6b51075fe9810a7ae22c7095f12b98005ab364d8544797a825ce946a4",
         "type": "crates-io"
       }
     },
