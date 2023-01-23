@@ -3,7 +3,7 @@
     "defaultPackage": "brick",
     "location": "",
     "packages": {
-      "brick": "1.5"
+      "brick": "1.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -28,7 +28,6 @@
       "microlens#0.4.13.1": "0cd8a0da5fe1b5a5c327bb5296d30940dc9f92c169372939bfcecd3faee953d7",
       "microlens-mtl#0.2.0.3": "0ace1ba95677117219681fb9a8b08b3bf049ab5973eed14453b260aaf1feb582",
       "microlens-th#0.4.3.11": "d9e18ca8512608d5699f17b71ff11a483ac52f20ffeac9150fd62bfd9518d522",
-      "parallel#3.2.2.0": "6edd5a06938cea3d28b406d5231683f89737e854af144a8800aa69e1eee785e0",
       "parser-combinators#1.3.0": "edd54ba56cbae8fadbcceebcfef31b2c70a835e92e5eda41151b939c40647281",
       "primitive#0.7.4.0": "c2f0ed97b3dce97f2f43b239c3be8b136e4368f1eb7b61322ee9ac98f604622b",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
@@ -41,7 +40,7 @@
       "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f",
       "vector#0.13.0.0": "a1e8aff02a45115dec8997c50fd4ea6a24742cbccaa0f1282fdbb4725f60a6a5",
       "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca",
-      "vty#5.37": "416ba9007f6b64226ad68bfd7a227714082832d004e07567e9850a7cec67d77a",
+      "vty#5.38": "c3b46c8072f92b61dad09dac45ede37f1a093836e14ac84ece6515a4d3222864",
       "word-wrap#0.5": "721baf1dca2e4bb4cb5a6c2b7391ee1f5a6862cdfbf286bcb6083d5ac2cf421a"
     },
     "compiler": {
@@ -51,13 +50,13 @@
   },
   "cyclicDependencies": {
     "brick": {
-      "1.5": [
-        [ "brick", "1.5" ]
+      "1.6": [
+        [ "brick", "1.6" ]
       ]
     },
     "vty": {
-      "5.37": [
-        [ "vty", "5.37" ]
+      "5.38": [
+        [ "vty", "5.38" ]
       ]
     }
   },
@@ -74,7 +73,7 @@
       ]
     },
     "brick": {
-      "1.5": [
+      "1.6": [
         [ "bimap", "0.5.0" ],
         [ "config-ini", "0.2.5.0" ],
         [ "contravariant", "1.5.5" ],
@@ -84,13 +83,13 @@
         [ "microlens-th", "0.4.3.11" ],
         [ "text-zipper", "0.12" ],
         [ "vector", "0.13.0.0" ],
-        [ "vty", "5.37" ],
+        [ "vty", "5.38" ],
         [ "word-wrap", "0.5" ],
         [ "QuickCheck", "2.14.2" ],
-        [ "brick", "1.5" ],
+        [ "brick", "1.6" ],
         [ "microlens", "0.4.13.1" ],
         [ "vector", "0.13.0.0" ],
-        [ "vty", "5.37" ]
+        [ "vty", "5.38" ]
       ]
     },
     "case-insensitive": {
@@ -163,23 +162,21 @@
       ]
     },
     "vty": {
-      "5.37": [
+      "5.38": [
         [ "ansi-terminal", "0.11.4" ],
         [ "blaze-builder", "0.4.2.2" ],
-        [ "hashable", "1.4.2.0" ],
         [ "microlens", "0.4.13.1" ],
         [ "microlens-mtl", "0.2.0.3" ],
         [ "microlens-th", "0.4.3.11" ],
-        [ "parallel", "3.2.2.0" ],
         [ "utf8-string", "1.0.2" ],
         [ "vector", "0.13.0.0" ],
-        [ "vty", "5.37" ],
+        [ "vty", "5.38" ],
         [ "microlens", "0.4.13.1" ],
         [ "microlens-mtl", "0.2.0.3" ],
-        [ "vty", "5.37" ],
+        [ "vty", "5.38" ],
         [ "microlens", "0.4.13.1" ],
         [ "microlens-mtl", "0.2.0.3" ],
-        [ "vty", "5.37" ]
+        [ "vty", "5.38" ]
       ]
     }
   },
@@ -227,10 +224,10 @@
       }
     },
     "brick": {
-      "1.5": {
-        "hash": "sha256:6290081719d68c149dc9bd0098f36aac235b615334a3510fda89e19bbdb95f4f",
+      "1.6": {
+        "hash": "sha256:463dfba63a279cac25398a1b36f36677d487f56efba6c6ce595d65e7d1157da3",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/brick-1.5/brick-1.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/brick-1.6/brick-1.6.tar.gz"
       }
     },
     "case-insensitive": {
@@ -315,13 +312,6 @@
         "hash": "sha256:f21aaadea14a90fef53fa661eb375ac492c88c3bf023592fdd13e4ee285352ee",
         "type": "http",
         "url": "https://hackage.haskell.org/package/microlens-th-0.4.3.11.tar.gz"
-      }
-    },
-    "parallel": {
-      "3.2.2.0": {
-        "hash": "sha256:170453a71a2a8b31cca63125533f7771d7debeb639700bdabdd779c34d8a6ef6",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/parallel-3.2.2.0.tar.gz"
       }
     },
     "parser-combinators": {
@@ -409,10 +399,10 @@
       }
     },
     "vty": {
-      "5.37": {
-        "hash": "sha256:67e1376b735232c3a5e7fa3c3eff00fdc457bdd5ba7dcf3a758aee6b8b60cdf0",
+      "5.38": {
+        "hash": "sha256:54812f4d6f20d5c6308dd0b8279be6b94988e6a32813c1902c15b6c0722648a3",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/vty-5.37.tar.gz"
+        "url": "https://hackage.haskell.org/package/vty-5.38.tar.gz"
       }
     },
     "word-wrap": {
