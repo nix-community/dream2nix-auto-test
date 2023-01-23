@@ -21,7 +21,11 @@
         [ "@rollup/pluginutils", "5.0.2" ]
       ],
       "unknown": [
-        [ "@rollup/plugin-json", "6.0.0" ]
+        [ "@rollup/plugin-json", "6.0.0" ],
+        [ "@rollup/pluginutils", "5.0.2" ],
+        [ "@types/estree", "1.0.0" ],
+        [ "estree-walker", "2.0.2" ],
+        [ "picomatch", "2.3.1" ]
       ]
     },
     "@rollup/pluginutils": {

@@ -22,7 +22,13 @@
         [ "magic-string", "0.27.0" ]
       ],
       "unknown": [
-        [ "@rollup/plugin-replace", "5.0.2" ]
+        [ "@jridgewell/sourcemap-codec", "1.4.14" ],
+        [ "@rollup/plugin-replace", "5.0.2" ],
+        [ "@rollup/pluginutils", "5.0.2" ],
+        [ "@types/estree", "1.0.0" ],
+        [ "estree-walker", "2.0.2" ],
+        [ "magic-string", "0.27.0" ],
+        [ "picomatch", "2.3.1" ]
       ]
     },
     "@rollup/pluginutils": {

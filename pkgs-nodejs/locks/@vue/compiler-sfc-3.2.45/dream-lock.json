@@ -18,7 +18,7 @@
   "dependencies": {
     "@vue/compiler-core": {
       "3.2.45": [
-        [ "@babel/parser", "7.20.7" ],
+        [ "@babel/parser", "7.20.13" ],
         [ "@vue/shared", "3.2.45" ],
         [ "estree-walker", "2.0.2" ],
         [ "source-map", "0.6.1" ]
@@ -32,7 +32,7 @@
     },
     "@vue/compiler-sfc": {
       "3.2.45": [
-        [ "@babel/parser", "7.20.7" ],
+        [ "@babel/parser", "7.20.13" ],
         [ "@vue/compiler-core", "3.2.45" ],
         [ "@vue/compiler-dom", "3.2.45" ],
         [ "@vue/compiler-ssr", "3.2.45" ],
@@ -44,7 +44,21 @@
         [ "source-map", "0.6.1" ]
       ],
       "unknown": [
-        [ "@vue/compiler-sfc", "3.2.45" ]
+        [ "@babel/parser", "7.20.13" ],
+        [ "@vue/compiler-core", "3.2.45" ],
+        [ "@vue/compiler-dom", "3.2.45" ],
+        [ "@vue/compiler-sfc", "3.2.45" ],
+        [ "@vue/compiler-ssr", "3.2.45" ],
+        [ "@vue/reactivity-transform", "3.2.45" ],
+        [ "@vue/shared", "3.2.45" ],
+        [ "estree-walker", "2.0.2" ],
+        [ "magic-string", "0.25.9" ],
+        [ "nanoid", "3.3.4" ],
+        [ "picocolors", "1.0.0" ],
+        [ "postcss", "8.4.21" ],
+        [ "source-map", "0.6.1" ],
+        [ "source-map-js", "1.0.2" ],
+        [ "sourcemap-codec", "1.4.8" ]
       ]
     },
     "@vue/compiler-ssr": {
@@ -55,7 +69,7 @@
     },
     "@vue/reactivity-transform": {
       "3.2.45": [
-        [ "@babel/parser", "7.20.7" ],
+        [ "@babel/parser", "7.20.13" ],
         [ "@vue/compiler-core", "3.2.45" ],
         [ "@vue/shared", "3.2.45" ],
         [ "estree-walker", "2.0.2" ],
@@ -77,10 +91,10 @@
   },
   "sources": {
     "@babel/parser": {
-      "7.20.7": {
-        "hash": "sha512-T3Z9oHybU+0vZlY9CiDSJQTD5ZapcW18ZctFMi0MOAl/4BjFF4ul7NVSARLdbGO5vDqy9eQiGTV0LtKfvCYvcg==",
+      "7.20.13": {
+        "hash": "sha512-gFDLKMfpiXCsjt4za2JA9oTMn70CeseCehb11kRZgvd7+F67Hih3OHOK24cRrWECJ/ljfPGac6ygXAs/C8kIvw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.20.7.tgz"
+        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.20.13.tgz"
       }
     },
     "@vue/compiler-core": {

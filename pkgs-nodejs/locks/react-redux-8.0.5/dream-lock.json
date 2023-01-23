@@ -17,7 +17,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@babel/runtime": {
-      "7.20.7": [
+      "7.20.13": [
         [ "regenerator-runtime", "0.13.11" ]
       ]
     },
@@ -51,7 +51,7 @@
     },
     "react-redux": {
       "8.0.5": [
-        [ "@babel/runtime", "7.20.7" ],
+        [ "@babel/runtime", "7.20.13" ],
         [ "@types/hoist-non-react-statics", "3.3.1" ],
         [ "@types/use-sync-external-store", "0.0.3" ],
         [ "hoist-non-react-statics", "3.3.2" ],
@@ -59,16 +59,30 @@
         [ "use-sync-external-store", "1.2.0" ]
       ],
       "unknown": [
-        [ "react-redux", "8.0.5" ]
+        [ "@babel/runtime", "7.20.13" ],
+        [ "@types/hoist-non-react-statics", "3.3.1" ],
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/react", "18.0.27" ],
+        [ "@types/scheduler", "0.16.2" ],
+        [ "@types/use-sync-external-store", "0.0.3" ],
+        [ "csstype", "3.1.1" ],
+        [ "hoist-non-react-statics", "3.3.2" ],
+        [ "js-tokens", "4.0.0" ],
+        [ "loose-envify", "1.4.0" ],
+        [ "react", "18.2.0" ],
+        [ "react-is", "18.2.0" ],
+        [ "react-redux", "8.0.5" ],
+        [ "regenerator-runtime", "0.13.11" ],
+        [ "use-sync-external-store", "1.2.0" ]
       ]
     }
   },
   "sources": {
     "@babel/runtime": {
-      "7.20.7": {
-        "hash": "sha512-UF0tvkUtxwAgZ5W/KrkHf0Rn0fdnLDU9ScxBrEVNUprE/MzirjK4MJUX1/BVDv00Sv8cljtukVK1aky++X1SjQ==",
+      "7.20.13": {
+        "hash": "sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.7.tgz"
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.13.tgz"
       }
     },
     "@types/hoist-non-react-statics": {

@@ -3,7 +3,7 @@
     "defaultPackage": "vitest",
     "location": "",
     "packages": {
-      "vitest": "0.27.2"
+      "vitest": "0.27.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -144,7 +144,7 @@
       ]
     },
     "vite-node": {
-      "0.27.2": [
+      "0.27.3": [
         [ "cac", "6.7.14" ],
         [ "debug", "4.3.4" ],
         [ "mlly", "1.1.0" ],
@@ -156,7 +156,7 @@
       ]
     },
     "vitest": {
-      "0.27.2": [
+      "0.27.3": [
         [ "@types/chai", "4.3.4" ],
         [ "@types/chai-subset", "1.3.3" ],
         [ "@types/node", "18.11.18" ],
@@ -168,16 +168,87 @@
         [ "local-pkg", "0.4.3" ],
         [ "picocolors", "1.0.0" ],
         [ "source-map", "0.6.1" ],
+        [ "std-env", "3.3.1" ],
         [ "strip-literal", "1.0.0" ],
         [ "tinybench", "2.3.1" ],
         [ "tinypool", "0.3.0" ],
         [ "tinyspy", "1.0.2" ],
         [ "vite", "4.0.4" ],
-        [ "vite-node", "0.27.2" ],
+        [ "vite-node", "0.27.3" ],
         [ "why-is-node-running", "2.2.2" ]
       ],
       "unknown": [
-        [ "vitest", "0.27.2" ]
+        [ "@esbuild/android-arm", "0.16.17" ],
+        [ "@esbuild/android-arm64", "0.16.17" ],
+        [ "@esbuild/android-x64", "0.16.17" ],
+        [ "@esbuild/darwin-arm64", "0.16.17" ],
+        [ "@esbuild/darwin-x64", "0.16.17" ],
+        [ "@esbuild/freebsd-arm64", "0.16.17" ],
+        [ "@esbuild/freebsd-x64", "0.16.17" ],
+        [ "@esbuild/linux-arm", "0.16.17" ],
+        [ "@esbuild/linux-arm64", "0.16.17" ],
+        [ "@esbuild/linux-ia32", "0.16.17" ],
+        [ "@esbuild/linux-loong64", "0.16.17" ],
+        [ "@esbuild/linux-mips64el", "0.16.17" ],
+        [ "@esbuild/linux-ppc64", "0.16.17" ],
+        [ "@esbuild/linux-riscv64", "0.16.17" ],
+        [ "@esbuild/linux-s390x", "0.16.17" ],
+        [ "@esbuild/linux-x64", "0.16.17" ],
+        [ "@esbuild/netbsd-x64", "0.16.17" ],
+        [ "@esbuild/openbsd-x64", "0.16.17" ],
+        [ "@esbuild/sunos-x64", "0.16.17" ],
+        [ "@esbuild/win32-arm64", "0.16.17" ],
+        [ "@esbuild/win32-ia32", "0.16.17" ],
+        [ "@esbuild/win32-x64", "0.16.17" ],
+        [ "@types/chai", "4.3.4" ],
+        [ "@types/chai-subset", "1.3.3" ],
+        [ "@types/node", "18.11.18" ],
+        [ "acorn", "8.8.1" ],
+        [ "acorn-walk", "8.2.0" ],
+        [ "assertion-error", "1.1.0" ],
+        [ "buffer-from", "1.1.2" ],
+        [ "cac", "6.7.14" ],
+        [ "chai", "4.3.7" ],
+        [ "check-error", "1.0.2" ],
+        [ "debug", "4.3.4" ],
+        [ "deep-eql", "4.1.3" ],
+        [ "esbuild", "0.16.17" ],
+        [ "fsevents", "2.3.2" ],
+        [ "function-bind", "1.1.1" ],
+        [ "get-func-name", "2.0.0" ],
+        [ "has", "1.0.3" ],
+        [ "is-core-module", "2.11.0" ],
+        [ "jsonc-parser", "3.2.0" ],
+        [ "local-pkg", "0.4.3" ],
+        [ "loupe", "2.3.6" ],
+        [ "mlly", "1.1.0" ],
+        [ "ms", "2.1.2" ],
+        [ "nanoid", "3.3.4" ],
+        [ "path-parse", "1.0.7" ],
+        [ "pathe", "0.2.0" ],
+        [ "pathval", "1.1.1" ],
+        [ "picocolors", "1.0.0" ],
+        [ "pkg-types", "1.0.1" ],
+        [ "postcss", "8.4.21" ],
+        [ "resolve", "1.22.1" ],
+        [ "rollup", "3.10.1" ],
+        [ "siginfo", "2.0.0" ],
+        [ "source-map", "0.6.1" ],
+        [ "source-map-js", "1.0.2" ],
+        [ "source-map-support", "0.5.21" ],
+        [ "stackback", "0.0.2" ],
+        [ "std-env", "3.3.1" ],
+        [ "strip-literal", "1.0.0" ],
+        [ "supports-preserve-symlinks-flag", "1.0.0" ],
+        [ "tinybench", "2.3.1" ],
+        [ "tinypool", "0.3.0" ],
+        [ "tinyspy", "1.0.2" ],
+        [ "type-detect", "4.0.8" ],
+        [ "ufo", "1.0.1" ],
+        [ "vite", "4.0.4" ],
+        [ "vite-node", "0.27.3" ],
+        [ "vitest", "0.27.3" ],
+        [ "why-is-node-running", "2.2.2" ]
       ]
     },
     "why-is-node-running": {
@@ -606,6 +677,13 @@
         "url": "https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz"
       }
     },
+    "std-env": {
+      "3.3.1": {
+        "hash": "sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/std-env/-/std-env-3.3.1.tgz"
+      }
+    },
     "strip-literal": {
       "1.0.0": {
         "hash": "sha512-5o4LsH1lzBzO9UFH63AJ2ad2/S2AVx6NtjOcaz+VTT2h1RiRvbipW72z8M/lxEhcPHDBQwpDrnTF7sXy/7OwCQ==",
@@ -663,17 +741,17 @@
       }
     },
     "vite-node": {
-      "0.27.2": {
-        "hash": "sha512-IDwuVhslF10qCnWOGJui7/2KksAOBHi+UbVo6Pqt4f5lgn+kS2sVvYDsETRG5PSuslisGB5CFGvb9I6FQgymBQ==",
+      "0.27.3": {
+        "hash": "sha512-eyJYOO64o5HIp8poc4bJX+ZNBwMZeI3f6/JdiUmJgW02Mt7LnoCtDMRVmLaY9S05SIsjGe339ZK4uo2wQ+bF9g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/vite-node/-/vite-node-0.27.2.tgz"
+        "url": "https://registry.npmjs.org/vite-node/-/vite-node-0.27.3.tgz"
       }
     },
     "vitest": {
-      "0.27.2": {
-        "hash": "sha512-y7tdsL2uaQy+KF18AlmNHZe29ukyFytlxrpSTwwmgLE2XHR/aPucJP9FLjWoqjgqFlXzRAjHlFJLU+HDyI/OsA==",
+      "0.27.3": {
+        "hash": "sha512-Ld3UVgRVhJUtqvQ3dW89GxiApFAgBsWJZBCWzK+gA3w2yG68csXlGZZ4WDJURf+8ecNfgrScga6xY+8YSOpiMg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/vitest/-/vitest-0.27.2.tgz"
+        "url": "https://registry.npmjs.org/vitest/-/vitest-0.27.3.tgz"
       }
     },
     "why-is-node-running": {
