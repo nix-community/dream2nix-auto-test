@@ -26,6 +26,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "basic-toml": {
+      "0.1.0": [
+        [ "serde", "1.0.152" ]
+      ]
+    },
     "ctor": {
       "0.1.26": [
         [ "quote", "1.0.23" ],
@@ -137,7 +142,7 @@
         [ "serde", "1.0.152" ],
         [ "serde_json", "1.0.91" ],
         [ "syn", "1.0.107" ],
-        [ "trybuild", "1.0.76" ],
+        [ "trybuild", "1.0.77" ],
         [ "version-sync", "0.9.4" ]
       ]
     },
@@ -164,14 +169,14 @@
       ]
     },
     "trybuild": {
-      "1.0.76": [
+      "1.0.77": [
+        [ "basic-toml", "0.1.0" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.0" ],
         [ "serde", "1.0.152" ],
         [ "serde_derive", "1.0.152" ],
         [ "serde_json", "1.0.91" ],
-        [ "termcolor", "1.2.0" ],
-        [ "toml", "0.5.11" ]
+        [ "termcolor", "1.2.0" ]
       ]
     },
     "unicase": {
@@ -215,6 +220,12 @@
     }
   },
   "sources": {
+    "basic-toml": {
+      "0.1.0": {
+        "hash": "3a72cac83e42560384ff91957b3a739eba64fb0db58049f42884ceb3abb57378",
+        "type": "crates-io"
+      }
+    },
     "bitflags": {
       "1.3.2": {
         "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
@@ -438,8 +449,8 @@
       }
     },
     "trybuild": {
-      "1.0.76": {
-        "hash": "6ed2c57956f91546d4d33614265a85d55c8e1ab91484853a10335894786d7db6",
+      "1.0.77": {
+        "hash": "a44da5a6f2164c8e14d3bbc0657d69c5966af9f5f6930d4f600b1f5c4a673413",
         "type": "crates-io"
       }
     },

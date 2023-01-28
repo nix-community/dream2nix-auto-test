@@ -26,11 +26,16 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "basic-toml": {
+      "0.1.0": [
+        [ "serde", "1.0.152" ]
+      ]
+    },
     "paste": {
       "1.0.11": [
         [ "paste-test-suite", "0.0.0" ],
         [ "rustversion", "1.0.11" ],
-        [ "trybuild", "1.0.76" ]
+        [ "trybuild", "1.0.77" ]
       ]
     },
     "proc-macro2": {
@@ -69,21 +74,16 @@
         [ "winapi-util", "0.1.5" ]
       ]
     },
-    "toml": {
-      "0.5.11": [
-        [ "serde", "1.0.152" ]
-      ]
-    },
     "trybuild": {
-      "1.0.76": [
+      "1.0.77": [
+        [ "basic-toml", "0.1.0" ],
         [ "dissimilar", "1.0.6" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.0" ],
         [ "serde", "1.0.152" ],
         [ "serde_derive", "1.0.152" ],
         [ "serde_json", "1.0.91" ],
-        [ "termcolor", "1.2.0" ],
-        [ "toml", "0.5.11" ]
+        [ "termcolor", "1.2.0" ]
       ]
     },
     "winapi": {
@@ -99,6 +99,12 @@
     }
   },
   "sources": {
+    "basic-toml": {
+      "0.1.0": {
+        "hash": "3a72cac83e42560384ff91957b3a739eba64fb0db58049f42884ceb3abb57378",
+        "type": "crates-io"
+      }
+    },
     "dissimilar": {
       "1.0.6": {
         "hash": "210ec60ae7d710bed8683e333e9d2855a8a56a3e9892b38bad3bb0d4d29b0d5e",
@@ -189,15 +195,9 @@
         "type": "crates-io"
       }
     },
-    "toml": {
-      "0.5.11": {
-        "hash": "f4f7f0dd8d50a853a531c426359045b1998f04219d88799810762cd4ad314234",
-        "type": "crates-io"
-      }
-    },
     "trybuild": {
-      "1.0.76": {
-        "hash": "6ed2c57956f91546d4d33614265a85d55c8e1ab91484853a10335894786d7db6",
+      "1.0.77": {
+        "hash": "a44da5a6f2164c8e14d3bbc0657d69c5966af9f5f6930d4f600b1f5c4a673413",
         "type": "crates-io"
       }
     },

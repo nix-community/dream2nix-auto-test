@@ -26,6 +26,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "basic-toml": {
+      "0.1.0": [
+        [ "serde", "1.0.152" ]
+      ]
+    },
     "indexmap": {
       "1.9.2": [
         [ "autocfg", "1.1.0" ],
@@ -42,7 +47,7 @@
         [ "anyhow", "1.0.68" ],
         [ "num_enum_derive", "0.5.9" ],
         [ "rustversion", "1.0.11" ],
-        [ "trybuild", "1.0.76" ],
+        [ "trybuild", "1.0.77" ],
         [ "walkdir", "2.3.2" ]
       ]
     },
@@ -57,7 +62,7 @@
     "proc-macro-crate": {
       "1.3.0": [
         [ "once_cell", "1.17.0" ],
-        [ "toml_edit", "0.18.0" ]
+        [ "toml_edit", "0.18.1" ]
       ]
     },
     "proc-macro2": {
@@ -101,27 +106,22 @@
         [ "winapi-util", "0.1.5" ]
       ]
     },
-    "toml": {
-      "0.5.11": [
-        [ "serde", "1.0.152" ]
-      ]
-    },
     "toml_edit": {
-      "0.18.0": [
+      "0.18.1": [
         [ "indexmap", "1.9.2" ],
         [ "nom8", "0.2.0" ],
         [ "toml_datetime", "0.5.1" ]
       ]
     },
     "trybuild": {
-      "1.0.76": [
+      "1.0.77": [
+        [ "basic-toml", "0.1.0" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.0" ],
         [ "serde", "1.0.152" ],
         [ "serde_derive", "1.0.152" ],
         [ "serde_json", "1.0.91" ],
-        [ "termcolor", "1.2.0" ],
-        [ "toml", "0.5.11" ]
+        [ "termcolor", "1.2.0" ]
       ]
     },
     "walkdir": {
@@ -153,6 +153,12 @@
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "basic-toml": {
+      "0.1.0": {
+        "hash": "3a72cac83e42560384ff91957b3a739eba64fb0db58049f42884ceb3abb57378",
         "type": "crates-io"
       }
     },
@@ -276,12 +282,6 @@
         "type": "crates-io"
       }
     },
-    "toml": {
-      "0.5.11": {
-        "hash": "f4f7f0dd8d50a853a531c426359045b1998f04219d88799810762cd4ad314234",
-        "type": "crates-io"
-      }
-    },
     "toml_datetime": {
       "0.5.1": {
         "hash": "4553f467ac8e3d374bc9a177a26801e5d0f9b211aa1673fb137a403afd1c9cf5",
@@ -289,14 +289,14 @@
       }
     },
     "toml_edit": {
-      "0.18.0": {
-        "hash": "729bfd096e40da9c001f778f5cdecbd2957929a24e10e5883d9392220a751581",
+      "0.18.1": {
+        "hash": "56c59d8dd7d0dcbc6428bf7aa2f0e823e26e43b3c9aca15bbc9475d23e5fa12b",
         "type": "crates-io"
       }
     },
     "trybuild": {
-      "1.0.76": {
-        "hash": "6ed2c57956f91546d4d33614265a85d55c8e1ab91484853a10335894786d7db6",
+      "1.0.77": {
+        "hash": "a44da5a6f2164c8e14d3bbc0657d69c5966af9f5f6930d4f600b1f5c4a673413",
         "type": "crates-io"
       }
     },
