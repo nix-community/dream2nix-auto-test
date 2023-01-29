@@ -3,7 +3,7 @@
     "defaultPackage": "cc",
     "location": "",
     "packages": {
-      "cc": "1.0.78"
+      "cc": "1.0.79"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "cc": {
-        "1.0.78": {
+        "1.0.79": {
           "description": "A build-time dependency for Cargo build scripts to assist in invoking the native\nC compiler to compile native C code into a static archive to be linked into Rust\ncode.\n", "homepage": "https://github.com/rust-lang/cc-rs", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,14 +20,14 @@
     },
     "relPathReplacements": {
       "cc": {
-        "1.0.78": {}
+        "1.0.79": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "cc": {
-      "1.0.78": [
+      "1.0.79": [
         [ "jobserver", "0.1.25" ],
         [ "tempfile", "3.3.0" ]
       ]
@@ -44,7 +44,7 @@
     },
     "jobserver": {
       "0.1.25": [
-        [ "libc", "0.2.138" ]
+        [ "libc", "0.2.139" ]
       ]
     },
     "redox_syscall": {
@@ -61,7 +61,7 @@
       "3.3.0": [
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.8.0" ],
-        [ "libc", "0.2.138" ],
+        [ "libc", "0.2.139" ],
         [ "redox_syscall", "0.2.16" ],
         [ "remove_dir_all", "0.5.3" ],
         [ "winapi", "0.3.9" ]
@@ -82,8 +82,8 @@
       }
     },
     "cc": {
-      "1.0.78": {
-        "hash": "a20104e2335ce8a659d6dd92a51a767a0c062599c73b343fd152cb401e828c3d",
+      "1.0.79": {
+        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
         "type": "crates-io"
       }
     },
@@ -112,8 +112,8 @@
       }
     },
     "libc": {
-      "0.2.138": {
-        "hash": "db6d7e329c562c5dfab7a46a2afabc8b987ab9a4834c9d1ca04dc54c1546cef8",
+      "0.2.139": {
+        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
         "type": "crates-io"
       }
     },
