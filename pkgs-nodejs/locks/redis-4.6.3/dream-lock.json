@@ -3,7 +3,7 @@
     "defaultPackage": "redis",
     "location": "",
     "packages": {
-      "redis": "4.6.2"
+      "redis": "4.6.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,16 +17,16 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@redis/client": {
-      "1.5.3": [
+      "1.5.4": [
         [ "cluster-key-slot", "1.1.2" ],
         [ "generic-pool", "3.9.0" ],
         [ "yallist", "4.0.0" ]
       ]
     },
     "redis": {
-      "4.6.2": [
+      "4.6.3": [
         [ "@redis/bloom", "1.2.0" ],
-        [ "@redis/client", "1.5.3" ],
+        [ "@redis/client", "1.5.4" ],
         [ "@redis/graph", "1.1.0" ],
         [ "@redis/json", "1.0.4" ],
         [ "@redis/search", "1.1.1" ],
@@ -34,14 +34,14 @@
       ],
       "unknown": [
         [ "@redis/bloom", "1.2.0" ],
-        [ "@redis/client", "1.5.3" ],
+        [ "@redis/client", "1.5.4" ],
         [ "@redis/graph", "1.1.0" ],
         [ "@redis/json", "1.0.4" ],
         [ "@redis/search", "1.1.1" ],
         [ "@redis/time-series", "1.0.4" ],
         [ "cluster-key-slot", "1.1.2" ],
         [ "generic-pool", "3.9.0" ],
-        [ "redis", "4.6.2" ],
+        [ "redis", "4.6.3" ],
         [ "yallist", "4.0.0" ]
       ]
     }
@@ -55,10 +55,10 @@
       }
     },
     "@redis/client": {
-      "1.5.3": {
-        "hash": "sha512-kPad3QmWyRcmFj1gnb+SkzjXBV7oPpyTJmasVA+ocgNClxqZaTJjLFReqxm9cZQiCtqZK9vrcTISNrgzQXFpLg==",
+      "1.5.4": {
+        "hash": "sha512-inTBWktJX6rRUCmhpVCnSb7pHOOiGCFIiy5IuEa0GgjcOJsKvw4zHkT9dfYm5UGoUi0I1c4i/f3ScMW5gkNpmQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@redis/client/-/client-1.5.3.tgz"
+        "url": "https://registry.npmjs.org/@redis/client/-/client-1.5.4.tgz"
       }
     },
     "@redis/graph": {
@@ -104,10 +104,10 @@
       }
     },
     "redis": {
-      "4.6.2": {
-        "hash": "sha512-Xoh7UyU6YnT458xA8svaZAJu6ZunKeW7Z/7GXrLWGGwhVLTsDX6pr3u7ENAoV+DHBPO+9LwIu45ClwUwpIjAxw==",
+      "4.6.3": {
+        "hash": "sha512-2UBX8APh9xIXotVwbt3/jUSeu9kwoke9fNzCMQppuQhmOUmEBkM73sdUifXiabjH7YUN0VireJcgw7ky4DnC+A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/redis/-/redis-4.6.2.tgz"
+        "url": "https://registry.npmjs.org/redis/-/redis-4.6.3.tgz"
       }
     },
     "yallist": {
