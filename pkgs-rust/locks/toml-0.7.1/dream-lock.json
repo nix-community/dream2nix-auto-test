@@ -3,7 +3,7 @@
     "defaultPackage": "toml",
     "location": "",
     "packages": {
-      "toml": "0.7.0"
+      "toml": "0.7.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "toml": {
-        "0.7.0": {
+        "0.7.1": {
           "description": "A native Rust encoder and decoder of TOML-formatted files and streams. Provides\nimplementations of the standard Serialize/Deserialize traits for TOML data to\nfacilitate deserializing and serializing Rust structures.\n", "homepage": "https://github.com/toml-rs/toml", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "toml": {
-        "0.7.0": {}
+        "0.7.1": {}
       }
     }
   },
@@ -84,7 +84,7 @@
     },
     "errno-dragonfly": {
       "0.1.2": [
-        [ "cc", "1.0.78" ],
+        [ "cc", "1.0.79" ],
         [ "libc", "0.2.139" ]
       ]
     },
@@ -248,7 +248,7 @@
       ]
     },
     "serde_spanned": {
-      "0.6.0": [
+      "0.6.1": [
         [ "serde", "1.0.152" ]
       ]
     },
@@ -284,15 +284,15 @@
       ]
     },
     "toml": {
-      "0.7.0": [
+      "0.7.1": [
         [ "indexmap", "1.9.2" ],
         [ "serde", "1.0.152" ],
         [ "serde_json", "1.0.91" ],
-        [ "serde_spanned", "0.6.0" ],
+        [ "serde_spanned", "0.6.1" ],
         [ "snapbox", "0.4.4" ],
         [ "toml-test-harness", "0.4.3" ],
-        [ "toml_datetime", "0.6.0" ],
-        [ "toml_edit", "0.19.0" ]
+        [ "toml_datetime", "0.6.1" ],
+        [ "toml_edit", "0.19.1" ]
       ]
     },
     "toml-test": {
@@ -316,17 +316,17 @@
       ]
     },
     "toml_datetime": {
-      "0.6.0": [
+      "0.6.1": [
         [ "serde", "1.0.152" ]
       ]
     },
     "toml_edit": {
-      "0.19.0": [
+      "0.19.1": [
         [ "indexmap", "1.9.2" ],
         [ "nom8", "0.2.0" ],
         [ "serde", "1.0.152" ],
-        [ "serde_spanned", "0.6.0" ],
-        [ "toml_datetime", "0.6.0" ]
+        [ "serde_spanned", "0.6.1" ],
+        [ "toml_datetime", "0.6.1" ]
       ]
     },
     "walkdir": {
@@ -385,8 +385,8 @@
       }
     },
     "cc": {
-      "1.0.78": {
-        "hash": "a20104e2335ce8a659d6dd92a51a767a0c062599c73b343fd152cb401e828c3d",
+      "1.0.79": {
+        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
         "type": "crates-io"
       }
     },
@@ -667,8 +667,8 @@
       }
     },
     "serde_spanned": {
-      "0.6.0": {
-        "hash": "2c68e921cef53841b8925c2abadd27c9b891d9613bdc43d6b823062866df38e8",
+      "0.6.1": {
+        "hash": "0efd8caf556a6cebd3b285caf480045fcc1ac04f6bd786b09a6f11af30c4fcf4",
         "type": "crates-io"
       }
     },
@@ -721,8 +721,8 @@
       }
     },
     "toml": {
-      "0.7.0": {
-        "hash": "2f560bc7fb3eb31f5eee1340c68a2160cad39605b7b9c9ec32045ddbdee13b85",
+      "0.7.1": {
+        "hash": "772c1426ab886e7362aedf4abc9c0d1348a979517efedfc25862944d10137af0",
         "type": "crates-io"
       }
     },
@@ -745,14 +745,14 @@
       }
     },
     "toml_datetime": {
-      "0.6.0": {
-        "hash": "886f31a9b85b6182cabd4d8b07df3b451afcc216563748201490940d2a28ed36",
+      "0.6.1": {
+        "hash": "3ab8ed2edee10b50132aed5f331333428b011c99402b5a534154ed15746f9622",
         "type": "crates-io"
       }
     },
     "toml_edit": {
-      "0.19.0": {
-        "hash": "233d8716cdc5d20ec88a18a839edaf545edc71efa4a5ff700ef4a102c26cd8fa",
+      "0.19.1": {
+        "hash": "90a238ee2e6ede22fb95350acc78e21dc40da00bb66c0334bde83de4ed89424e",
         "type": "crates-io"
       }
     },

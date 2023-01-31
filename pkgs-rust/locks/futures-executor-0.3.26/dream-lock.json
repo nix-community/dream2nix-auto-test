@@ -3,7 +3,7 @@
     "defaultPackage": "futures-executor",
     "location": "",
     "packages": {
-      "futures-executor": "0.3.25"
+      "futures-executor": "0.3.26"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "futures-executor": {
-        "0.3.25": {
+        "0.3.26": {
           "description": "Executors for asynchronous tasks based on the futures-rs library.\n", "homepage": "https://rust-lang.github.io/futures-rs", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,24 +20,24 @@
     },
     "relPathReplacements": {
       "futures-executor": {
-        "0.3.25": {}
+        "0.3.26": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "futures-executor": {
-      "0.3.25": [
-        [ "futures-core", "0.3.25" ],
-        [ "futures-task", "0.3.25" ],
-        [ "futures-util", "0.3.25" ],
+      "0.3.26": [
+        [ "futures-core", "0.3.26" ],
+        [ "futures-task", "0.3.26" ],
+        [ "futures-util", "0.3.26" ],
         [ "num_cpus", "1.15.0" ]
       ]
     },
     "futures-util": {
-      "0.3.25": [
-        [ "futures-core", "0.3.25" ],
-        [ "futures-task", "0.3.25" ],
+      "0.3.26": [
+        [ "futures-core", "0.3.26" ],
+        [ "futures-task", "0.3.26" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
         [ "slab", "0.4.7" ]
@@ -68,26 +68,26 @@
       }
     },
     "futures-core": {
-      "0.3.25": {
-        "hash": "04909a7a7e4633ae6c4a9ab280aeb86da1236243a77b694a49eacd659a4bd3ac",
+      "0.3.26": {
+        "hash": "ec90ff4d0fe1f57d600049061dc6bb68ed03c7d2fbd697274c41805dcb3f8608",
         "type": "crates-io"
       }
     },
     "futures-executor": {
-      "0.3.25": {
-        "hash": "7acc85df6714c176ab5edf386123fafe217be88c0840ec11f199441134a074e2",
+      "0.3.26": {
+        "hash": "e8de0a35a6ab97ec8869e32a2473f4b1324459e14c29275d14b10cb1fd19b50e",
         "type": "crates-io"
       }
     },
     "futures-task": {
-      "0.3.25": {
-        "hash": "2ffb393ac5d9a6eaa9d3fdf37ae2776656b706e200c8e16b1bdb227f5198e6ea",
+      "0.3.26": {
+        "hash": "dcf79a1bf610b10f42aea489289c5a2c478a786509693b80cd39c44ccd936366",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.25": {
-        "hash": "197676987abd2f9cadff84926f410af1c183608d36641465df73ae8211dc65d6",
+      "0.3.26": {
+        "hash": "9c1d6de3acfef38d2be4b1f543f553131788603495be83da675e180c8d6b7bd1",
         "type": "crates-io"
       }
     },

@@ -3,7 +3,7 @@
     "defaultPackage": "futures-core",
     "location": "",
     "packages": {
-      "futures-core": "0.3.25"
+      "futures-core": "0.3.26"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "futures-core": {
-        "0.3.25": {
+        "0.3.26": {
           "description": "The core traits and types in for the `futures` library.\n", "homepage": "https://rust-lang.github.io/futures-rs", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,16 +20,28 @@
     },
     "relPathReplacements": {
       "futures-core": {
-        "0.3.25": {}
+        "0.3.26": {}
       }
     }
   },
   "cyclicDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "futures-core": {
+      "0.3.26": [
+        [ "portable-atomic", "1.0.1" ]
+      ]
+    }
+  },
   "sources": {
     "futures-core": {
-      "0.3.25": {
-        "hash": "04909a7a7e4633ae6c4a9ab280aeb86da1236243a77b694a49eacd659a4bd3ac",
+      "0.3.26": {
+        "hash": "ec90ff4d0fe1f57d600049061dc6bb68ed03c7d2fbd697274c41805dcb3f8608",
+        "type": "crates-io"
+      }
+    },
+    "portable-atomic": {
+      "1.0.1": {
+        "hash": "39c00c8683a03bd4fe7db7dd64ab4abee6b42166bc81231da983486ce96be51a",
         "type": "crates-io"
       }
     }
