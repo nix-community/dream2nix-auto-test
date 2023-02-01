@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "node-fetch",
+    "location": "",
+    "packages": {
+      "node-fetch": "2.6.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "node-fetch": {
+      "2.6.9": [
+        [ "whatwg-url", "5.0.0" ]
+      ],
+      "unknown": [
+        [ "node-fetch", "2.6.9" ],
+        [ "tr46", "0.0.3" ],
+        [ "webidl-conversions", "3.0.1" ],
+        [ "whatwg-url", "5.0.0" ]
+      ]
+    },
+    "whatwg-url": {
+      "5.0.0": [
+        [ "tr46", "0.0.3" ],
+        [ "webidl-conversions", "3.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "node-fetch": {
+      "2.6.9": {
+        "hash": "sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.9.tgz"
+      }
+    },
+    "tr46": {
+      "0.0.3": {
+        "hash": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
+      }
+    },
+    "webidl-conversions": {
+      "3.0.1": {
+        "hash": "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
+      }
+    },
+    "whatwg-url": {
+      "5.0.0": {
+        "hash": "sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
+      }
+    }
+  }
+}
