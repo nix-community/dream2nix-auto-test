@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "zstd-safe",
+    "defaultPackage": "zstd-sys",
     "location": "",
     "packages": {
-      "zstd-safe": "6.0.2+zstd.1.5.2"
+      "zstd-sys": "2.0.6+zstd.1.5.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,15 +11,15 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "zstd-safe": {
-        "6.0.2+zstd.1.5.2": {
-          "description": "Safe low-level bindings for the zstd compression library.", "license": []
+      "zstd-sys": {
+        "2.0.6+zstd.1.5.2": {
+          "description": "Low-level bindings for the zstd compression library.", "license": []
         }
       }
     },
     "relPathReplacements": {
-      "zstd-safe": {
-        "6.0.2+zstd.1.5.2": {}
+      "zstd-sys": {
+        "2.0.6+zstd.1.5.2": {}
       }
     }
   },
@@ -43,7 +43,7 @@
       ]
     },
     "cc": {
-      "1.0.79": [
+      "1.0.78": [
         [ "jobserver", "0.1.25" ]
       ]
     },
@@ -111,16 +111,10 @@
         [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
       ]
     },
-    "zstd-safe": {
-      "6.0.2+zstd.1.5.2": [
-        [ "libc", "0.2.139" ],
-        [ "zstd-sys", "2.0.5+zstd.1.5.2" ]
-      ]
-    },
     "zstd-sys": {
-      "2.0.5+zstd.1.5.2": [
+      "2.0.6+zstd.1.5.2": [
         [ "bindgen", "0.63.0" ],
-        [ "cc", "1.0.79" ],
+        [ "cc", "1.0.78" ],
         [ "libc", "0.2.139" ],
         [ "pkg-config", "0.3.26" ]
       ]
@@ -140,8 +134,8 @@
       }
     },
     "cc": {
-      "1.0.79": {
-        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
+      "1.0.78": {
+        "hash": "a20104e2335ce8a659d6dd92a51a767a0c062599c73b343fd152cb401e828c3d",
         "type": "crates-io"
       }
     },
@@ -313,15 +307,9 @@
         "type": "crates-io"
       }
     },
-    "zstd-safe": {
-      "6.0.2+zstd.1.5.2": {
-        "hash": "a6cf39f730b440bab43da8fb5faf5f254574462f73f260f85f7987f32154ff17",
-        "type": "crates-io"
-      }
-    },
     "zstd-sys": {
-      "2.0.5+zstd.1.5.2": {
-        "hash": "edc50ffce891ad571e9f9afe5039c4837bede781ac4bb13052ed7ae695518596",
+      "2.0.6+zstd.1.5.2": {
+        "hash": "68a3f9792c0c3dc6c165840a75f47ae1f4da402c2d006881129579f6597e801b",
         "type": "crates-io"
       }
     }
