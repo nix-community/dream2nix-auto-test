@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "wasm-bindgen-backend",
+    "defaultPackage": "wasm-bindgen-macro-support",
     "location": "",
     "packages": {
-      "wasm-bindgen-backend": "0.2.83"
+      "wasm-bindgen-macro-support": "0.2.84"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,15 +11,15 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "wasm-bindgen-backend": {
-        "0.2.83": {
-          "description": "Backend code generation of the wasm-bindgen tool\n", "homepage": "https://rustwasm.github.io/wasm-bindgen/", "license": []
+      "wasm-bindgen-macro-support": {
+        "0.2.84": {
+          "description": "The part of the implementation of the `#[wasm_bindgen]` attribute that is not in the shared backend crate\n", "homepage": "https://rustwasm.github.io/wasm-bindgen/", "license": []
         }
       }
     },
     "relPathReplacements": {
-      "wasm-bindgen-backend": {
-        "0.2.83": {}
+      "wasm-bindgen-macro-support": {
+        "0.2.84": {}
       }
     }
   },
@@ -48,14 +48,23 @@
       ]
     },
     "wasm-bindgen-backend": {
-      "0.2.83": [
+      "0.2.84": [
         [ "bumpalo", "3.12.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.17.0" ],
         [ "proc-macro2", "1.0.50" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.107" ],
-        [ "wasm-bindgen-shared", "0.2.83" ]
+        [ "wasm-bindgen-shared", "0.2.84" ]
+      ]
+    },
+    "wasm-bindgen-macro-support": {
+      "0.2.84": [
+        [ "proc-macro2", "1.0.50" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ],
+        [ "wasm-bindgen-backend", "0.2.84" ],
+        [ "wasm-bindgen-shared", "0.2.84" ]
       ]
     }
   },
@@ -109,14 +118,20 @@
       }
     },
     "wasm-bindgen-backend": {
-      "0.2.83": {
-        "hash": "4c8ffb332579b0557b52d268b91feab8df3615f265d5270fec2a8c95b17c1142",
+      "0.2.84": {
+        "hash": "95ce90fd5bcc06af55a641a86428ee4229e44e07033963a2290a8e241607ccb9",
+        "type": "crates-io"
+      }
+    },
+    "wasm-bindgen-macro-support": {
+      "0.2.84": {
+        "hash": "2aff81306fcac3c7515ad4e177f521b5c9a15f2b08f4e32d823066102f35a5f6",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-shared": {
-      "0.2.83": {
-        "hash": "1c38c045535d93ec4f0b4defec448e4291638ee608530863b1e2ba115d4fff7f",
+      "0.2.84": {
+        "hash": "0046fef7e28c3804e5e38bfa31ea2a0f73905319b677e57ebe37e49358989b5d",
         "type": "crates-io"
       }
     }
