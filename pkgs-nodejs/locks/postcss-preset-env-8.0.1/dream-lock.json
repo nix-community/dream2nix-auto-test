@@ -24,7 +24,7 @@
     },
     "@csstools/postcss-color-function": {
       "2.0.1": [
-        [ "@csstools/postcss-progressive-custom-properties", "2.0.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
@@ -34,18 +34,19 @@
       ]
     },
     "@csstools/postcss-hwb-function": {
-      "2.0.1": [
+      "2.1.0": [
+        [ "@csstools/color-helpers", "1.0.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
     "@csstools/postcss-ic-unit": {
       "2.0.1": [
-        [ "@csstools/postcss-progressive-custom-properties", "2.0.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
     "@csstools/postcss-is-pseudo-class": {
-      "3.0.1": [
+      "3.1.0": [
         [ "@csstools/selector-specificity", "2.1.1" ],
         [ "postcss-selector-parser", "6.0.11" ]
       ]
@@ -79,12 +80,12 @@
     },
     "@csstools/postcss-oklab-function": {
       "2.0.1": [
-        [ "@csstools/postcss-progressive-custom-properties", "2.0.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
     "@csstools/postcss-progressive-custom-properties": {
-      "2.0.1": [
+      "2.1.0": [
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
@@ -99,7 +100,8 @@
       ]
     },
     "@csstools/postcss-text-decoration-shorthand": {
-      "2.1.0": [
+      "2.2.0": [
+        [ "@csstools/color-helpers", "1.0.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
@@ -201,7 +203,7 @@
     },
     "postcss-double-position-gradients": {
       "4.0.1": [
-        [ "@csstools/postcss-progressive-custom-properties", "2.0.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
@@ -222,7 +224,7 @@
     },
     "postcss-lab-function": {
       "5.0.1": [
-        [ "@csstools/postcss-progressive-custom-properties", "2.0.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
@@ -252,9 +254,9 @@
         [ "@csstools/postcss-cascade-layers", "3.0.1" ],
         [ "@csstools/postcss-color-function", "2.0.1" ],
         [ "@csstools/postcss-font-format-keywords", "2.0.1" ],
-        [ "@csstools/postcss-hwb-function", "2.0.1" ],
+        [ "@csstools/postcss-hwb-function", "2.1.0" ],
         [ "@csstools/postcss-ic-unit", "2.0.1" ],
-        [ "@csstools/postcss-is-pseudo-class", "3.0.1" ],
+        [ "@csstools/postcss-is-pseudo-class", "3.1.0" ],
         [ "@csstools/postcss-logical-float-and-clear", "1.0.1" ],
         [ "@csstools/postcss-logical-resize", "1.0.1" ],
         [ "@csstools/postcss-logical-viewport-units", "1.0.2" ],
@@ -262,10 +264,10 @@
         [ "@csstools/postcss-nested-calc", "2.0.1" ],
         [ "@csstools/postcss-normalize-display-values", "2.0.1" ],
         [ "@csstools/postcss-oklab-function", "2.0.1" ],
-        [ "@csstools/postcss-progressive-custom-properties", "2.0.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "@csstools/postcss-scope-pseudo-class", "2.0.1" ],
         [ "@csstools/postcss-stepped-value-functions", "2.0.1" ],
-        [ "@csstools/postcss-text-decoration-shorthand", "2.1.0" ],
+        [ "@csstools/postcss-text-decoration-shorthand", "2.2.0" ],
         [ "@csstools/postcss-trigonometric-functions", "2.0.1" ],
         [ "@csstools/postcss-unset-value", "2.0.1" ],
         [ "autoprefixer", "10.4.13" ],
@@ -305,15 +307,16 @@
       ],
       "unknown": [
         [ "@csstools/cascade-layer-name-parser", "1.0.1" ],
+        [ "@csstools/color-helpers", "1.0.0" ],
         [ "@csstools/css-parser-algorithms", "2.0.1" ],
         [ "@csstools/css-tokenizer", "2.0.1" ],
         [ "@csstools/media-query-list-parser", "2.0.1" ],
         [ "@csstools/postcss-cascade-layers", "3.0.1" ],
         [ "@csstools/postcss-color-function", "2.0.1" ],
         [ "@csstools/postcss-font-format-keywords", "2.0.1" ],
-        [ "@csstools/postcss-hwb-function", "2.0.1" ],
+        [ "@csstools/postcss-hwb-function", "2.1.0" ],
         [ "@csstools/postcss-ic-unit", "2.0.1" ],
-        [ "@csstools/postcss-is-pseudo-class", "3.0.1" ],
+        [ "@csstools/postcss-is-pseudo-class", "3.1.0" ],
         [ "@csstools/postcss-logical-float-and-clear", "1.0.1" ],
         [ "@csstools/postcss-logical-resize", "1.0.1" ],
         [ "@csstools/postcss-logical-viewport-units", "1.0.2" ],
@@ -321,10 +324,10 @@
         [ "@csstools/postcss-nested-calc", "2.0.1" ],
         [ "@csstools/postcss-normalize-display-values", "2.0.1" ],
         [ "@csstools/postcss-oklab-function", "2.0.1" ],
-        [ "@csstools/postcss-progressive-custom-properties", "2.0.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "@csstools/postcss-scope-pseudo-class", "2.0.1" ],
         [ "@csstools/postcss-stepped-value-functions", "2.0.1" ],
-        [ "@csstools/postcss-text-decoration-shorthand", "2.1.0" ],
+        [ "@csstools/postcss-text-decoration-shorthand", "2.2.0" ],
         [ "@csstools/postcss-trigonometric-functions", "2.0.1" ],
         [ "@csstools/postcss-unset-value", "2.0.1" ],
         [ "@csstools/selector-specificity", "2.1.1" ],
@@ -410,6 +413,13 @@
         "url": "https://registry.npmjs.org/@csstools/cascade-layer-name-parser/-/cascade-layer-name-parser-1.0.1.tgz"
       }
     },
+    "@csstools/color-helpers": {
+      "1.0.0": {
+        "hash": "sha512-tgqtiV8sU/VaWYjOB3O7PWs7HR/MmOLl2kTYRW2qSsTSEniJq7xmyAYFB1LPpXvvQcE5u2ih2dK9fyc8BnrAGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-1.0.0.tgz"
+      }
+    },
     "@csstools/css-parser-algorithms": {
       "2.0.1": {
         "hash": "sha512-B9/8PmOtU6nBiibJg0glnNktQDZ3rZnGn/7UmDfrm2vMtrdlXO3p7ErE95N0up80IRk9YEtB5jyj/TmQ1WH3dw==",
@@ -453,10 +463,10 @@
       }
     },
     "@csstools/postcss-hwb-function": {
-      "2.0.1": {
-        "hash": "sha512-IYoJZ/lDgbXr5iRxlIYdTirWRerrcpezfpP6Xr+bfu8KJRgSMQVOxmXpfJwEXQuTBiX+DyVcAz+IbDdOexHq9g==",
+      "2.1.0": {
+        "hash": "sha512-B4uBMznejB5VM7rMB2C3KQdM3JwPAy3CxbI9DIMziCZzlaB1a59uV7NimuINndumgtzpVt++CdpY0XffURZ+eA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@csstools/postcss-hwb-function/-/postcss-hwb-function-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/@csstools/postcss-hwb-function/-/postcss-hwb-function-2.1.0.tgz"
       }
     },
     "@csstools/postcss-ic-unit": {
@@ -467,10 +477,10 @@
       }
     },
     "@csstools/postcss-is-pseudo-class": {
-      "3.0.1": {
-        "hash": "sha512-N0GC8eRkHDsI8Y3AZ6HLJol1YANNk8PFWsUHOzuDkQW0zbrPL9arYpPTw4cr8yq0rkY/9TRaBDU74QA4ULmKHQ==",
+      "3.1.0": {
+        "hash": "sha512-MSt4kjWvIuv7GWGEV2WNkcOTLXdYpBRbW/2YF9MAmrKKYui65P/LpsLfSwCWq4vdwWH1HSxFi4Qp6bGCEAZ8ag==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@csstools/postcss-is-pseudo-class/-/postcss-is-pseudo-class-3.0.1.tgz"
+        "url": "https://registry.npmjs.org/@csstools/postcss-is-pseudo-class/-/postcss-is-pseudo-class-3.1.0.tgz"
       }
     },
     "@csstools/postcss-logical-float-and-clear": {
@@ -523,10 +533,10 @@
       }
     },
     "@csstools/postcss-progressive-custom-properties": {
-      "2.0.1": {
-        "hash": "sha512-ImgaFLEOhH/EdcrqDF8GSYSlsVR8EQBJ1p9ZhzoHgDkL7/uuzvSZOlRw5dFGFGnjdi7EXK4gsUjy2HU7ChHh3w==",
+      "2.1.0": {
+        "hash": "sha512-tRX1rinsXajZlc4WiU7s9Y6O9EdSHScT997zDsvDUjQ1oZL2nvnL6Bt0s9KyQZZTdC3lrG2PIdBqdOIWXSEPlQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@csstools/postcss-progressive-custom-properties/-/postcss-progressive-custom-properties-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/@csstools/postcss-progressive-custom-properties/-/postcss-progressive-custom-properties-2.1.0.tgz"
       }
     },
     "@csstools/postcss-scope-pseudo-class": {
@@ -544,10 +554,10 @@
       }
     },
     "@csstools/postcss-text-decoration-shorthand": {
-      "2.1.0": {
-        "hash": "sha512-ARU7Oh9nplxt99cDONVrDt/c1osWRCtgAzegtvmkn6ed7wfmjeNOlXogK1SlAIfHl6X116kPTuFL7vuyDmlPQw==",
+      "2.2.0": {
+        "hash": "sha512-++RtufygqFaeheLH1g8Y2Oi/l+xSt61+c0lQGjrpLUW4hhFo77V4Zsshm0oof7lqnpVXPaizlU0SnXf+f4GA7A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@csstools/postcss-text-decoration-shorthand/-/postcss-text-decoration-shorthand-2.1.0.tgz"
+        "url": "https://registry.npmjs.org/@csstools/postcss-text-decoration-shorthand/-/postcss-text-decoration-shorthand-2.2.0.tgz"
       }
     },
     "@csstools/postcss-trigonometric-functions": {
