@@ -3,7 +3,7 @@
     "defaultPackage": "serde_json",
     "location": "",
     "packages": {
-      "serde_json": "1.0.91"
+      "serde_json": "1.0.92"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "serde_json": {
-        "1.0.91": {
+        "1.0.92": {
           "description": "A JSON serialization file format", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,21 +20,21 @@
     },
     "relPathReplacements": {
       "serde_json": {
-        "1.0.91": {}
+        "1.0.92": {}
       }
     }
   },
   "cyclicDependencies": {
     "trybuild": {
       "1.0.77": [
-        [ "serde_json", "1.0.91" ]
+        [ "serde_json", "1.0.92" ]
       ]
     }
   },
   "dependencies": {
     "automod": {
       "1.0.6": [
-        [ "proc-macro2", "1.0.50" ],
+        [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.107" ]
       ]
@@ -51,7 +51,7 @@
       ]
     },
     "proc-macro2": {
-      "1.0.50": [
+      "1.0.51": [
         [ "unicode-ident", "1.0.6" ]
       ]
     },
@@ -62,7 +62,7 @@
     },
     "quote": {
       "1.0.23": [
-        [ "proc-macro2", "1.0.50" ]
+        [ "proc-macro2", "1.0.51" ]
       ]
     },
     "ref-cast": {
@@ -72,7 +72,7 @@
     },
     "ref-cast-impl": {
       "1.0.14": [
-        [ "proc-macro2", "1.0.50" ],
+        [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.107" ]
       ]
@@ -83,28 +83,28 @@
       ]
     },
     "serde_bytes": {
-      "0.11.8": [
+      "0.11.9": [
         [ "serde", "1.0.152" ]
       ]
     },
     "serde_derive": {
       "1.0.152": [
-        [ "proc-macro2", "1.0.50" ],
+        [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.107" ]
       ]
     },
     "serde_json": {
-      "1.0.91": [
+      "1.0.92": [
         [ "automod", "1.0.6" ],
         [ "indexmap", "1.9.2" ],
-        [ "indoc", "1.0.9" ],
+        [ "indoc", "2.0.0" ],
         [ "itoa", "1.0.5" ],
         [ "ref-cast", "1.0.14" ],
         [ "rustversion", "1.0.11" ],
         [ "ryu", "1.0.12" ],
         [ "serde", "1.0.152" ],
-        [ "serde_bytes", "0.11.8" ],
+        [ "serde_bytes", "0.11.9" ],
         [ "serde_derive", "1.0.152" ],
         [ "serde_stacker", "0.1.7" ],
         [ "trybuild", "1.0.77" ]
@@ -127,7 +127,7 @@
     },
     "syn": {
       "1.0.107": [
-        [ "proc-macro2", "1.0.50" ],
+        [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "unicode-ident", "1.0.6" ]
       ]
@@ -145,7 +145,7 @@
         [ "once_cell", "1.17.0" ],
         [ "serde", "1.0.152" ],
         [ "serde_derive", "1.0.152" ],
-        [ "serde_json", "1.0.91" ],
+        [ "serde_json", "1.0.92" ],
         [ "termcolor", "1.2.0" ]
       ]
     },
@@ -217,8 +217,8 @@
       }
     },
     "indoc": {
-      "1.0.9": {
-        "hash": "bfa799dd5ed20a7e349f3b4639aa80d74549c81716d9ec4f994c9b5815598306",
+      "2.0.0": {
+        "hash": "6fe2b9d82064e8a0226fddb3547f37f28eaa46d0fc210e275d835f08cf3b76a7",
         "type": "crates-io"
       }
     },
@@ -241,8 +241,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.50": {
-        "hash": "6ef7d57beacfaf2d8aee5937dab7b7f28de3cb8b1828479bb5de2a7106f2bae2",
+      "1.0.51": {
+        "hash": "5d727cae5b39d21da60fa540906919ad737832fe0b1c165da3a34d6548c849d6",
         "type": "crates-io"
       }
     },
@@ -289,8 +289,8 @@
       }
     },
     "serde_bytes": {
-      "0.11.8": {
-        "hash": "718dc5fff5b36f99093fc49b280cfc96ce6fc824317783bff5a1fed0c7a64819",
+      "0.11.9": {
+        "hash": "416bda436f9aab92e02c8e10d49a15ddd339cea90b6e340fe51ed97abb548294",
         "type": "crates-io"
       }
     },
@@ -301,8 +301,8 @@
       }
     },
     "serde_json": {
-      "1.0.91": {
-        "hash": "877c235533714907a8c2464236f5c4b2a17262ef1bd71f38f35ea592c8da6883",
+      "1.0.92": {
+        "hash": "7434af0dc1cbd59268aa98b4c22c131c0584d2232f6fb166efb993e2832e896a",
         "type": "crates-io"
       }
     },
