@@ -753,7 +753,7 @@
     "browserslist": {
       "4.21.5": [
         [ "caniuse-lite", "1.0.30001450" ],
-        [ "electron-to-chromium", "1.4.286" ],
+        [ "electron-to-chromium", "1.4.288" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -1307,7 +1307,7 @@
         [ "dot-prop", "5.3.0" ],
         [ "editions", "1.3.4" ],
         [ "ee-first", "1.1.1" ],
-        [ "electron-to-chromium", "1.4.286" ],
+        [ "electron-to-chromium", "1.4.288" ],
         [ "ember-cli", "4.10.0" ],
         [ "ember-cli-is-package-missing", "1.0.0" ],
         [ "ember-cli-lodash-subset", "2.0.1" ],
@@ -1318,7 +1318,7 @@
         [ "emoji-regex", "8.0.0" ],
         [ "encodeurl", "1.0.2" ],
         [ "end-of-stream", "1.4.4" ],
-        [ "engine.io", "6.2.1" ],
+        [ "engine.io", "6.4.0" ],
         [ "engine.io-parser", "5.0.6" ],
         [ "ensure-posix-path", "1.1.1" ],
         [ "entities", "3.0.1" ],
@@ -1635,8 +1635,8 @@
         [ "snapdragon", "0.8.2" ],
         [ "snapdragon-node", "2.1.1" ],
         [ "snapdragon-util", "3.0.1" ],
-        [ "socket.io", "4.5.4" ],
-        [ "socket.io-adapter", "2.4.0" ],
+        [ "socket.io", "4.6.0" ],
+        [ "socket.io-adapter", "2.5.2" ],
         [ "socket.io-parser", "4.2.2" ],
         [ "sort-object-keys", "1.1.3" ],
         [ "sort-package-json", "1.57.0" ],
@@ -1715,7 +1715,7 @@
         [ "wrap-ansi", "7.0.0" ],
         [ "wrappy", "1.0.2" ],
         [ "write-file-atomic", "3.0.3" ],
-        [ "ws", "8.2.3" ],
+        [ "ws", "8.11.0" ],
         [ "xdg-basedir", "4.0.0" ],
         [ "xtend", "4.0.2" ],
         [ "yallist", "3.1.1" ],
@@ -1747,7 +1747,7 @@
       ]
     },
     "engine.io": {
-      "6.2.1": [
+      "6.4.0": [
         [ "@types/cookie", "0.4.1" ],
         [ "@types/cors", "2.8.13" ],
         [ "@types/node", "18.11.19" ],
@@ -1757,7 +1757,7 @@
         [ "cors", "2.8.5" ],
         [ "debug", "4.3.4" ],
         [ "engine.io-parser", "5.0.6" ],
-        [ "ws", "8.2.3" ]
+        [ "ws", "8.11.0" ]
       ]
     },
     "error": {
@@ -3090,13 +3090,18 @@
       ]
     },
     "socket.io": {
-      "4.5.4": [
+      "4.6.0": [
         [ "accepts", "1.3.8" ],
         [ "base64id", "2.0.0" ],
         [ "debug", "4.3.4" ],
-        [ "engine.io", "6.2.1" ],
-        [ "socket.io-adapter", "2.4.0" ],
+        [ "engine.io", "6.4.0" ],
+        [ "socket.io-adapter", "2.5.2" ],
         [ "socket.io-parser", "4.2.2" ]
+      ]
+    },
+    "socket.io-adapter": {
+      "2.5.2": [
+        [ "ws", "8.11.0" ]
       ]
     },
     "socket.io-parser": {
@@ -3242,7 +3247,7 @@
         [ "npmlog", "6.0.2" ],
         [ "printf", "0.6.1" ],
         [ "rimraf", "3.0.2" ],
-        [ "socket.io", "4.5.4" ],
+        [ "socket.io", "4.6.0" ],
         [ "spawn-args", "0.2.0" ],
         [ "styled_string", "0.0.1" ],
         [ "tap-parser", "7.0.0" ],
@@ -5074,10 +5079,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.286": {
-        "hash": "sha512-Vp3CVhmYpgf4iXNKAucoQUDcCrBQX3XLBtwgFqP9BUXuucgvAV9zWp1kYU7LL9j4++s9O+12cb3wMtN4SJy6UQ==",
+      "1.4.288": {
+        "hash": "sha512-8s9aJf3YiokIrR+HOQzNOGmEHFXVUQzXM/JaViVvKdCkNUjS+lEa/uT7xw3nDVG/IgfxiIwUGkwJ6AR1pTpYsQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.286.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.288.tgz"
       }
     },
     "ember-cli": {
@@ -5151,10 +5156,10 @@
       }
     },
     "engine.io": {
-      "6.2.1": {
-        "hash": "sha512-ECceEFcAaNRybd3lsGQKas3ZlMVjN3cyWwMP25D2i0zWfyiytVbTpRPa34qrr+FHddtpBVOmq4H/DCv1O0lZRA==",
+      "6.4.0": {
+        "hash": "sha512-OgxY1c/RuCSeO/rTr8DIFXx76IzUUft86R7/P7MMbbkuzeqJoTNw2lmeD91IyGz41QYleIIjWeMJGgug043sfQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/engine.io/-/engine.io-6.2.1.tgz"
+        "url": "https://registry.npmjs.org/engine.io/-/engine.io-6.4.0.tgz"
       }
     },
     "engine.io-parser": {
@@ -7795,17 +7800,17 @@
       }
     },
     "socket.io": {
-      "4.5.4": {
-        "hash": "sha512-m3GC94iK9MfIEeIBfbhJs5BqFibMtkRk8ZpKwG2QwxV0m/eEhPIV4ara6XCF1LWNAus7z58RodiZlAH71U3EhQ==",
+      "4.6.0": {
+        "hash": "sha512-b65bp6INPk/BMMrIgVvX12x3Q+NqlGqSlTuvKQWt0BUJ3Hyy3JangBl7fEoWZTXbOKlCqNPbQ6MbWgok/km28w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/socket.io/-/socket.io-4.5.4.tgz"
+        "url": "https://registry.npmjs.org/socket.io/-/socket.io-4.6.0.tgz"
       }
     },
     "socket.io-adapter": {
-      "2.4.0": {
-        "hash": "sha512-W4N+o69rkMEGVuk2D/cvca3uYsvGlMwsySWV447y99gUPghxq42BxqLNMndb+a1mm/5/7NeXVQS7RLa2XyXvYg==",
+      "2.5.2": {
+        "hash": "sha512-87C3LO/NOMc+eMcpcxUBebGjkpMDkNBS9tf7KJqcDsmL936EChtVva71Dw2q4tQcuVC+hAUy4an2NO/sYXmwRA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-2.4.0.tgz"
+        "url": "https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-2.5.2.tgz"
       }
     },
     "socket.io-parser": {
@@ -8485,10 +8490,10 @@
       }
     },
     "ws": {
-      "8.2.3": {
-        "hash": "sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==",
+      "8.11.0": {
+        "hash": "sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
+        "url": "https://registry.npmjs.org/ws/-/ws-8.11.0.tgz"
       }
     },
     "xdg-basedir": {

@@ -72,11 +72,11 @@
         [ "@types/json-schema", "7.0.11" ],
         [ "@types/semver", "7.3.13" ],
         [ "@typescript-eslint/eslint-plugin", "5.50.0" ],
-        [ "@typescript-eslint/parser", "5.50.0" ],
+        [ "@typescript-eslint/parser", "5.51.0" ],
         [ "@typescript-eslint/scope-manager", "5.50.0" ],
         [ "@typescript-eslint/type-utils", "5.50.0" ],
-        [ "@typescript-eslint/types", "5.50.0" ],
-        [ "@typescript-eslint/typescript-estree", "5.50.0" ],
+        [ "@typescript-eslint/types", "5.51.0" ],
+        [ "@typescript-eslint/typescript-estree", "5.51.0" ],
         [ "@typescript-eslint/utils", "5.50.0" ],
         [ "@typescript-eslint/visitor-keys", "5.50.0" ],
         [ "acorn", "8.8.2" ],
@@ -191,10 +191,10 @@
       ]
     },
     "@typescript-eslint/parser": {
-      "5.50.0": [
-        [ "@typescript-eslint/scope-manager", "5.50.0" ],
-        [ "@typescript-eslint/types", "5.50.0" ],
-        [ "@typescript-eslint/typescript-estree", "5.50.0" ],
+      "5.51.0": [
+        [ "@typescript-eslint/scope-manager", "5.51.0" ],
+        [ "@typescript-eslint/types", "5.51.0" ],
+        [ "@typescript-eslint/typescript-estree", "5.51.0" ],
         [ "debug", "4.3.4" ]
       ]
     },
@@ -202,6 +202,10 @@
       "5.50.0": [
         [ "@typescript-eslint/types", "5.50.0" ],
         [ "@typescript-eslint/visitor-keys", "5.50.0" ]
+      ],
+      "5.51.0": [
+        [ "@typescript-eslint/types", "5.51.0" ],
+        [ "@typescript-eslint/visitor-keys", "5.51.0" ]
       ]
     },
     "@typescript-eslint/type-utils": {
@@ -216,6 +220,15 @@
       "5.50.0": [
         [ "@typescript-eslint/types", "5.50.0" ],
         [ "@typescript-eslint/visitor-keys", "5.50.0" ],
+        [ "debug", "4.3.4" ],
+        [ "globby", "11.1.0" ],
+        [ "is-glob", "4.0.3" ],
+        [ "semver", "7.3.8" ],
+        [ "tsutils", "3.21.0" ]
+      ],
+      "5.51.0": [
+        [ "@typescript-eslint/types", "5.51.0" ],
+        [ "@typescript-eslint/visitor-keys", "5.51.0" ],
         [ "debug", "4.3.4" ],
         [ "globby", "11.1.0" ],
         [ "is-glob", "4.0.3" ],
@@ -238,6 +251,10 @@
     "@typescript-eslint/visitor-keys": {
       "5.50.0": [
         [ "@typescript-eslint/types", "5.50.0" ],
+        [ "eslint-visitor-keys", "3.3.0" ]
+      ],
+      "5.51.0": [
+        [ "@typescript-eslint/types", "5.51.0" ],
         [ "eslint-visitor-keys", "3.3.0" ]
       ]
     },
@@ -649,10 +666,10 @@
       }
     },
     "@typescript-eslint/parser": {
-      "5.50.0": {
-        "hash": "sha512-KCcSyNaogUDftK2G9RXfQyOCt51uB5yqC6pkUYqhYh8Kgt+DwR5M0EwEAxGPy/+DH6hnmKeGsNhiZRQxjH71uQ==",
+      "5.51.0": {
+        "hash": "sha512-fEV0R9gGmfpDeRzJXn+fGQKcl0inIeYobmmUWijZh9zA7bxJ8clPhV9up2ZQzATxAiFAECqPQyMDB4o4B81AaA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.50.0.tgz"
+        "url": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.51.0.tgz"
       }
     },
     "@typescript-eslint/scope-manager": {
@@ -660,6 +677,11 @@
         "hash": "sha512-rt03kaX+iZrhssaT974BCmoUikYtZI24Vp/kwTSy841XhiYShlqoshRFDvN1FKKvU2S3gK+kcBW1EA7kNUrogg==",
         "type": "http",
         "url": "https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.50.0.tgz"
+      },
+      "5.51.0": {
+        "hash": "sha512-gNpxRdlx5qw3yaHA0SFuTjW4rxeYhpHxt491PEcKF8Z6zpq0kMhe0Tolxt0qjlojS+/wArSDlj/LtE69xUJphQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.51.0.tgz"
       }
     },
     "@typescript-eslint/type-utils": {
@@ -674,6 +696,11 @@
         "hash": "sha512-atruOuJpir4OtyNdKahiHZobPKFvZnBnfDiyEaBf6d9vy9visE7gDjlmhl+y29uxZ2ZDgvXijcungGFjGGex7w==",
         "type": "http",
         "url": "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.50.0.tgz"
+      },
+      "5.51.0": {
+        "hash": "sha512-SqOn0ANn/v6hFn0kjvLwiDi4AzR++CBZz0NV5AnusT2/3y32jdc0G4woXPWHCumWtUXZKPAS27/9vziSsC9jnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.51.0.tgz"
       }
     },
     "@typescript-eslint/typescript-estree": {
@@ -681,6 +708,11 @@
         "hash": "sha512-Gq4zapso+OtIZlv8YNAStFtT6d05zyVCK7Fx3h5inlLBx2hWuc/0465C2mg/EQDDU2LKe52+/jN4f0g9bd+kow==",
         "type": "http",
         "url": "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.50.0.tgz"
+      },
+      "5.51.0": {
+        "hash": "sha512-TSkNupHvNRkoH9FMA3w7TazVFcBPveAAmb7Sz+kArY6sLT86PA5Vx80cKlYmd8m3Ha2SwofM1KwraF24lM9FvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.51.0.tgz"
       }
     },
     "@typescript-eslint/utils": {
@@ -695,6 +727,11 @@
         "hash": "sha512-cdMeD9HGu6EXIeGOh2yVW6oGf9wq8asBgZx7nsR/D36gTfQ0odE5kcRYe5M81vjEFAcPeugXrHg78Imu55F6gg==",
         "type": "http",
         "url": "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.50.0.tgz"
+      },
+      "5.51.0": {
+        "hash": "sha512-Oh2+eTdjHjOFjKA27sxESlA87YPSOJafGCR0md5oeMdh1ZcCfAGCIOL216uTBAkAIptvLIfKQhl7lHxMJet4GQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.51.0.tgz"
       }
     },
     "acorn": {
