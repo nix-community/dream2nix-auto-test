@@ -3,7 +3,7 @@
     "defaultPackage": "yaml",
     "location": "",
     "packages": {
-      "yaml": "0.11.8.0"
+      "yaml": "0.11.9.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -50,7 +50,7 @@
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "raw-strings-qq#1.1": "3ea0f14f036649e3576749aef0db4dd0b1102c5331f2e0e2551250e2030ce669",
-      "resourcet#1.2.6": "0c55be13d24c1e9c1e6d82327ac039a0bf41469c456e3ae678efa8a9beda3a74",
+      "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
       "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
@@ -66,7 +66,7 @@
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
       "time-compat#1.9.6.1": "5cf5fa19d32742816fa1423085cbfd626aef433101c0b97bf0e8f720a6f369d8",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
-      "unliftio-core#0.2.0.1": "f9abcdd3f3d28e4840563efb7b8760d2de9b5707bcd6f53a87f6a0d77bb5a9f7",
+      "unliftio-core#0.2.1.0": "15078273bdf8408d6e0e95c14de768df6595b8bcf480d835e6c9825224832e71",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
       "vector#0.13.0.0": "a1e8aff02a45115dec8997c50fd4ea6a24742cbccaa0f1282fdbb4725f60a6a5",
@@ -91,8 +91,8 @@
       ]
     },
     "yaml": {
-      "0.11.8.0": [
-        [ "yaml", "0.11.8.0" ]
+      "0.11.9.0": [
+        [ "yaml", "0.11.9.0" ]
       ]
     }
   },
@@ -187,8 +187,8 @@
       "1.3.4.3": [
         [ "mono-traversable", "1.0.15.3" ],
         [ "primitive", "0.7.4.0" ],
-        [ "resourcet", "1.2.6" ],
-        [ "unliftio-core", "0.2.0.1" ],
+        [ "resourcet", "1.3.0" ],
+        [ "unliftio-core", "0.2.1.0" ],
         [ "vector", "0.13.0.0" ]
       ]
     },
@@ -259,7 +259,7 @@
     "libyaml": {
       "0.1.2": [
         [ "conduit", "1.3.4.3" ],
-        [ "resourcet", "1.2.6" ]
+        [ "resourcet", "1.3.0" ]
       ]
     },
     "logging-facade": {
@@ -295,9 +295,9 @@
       ]
     },
     "resourcet": {
-      "1.2.6": [
+      "1.3.0": [
         [ "primitive", "0.7.4.0" ],
-        [ "unliftio-core", "0.2.0.1" ]
+        [ "unliftio-core", "0.2.1.0" ]
       ]
     },
     "scientific": {
@@ -402,12 +402,12 @@
       ]
     },
     "yaml": {
-      "0.11.8.0": [
+      "0.11.9.0": [
         [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "conduit", "1.3.4.3" ],
         [ "libyaml", "0.1.2" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
@@ -420,12 +420,12 @@
         [ "libyaml", "0.1.2" ],
         [ "mockery", "0.3.5" ],
         [ "raw-strings-qq", "1.1" ],
-        [ "resourcet", "1.2.6" ],
+        [ "resourcet", "1.3.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "temporary", "1.3" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
-        [ "yaml", "0.11.8.0" ]
+        [ "yaml", "0.11.9.0" ]
       ]
     }
   },
@@ -711,10 +711,10 @@
       }
     },
     "resourcet": {
-      "1.2.6": {
-        "hash": "sha256:f83b35b2106854750ef5f1c34695ea8b7bba6e0572cedf9f2993c5acfdb5fd34",
+      "1.3.0": {
+        "hash": "sha256:ec601785ee42a201f32adb205b8685c983f18757b1bd33d2e806d571e0f9996b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/resourcet-1.2.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/resourcet-1.3.0.tar.gz"
       }
     },
     "scientific": {
@@ -823,10 +823,10 @@
       }
     },
     "unliftio-core": {
-      "0.2.0.1": {
-        "hash": "sha256:919f0d1297ea2f5373118553c1df2a9405d8b9e31a8307e829da67d4953c299a",
+      "0.2.1.0": {
+        "hash": "sha256:99384cba8d56d9d61b85e38a313a93ebcdb78be6566367f0930ef580597fe3e3",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/unliftio-core-0.2.0.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/unliftio-core-0.2.1.0.tar.gz"
       }
     },
     "unordered-containers": {
@@ -872,10 +872,10 @@
       }
     },
     "yaml": {
-      "0.11.8.0": {
-        "hash": "sha256:f61a4e829bb75e17f5da39ea7b9d8d221a100a0f0cb1258bb9584a1829cd0ae8",
+      "0.11.9.0": {
+        "hash": "sha256:64468d72a6ff6f77d3e6f43eff015928714d59fb83069f92d606506a850e90ce",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/yaml-0.11.8.0/yaml-0.11.8.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/yaml-0.11.9.0/yaml-0.11.9.0.tar.gz"
       }
     }
   }
