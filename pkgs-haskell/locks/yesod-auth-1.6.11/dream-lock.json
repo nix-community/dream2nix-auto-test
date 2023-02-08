@@ -84,7 +84,7 @@
       "http-conduit#2.3.8": "5a5f23a594dc47754d8670de5b6dffbdf1849417ce9f0a41c4d77ea52232c255",
       "http-date#0.0.11": "b278b07f880705e3b0b073206ad26954548b666d616733c9a6b5d50993f547d4",
       "http-types#0.12.3": "f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9",
-      "http2#3.0.3": "309c7198fbccf136e949a2b630d7fec2557478c4af4a2c8c5523b71ec00c88b9",
+      "http2#4.0.0": "7162b5d66e8fa6f52cb62fedc39dfce8234691604d13ce34a0e535038d9ad733",
       "indexed-traversable#0.1.2": "52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350",
       "indexed-traversable-instances#0.1.1.1": "04b9fac300cde96de9aaaa0c4237a85045308d0bd4ba360e318febf34ec0bd3a",
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
@@ -110,7 +110,7 @@
       "primitive#0.7.4.0": "c2f0ed97b3dce97f2f43b239c3be8b136e4368f1eb7b61322ee9ac98f604622b",
       "psqueues#0.2.7.3": "7213d78598d397255b1861df318d9b5058577f86a9b83a8b652540cbdbc83033",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
-      "recv#0.0.0": "d146b0decff93c72f043ec06d7bed2ca53595ceb61debb43c94302e657378508",
+      "recv#0.1.0": "04058c90ed3d2821b92e589dd3428f5a6e9d49ab405296dda3583304cb0b9bb3",
       "resource-pool#0.4.0.0": "9c1e448a159875e21a7e68697feee2b61a4e584720974fa465a2fa1bc0776c73",
       "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
       "safe#0.3.19": "0910dafb8898f52bde4c646e560228a0fd08b1fca5457f222d2f5c0fad6d2039",
@@ -158,7 +158,7 @@
       "wai#3.2.3": "c7518618bdb842116dbc1a4e4553223799eef43add19278c2bbffb4536595fe0",
       "wai-extra#3.1.13.0": "fc3e7c337ac46733ce2da7a0d6422185387b3bb3709e72403a359eb19678db37",
       "wai-logger#2.4.0": "630b3d573dce5c6a84dfb372d69f8d15f9dbb52d6a04df43e57a44f0ca0eab0a",
-      "warp#3.3.23": "2da6c9fbe29f7295cdd57800cf92c49610efb20e41cfab983ebcbe3ac1b15311",
+      "warp#3.3.24": "03e12e3702ab41dfe066d56ca0d653002ac5e72e8a864c726424a6383dcb2d06",
       "witherable#0.4.2": "cccb36175e088abb4291ee5044b8c04d71acd5c36636902d2520f91508dd4bb8",
       "word8#0.1.3": "e5464d0600821a116467d4b12fef12b15ff040c3599500e5f0274225e78c6faf",
       "x509#1.7.7": "90eef2d745a654146fc1c325e035eaddac531e4d2145d4bc1dcf4b8fad439d34",
@@ -576,7 +576,7 @@
       ]
     },
     "http2": {
-      "3.0.3": [
+      "4.0.0": [
         [ "async", "2.2.4" ],
         [ "case-insensitive", "1.2.1.0" ],
         [ "http-types", "0.12.3" ],
@@ -584,7 +584,8 @@
         [ "network-byte-order", "0.1.6" ],
         [ "psqueues", "0.2.7.3" ],
         [ "time-manager", "0.0.0" ],
-        [ "unix-time", "0.4.8" ]
+        [ "unix-time", "0.4.8" ],
+        [ "unliftio", "0.2.23.0" ]
       ]
     },
     "indexed-traversable-instances": {
@@ -708,7 +709,7 @@
       ]
     },
     "recv": {
-      "0.0.0": [
+      "0.1.0": [
         [ "network", "3.1.2.7" ]
       ]
     },
@@ -939,7 +940,7 @@
         [ "vault", "0.3.1.5" ],
         [ "wai", "3.2.3" ],
         [ "wai-logger", "2.4.0" ],
-        [ "warp", "3.3.23" ],
+        [ "warp", "3.3.24" ],
         [ "word8", "0.1.3" ]
       ]
     },
@@ -954,17 +955,17 @@
       ]
     },
     "warp": {
-      "3.3.23": [
+      "3.3.24": [
         [ "auto-update", "0.1.6" ],
         [ "bsb-http-chunked", "0.0.0.4" ],
         [ "case-insensitive", "1.2.1.0" ],
         [ "hashable", "1.4.2.0" ],
         [ "http-date", "0.0.11" ],
         [ "http-types", "0.12.3" ],
-        [ "http2", "3.0.3" ],
+        [ "http2", "4.0.0" ],
         [ "iproute", "1.7.12" ],
         [ "network", "3.1.2.7" ],
-        [ "recv", "0.0.0" ],
+        [ "recv", "0.1.0" ],
         [ "simple-sendfile", "0.2.30" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "time-manager", "0.0.0" ],
@@ -1112,7 +1113,7 @@
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
         [ "wai-logger", "2.4.0" ],
-        [ "warp", "3.3.23" ],
+        [ "warp", "3.3.24" ],
         [ "word8", "0.1.3" ]
       ]
     },
@@ -1668,10 +1669,10 @@
       }
     },
     "http2": {
-      "3.0.3": {
-        "hash": "sha256:1bae426d9b9c7266b89ae13b8ad7dfb548d16efe4c4dda6c0fa35b7b474c69cf",
+      "4.0.0": {
+        "hash": "sha256:eb9b7f0690aec4839792544fc3ccc4f6f141fe3f4f2952a19c3abed3e70479bf",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/http2-3.0.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/http2-4.0.0.tar.gz"
       }
     },
     "indexed-traversable": {
@@ -1850,10 +1851,10 @@
       }
     },
     "recv": {
-      "0.0.0": {
-        "hash": "sha256:5c6872652e1025a701a73d9e97b02796f9433c42e2eec6d7e2acfb544b5ae9fb",
+      "0.1.0": {
+        "hash": "sha256:f664905cffb44b7f9cba604cd75bd69011a666ba06bccbcb7f3fae0cd4f14d5b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/recv-0.0.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/recv-0.1.0.tar.gz"
       }
     },
     "resource-pool": {
@@ -2186,10 +2187,10 @@
       }
     },
     "warp": {
-      "3.3.23": {
-        "hash": "sha256:bad666f7c8557f5b1d3c5f367cff7115d2627bbd69859e319d2fff823f3b3978",
+      "3.3.24": {
+        "hash": "sha256:6acd3a99998ca44559aa3956fa4f69b36f246d8bc584324be94ded57c6fe253c",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/warp-3.3.23.tar.gz"
+        "url": "https://hackage.haskell.org/package/warp-3.3.24.tar.gz"
       }
     },
     "witherable": {
