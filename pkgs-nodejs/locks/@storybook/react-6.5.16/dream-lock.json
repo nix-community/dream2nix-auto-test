@@ -144,7 +144,7 @@
     "@babel/helper-create-regexp-features-plugin": {
       "7.20.5": [
         [ "@babel/helper-annotate-as-pure", "7.18.6" ],
-        [ "regexpu-core", "5.2.2" ]
+        [ "regexpu-core", "5.3.0" ]
       ]
     },
     "@babel/helper-define-polyfill-provider": {
@@ -1246,7 +1246,7 @@
         [ "ip", "2.0.0" ],
         [ "lodash", "4.17.21" ],
         [ "node-fetch", "2.6.9" ],
-        [ "open", "8.4.0" ],
+        [ "open", "8.4.1" ],
         [ "pretty-hrtime", "1.0.3" ],
         [ "prompts", "2.4.2" ],
         [ "regenerator-runtime", "0.13.11" ],
@@ -1532,6 +1532,7 @@
         [ "@babel/preset-react", "7.18.6" ],
         [ "@babel/preset-typescript", "7.18.6" ],
         [ "@babel/register", "7.18.9" ],
+        [ "@babel/regjsgen", "0.8.0" ],
         [ "@babel/runtime", "7.20.13" ],
         [ "@babel/template", "7.20.7" ],
         [ "@babel/traverse", "7.20.13" ],
@@ -1818,7 +1819,7 @@
         [ "dotenv-expand", "5.1.0" ],
         [ "duplexify", "3.7.1" ],
         [ "ee-first", "1.1.1" ],
-        [ "electron-to-chromium", "1.4.289" ],
+        [ "electron-to-chromium", "1.4.291" ],
         [ "elliptic", "6.5.4" ],
         [ "emoji-regex", "8.0.0" ],
         [ "emojis-list", "3.0.0" ],
@@ -2116,7 +2117,7 @@
         [ "on-headers", "1.0.2" ],
         [ "once", "1.4.0" ],
         [ "onetime", "5.1.2" ],
-        [ "open", "8.4.0" ],
+        [ "open", "8.4.1" ],
         [ "optionator", "0.8.3" ],
         [ "os-browserify", "0.3.0" ],
         [ "os-homedir", "1.0.2" ],
@@ -2213,8 +2214,7 @@
         [ "regenerator-transform", "0.15.1" ],
         [ "regex-not", "1.0.2" ],
         [ "regexp.prototype.flags", "1.4.3" ],
-        [ "regexpu-core", "5.2.2" ],
-        [ "regjsgen", "0.7.1" ],
+        [ "regexpu-core", "5.3.0" ],
         [ "regjsparser", "0.9.1" ],
         [ "relateurl", "0.2.7" ],
         [ "remark-footnotes", "2.0.0" ],
@@ -2975,7 +2975,7 @@
     "browserslist": {
       "4.21.5": [
         [ "caniuse-lite", "1.0.30001451" ],
-        [ "electron-to-chromium", "1.4.289" ],
+        [ "electron-to-chromium", "1.4.291" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -4758,7 +4758,7 @@
         [ "is-docker", "2.2.1" ],
         [ "is-wsl", "2.2.0" ]
       ],
-      "8.4.0": [
+      "8.4.1": [
         [ "define-lazy-prop", "2.0.0" ],
         [ "is-docker", "2.2.1" ],
         [ "is-wsl", "2.2.0" ]
@@ -5189,10 +5189,10 @@
       ]
     },
     "regexpu-core": {
-      "5.2.2": [
+      "5.3.0": [
+        [ "@babel/regjsgen", "0.8.0" ],
         [ "regenerate", "1.4.2" ],
         [ "regenerate-unicode-properties", "10.1.0" ],
-        [ "regjsgen", "0.7.1" ],
         [ "regjsparser", "0.9.1" ],
         [ "unicode-match-property-ecmascript", "2.0.0" ],
         [ "unicode-match-property-value-ecmascript", "2.1.0" ]
@@ -6851,6 +6851,13 @@
         "hash": "sha512-ZlbnXDcNYHMR25ITwwNKT88JiaukkdVj/nG7r3wnuXkOTHc60Uy05PwMCPre0hSkY68E6zK3xz+vUJSP2jWmcw==",
         "type": "http",
         "url": "https://registry.npmjs.org/@babel/register/-/register-7.18.9.tgz"
+      }
+    },
+    "@babel/regjsgen": {
+      "0.8.0": {
+        "hash": "sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/regjsgen/-/regjsgen-0.8.0.tgz"
       }
     },
     "@babel/runtime": {
@@ -9011,10 +9018,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.289": {
-        "hash": "sha512-relLdMfPBxqGCxy7Gyfm1HcbRPcFUJdlgnCPVgQ23sr1TvUrRJz0/QPoGP0+x41wOVSTN/Wi3w6YDgHiHJGOzg==",
+      "1.4.291": {
+        "hash": "sha512-8vk4rSMBh9LRfZKE6wcxOLmlfA4Xsa4v0RRwB6VJkAH703klC9XfZIocmTk2gLBzW31P6XbuNeMt1aB5aAu/2g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.289.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.291.tgz"
       }
     },
     "elliptic": {
@@ -11367,10 +11374,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/open/-/open-7.4.2.tgz"
       },
-      "8.4.0": {
-        "hash": "sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==",
+      "8.4.1": {
+        "hash": "sha512-/4b7qZNhv6Uhd7jjnREh1NjnPxlTq+XNWPG88Ydkj5AILcA5m3ajvcg57pB24EQjKv0dK62XnDqk9c/hkIG5Kg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/open/-/open-8.4.0.tgz"
+        "url": "https://registry.npmjs.org/open/-/open-8.4.1.tgz"
       }
     },
     "optionator": {
@@ -12161,17 +12168,10 @@
       }
     },
     "regexpu-core": {
-      "5.2.2": {
-        "hash": "sha512-T0+1Zp2wjF/juXMrMxHxidqGYn8U4R+zleSJhX9tQ1PUsS8a9UtYfbsF9LdiVgNX3kiX8RNaKM42nfSgvFJjmw==",
+      "5.3.0": {
+        "hash": "sha512-ZdhUQlng0RoscyW7jADnUZ25F5eVtHdMyXSb2PiwafvteRAOJUjFoUPEYZSIfP99fBIs3maLIRfpEddT78wAAQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/regexpu-core/-/regexpu-core-5.2.2.tgz"
-      }
-    },
-    "regjsgen": {
-      "0.7.1": {
-        "hash": "sha512-RAt+8H2ZEzHeYWxZ3H2z6tF18zyyOnlcdaafLrm21Bguj7uZy6ULibiAFdXEtKQY4Sy7wDTwDiOazasMLc4KPA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/regjsgen/-/regjsgen-0.7.1.tgz"
+        "url": "https://registry.npmjs.org/regexpu-core/-/regexpu-core-5.3.0.tgz"
       }
     },
     "regjsparser": {

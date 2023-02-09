@@ -97,8 +97,8 @@
         [ "@angular-devkit/build-angular", "15.1.4" ],
         [ "@angular-devkit/build-webpack", "0.1501.4" ],
         [ "@angular-devkit/core", "15.1.4" ],
-        [ "@angular/compiler", "15.1.3" ],
-        [ "@angular/compiler-cli", "15.1.3" ],
+        [ "@angular/compiler", "15.1.4" ],
+        [ "@angular/compiler-cli", "15.1.4" ],
         [ "@assemblyscript/loader", "0.10.1" ],
         [ "@babel/code-frame", "7.18.6" ],
         [ "@babel/compat-data", "7.20.14" ],
@@ -198,6 +198,7 @@
         [ "@babel/plugin-transform-unicode-regex", "7.18.6" ],
         [ "@babel/preset-env", "7.20.2" ],
         [ "@babel/preset-modules", "0.1.5" ],
+        [ "@babel/regjsgen", "0.8.0" ],
         [ "@babel/runtime", "7.20.7" ],
         [ "@babel/template", "7.20.7" ],
         [ "@babel/traverse", "7.20.13" ],
@@ -374,7 +375,7 @@
         [ "domhandler", "4.3.1" ],
         [ "domutils", "2.8.0" ],
         [ "ee-first", "1.1.1" ],
-        [ "electron-to-chromium", "1.4.289" ],
+        [ "electron-to-chromium", "1.4.291" ],
         [ "emoji-regex", "8.0.0" ],
         [ "emojis-list", "3.0.0" ],
         [ "encodeurl", "1.0.2" ],
@@ -599,8 +600,7 @@
         [ "regenerator-runtime", "0.13.11" ],
         [ "regenerator-transform", "0.15.1" ],
         [ "regex-parser", "2.2.11" ],
-        [ "regexpu-core", "5.2.2" ],
-        [ "regjsgen", "0.7.1" ],
+        [ "regexpu-core", "5.3.0" ],
         [ "regjsparser", "0.9.1" ],
         [ "require-directory", "2.1.1" ],
         [ "require-from-string", "2.0.2" ],
@@ -721,12 +721,12 @@
       ]
     },
     "@angular/compiler": {
-      "15.1.3": [
+      "15.1.4": [
         [ "tslib", "2.4.1" ]
       ]
     },
     "@angular/compiler-cli": {
-      "15.1.3": [
+      "15.1.4": [
         [ "@babel/core", "7.19.3" ],
         [ "@jridgewell/sourcemap-codec", "1.4.14" ],
         [ "chokidar", "3.5.3" ],
@@ -822,7 +822,7 @@
     "@babel/helper-create-regexp-features-plugin": {
       "7.20.5": [
         [ "@babel/helper-annotate-as-pure", "7.18.6" ],
-        [ "regexpu-core", "5.2.2" ]
+        [ "regexpu-core", "5.3.0" ]
       ]
     },
     "@babel/helper-define-polyfill-provider": {
@@ -1799,7 +1799,7 @@
     "browserslist": {
       "4.21.4": [
         [ "caniuse-lite", "1.0.30001451" ],
-        [ "electron-to-chromium", "1.4.289" ],
+        [ "electron-to-chromium", "1.4.291" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -2718,10 +2718,10 @@
       ]
     },
     "regexpu-core": {
-      "5.2.2": [
+      "5.3.0": [
+        [ "@babel/regjsgen", "0.8.0" ],
         [ "regenerate", "1.4.2" ],
         [ "regenerate-unicode-properties", "10.1.0" ],
-        [ "regjsgen", "0.7.1" ],
         [ "regjsparser", "0.9.1" ],
         [ "unicode-match-property-ecmascript", "2.0.0" ],
         [ "unicode-match-property-value-ecmascript", "2.1.0" ]
@@ -3190,17 +3190,17 @@
       }
     },
     "@angular/compiler": {
-      "15.1.3": {
-        "hash": "sha512-CxEpm5Z3EpjeGNoWKtcHOrf2IQTSckpAEFwsRrADP2nqcXXYp/IjIHi+PUTjLhjrOEbukH9zreHsL5BoIQhgUQ==",
+      "15.1.4": {
+        "hash": "sha512-b2jH336pl647IKgMYzsmJ/2Qpw6JqlP/OeCsOnAJ55LIQa37w+bnuTpdPh4pk8qV9h735rV9NXNO5t3pQFOo3Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@angular/compiler/-/compiler-15.1.3.tgz"
+        "url": "https://registry.npmjs.org/@angular/compiler/-/compiler-15.1.4.tgz"
       }
     },
     "@angular/compiler-cli": {
-      "15.1.3": {
-        "hash": "sha512-z5bGdQQcStXWPpb5vztqqUOET+vxw+GUFtfktYxV40kE2d1zHLZh93AGEnM1NnBaOz+9NZrX+dWoEyWmv/T2LQ==",
+      "15.1.4": {
+        "hash": "sha512-FupMkr69YLZcjvPa7Y79ua6VvbzNroPUTDexEpqYkmnyKK8fNSHwTEOCz4IQbUeOxaZkRP5pHAI87foZigNPCA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-15.1.3.tgz"
+        "url": "https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-15.1.4.tgz"
       }
     },
     "@assemblyscript/loader": {
@@ -3899,6 +3899,13 @@
         "hash": "sha512-A57th6YRG7oR3cq/yt/Y84MvGgE0eJG2F1JLhKuyG+jFxEgrd/HAMJatiFtmOiZurz+0DkrvbheCLaV5f2JfjA==",
         "type": "http",
         "url": "https://registry.npmjs.org/@babel/preset-modules/-/preset-modules-0.1.5.tgz"
+      }
+    },
+    "@babel/regjsgen": {
+      "0.8.0": {
+        "hash": "sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/regjsgen/-/regjsgen-0.8.0.tgz"
       }
     },
     "@babel/runtime": {
@@ -5199,10 +5206,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.289": {
-        "hash": "sha512-relLdMfPBxqGCxy7Gyfm1HcbRPcFUJdlgnCPVgQ23sr1TvUrRJz0/QPoGP0+x41wOVSTN/Wi3w6YDgHiHJGOzg==",
+      "1.4.291": {
+        "hash": "sha512-8vk4rSMBh9LRfZKE6wcxOLmlfA4Xsa4v0RRwB6VJkAH703klC9XfZIocmTk2gLBzW31P6XbuNeMt1aB5aAu/2g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.289.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.291.tgz"
       }
     },
     "emoji-regex": {
@@ -6874,17 +6881,10 @@
       }
     },
     "regexpu-core": {
-      "5.2.2": {
-        "hash": "sha512-T0+1Zp2wjF/juXMrMxHxidqGYn8U4R+zleSJhX9tQ1PUsS8a9UtYfbsF9LdiVgNX3kiX8RNaKM42nfSgvFJjmw==",
+      "5.3.0": {
+        "hash": "sha512-ZdhUQlng0RoscyW7jADnUZ25F5eVtHdMyXSb2PiwafvteRAOJUjFoUPEYZSIfP99fBIs3maLIRfpEddT78wAAQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/regexpu-core/-/regexpu-core-5.2.2.tgz"
-      }
-    },
-    "regjsgen": {
-      "0.7.1": {
-        "hash": "sha512-RAt+8H2ZEzHeYWxZ3H2z6tF18zyyOnlcdaafLrm21Bguj7uZy6ULibiAFdXEtKQY4Sy7wDTwDiOazasMLc4KPA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/regjsgen/-/regjsgen-0.7.1.tgz"
+        "url": "https://registry.npmjs.org/regexpu-core/-/regexpu-core-5.3.0.tgz"
       }
     },
     "regjsparser": {
