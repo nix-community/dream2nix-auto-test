@@ -107,8 +107,8 @@
       "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
       "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
-      "skylighting#0.13.2": "8256cf117bd751d6416d6f522ac8f10523d76e86f1a3e3801da65b0956e262f9",
-      "skylighting-core#0.13.2": "346eeea692b2b6189c19d00c00ece4055191c9ae646ed32742bbe5c7dbdb48d2",
+      "skylighting#0.13.2.1": "bc3e8bfd93b54fa781c54c22d4bf513ed7ea5548380e77b19de36f44f406b8e9",
+      "skylighting-core#0.13.2.1": "cef2590df86491123fb796b5aaced67d983e994efd877df5aee98bde3f9fecad",
       "skylighting-format-ansi#0.1": "4e525cb8fc5f13d9cf9d1f1d07120cc494d91bbfe39045c41b7ab6cf1c77a361",
       "skylighting-format-blaze-html#0.1.1": "9e6cf17156f6b379439aece1cd79ff3baefe41bd0eb617882aba656d07be12d1",
       "skylighting-format-context#0.1.0.1": "b0c8939098a9311e10dc9b9701ef6d2f960e818ddd978c848751bfbff4076f0c",
@@ -143,7 +143,7 @@
       "unicode-data#0.4.0.1": "081e269b48f2d8511579a6dd1aa5f5c2f940e63d9bafec5fb911c11e32b27ad3",
       "unicode-transforms#0.4.0.1": "a7a72896ca10a59ce57e61975f6f0d8c345fbc67b5d629248d508b7fb71eb5c6",
       "uniplate#1.6.13": "c8b715570d0b4baa72512e677552dd3f98372a64bf9de000e779bd4162fd7be7",
-      "unliftio-core#0.2.1.0": "15078273bdf8408d6e0e95c14de768df6595b8bcf480d835e6c9825224832e71",
+      "unliftio-core#0.2.1.0": "9fc3506770b16cdc73114307f854d56ddb96c7b930e7a5ed9b48cd0a8f33fca6",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
@@ -638,8 +638,8 @@
         [ "random", "1.2.1.1" ],
         [ "safe", "0.3.19" ],
         [ "scientific", "0.3.7.0" ],
-        [ "skylighting", "0.13.2" ],
-        [ "skylighting-core", "0.13.2" ],
+        [ "skylighting", "0.13.2.1" ],
+        [ "skylighting-core", "0.13.2.1" ],
         [ "split", "0.2.3.5" ],
         [ "syb", "0.7.2.2" ],
         [ "tagsoup", "0.14.8" ],
@@ -734,8 +734,8 @@
       ]
     },
     "skylighting": {
-      "0.13.2": [
-        [ "skylighting-core", "0.13.2" ],
+      "0.13.2.1": [
+        [ "skylighting-core", "0.13.2.1" ],
         [ "skylighting-format-ansi", "0.1" ],
         [ "skylighting-format-blaze-html", "0.1.1" ],
         [ "skylighting-format-context", "0.1.0.1" ],
@@ -743,7 +743,7 @@
       ]
     },
     "skylighting-core": {
-      "0.13.2": [
+      "0.13.2.1": [
         [ "aeson", "2.1.1.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "base64-bytestring", "1.2.1.0" ],
@@ -758,23 +758,23 @@
       "0.1": [
         [ "ansi-terminal", "0.11.4" ],
         [ "colour", "2.3.6" ],
-        [ "skylighting-core", "0.13.2" ]
+        [ "skylighting-core", "0.13.2.1" ]
       ]
     },
     "skylighting-format-blaze-html": {
       "0.1.1": [
         [ "blaze-html", "0.9.1.2" ],
-        [ "skylighting-core", "0.13.2" ]
+        [ "skylighting-core", "0.13.2.1" ]
       ]
     },
     "skylighting-format-context": {
       "0.1.0.1": [
-        [ "skylighting-core", "0.13.2" ]
+        [ "skylighting-core", "0.13.2.1" ]
       ]
     },
     "skylighting-format-latex": {
       "0.1": [
-        [ "skylighting-core", "0.13.2" ]
+        [ "skylighting-core", "0.13.2.1" ]
       ]
     },
     "socks": {
@@ -1716,17 +1716,17 @@
       }
     },
     "skylighting": {
-      "0.13.2": {
-        "hash": "sha256:e920cd246fe2107a0e302196c6e776b18e9e2c8ad68026fa2d8ae1d6d2980436",
+      "0.13.2.1": {
+        "hash": "sha256:f074b2d8a228dbadddc026939e1e76a3c06c1f650c41a154bee3dcb615430653",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/skylighting-0.13.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/skylighting-0.13.2.1.tar.gz"
       }
     },
     "skylighting-core": {
-      "0.13.2": {
-        "hash": "sha256:05156ea0633bf037480a8e21d54af8390c1b227893d0bcb7cd880e69fd739f47",
+      "0.13.2.1": {
+        "hash": "sha256:a480809ced173d6572b349a1874a16ff74b42501e4486e4180b41e27024f65c5",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/skylighting-core-0.13.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/skylighting-core-0.13.2.1.tar.gz"
       }
     },
     "skylighting-format-ansi": {
