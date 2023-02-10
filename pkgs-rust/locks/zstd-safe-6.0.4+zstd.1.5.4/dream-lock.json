@@ -3,7 +3,7 @@
     "defaultPackage": "zstd-safe",
     "location": "",
     "packages": {
-      "zstd-safe": "6.0.3+zstd.1.5.2"
+      "zstd-safe": "6.0.4+zstd.1.5.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,14 +12,14 @@
     "gitSources": [],
     "meta": {
       "zstd-safe": {
-        "6.0.3+zstd.1.5.2": {
+        "6.0.4+zstd.1.5.4": {
           "description": "Safe low-level bindings for the zstd compression library.", "license": []
         }
       }
     },
     "relPathReplacements": {
       "zstd-safe": {
-        "6.0.3+zstd.1.5.2": {}
+        "6.0.4+zstd.1.5.4": {}
       }
     }
   },
@@ -112,13 +112,13 @@
       ]
     },
     "zstd-safe": {
-      "6.0.3+zstd.1.5.2": [
+      "6.0.4+zstd.1.5.4": [
         [ "libc", "0.2.139" ],
-        [ "zstd-sys", "2.0.6+zstd.1.5.2" ]
+        [ "zstd-sys", "2.0.7+zstd.1.5.4" ]
       ]
     },
     "zstd-sys": {
-      "2.0.6+zstd.1.5.2": [
+      "2.0.7+zstd.1.5.4": [
         [ "bindgen", "0.63.0" ],
         [ "cc", "1.0.79" ],
         [ "libc", "0.2.139" ],
@@ -314,14 +314,14 @@
       }
     },
     "zstd-safe": {
-      "6.0.3+zstd.1.5.2": {
-        "hash": "68e4a3f57d13d0ab7e478665c60f35e2a613dcd527851c2c7287ce5c787e134a",
+      "6.0.4+zstd.1.5.4": {
+        "hash": "7afb4b54b8910cf5447638cb54bf4e8a65cbedd783af98b98c62ffe91f185543",
         "type": "crates-io"
       }
     },
     "zstd-sys": {
-      "2.0.6+zstd.1.5.2": {
-        "hash": "68a3f9792c0c3dc6c165840a75f47ae1f4da402c2d006881129579f6597e801b",
+      "2.0.7+zstd.1.5.4": {
+        "hash": "94509c3ba2fe55294d752b79842c530ccfab760192521df74a081a78d2b3c7f5",
         "type": "crates-io"
       }
     }

@@ -3,7 +3,7 @@
     "defaultPackage": "zstd-sys",
     "location": "",
     "packages": {
-      "zstd-sys": "2.0.6+zstd.1.5.2"
+      "zstd-sys": "2.0.7+zstd.1.5.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,14 +12,14 @@
     "gitSources": [],
     "meta": {
       "zstd-sys": {
-        "2.0.6+zstd.1.5.2": {
+        "2.0.7+zstd.1.5.4": {
           "description": "Low-level bindings for the zstd compression library.", "license": []
         }
       }
     },
     "relPathReplacements": {
       "zstd-sys": {
-        "2.0.6+zstd.1.5.2": {}
+        "2.0.7+zstd.1.5.4": {}
       }
     }
   },
@@ -33,7 +33,7 @@
         [ "lazy_static", "1.4.0" ],
         [ "lazycell", "1.3.0" ],
         [ "peeking_take_while", "0.1.2" ],
-        [ "proc-macro2", "1.0.50" ],
+        [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "regex", "1.7.1" ],
         [ "rustc-hash", "1.1.0" ],
@@ -43,7 +43,7 @@
       ]
     },
     "cc": {
-      "1.0.78": [
+      "1.0.79": [
         [ "jobserver", "0.1.25" ]
       ]
     },
@@ -77,13 +77,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.50": [
+      "1.0.51": [
         [ "unicode-ident", "1.0.6" ]
       ]
     },
     "quote": {
       "1.0.23": [
-        [ "proc-macro2", "1.0.50" ]
+        [ "proc-macro2", "1.0.51" ]
       ]
     },
     "regex": {
@@ -93,7 +93,7 @@
     },
     "syn": {
       "1.0.107": [
-        [ "proc-macro2", "1.0.50" ],
+        [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "unicode-ident", "1.0.6" ]
       ]
@@ -112,9 +112,9 @@
       ]
     },
     "zstd-sys": {
-      "2.0.6+zstd.1.5.2": [
+      "2.0.7+zstd.1.5.4": [
         [ "bindgen", "0.63.0" ],
-        [ "cc", "1.0.78" ],
+        [ "cc", "1.0.79" ],
         [ "libc", "0.2.139" ],
         [ "pkg-config", "0.3.26" ]
       ]
@@ -134,8 +134,8 @@
       }
     },
     "cc": {
-      "1.0.78": {
-        "hash": "a20104e2335ce8a659d6dd92a51a767a0c062599c73b343fd152cb401e828c3d",
+      "1.0.79": {
+        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
         "type": "crates-io"
       }
     },
@@ -236,8 +236,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.50": {
-        "hash": "6ef7d57beacfaf2d8aee5937dab7b7f28de3cb8b1828479bb5de2a7106f2bae2",
+      "1.0.51": {
+        "hash": "5d727cae5b39d21da60fa540906919ad737832fe0b1c165da3a34d6548c849d6",
         "type": "crates-io"
       }
     },
@@ -308,8 +308,8 @@
       }
     },
     "zstd-sys": {
-      "2.0.6+zstd.1.5.2": {
-        "hash": "68a3f9792c0c3dc6c165840a75f47ae1f4da402c2d006881129579f6597e801b",
+      "2.0.7+zstd.1.5.4": {
+        "hash": "94509c3ba2fe55294d752b79842c530ccfab760192521df74a081a78d2b3c7f5",
         "type": "crates-io"
       }
     }
