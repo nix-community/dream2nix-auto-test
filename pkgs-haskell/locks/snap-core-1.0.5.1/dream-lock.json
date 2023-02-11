@@ -3,7 +3,7 @@
     "defaultPackage": "snap-core",
     "location": "",
     "packages": {
-      "snap-core": "1.0.5.0"
+      "snap-core": "1.0.5.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -20,8 +20,9 @@
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
       "extensible-exceptions#0.1.1.4": "eb5fe684a7ffe8d1ed2ed6cdaec7dfb29efc780811ea7158a64edc2abc516f47",
-      "hashable#1.3.5.0": "3a2beeafb220f9de706568a7e4a5b3c762cc4c9f25c94d7ef795b8c2d6a691d7",
+      "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "hostname#1.0": "8203b6ecd14ca1ef12f73a471b0a6a4be3ad4568d8b84f2bc4bc9e0abb8c4153",
       "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
@@ -45,9 +46,10 @@
       "th-compat#0.1.4": "6ca77c4e80b4e4109e30549c269631a9cc295c8fc2431ce4123972a5f80f7bfc",
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
-      "unix-compat#0.5.4": "95616cbfc1a48a200a349944210303d2f57a4201ee57daa914ab361956373356",
+      "unix-compat#0.6": "0f5d0929d838077909d397c7c83b711b89db4ed3d4dafea46af19c04b389b53c",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
-      "vector#0.12.3.1": "fffbd00912d69ed7be9bc7eeb09f4f475e0d243ec43f916a9fd5bbd219ce7f3e",
+      "vector#0.13.0.0": "a1e8aff02a45115dec8997c50fd4ea6a24742cbccaa0f1282fdbb4725f60a6a5",
+      "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca",
       "xml#1.3.14": "c7a33d37c968c769723931a33e4e795f0aadda6cb62e7073ded8a2db52509d95",
       "zlib#0.6.3.0": "9adce39e4ca0b7a87d45df0a243134816c57059a08e28cff5469c98ae1f54dfc",
       "zlib-bindings#0.1.1.5": "0c6f9f81832af2473281fd58631aff8c6bbad24191e00d2a5a6ae2479249043b"
@@ -94,7 +96,13 @@
     },
     "case-insensitive": {
       "1.2.1.0": [
-        [ "hashable", "1.3.5.0" ]
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "hashable": {
+      "1.4.2.0": [
+        [ "base-orphans", "0.8.7" ],
+        [ "data-array-byte", "0.1.0.1" ]
       ]
     },
     "io-streams": {
@@ -102,7 +110,7 @@
         [ "attoparsec", "0.14.4" ],
         [ "network", "3.1.2.7" ],
         [ "primitive", "0.7.4.0" ],
-        [ "vector", "0.12.3.1" ],
+        [ "vector", "0.13.0.0" ],
         [ "zlib-bindings", "0.1.1.5" ]
       ]
     },
@@ -140,18 +148,18 @@
     },
     "scientific": {
       "0.3.7.0": [
-        [ "hashable", "1.3.5.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.7.4.0" ]
       ]
     },
     "snap-core": {
-      "1.0.5.0": [
+      "1.0.5.1": [
         [ "HUnit", "1.6.2.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "bytestring-builder", "0.10.8.2.0" ],
         [ "case-insensitive", "1.2.1.0" ],
-        [ "hashable", "1.3.5.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "io-streams", "1.5.2.2" ],
         [ "lifted-base", "0.2.3.12" ],
         [ "monad-control", "1.0.3.1" ],
@@ -162,15 +170,15 @@
         [ "readable", "0.3.1" ],
         [ "regex-posix", "0.96.0.1" ],
         [ "transformers-base", "0.4.6" ],
-        [ "unix-compat", "0.5.4" ],
+        [ "unix-compat", "0.6" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ],
+        [ "vector", "0.13.0.0" ],
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
         [ "bytestring-builder", "0.10.8.2.0" ],
         [ "case-insensitive", "1.2.1.0" ],
-        [ "hashable", "1.3.5.0" ],
+        [ "hashable", "1.4.2.0" ],
         [ "io-streams", "1.5.2.2" ],
         [ "lifted-base", "0.2.3.12" ],
         [ "monad-control", "1.0.3.1" ],
@@ -185,9 +193,9 @@
         [ "test-framework-hunit", "0.3.0.2" ],
         [ "test-framework-quickcheck2", "0.3.0.5" ],
         [ "transformers-base", "0.4.6" ],
-        [ "unix-compat", "0.5.4" ],
+        [ "unix-compat", "0.6" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ],
+        [ "vector", "0.13.0.0" ],
         [ "zlib", "0.6.3.0" ]
       ]
     },
@@ -225,12 +233,13 @@
     },
     "unordered-containers": {
       "0.2.19.1": [
-        [ "hashable", "1.3.5.0" ]
+        [ "hashable", "1.4.2.0" ]
       ]
     },
     "vector": {
-      "0.12.3.1": [
-        [ "primitive", "0.7.4.0" ]
+      "0.13.0.0": [
+        [ "primitive", "0.7.4.0" ],
+        [ "vector-stream", "0.1.0.0" ]
       ]
     },
     "zlib-bindings": {
@@ -310,6 +319,13 @@
         "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "extensible-exceptions": {
       "0.1.1.4": {
         "hash": "sha256:6ce5e8801760385a408dab71b53550f87629e661b260bdc2cd41c6a439b6e388",
@@ -318,10 +334,10 @@
       }
     },
     "hashable": {
-      "1.3.5.0": {
-        "hash": "sha256:baaad82cd4271b197016bdbe76f22d5c3d3913fe38534cec7d817db9bae19886",
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hashable-1.3.5.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
       }
     },
     "hostname": {
@@ -437,10 +453,10 @@
       }
     },
     "snap-core": {
-      "1.0.5.0": {
-        "hash": "sha256:642aedd244865560b5d656cd460e829a39d859ad031710b79bd112785e38c641",
+      "1.0.5.1": {
+        "hash": "sha256:a704c1a0e2c4ebfdcc8baf6feab09dd7715bdc9d750f7efb63d06e3965ec0502",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/snap-core-1.0.5.0/snap-core-1.0.5.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/snap-core-1.0.5.1/snap-core-1.0.5.1.tar.gz"
       }
     },
     "splitmix": {
@@ -493,10 +509,10 @@
       }
     },
     "unix-compat": {
-      "0.5.4": {
-        "hash": "sha256:8224579d6e9acea7ecbd7af21f191758a11c77a2c5b2fc61f1079ac004a4a4b1",
+      "0.6": {
+        "hash": "sha256:b4cd823a6543ad3aca8e740ecf5f44aabde60f1452b5a55655db5c8b7a44d5f8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/unix-compat-0.5.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/unix-compat-0.6.tar.gz"
       }
     },
     "unordered-containers": {
@@ -507,10 +523,17 @@
       }
     },
     "vector": {
-      "0.12.3.1": {
-        "hash": "sha256:fb4a53c02bd4d7fdf155c0604da9a5bb0f3b3bfce5d9960aea11c2ae235b9f35",
+      "0.13.0.0": {
+        "hash": "sha256:c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/vector-0.12.3.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/vector-0.13.0.0.tar.gz"
+      }
+    },
+    "vector-stream": {
+      "0.1.0.0": {
+        "hash": "sha256:a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0.tar.gz"
       }
     },
     "xml": {

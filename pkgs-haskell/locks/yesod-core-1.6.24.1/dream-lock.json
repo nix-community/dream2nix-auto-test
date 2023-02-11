@@ -3,7 +3,7 @@
     "defaultPackage": "yesod-core",
     "location": "",
     "packages": {
-      "yesod-core": "1.6.24.0"
+      "yesod-core": "1.6.24.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -130,8 +130,9 @@
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
       "vault#0.3.1.5": "c34d37d73a8cedbb0ef57b89540ebe54f9dadf7ec3cea27acbd049b4edd85cae",
-      "vector#0.12.3.1": "fffbd00912d69ed7be9bc7eeb09f4f475e0d243ec43f916a9fd5bbd219ce7f3e",
+      "vector#0.13.0.0": "a1e8aff02a45115dec8997c50fd4ea6a24742cbccaa0f1282fdbb4725f60a6a5",
       "vector-algorithms#0.9.0.1": "34cc5851ebf2eb80fc62cbb5c6dbe59ab837f1d5366a6c3bf1e09cf34805aaae",
+      "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca",
       "wai#3.2.3": "c7518618bdb842116dbc1a4e4553223799eef43add19278c2bbffb4536595fe0",
       "wai-extra#3.1.13.0": "fc3e7c337ac46733ce2da7a0d6422185387b3bb3709e72403a359eb19678db37",
       "wai-logger#2.4.0": "630b3d573dce5c6a84dfb372d69f8d15f9dbb52d6a04df43e57a44f0ca0eab0a",
@@ -163,8 +164,8 @@
       ]
     },
     "yesod-core": {
-      "1.6.24.0": [
-        [ "yesod-core", "1.6.24.0" ]
+      "1.6.24.1": [
+        [ "yesod-core", "1.6.24.1" ]
       ]
     }
   },
@@ -207,7 +208,7 @@
         [ "time-compat", "1.9.6.1" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "uuid-types", "1.0.5" ],
-        [ "vector", "0.12.3.1" ],
+        [ "vector", "0.13.0.0" ],
         [ "witherable", "0.4.2" ]
       ]
     },
@@ -267,7 +268,7 @@
     "bitvec": {
       "1.1.3.0": [
         [ "primitive", "0.7.4.0" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "blaze-html": {
@@ -322,7 +323,7 @@
         [ "primitive", "0.7.4.0" ],
         [ "resourcet", "1.3.0" ],
         [ "unliftio-core", "0.2.1.0" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "conduit-extra": {
@@ -371,7 +372,7 @@
     "crypto-random": {
       "0.0.9": [
         [ "securemem", "0.1.10" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "cryptonite": {
@@ -402,7 +403,7 @@
     "gauge": {
       "0.2.5": [
         [ "basement", "0.0.15" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "hashable": {
@@ -473,7 +474,7 @@
         [ "indexed-traversable", "0.1.2" ],
         [ "tagged", "0.8.6.1" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "iproute": {
@@ -520,7 +521,7 @@
         [ "hashable", "1.4.2.0" ],
         [ "split", "0.2.3.5" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ],
+        [ "vector", "0.13.0.0" ],
         [ "vector-algorithms", "0.9.0.1" ]
       ]
     },
@@ -589,7 +590,7 @@
         [ "tagged", "0.8.6.1" ],
         [ "these", "1.1.1.1" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "semigroupoids": {
@@ -614,7 +615,7 @@
         [ "scientific", "0.3.7.0" ],
         [ "th-lift", "0.8.2" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "simple-sendfile": {
@@ -721,15 +722,16 @@
       ]
     },
     "vector": {
-      "0.12.3.1": [
-        [ "primitive", "0.7.4.0" ]
+      "0.13.0.0": [
+        [ "primitive", "0.7.4.0" ],
+        [ "vector-stream", "0.1.0.0" ]
       ]
     },
     "vector-algorithms": {
       "0.9.0.1": [
         [ "bitvec", "1.1.3.0" ],
         [ "primitive", "0.7.4.0" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "wai": {
@@ -802,7 +804,7 @@
         [ "indexed-traversable", "0.1.2" ],
         [ "indexed-traversable-instances", "0.1.1.1" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "x509": {
@@ -817,7 +819,7 @@
       ]
     },
     "yesod-core": {
-      "1.6.24.0": [
+      "1.6.24.1": [
         [ "aeson", "2.1.1.0" ],
         [ "auto-update", "0.1.6" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -841,7 +843,7 @@
         [ "unix-compat", "0.6" ],
         [ "unliftio", "0.2.23.0" ],
         [ "unordered-containers", "0.2.19.1" ],
-        [ "vector", "0.12.3.1" ],
+        [ "vector", "0.13.0.0" ],
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
         [ "wai-logger", "2.4.0" ],
@@ -868,7 +870,7 @@
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
         [ "warp", "3.3.24" ],
-        [ "yesod-core", "1.6.24.0" ],
+        [ "yesod-core", "1.6.24.1" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "gauge", "0.2.5" ],
         [ "shakespeare", "2.0.30" ]
@@ -1717,10 +1719,10 @@
       }
     },
     "vector": {
-      "0.12.3.1": {
-        "hash": "sha256:fb4a53c02bd4d7fdf155c0604da9a5bb0f3b3bfce5d9960aea11c2ae235b9f35",
+      "0.13.0.0": {
+        "hash": "sha256:c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/vector-0.12.3.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/vector-0.13.0.0.tar.gz"
       }
     },
     "vector-algorithms": {
@@ -1728,6 +1730,13 @@
         "hash": "sha256:2ba7c0d3a8f26ef3ada24ff4abe81609225ecbab3b5754f048f8a0a3ecc33841",
         "type": "http",
         "url": "https://hackage.haskell.org/package/vector-algorithms-0.9.0.1.tar.gz"
+      }
+    },
+    "vector-stream": {
+      "0.1.0.0": {
+        "hash": "sha256:a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0.tar.gz"
       }
     },
     "wai": {
@@ -1780,10 +1789,10 @@
       }
     },
     "yesod-core": {
-      "1.6.24.0": {
-        "hash": "sha256:20e41fd3dcdad5869e51b69097ee36a3670f729c0631bc61881381304e7d34a6",
+      "1.6.24.1": {
+        "hash": "sha256:6d48d1d6d6da4ec87c3bfd7b9815500d93344cddf6b2a628765aa43af2a76ac9",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/yesod-core-1.6.24.0/yesod-core-1.6.24.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/yesod-core-1.6.24.1/yesod-core-1.6.24.1.tar.gz"
       }
     },
     "zlib": {
