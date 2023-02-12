@@ -3,7 +3,7 @@
     "defaultPackage": "typedoc",
     "location": "",
     "packages": {
-      "typedoc": "0.23.24"
+      "typedoc": "0.23.25"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -22,33 +22,35 @@
       ]
     },
     "minimatch": {
-      "5.1.6": [
+      "6.1.8": [
         [ "brace-expansion", "2.0.1" ]
       ]
     },
     "shiki": {
-      "0.12.1": [
+      "0.14.1": [
+        [ "ansi-sequence-parser", "1.1.0" ],
         [ "jsonc-parser", "3.2.0" ],
         [ "vscode-oniguruma", "1.7.0" ],
         [ "vscode-textmate", "8.0.0" ]
       ]
     },
     "typedoc": {
-      "0.23.24": [
+      "0.23.25": [
         [ "lunr", "2.3.9" ],
         [ "marked", "4.2.12" ],
-        [ "minimatch", "5.1.6" ],
-        [ "shiki", "0.12.1" ]
+        [ "minimatch", "6.1.8" ],
+        [ "shiki", "0.14.1" ]
       ],
       "unknown": [
+        [ "ansi-sequence-parser", "1.1.0" ],
         [ "balanced-match", "1.0.2" ],
         [ "brace-expansion", "2.0.1" ],
         [ "jsonc-parser", "3.2.0" ],
         [ "lunr", "2.3.9" ],
         [ "marked", "4.2.12" ],
-        [ "minimatch", "5.1.6" ],
-        [ "shiki", "0.12.1" ],
-        [ "typedoc", "0.23.24" ],
+        [ "minimatch", "6.1.8" ],
+        [ "shiki", "0.14.1" ],
+        [ "typedoc", "0.23.25" ],
         [ "typescript", "4.9.5" ],
         [ "vscode-oniguruma", "1.7.0" ],
         [ "vscode-textmate", "8.0.0" ]
@@ -56,6 +58,13 @@
     }
   },
   "sources": {
+    "ansi-sequence-parser": {
+      "1.1.0": {
+        "hash": "sha512-lEm8mt52to2fT8GhciPCGeCXACSz2UwIN4X2e2LJSnZ5uAbn2/dsYdOmUXq0AtWS5cpAupysIneExOgH0Vd2TQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-sequence-parser/-/ansi-sequence-parser-1.1.0.tgz"
+      }
+    },
     "balanced-match": {
       "1.0.2": {
         "hash": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
@@ -92,24 +101,24 @@
       }
     },
     "minimatch": {
-      "5.1.6": {
-        "hash": "sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==",
+      "6.1.8": {
+        "hash": "sha512-sTvS8Q4mIZiSnMo9192lZMxfeaGCslH5CC7B62hd9DlbifUVrc02ABTeRJINPosxKnvZlrmAaNSo8f4PZqDDdw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz"
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-6.1.8.tgz"
       }
     },
     "shiki": {
-      "0.12.1": {
-        "hash": "sha512-aieaV1m349rZINEBkjxh2QbBvFFQOlgqYTNtCal82hHj4dDZ76oMlQIX+C7ryerBTDiga3e5NfH6smjdJ02BbQ==",
+      "0.14.1": {
+        "hash": "sha512-+Jz4nBkCBe0mEDqo1eKRcCdjRtrCjozmcbTUjbPTX7OOJfEbTZzlUWlZtGe3Gb5oV1/jnojhG//YZc3rs9zSEw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/shiki/-/shiki-0.12.1.tgz"
+        "url": "https://registry.npmjs.org/shiki/-/shiki-0.14.1.tgz"
       }
     },
     "typedoc": {
-      "0.23.24": {
-        "hash": "sha512-bfmy8lNQh+WrPYcJbtjQ6JEEsVl/ce1ZIXyXhyW+a1vFrjO39t6J8sL/d6FfAGrJTc7McCXgk9AanYBSNvLdIA==",
+      "0.23.25": {
+        "hash": "sha512-O1he153qVyoCgJYSvIyY3bPP1wAJTegZfa6tL3APinSZhJOf8CSd8F/21M6ex8pUY/fuY6n0jAsT4fIuMGA6sA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/typedoc/-/typedoc-0.23.24.tgz"
+        "url": "https://registry.npmjs.org/typedoc/-/typedoc-0.23.25.tgz"
       }
     },
     "typescript": {
