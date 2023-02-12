@@ -38,19 +38,24 @@
         [ "getrandom", "0.2.8" ],
         [ "memchr", "2.5.0" ],
         [ "print_bytes", "0.7.1" ],
-        [ "uniquote", "3.2.1" ]
+        [ "uniquote", "3.3.0" ]
       ]
     },
     "print_bytes": {
       "0.7.1": [
-        [ "print_bytes", "1.1.0" ]
+        [ "print_bytes", "1.1.1" ]
       ],
-      "1.1.0": [
-        [ "windows-sys", "0.42.0" ]
+      "1.1.1": [
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "windows-sys": {
-      "0.42.0": [
+      "0.45.0": [
+        [ "windows-targets", "0.42.1" ]
+      ]
+    },
+    "windows-targets": {
+      "0.42.1": [
         [ "windows_aarch64_gnullvm", "0.42.1" ],
         [ "windows_aarch64_msvc", "0.42.1" ],
         [ "windows_i686_gnu", "0.42.1" ],
@@ -97,14 +102,14 @@
         "hash": "294016f6f3e786c84cb57a7a6849c7b58643101c64af5bad46afa9188d631427",
         "type": "crates-io"
       },
-      "1.1.0": {
-        "hash": "7da72ab4493c57aee354fcf2f368d873c07779645042422b8e7e39f56f1b68ff",
+      "1.1.1": {
+        "hash": "284fa59f768bd7d807167e0a9348ca7217d562fcc09870c9b2be91c209022ad7",
         "type": "crates-io"
       }
     },
     "uniquote": {
-      "3.2.1": {
-        "hash": "c4cf928bac801da70013650f4a44c512692d5755bbd8df8ee4db4e43cd3d6d1d",
+      "3.3.0": {
+        "hash": "54a900eeb2aef304818fb781cf422a42c2f67f760c25927ccc83edc6b0fdfd0c",
         "type": "crates-io"
       }
     },
@@ -115,8 +120,14 @@
       }
     },
     "windows-sys": {
-      "0.42.0": {
-        "hash": "5a3e1820f08b8513f676f7ab6c1f99ff312fb97b553d30ff4dd86f9f15728aa7",
+      "0.45.0": {
+        "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
+        "type": "crates-io"
+      }
+    },
+    "windows-targets": {
+      "0.42.1": {
+        "hash": "8e2522491fbfcd58cc84d47aeb2958948c4b8982e9a2d8a2a35bbaed431390e7",
         "type": "crates-io"
       }
     },
