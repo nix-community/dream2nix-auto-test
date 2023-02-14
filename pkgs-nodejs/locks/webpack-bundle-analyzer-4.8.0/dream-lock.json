@@ -3,7 +3,7 @@
     "defaultPackage": "webpack-bundle-analyzer",
     "location": "",
     "packages": {
-      "webpack-bundle-analyzer": "4.7.0"
+      "webpack-bundle-analyzer": "4.8.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -50,7 +50,8 @@
       ]
     },
     "webpack-bundle-analyzer": {
-      "4.7.0": [
+      "4.8.0": [
+        [ "@discoveryjs/json-ext", "0.5.7" ],
         [ "acorn", "8.8.2" ],
         [ "acorn-walk", "8.2.0" ],
         [ "chalk", "4.1.2" ],
@@ -62,6 +63,7 @@
         [ "ws", "7.5.9" ]
       ],
       "unknown": [
+        [ "@discoveryjs/json-ext", "0.5.7" ],
         [ "@polka/url", "1.0.0-next.21" ],
         [ "acorn", "8.8.2" ],
         [ "acorn-walk", "8.2.0" ],
@@ -79,12 +81,19 @@
         [ "sirv", "1.0.19" ],
         [ "supports-color", "7.2.0" ],
         [ "totalist", "1.1.0" ],
-        [ "webpack-bundle-analyzer", "4.7.0" ],
+        [ "webpack-bundle-analyzer", "4.8.0" ],
         [ "ws", "7.5.9" ]
       ]
     }
   },
   "sources": {
+    "@discoveryjs/json-ext": {
+      "0.5.7": {
+        "hash": "sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz"
+      }
+    },
     "@polka/url": {
       "1.0.0-next.21": {
         "hash": "sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==",
@@ -205,10 +214,10 @@
       }
     },
     "webpack-bundle-analyzer": {
-      "4.7.0": {
-        "hash": "sha512-j9b8ynpJS4K+zfO5GGwsAcQX4ZHpWV+yRiHDiL+bE0XHJ8NiPYLTNVQdlFYWxtpg9lfAQNlwJg16J9AJtFSXRg==",
+      "4.8.0": {
+        "hash": "sha512-ZzoSBePshOKhr+hd8u6oCkZVwpVaXgpw23ScGLFpR6SjYI7+7iIWYarjN6OEYOfRt8o7ZyZZQk0DuMizJ+LEIg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.7.0.tgz"
+        "url": "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.8.0.tgz"
       }
     },
     "ws": {

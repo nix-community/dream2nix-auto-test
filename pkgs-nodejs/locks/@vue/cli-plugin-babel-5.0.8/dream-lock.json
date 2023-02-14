@@ -683,7 +683,7 @@
         [ "babel-plugin-polyfill-corejs2", "0.3.3" ],
         [ "babel-plugin-polyfill-corejs3", "0.6.0" ],
         [ "babel-plugin-polyfill-regenerator", "0.4.1" ],
-        [ "core-js-compat", "3.27.2" ],
+        [ "core-js-compat", "3.28.0" ],
         [ "semver", "6.3.0" ]
       ]
     },
@@ -900,8 +900,8 @@
         [ "@vue/babel-plugin-jsx", "1.1.1" ],
         [ "@vue/babel-preset-jsx", "1.4.0" ],
         [ "babel-plugin-dynamic-import-node", "2.3.3" ],
-        [ "core-js", "3.27.2" ],
-        [ "core-js-compat", "3.27.2" ],
+        [ "core-js", "3.28.0" ],
+        [ "core-js-compat", "3.28.0" ],
         [ "semver", "7.3.8" ]
       ]
     },
@@ -1072,6 +1072,7 @@
         [ "@babel/template", "7.20.7" ],
         [ "@babel/traverse", "7.20.13" ],
         [ "@babel/types", "7.20.7" ],
+        [ "@discoveryjs/json-ext", "0.5.7" ],
         [ "@hapi/hoek", "9.3.0" ],
         [ "@hapi/topo", "5.1.0" ],
         [ "@jridgewell/gen-mapping", "0.1.1" ],
@@ -1200,7 +1201,7 @@
         [ "camel-case", "4.1.2" ],
         [ "camelcase", "6.3.0" ],
         [ "caniuse-api", "3.0.0" ],
-        [ "caniuse-lite", "1.0.30001451" ],
+        [ "caniuse-lite", "1.0.30001452" ],
         [ "case-sensitive-paths-webpack-plugin", "2.4.0" ],
         [ "chalk", "2.4.2" ],
         [ "chokidar", "3.5.3" ],
@@ -1230,8 +1231,8 @@
         [ "cookie", "0.5.0" ],
         [ "cookie-signature", "1.0.6" ],
         [ "copy-webpack-plugin", "9.1.0" ],
-        [ "core-js", "3.27.2" ],
-        [ "core-js-compat", "3.27.2" ],
+        [ "core-js", "3.28.0" ],
+        [ "core-js-compat", "3.28.0" ],
         [ "core-util-is", "1.0.3" ],
         [ "cosmiconfig", "7.1.0" ],
         [ "cross-spawn", "6.0.5" ],
@@ -1624,7 +1625,7 @@
         [ "wcwidth", "1.0.1" ],
         [ "webidl-conversions", "3.0.1" ],
         [ "webpack", "5.75.0" ],
-        [ "webpack-bundle-analyzer", "4.7.0" ],
+        [ "webpack-bundle-analyzer", "4.8.0" ],
         [ "webpack-chain", "6.5.1" ],
         [ "webpack-dev-middleware", "5.3.3" ],
         [ "webpack-dev-server", "4.11.1" ],
@@ -1703,7 +1704,7 @@
         [ "vue-loader", "17.0.1" ],
         [ "vue-style-loader", "4.1.3" ],
         [ "webpack", "5.75.0" ],
-        [ "webpack-bundle-analyzer", "4.7.0" ],
+        [ "webpack-bundle-analyzer", "4.8.0" ],
         [ "webpack-chain", "6.5.1" ],
         [ "webpack-dev-server", "4.11.1" ],
         [ "webpack-merge", "5.8.0" ],
@@ -1877,7 +1878,7 @@
     "autoprefixer": {
       "10.4.13": [
         [ "browserslist", "4.21.5" ],
-        [ "caniuse-lite", "1.0.30001451" ],
+        [ "caniuse-lite", "1.0.30001452" ],
         [ "fraction.js", "4.2.0" ],
         [ "normalize-range", "0.1.2" ],
         [ "picocolors", "1.0.0" ],
@@ -1907,7 +1908,7 @@
     "babel-plugin-polyfill-corejs3": {
       "0.6.0": [
         [ "@babel/helper-define-polyfill-provider", "0.3.3" ],
-        [ "core-js-compat", "3.27.2" ]
+        [ "core-js-compat", "3.28.0" ]
       ]
     },
     "babel-plugin-polyfill-regenerator": {
@@ -1959,7 +1960,7 @@
     },
     "browserslist": {
       "4.21.5": [
-        [ "caniuse-lite", "1.0.30001451" ],
+        [ "caniuse-lite", "1.0.30001452" ],
         [ "electron-to-chromium", "1.4.295" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
@@ -1986,7 +1987,7 @@
     "caniuse-api": {
       "3.0.0": [
         [ "browserslist", "4.21.5" ],
-        [ "caniuse-lite", "1.0.30001451" ],
+        [ "caniuse-lite", "1.0.30001452" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -2107,7 +2108,7 @@
       ]
     },
     "core-js-compat": {
-      "3.27.2": [
+      "3.28.0": [
         [ "browserslist", "4.21.5" ]
       ]
     },
@@ -3519,7 +3520,8 @@
       ]
     },
     "webpack-bundle-analyzer": {
-      "4.7.0": [
+      "4.8.0": [
+        [ "@discoveryjs/json-ext", "0.5.7" ],
         [ "acorn", "8.8.2" ],
         [ "acorn-walk", "8.2.0" ],
         [ "chalk", "4.1.2" ],
@@ -3576,7 +3578,7 @@
         [ "sockjs", "0.3.24" ],
         [ "spdy", "4.0.2" ],
         [ "webpack-dev-middleware", "5.3.3" ],
-        [ "ws", "8.12.0" ]
+        [ "ws", "8.12.1" ]
       ]
     },
     "webpack-merge": {
@@ -4384,6 +4386,13 @@
         "hash": "sha512-69OnhBxSSgK0OzTJai4kyPDiKTIe3j+ctaHdIGVbRahTLAT7L3R9oeXHC2aVSuGYt3cVnoAMDmOCgJ2yaiLMvg==",
         "type": "http",
         "url": "https://registry.npmjs.org/@babel/types/-/types-7.20.7.tgz"
+      }
+    },
+    "@discoveryjs/json-ext": {
+      "0.5.7": {
+        "hash": "sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz"
       }
     },
     "@hapi/hoek": {
@@ -5323,10 +5332,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001451": {
-        "hash": "sha512-XY7UbUpGRatZzoRft//5xOa69/1iGJRBlrieH6QYrkKLIFn3m7OVEJ81dSrKoy2BnKsdbX5cLrOispZNYo9v2w==",
+      "1.0.30001452": {
+        "hash": "sha512-Lkp0vFjMkBB3GTpLR8zk4NwW5EdRdnitwYJHDOOKIU85x4ckYCPQ+9WlVvSVClHxVReefkUMtWZH2l9KGlD51w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001451.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001452.tgz"
       }
     },
     "case-sensitive-paths-webpack-plugin": {
@@ -5568,17 +5577,17 @@
       }
     },
     "core-js": {
-      "3.27.2": {
-        "hash": "sha512-9ashVQskuh5AZEZ1JdQWp1GqSoC1e1G87MzRqg2gIfVAQ7Qn9K+uFj8EcniUFA4P2NLZfV+TOlX1SzoKfo+s7w==",
+      "3.28.0": {
+        "hash": "sha512-GiZn9D4Z/rSYvTeg1ljAIsEqFm0LaN9gVtwDCrKL80zHtS31p9BAjmTxVqTQDMpwlMolJZOFntUG2uwyj7DAqw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/core-js/-/core-js-3.27.2.tgz"
+        "url": "https://registry.npmjs.org/core-js/-/core-js-3.28.0.tgz"
       }
     },
     "core-js-compat": {
-      "3.27.2": {
-        "hash": "sha512-welaYuF7ZtbYKGrIy7y3eb40d37rG1FvzEOfe7hSLd2iD6duMDqUhRfSvCGyC46HhR6Y8JXXdZ2lnRUMkPBpvg==",
+      "3.28.0": {
+        "hash": "sha512-myzPgE7QodMg4nnd3K1TDoES/nADRStM8Gpz0D6nhkwbmwEnE0ZGJgoWsvQ722FR8D7xS0n0LV556RcEicjTyg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.27.2.tgz"
+        "url": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.28.0.tgz"
       }
     },
     "core-util-is": {
@@ -8566,10 +8575,10 @@
       }
     },
     "webpack-bundle-analyzer": {
-      "4.7.0": {
-        "hash": "sha512-j9b8ynpJS4K+zfO5GGwsAcQX4ZHpWV+yRiHDiL+bE0XHJ8NiPYLTNVQdlFYWxtpg9lfAQNlwJg16J9AJtFSXRg==",
+      "4.8.0": {
+        "hash": "sha512-ZzoSBePshOKhr+hd8u6oCkZVwpVaXgpw23ScGLFpR6SjYI7+7iIWYarjN6OEYOfRt8o7ZyZZQk0DuMizJ+LEIg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.7.0.tgz"
+        "url": "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.8.0.tgz"
       }
     },
     "webpack-chain": {
@@ -8686,10 +8695,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz"
       },
-      "8.12.0": {
-        "hash": "sha512-kU62emKIdKVeEIOIKVegvqpXMSTAMLJozpHZaJNDYqBjzlSYXQGviYwN1osDLJ9av68qHd4a2oSjd7yD4pacig==",
+      "8.12.1": {
+        "hash": "sha512-1qo+M9Ba+xNhPB+YTWUlK6M17brTut5EXbcBaMRN5pH5dFrXz7lzz1ChFSUq3bOUl8yEvSenhHmYUNJxFzdJew==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ws/-/ws-8.12.0.tgz"
+        "url": "https://registry.npmjs.org/ws/-/ws-8.12.1.tgz"
       }
     },
     "y18n": {
