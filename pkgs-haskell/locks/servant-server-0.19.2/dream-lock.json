@@ -60,7 +60,7 @@
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "hourglass#0.2.12": "e083f5e030dfebe432e30a9c0fa07a99a54eac992f622442646be561fd7a44e8",
-      "hsc2hs#0.68.8": "988c29f9b25293f44a29cf5164e2ec07a9f95e8d92c4ab3985e4915abf213a69",
+      "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
       "hspec#2.9.7": "68732c76946f111db3ecf28fa1ab11f1468c287448b139e57d543bd25a382cf0",
       "hspec-core#2.9.7": "153ca954ceb8eb7dff782d3de9af59553bc54284a45e7085aca5b443a5486111",
       "hspec-discover#2.9.7": "7b8e52d85c07e8cfed6723255f738fb69ae08d3c0edfd3e458837496897ee629",
@@ -479,7 +479,7 @@
     },
     "network": {
       "3.1.2.7": [
-        [ "hsc2hs", "0.68.8" ]
+        [ "hsc2hs", "0.68.9" ]
       ]
     },
     "network-uri": {
@@ -710,7 +710,7 @@
     "unix-time": {
       "0.4.8": [
         [ "old-time", "1.1.0.3" ],
-        [ "hsc2hs", "0.68.8" ]
+        [ "hsc2hs", "0.68.9" ]
       ]
     },
     "unliftio": {
@@ -752,6 +752,8 @@
     },
     "wai-app-static": {
       "3.1.7.4": [
+        [ "mime-types", "0.1.1.0" ],
+        [ "wai-app-static", "3.1.7.4" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "blaze-markup", "0.8.2.8" ],
         [ "cryptonite", "0.30" ],
@@ -767,9 +769,7 @@
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
         [ "warp", "3.3.24" ],
-        [ "zlib", "0.6.3.0" ],
-        [ "mime-types", "0.1.1.0" ],
-        [ "wai-app-static", "3.1.7.4" ]
+        [ "zlib", "0.6.3.0" ]
       ]
     },
     "wai-extra": {
@@ -1202,10 +1202,10 @@
       }
     },
     "hsc2hs": {
-      "0.68.8": {
-        "hash": "sha256:78341efbc917a84a07f2143bee9203e2555072054d495717aa73d89d9df77a52",
+      "0.68.9": {
+        "hash": "sha256:c95b10ce0b2c881480e35118d738dcc9cefc435ec72baa0031af81d0d4d3bc0a",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.8.tar.gz"
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.9.tar.gz"
       }
     },
     "hspec": {

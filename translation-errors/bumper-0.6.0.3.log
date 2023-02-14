@@ -2,30 +2,30 @@
 Translating:: bumper (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/bumper-0.6.0.3/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1676269109
++ indexTime=1676355488
 ++ date +%s
-+ age=622
-+ '[' 622 -gt 86400 ']'
-/tmp/tmp.QpHJLs652j/tmp.TlGBsncxhK/tmp.FoNzUMSawu ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=405
++ '[' 405 -gt 86400 ']'
+/tmp/tmp.b87X3xNh1H/tmp.NFLCYvwLgK/tmp.3OCHuBl4Ka ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/bumper-0.6.0.3/bumper-0.6.0.3.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  7355  100  7355    0     0  32305      0 --:--:-- --:--:-- --:--:-- 32400
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  7355  100  7355    0     0  47661      0 --:--:-- --:--:-- --:--:-- 47759
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: bumper-0.6.0.3 (user goal)
 [__1] next goal: process (dependency of bumper)
 [__1] rejecting: process-1.6.13.2/installed-1.6.13.2 (conflict: bumper =>
 process>=1.0 && <1.3)
-[__1] skipping: process-1.6.16.0, process-1.6.15.0, process-1.6.14.0,
-process-1.6.13.2, process-1.6.13.1, process-1.6.12.0, process-1.6.11.0,
-process-1.6.10.0, process-1.6.9.0, process-1.6.8.2, process-1.6.8.1,
-process-1.6.8.0, process-1.6.7.0, process-1.6.6.0, process-1.6.5.1,
-process-1.6.5.0, process-1.6.4.0, process-1.6.3.0, process-1.6.2.0,
-process-1.6.1.0, process-1.6.0.0, process-1.5.0.0, process-1.4.3.0,
-process-1.4.2.0, process-1.4.1.0, process-1.4.0.0, process-1.3.0.0 (has the
-same characteristics that caused the previous version to fail: excluded by
-constraint '>=1.0 && <1.3' from 'bumper')
+[__1] skipping: process-1.6.17.0, process-1.6.16.0, process-1.6.15.0,
+process-1.6.14.0, process-1.6.13.2, process-1.6.13.1, process-1.6.12.0,
+process-1.6.11.0, process-1.6.10.0, process-1.6.9.0, process-1.6.8.2,
+process-1.6.8.1, process-1.6.8.0, process-1.6.7.0, process-1.6.6.0,
+process-1.6.5.1, process-1.6.5.0, process-1.6.4.0, process-1.6.3.0,
+process-1.6.2.0, process-1.6.1.0, process-1.6.0.0, process-1.5.0.0,
+process-1.4.3.0, process-1.4.2.0, process-1.4.1.0, process-1.4.0.0,
+process-1.3.0.0 (has the same characteristics that caused the previous version
+to fail: excluded by constraint '>=1.0 && <1.3' from 'bumper')
 [__1] trying: process-1.2.3.0
 [__2] next goal: directory (dependency of process)
 [__2] rejecting: directory-1.3.6.2/installed-1.3.6.2 (conflict: process =>
