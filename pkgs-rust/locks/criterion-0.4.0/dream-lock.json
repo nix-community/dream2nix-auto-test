@@ -42,7 +42,7 @@
         [ "async-lock", "2.6.0" ],
         [ "async-task", "4.3.0" ],
         [ "concurrent-queue", "2.1.0" ],
-        [ "fastrand", "1.8.0" ],
+        [ "fastrand", "1.9.0" ],
         [ "futures-lite", "1.12.0" ],
         [ "slab", "0.4.7" ]
       ]
@@ -145,16 +145,8 @@
         [ "async-lock", "2.6.0" ],
         [ "async-task", "4.3.0" ],
         [ "atomic-waker", "1.1.0" ],
-        [ "fastrand", "1.8.0" ],
+        [ "fastrand", "1.9.0" ],
         [ "futures-lite", "1.12.0" ]
-      ]
-    },
-    "bstr": {
-      "0.2.17": [
-        [ "lazy_static", "1.4.0" ],
-        [ "memchr", "2.5.0" ],
-        [ "regex-automata", "0.1.10" ],
-        [ "serde", "1.0.152" ]
       ]
     },
     "ciborium": {
@@ -198,7 +190,7 @@
         [ "ciborium", "0.2.0" ],
         [ "clap", "3.2.23" ],
         [ "criterion-plot", "0.5.0" ],
-        [ "csv", "1.1.6" ],
+        [ "csv", "1.2.0" ],
         [ "futures", "0.3.26" ],
         [ "itertools", "0.10.5" ],
         [ "lazy_static", "1.4.0" ],
@@ -253,10 +245,9 @@
       ]
     },
     "csv": {
-      "1.1.6": [
-        [ "bstr", "0.2.17" ],
+      "1.2.0": [
         [ "csv-core", "0.1.10" ],
-        [ "itoa", "0.4.8" ],
+        [ "itoa", "1.0.5" ],
         [ "ryu", "1.0.12" ],
         [ "serde", "1.0.152" ]
       ]
@@ -273,7 +264,7 @@
       ]
     },
     "fastrand": {
-      "1.8.0": [
+      "1.9.0": [
         [ "instant", "0.1.12" ]
       ]
     },
@@ -303,7 +294,7 @@
     },
     "futures-lite": {
       "1.12.0": [
-        [ "fastrand", "1.8.0" ],
+        [ "fastrand", "1.9.0" ],
         [ "futures-core", "0.3.26" ],
         [ "futures-io", "0.3.26" ],
         [ "memchr", "2.5.0" ],
@@ -551,7 +542,7 @@
     "tempfile": {
       "3.3.0": [
         [ "cfg-if", "1.0.0" ],
-        [ "fastrand", "1.8.0" ],
+        [ "fastrand", "1.9.0" ],
         [ "libc", "0.2.139" ],
         [ "redox_syscall", "0.2.16" ],
         [ "remove_dir_all", "0.5.3" ],
@@ -761,12 +752,6 @@
         "type": "crates-io"
       }
     },
-    "bstr": {
-      "0.2.17": {
-        "hash": "ba3569f383e8f1598449f1a423e72e99569137b47740b1da11ef19af3d5c3223",
-        "type": "crates-io"
-      }
-    },
     "bumpalo": {
       "3.12.0": {
         "hash": "0d261e256854913907f67ed06efbc3338dfe6179796deefc1ff763fc1aee5535",
@@ -864,8 +849,8 @@
       }
     },
     "csv": {
-      "1.1.6": {
-        "hash": "22813a6dc45b335f9bade10bf7271dc477e81113e89eb251a0bc2a8a81c536e1",
+      "1.2.0": {
+        "hash": "af91f40b7355f82b0a891f50e70399475945bb0b0da4f1700ce60761c9d3e359",
         "type": "crates-io"
       }
     },
@@ -894,8 +879,8 @@
       }
     },
     "fastrand": {
-      "1.8.0": {
-        "hash": "a7a407cfaa3385c4ae6b23e84623d48c2798d06e3e6a1878f7f59f17b3f86499",
+      "1.9.0": {
+        "hash": "e51093e27b0797c359783294ca4f0a911c270184cb10f85783b118614a1501be",
         "type": "crates-io"
       }
     },
@@ -1006,10 +991,6 @@
       }
     },
     "itoa": {
-      "0.4.8": {
-        "hash": "b71991ff56294aa922b450139ee08b3bfc70982c6b2c7562771375cf73542dd4",
-        "type": "crates-io"
-      },
       "1.0.5": {
         "hash": "fad582f4b9e86b6caa621cabeb0963332d92eea04729ab12892c2533951e6440",
         "type": "crates-io"
@@ -1192,12 +1173,6 @@
     "regex": {
       "1.7.1": {
         "hash": "48aaa5748ba571fb95cd2c85c09f629215d3a6ece942baa100950af03a34f733",
-        "type": "crates-io"
-      }
-    },
-    "regex-automata": {
-      "0.1.10": {
-        "hash": "6c230d73fb8d8c1b9c0b3135c5142a8acee3a0558fb8db5cf1cb65f8d7862132",
         "type": "crates-io"
       }
     },

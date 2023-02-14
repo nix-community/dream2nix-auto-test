@@ -33,14 +33,6 @@
         [ "winapi", "0.3.9" ]
       ]
     },
-    "bstr": {
-      "0.2.17": [
-        [ "lazy_static", "1.4.0" ],
-        [ "memchr", "2.5.0" ],
-        [ "regex-automata", "0.1.10" ],
-        [ "serde", "1.0.152" ]
-      ]
-    },
     "clap": {
       "2.34.0": [
         [ "bitflags", "1.3.2" ],
@@ -54,7 +46,7 @@
         [ "cast", "0.3.0" ],
         [ "clap", "2.34.0" ],
         [ "criterion-plot", "0.4.5" ],
-        [ "csv", "1.1.6" ],
+        [ "csv", "1.2.0" ],
         [ "itertools", "0.10.5" ],
         [ "lazy_static", "1.4.0" ],
         [ "num-traits", "0.2.15" ],
@@ -104,10 +96,9 @@
       ]
     },
     "csv": {
-      "1.1.6": [
-        [ "bstr", "0.2.17" ],
+      "1.2.0": [
         [ "csv-core", "0.1.10" ],
-        [ "itoa", "0.4.8" ],
+        [ "itoa", "1.0.5" ],
         [ "ryu", "1.0.12" ],
         [ "serde", "1.0.152" ]
       ]
@@ -323,12 +314,6 @@
         "type": "crates-io"
       }
     },
-    "bstr": {
-      "0.2.17": {
-        "hash": "ba3569f383e8f1598449f1a423e72e99569137b47740b1da11ef19af3d5c3223",
-        "type": "crates-io"
-      }
-    },
     "bumpalo": {
       "3.12.0": {
         "hash": "0d261e256854913907f67ed06efbc3338dfe6179796deefc1ff763fc1aee5535",
@@ -390,8 +375,8 @@
       }
     },
     "csv": {
-      "1.1.6": {
-        "hash": "22813a6dc45b335f9bade10bf7271dc477e81113e89eb251a0bc2a8a81c536e1",
+      "1.2.0": {
+        "hash": "af91f40b7355f82b0a891f50e70399475945bb0b0da4f1700ce60761c9d3e359",
         "type": "crates-io"
       }
     },
@@ -430,10 +415,6 @@
       }
     },
     "itoa": {
-      "0.4.8": {
-        "hash": "b71991ff56294aa922b450139ee08b3bfc70982c6b2c7562771375cf73542dd4",
-        "type": "crates-io"
-      },
       "1.0.5": {
         "hash": "fad582f4b9e86b6caa621cabeb0963332d92eea04729ab12892c2533951e6440",
         "type": "crates-io"
@@ -544,12 +525,6 @@
     "regex": {
       "1.7.1": {
         "hash": "48aaa5748ba571fb95cd2c85c09f629215d3a6ece942baa100950af03a34f733",
-        "type": "crates-io"
-      }
-    },
-    "regex-automata": {
-      "0.1.10": {
-        "hash": "6c230d73fb8d8c1b9c0b3135c5142a8acee3a0558fb8db5cf1cb65f8d7862132",
         "type": "crates-io"
       }
     },
