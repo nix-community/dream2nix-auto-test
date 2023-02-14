@@ -2,30 +2,30 @@
 Translating:: Cabal-ide-backend (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/Cabal-ide-backend-1.23.0.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1676269109
++ indexTime=1676355488
 ++ date +%s
-+ age=854
-+ '[' 854 -gt 86400 ']'
-/tmp/tmp.3t7oyZMLHd/tmp.wYQnXidrvJ/tmp.xgmy8kWZb5 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=557
++ '[' 557 -gt 86400 ']'
+/tmp/tmp.D3Et5HO8lI/tmp.kvwHCpmlNh/tmp.oe2NuEqroF ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/Cabal-ide-backend-1.23.0.0/Cabal-ide-backend-1.23.0.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24958    0 24958    0     0  47766      0 --:--:-- --:--:-- --:--:-- 47720100  395k    0  395k    0     0   639k      0 --:--:-- --:--:-- --:--:--  639k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  395k  100  395k    0     0  1975k      0 --:--:-- --:--:-- --:--:-- 2019k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: Cabal-ide-backend-1.23.0.0 (user goal)
 [__1] next goal: process (dependency of Cabal-ide-backend)
 [__1] rejecting: process-1.6.13.2/installed-1.6.13.2 (conflict:
 Cabal-ide-backend => process>=1.1.0.1 && <1.3)
-[__1] skipping: process-1.6.16.0, process-1.6.15.0, process-1.6.14.0,
-process-1.6.13.2, process-1.6.13.1, process-1.6.12.0, process-1.6.11.0,
-process-1.6.10.0, process-1.6.9.0, process-1.6.8.2, process-1.6.8.1,
-process-1.6.8.0, process-1.6.7.0, process-1.6.6.0, process-1.6.5.1,
-process-1.6.5.0, process-1.6.4.0, process-1.6.3.0, process-1.6.2.0,
-process-1.6.1.0, process-1.6.0.0, process-1.5.0.0, process-1.4.3.0,
-process-1.4.2.0, process-1.4.1.0, process-1.4.0.0, process-1.3.0.0 (has the
-same characteristics that caused the previous version to fail: excluded by
-constraint '>=1.1.0.1 && <1.3' from 'Cabal-ide-backend')
+[__1] skipping: process-1.6.17.0, process-1.6.16.0, process-1.6.15.0,
+process-1.6.14.0, process-1.6.13.2, process-1.6.13.1, process-1.6.12.0,
+process-1.6.11.0, process-1.6.10.0, process-1.6.9.0, process-1.6.8.2,
+process-1.6.8.1, process-1.6.8.0, process-1.6.7.0, process-1.6.6.0,
+process-1.6.5.1, process-1.6.5.0, process-1.6.4.0, process-1.6.3.0,
+process-1.6.2.0, process-1.6.1.0, process-1.6.0.0, process-1.5.0.0,
+process-1.4.3.0, process-1.4.2.0, process-1.4.1.0, process-1.4.0.0,
+process-1.3.0.0 (has the same characteristics that caused the previous version
+to fail: excluded by constraint '>=1.1.0.1 && <1.3' from 'Cabal-ide-backend')
 [__1] trying: process-1.2.3.0
 [__2] next goal: directory (dependency of Cabal-ide-backend)
 [__2] rejecting: directory-1.3.6.2/installed-1.3.6.2 (conflict:
