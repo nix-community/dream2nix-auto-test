@@ -113,7 +113,7 @@
       "hslua-marshalling#2.2.1": "fd7052daf58cf218734082a41867c0da4e256d7b1e2463088e054ecc8963366f",
       "hslua-module-doclayout#1.0.4": "2d526e1095328aaede64a40a9276abe257596f6c73e893bbfa0432b2744aaaa7",
       "hslua-module-path#1.0.3": "9764d9a4f1ddc0cf47e91dbf23919095434f4926cebea82de516cf2731e89089",
-      "hslua-module-system#1.0.2": "1958499d7a04f7faad2f98a134f988d3fe6d95f914b5090acc0032ffadcbfba1",
+      "hslua-module-system#1.0.3": "cebde7e3e6da9d6ccf675e6fe6c59b12f8ffe16cf17f08c557292a29cc417720",
       "hslua-module-text#1.0.3.1": "101cc63fcbfce9ff03532278db19879c4ed6a89e942a5f42a251e55a7df2046b",
       "hslua-module-version#1.0.3": "0722de7a187152e182d384c52585e3402a8a3ef7a6da1422a3ebc982576654a1",
       "hslua-objectorientation#2.2.1": "0a7703080502e1e40f74db581fbaac963ce12691f30ae3e2129055723ade15a9",
@@ -270,6 +270,8 @@
   "dependencies": {
     "BlogLiterately": {
       "0.8.8.2": [
+        [ "BlogLiterately", "0.8.8.2" ],
+        [ "cmdargs", "0.10.21" ],
         [ "HTTP", "4000.4.1" ],
         [ "HaXml", "1.25.12" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -286,9 +288,7 @@
         [ "split", "0.2.3.5" ],
         [ "strict", "0.4.0.1" ],
         [ "tagsoup", "0.14.8" ],
-        [ "temporary", "1.3" ],
-        [ "BlogLiterately", "0.8.8.2" ],
-        [ "cmdargs", "0.10.21" ]
+        [ "temporary", "1.3" ]
       ]
     },
     "BlogLiterately-diagrams": {
@@ -875,7 +875,7 @@
       ]
     },
     "hslua-module-system": {
-      "1.0.2": [
+      "1.0.3": [
         [ "hslua-core", "2.2.1" ],
         [ "hslua-marshalling", "2.2.1" ],
         [ "hslua-packaging", "2.2.1" ],
@@ -1177,7 +1177,7 @@
         [ "hslua", "2.2.1" ],
         [ "hslua-module-doclayout", "1.0.4" ],
         [ "hslua-module-path", "1.0.3" ],
-        [ "hslua-module-system", "1.0.2" ],
+        [ "hslua-module-system", "1.0.3" ],
         [ "hslua-module-text", "1.0.3.1" ],
         [ "hslua-module-version", "1.0.3" ],
         [ "http-client", "0.7.13.1" ],
@@ -2274,10 +2274,10 @@
       }
     },
     "hslua-module-system": {
-      "1.0.2": {
-        "hash": "sha256:b63593038adb3a09172adfca67e3bc53c5c72de873db325b397994f665724c51",
+      "1.0.3": {
+        "hash": "sha256:c979e6ddbd067068c650dd6ec6308ebee8413a3e70d3fdf420e8e90723952a23",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hslua-module-system-1.0.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/hslua-module-system-1.0.3.tar.gz"
       }
     },
     "hslua-module-text": {
