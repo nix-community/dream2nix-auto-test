@@ -3,7 +3,7 @@
     "defaultPackage": "antd",
     "location": "",
     "packages": {
-      "antd": "4.24.8"
+      "antd": "5.2.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,13 +17,24 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@ant-design/colors": {
-      "6.0.0": [
-        [ "@ctrl/tinycolor", "3.5.1" ]
+      "7.0.0": [
+        [ "@ctrl/tinycolor", "3.6.0" ]
+      ]
+    },
+    "@ant-design/cssinjs": {
+      "1.5.6": [
+        [ "@babel/runtime", "7.20.13" ],
+        [ "@emotion/hash", "0.8.0" ],
+        [ "@emotion/unitless", "0.7.5" ],
+        [ "classnames", "2.3.2" ],
+        [ "csstype", "3.1.1" ],
+        [ "rc-util", "5.27.2" ],
+        [ "stylis", "4.1.3" ]
       ]
     },
     "@ant-design/icons": {
-      "4.8.0": [
-        [ "@ant-design/colors", "6.0.0" ],
+      "5.0.1": [
+        [ "@ant-design/colors", "7.0.0" ],
         [ "@ant-design/icons-svg", "4.2.1" ],
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
@@ -31,17 +42,35 @@
       ]
     },
     "@ant-design/react-slick": {
-      "0.29.2": [
+      "1.0.0": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "json2mq", "0.2.0" ],
-        [ "lodash", "4.17.21" ],
-        [ "resize-observer-polyfill", "1.5.1" ]
+        [ "resize-observer-polyfill", "1.5.1" ],
+        [ "throttle-debounce", "5.0.0" ]
       ]
     },
     "@babel/runtime": {
       "7.20.13": [
         [ "regenerator-runtime", "0.13.11" ]
+      ]
+    },
+    "@rc-component/context": {
+      "1.3.0": [
+        [ "@babel/runtime", "7.20.13" ],
+        [ "rc-util", "5.27.2" ]
+      ]
+    },
+    "@rc-component/mini-decimal": {
+      "1.0.1": [
+        [ "@babel/runtime", "7.20.13" ]
+      ]
+    },
+    "@rc-component/mutate-observer": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.13" ],
+        [ "classnames", "2.3.2" ],
+        [ "rc-util", "5.27.2" ]
       ]
     },
     "@rc-component/portal": {
@@ -51,106 +80,125 @@
         [ "rc-util", "5.27.2" ]
       ]
     },
-    "antd": {
-      "4.24.8": [
-        [ "@ant-design/colors", "6.0.0" ],
-        [ "@ant-design/icons", "4.8.0" ],
-        [ "@ant-design/react-slick", "0.29.2" ],
+    "@rc-component/tour": {
+      "1.6.0": [
         [ "@babel/runtime", "7.20.13" ],
-        [ "@ctrl/tinycolor", "3.5.1" ],
+        [ "@rc-component/portal", "1.1.0" ],
+        [ "classnames", "2.3.2" ],
+        [ "rc-trigger", "5.3.4" ],
+        [ "rc-util", "5.27.2" ]
+      ]
+    },
+    "antd": {
+      "5.2.1": [
+        [ "@ant-design/colors", "7.0.0" ],
+        [ "@ant-design/cssinjs", "1.5.6" ],
+        [ "@ant-design/icons", "5.0.1" ],
+        [ "@ant-design/react-slick", "1.0.0" ],
+        [ "@babel/runtime", "7.20.13" ],
+        [ "@ctrl/tinycolor", "3.6.0" ],
+        [ "@rc-component/mutate-observer", "1.0.0" ],
+        [ "@rc-component/tour", "1.6.0" ],
         [ "classnames", "2.3.2" ],
         [ "copy-to-clipboard", "3.3.3" ],
-        [ "lodash", "4.17.21" ],
-        [ "moment", "2.29.4" ],
-        [ "rc-cascader", "3.7.0" ],
+        [ "dayjs", "1.11.7" ],
+        [ "qrcode.react", "3.1.0" ],
+        [ "rc-cascader", "3.8.0" ],
         [ "rc-checkbox", "2.3.2" ],
-        [ "rc-collapse", "3.4.2" ],
+        [ "rc-collapse", "3.5.2" ],
         [ "rc-dialog", "9.0.2" ],
         [ "rc-drawer", "6.1.2" ],
         [ "rc-dropdown", "4.0.1" ],
         [ "rc-field-form", "1.27.4" ],
         [ "rc-image", "5.13.0" ],
-        [ "rc-input", "0.1.4" ],
-        [ "rc-input-number", "7.3.11" ],
-        [ "rc-mentions", "1.13.1" ],
+        [ "rc-input", "0.2.2" ],
+        [ "rc-input-number", "7.4.0" ],
+        [ "rc-mentions", "2.0.0" ],
         [ "rc-menu", "9.8.2" ],
         [ "rc-motion", "2.6.3" ],
-        [ "rc-notification", "4.6.1" ],
+        [ "rc-notification", "5.0.2" ],
         [ "rc-pagination", "3.2.0" ],
-        [ "rc-picker", "2.7.0" ],
+        [ "rc-picker", "3.1.5" ],
         [ "rc-progress", "3.4.1" ],
         [ "rc-rate", "2.9.2" ],
         [ "rc-resize-observer", "1.3.1" ],
         [ "rc-segmented", "2.1.2" ],
-        [ "rc-select", "14.1.16" ],
-        [ "rc-slider", "10.0.1" ],
-        [ "rc-steps", "5.0.0" ],
-        [ "rc-switch", "3.2.2" ],
-        [ "rc-table", "7.26.0" ],
+        [ "rc-select", "14.2.0" ],
+        [ "rc-slider", "10.1.1" ],
+        [ "rc-steps", "6.0.0" ],
+        [ "rc-switch", "4.0.0" ],
+        [ "rc-table", "7.30.3" ],
         [ "rc-tabs", "12.5.6" ],
-        [ "rc-textarea", "0.4.7" ],
-        [ "rc-tooltip", "5.2.2" ],
+        [ "rc-textarea", "1.0.1" ],
+        [ "rc-tooltip", "5.3.1" ],
         [ "rc-tree", "5.7.2" ],
-        [ "rc-tree-select", "5.5.5" ],
+        [ "rc-tree-select", "5.6.0" ],
         [ "rc-trigger", "5.3.4" ],
         [ "rc-upload", "4.3.4" ],
         [ "rc-util", "5.27.2" ],
-        [ "scroll-into-view-if-needed", "2.2.31" ]
+        [ "scroll-into-view-if-needed", "3.0.6" ],
+        [ "throttle-debounce", "5.0.0" ]
       ],
       "unknown": [
-        [ "@ant-design/colors", "6.0.0" ],
-        [ "@ant-design/icons", "4.8.0" ],
+        [ "@ant-design/colors", "7.0.0" ],
+        [ "@ant-design/cssinjs", "1.5.6" ],
+        [ "@ant-design/icons", "5.0.1" ],
         [ "@ant-design/icons-svg", "4.2.1" ],
-        [ "@ant-design/react-slick", "0.29.2" ],
+        [ "@ant-design/react-slick", "1.0.0" ],
         [ "@babel/runtime", "7.20.13" ],
-        [ "@ctrl/tinycolor", "3.5.1" ],
+        [ "@ctrl/tinycolor", "3.6.0" ],
+        [ "@emotion/hash", "0.8.0" ],
+        [ "@emotion/unitless", "0.7.5" ],
+        [ "@rc-component/context", "1.3.0" ],
+        [ "@rc-component/mini-decimal", "1.0.1" ],
+        [ "@rc-component/mutate-observer", "1.0.0" ],
         [ "@rc-component/portal", "1.1.0" ],
-        [ "antd", "4.24.8" ],
+        [ "@rc-component/tour", "1.6.0" ],
+        [ "antd", "5.2.1" ],
         [ "array-tree-filter", "2.1.0" ],
         [ "async-validator", "4.2.5" ],
         [ "classnames", "2.3.2" ],
-        [ "compute-scroll-into-view", "1.0.20" ],
+        [ "compute-scroll-into-view", "3.0.0" ],
         [ "copy-to-clipboard", "3.3.3" ],
-        [ "date-fns", "2.29.3" ],
+        [ "csstype", "3.1.1" ],
         [ "dayjs", "1.11.7" ],
         [ "dom-align", "1.12.4" ],
         [ "js-tokens", "4.0.0" ],
         [ "json2mq", "0.2.0" ],
-        [ "lodash", "4.17.21" ],
         [ "loose-envify", "1.4.0" ],
-        [ "moment", "2.29.4" ],
+        [ "qrcode.react", "3.1.0" ],
         [ "rc-align", "4.0.15" ],
-        [ "rc-cascader", "3.7.0" ],
+        [ "rc-cascader", "3.8.0" ],
         [ "rc-checkbox", "2.3.2" ],
-        [ "rc-collapse", "3.4.2" ],
+        [ "rc-collapse", "3.5.2" ],
         [ "rc-dialog", "9.0.2" ],
         [ "rc-drawer", "6.1.2" ],
         [ "rc-dropdown", "4.0.1" ],
         [ "rc-field-form", "1.27.4" ],
         [ "rc-image", "5.13.0" ],
-        [ "rc-input", "0.1.4" ],
-        [ "rc-input-number", "7.3.11" ],
-        [ "rc-mentions", "1.13.1" ],
+        [ "rc-input", "0.2.2" ],
+        [ "rc-input-number", "7.4.0" ],
+        [ "rc-mentions", "2.0.0" ],
         [ "rc-menu", "9.8.2" ],
         [ "rc-motion", "2.6.3" ],
-        [ "rc-notification", "4.6.1" ],
+        [ "rc-notification", "5.0.2" ],
         [ "rc-overflow", "1.2.8" ],
         [ "rc-pagination", "3.2.0" ],
-        [ "rc-picker", "2.7.0" ],
+        [ "rc-picker", "3.1.5" ],
         [ "rc-progress", "3.4.1" ],
         [ "rc-rate", "2.9.2" ],
         [ "rc-resize-observer", "1.3.1" ],
         [ "rc-segmented", "2.1.2" ],
-        [ "rc-select", "14.1.16" ],
-        [ "rc-slider", "10.0.1" ],
-        [ "rc-steps", "5.0.0" ],
-        [ "rc-switch", "3.2.2" ],
-        [ "rc-table", "7.26.0" ],
+        [ "rc-select", "14.2.0" ],
+        [ "rc-slider", "10.1.1" ],
+        [ "rc-steps", "6.0.0" ],
+        [ "rc-switch", "4.0.0" ],
+        [ "rc-table", "7.30.3" ],
         [ "rc-tabs", "12.5.6" ],
-        [ "rc-textarea", "0.4.7" ],
-        [ "rc-tooltip", "5.2.2" ],
+        [ "rc-textarea", "1.0.1" ],
+        [ "rc-tooltip", "5.3.1" ],
         [ "rc-tree", "5.7.2" ],
-        [ "rc-tree-select", "5.5.5" ],
+        [ "rc-tree-select", "5.6.0" ],
         [ "rc-trigger", "5.3.4" ],
         [ "rc-upload", "4.3.4" ],
         [ "rc-util", "5.27.2" ],
@@ -161,9 +209,10 @@
         [ "regenerator-runtime", "0.13.11" ],
         [ "resize-observer-polyfill", "1.5.1" ],
         [ "scheduler", "0.23.0" ],
-        [ "scroll-into-view-if-needed", "2.2.31" ],
-        [ "shallowequal", "1.1.0" ],
+        [ "scroll-into-view-if-needed", "3.0.6" ],
         [ "string-convert", "0.2.1" ],
+        [ "stylis", "4.1.3" ],
+        [ "throttle-debounce", "5.0.0" ],
         [ "toggle-selection", "1.0.6" ]
       ]
     },
@@ -192,11 +241,11 @@
       ]
     },
     "rc-cascader": {
-      "3.7.0": [
+      "3.8.0": [
         [ "@babel/runtime", "7.20.13" ],
         [ "array-tree-filter", "2.1.0" ],
         [ "classnames", "2.3.2" ],
-        [ "rc-select", "14.1.16" ],
+        [ "rc-select", "14.2.0" ],
         [ "rc-tree", "5.7.2" ],
         [ "rc-util", "5.27.2" ]
       ]
@@ -208,12 +257,11 @@
       ]
     },
     "rc-collapse": {
-      "3.4.2": [
+      "3.5.2": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "rc-motion", "2.6.3" ],
-        [ "rc-util", "5.27.2" ],
-        [ "shallowequal", "1.1.0" ]
+        [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-dialog": {
@@ -260,25 +308,27 @@
       ]
     },
     "rc-input": {
-      "0.1.4": [
+      "0.2.2": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-input-number": {
-      "7.3.11": [
+      "7.4.0": [
         [ "@babel/runtime", "7.20.13" ],
+        [ "@rc-component/mini-decimal", "1.0.1" ],
         [ "classnames", "2.3.2" ],
         [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-mentions": {
-      "1.13.1": [
+      "2.0.0": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
+        [ "rc-input", "0.2.2" ],
         [ "rc-menu", "9.8.2" ],
-        [ "rc-textarea", "0.4.7" ],
+        [ "rc-textarea", "1.0.1" ],
         [ "rc-trigger", "5.3.4" ],
         [ "rc-util", "5.27.2" ]
       ]
@@ -301,7 +351,7 @@
       ]
     },
     "rc-notification": {
-      "4.6.1": [
+      "5.0.2": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "rc-motion", "2.6.3" ],
@@ -323,15 +373,11 @@
       ]
     },
     "rc-picker": {
-      "2.7.0": [
+      "3.1.5": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
-        [ "date-fns", "2.29.3" ],
-        [ "dayjs", "1.11.7" ],
-        [ "moment", "2.29.4" ],
         [ "rc-trigger", "5.3.4" ],
-        [ "rc-util", "5.27.2" ],
-        [ "shallowequal", "1.1.0" ]
+        [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-progress": {
@@ -365,7 +411,7 @@
       ]
     },
     "rc-select": {
-      "14.1.16": [
+      "14.2.0": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "rc-motion", "2.6.3" ],
@@ -376,34 +422,33 @@
       ]
     },
     "rc-slider": {
-      "10.0.1": [
+      "10.1.1": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
-        [ "rc-util", "5.27.2" ],
-        [ "shallowequal", "1.1.0" ]
+        [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-steps": {
-      "5.0.0": [
+      "6.0.0": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-switch": {
-      "3.2.2": [
+      "4.0.0": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-table": {
-      "7.26.0": [
+      "7.30.3": [
         [ "@babel/runtime", "7.20.13" ],
+        [ "@rc-component/context", "1.3.0" ],
         [ "classnames", "2.3.2" ],
         [ "rc-resize-observer", "1.3.1" ],
-        [ "rc-util", "5.27.2" ],
-        [ "shallowequal", "1.1.0" ]
+        [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-tabs": {
@@ -418,16 +463,16 @@
       ]
     },
     "rc-textarea": {
-      "0.4.7": [
+      "1.0.1": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
+        [ "rc-input", "0.2.2" ],
         [ "rc-resize-observer", "1.3.1" ],
-        [ "rc-util", "5.27.2" ],
-        [ "shallowequal", "1.1.0" ]
+        [ "rc-util", "5.27.2" ]
       ]
     },
     "rc-tooltip": {
-      "5.2.2": [
+      "5.3.1": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
         [ "rc-trigger", "5.3.4" ]
@@ -443,10 +488,10 @@
       ]
     },
     "rc-tree-select": {
-      "5.5.5": [
+      "5.6.0": [
         [ "@babel/runtime", "7.20.13" ],
         [ "classnames", "2.3.2" ],
-        [ "rc-select", "14.1.16" ],
+        [ "rc-select", "14.2.0" ],
         [ "rc-tree", "5.7.2" ],
         [ "rc-util", "5.27.2" ]
       ]
@@ -498,24 +543,31 @@
       ]
     },
     "scroll-into-view-if-needed": {
-      "2.2.31": [
-        [ "compute-scroll-into-view", "1.0.20" ]
+      "3.0.6": [
+        [ "compute-scroll-into-view", "3.0.0" ]
       ]
     }
   },
   "sources": {
     "@ant-design/colors": {
-      "6.0.0": {
-        "hash": "sha512-qAZRvPzfdWHtfameEGP2Qvuf838NhergR35o+EuVyB5XvSA98xod5r4utvi4TJ3ywmevm290g9nsCG5MryrdWQ==",
+      "7.0.0": {
+        "hash": "sha512-iVm/9PfGCbC0dSMBrz7oiEXZaaGH7ceU40OJEfKmyuzR9R5CRimJYPlRiFtMQGQcbNMea/ePcoIebi4ASGYXtg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ant-design/colors/-/colors-6.0.0.tgz"
+        "url": "https://registry.npmjs.org/@ant-design/colors/-/colors-7.0.0.tgz"
+      }
+    },
+    "@ant-design/cssinjs": {
+      "1.5.6": {
+        "hash": "sha512-1S7LUPC9BMyQ/CUYgzfePJJwEfsbVHJe3Tpd9zhujTxRM/6LYpN9N4FTaPHVqpnPazm0S2vG0WBkh2T5Erwuug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-1.5.6.tgz"
       }
     },
     "@ant-design/icons": {
-      "4.8.0": {
-        "hash": "sha512-T89P2jG2vM7OJ0IfGx2+9FC5sQjtTzRSz+mCHTXkFn/ELZc2YpfStmYHmqzq2Jx55J0F7+O6i5/ZKFSVNWCKNg==",
+      "5.0.1": {
+        "hash": "sha512-ZyF4ksXCcdtwA/1PLlnFLcF/q8/MhwxXhKHh4oCHDA4Ip+ZzAHoICtyp4wZWfiCVDP0yuz3HsjyvuldHFb3wjA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ant-design/icons/-/icons-4.8.0.tgz"
+        "url": "https://registry.npmjs.org/@ant-design/icons/-/icons-5.0.1.tgz"
       }
     },
     "@ant-design/icons-svg": {
@@ -526,10 +578,10 @@
       }
     },
     "@ant-design/react-slick": {
-      "0.29.2": {
-        "hash": "sha512-kgjtKmkGHa19FW21lHnAfyyH9AAoh35pBdcJ53rHmQ3O+cfFHGHnUbj/HFrRNJ5vIts09FKJVAD8RpaC+RaWfA==",
+      "1.0.0": {
+        "hash": "sha512-OKxZsn8TAf8fYxP79rDXgLs9zvKMTslK6dJ4iLhDXOujUqC5zJPBRszyrcEHXcMPOm1Sgk40JgyF3yiL/Swd7w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-0.29.2.tgz"
+        "url": "https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-1.0.0.tgz"
       }
     },
     "@babel/runtime": {
@@ -540,10 +592,45 @@
       }
     },
     "@ctrl/tinycolor": {
-      "3.5.1": {
-        "hash": "sha512-Bp8VF1lm91/vxFSBdVrrSe+P4KpjRCSAJ6qPSeLFnVprT/ERXHDvV2OJSJbRwl1r/KcySshTUnVbAzrSbn93fg==",
+      "3.6.0": {
+        "hash": "sha512-/Z3l6pXthq0JvMYdUFyX9j0MaCltlIn6mfh9jLyQwg5aPKxkyNa0PTHtU1AlFXLNk55ZuAeJRcpvq+tmLfKmaQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.5.1.tgz"
+        "url": "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.6.0.tgz"
+      }
+    },
+    "@emotion/hash": {
+      "0.8.0": {
+        "hash": "sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz"
+      }
+    },
+    "@emotion/unitless": {
+      "0.7.5": {
+        "hash": "sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz"
+      }
+    },
+    "@rc-component/context": {
+      "1.3.0": {
+        "hash": "sha512-6QdaCJ7Wn5UZLJs15IEfqy4Ru3OaL5ctqpQYWd5rlfV9wwzrzdt6+kgAQZV/qdB0MUPN4nhyBfRembQCIvBf+w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rc-component/context/-/context-1.3.0.tgz"
+      }
+    },
+    "@rc-component/mini-decimal": {
+      "1.0.1": {
+        "hash": "sha512-9N8nRk0oKj1qJzANKl+n9eNSMUGsZtjwNuDCiZ/KA+dt1fE3zq5x2XxclRcAbOIXnZcJ53ozP2Pa60gyELXagA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.0.1.tgz"
+      }
+    },
+    "@rc-component/mutate-observer": {
+      "1.0.0": {
+        "hash": "sha512-okqRJSfNisXdI6CUeOLZC5ukBW/8kir2Ii4PJiKpUt+3+uS7dxwJUMxsUZquxA1rQuL8YcEmKVp/TCnR+yUdZA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rc-component/mutate-observer/-/mutate-observer-1.0.0.tgz"
       }
     },
     "@rc-component/portal": {
@@ -553,11 +640,18 @@
         "url": "https://registry.npmjs.org/@rc-component/portal/-/portal-1.1.0.tgz"
       }
     },
-    "antd": {
-      "4.24.8": {
-        "hash": "sha512-wrNy2Hi27uM3948okG3n2GwzQKBFUn1Qn5mn2I/ALcR28rC6cTjHYOuA248Zl9ECzz3jo4TY2R0SIa+5GZ/zGA==",
+    "@rc-component/tour": {
+      "1.6.0": {
+        "hash": "sha512-b/s7LCb7bW4wxpWfZyNpl7khHUzSyObSlsLaIScRGd+W/v1wFVk8F7gRytl/z8ik9ZSXbLWx9EvexIuHoO/RcQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/antd/-/antd-4.24.8.tgz"
+        "url": "https://registry.npmjs.org/@rc-component/tour/-/tour-1.6.0.tgz"
+      }
+    },
+    "antd": {
+      "5.2.1": {
+        "hash": "sha512-yuTeYEhfvsEjHdPwhb47GXBk9EHZ/pHDaUgJMXHhOUbaWPWnTliHtQwgHYMJT9rEZobi3O0YRP2wnYWVtbDGsw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/antd/-/antd-5.2.1.tgz"
       }
     },
     "array-tree-filter": {
@@ -582,10 +676,10 @@
       }
     },
     "compute-scroll-into-view": {
-      "1.0.20": {
-        "hash": "sha512-UCB0ioiyj8CRjtrvaceBLqqhZCVP+1B8+NWQhmdsm0VXOJtobBCf1dBQmebCCo34qZmUwZfIH2MZLqNHazrfjg==",
+      "3.0.0": {
+        "hash": "sha512-Yk1An4qzo5++Cu6peT9PsmRKIU8tALpmdoE09n//AfGQFcPfx21/tMGMsmKYmLJWaBJrGOJ5Jz5hoU+7cZZUWQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-1.0.20.tgz"
+        "url": "https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.0.0.tgz"
       }
     },
     "copy-to-clipboard": {
@@ -595,11 +689,11 @@
         "url": "https://registry.npmjs.org/copy-to-clipboard/-/copy-to-clipboard-3.3.3.tgz"
       }
     },
-    "date-fns": {
-      "2.29.3": {
-        "hash": "sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==",
+    "csstype": {
+      "3.1.1": {
+        "hash": "sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/date-fns/-/date-fns-2.29.3.tgz"
+        "url": "https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz"
       }
     },
     "dayjs": {
@@ -630,13 +724,6 @@
         "url": "https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz"
       }
     },
-    "lodash": {
-      "4.17.21": {
-        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
-      }
-    },
     "loose-envify": {
       "1.4.0": {
         "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
@@ -644,11 +731,11 @@
         "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
       }
     },
-    "moment": {
-      "2.29.4": {
-        "hash": "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==",
+    "qrcode.react": {
+      "3.1.0": {
+        "hash": "sha512-oyF+Urr3oAMUG/OiOuONL3HXM+53wvuH3mtIWQrYmsXoAq0DkvZp2RYUWFSMFtbdOpuS++9v+WAkzNVkMlNW6Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+        "url": "https://registry.npmjs.org/qrcode.react/-/qrcode.react-3.1.0.tgz"
       }
     },
     "rc-align": {
@@ -659,10 +746,10 @@
       }
     },
     "rc-cascader": {
-      "3.7.0": {
-        "hash": "sha512-SFtGpwmYN7RaWEAGTS4Rkc62ZV/qmQGg/tajr/7mfIkleuu8ro9Hlk6J+aA0x1YS4zlaZBtTcSaXM01QMiEV/A==",
+      "3.8.0": {
+        "hash": "sha512-zCz/NzsNRQ1TIfiR3rQNxjeRvgRHEkNdo0FjHQZ6Ay6n4tdCmMrM7+81ThNaf21JLQ1gS2AUG2t5uikGV78obA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-cascader/-/rc-cascader-3.7.0.tgz"
+        "url": "https://registry.npmjs.org/rc-cascader/-/rc-cascader-3.8.0.tgz"
       }
     },
     "rc-checkbox": {
@@ -673,10 +760,10 @@
       }
     },
     "rc-collapse": {
-      "3.4.2": {
-        "hash": "sha512-jpTwLgJzkhAgp2Wpi3xmbTbbYExg6fkptL67Uu5LCRVEj6wqmy0DHTjjeynsjOLsppHGHu41t1ELntZ0lEvS/Q==",
+      "3.5.2": {
+        "hash": "sha512-/TNiT3DW1t3sUCiVD/DPUYooJZ3BLA93/2rZsB3eM2bGJCCla2X9D2E4tgm7LGMQGy5Atb2lMUn2FQuvQNvavQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-collapse/-/rc-collapse-3.4.2.tgz"
+        "url": "https://registry.npmjs.org/rc-collapse/-/rc-collapse-3.5.2.tgz"
       }
     },
     "rc-dialog": {
@@ -715,24 +802,24 @@
       }
     },
     "rc-input": {
-      "0.1.4": {
-        "hash": "sha512-FqDdNz+fV2dKNgfXzcSLKvC+jEs1709t7nD+WdfjrdSaOcefpgc7BUJYadc3usaING+b7ediMTfKxuJBsEFbXA==",
+      "0.2.2": {
+        "hash": "sha512-xgkVcFgtRO0Hl9hmvslZhObNyxbSpTmy3nR1Tk4XrjjZ9lFJ7GcJBy6ss30Pdb0oX36cHzLN8I7VCjBGeRNB9A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-input/-/rc-input-0.1.4.tgz"
+        "url": "https://registry.npmjs.org/rc-input/-/rc-input-0.2.2.tgz"
       }
     },
     "rc-input-number": {
-      "7.3.11": {
-        "hash": "sha512-aMWPEjFeles6PQnMqP5eWpxzsvHm9rh1jQOWXExUEIxhX62Fyl/ptifLHOn17+waDG1T/YUb6flfJbvwRhHrbA==",
+      "7.4.0": {
+        "hash": "sha512-r/Oub/sPYbzqLNUOHnnc9sbCu78a81KX+RCbRwmpvB4W6nptUySbdWS5KHV4Hak5CAE1LAd+wWm5JjvZizG1FA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-input-number/-/rc-input-number-7.3.11.tgz"
+        "url": "https://registry.npmjs.org/rc-input-number/-/rc-input-number-7.4.0.tgz"
       }
     },
     "rc-mentions": {
-      "1.13.1": {
-        "hash": "sha512-FCkaWw6JQygtOz0+Vxz/M/NWqrWHB9LwqlY2RtcuFqWJNFK9njijOOzTSsBGANliGufVUzx/xuPHmZPBV0+Hgw==",
+      "2.0.0": {
+        "hash": "sha512-58NSeM6R5MrgYAhR2TH27JgAN7ivp3iBTmty3q6gvrrGHelPMdGxpJ5aH7AIlodCrPWLAm1lT4XoiuI4s9snXA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-mentions/-/rc-mentions-1.13.1.tgz"
+        "url": "https://registry.npmjs.org/rc-mentions/-/rc-mentions-2.0.0.tgz"
       }
     },
     "rc-menu": {
@@ -750,10 +837,10 @@
       }
     },
     "rc-notification": {
-      "4.6.1": {
-        "hash": "sha512-NSmFYwrrdY3+un1GvDAJQw62Xi9LNMSsoQyo95tuaYrcad5Bn9gJUL8AREufRxSQAQnr64u3LtP3EUyLYT6bhw==",
+      "5.0.2": {
+        "hash": "sha512-74wUFiLlyr6lRGEY1m1BaTiDp+0lIT4FRAblMnh9FApyK2JGdsSLbrQ/1rgM7d2N/IX5UIr8kLLW3TdXxFt/jQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-notification/-/rc-notification-4.6.1.tgz"
+        "url": "https://registry.npmjs.org/rc-notification/-/rc-notification-5.0.2.tgz"
       }
     },
     "rc-overflow": {
@@ -771,10 +858,10 @@
       }
     },
     "rc-picker": {
-      "2.7.0": {
-        "hash": "sha512-oZH6FZ3j4iuBxHB4NvQ6ABRsS2If/Kpty1YFFsji7/aej6ruGmfM7WnJWQ88AoPfpJ++ya5z+nVEA8yCRYGKyw==",
+      "3.1.5": {
+        "hash": "sha512-Hh3ml+u+5mxLfl4ahVWlRGiX5+0EJrALR6tSW9yP0eea+6j+YjvjfetbvuVidViMDMweZa38dr8HTfAFLG6GFw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-picker/-/rc-picker-2.7.0.tgz"
+        "url": "https://registry.npmjs.org/rc-picker/-/rc-picker-3.1.5.tgz"
       }
     },
     "rc-progress": {
@@ -806,38 +893,38 @@
       }
     },
     "rc-select": {
-      "14.1.16": {
-        "hash": "sha512-71XLHleuZmufpdV2vis5oituRkhg2WNvLpVMJBGWRar6WGAVOHXaY9DR5HvwWry3EGTn19BqnL6Xbybje6f8YA==",
+      "14.2.0": {
+        "hash": "sha512-tvxHmbAA0EIhBkB7dyaRhcBUIWHocQbUFY/fBlezj2jg5p65a5VQ/UhBg2I9TA1wjpsr5CCx0ruZPkYcUMjDoQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-select/-/rc-select-14.1.16.tgz"
+        "url": "https://registry.npmjs.org/rc-select/-/rc-select-14.2.0.tgz"
       }
     },
     "rc-slider": {
-      "10.0.1": {
-        "hash": "sha512-igTKF3zBet7oS/3yNiIlmU8KnZ45npmrmHlUUio8PNbIhzMcsh+oE/r2UD42Y6YD2D/s+kzCQkzQrPD6RY435Q==",
+      "10.1.1": {
+        "hash": "sha512-gn8oXazZISEhnmRinI89Z/JD/joAaM35jp+gDtIVSTD/JJMCCBqThqLk1SVJmvtfeiEF/kKaFY0+qt4SDHFUDw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-slider/-/rc-slider-10.0.1.tgz"
+        "url": "https://registry.npmjs.org/rc-slider/-/rc-slider-10.1.1.tgz"
       }
     },
     "rc-steps": {
-      "5.0.0": {
-        "hash": "sha512-9TgRvnVYirdhbV0C3syJFj9EhCRqoJAsxt4i1rED5o8/ZcSv5TLIYyo4H8MCjLPvbe2R+oBAm/IYBEtC+OS1Rw==",
+      "6.0.0": {
+        "hash": "sha512-+KfMZIty40mYCQSDvYbZ1jwnuObLauTiIskT1hL4FFOBHP6ZOr8LK0m143yD3kEN5XKHSEX1DIwCj3AYZpoeNQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-steps/-/rc-steps-5.0.0.tgz"
+        "url": "https://registry.npmjs.org/rc-steps/-/rc-steps-6.0.0.tgz"
       }
     },
     "rc-switch": {
-      "3.2.2": {
-        "hash": "sha512-+gUJClsZZzvAHGy1vZfnwySxj+MjLlGRyXKXScrtCTcmiYNPzxDFOxdQ/3pK1Kt/0POvwJ/6ALOR8gwdXGhs+A==",
+      "4.0.0": {
+        "hash": "sha512-IfrYC99vN0gKaTyjQdqYuADU0eH00SAFHg3jOp8HrmUpJruhV1SohJzrCbPqPraZeX/6X/QKkdLfkdnUub05WA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-switch/-/rc-switch-3.2.2.tgz"
+        "url": "https://registry.npmjs.org/rc-switch/-/rc-switch-4.0.0.tgz"
       }
     },
     "rc-table": {
-      "7.26.0": {
-        "hash": "sha512-0cD8e6S+DTGAt5nBZQIPFYEaIukn17sfa5uFL98faHlH/whZzD8ii3dbFL4wmUDEL4BLybhYop+QUfZJ4CPvNQ==",
+      "7.30.3": {
+        "hash": "sha512-PHe+lZKwPo3qui5j79m54vKu8b4hebk04x+4Hy65NvwUU3+NNFGS5FZpylXQMkueMnE8hgh22ZuScQDkCtzQFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-table/-/rc-table-7.26.0.tgz"
+        "url": "https://registry.npmjs.org/rc-table/-/rc-table-7.30.3.tgz"
       }
     },
     "rc-tabs": {
@@ -848,17 +935,17 @@
       }
     },
     "rc-textarea": {
-      "0.4.7": {
-        "hash": "sha512-IQPd1CDI3mnMlkFyzt2O4gQ2lxUsnBAeJEoZGJnkkXgORNqyM9qovdrCj9NzcRfpHgLdzaEbU3AmobNFGUznwQ==",
+      "1.0.1": {
+        "hash": "sha512-dtIm96apjJpCUcCeTtbnLGJaVlqbOqVgN0P9z+bqMSi7rcV5QVeUtBnG+jQTGk/uD183Z7jbhc8Dx7G3luDCwg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-textarea/-/rc-textarea-0.4.7.tgz"
+        "url": "https://registry.npmjs.org/rc-textarea/-/rc-textarea-1.0.1.tgz"
       }
     },
     "rc-tooltip": {
-      "5.2.2": {
-        "hash": "sha512-jtQzU/18S6EI3lhSGoDYhPqNpWajMtS5VV/ld1LwyfrDByQpYmw/LW6U7oFXXLukjfDHQ7Ju705A82PRNFWYhg==",
+      "5.3.1": {
+        "hash": "sha512-e6H0dMD38EPaSPD2XC8dRfct27VvT2TkPdoBSuNl3RRZ5tspiY/c5xYEmGC0IrABvMBgque4Mr2SMZuliCvoiQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-tooltip/-/rc-tooltip-5.2.2.tgz"
+        "url": "https://registry.npmjs.org/rc-tooltip/-/rc-tooltip-5.3.1.tgz"
       }
     },
     "rc-tree": {
@@ -869,10 +956,10 @@
       }
     },
     "rc-tree-select": {
-      "5.5.5": {
-        "hash": "sha512-k2av7jF6tW9bIO4mQhaVdV4kJ1c54oxV3/hHVU+oD251Gb5JN+m1RbJFTMf1o0rAFqkvto33rxMdpafaGKQRJw==",
+      "5.6.0": {
+        "hash": "sha512-XG6pu0a9l6+mzhQqUYfR2VIONbe/3LjVc3wKt28k6uBMZsI1j+SSxRyt/7jWRq8Kok8jHJBQASlDg6ehr9Sp0w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rc-tree-select/-/rc-tree-select-5.5.5.tgz"
+        "url": "https://registry.npmjs.org/rc-tree-select/-/rc-tree-select-5.6.0.tgz"
       }
     },
     "rc-trigger": {
@@ -946,17 +1033,10 @@
       }
     },
     "scroll-into-view-if-needed": {
-      "2.2.31": {
-        "hash": "sha512-dGCXy99wZQivjmjIqihaBQNjryrz5rueJY7eHfTdyWEiR4ttYpsajb14rn9s5d4DY4EcY6+4+U/maARBXJedkA==",
+      "3.0.6": {
+        "hash": "sha512-x+CW0kOzlFNOnseF0DBr0AJ5m+TgGmSOdEZwyiZW0gV87XBvxQKw5A8DvFFgabznA68XqLgVX+PwPX8OzsFvRA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-2.2.31.tgz"
-      }
-    },
-    "shallowequal": {
-      "1.1.0": {
-        "hash": "sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/shallowequal/-/shallowequal-1.1.0.tgz"
+        "url": "https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.0.6.tgz"
       }
     },
     "string-convert": {
@@ -964,6 +1044,20 @@
         "hash": "sha512-u/1tdPl4yQnPBjnVrmdLo9gtuLvELKsAoRapekWggdiQNvvvum+jYF329d84NAa660KQw7pB2n36KrIKVoXa3A==",
         "type": "http",
         "url": "https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz"
+      }
+    },
+    "stylis": {
+      "4.1.3": {
+        "hash": "sha512-GP6WDNWf+o403jrEp9c5jibKavrtLW+/qYGhFxFrG8maXhwTBI7gLLhiBb0o7uFccWN+EOS9aMO6cGHWAO07OA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stylis/-/stylis-4.1.3.tgz"
+      }
+    },
+    "throttle-debounce": {
+      "5.0.0": {
+        "hash": "sha512-2iQTSgkkc1Zyk0MeVrt/3BvuOXYPl/R8Z0U2xxo9rjwNciaHDG3R+Lm6dh4EeUci49DanvBnuqI6jshoQQRGEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-5.0.0.tgz"
       }
     },
     "toggle-selection": {

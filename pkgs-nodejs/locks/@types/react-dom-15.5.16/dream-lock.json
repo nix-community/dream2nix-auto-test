@@ -1,0 +1,45 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/react-dom",
+    "location": "",
+    "packages": {
+      "@types/react-dom": "15.5.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/react-dom": {
+      "15.5.16": [
+        [ "@types/react", "15.7.12" ]
+      ],
+      "unknown": [
+        [ "@types/react", "15.7.12" ],
+        [ "@types/react-dom", "15.5.16" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/react": {
+      "15.7.12": {
+        "hash": "sha512-FbIDKxGEzmf0jM+1ArXAJwJzg7GkUq5nLVBIz/PSBwVUzATuAjbPrN+UUEAW6zpt/A2WF8XMfSKsNfGX95xCsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react/-/react-15.7.12.tgz"
+      }
+    },
+    "@types/react-dom": {
+      "15.5.16": {
+        "hash": "sha512-KEJaAgHcV4nMWgPOmVrRSDI+gkdH2HgI563U1WfX1CmX8qrCL5DzMNcE/SouddM/drJ1SGARP6www+a24ztZPg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react-dom/-/react-dom-15.5.16.tgz"
+      }
+    }
+  }
+}
