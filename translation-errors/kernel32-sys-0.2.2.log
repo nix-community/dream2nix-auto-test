@@ -1,23 +1,24 @@
 
 Translating:: kernel32-sys (translator: crates-io) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-rust/locks/kernel32-sys-0.2.2/dream-lock.json)
-/tmp/tmp.iHMWuEBY9W/tmp.3YCsPaGnt4/tmp.8yDd1bfKIL ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-rust/locks
+/tmp/tmp.k8UOQ5UTpM/tmp.NCAU1rpgoa/tmp.V00JWqcxsS ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-rust/locks
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24537  100 24537    0     0  66010      0 --:--:-- --:--:-- --:--:--  855k
-/tmp/tmp.iHMWuEBY9W/tmp.3YCsPaGnt4/tmp.8yDd1bfKIL
+100 24537  100 24537    0     0  65321      0 --:--:-- --:--:-- --:--:-- 65321
+/tmp/tmp.k8UOQ5UTpM/tmp.NCAU1rpgoa/tmp.V00JWqcxsS
 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-rust/locks
-/tmp/tmp.iHMWuEBY9W/tmp.3YCsPaGnt4/tmp.8yDd1bfKIL/tmp.M7zj8jcgQE ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-rust/locks
-error: failed to get `winapi` as a dependency of package `kernel32-sys v0.2.2 (/tmp/tmp.iHMWuEBY9W/tmp.3YCsPaGnt4/tmp.8yDd1bfKIL/tmp.M7zj8jcgQE)`
+/tmp/tmp.k8UOQ5UTpM/tmp.NCAU1rpgoa/tmp.V00JWqcxsS/tmp.pLF3Fj2DMK ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-rust/locks
+    Blocking waiting for file lock on package cache
+error: failed to get `winapi` as a dependency of package `kernel32-sys v0.2.2 (/tmp/tmp.k8UOQ5UTpM/tmp.NCAU1rpgoa/tmp.V00JWqcxsS/tmp.pLF3Fj2DMK)`
 
 Caused by:
   failed to load source for dependency `winapi`
 
 Caused by:
-  Unable to update /tmp/tmp.iHMWuEBY9W/tmp.3YCsPaGnt4
+  Unable to update /tmp/tmp.k8UOQ5UTpM/tmp.NCAU1rpgoa
 
 Caused by:
-  failed to read `/tmp/tmp.iHMWuEBY9W/tmp.3YCsPaGnt4/Cargo.toml`
+  failed to read `/tmp/tmp.k8UOQ5UTpM/tmp.NCAU1rpgoa/Cargo.toml`
 
 Caused by:
   No such file or directory (os error 2)
