@@ -3,7 +3,7 @@
     "defaultPackage": "memmap2",
     "location": "",
     "packages": {
-      "memmap2": "0.5.8"
+      "memmap2": "0.5.9"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "memmap2": {
-        "0.5.8": {
+        "0.5.9": {
           "description": "Cross-platform Rust API for memory-mapped file IO", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,14 +20,14 @@
     },
     "relPathReplacements": {
       "memmap2": {
-        "0.5.8": {}
+        "0.5.9": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "fastrand": {
-      "1.7.0": [
+      "1.9.0": [
         [ "instant", "0.1.12" ]
       ]
     },
@@ -37,8 +37,8 @@
       ]
     },
     "memmap2": {
-      "0.5.8": [
-        [ "libc", "0.2.99" ],
+      "0.5.9": [
+        [ "libc", "0.2.139" ],
         [ "owning_ref", "0.4.1" ],
         [ "stable_deref_trait", "1.2.0" ],
         [ "tempfile", "3.3.0" ]
@@ -50,7 +50,7 @@
       ]
     },
     "redox_syscall": {
-      "0.2.13": [
+      "0.2.16": [
         [ "bitflags", "1.3.2" ]
       ]
     },
@@ -62,9 +62,9 @@
     "tempfile": {
       "3.3.0": [
         [ "cfg-if", "1.0.0" ],
-        [ "fastrand", "1.7.0" ],
-        [ "libc", "0.2.99" ],
-        [ "redox_syscall", "0.2.13" ],
+        [ "fastrand", "1.9.0" ],
+        [ "libc", "0.2.139" ],
+        [ "redox_syscall", "0.2.16" ],
         [ "remove_dir_all", "0.5.3" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -90,8 +90,8 @@
       }
     },
     "fastrand": {
-      "1.7.0": {
-        "hash": "c3fcf0cee53519c866c09b5de1f6c56ff9d647101f81c1964fa632e148896cdf",
+      "1.9.0": {
+        "hash": "e51093e27b0797c359783294ca4f0a911c270184cb10f85783b118614a1501be",
         "type": "crates-io"
       }
     },
@@ -102,14 +102,14 @@
       }
     },
     "libc": {
-      "0.2.99": {
-        "hash": "a7f823d141fe0a24df1e23b4af4e3c7ba9e5966ec514ea068c93024aa7deb765",
+      "0.2.139": {
+        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
         "type": "crates-io"
       }
     },
     "memmap2": {
-      "0.5.8": {
-        "hash": "4b182332558b18d807c4ce1ca8ca983b34c3ee32765e47b3f0f69b90355cc1dc",
+      "0.5.9": {
+        "hash": "2af2c65375e552a67fe3829ca63e8a7c27a378a62824594f43b2851d682b5ec2",
         "type": "crates-io"
       }
     },
@@ -120,8 +120,8 @@
       }
     },
     "redox_syscall": {
-      "0.2.13": {
-        "hash": "62f25bc4c7e55e0b0b7a1d43fb893f4fa1361d0abe38b9ce4f323c2adfe6ef42",
+      "0.2.16": {
+        "hash": "fb5a58c1855b4b6819d59012155603f0b22ad30cad752600aadfcb695265519a",
         "type": "crates-io"
       }
     },
