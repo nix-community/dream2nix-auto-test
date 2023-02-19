@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "tokio-util",
+    "defaultPackage": "async-stream-impl",
     "location": "",
     "packages": {
-      "tokio-util": "0.7.7"
+      "async-stream-impl": "0.3.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,64 +11,29 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "tokio-util": {
-        "0.7.7": {
-          "description": "Additional utilities for working with Tokio.\n", "homepage": "https://tokio.rs", "license": [   "mit"
+      "async-stream-impl": {
+        "0.3.4": {
+          "description": "proc macros for async-stream crate", "license": [   "mit"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "tokio-util": {
-        "0.7.7": {}
+      "async-stream-impl": {
+        "0.3.4": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "ahash": {
-      "0.7.6": [
-        [ "getrandom", "0.2.8" ],
-        [ "once_cell", "1.17.1" ],
-        [ "version_check", "0.9.4" ]
-      ]
-    },
-    "async-stream": {
-      "0.3.4": [
-        [ "async-stream-impl", "0.3.4" ],
-        [ "futures-core", "0.3.26" ],
-        [ "pin-project-lite", "0.2.9" ]
-      ]
-    },
     "async-stream-impl": {
       "0.3.4": [
+        [ "futures-core", "0.3.26" ],
+        [ "futures-util", "0.3.26" ],
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
-        [ "syn", "1.0.107" ]
-      ]
-    },
-    "futures": {
-      "0.3.26": [
-        [ "futures-channel", "0.3.26" ],
-        [ "futures-core", "0.3.26" ],
-        [ "futures-executor", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
-        [ "futures-util", "0.3.26" ]
-      ]
-    },
-    "futures-channel": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ]
-      ]
-    },
-    "futures-executor": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
-        [ "futures-util", "0.3.26" ]
+        [ "syn", "1.0.107" ],
+        [ "tokio", "1.25.0" ]
       ]
     },
     "futures-macro": {
@@ -78,43 +43,14 @@
         [ "syn", "1.0.107" ]
       ]
     },
-    "futures-test": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ],
-        [ "futures-executor", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
-        [ "futures-macro", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
-        [ "futures-util", "0.3.26" ],
-        [ "pin-project", "1.0.12" ],
-        [ "pin-utils", "0.1.0" ]
-      ]
-    },
     "futures-util": {
       "0.3.26": [
-        [ "futures-channel", "0.3.26" ],
         [ "futures-core", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
         [ "futures-macro", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
         [ "futures-task", "0.3.26" ],
-        [ "memchr", "2.5.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
         [ "slab", "0.4.7" ]
-      ]
-    },
-    "getrandom": {
-      "0.2.8": [
-        [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.139" ],
-        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
-      ]
-    },
-    "hashbrown": {
-      "0.12.3": [
-        [ "ahash", "0.7.6" ]
       ]
     },
     "hermit-abi": {
@@ -160,18 +96,6 @@
         [ "redox_syscall", "0.2.16" ],
         [ "smallvec", "1.10.0" ],
         [ "windows-sys", "0.45.0" ]
-      ]
-    },
-    "pin-project": {
-      "1.0.12": [
-        [ "pin-project-internal", "1.0.12" ]
-      ]
-    },
-    "pin-project-internal": {
-      "1.0.12": [
-        [ "proc-macro2", "1.0.51" ],
-        [ "quote", "1.0.23" ],
-        [ "syn", "1.0.107" ]
       ]
     },
     "proc-macro2": {
@@ -235,54 +159,6 @@
         [ "syn", "1.0.107" ]
       ]
     },
-    "tokio-stream": {
-      "0.1.11": [
-        [ "futures-core", "0.3.26" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.25.0" ]
-      ]
-    },
-    "tokio-test": {
-      "0.4.2": [
-        [ "async-stream", "0.3.4" ],
-        [ "bytes", "1.4.0" ],
-        [ "futures-core", "0.3.26" ],
-        [ "tokio", "1.25.0" ],
-        [ "tokio-stream", "0.1.11" ]
-      ]
-    },
-    "tokio-util": {
-      "0.7.7": [
-        [ "async-stream", "0.3.4" ],
-        [ "bytes", "1.4.0" ],
-        [ "futures", "0.3.26" ],
-        [ "futures-core", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
-        [ "futures-test", "0.3.26" ],
-        [ "futures-util", "0.3.26" ],
-        [ "hashbrown", "0.12.3" ],
-        [ "parking_lot", "0.12.1" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "slab", "0.4.7" ],
-        [ "tokio", "1.25.0" ],
-        [ "tokio-stream", "0.1.11" ],
-        [ "tokio-test", "0.4.2" ],
-        [ "tracing", "0.1.37" ]
-      ]
-    },
-    "tracing": {
-      "0.1.37": [
-        [ "cfg-if", "1.0.0" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "tracing-core", "0.1.30" ]
-      ]
-    },
-    "tracing-core": {
-      "0.1.30": [
-        [ "once_cell", "1.17.1" ]
-      ]
-    },
     "winapi": {
       "0.3.9": [
         [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
@@ -316,18 +192,6 @@
     }
   },
   "sources": {
-    "ahash": {
-      "0.7.6": {
-        "hash": "fcb51a0695d8f838b1ee009b3fbf66bda078cd64590202a864a8f3e8c4315c47",
-        "type": "crates-io"
-      }
-    },
-    "async-stream": {
-      "0.3.4": {
-        "hash": "ad445822218ce64be7a341abfb0b1ea43b5c23aa83902542a4542e78309d8e5e",
-        "type": "crates-io"
-      }
-    },
     "async-stream-impl": {
       "0.3.4": {
         "hash": "e4655ae1a7b0cdf149156f780c5bf3f1352bc53cbd9e0a361a7ef7b22947e965",
@@ -358,33 +222,9 @@
         "type": "crates-io"
       }
     },
-    "futures": {
-      "0.3.26": {
-        "hash": "13e2792b0ff0340399d58445b88fd9770e3489eff258a4cbc1523418f12abf84",
-        "type": "crates-io"
-      }
-    },
-    "futures-channel": {
-      "0.3.26": {
-        "hash": "2e5317663a9089767a1ec00a487df42e0ca174b61b4483213ac24448e4664df5",
-        "type": "crates-io"
-      }
-    },
     "futures-core": {
       "0.3.26": {
         "hash": "ec90ff4d0fe1f57d600049061dc6bb68ed03c7d2fbd697274c41805dcb3f8608",
-        "type": "crates-io"
-      }
-    },
-    "futures-executor": {
-      "0.3.26": {
-        "hash": "e8de0a35a6ab97ec8869e32a2473f4b1324459e14c29275d14b10cb1fd19b50e",
-        "type": "crates-io"
-      }
-    },
-    "futures-io": {
-      "0.3.26": {
-        "hash": "bfb8371b6fb2aeb2d280374607aeabfc99d95c72edfe51692e42d3d7f0d08531",
         "type": "crates-io"
       }
     },
@@ -394,39 +234,15 @@
         "type": "crates-io"
       }
     },
-    "futures-sink": {
-      "0.3.26": {
-        "hash": "f310820bb3e8cfd46c80db4d7fb8353e15dfff853a127158425f31e0be6c8364",
-        "type": "crates-io"
-      }
-    },
     "futures-task": {
       "0.3.26": {
         "hash": "dcf79a1bf610b10f42aea489289c5a2c478a786509693b80cd39c44ccd936366",
         "type": "crates-io"
       }
     },
-    "futures-test": {
-      "0.3.26": {
-        "hash": "247a763336996e90f355708bf9ae8b78ab5ae8810b9e7bd731cce65fd7fe6d5d",
-        "type": "crates-io"
-      }
-    },
     "futures-util": {
       "0.3.26": {
         "hash": "9c1d6de3acfef38d2be4b1f543f553131788603495be83da675e180c8d6b7bd1",
-        "type": "crates-io"
-      }
-    },
-    "getrandom": {
-      "0.2.8": {
-        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
-        "type": "crates-io"
-      }
-    },
-    "hashbrown": {
-      "0.12.3": {
-        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
         "type": "crates-io"
       }
     },
@@ -472,12 +288,6 @@
         "type": "crates-io"
       }
     },
-    "once_cell": {
-      "1.17.1": {
-        "hash": "b7e5500299e16ebb147ae15a00a942af264cf3688f47923b8fc2cd5858f23ad3",
-        "type": "crates-io"
-      }
-    },
     "parking_lot": {
       "0.12.1": {
         "hash": "3742b2c103b9f06bc9fff0a37ff4912935851bee6d36f3c02bcc755bcfec228f",
@@ -487,18 +297,6 @@
     "parking_lot_core": {
       "0.9.7": {
         "hash": "9069cbb9f99e3a5083476ccb29ceb1de18b9118cafa53e90c9551235de2b9521",
-        "type": "crates-io"
-      }
-    },
-    "pin-project": {
-      "1.0.12": {
-        "hash": "ad29a609b6bcd67fee905812e544992d216af9d755757c05ed2d0e15a74c6ecc",
-        "type": "crates-io"
-      }
-    },
-    "pin-project-internal": {
-      "1.0.12": {
-        "hash": "069bdb1e05adc7a8990dce9cc75370895fbe4e3d58b9b73bf1aee56359344a55",
         "type": "crates-io"
       }
     },
@@ -580,45 +378,9 @@
         "type": "crates-io"
       }
     },
-    "tokio-stream": {
-      "0.1.11": {
-        "hash": "d660770404473ccd7bc9f8b28494a811bc18542b915c0855c51e8f419d5223ce",
-        "type": "crates-io"
-      }
-    },
-    "tokio-test": {
-      "0.4.2": {
-        "hash": "53474327ae5e166530d17f2d956afcb4f8a004de581b3cae10f12006bc8163e3",
-        "type": "crates-io"
-      }
-    },
-    "tokio-util": {
-      "0.7.7": {
-        "hash": "5427d89453009325de0d8f342c9490009f76e999cb7672d77e46267448f7e6b2",
-        "type": "crates-io"
-      }
-    },
-    "tracing": {
-      "0.1.37": {
-        "hash": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8",
-        "type": "crates-io"
-      }
-    },
-    "tracing-core": {
-      "0.1.30": {
-        "hash": "24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a",
-        "type": "crates-io"
-      }
-    },
     "unicode-ident": {
       "1.0.6": {
         "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
-        "type": "crates-io"
-      }
-    },
-    "version_check": {
-      "0.9.4": {
-        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
         "type": "crates-io"
       }
     },

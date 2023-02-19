@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "async-stream-impl",
+    "defaultPackage": "async-stream",
     "location": "",
     "packages": {
-      "async-stream-impl": "0.3.3"
+      "async-stream": "0.3.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,29 +11,47 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "async-stream-impl": {
-        "0.3.3": {
-          "description": "proc macros for async-stream crate", "license": [   "mit"
+      "async-stream": {
+        "0.3.4": {
+          "description": "Asynchronous streams using async & await notation", "license": [   "mit"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "async-stream-impl": {
-        "0.3.3": {}
+      "async-stream": {
+        "0.3.4": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "async-stream-impl": {
-      "0.3.3": [
+    "async-stream": {
+      "0.3.0": [
+        [ "async-stream-impl", "0.3.4" ],
+        [ "futures-core", "0.3.26" ]
+      ],
+      "0.3.4": [
+        [ "async-stream-impl", "0.3.4" ],
         [ "futures-core", "0.3.26" ],
         [ "futures-util", "0.3.26" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "rustversion", "1.0.11" ],
+        [ "tokio", "1.25.0" ],
+        [ "tokio-test", "0.4.2" ],
+        [ "trybuild", "1.0.77" ]
+      ]
+    },
+    "async-stream-impl": {
+      "0.3.4": [
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
-        [ "syn", "1.0.107" ],
-        [ "tokio", "1.25.0" ]
+        [ "syn", "1.0.107" ]
+      ]
+    },
+    "basic-toml": {
+      "0.1.1": [
+        [ "serde", "1.0.152" ]
       ]
     },
     "futures-macro": {
@@ -113,6 +131,20 @@
         [ "bitflags", "1.3.2" ]
       ]
     },
+    "serde_derive": {
+      "1.0.152": [
+        [ "proc-macro2", "1.0.51" ],
+        [ "quote", "1.0.23" ],
+        [ "syn", "1.0.107" ]
+      ]
+    },
+    "serde_json": {
+      "1.0.93": [
+        [ "itoa", "1.0.5" ],
+        [ "ryu", "1.0.12" ],
+        [ "serde", "1.0.152" ]
+      ]
+    },
     "signal-hook-registry": {
       "1.4.1": [
         [ "libc", "0.2.139" ]
@@ -134,6 +166,11 @@
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "unicode-ident", "1.0.6" ]
+      ]
+    },
+    "termcolor": {
+      "1.2.0": [
+        [ "winapi-util", "0.1.5" ]
       ]
     },
     "tokio": {
@@ -159,10 +196,42 @@
         [ "syn", "1.0.107" ]
       ]
     },
+    "tokio-stream": {
+      "0.1.11": [
+        [ "futures-core", "0.3.26" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "tokio", "1.25.0" ]
+      ]
+    },
+    "tokio-test": {
+      "0.4.2": [
+        [ "async-stream", "0.3.0" ],
+        [ "bytes", "1.4.0" ],
+        [ "futures-core", "0.3.26" ],
+        [ "tokio", "1.25.0" ],
+        [ "tokio-stream", "0.1.11" ]
+      ]
+    },
+    "trybuild": {
+      "1.0.77": [
+        [ "basic-toml", "0.1.1" ],
+        [ "glob", "0.3.1" ],
+        [ "once_cell", "1.17.1" ],
+        [ "serde", "1.0.152" ],
+        [ "serde_derive", "1.0.152" ],
+        [ "serde_json", "1.0.93" ],
+        [ "termcolor", "1.2.0" ]
+      ]
+    },
     "winapi": {
       "0.3.9": [
         [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
         [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "winapi-util": {
+      "0.1.5": [
+        [ "winapi", "0.3.9" ]
       ]
     },
     "windows-sys": {
@@ -192,15 +261,31 @@
     }
   },
   "sources": {
+    "async-stream": {
+      "0.3.0": {
+        "hash": "3670df70cbc01729f901f94c887814b3c68db038aad1329a418bae178bc5295c",
+        "type": "crates-io"
+      },
+      "0.3.4": {
+        "hash": "ad445822218ce64be7a341abfb0b1ea43b5c23aa83902542a4542e78309d8e5e",
+        "type": "crates-io"
+      }
+    },
     "async-stream-impl": {
-      "0.3.3": {
-        "hash": "10f203db73a71dfa2fb6dd22763990fa26f3d2625a6da2da900d23b87d26be27",
+      "0.3.4": {
+        "hash": "e4655ae1a7b0cdf149156f780c5bf3f1352bc53cbd9e0a361a7ef7b22947e965",
         "type": "crates-io"
       }
     },
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "basic-toml": {
+      "0.1.1": {
+        "hash": "2e819b667739967cd44d308b8c7b71305d8bb0729ac44a248aa08f33d01950b4",
         "type": "crates-io"
       }
     },
@@ -246,9 +331,21 @@
         "type": "crates-io"
       }
     },
+    "glob": {
+      "0.3.1": {
+        "hash": "d2fabcfbdc87f4758337ca535fb41a6d701b65693ce38287d856d1674551ec9b",
+        "type": "crates-io"
+      }
+    },
     "hermit-abi": {
       "0.2.6": {
         "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.5": {
+        "hash": "fad582f4b9e86b6caa621cabeb0963332d92eea04729ab12892c2533951e6440",
         "type": "crates-io"
       }
     },
@@ -285,6 +382,12 @@
     "num_cpus": {
       "1.15.0": {
         "hash": "0fac9e2da13b5eb447a6ce3d392f23a29d8694bff781bf03a16cd9ac8697593b",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.17.1": {
+        "hash": "b7e5500299e16ebb147ae15a00a942af264cf3688f47923b8fc2cd5858f23ad3",
         "type": "crates-io"
       }
     },
@@ -330,9 +433,39 @@
         "type": "crates-io"
       }
     },
+    "rustversion": {
+      "1.0.11": {
+        "hash": "5583e89e108996506031660fe09baa5011b9dd0341b89029313006d1fb508d70",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.12": {
+        "hash": "7b4b9743ed687d4b4bcedf9ff5eaa7398495ae14e61cba0a295704edbc7decde",
+        "type": "crates-io"
+      }
+    },
     "scopeguard": {
       "1.1.0": {
         "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.152": {
+        "hash": "bb7d1f0d3021d347a83e556fc4683dea2ea09d87bccdf88ff5c12545d89d5efb",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.152": {
+        "hash": "af487d118eecd09402d70a5d72551860e788df87b464af30e5ea6a38c75c541e",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.93": {
+        "hash": "cad406b69c91885b5107daf2c29572f6c8cdb3c66826821e286c533490c0bc76",
         "type": "crates-io"
       }
     },
@@ -366,6 +499,12 @@
         "type": "crates-io"
       }
     },
+    "termcolor": {
+      "1.2.0": {
+        "hash": "be55cf8942feac5c765c2c993422806843c9a9a45d4d5c407ad6dd2ea95eb9b6",
+        "type": "crates-io"
+      }
+    },
     "tokio": {
       "1.25.0": {
         "hash": "c8e00990ebabbe4c14c08aca901caed183ecd5c09562a12c824bb53d3c3fd3af",
@@ -375,6 +514,24 @@
     "tokio-macros": {
       "1.8.2": {
         "hash": "d266c00fde287f55d3f1c3e96c500c362a2b8c695076ec180f27918820bc6df8",
+        "type": "crates-io"
+      }
+    },
+    "tokio-stream": {
+      "0.1.11": {
+        "hash": "d660770404473ccd7bc9f8b28494a811bc18542b915c0855c51e8f419d5223ce",
+        "type": "crates-io"
+      }
+    },
+    "tokio-test": {
+      "0.4.2": {
+        "hash": "53474327ae5e166530d17f2d956afcb4f8a004de581b3cae10f12006bc8163e3",
+        "type": "crates-io"
+      }
+    },
+    "trybuild": {
+      "1.0.77": {
+        "hash": "a44da5a6f2164c8e14d3bbc0657d69c5966af9f5f6930d4f600b1f5c4a673413",
         "type": "crates-io"
       }
     },
@@ -399,6 +556,12 @@
     "winapi-i686-pc-windows-gnu": {
       "0.4.0": {
         "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-util": {
+      "0.1.5": {
+        "hash": "70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178",
         "type": "crates-io"
       }
     },
