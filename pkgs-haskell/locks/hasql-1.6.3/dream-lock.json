@@ -45,12 +45,12 @@
       "data-fix#0.3.2": "bdea17f6b17c1d327f53ae6806e1bc3ca7813b46742a93c6088c72837c8ae77c",
       "data-serializer#0.3.5": "50eed159b9f5bf7228625094a5d2db7854814db04429a5d0e387c3802fd64631",
       "data-textual#0.3.0.3": "af032a3a5b9c356cff6211bad40cb1eacbf85bd5ad5ff0ad5c341fda26c571c0",
-      "deferred-folds#0.9.18.2": "e64c2031e4fe797f07e49e6954dad3264aebe2c69c5008979ba77fdb32c85db0",
+      "deferred-folds#0.9.18.3": "279354bddca11b14d95c916c86c9f0d94da1c704d726d363736857cb9224de59",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
       "either#5.0.2": "ea9311a1a9435f698b905239721083eb65ad3f3fbfaa89179e0cac875cc09262",
       "entropy#0.4.1.10": "219a10d58386831dd742982e85841c16822f5c219b7cc6e5afff86f956c5b935",
-      "foldl#1.4.14": "492e58936c3d6aef8b2e756e952ea46bed456063082dfeaaa0e2ea7fc70c3132",
+      "foldl#1.4.14": "6ca3b5a312fb7ddfad4df5079da585dd22099dcf4f540af651bd707d242b056c",
       "free#5.1.10": "b88705deb7b5fefce0bc8186ccab6c1ef58858c759fb27171e4c4443efef5973",
       "gauge#0.2.5": "8d60450bdec985c146d5632d4f5a8d60cec27d71ba6787ed1ee64d945d4c7c33",
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
@@ -62,7 +62,7 @@
       "indexed-traversable-instances#0.1.1.1": "04b9fac300cde96de9aaaa0c4237a85045308d0bd4ba360e318febf34ec0bd3a",
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
       "invariant#0.6": "67ecd31a36c3a9a686a8bee9dbee5a395a4c68b758262413c0355bae03a5a114",
-      "isomorphism-class#0.1.0.8": "e935e9ca06906a8b68009b684904b94ed11aee03295a5d55329e7744b4b1efec",
+      "isomorphism-class#0.1.0.9": "f559fd2f839716e664ba6dcf8b0796653e339faa815394f1b27e8591ff9eb230",
       "kan-extensions#5.2.5": "6c67ff1ee6426461175619c350e99c189ded30490f795b8327d3a2275f0c551d",
       "keys#3.12.3": "97caf71bc3adc631cff437c4de549d35526e7261ad2e1c37cce77458538c67e9",
       "network-info#0.2.1": "2798c2e4cc2c32108bd4b05efa921ce6f054ebc381c5e465c9bd74c7d538af17",
@@ -107,7 +107,7 @@
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "uuid#1.3.15": "a3d79c5a5e58035e7dc5a08c5910c44a6719aaa38697b249e3f67aaac884411a",
       "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
-      "vector#0.13.0.0": "a1e8aff02a45115dec8997c50fd4ea6a24742cbccaa0f1282fdbb4725f60a6a5",
+      "vector#0.13.0.0": "fa5cac81a17a5af388716792e8b99c24b3b66770086756d0d8b23f8272a0244c",
       "vector-instances#3.4": "c57d13ae8580bab32d9b14180083538fc53d01059d1276ef3ea180cd2aa5f29c",
       "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca",
       "void#0.7.3": "13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546",
@@ -273,7 +273,7 @@
       ]
     },
     "deferred-folds": {
-      "0.9.18.2": [
+      "0.9.18.3": [
         [ "foldl", "1.4.14" ],
         [ "hashable", "1.4.2.0" ],
         [ "primitive", "0.7.4.0" ],
@@ -394,7 +394,7 @@
       ]
     },
     "isomorphism-class": {
-      "0.1.0.8": [
+      "0.1.0.9": [
         [ "hashable", "1.4.2.0" ],
         [ "primitive", "0.7.4.0" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -623,8 +623,8 @@
     },
     "text-builder-dev": {
       "0.3.3.2": [
-        [ "deferred-folds", "0.9.18.2" ],
-        [ "isomorphism-class", "0.1.0.8" ],
+        [ "deferred-folds", "0.9.18.3" ],
+        [ "isomorphism-class", "0.1.0.9" ],
         [ "split", "0.2.3.5" ]
       ]
     },
@@ -960,10 +960,10 @@
       }
     },
     "deferred-folds": {
-      "0.9.18.2": {
-        "hash": "sha256:26ddc60183478033735f82ba506db93032fb8c7fe91b7e72a0d8f9f05febb42a",
+      "0.9.18.3": {
+        "hash": "sha256:3b2130eaa080d199380ad6a139c4eb8198ccc9291b5878dcb5aeb15b19f64774",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/deferred-folds-0.9.18.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/deferred-folds-0.9.18.3.tar.gz"
       }
     },
     "distributive": {
@@ -1086,10 +1086,10 @@
       }
     },
     "isomorphism-class": {
-      "0.1.0.8": {
-        "hash": "sha256:29d3d35a4cd286237b78b1a38e775559f00eb290c087e41293052047875ce3fb",
+      "0.1.0.9": {
+        "hash": "sha256:2fbaa8cf141489a2107e294e50628dc7797b8e3218069bdfbc387ab9547d1bb4",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/isomorphism-class-0.1.0.8.tar.gz"
+        "url": "https://hackage.haskell.org/package/isomorphism-class-0.1.0.9.tar.gz"
       }
     },
     "kan-extensions": {

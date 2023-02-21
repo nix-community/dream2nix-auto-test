@@ -49,7 +49,7 @@
       "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
       "network-uri#2.6.4.2": "1fde59abf5d82a9666b4415bc2b2e9e33f6c1309074fda12d50410c7dbd95f3b",
       "pem#0.2.4": "cc8e62118b783e284dc0fa032f54fe386a3861a948ec88079370a433c103a705",
-      "primitive#0.7.4.0": "c2f0ed97b3dce97f2f43b239c3be8b136e4368f1eb7b61322ee9ac98f604622b",
+      "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "setenv#0.1.1.3": "c5916ac0d2a828473cd171261328a290afe0abd799db1ac8c310682fe778c45b",
@@ -59,7 +59,7 @@
       "tf-random#0.5": "14012837d0f0e18fdbbe3d56e67da8622ee5e20b180abce952dd50bd9f36b326",
       "th-compat#0.1.4": "6ca77c4e80b4e4109e30549c269631a9cc295c8fc2431ce4123972a5f80f7bfc",
       "tls#1.6.0": "7ae39373fd2de27fb80e90f76d22aeeb9a074a0ddd120cbd02c9c52f516a9e55",
-      "vector#0.13.0.0": "a1e8aff02a45115dec8997c50fd4ea6a24742cbccaa0f1282fdbb4725f60a6a5",
+      "vector#0.13.0.0": "fa5cac81a17a5af388716792e8b99c24b3b66770086756d0d8b23f8272a0244c",
       "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca",
       "x509#1.7.7": "90eef2d745a654146fc1c325e035eaddac531e4d2145d4bc1dcf4b8fad439d34",
       "x509-store#1.6.9": "1f1abeab5bacf1407b920d0f34f4c35a5ad450ff0d8121cd3dc76460f81e711d",
@@ -269,6 +269,11 @@
         [ "memory", "0.18.0" ]
       ]
     },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
     "quickcheck-io": {
       "0.2.0": [
         [ "HUnit", "1.6.2.0" ],
@@ -297,7 +302,7 @@
     },
     "tf-random": {
       "0.5": [
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "random", "1.2.1.1" ]
       ]
     },
@@ -319,7 +324,7 @@
     },
     "vector": {
       "0.13.0.0": [
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "vector-stream", "0.1.0.0" ]
       ]
     },
@@ -646,10 +651,10 @@
       }
     },
     "primitive": {
-      "0.7.4.0": {
-        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0.tar.gz"
       }
     },
     "quickcheck-io": {

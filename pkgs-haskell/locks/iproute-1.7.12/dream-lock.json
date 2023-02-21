@@ -19,6 +19,7 @@
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "code-page#0.2.1": "fe596b0f421abd2894fdb7049b3d76230eb1de6e04e9f635e2695dd55ded856e",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
       "doctest#0.21.0": "e2afe9828275ffaa2dcf8d4f72c96d83be238c962bb3d2c84aa5ba205a7bb853",
       "ghc-paths#0.1.0.12": "2cedd51fe0e85bd7c7edee768c229db74e071a15a1dfb9bf94bd4b0f3a0ec78b",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
@@ -28,7 +29,7 @@
       "hspec-discover#2.10.9": "e54f978b1bcb3d0fd3a78eccf360b0731184290a1387d431531217db68f55fc4",
       "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
       "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
-      "primitive#0.7.4.0": "c2f0ed97b3dce97f2f43b239c3be8b136e4368f1eb7b61322ee9ac98f604622b",
+      "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "quickcheck-io#0.2.0": "7bf0b68fb90873825eb2e5e958c1b76126dcf984debb998e81673e6d837e0b2d",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "safe#0.3.19": "0910dafb8898f52bde4c646e560228a0fd08b1fca5457f222d2f5c0fad6d2039",
@@ -150,6 +151,11 @@
         [ "hsc2hs", "0.68.9" ]
       ]
     },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
     "quickcheck-io": {
       "0.2.0": [
         [ "HUnit", "1.6.2.0" ],
@@ -163,7 +169,7 @@
     },
     "tf-random": {
       "0.5": [
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "random", "1.2.1.1" ]
       ]
     }
@@ -230,6 +236,13 @@
         "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
         "type": "http",
         "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
       }
     },
     "doctest": {
@@ -303,10 +316,10 @@
       }
     },
     "primitive": {
-      "0.7.4.0": {
-        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0.tar.gz"
       }
     },
     "quickcheck-io": {

@@ -16,13 +16,14 @@
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "code-page#0.2.1": "fe596b0f421abd2894fdb7049b3d76230eb1de6e04e9f635e2695dd55ded856e",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
       "doctest#0.20.1": "c0e08af88e034f41673477be0350ceae69faea2db03a4c10b289fa9c20d27cbb",
       "ghc-paths#0.1.0.12": "2cedd51fe0e85bd7c7edee768c229db74e071a15a1dfb9bf94bd4b0f3a0ec78b",
       "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
       "inspection-testing#0.5.0.1": "df105cd47776b65f05f04444517c8f931ad1b7615c208d0cec805d7020010688",
       "logict#0.8.0.0": "3d5d87a1d892a4732351c9a0b022d2d07bbb14e60582967c3c703c6ed69de88a",
       "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
-      "primitive#0.7.4.0": "c2f0ed97b3dce97f2f43b239c3be8b136e4368f1eb7b61322ee9ac98f604622b",
+      "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "rdtsc#1.3.0.1": "0a6e8dc715ba82ad72c7e2b1c2f468999559bec059d50540719a80b00dcc4e66",
       "smallcheck#1.2.1": "2bc8dd48aa3bb7f06637b4e05092b4ccb60057134e29c8b87f247988cada3490",
       "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
@@ -88,10 +89,15 @@
         [ "transformers-compat", "0.7.2" ]
       ]
     },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
     "random": {
       "1.2.1.1": [
         [ "splitmix", "0.1.0.4" ],
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "random", "1.2.1.1" ],
         [ "splitmix", "0.1.0.4" ],
         [ "tasty-bench", "0.3.3" ],
@@ -191,6 +197,13 @@
         "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
       }
     },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
     "doctest": {
       "0.20.1": {
         "hash": "sha256:44a56fd4b70f22f314ad67dcff21e32e8e96da2129d2405cb5a177cc36be4b02",
@@ -234,10 +247,10 @@
       }
     },
     "primitive": {
-      "0.7.4.0": {
-        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0.tar.gz"
       }
     },
     "random": {

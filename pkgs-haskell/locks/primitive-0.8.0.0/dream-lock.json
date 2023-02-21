@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "text",
+    "defaultPackage": "primitive",
     "location": "",
     "packages": {
-      "text": "2.0.1"
+      "primitive": "0.8.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "haskell"
@@ -13,17 +13,16 @@
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
-      "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
+      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
-      "inspection-testing#0.5.0.1": "df105cd47776b65f05f04444517c8f931ad1b7615c208d0cec805d7020010688",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
       "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
+      "quickcheck-classes-base#0.6.2.0": "dc3db3e11bcc378e04f9d1e9615237dc82dbee85b7931d152b059f4e815d1506",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
       "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
       "tasty-bench#0.3.3": "efeb9e1fcb98fdab3271227432762ad723b020768a335d2c336a3ad7c28be26d",
-      "tasty-hunit#0.10.0.3": "ba774024f3a26100c559dbef41e030bdf443408ed848691f7b9aa85b6fb218c3",
-      "tasty-inspection-testing#0.2": "cfc8344b474eb3c61d978edc173f43d4ec2205a6da6b44540c8edfd53fca6994",
       "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643"
     },
@@ -33,9 +32,9 @@
     }
   },
   "cyclicDependencies": {
-    "text": {
-      "2.0.1": [
-        [ "text", "2.0.1" ]
+    "primitive": {
+      "0.8.0.0": [
+        [ "primitive", "0.8.0.0" ]
       ]
     }
   },
@@ -62,6 +61,26 @@
         [ "transformers-compat", "0.7.2" ]
       ]
     },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ],
+        [ "primitive", "0.8.0.0" ],
+        [ "tasty-bench", "0.3.3" ],
+        [ "QuickCheck", "2.14.2" ],
+        [ "base-orphans", "0.8.7" ],
+        [ "primitive", "0.8.0.0" ],
+        [ "quickcheck-classes-base", "0.6.2.0" ],
+        [ "tagged", "0.8.7" ],
+        [ "tasty", "1.4.3" ],
+        [ "tasty-quickcheck", "0.10.2" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "quickcheck-classes-base": {
+      "0.6.2.0": [
+        [ "QuickCheck", "2.14.2" ]
+      ]
+    },
     "random": {
       "1.2.1.1": [
         [ "splitmix", "0.1.0.4" ]
@@ -79,18 +98,6 @@
         [ "tasty", "1.4.3" ]
       ]
     },
-    "tasty-hunit": {
-      "0.10.0.3": [
-        [ "call-stack", "0.4.0" ],
-        [ "tasty", "1.4.3" ]
-      ]
-    },
-    "tasty-inspection-testing": {
-      "0.2": [
-        [ "inspection-testing", "0.5.0.1" ],
-        [ "tasty", "1.4.3" ]
-      ]
-    },
     "tasty-quickcheck": {
       "0.10.2": [
         [ "QuickCheck", "2.14.2" ],
@@ -98,18 +105,6 @@
         [ "random", "1.2.1.1" ],
         [ "tagged", "0.8.7" ],
         [ "tasty", "1.4.3" ]
-      ]
-    },
-    "text": {
-      "2.0.1": [
-        [ "QuickCheck", "2.14.2" ],
-        [ "tasty", "1.4.3" ],
-        [ "tasty-hunit", "0.10.0.3" ],
-        [ "tasty-inspection-testing", "0.2" ],
-        [ "tasty-quickcheck", "0.10.2" ],
-        [ "text", "2.0.1" ],
-        [ "tasty-bench", "0.3.3" ],
-        [ "text", "2.0.1" ]
       ]
     }
   },
@@ -135,11 +130,11 @@
         "url": "https://hackage.haskell.org/package/ansi-wl-pprint-0.6.9.tar.gz"
       }
     },
-    "call-stack": {
-      "0.4.0": {
-        "hash": "sha256:430bcf8a3404f7e55319573c0b807b1356946f0c8f289bb3d9afb279c636b87b",
+    "base-orphans": {
+      "0.8.7": {
+        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/call-stack-0.4.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
       }
     },
     "colour": {
@@ -149,11 +144,11 @@
         "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
       }
     },
-    "inspection-testing": {
-      "0.5.0.1": {
-        "hash": "sha256:29750b73c578346659c89a146436e2f582fb0f28d1292b8cf0631873278b077f",
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/inspection-testing-0.5.0.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
       }
     },
     "optparse-applicative": {
@@ -161,6 +156,20 @@
         "hash": "sha256:825b2e4d3dafe0ba64a073366a88062b3712b81f851793d9ce2327bee70af724",
         "type": "http",
         "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.0.0.tar.gz"
+      }
+    },
+    "primitive": {
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0/primitive-0.8.0.0.tar.gz"
+      }
+    },
+    "quickcheck-classes-base": {
+      "0.6.2.0": {
+        "hash": "sha256:901945e1c442c558d739bc28088a5564f25c4f3615ce7f03b67c5ecc087e8699",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/quickcheck-classes-base-0.6.2.0.tar.gz"
       }
     },
     "random": {
@@ -198,32 +207,11 @@
         "url": "https://hackage.haskell.org/package/tasty-bench-0.3.3.tar.gz"
       }
     },
-    "tasty-hunit": {
-      "0.10.0.3": {
-        "hash": "sha256:b7ef1912ece25b9396d2c69c31e63f82facc95edac8fc1abbf84e8c3c7ffe63f",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/tasty-hunit-0.10.0.3.tar.gz"
-      }
-    },
-    "tasty-inspection-testing": {
-      "0.2": {
-        "hash": "sha256:1f8fa87b808b660c1390406c134758ae269afe9bf0682394e88ebf42ca5bbcbd",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/tasty-inspection-testing-0.2.tar.gz"
-      }
-    },
     "tasty-quickcheck": {
       "0.10.2": {
         "hash": "sha256:b4884c815db26a543ee1062664ee051ac89d51b2c2526d30029c6eb95b36cce2",
         "type": "http",
         "url": "https://hackage.haskell.org/package/tasty-quickcheck-0.10.2.tar.gz"
-      }
-    },
-    "text": {
-      "2.0.1": {
-        "hash": "sha256:b00a2466c50e2c300a85e76424967e40d751652bfa6707d13d300b8b4ba087da",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/text-2.0.1/text-2.0.1.tar.gz"
       }
     },
     "transformers-compat": {
