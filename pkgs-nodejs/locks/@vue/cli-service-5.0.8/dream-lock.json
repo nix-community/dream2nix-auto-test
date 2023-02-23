@@ -150,14 +150,9 @@
         [ "to-fast-properties", "2.0.0" ]
       ]
     },
-    "@hapi/address": {
-      "5.1.0": [
-        [ "@hapi/hoek", "11.0.2" ]
-      ]
-    },
     "@hapi/topo": {
-      "6.0.1": [
-        [ "@hapi/hoek", "11.0.2" ]
+      "5.1.0": [
+        [ "@hapi/hoek", "9.3.0" ]
       ]
     },
     "@jridgewell/gen-mapping": {
@@ -198,6 +193,11 @@
       "1.2.8": [
         [ "@nodelib/fs.scandir", "2.1.5" ],
         [ "fastq", "1.15.0" ]
+      ]
+    },
+    "@sideway/address": {
+      "4.1.4": [
+        [ "@hapi/hoek", "9.3.0" ]
       ]
     },
     "@soda/friendly-errors-webpack-plugin": {
@@ -258,7 +258,7 @@
       ]
     },
     "@types/http-proxy": {
-      "1.17.9": [
+      "1.17.10": [
         [ "@types/node", "18.14.0" ]
       ]
     },
@@ -371,12 +371,8 @@
         [ "@babel/traverse", "7.21.0" ],
         [ "@babel/types", "7.21.0" ],
         [ "@discoveryjs/json-ext", "0.5.7" ],
-        [ "@hapi/address", "5.1.0" ],
-        [ "@hapi/formula", "3.0.2" ],
-        [ "@hapi/hoek", "11.0.2" ],
-        [ "@hapi/pinpoint", "2.0.1" ],
-        [ "@hapi/tlds", "1.0.1" ],
-        [ "@hapi/topo", "6.0.1" ],
+        [ "@hapi/hoek", "9.3.0" ],
+        [ "@hapi/topo", "5.1.0" ],
         [ "@jridgewell/gen-mapping", "0.1.1" ],
         [ "@jridgewell/resolve-uri", "3.1.0" ],
         [ "@jridgewell/set-array", "1.1.2" ],
@@ -389,6 +385,9 @@
         [ "@nodelib/fs.stat", "2.0.5" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
         [ "@polka/url", "1.0.0-next.21" ],
+        [ "@sideway/address", "4.1.4" ],
+        [ "@sideway/formula", "3.0.1" ],
+        [ "@sideway/pinpoint", "2.0.0" ],
         [ "@soda/friendly-errors-webpack-plugin", "1.8.1" ],
         [ "@soda/get-current-script", "1.0.2" ],
         [ "@trysound/sax", "0.2.0" ],
@@ -402,7 +401,7 @@
         [ "@types/express", "4.17.17" ],
         [ "@types/express-serve-static-core", "4.17.33" ],
         [ "@types/html-minifier-terser", "6.1.0" ],
-        [ "@types/http-proxy", "1.17.9" ],
+        [ "@types/http-proxy", "1.17.10" ],
         [ "@types/json-schema", "7.0.11" ],
         [ "@types/mime", "3.0.1" ],
         [ "@types/minimist", "1.2.2" ],
@@ -546,7 +545,7 @@
         [ "duplexer", "0.1.2" ],
         [ "easy-stack", "1.0.1" ],
         [ "ee-first", "1.1.1" ],
-        [ "electron-to-chromium", "1.4.304" ],
+        [ "electron-to-chromium", "1.4.307" ],
         [ "emoji-regex", "8.0.0" ],
         [ "emojis-list", "3.0.0" ],
         [ "encodeurl", "1.0.2" ],
@@ -644,7 +643,7 @@
         [ "isobject", "3.0.1" ],
         [ "javascript-stringify", "2.1.0" ],
         [ "jest-worker", "27.5.1" ],
-        [ "joi", "17.8.1" ],
+        [ "joi", "17.8.3" ],
         [ "js-message", "1.0.7" ],
         [ "js-tokens", "4.0.0" ],
         [ "jsesc", "2.5.2" ],
@@ -908,7 +907,7 @@
         [ "@achrinza/node-ipc", "9.2.6" ],
         [ "chalk", "4.1.2" ],
         [ "execa", "1.0.0" ],
-        [ "joi", "17.8.1" ],
+        [ "joi", "17.8.3" ],
         [ "launch-editor", "2.6.0" ],
         [ "lru-cache", "6.0.0" ],
         [ "node-fetch", "2.6.9" ],
@@ -1121,7 +1120,7 @@
     "browserslist": {
       "4.21.5": [
         [ "caniuse-lite", "1.0.30001457" ],
-        [ "electron-to-chromium", "1.4.304" ],
+        [ "electron-to-chromium", "1.4.307" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -1686,7 +1685,7 @@
     },
     "http-proxy-middleware": {
       "2.0.6": [
-        [ "@types/http-proxy", "1.17.9" ],
+        [ "@types/http-proxy", "1.17.10" ],
         [ "http-proxy", "1.18.1" ],
         [ "is-glob", "4.0.3" ],
         [ "is-plain-obj", "3.0.0" ],
@@ -1748,13 +1747,12 @@
       ]
     },
     "joi": {
-      "17.8.1": [
-        [ "@hapi/address", "5.1.0" ],
-        [ "@hapi/formula", "3.0.2" ],
-        [ "@hapi/hoek", "11.0.2" ],
-        [ "@hapi/pinpoint", "2.0.1" ],
-        [ "@hapi/tlds", "1.0.1" ],
-        [ "@hapi/topo", "6.0.1" ]
+      "17.8.3": [
+        [ "@hapi/hoek", "9.3.0" ],
+        [ "@hapi/topo", "5.1.0" ],
+        [ "@sideway/address", "4.1.4" ],
+        [ "@sideway/formula", "3.0.1" ],
+        [ "@sideway/pinpoint", "2.0.0" ]
       ]
     },
     "json5": {
@@ -2884,46 +2882,18 @@
         "url": "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz"
       }
     },
-    "@hapi/address": {
-      "5.1.0": {
-        "hash": "sha512-b/OicomrGhG+aRgAhtxqOArHDH7kE2sY0IQ5MwIU6EkzUIOmsfi4YfYPZxGSauHLgVzcwk2rseCi7fjeMpQh+w==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@hapi/address/-/address-5.1.0.tgz"
-      }
-    },
-    "@hapi/formula": {
-      "3.0.2": {
-        "hash": "sha512-hY5YPNXzw1He7s0iqkRQi+uMGh383CGdyyIGYtB+W5N3KHPXoqychklvHhKCC9M3Xtv0OCs/IHw+r4dcHtBYWw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@hapi/formula/-/formula-3.0.2.tgz"
-      }
-    },
     "@hapi/hoek": {
-      "11.0.2": {
-        "hash": "sha512-aKmlCO57XFZ26wso4rJsW4oTUnrgTFw2jh3io7CAtO9w4UltBNwRXvXIVzzyfkaaLRo3nluP/19msA8vDUUuKw==",
+      "9.3.0": {
+        "hash": "sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@hapi/hoek/-/hoek-11.0.2.tgz"
-      }
-    },
-    "@hapi/pinpoint": {
-      "2.0.1": {
-        "hash": "sha512-EKQmr16tM8s16vTT3cA5L0kZZcTMU5DUOZTuvpnY738m+jyP3JIUj+Mm1xc1rsLkGBQ/gVnfKYPwOmPg1tUR4Q==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@hapi/pinpoint/-/pinpoint-2.0.1.tgz"
-      }
-    },
-    "@hapi/tlds": {
-      "1.0.1": {
-        "hash": "sha512-OXs5OliWsLTmvzQKZtb3KhfEz30WuuaizwAn95GLfeK+JpGnBxR55lALv3kA4T1RRb3wlrNjnboBg6ur1Czvig==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@hapi/tlds/-/tlds-1.0.1.tgz"
+        "url": "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
       }
     },
     "@hapi/topo": {
-      "6.0.1": {
-        "hash": "sha512-JioWUZL1Bm7r8bnCDx2AUggiPwpV7djFfDTWT1aZSyHjN++fVz7XPdW8YVCxvyv9bSWcbbOLV/h4U1zGdwrN3w==",
+      "5.1.0": {
+        "hash": "sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@hapi/topo/-/topo-6.0.1.tgz"
+        "url": "https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz"
       }
     },
     "@jridgewell/gen-mapping": {
@@ -3013,6 +2983,27 @@
         "hash": "sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==",
         "type": "http",
         "url": "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
+      }
+    },
+    "@sideway/address": {
+      "4.1.4": {
+        "hash": "sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/address/-/address-4.1.4.tgz"
+      }
+    },
+    "@sideway/formula": {
+      "3.0.1": {
+        "hash": "sha512-/poHZJJVjx3L+zVD6g9KgHfYnb443oi7wLu/XKojDviHy6HOEOA6z1Trk5aR1dGcmPenJEgb2sK2I80LeS3MIg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.1.tgz"
+      }
+    },
+    "@sideway/pinpoint": {
+      "2.0.0": {
+        "hash": "sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
       }
     },
     "@soda/friendly-errors-webpack-plugin": {
@@ -3107,10 +3098,10 @@
       }
     },
     "@types/http-proxy": {
-      "1.17.9": {
-        "hash": "sha512-QsbSjA/fSk7xB+UXlCT3wHBy5ai9wOcNDWwZAtud+jXhwOM3l+EYZh8Lng4+/6n8uar0J7xILzqftJdJ/Wdfkw==",
+      "1.17.10": {
+        "hash": "sha512-Qs5aULi+zV1bwKAg5z1PWnDXWmsn+LxIvUGv6E2+OOMYhclZMO+OXd9pYVf2gLykf2I7IV2u7oTHwChPNsvJ7g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/http-proxy/-/http-proxy-1.17.9.tgz"
+        "url": "https://registry.npmjs.org/@types/http-proxy/-/http-proxy-1.17.10.tgz"
       }
     },
     "@types/json-schema": {
@@ -4200,10 +4191,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.304": {
-        "hash": "sha512-6c8M+ojPgDIXN2NyfGn8oHASXYnayj+gSEnGeLMKb9zjsySeVB/j7KkNAAG9yDcv8gNlhvFg5REa1N/kQU6pgA==",
+      "1.4.307": {
+        "hash": "sha512-n54V0t4LyHM2oQiAOmD3qC2peB+orUktXORSnWxqtv3uEMSoUcsq+hoMpU08VEJCNbfgBtzy169P0TcrLuq53A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.304.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.307.tgz"
       }
     },
     "emoji-regex": {
@@ -4941,10 +4932,10 @@
       }
     },
     "joi": {
-      "17.8.1": {
-        "hash": "sha512-Zoafe6E2kQ+hkkJQSBnOxA8beb2LF33keCxZP3vSy7qTHj9/2GAEQ9KLwfe+PR35WvspwNz0jWajDIHLnCKfpg==",
+      "17.8.3": {
+        "hash": "sha512-q5Fn6Tj/jR8PfrLrx4fpGH4v9qM6o+vDUfD4/3vxxyg34OmKcNqYZ1qn2mpLza96S8tL0p0rIw2gOZX+/cTg9w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/joi/-/joi-17.8.1.tgz"
+        "url": "https://registry.npmjs.org/joi/-/joi-17.8.3.tgz"
       }
     },
     "js-message": {

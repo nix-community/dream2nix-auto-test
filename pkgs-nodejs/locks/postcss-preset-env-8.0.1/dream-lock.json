@@ -59,13 +59,13 @@
     },
     "@csstools/postcss-logical-viewport-units": {
       "1.0.2": [
-        [ "@csstools/css-tokenizer", "2.0.2" ]
+        [ "@csstools/css-tokenizer", "2.1.0" ]
       ]
     },
     "@csstools/postcss-media-queries-aspect-ratio-number-values": {
       "1.0.1": [
         [ "@csstools/css-parser-algorithms", "2.0.1" ],
-        [ "@csstools/css-tokenizer", "2.0.2" ],
+        [ "@csstools/css-tokenizer", "2.1.0" ],
         [ "@csstools/media-query-list-parser", "2.0.1" ]
       ]
     },
@@ -97,8 +97,10 @@
       ]
     },
     "@csstools/postcss-stepped-value-functions": {
-      "2.0.1": [
-        [ "postcss-value-parser", "4.2.0" ]
+      "2.1.0": [
+        [ "@csstools/css-calc", "1.0.0" ],
+        [ "@csstools/css-parser-algorithms", "2.0.1" ],
+        [ "@csstools/css-tokenizer", "2.1.0" ]
       ]
     },
     "@csstools/postcss-text-decoration-shorthand": {
@@ -125,7 +127,7 @@
     "browserslist": {
       "4.21.5": [
         [ "caniuse-lite", "1.0.30001457" ],
-        [ "electron-to-chromium", "1.4.304" ],
+        [ "electron-to-chromium", "1.4.307" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -178,15 +180,15 @@
       "9.1.2": [
         [ "@csstools/cascade-layer-name-parser", "1.0.1" ],
         [ "@csstools/css-parser-algorithms", "2.0.1" ],
-        [ "@csstools/css-tokenizer", "2.0.2" ],
+        [ "@csstools/css-tokenizer", "2.1.0" ],
         [ "@csstools/media-query-list-parser", "2.0.1" ]
       ]
     },
     "postcss-custom-properties": {
-      "13.1.3": [
+      "13.1.4": [
         [ "@csstools/cascade-layer-name-parser", "1.0.1" ],
         [ "@csstools/css-parser-algorithms", "2.0.1" ],
-        [ "@csstools/css-tokenizer", "2.0.2" ],
+        [ "@csstools/css-tokenizer", "2.1.0" ],
         [ "postcss-value-parser", "4.2.0" ]
       ]
     },
@@ -194,7 +196,7 @@
       "7.1.2": [
         [ "@csstools/cascade-layer-name-parser", "1.0.1" ],
         [ "@csstools/css-parser-algorithms", "2.0.1" ],
-        [ "@csstools/css-tokenizer", "2.0.2" ],
+        [ "@csstools/css-tokenizer", "2.1.0" ],
         [ "postcss-selector-parser", "6.0.11" ]
       ]
     },
@@ -269,7 +271,7 @@
         [ "@csstools/postcss-oklab-function", "2.1.0" ],
         [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "@csstools/postcss-scope-pseudo-class", "2.0.2" ],
-        [ "@csstools/postcss-stepped-value-functions", "2.0.1" ],
+        [ "@csstools/postcss-stepped-value-functions", "2.1.0" ],
         [ "@csstools/postcss-text-decoration-shorthand", "2.2.1" ],
         [ "@csstools/postcss-trigonometric-functions", "2.0.1" ],
         [ "@csstools/postcss-unset-value", "2.0.1" ],
@@ -285,7 +287,7 @@
         [ "postcss-color-hex-alpha", "9.0.2" ],
         [ "postcss-color-rebeccapurple", "8.0.2" ],
         [ "postcss-custom-media", "9.1.2" ],
-        [ "postcss-custom-properties", "13.1.3" ],
+        [ "postcss-custom-properties", "13.1.4" ],
         [ "postcss-custom-selectors", "7.1.2" ],
         [ "postcss-dir-pseudo-class", "7.0.2" ],
         [ "postcss-double-position-gradients", "4.0.2" ],
@@ -311,8 +313,9 @@
       "unknown": [
         [ "@csstools/cascade-layer-name-parser", "1.0.1" ],
         [ "@csstools/color-helpers", "1.0.0" ],
+        [ "@csstools/css-calc", "1.0.0" ],
         [ "@csstools/css-parser-algorithms", "2.0.1" ],
-        [ "@csstools/css-tokenizer", "2.0.2" ],
+        [ "@csstools/css-tokenizer", "2.1.0" ],
         [ "@csstools/media-query-list-parser", "2.0.1" ],
         [ "@csstools/postcss-cascade-layers", "3.0.1" ],
         [ "@csstools/postcss-color-function", "2.1.0" ],
@@ -329,7 +332,7 @@
         [ "@csstools/postcss-oklab-function", "2.1.0" ],
         [ "@csstools/postcss-progressive-custom-properties", "2.1.0" ],
         [ "@csstools/postcss-scope-pseudo-class", "2.0.2" ],
-        [ "@csstools/postcss-stepped-value-functions", "2.0.1" ],
+        [ "@csstools/postcss-stepped-value-functions", "2.1.0" ],
         [ "@csstools/postcss-text-decoration-shorthand", "2.2.1" ],
         [ "@csstools/postcss-trigonometric-functions", "2.0.1" ],
         [ "@csstools/postcss-unset-value", "2.0.1" ],
@@ -342,7 +345,7 @@
         [ "css-prefers-color-scheme", "8.0.2" ],
         [ "cssdb", "7.4.1" ],
         [ "cssesc", "3.0.0" ],
-        [ "electron-to-chromium", "1.4.304" ],
+        [ "electron-to-chromium", "1.4.307" ],
         [ "escalade", "3.1.1" ],
         [ "fraction.js", "4.2.0" ],
         [ "nanoid", "3.3.4" ],
@@ -356,7 +359,7 @@
         [ "postcss-color-hex-alpha", "9.0.2" ],
         [ "postcss-color-rebeccapurple", "8.0.2" ],
         [ "postcss-custom-media", "9.1.2" ],
-        [ "postcss-custom-properties", "13.1.3" ],
+        [ "postcss-custom-properties", "13.1.4" ],
         [ "postcss-custom-selectors", "7.1.2" ],
         [ "postcss-dir-pseudo-class", "7.0.2" ],
         [ "postcss-double-position-gradients", "4.0.2" ],
@@ -423,6 +426,13 @@
         "url": "https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-1.0.0.tgz"
       }
     },
+    "@csstools/css-calc": {
+      "1.0.0": {
+        "hash": "sha512-Xw0b/Jr+vLGGYD8cxsGWPaY5n1GtVC6G4tcga+eZPXZzRjjZHorPwW739UgtXzL2Da1RLxNE73c0r/KvmizPsw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/css-calc/-/css-calc-1.0.0.tgz"
+      }
+    },
     "@csstools/css-parser-algorithms": {
       "2.0.1": {
         "hash": "sha512-B9/8PmOtU6nBiibJg0glnNktQDZ3rZnGn/7UmDfrm2vMtrdlXO3p7ErE95N0up80IRk9YEtB5jyj/TmQ1WH3dw==",
@@ -431,10 +441,10 @@
       }
     },
     "@csstools/css-tokenizer": {
-      "2.0.2": {
-        "hash": "sha512-prUTipz0NZH7Lc5wyBUy93NFy3QYDMVEQgSeZzNdpMbKRd6V2bgRFyJ+O0S0Dw0MXWuE/H9WXlJk3kzMZRHZ/g==",
+      "2.1.0": {
+        "hash": "sha512-dtqFyoJBHUxGi9zPZdpCKP1xk8tq6KPHJ/NY4qWXiYo6IcSGwzk3L8x2XzZbbyOyBs9xQARoGveU2AsgLj6D2A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-2.0.2.tgz"
+        "url": "https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-2.1.0.tgz"
       }
     },
     "@csstools/media-query-list-parser": {
@@ -550,10 +560,10 @@
       }
     },
     "@csstools/postcss-stepped-value-functions": {
-      "2.0.1": {
-        "hash": "sha512-VimD+M69GsZF/XssivjUwo6jXLgi86ar/gRSH7bautnCULSLxCr/HuY32N4rLRUr7qWF8oF/JTv06ceb66Q1jA==",
+      "2.1.0": {
+        "hash": "sha512-CkEo9BF8fQeMoXW3biXjlgTLY7PA4UFihn6leq7hPoRzIguLUI0WZIVgsITGXfX8LXmkhCSTjXO2DLYu/LUixQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@csstools/postcss-stepped-value-functions/-/postcss-stepped-value-functions-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/@csstools/postcss-stepped-value-functions/-/postcss-stepped-value-functions-2.1.0.tgz"
       }
     },
     "@csstools/postcss-text-decoration-shorthand": {
@@ -641,10 +651,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.304": {
-        "hash": "sha512-6c8M+ojPgDIXN2NyfGn8oHASXYnayj+gSEnGeLMKb9zjsySeVB/j7KkNAAG9yDcv8gNlhvFg5REa1N/kQU6pgA==",
+      "1.4.307": {
+        "hash": "sha512-n54V0t4LyHM2oQiAOmD3qC2peB+orUktXORSnWxqtv3uEMSoUcsq+hoMpU08VEJCNbfgBtzy169P0TcrLuq53A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.304.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.307.tgz"
       }
     },
     "escalade": {
@@ -739,10 +749,10 @@
       }
     },
     "postcss-custom-properties": {
-      "13.1.3": {
-        "hash": "sha512-15equAsfqtnr7jyzes6vyaGdAiNmKd+50FZ35/E/huBNBt7PgGMSNL/4o765nnNoP2dmaMJklb3FwJf3fdRcpA==",
+      "13.1.4": {
+        "hash": "sha512-iSAdaZrM3KMec8cOSzeTUNXPYDlhqsMJHpt62yrjwG6nAnMtRHPk5JdMzGosBJtqEahDolvD5LNbcq+EZ78o5g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/postcss-custom-properties/-/postcss-custom-properties-13.1.3.tgz"
+        "url": "https://registry.npmjs.org/postcss-custom-properties/-/postcss-custom-properties-13.1.4.tgz"
       }
     },
     "postcss-custom-selectors": {

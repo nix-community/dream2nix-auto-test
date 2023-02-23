@@ -59,10 +59,10 @@
       ]
     },
     "@aws-sdk/client-cognito-identity": {
-      "3.272.0": [
+      "3.276.0": [
         [ "@aws-crypto/sha256-browser", "3.0.0" ],
         [ "@aws-crypto/sha256-js", "3.0.0" ],
-        [ "@aws-sdk/client-sts", "3.272.0" ],
+        [ "@aws-sdk/client-sts", "3.276.0" ],
         [ "@aws-sdk/config-resolver", "3.272.0" ],
         [ "@aws-sdk/credential-provider-node", "3.272.0" ],
         [ "@aws-sdk/fetch-http-handler", "3.272.0" ],
@@ -170,7 +170,7 @@
       ]
     },
     "@aws-sdk/client-sts": {
-      "3.272.0": [
+      "3.276.0": [
         [ "@aws-crypto/sha256-browser", "3.0.0" ],
         [ "@aws-crypto/sha256-js", "3.0.0" ],
         [ "@aws-sdk/config-resolver", "3.272.0" ],
@@ -205,7 +205,7 @@
         [ "@aws-sdk/util-user-agent-browser", "3.272.0" ],
         [ "@aws-sdk/util-user-agent-node", "3.272.0" ],
         [ "@aws-sdk/util-utf8", "3.254.0" ],
-        [ "fast-xml-parser", "4.0.11" ],
+        [ "fast-xml-parser", "4.1.2" ],
         [ "tslib", "2.5.0" ]
       ]
     },
@@ -219,8 +219,8 @@
       ]
     },
     "@aws-sdk/credential-provider-cognito-identity": {
-      "3.272.0": [
-        [ "@aws-sdk/client-cognito-identity", "3.272.0" ],
+      "3.276.0": [
+        [ "@aws-sdk/client-cognito-identity", "3.276.0" ],
         [ "@aws-sdk/property-provider", "3.272.0" ],
         [ "@aws-sdk/types", "3.272.0" ],
         [ "tslib", "2.5.0" ]
@@ -295,11 +295,11 @@
       ]
     },
     "@aws-sdk/credential-providers": {
-      "3.272.0": [
-        [ "@aws-sdk/client-cognito-identity", "3.272.0" ],
+      "3.276.0": [
+        [ "@aws-sdk/client-cognito-identity", "3.276.0" ],
         [ "@aws-sdk/client-sso", "3.272.0" ],
-        [ "@aws-sdk/client-sts", "3.272.0" ],
-        [ "@aws-sdk/credential-provider-cognito-identity", "3.272.0" ],
+        [ "@aws-sdk/client-sts", "3.276.0" ],
+        [ "@aws-sdk/credential-provider-cognito-identity", "3.276.0" ],
         [ "@aws-sdk/credential-provider-env", "3.272.0" ],
         [ "@aws-sdk/credential-provider-imds", "3.272.0" ],
         [ "@aws-sdk/credential-provider-ini", "3.272.0" ],
@@ -636,13 +636,13 @@
       ]
     },
     "fast-xml-parser": {
-      "4.0.11": [
+      "4.1.2": [
         [ "strnum", "1.0.5" ]
       ]
     },
     "mongodb": {
       "4.14.0": [
-        [ "@aws-sdk/credential-providers", "3.272.0" ],
+        [ "@aws-sdk/credential-providers", "3.276.0" ],
         [ "bson", "4.7.2" ],
         [ "mongodb-connection-string-url", "2.6.0" ],
         [ "saslprep", "1.0.3" ],
@@ -655,12 +655,12 @@
         [ "@aws-crypto/supports-web-crypto", "3.0.0" ],
         [ "@aws-crypto/util", "3.0.0" ],
         [ "@aws-sdk/abort-controller", "3.272.0" ],
-        [ "@aws-sdk/client-cognito-identity", "3.272.0" ],
+        [ "@aws-sdk/client-cognito-identity", "3.276.0" ],
         [ "@aws-sdk/client-sso", "3.272.0" ],
         [ "@aws-sdk/client-sso-oidc", "3.272.0" ],
-        [ "@aws-sdk/client-sts", "3.272.0" ],
+        [ "@aws-sdk/client-sts", "3.276.0" ],
         [ "@aws-sdk/config-resolver", "3.272.0" ],
-        [ "@aws-sdk/credential-provider-cognito-identity", "3.272.0" ],
+        [ "@aws-sdk/credential-provider-cognito-identity", "3.276.0" ],
         [ "@aws-sdk/credential-provider-env", "3.272.0" ],
         [ "@aws-sdk/credential-provider-imds", "3.272.0" ],
         [ "@aws-sdk/credential-provider-ini", "3.272.0" ],
@@ -668,7 +668,7 @@
         [ "@aws-sdk/credential-provider-process", "3.272.0" ],
         [ "@aws-sdk/credential-provider-sso", "3.272.0" ],
         [ "@aws-sdk/credential-provider-web-identity", "3.272.0" ],
-        [ "@aws-sdk/credential-providers", "3.272.0" ],
+        [ "@aws-sdk/credential-providers", "3.276.0" ],
         [ "@aws-sdk/fetch-http-handler", "3.272.0" ],
         [ "@aws-sdk/hash-node", "3.272.0" ],
         [ "@aws-sdk/invalid-dependency", "3.272.0" ],
@@ -721,7 +721,7 @@
         [ "bowser", "2.11.0" ],
         [ "bson", "4.7.2" ],
         [ "buffer", "5.7.1" ],
-        [ "fast-xml-parser", "4.0.11" ],
+        [ "fast-xml-parser", "4.1.2" ],
         [ "ieee754", "1.2.1" ],
         [ "ip", "2.0.0" ],
         [ "memory-pager", "1.5.0" ],
@@ -818,10 +818,10 @@
       }
     },
     "@aws-sdk/client-cognito-identity": {
-      "3.272.0": {
-        "hash": "sha512-uMjRWcNvX7SoGaVn0mXWD43+Z1awPahQwGW3riDLfXHZdOgw2oFDhD3Jg5jQ8OzQLUfDvArhE3WyZwlS4muMuQ==",
+      "3.276.0": {
+        "hash": "sha512-haFxr8QKNxoRLIWyawc4EfEN6ep4yrWv5e5KWzbulJaw6QwLKmTCLyv09mScbk1FUgpn1MaIy2mJiijiu2RJJQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.272.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.276.0.tgz"
       }
     },
     "@aws-sdk/client-sso": {
@@ -839,10 +839,10 @@
       }
     },
     "@aws-sdk/client-sts": {
-      "3.272.0": {
-        "hash": "sha512-kigxCxURp3WupufGaL/LABMb7UQfzAQkKcj9royizL3ItJ0vw5kW/JFrPje5IW1mfLgdPF7PI9ShOjE0fCLTqA==",
+      "3.276.0": {
+        "hash": "sha512-J6FR4tYa/WdDdwWAKhw/mXQXKWUaZZQpMiyFEbFPQyURSWu3u17nv97NUdvVOgCth48H6Wb6a4ksssYy4K9tFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.272.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.276.0.tgz"
       }
     },
     "@aws-sdk/config-resolver": {
@@ -853,10 +853,10 @@
       }
     },
     "@aws-sdk/credential-provider-cognito-identity": {
-      "3.272.0": {
-        "hash": "sha512-rVx0rtQjbiYCM0nah2rB/2ut2YJYPpRr1AbW/Hd4r/PI+yiusrmXAwuT4HIW2yr34zsQMPi1jZ3WHN9Rn9mzlg==",
+      "3.276.0": {
+        "hash": "sha512-LaIQNt2F+XWvX031MzYNoHWuqjpyomsdI+1y6KaeC/9z51Y+usmB/ay1jYK/kUmXl/NcBmZR5gPELZu7P6WtaQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.272.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.276.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-env": {
@@ -909,10 +909,10 @@
       }
     },
     "@aws-sdk/credential-providers": {
-      "3.272.0": {
-        "hash": "sha512-ucd6Xq6aBMf+nM4uz5zkjL11mwaE5BV1Q4hkulaGu2v1dRA8n6zhLJk/sb4hOJ7leelqMJMErlbQ2T3MkYvlJQ==",
+      "3.276.0": {
+        "hash": "sha512-pgKP0dRMP48eDfXIcGENKzi6CIA7IVUAqFdWLY1bonq7DGSLveBvD7hkxu1ZXVp6HlucLiGtncgGrRKBmtK6Jg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-providers/-/credential-providers-3.272.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-providers/-/credential-providers-3.276.0.tgz"
       }
     },
     "@aws-sdk/fetch-http-handler": {
@@ -1280,10 +1280,10 @@
       }
     },
     "fast-xml-parser": {
-      "4.0.11": {
-        "hash": "sha512-4aUg3aNRR/WjQAcpceODG1C3x3lFANXRo8+1biqfieHmg9pyMt7qB4lQV/Ta6sJCTbA5vfD8fnA8S54JATiFUA==",
+      "4.1.2": {
+        "hash": "sha512-CDYeykkle1LiA/uqQyNwYpFbyF6Axec6YapmpUP+/RHWIoR1zKjocdvNaTsxCxZzQ6v9MLXaSYm9Qq0thv0DHg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-4.0.11.tgz"
+        "url": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-4.1.2.tgz"
       }
     },
     "ieee754": {
