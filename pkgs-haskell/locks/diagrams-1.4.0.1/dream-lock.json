@@ -13,7 +13,7 @@
       "Boolean#0.2.4": "a16b532a00eb3f29e8e588f3ca5c225370eef3dd963ee833d88b241ac680dc71",
       "JuicyPixels#3.3.8": "c50e7a610ec33e04f04256dc62da8ce667b014ede72c8c6730dd5039c681e70d",
       "MemoTrie#0.6.10": "e31ca1473059ee8256738869520e68cef374b179e9b1eec15b181cbfd599702d",
-      "MonadRandom#0.2": "fbe42225abd7f91c32e0f2be8097a3da5e47b55973f27cad899d7325825ac70d",
+      "MonadRandom#0.6": "df56fcf43422728ad6032afdb7ad665a843a11b743ffbb585ad4d9f73285c16c",
       "NumInstances#1.4": "d498d51e0fb23822706ca5e24944d014fdc1fd55bcd57f075f9797316eec0187",
       "OneTuple#0.3.1": "fc32cb744477befa450a538ea4975cc523f0a2f1585cb5a36e9936a3d18e9a3c",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
@@ -81,13 +81,14 @@
       "parallel#3.2.2.0": "6edd5a06938cea3d28b406d5231683f89737e854af144a8800aa69e1eee785e0",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "profunctors#5.6.2": "3d3685119243a7ebf984fa6af03299d156ab7674a432e2e15ecee2a4fd420fb6",
-      "random#1.1": "7b67624fd76ddf97c206de0801dc7e888097e9d572974be9b9ea6551d76965df",
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "reflection#2.1.6": "f41afef54a696377bb7591e12969a56e7a4a1cf1d2a32210ab24c6a7aa9bd7ae",
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
-      "scientific#0.3.6.2": "dd49abc76bd8e2b57e7a057dc2bb742a00527b4bf9350f9374be03b5934e55d8",
+      "scientific#0.3.7.0": "57451a0a7f62af85958c21a8ef79358c8a45b467f39d78ee5d51074d12e4c718",
       "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
       "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
       "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
+      "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "svg-builder#0.1.1": "5f44fc6623bf28b6067a5d619dbb9a78825d453266b6f02f69b1e5a03caaf9b2",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
@@ -123,8 +124,10 @@
       ]
     },
     "MonadRandom": {
-      "0.2": [
-        [ "random", "1.1" ]
+      "0.6": [
+        [ "primitive", "0.8.0.0" ],
+        [ "random", "1.2.1.1" ],
+        [ "transformers-compat", "0.7.2" ]
       ]
     },
     "OneTuple": {
@@ -194,7 +197,7 @@
         [ "binary-orphans", "1.0.3" ],
         [ "cereal", "0.5.8.3" ],
         [ "hashable", "1.4.2.0" ],
-        [ "scientific", "0.3.6.2" ],
+        [ "scientific", "0.3.7.0" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "void", "0.7.3" ]
@@ -260,7 +263,7 @@
     },
     "diagrams-contrib": {
       "1.4.5": [
-        [ "MonadRandom", "0.2" ],
+        [ "MonadRandom", "0.6" ],
         [ "circle-packing", "0.1.0.6" ],
         [ "colour", "2.3.6" ],
         [ "cubicbezier", "0.6.0.6" ],
@@ -276,7 +279,7 @@
         [ "mfsolve", "0.3.2.1" ],
         [ "monoid-extras", "0.6.2" ],
         [ "mtl-compat", "0.2.2" ],
-        [ "random", "1.1" ],
+        [ "random", "1.2.1.1" ],
         [ "semigroups", "0.20" ],
         [ "split", "0.2.3.5" ]
       ]
@@ -469,7 +472,7 @@
         [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
         [ "lens", "5.2" ],
-        [ "random", "1.1" ],
+        [ "random", "1.2.1.1" ],
         [ "reflection", "2.1.6" ],
         [ "semigroupoids", "5.3.7" ],
         [ "tagged", "0.8.7" ],
@@ -537,8 +540,13 @@
         [ "tagged", "0.8.7" ]
       ]
     },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
     "scientific": {
-      "0.3.6.2": [
+      "0.3.7.0": [
         [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "primitive", "0.8.0.0" ]
@@ -625,10 +633,10 @@
       }
     },
     "MonadRandom": {
-      "0.2": {
-        "hash": "sha256:8c10382abfc5a7ea9ef8cdea1e82066dc81987846247c37ebff6f47a880db673",
+      "0.6": {
+        "hash": "sha256:c9388630895c3e68035ab804004de852b63a95d083aa140dc0e1481c854ed044",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/MonadRandom-0.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/MonadRandom-0.6.tar.gz"
       }
     },
     "NumInstances": {
@@ -1108,10 +1116,10 @@
       }
     },
     "random": {
-      "1.1": {
-        "hash": "sha256:b718a41057e25a3a71df693ab0fe2263d492e759679b3c2fea6ea33b171d3a5a",
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/random-1.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
       }
     },
     "reflection": {
@@ -1129,10 +1137,10 @@
       }
     },
     "scientific": {
-      "0.3.6.2": {
-        "hash": "sha256:278d0afc87450254f8a76eab21b5583af63954efc9b74844a17a21a68013140f",
+      "0.3.7.0": {
+        "hash": "sha256:a3a121c4b3d68fb8b9f8c709ab012e48f090ed553609247a805ad070d6b343a9",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/scientific-0.3.6.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/scientific-0.3.7.0.tar.gz"
       }
     },
     "semigroupoids": {
@@ -1154,6 +1162,13 @@
         "hash": "sha256:bf8aa8d610354a2b576946a6c838251ec5988c8374100638e6b2604513b93159",
         "type": "http",
         "url": "https://hackage.haskell.org/package/split-0.2.3.5.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
       }
     },
     "strict": {

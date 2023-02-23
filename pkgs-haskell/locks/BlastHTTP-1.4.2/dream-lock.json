@@ -120,7 +120,7 @@
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "reflection#2.1.6": "f41afef54a696377bb7591e12969a56e7a4a1cf1d2a32210ab24c6a7aa9bd7ae",
       "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
-      "scientific#0.3.7.0": "517444c944dad9db8235d7b311d7b9a0839a519ee3178288b5a9606256e0c7d8",
+      "scientific#0.3.7.0": "57451a0a7f62af85958c21a8ef79358c8a45b467f39d78ee5d51074d12e4c718",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
       "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
       "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
@@ -129,8 +129,8 @@
       "socks#0.6.1": "ac190808eea704672df18f702e8f2ad0b7a4d0af528e95ee55ea6ee0be672e2a",
       "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
-      "storable-record#0.0.6": "4d35ee44f49ff42836ae7133d6cfdc54ecf998563d461f4be6eedb944161be3e",
-      "storable-tuple#0.0.3.3": "1096df92bed234a5dbd3d5b9632131c1b839787b20031c3e179e44493f5939d5",
+      "storable-record#0.0.7": "41b5ef62468b978f163ba36d5c531ececdd19a66b2144ed0f9c1df3521378f1e",
+      "storable-tuple#0.1": "75897946f56c019b863c9deaabf887eef603130a2db8f5458cda750a304b1887",
       "streaming#0.2.3.1": "9dd39bfa8befa6956372722187b225d489b50b633ab56d7f411bf302b79e46cd",
       "streaming-bytestring#0.2.4": "f13ad6360e4a4b7a671cd0558d04a3bb65a62a0728f4d4d2c0428bbe3a6523cd",
       "streaming-commons#0.2.2.5": "34959abee70e63d370b5a4bee0bc3483c66d1e53906fb5e13844ae8b9a62a4a3",
@@ -525,7 +525,7 @@
         [ "cereal-vector", "0.2.0.1" ],
         [ "hashable", "1.4.2.0" ],
         [ "primitive", "0.7.4.0" ],
-        [ "storable-tuple", "0.0.3.3" ],
+        [ "storable-tuple", "0.1" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
         [ "vector-binary-instances", "0.2.5.2" ],
@@ -990,16 +990,16 @@
       ]
     },
     "storable-record": {
-      "0.0.6": [
+      "0.0.7": [
         [ "QuickCheck", "2.14.2" ],
         [ "semigroups", "0.20" ],
         [ "utility-ht", "0.0.16" ]
       ]
     },
     "storable-tuple": {
-      "0.0.3.3": [
+      "0.1": [
         [ "base-orphans", "0.8.7" ],
-        [ "storable-record", "0.0.6" ],
+        [ "storable-record", "0.0.7" ],
         [ "utility-ht", "0.0.16" ]
       ]
     },
@@ -2020,17 +2020,17 @@
       }
     },
     "storable-record": {
-      "0.0.6": {
-        "hash": "sha256:cd09cc2dda10c3addcb6a1f71f964fb33fd8ab4d2b4acd94cd08dfbc180b8cb4",
+      "0.0.7": {
+        "hash": "sha256:bec546c894d39182af50415743af226456a5f79da281d1a3c0b7db11362a2eb0",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/storable-record-0.0.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/storable-record-0.0.7.tar.gz"
       }
     },
     "storable-tuple": {
-      "0.0.3.3": {
-        "hash": "sha256:dcfac049527a45c386c80a7c40ec211455b83d74311af88fa686063b5f87df35",
+      "0.1": {
+        "hash": "sha256:034b4fa44239d60326af52fecde604ba65ef1f75cfd5cef1ded2079a3b86593c",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/storable-tuple-0.0.3.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/storable-tuple-0.1.tar.gz"
       }
     },
     "streaming": {
