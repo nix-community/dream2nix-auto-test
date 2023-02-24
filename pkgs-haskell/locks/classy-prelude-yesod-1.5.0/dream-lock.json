@@ -15,7 +15,7 @@
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "adjunctions#4.4.2": "4c6fb647f522c46c0af513f705dab1d890860e536e0405c78389d425296ac0b4",
-      "aeson#2.1.1.0": "103ceb1421cd0ffa810bfb1acb1261d60addbde1a041fb5cce0056ff7d7dcdc2",
+      "aeson#2.1.2.0": "3ea9f5cfc31e9c20e8a6fa970cec56935f72c5dd900db19489abcfe74e88f217",
       "alex#3.2.7.1": "ab26a38cefae59403f746370e5a0c943b8d5bda098eb83f37052b2429ee780ce",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
@@ -190,7 +190,7 @@
       "xml-conduit#1.9.1.1": "c6cbafaea0d0348d83dc44a6c04328f0a2dbb7f4d7f90ddb50e8f79eae9dda54",
       "xml-types#0.3.8": "0d1420f967a5f6439dc03f554b4d77cf15f9ff0aa58fa408efc52ca16459119b",
       "xss-sanitize#0.3.7.1": "61d8950ce3f0d3e2879c894ed628768b2007af6a8236ee1f98a5bc8b3bd3d8a8",
-      "yaml#0.11.10.0": "bbbb9b2e7cdeffc0fdfb2a67210a3a6b786d30f79812a5d333a37903bc2a9da1",
+      "yaml#0.11.11.0": "a2acb8d325b094e1184cc8b0f71deacf4b772e99bd0f53081cb032fdf5563ff9",
       "yesod#1.6.2.1": "504bc888257dae9bb40f4cd1e1110c4e80dfe7b867e8e207b22c4ca4dbd87f9a",
       "yesod-core#1.6.24.1": "c2909e6a6345456eab1c88afafc973dcabff43b1c3f571799d1eeb652deb8f6b",
       "yesod-form#1.7.4": "715828245ddcce43bf866e37ef4e5cd70f6f330b53a500055e4f0b621724833d",
@@ -253,7 +253,7 @@
       ]
     },
     "aeson": {
-      "2.1.1.0": [
+      "2.1.2.0": [
         [ "OneTuple", "0.3.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
@@ -416,7 +416,7 @@
     },
     "classy-prelude-yesod": {
       "1.5.0": [
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "classy-prelude", "1.5.0.2" ],
         [ "classy-prelude-conduit", "1.5.0" ],
         [ "data-default", "0.7.1.1" ],
@@ -667,7 +667,7 @@
     },
     "http-conduit": {
       "2.3.8": [
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "conduit", "1.3.4.3" ],
         [ "conduit-extra", "1.3.6" ],
@@ -858,7 +858,7 @@
     },
     "persistent": {
       "2.14.4.4": [
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "base64-bytestring", "1.2.1.0" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -970,7 +970,7 @@
     },
     "shakespeare": {
       "2.0.30": [
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "blaze-markup", "0.8.2.8" ],
         [ "file-embed", "0.0.15.0" ],
@@ -1162,7 +1162,7 @@
     "wai-extra": {
       "3.1.13.0": [
         [ "HUnit", "1.6.2.0" ],
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "ansi-terminal", "0.11.4" ],
         [ "base64-bytestring", "1.2.1.0" ],
         [ "call-stack", "0.4.0" ],
@@ -1288,8 +1288,8 @@
       ]
     },
     "yaml": {
-      "0.11.10.0": [
-        [ "aeson", "2.1.1.0" ],
+      "0.11.11.0": [
+        [ "aeson", "2.1.2.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "conduit", "1.3.4.3" ],
         [ "libyaml", "0.1.2" ],
@@ -1301,7 +1301,7 @@
     },
     "yesod": {
       "1.6.2.1": [
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "conduit", "1.3.4.3" ],
         [ "data-default-class", "0.1.2.0" ],
         [ "fast-logger", "3.1.2" ],
@@ -1314,7 +1314,7 @@
         [ "wai-extra", "3.1.13.0" ],
         [ "wai-logger", "2.4.0" ],
         [ "warp", "3.3.24" ],
-        [ "yaml", "0.11.10.0" ],
+        [ "yaml", "0.11.11.0" ],
         [ "yesod-core", "1.6.24.1" ],
         [ "yesod-form", "1.7.4" ],
         [ "yesod-persistent", "1.6.0.8" ]
@@ -1322,7 +1322,7 @@
     },
     "yesod-core": {
       "1.6.24.1": [
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "auto-update", "0.1.6" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "blaze-markup", "0.8.2.8" ],
@@ -1355,7 +1355,7 @@
     },
     "yesod-form": {
       "1.7.4": [
-        [ "aeson", "2.1.1.0" ],
+        [ "aeson", "2.1.2.0" ],
         [ "attoparsec", "0.14.4" ],
         [ "blaze-builder", "0.4.2.2" ],
         [ "blaze-html", "0.9.1.2" ],
@@ -1455,10 +1455,10 @@
       }
     },
     "aeson": {
-      "2.1.1.0": {
-        "hash": "sha256:a3ae978d67cd8554a6dc11d1e5a4c46280dc90bbc50f3a8787fdd2278524b6ad",
+      "2.1.2.0": {
+        "hash": "sha256:170ff185d9679e2616f786d79dbf1f3cad0faebf0d6b55e765920ffe31a91c48",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/aeson-2.1.1.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/aeson-2.1.2.0.tar.gz"
       }
     },
     "alex": {
@@ -2687,10 +2687,10 @@
       }
     },
     "yaml": {
-      "0.11.10.0": {
-        "hash": "sha256:6858d293de266f4aa09a129a76819ed6488325e31e27ab3a5e8eafeceea4fe07",
+      "0.11.11.0": {
+        "hash": "sha256:4c95c00bd2e134cd5c2a9c7032bcadac300fa2b8ed794ac61637a28431580023",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/yaml-0.11.10.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/yaml-0.11.11.0.tar.gz"
       }
     },
     "yesod": {
