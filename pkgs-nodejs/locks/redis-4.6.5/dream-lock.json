@@ -3,7 +3,7 @@
     "defaultPackage": "redis",
     "location": "",
     "packages": {
-      "redis": "4.6.4"
+      "redis": "4.6.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,31 +17,31 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@redis/client": {
-      "1.5.5": [
+      "1.5.6": [
         [ "cluster-key-slot", "1.1.2" ],
         [ "generic-pool", "3.9.0" ],
         [ "yallist", "4.0.0" ]
       ]
     },
     "redis": {
-      "4.6.4": [
+      "4.6.5": [
         [ "@redis/bloom", "1.2.0" ],
-        [ "@redis/client", "1.5.5" ],
+        [ "@redis/client", "1.5.6" ],
         [ "@redis/graph", "1.1.0" ],
         [ "@redis/json", "1.0.4" ],
-        [ "@redis/search", "1.1.1" ],
+        [ "@redis/search", "1.1.2" ],
         [ "@redis/time-series", "1.0.4" ]
       ],
       "unknown": [
         [ "@redis/bloom", "1.2.0" ],
-        [ "@redis/client", "1.5.5" ],
+        [ "@redis/client", "1.5.6" ],
         [ "@redis/graph", "1.1.0" ],
         [ "@redis/json", "1.0.4" ],
-        [ "@redis/search", "1.1.1" ],
+        [ "@redis/search", "1.1.2" ],
         [ "@redis/time-series", "1.0.4" ],
         [ "cluster-key-slot", "1.1.2" ],
         [ "generic-pool", "3.9.0" ],
-        [ "redis", "4.6.4" ],
+        [ "redis", "4.6.5" ],
         [ "yallist", "4.0.0" ]
       ]
     }
@@ -55,10 +55,10 @@
       }
     },
     "@redis/client": {
-      "1.5.5": {
-        "hash": "sha512-fuMnpDYSjT5JXR9rrCW1YWA4L8N/9/uS4ImT3ZEC/hcaQRI1D/9FvwjriRj1UvepIgzZXthFVKMNRzP/LNL7BQ==",
+      "1.5.6": {
+        "hash": "sha512-dFD1S6je+A47Lj22jN/upVU2fj4huR7S9APd7/ziUXsIXDL+11GPYti4Suv5y8FuXaN+0ZG4JF+y1houEJ7ToA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@redis/client/-/client-1.5.5.tgz"
+        "url": "https://registry.npmjs.org/@redis/client/-/client-1.5.6.tgz"
       }
     },
     "@redis/graph": {
@@ -76,10 +76,10 @@
       }
     },
     "@redis/search": {
-      "1.1.1": {
-        "hash": "sha512-pqCXTc5e7wJJgUuJiC3hBgfoFRoPxYzwn0BEfKgejTM7M/9zP3IpUcqcjgfp8hF+LoV8rHZzcNTz7V+pEIY7LQ==",
+      "1.1.2": {
+        "hash": "sha512-/cMfstG/fOh/SsE+4/BQGeuH/JJloeWuH+qJzM8dbxuWvdWibWAOAHHCZTMPhV3xIlH4/cUEIA8OV5QnYpaVoA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@redis/search/-/search-1.1.1.tgz"
+        "url": "https://registry.npmjs.org/@redis/search/-/search-1.1.2.tgz"
       }
     },
     "@redis/time-series": {
@@ -104,10 +104,10 @@
       }
     },
     "redis": {
-      "4.6.4": {
-        "hash": "sha512-wi2tgDdQ+Q8q+PR5FLRx4QvDiWaA+PoJbrzsyFqlClN5R4LplHqN3scs/aGjE//mbz++W19SgxiEnQ27jnCRaA==",
+      "4.6.5": {
+        "hash": "sha512-O0OWA36gDQbswOdUuAhRL6mTZpHFN525HlgZgDaVNgCJIAZR3ya06NTESb0R+TUZ+BFaDpz6NnnVvoMx9meUFg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/redis/-/redis-4.6.4.tgz"
+        "url": "https://registry.npmjs.org/redis/-/redis-4.6.5.tgz"
       }
     },
     "yallist": {
