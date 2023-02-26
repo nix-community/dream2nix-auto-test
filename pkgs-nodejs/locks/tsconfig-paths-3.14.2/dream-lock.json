@@ -3,7 +3,7 @@
     "defaultPackage": "tsconfig-paths",
     "location": "",
     "packages": {
-      "tsconfig-paths": "4.1.2"
+      "tsconfig-paths": "3.14.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -16,26 +16,40 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "json5": {
+      "1.0.2": [
+        [ "minimist", "1.2.8" ]
+      ]
+    },
     "tsconfig-paths": {
-      "4.1.2": [
-        [ "json5", "2.2.3" ],
+      "3.14.2": [
+        [ "@types/json5", "0.0.29" ],
+        [ "json5", "1.0.2" ],
         [ "minimist", "1.2.8" ],
         [ "strip-bom", "3.0.0" ]
       ],
       "unknown": [
-        [ "json5", "2.2.3" ],
+        [ "@types/json5", "0.0.29" ],
+        [ "json5", "1.0.2" ],
         [ "minimist", "1.2.8" ],
         [ "strip-bom", "3.0.0" ],
-        [ "tsconfig-paths", "4.1.2" ]
+        [ "tsconfig-paths", "3.14.2" ]
       ]
     }
   },
   "sources": {
-    "json5": {
-      "2.2.3": {
-        "hash": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",
+    "@types/json5": {
+      "0.0.29": {
+        "hash": "sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz"
+        "url": "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
+      }
+    },
+    "json5": {
+      "1.0.2": {
+        "hash": "sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json5/-/json5-1.0.2.tgz"
       }
     },
     "minimist": {
@@ -53,10 +67,10 @@
       }
     },
     "tsconfig-paths": {
-      "4.1.2": {
-        "hash": "sha512-uhxiMgnXQp1IR622dUXI+9Ehnws7i/y6xvpZB9IbUVOPy0muvdvgXeZOn88UcGPiT98Vp3rJPTa8bFoalZ3Qhw==",
+      "3.14.2": {
+        "hash": "sha512-o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-4.1.2.tgz"
+        "url": "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.14.2.tgz"
       }
     }
   }
