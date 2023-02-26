@@ -201,9 +201,6 @@
       ]
     },
     "remove_dir_all": {
-      "0.5.3": [
-        [ "winapi", "0.3.9" ]
-      ],
       "0.8.1": [
         [ "aligned", "0.4.1" ],
         [ "cfg-if", "1.0.0" ],
@@ -216,7 +213,7 @@
         [ "log", "0.4.17" ],
         [ "normpath", "1.1.0" ],
         [ "rayon", "1.6.1" ],
-        [ "tempfile", "3.3.0" ],
+        [ "tempfile", "3.4.0" ],
         [ "test-log", "0.2.11" ],
         [ "windows-sys", "0.45.0" ]
       ]
@@ -246,13 +243,12 @@
       ]
     },
     "tempfile": {
-      "3.3.0": [
+      "3.4.0": [
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
-        [ "libc", "0.2.139" ],
         [ "redox_syscall", "0.2.16" ],
-        [ "remove_dir_all", "0.5.3" ],
-        [ "winapi", "0.3.9" ]
+        [ "rustix", "0.36.8" ],
+        [ "windows-sys", "0.42.0" ]
       ]
     },
     "termcolor": {
@@ -279,6 +275,15 @@
       ]
     },
     "windows-sys": {
+      "0.42.0": [
+        [ "windows_aarch64_gnullvm", "0.42.1" ],
+        [ "windows_aarch64_msvc", "0.42.1" ],
+        [ "windows_i686_gnu", "0.42.1" ],
+        [ "windows_i686_msvc", "0.42.1" ],
+        [ "windows_x86_64_gnu", "0.42.1" ],
+        [ "windows_x86_64_gnullvm", "0.42.1" ],
+        [ "windows_x86_64_msvc", "0.42.1" ]
+      ],
       "0.45.0": [
         [ "windows-targets", "0.42.1" ]
       ]
@@ -545,10 +550,6 @@
       }
     },
     "remove_dir_all": {
-      "0.5.3": {
-        "hash": "3acd125665422973a33ac9d3dd2df85edad0f4ae9b00dafb1a05e43a9f5ef8e7",
-        "type": "crates-io"
-      },
       "0.8.1": {
         "hash": "7174320e07c29945955cedd70b865995b286847111c8308d349a1f3a9e3af555",
         "type": "crates-io"
@@ -591,8 +592,8 @@
       }
     },
     "tempfile": {
-      "3.3.0": {
-        "hash": "5cdb1ef4eaeeaddc8fbd371e5017057064af0911902ef36b39801f67cc6d79e4",
+      "3.4.0": {
+        "hash": "af18f7ae1acd354b992402e9ec5864359d693cd8a79dcbef59f76891701c1e95",
         "type": "crates-io"
       }
     },
@@ -639,6 +640,10 @@
       }
     },
     "windows-sys": {
+      "0.42.0": {
+        "hash": "5a3e1820f08b8513f676f7ab6c1f99ff312fb97b553d30ff4dd86f9f15728aa7",
+        "type": "crates-io"
+      },
       "0.45.0": {
         "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
         "type": "crates-io"

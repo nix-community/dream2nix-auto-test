@@ -31,6 +31,19 @@
         [ "bit-vec", "0.6.3" ]
       ]
     },
+    "errno": {
+      "0.2.8": [
+        [ "errno-dragonfly", "0.1.2" ],
+        [ "libc", "0.2.139" ],
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "errno-dragonfly": {
+      "0.1.2": [
+        [ "cc", "1.0.79" ],
+        [ "libc", "0.2.139" ]
+      ]
+    },
     "fastrand": {
       "1.9.0": [
         [ "instant", "0.1.12" ]
@@ -46,6 +59,12 @@
     "instant": {
       "0.1.12": [
         [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "io-lifetimes": {
+      "1.0.5": [
+        [ "libc", "0.2.139" ],
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "memoffset": {
@@ -91,7 +110,7 @@
         [ "rand_xorshift", "0.3.0" ],
         [ "regex-syntax", "0.6.28" ],
         [ "rusty-fork", "0.3.0" ],
-        [ "tempfile", "3.3.0" ],
+        [ "tempfile", "3.4.0" ],
         [ "unarray", "0.1.4" ]
       ]
     },
@@ -140,11 +159,6 @@
         [ "bitflags", "1.3.2" ]
       ]
     },
-    "remove_dir_all": {
-      "0.5.3": [
-        [ "winapi", "0.3.9" ]
-      ]
-    },
     "rkyv": {
       "0.7.40": [
         [ "ptr_meta", "0.1.4" ],
@@ -159,11 +173,21 @@
         [ "syn", "1.0.109" ]
       ]
     },
+    "rustix": {
+      "0.36.8": [
+        [ "bitflags", "1.3.2" ],
+        [ "errno", "0.2.8" ],
+        [ "io-lifetimes", "1.0.5" ],
+        [ "libc", "0.2.139" ],
+        [ "linux-raw-sys", "0.1.4" ],
+        [ "windows-sys", "0.45.0" ]
+      ]
+    },
     "rusty-fork": {
       "0.3.0": [
         [ "fnv", "1.0.7" ],
         [ "quick-error", "1.2.3" ],
-        [ "tempfile", "3.3.0" ],
+        [ "tempfile", "3.4.0" ],
         [ "wait-timeout", "0.2.0" ]
       ]
     },
@@ -227,13 +251,12 @@
       ]
     },
     "tempfile": {
-      "3.3.0": [
+      "3.4.0": [
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
-        [ "libc", "0.2.139" ],
         [ "redox_syscall", "0.2.16" ],
-        [ "remove_dir_all", "0.5.3" ],
-        [ "winapi", "0.3.9" ]
+        [ "rustix", "0.36.8" ],
+        [ "windows-sys", "0.42.0" ]
       ]
     },
     "wait-timeout": {
@@ -245,6 +268,31 @@
       "0.3.9": [
         [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
         [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "windows-sys": {
+      "0.42.0": [
+        [ "windows_aarch64_gnullvm", "0.42.1" ],
+        [ "windows_aarch64_msvc", "0.42.1" ],
+        [ "windows_i686_gnu", "0.42.1" ],
+        [ "windows_i686_msvc", "0.42.1" ],
+        [ "windows_x86_64_gnu", "0.42.1" ],
+        [ "windows_x86_64_gnullvm", "0.42.1" ],
+        [ "windows_x86_64_msvc", "0.42.1" ]
+      ],
+      "0.45.0": [
+        [ "windows-targets", "0.42.1" ]
+      ]
+    },
+    "windows-targets": {
+      "0.42.1": [
+        [ "windows_aarch64_gnullvm", "0.42.1" ],
+        [ "windows_aarch64_msvc", "0.42.1" ],
+        [ "windows_i686_gnu", "0.42.1" ],
+        [ "windows_i686_msvc", "0.42.1" ],
+        [ "windows_x86_64_gnu", "0.42.1" ],
+        [ "windows_x86_64_gnullvm", "0.42.1" ],
+        [ "windows_x86_64_msvc", "0.42.1" ]
       ]
     }
   },
@@ -291,6 +339,12 @@
         "type": "crates-io"
       }
     },
+    "cc": {
+      "1.0.79": {
+        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
+        "type": "crates-io"
+      }
+    },
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
@@ -300,6 +354,18 @@
     "dyn-clone": {
       "1.0.10": {
         "hash": "c9b0705efd4599c15a38151f4721f7bc388306f61084d3bfd50bd07fbca5cb60",
+        "type": "crates-io"
+      }
+    },
+    "errno": {
+      "0.2.8": {
+        "hash": "f639046355ee4f37944e44f60642c6f3a7efa3cf6b78c78a0d989a8ce6c396a1",
+        "type": "crates-io"
+      }
+    },
+    "errno-dragonfly": {
+      "0.1.2": {
+        "hash": "aa68f1b12764fab894d2755d2518754e71b4fd80ecfb822714a1206c2aab39bf",
         "type": "crates-io"
       }
     },
@@ -327,6 +393,12 @@
         "type": "crates-io"
       }
     },
+    "io-lifetimes": {
+      "1.0.5": {
+        "hash": "1abeb7a0dd0f8181267ff8adc397075586500b81b28a73e8a0208b00fc170fb3",
+        "type": "crates-io"
+      }
+    },
     "itoa": {
       "1.0.5": {
         "hash": "fad582f4b9e86b6caa621cabeb0963332d92eea04729ab12892c2533951e6440",
@@ -348,6 +420,12 @@
     "libm": {
       "0.2.6": {
         "hash": "348108ab3fba42ec82ff6e9564fc4ca0247bdccdc68dd8af9764bbc79c3c8ffb",
+        "type": "crates-io"
+      }
+    },
+    "linux-raw-sys": {
+      "0.1.4": {
+        "hash": "f051f77a7c8e6957c0696eac88f26b0117e54f52d3fc682ab19397a8812846a4",
         "type": "crates-io"
       }
     },
@@ -451,12 +529,6 @@
         "type": "crates-io"
       }
     },
-    "remove_dir_all": {
-      "0.5.3": {
-        "hash": "3acd125665422973a33ac9d3dd2df85edad0f4ae9b00dafb1a05e43a9f5ef8e7",
-        "type": "crates-io"
-      }
-    },
     "rkyv": {
       "0.7.40": {
         "hash": "c30f1d45d9aa61cbc8cd1eb87705470892289bb2d01943e7803b873a57404dc3",
@@ -466,6 +538,12 @@
     "rkyv_derive": {
       "0.7.40": {
         "hash": "ff26ed6c7c4dfc2aa9480b86a60e3c7233543a270a680e10758a507c5a4ce476",
+        "type": "crates-io"
+      }
+    },
+    "rustix": {
+      "0.36.8": {
+        "hash": "f43abb88211988493c1abb44a70efa56ff0ce98f233b7b276146f1f3f7ba9644",
         "type": "crates-io"
       }
     },
@@ -542,8 +620,8 @@
       }
     },
     "tempfile": {
-      "3.3.0": {
-        "hash": "5cdb1ef4eaeeaddc8fbd371e5017057064af0911902ef36b39801f67cc6d79e4",
+      "3.4.0": {
+        "hash": "af18f7ae1acd354b992402e9ec5864359d693cd8a79dcbef59f76891701c1e95",
         "type": "crates-io"
       }
     },
@@ -586,6 +664,64 @@
     "winapi-x86_64-pc-windows-gnu": {
       "0.4.0": {
         "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    },
+    "windows-sys": {
+      "0.42.0": {
+        "hash": "5a3e1820f08b8513f676f7ab6c1f99ff312fb97b553d30ff4dd86f9f15728aa7",
+        "type": "crates-io"
+      },
+      "0.45.0": {
+        "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
+        "type": "crates-io"
+      }
+    },
+    "windows-targets": {
+      "0.42.1": {
+        "hash": "8e2522491fbfcd58cc84d47aeb2958948c4b8982e9a2d8a2a35bbaed431390e7",
+        "type": "crates-io"
+      }
+    },
+    "windows_aarch64_gnullvm": {
+      "0.42.1": {
+        "hash": "8c9864e83243fdec7fc9c5444389dcbbfd258f745e7853198f365e3c4968a608",
+        "type": "crates-io"
+      }
+    },
+    "windows_aarch64_msvc": {
+      "0.42.1": {
+        "hash": "4c8b1b673ffc16c47a9ff48570a9d85e25d265735c503681332589af6253c6c7",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_gnu": {
+      "0.42.1": {
+        "hash": "de3887528ad530ba7bdbb1faa8275ec7a1155a45ffa57c37993960277145d640",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_msvc": {
+      "0.42.1": {
+        "hash": "bf4d1122317eddd6ff351aa852118a2418ad4214e6613a50e0191f7004372605",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_gnu": {
+      "0.42.1": {
+        "hash": "c1040f221285e17ebccbc2591ffdc2d44ee1f9186324dd3e84e99ac68d699c45",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_gnullvm": {
+      "0.42.1": {
+        "hash": "628bfdf232daa22b0d64fdb62b09fcc36bb01f05a3939e20ab73aaf9470d0463",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_msvc": {
+      "0.42.1": {
+        "hash": "447660ad36a13288b1db4d4248e857b510e8c3a225c822ba4fb748c0aafecffd",
         "type": "crates-io"
       }
     }
