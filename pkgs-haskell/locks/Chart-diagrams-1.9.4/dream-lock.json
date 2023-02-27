@@ -65,7 +65,7 @@
       "operational#0.2.4.2": "7ffd456433b2d76eec4326355ec3184749045b90f59bf60066ac1a9c65607cf2",
       "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
       "parallel#3.2.2.0": "6edd5a06938cea3d28b406d5231683f89737e854af144a8800aa69e1eee785e0",
-      "primitive#0.7.4.0": "c2f0ed97b3dce97f2f43b239c3be8b136e4368f1eb7b61322ee9ac98f604622b",
+      "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "profunctors#5.6.2": "3d3685119243a7ebf984fa6af03299d156ab7674a432e2e15ecee2a4fd420fb6",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "reflection#2.1.6": "f41afef54a696377bb7591e12969a56e7a4a1cf1d2a32210ab24c6a7aa9bd7ae",
@@ -85,7 +85,7 @@
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
       "unix-compat#0.6": "0f5d0929d838077909d397c7c83b711b89db4ed3d4dafea46af19c04b389b53c",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
-      "vector#0.12.3.1": "fffbd00912d69ed7be9bc7eeb09f4f475e0d243ec43f916a9fd5bbd219ce7f3e",
+      "vector#0.12.3.1": "abbfe8830e13549596e1295219d340eb01bd00e1c7124d0dd16586911a291c59",
       "void#0.7.3": "13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546",
       "xml#1.3.14": "c7a33d37c968c769723931a33e4e795f0aadda6cb62e7073ded8a2db52509d95",
       "zlib#0.6.3.0": "9adce39e4ca0b7a87d45df0a243134816c57059a08e28cff5469c98ae1f54dfc"
@@ -137,7 +137,7 @@
     },
     "JuicyPixels": {
       "3.3.7": [
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "vector", "0.12.3.1" ],
         [ "zlib", "0.6.3.0" ]
       ]
@@ -488,6 +488,11 @@
         [ "transformers-compat", "0.7.2" ]
       ]
     },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
     "profunctors": {
       "5.6.2": [
         [ "base-orphans", "0.8.7" ],
@@ -507,7 +512,7 @@
       "0.3.7.0": [
         [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
-        [ "primitive", "0.7.4.0" ]
+        [ "primitive", "0.8.0.0" ]
       ]
     },
     "semigroupoids": {
@@ -556,7 +561,7 @@
     },
     "vector": {
       "0.12.3.1": [
-        [ "primitive", "0.7.4.0" ]
+        [ "primitive", "0.8.0.0" ]
       ]
     }
   },
@@ -954,10 +959,10 @@
       }
     },
     "primitive": {
-      "0.7.4.0": {
-        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0.tar.gz"
       }
     },
     "profunctors": {
