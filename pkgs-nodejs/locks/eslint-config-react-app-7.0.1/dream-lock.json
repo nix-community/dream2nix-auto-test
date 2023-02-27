@@ -748,7 +748,7 @@
         [ "babel-plugin-polyfill-corejs2", "0.3.3" ],
         [ "babel-plugin-polyfill-corejs3", "0.6.0" ],
         [ "babel-plugin-polyfill-regenerator", "0.4.1" ],
-        [ "core-js-compat", "3.28.0" ],
+        [ "core-js-compat", "3.29.0" ],
         [ "semver", "6.3.0" ]
       ]
     },
@@ -812,7 +812,7 @@
       ]
     },
     "@eslint/eslintrc": {
-      "1.4.1": [
+      "2.0.0": [
         [ "ajv", "6.12.6" ],
         [ "debug", "4.3.4" ],
         [ "espree", "9.4.1" ],
@@ -1012,7 +1012,7 @@
     "babel-plugin-polyfill-corejs3": {
       "0.6.0": [
         [ "@babel/helper-define-polyfill-provider", "0.3.3" ],
-        [ "core-js-compat", "3.28.0" ]
+        [ "core-js-compat", "3.29.0" ]
       ]
     },
     "babel-plugin-polyfill-regenerator": {
@@ -1085,7 +1085,7 @@
       ]
     },
     "core-js-compat": {
-      "3.28.0": [
+      "3.29.0": [
         [ "browserslist", "4.21.5" ]
       ]
     },
@@ -1228,8 +1228,9 @@
       ]
     },
     "eslint": {
-      "8.34.0": [
-        [ "@eslint/eslintrc", "1.4.1" ],
+      "8.35.0": [
+        [ "@eslint/eslintrc", "2.0.0" ],
+        [ "@eslint/js", "8.35.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
@@ -1406,7 +1407,8 @@
         [ "@babel/template", "7.20.7" ],
         [ "@babel/traverse", "7.21.2" ],
         [ "@babel/types", "7.21.2" ],
-        [ "@eslint/eslintrc", "1.4.1" ],
+        [ "@eslint/eslintrc", "2.0.0" ],
+        [ "@eslint/js", "8.35.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@humanwhocodes/object-schema", "1.2.1" ],
@@ -1468,7 +1470,7 @@
         [ "concat-map", "0.0.1" ],
         [ "confusing-browser-globals", "1.0.11" ],
         [ "convert-source-map", "1.9.0" ],
-        [ "core-js-compat", "3.28.0" ],
+        [ "core-js-compat", "3.29.0" ],
         [ "cosmiconfig", "7.1.0" ],
         [ "cross-spawn", "7.0.3" ],
         [ "damerau-levenshtein", "1.0.8" ],
@@ -1488,7 +1490,7 @@
         [ "es-to-primitive", "1.2.1" ],
         [ "escalade", "3.1.1" ],
         [ "escape-string-regexp", "4.0.0" ],
-        [ "eslint", "8.34.0" ],
+        [ "eslint", "8.35.0" ],
         [ "eslint-config-react-app", "7.0.1" ],
         [ "eslint-import-resolver-node", "0.3.7" ],
         [ "eslint-module-utils", "2.7.4" ],
@@ -3204,10 +3206,17 @@
       }
     },
     "@eslint/eslintrc": {
-      "1.4.1": {
-        "hash": "sha512-XXrH9Uarn0stsyldqDYq8r++mROmWRI1xKMXa640Bb//SY1+ECYX6VzT6Lcx5frD0V30XieqJ0oX9I2Xj5aoMA==",
+      "2.0.0": {
+        "hash": "sha512-fluIaaV+GyV24CCu/ggiHdV+j4RNh85yQnAYS/G2mZODZgGmmlrgCydjUcV3YvxCm9x8nMAfThsqTni4KiXT4A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.4.1.tgz"
+        "url": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.0.0.tgz"
+      }
+    },
+    "@eslint/js": {
+      "8.35.0": {
+        "hash": "sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@eslint/js/-/js-8.35.0.tgz"
       }
     },
     "@humanwhocodes/config-array": {
@@ -3663,10 +3672,10 @@
       }
     },
     "core-js-compat": {
-      "3.28.0": {
-        "hash": "sha512-myzPgE7QodMg4nnd3K1TDoES/nADRStM8Gpz0D6nhkwbmwEnE0ZGJgoWsvQ722FR8D7xS0n0LV556RcEicjTyg==",
+      "3.29.0": {
+        "hash": "sha512-ScMn3uZNAFhK2DGoEfErguoiAHhV2Ju+oJo/jK08p7B3f3UhocUrCCkTvnZaiS+edl5nlIoiBXKcwMc6elv4KQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.28.0.tgz"
+        "url": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.29.0.tgz"
       }
     },
     "cosmiconfig": {
@@ -3818,10 +3827,10 @@
       }
     },
     "eslint": {
-      "8.34.0": {
-        "hash": "sha512-1Z8iFsucw+7kSqXNZVslXS8Ioa4u2KM7GPwuKtkTFAqZ/cHMcEaR+1+Br0wLlot49cNxIiZk5wp8EAbPcYZxTg==",
+      "8.35.0": {
+        "hash": "sha512-BxAf1fVL7w+JLRQhWl2pzGeSiGqbWumV4WNvc9Rhp6tiCtm4oHnyPBSEtMGZwrQgudFQ+otqzWoPB7x+hxoWsw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint/-/eslint-8.34.0.tgz"
+        "url": "https://registry.npmjs.org/eslint/-/eslint-8.35.0.tgz"
       }
     },
     "eslint-config-react-app": {
