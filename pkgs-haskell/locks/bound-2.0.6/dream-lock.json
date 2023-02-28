@@ -13,14 +13,14 @@
       "OneTuple#0.3.1": "fc32cb744477befa450a538ea4975cc523f0a2f1585cb5a36e9936a3d18e9a3c",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
+      "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
       "binary-orphans#1.0.3": "0a84acf16708f40e8e99eebd8e12323f037a0ee4ed6145323ce9300927b2a01b",
       "bytes#0.17.2": "317d07ae22a999341b373706db2a4ef03cd43f33c8b43db813afce919e323a3b",
       "cereal#0.5.8.3": "87a227c7b510217ea059db3dd59d9665edd8f0d1d3d8de39458e371a1d9402fb",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
-      "deriving-compat#0.6.2": "d36924a93ed9c53753a7b9d4b89c04375d649bb0b81742c2547da38067816d7b",
+      "deriving-compat#0.6.3": "5c1b04fe5d04843d63b620c7d9719fc5fde321e49e364360f06ce66e4f04416a",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "indexed-traversable#0.1.2": "52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350",
@@ -30,7 +30,7 @@
       "profunctors#5.6.2": "3d3685119243a7ebf984fa6af03299d156ab7674a432e2e15ecee2a4fd420fb6",
       "scientific#0.3.7.0": "57451a0a7f62af85958c21a8ef79358c8a45b467f39d78ee5d51074d12e4c718",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
-      "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
+      "th-abstraction#0.4.5.0": "c28f186ae9817a059e54f63689f8985194b7f58d8fbd79e157d12374b6f9d2c3",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
       "vector#0.13.0.0": "fa5cac81a17a5af388716792e8b99c24b3b66770086756d0d8b23f8272a0244c",
@@ -56,7 +56,7 @@
       ]
     },
     "bifunctors": {
-      "5.5.14": [
+      "5.5.15": [
         [ "base-orphans", "0.8.7" ],
         [ "comonad", "5.0.8" ],
         [ "tagged", "0.8.7" ],
@@ -70,7 +70,7 @@
     },
     "bound": {
       "2.0.6": [
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "bytes", "0.17.2" ],
         [ "cereal", "0.5.8.3" ],
         [ "comonad", "5.0.8" ],
@@ -88,7 +88,7 @@
         [ "transformers-compat", "0.7.2" ],
         [ "vector", "0.13.0.0" ],
         [ "bound", "2.0.6" ],
-        [ "deriving-compat", "0.6.2" ],
+        [ "deriving-compat", "0.6.3" ],
         [ "transformers-compat", "0.7.2" ]
       ]
     },
@@ -117,7 +117,7 @@
       ]
     },
     "deriving-compat": {
-      "0.6.2": [
+      "0.6.3": [
         [ "th-abstraction", "0.4.5.0" ],
         [ "transformers-compat", "0.7.2" ]
       ]
@@ -147,7 +147,7 @@
     "profunctors": {
       "5.6.2": [
         [ "base-orphans", "0.8.7" ],
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
@@ -196,10 +196,10 @@
       }
     },
     "bifunctors": {
-      "5.5.14": {
-        "hash": "sha256:530116d0c47cde3b76c3b9b7d11f0599196739033f973317e876776334699264",
+      "5.5.15": {
+        "hash": "sha256:d6359d50d359dd6048dbf6d56c7628211a1785aab9174177faa6d2d8b0d9e3b7",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bifunctors-5.5.14.tar.gz"
+        "url": "https://hackage.haskell.org/package/bifunctors-5.5.15.tar.gz"
       }
     },
     "binary-orphans": {
@@ -252,10 +252,10 @@
       }
     },
     "deriving-compat": {
-      "0.6.2": {
-        "hash": "sha256:711a995f027fd47823e8c5e6719eefe867f8c49e5d62ec58b7ecab2c475477a2",
+      "0.6.3": {
+        "hash": "sha256:b1bf97012db9012a74af4b13cb3454afb7afa1db54c0f6e4bd7c10349e66692a",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/deriving-compat-0.6.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/deriving-compat-0.6.3.tar.gz"
       }
     },
     "distributive": {

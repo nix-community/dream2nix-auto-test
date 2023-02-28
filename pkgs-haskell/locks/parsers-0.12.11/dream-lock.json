@@ -15,7 +15,7 @@
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
+      "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
       "charset#0.3.9": "6f785e4444f07accd1a45a30a412cb1dce36f5b31a243345cbb9c3cf51ff4a94",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
@@ -28,14 +28,14 @@
       "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
       "old-time#1.1.0.3": "c91fbb3ee73d20ccd015842b30f1f29a304893ebe0ae3128b7bbc13d5bb0d4c8",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
-      "quickcheck-instances#0.3.27": "17dabafb0bf4dba91ca36e1afc272b716482e55717a86253babcf7bc8cabe78d",
+      "quickcheck-instances#0.3.29": "b407d22eddbf5deae528a543f5373cc6910d14604c9919f92d22f09506bfdab5",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "scientific#0.3.7.0": "57451a0a7f62af85958c21a8ef79358c8a45b467f39d78ee5d51074d12e4c718",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
       "text-short#0.1.5": "ebb77383743e214138cf9387875bc7d2665c5584b2e489fe1461240f19e7b53e",
-      "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
+      "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
       "time-compat#1.9.6.1": "5cf5fa19d32742816fa1423085cbfd626aef433101c0b97bf0e8f720a6f369d8",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
@@ -75,7 +75,7 @@
     },
     "assoc": {
       "1.0.2": [
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "tagged", "0.8.7" ]
       ]
     },
@@ -86,11 +86,11 @@
       ]
     },
     "bifunctors": {
-      "5.5.14": [
+      "5.5.15": [
         [ "base-orphans", "0.8.7" ],
         [ "comonad", "5.0.8" ],
         [ "tagged", "0.8.7" ],
-        [ "th-abstraction", "0.4.5.0" ]
+        [ "th-abstraction", "0.5.0.0" ]
       ]
     },
     "case-insensitive": {
@@ -143,7 +143,7 @@
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
         [ "parsers", "0.12.11" ],
-        [ "quickcheck-instances", "0.3.27" ]
+        [ "quickcheck-instances", "0.3.29" ]
       ]
     },
     "primitive": {
@@ -152,14 +152,16 @@
       ]
     },
     "quickcheck-instances": {
-      "0.3.27": [
+      "0.3.29": [
         [ "OneTuple", "0.3.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "case-insensitive", "1.2.1.0" ],
+        [ "data-array-byte", "0.1.0.1" ],
         [ "data-fix", "0.3.2" ],
         [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
         [ "old-time", "1.1.0.3" ],
+        [ "primitive", "0.8.0.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "splitmix", "0.1.0.4" ],
         [ "strict", "0.4.0.1" ],
@@ -264,10 +266,10 @@
       }
     },
     "bifunctors": {
-      "5.5.14": {
-        "hash": "sha256:530116d0c47cde3b76c3b9b7d11f0599196739033f973317e876776334699264",
+      "5.5.15": {
+        "hash": "sha256:d6359d50d359dd6048dbf6d56c7628211a1785aab9174177faa6d2d8b0d9e3b7",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bifunctors-5.5.14.tar.gz"
+        "url": "https://hackage.haskell.org/package/bifunctors-5.5.15.tar.gz"
       }
     },
     "case-insensitive": {
@@ -362,10 +364,10 @@
       }
     },
     "quickcheck-instances": {
-      "0.3.27": {
-        "hash": "sha256:a592dd5b4320a9a08d26eea425349ecfce241fb23b41e61b263da91a681e6b83",
+      "0.3.29": {
+        "hash": "sha256:8bdf9782847090a0cf5afcf9afcc7efde43646e654a9c6dd6680dc6c62a3fd8a",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/quickcheck-instances-0.3.27.tar.gz"
+        "url": "https://hackage.haskell.org/package/quickcheck-instances-0.3.29.tar.gz"
       }
     },
     "random": {
@@ -411,10 +413,10 @@
       }
     },
     "th-abstraction": {
-      "0.4.5.0": {
-        "hash": "sha256:00d5e24f247e328bd9898d5af5915c1e86b134b4d40baa680258635f95031526",
+      "0.5.0.0": {
+        "hash": "sha256:8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/th-abstraction-0.4.5.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0.tar.gz"
       }
     },
     "these": {

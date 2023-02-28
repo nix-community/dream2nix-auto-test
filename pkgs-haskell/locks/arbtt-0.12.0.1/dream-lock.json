@@ -15,7 +15,7 @@
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "X11#1.10.3": "e0b9a48aab0a963a4b5015287fe3aaf93181697931770a2c8477befe88a9e775",
-      "aeson#2.1.2.0": "3ea9f5cfc31e9c20e8a6fa970cec56935f72c5dd900db19489abcfe74e88f217",
+      "aeson#2.1.2.1": "445c6bba76ce2f9ae5dad961db631f7dfaba64009d21d7d027acfa61b0498f56",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
@@ -24,7 +24,7 @@
       "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
       "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
+      "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
       "bitvec#1.1.3.0": "54fea850c9e3d3f8f771d569c0c2b339f2dea1085b6cb9da108bce6594dc9682",
       "bytestring-progress#1.4": "b95738a6e32f40efe5b0c9694cff779cfd56a9f061732e5a85185fba3997566f",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
@@ -42,7 +42,7 @@
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
       "fmlist#0.9.4": "d6a08a8e926d83e065b1402752f321bc7e1878299efbc5139873e84ffd98cabf",
-      "generic-deriving#1.14.2": "55ea5f8c2c386f1791ca0053c89e6dd9d7d8c8fda0bd677f230164cad891539b",
+      "generic-deriving#1.14.3": "117f5c0a436a58be178b65cffff5d2d949ec8849198ddd10c9adcec980a1f627",
       "generically#0.1": "16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af",
       "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
@@ -71,7 +71,7 @@
       "terminal-progress-bar#0.4.1": "ba857f3424ddb1034125163a9a384e9baab22e55de968259b046892c20ec0526",
       "terminal-size#0.3.3": "bd5f02333982bc8d6017db257b2a0b91870a295b4a37142a0c0525d8f533a48f",
       "text-short#0.1.5": "ebb77383743e214138cf9387875bc7d2665c5584b2e489fe1461240f19e7b53e",
-      "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
+      "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
       "time-compat#1.9.6.1": "5cf5fa19d32742816fa1423085cbfd626aef433101c0b97bf0e8f720a6f369d8",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
@@ -130,7 +130,7 @@
       ]
     },
     "aeson": {
-      "2.1.2.0": [
+      "2.1.2.1": [
         [ "OneTuple", "0.3.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
@@ -146,7 +146,7 @@
         [ "strict", "0.4.0.1" ],
         [ "tagged", "0.8.7" ],
         [ "text-short", "0.1.5" ],
-        [ "th-abstraction", "0.4.5.0" ],
+        [ "th-abstraction", "0.5.0.0" ],
         [ "these", "1.1.1.1" ],
         [ "time-compat", "1.9.6.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -168,15 +168,15 @@
     "arbtt": {
       "0.12.0.1": [
         [ "X11", "1.10.3" ],
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "strict", "0.4.0.1" ],
         [ "tz", "0.1.3.6" ],
         [ "utf8-string", "1.0.2" ],
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "strict", "0.4.0.1" ],
         [ "tz", "0.1.3.6" ],
         [ "utf8-string", "1.0.2" ],
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "attoparsec", "0.14.4" ],
         [ "conduit", "1.3.4.3" ],
         [ "resourcet", "1.3.0" ],
@@ -186,7 +186,7 @@
         [ "utf8-string", "1.0.2" ],
         [ "tz", "0.1.3.6" ],
         [ "utf8-string", "1.0.2" ],
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "bytestring-progress", "1.4" ],
         [ "pcre-light", "0.4.1.0" ],
         [ "strict", "0.4.0.1" ],
@@ -208,7 +208,7 @@
     },
     "assoc": {
       "1.0.2": [
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "tagged", "0.8.7" ]
       ]
     },
@@ -229,11 +229,11 @@
       ]
     },
     "bifunctors": {
-      "5.5.14": [
+      "5.5.15": [
         [ "base-orphans", "0.8.7" ],
         [ "comonad", "5.0.8" ],
         [ "tagged", "0.8.7" ],
-        [ "th-abstraction", "0.4.5.0" ]
+        [ "th-abstraction", "0.5.0.0" ]
       ]
     },
     "bitvec": {
@@ -306,8 +306,8 @@
       ]
     },
     "generic-deriving": {
-      "1.14.2": [
-        [ "th-abstraction", "0.4.5.0" ]
+      "1.14.3": [
+        [ "th-abstraction", "0.5.0.0" ]
       ]
     },
     "hashable": {
@@ -344,7 +344,7 @@
       "0.7.4": [
         [ "ListLike", "4.7.8" ],
         [ "data-default", "0.7.1.1" ],
-        [ "generic-deriving", "1.14.2" ]
+        [ "generic-deriving", "1.14.3" ]
       ]
     },
     "random": {
@@ -380,7 +380,7 @@
     "semigroupoids": {
       "5.3.7": [
         [ "base-orphans", "0.8.7" ],
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
@@ -542,10 +542,10 @@
       }
     },
     "aeson": {
-      "2.1.2.0": {
-        "hash": "sha256:170ff185d9679e2616f786d79dbf1f3cad0faebf0d6b55e765920ffe31a91c48",
+      "2.1.2.1": {
+        "hash": "sha256:5d4042b903ce181ee023bbf908f37a3f55e820c5f0df102683b87f963e3522c6",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/aeson-2.1.2.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/aeson-2.1.2.1.tar.gz"
       }
     },
     "ansi-terminal": {
@@ -612,10 +612,10 @@
       }
     },
     "bifunctors": {
-      "5.5.14": {
-        "hash": "sha256:530116d0c47cde3b76c3b9b7d11f0599196739033f973317e876776334699264",
+      "5.5.15": {
+        "hash": "sha256:d6359d50d359dd6048dbf6d56c7628211a1785aab9174177faa6d2d8b0d9e3b7",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bifunctors-5.5.14.tar.gz"
+        "url": "https://hackage.haskell.org/package/bifunctors-5.5.15.tar.gz"
       }
     },
     "bitvec": {
@@ -738,10 +738,10 @@
       }
     },
     "generic-deriving": {
-      "1.14.2": {
-        "hash": "sha256:265e351117d451afaa37821ce91b44a02611cc94c7ed917a19e1efb0cc63aa2f",
+      "1.14.3": {
+        "hash": "sha256:9e4fa5082b36685db2e79f34ebc835c30ba9032a9b04673e21089742d28fbc40",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/generic-deriving-1.14.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/generic-deriving-1.14.3.tar.gz"
       }
     },
     "generically": {
@@ -941,10 +941,10 @@
       }
     },
     "th-abstraction": {
-      "0.4.5.0": {
-        "hash": "sha256:00d5e24f247e328bd9898d5af5915c1e86b134b4d40baa680258635f95031526",
+      "0.5.0.0": {
+        "hash": "sha256:8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/th-abstraction-0.4.5.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0.tar.gz"
       }
     },
     "these": {

@@ -15,15 +15,15 @@
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
+      "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
       "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
-      "free#5.1.10": "b88705deb7b5fefce0bc8186ccab6c1ef58858c759fb27171e4c4443efef5973",
-      "generic-deriving#1.14.2": "55ea5f8c2c386f1791ca0053c89e6dd9d7d8c8fda0bd677f230164cad891539b",
+      "free#5.1.10": "bc2d9eefabf4699eaff20d80b207f90b35c9f1d37c581a6b092c090add3eeb4e",
+      "generic-deriving#1.14.3": "117f5c0a436a58be178b65cffff5d2d949ec8849198ddd10c9adcec980a1f627",
       "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "hspec#2.10.9": "6000b21e29175be7cf6625399603772650abd3d9c47e722faa930dd5e9836bba",
@@ -41,7 +41,7 @@
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
       "tf-random#0.5": "14012837d0f0e18fdbbe3d56e67da8622ee5e20b180abce952dd50bd9f36b326",
-      "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
+      "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
       "unordered-containers#0.2.19.1": "db11042bb0356c0adea277d0794743829125b4c99455af6af2bd5f7bd5e88a39",
@@ -90,7 +90,7 @@
         [ "void", "0.7.3" ],
         [ "adjunctions", "4.4.2" ],
         [ "distributive", "0.6.2.1" ],
-        [ "generic-deriving", "1.14.2" ],
+        [ "generic-deriving", "1.14.3" ],
         [ "hspec", "2.10.9" ],
         [ "hspec-discover", "2.10.9" ]
       ]
@@ -101,11 +101,11 @@
       ]
     },
     "bifunctors": {
-      "5.5.14": [
+      "5.5.15": [
         [ "base-orphans", "0.8.7" ],
         [ "comonad", "5.0.8" ],
         [ "tagged", "0.8.7" ],
-        [ "th-abstraction", "0.4.5.0" ]
+        [ "th-abstraction", "0.5.0.0" ]
       ]
     },
     "comonad": {
@@ -134,13 +134,13 @@
         [ "indexed-traversable", "0.1.2" ],
         [ "profunctors", "5.6.2" ],
         [ "semigroupoids", "5.3.7" ],
-        [ "th-abstraction", "0.4.5.0" ],
+        [ "th-abstraction", "0.5.0.0" ],
         [ "transformers-base", "0.4.6" ]
       ]
     },
     "generic-deriving": {
-      "1.14.2": [
-        [ "th-abstraction", "0.4.5.0" ]
+      "1.14.3": [
+        [ "th-abstraction", "0.5.0.0" ]
       ]
     },
     "hashable": {
@@ -190,7 +190,7 @@
     "profunctors": {
       "5.6.2": [
         [ "base-orphans", "0.8.7" ],
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
@@ -211,7 +211,7 @@
     "semigroupoids": {
       "5.3.7": [
         [ "base-orphans", "0.8.7" ],
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
@@ -283,10 +283,10 @@
       }
     },
     "bifunctors": {
-      "5.5.14": {
-        "hash": "sha256:530116d0c47cde3b76c3b9b7d11f0599196739033f973317e876776334699264",
+      "5.5.15": {
+        "hash": "sha256:d6359d50d359dd6048dbf6d56c7628211a1785aab9174177faa6d2d8b0d9e3b7",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bifunctors-5.5.14.tar.gz"
+        "url": "https://hackage.haskell.org/package/bifunctors-5.5.15.tar.gz"
       }
     },
     "call-stack": {
@@ -339,10 +339,10 @@
       }
     },
     "generic-deriving": {
-      "1.14.2": {
-        "hash": "sha256:265e351117d451afaa37821ce91b44a02611cc94c7ed917a19e1efb0cc63aa2f",
+      "1.14.3": {
+        "hash": "sha256:9e4fa5082b36685db2e79f34ebc835c30ba9032a9b04673e21089742d28fbc40",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/generic-deriving-1.14.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/generic-deriving-1.14.3.tar.gz"
       }
     },
     "hashable": {
@@ -465,10 +465,10 @@
       }
     },
     "th-abstraction": {
-      "0.4.5.0": {
-        "hash": "sha256:00d5e24f247e328bd9898d5af5915c1e86b134b4d40baa680258635f95031526",
+      "0.5.0.0": {
+        "hash": "sha256:8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/th-abstraction-0.4.5.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0.tar.gz"
       }
     },
     "transformers-base": {

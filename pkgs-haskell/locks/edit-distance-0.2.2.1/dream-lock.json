@@ -15,7 +15,7 @@
       "Only#0.1": "f92f5da97e647451f1ee7f5bf44914fb75062d08ccd3f36b2000d649c63d13aa",
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
-      "aeson#2.1.2.0": "3ea9f5cfc31e9c20e8a6fa970cec56935f72c5dd900db19489abcfe74e88f217",
+      "aeson#2.1.2.1": "445c6bba76ce2f9ae5dad961db631f7dfaba64009d21d7d027acfa61b0498f56",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
@@ -24,7 +24,7 @@
       "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
       "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
+      "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
       "binary-orphans#1.0.3": "0a84acf16708f40e8e99eebd8e12323f037a0ee4ed6145323ce9300927b2a01b",
       "bitvec#1.1.3.0": "54fea850c9e3d3f8f771d569c0c2b339f2dea1085b6cb9da108bce6594dc9682",
       "cassava#0.5.3.0": "3e5a702f0194968ddf2ef38343318334e7c7de44b90c7822e9e20a7e98685bd1",
@@ -62,7 +62,7 @@
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
       "text-short#0.1.5": "ebb77383743e214138cf9387875bc7d2665c5584b2e489fe1461240f19e7b53e",
-      "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
+      "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
       "time-compat#1.9.6.1": "5cf5fa19d32742816fa1423085cbfd626aef433101c0b97bf0e8f720a6f369d8",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
@@ -111,7 +111,7 @@
       ]
     },
     "aeson": {
-      "2.1.2.0": [
+      "2.1.2.1": [
         [ "OneTuple", "0.3.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
@@ -127,7 +127,7 @@
         [ "strict", "0.4.0.1" ],
         [ "tagged", "0.8.7" ],
         [ "text-short", "0.1.5" ],
-        [ "th-abstraction", "0.4.5.0" ],
+        [ "th-abstraction", "0.5.0.0" ],
         [ "these", "1.1.1.1" ],
         [ "time-compat", "1.9.6.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -148,7 +148,7 @@
     },
     "assoc": {
       "1.0.2": [
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "tagged", "0.8.7" ]
       ]
     },
@@ -169,11 +169,11 @@
       ]
     },
     "bifunctors": {
-      "5.5.14": [
+      "5.5.15": [
         [ "base-orphans", "0.8.7" ],
         [ "comonad", "5.0.8" ],
         [ "tagged", "0.8.7" ],
-        [ "th-abstraction", "0.4.5.0" ]
+        [ "th-abstraction", "0.5.0.0" ]
       ]
     },
     "binary-orphans": {
@@ -219,7 +219,7 @@
     "criterion": {
       "1.6.0.0": [
         [ "Glob", "0.10.2" ],
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "ansi-wl-pprint", "0.6.9" ],
         [ "base-compat-batteries", "0.12.2" ],
         [ "binary-orphans", "1.0.3" ],
@@ -241,7 +241,7 @@
     },
     "criterion-measurement": {
       "0.2.1.0": [
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "base-compat", "0.12.2" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -298,7 +298,7 @@
     },
     "microstache": {
       "1.0.2.3": [
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -344,7 +344,7 @@
     "semigroupoids": {
       "5.3.7": [
         [ "base-orphans", "0.8.7" ],
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
@@ -356,7 +356,7 @@
     },
     "statistics": {
       "0.16.1.2": [
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "async", "2.2.4" ],
         [ "data-default-class", "0.1.2.0" ],
         [ "dense-linear-algebra", "0.1.0.0" ],
@@ -477,10 +477,10 @@
       }
     },
     "aeson": {
-      "2.1.2.0": {
-        "hash": "sha256:170ff185d9679e2616f786d79dbf1f3cad0faebf0d6b55e765920ffe31a91c48",
+      "2.1.2.1": {
+        "hash": "sha256:5d4042b903ce181ee023bbf908f37a3f55e820c5f0df102683b87f963e3522c6",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/aeson-2.1.2.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/aeson-2.1.2.1.tar.gz"
       }
     },
     "ansi-terminal": {
@@ -540,10 +540,10 @@
       }
     },
     "bifunctors": {
-      "5.5.14": {
-        "hash": "sha256:530116d0c47cde3b76c3b9b7d11f0599196739033f973317e876776334699264",
+      "5.5.15": {
+        "hash": "sha256:d6359d50d359dd6048dbf6d56c7628211a1785aab9174177faa6d2d8b0d9e3b7",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bifunctors-5.5.14.tar.gz"
+        "url": "https://hackage.haskell.org/package/bifunctors-5.5.15.tar.gz"
       }
     },
     "binary-orphans": {
@@ -813,10 +813,10 @@
       }
     },
     "th-abstraction": {
-      "0.4.5.0": {
-        "hash": "sha256:00d5e24f247e328bd9898d5af5915c1e86b134b4d40baa680258635f95031526",
+      "0.5.0.0": {
+        "hash": "sha256:8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/th-abstraction-0.4.5.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0.tar.gz"
       }
     },
     "these": {

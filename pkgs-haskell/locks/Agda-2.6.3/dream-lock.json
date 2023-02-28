@@ -14,7 +14,7 @@
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "STMonadTrans#0.4.6": "6cf50537070f6ce559b4bae28b2a167a85c2379d9710d54afb22c7c8dd785b13",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
-      "aeson#2.1.2.0": "3ea9f5cfc31e9c20e8a6fa970cec56935f72c5dd900db19489abcfe74e88f217",
+      "aeson#2.1.2.1": "445c6bba76ce2f9ae5dad961db631f7dfaba64009d21d7d027acfa61b0498f56",
       "alex#3.2.7.1": "ab26a38cefae59403f746370e5a0c943b8d5bda098eb83f37052b2429ee780ce",
       "assoc#1.0.2": "93b8d43aa081e4205116a139f7cf690f608968161d19ebfb23d884d19b082b57",
       "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
@@ -22,7 +22,7 @@
       "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
       "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
       "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
-      "bifunctors#5.5.14": "958dfda27c94250e96d2e5cc4d0fc6f3a9002d7a2c8289314a1d7eafee40b50f",
+      "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
       "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
       "blaze-html#0.9.1.2": "74b89ffa665891f528f571ce9e3c2dce24f698563f14b6f5e9e0512eccdf5dc2",
       "blaze-markup#0.8.2.8": "8a47373003f472e851afbc3332bb9e0bf1b539a0dfad631bceb704332749c6c2",
@@ -48,7 +48,7 @@
       "murmur-hash#0.1.0.10": "37d96ba3ca41b818ce30c59e53bd31ec6ca65fbc758498666929c954d629e818",
       "network-uri#2.6.4.2": "1fde59abf5d82a9666b4415bc2b2e9e33f6c1309074fda12d50410c7dbd95f3b",
       "parallel#3.2.2.0": "6edd5a06938cea3d28b406d5231683f89737e854af144a8800aa69e1eee785e0",
-      "primitive#0.7.4.0": "c2f0ed97b3dce97f2f43b239c3be8b136e4368f1eb7b61322ee9ac98f604622b",
+      "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "regex-base#0.94.0.2": "4ff4425c710cddf440dfbac6cd52310bb6b23e17902390ff71c9fc7eaafc4fcc",
       "regex-tdfa#1.3.2": "3d8571a5ce87ee89ae0de602f1461df9a8236257f80548e9bee71585a26e3927",
@@ -60,7 +60,7 @@
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
       "text-short#0.1.5": "ebb77383743e214138cf9387875bc7d2665c5584b2e489fe1461240f19e7b53e",
-      "th-abstraction#0.4.5.0": "313f8b3c65781310df66ba86518bcf7662b1b419b601afaf72bb977c255fe6e9",
+      "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
       "th-compat#0.1.4": "6ca77c4e80b4e4109e30549c269631a9cc295c8fc2431ce4123972a5f80f7bfc",
       "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
       "time-compat#1.9.6.1": "5cf5fa19d32742816fa1423085cbfd626aef433101c0b97bf0e8f720a6f369d8",
@@ -92,7 +92,7 @@
     "Agda": {
       "2.6.3": [
         [ "STMonadTrans", "0.4.6" ],
-        [ "aeson", "2.1.2.0" ],
+        [ "aeson", "2.1.2.1" ],
         [ "async", "2.2.4" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "boxes", "0.1.5" ],
@@ -131,7 +131,7 @@
       ]
     },
     "aeson": {
-      "2.1.2.0": [
+      "2.1.2.1": [
         [ "OneTuple", "0.3.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
@@ -141,13 +141,13 @@
         [ "generically", "0.1" ],
         [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2" ],
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "scientific", "0.3.7.0" ],
         [ "semialign", "1.2.0.1" ],
         [ "strict", "0.4.0.1" ],
         [ "tagged", "0.8.7" ],
         [ "text-short", "0.1.5" ],
-        [ "th-abstraction", "0.4.5.0" ],
+        [ "th-abstraction", "0.5.0.0" ],
         [ "these", "1.1.1.1" ],
         [ "time-compat", "1.9.6.1" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -158,7 +158,7 @@
     },
     "assoc": {
       "1.0.2": [
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "tagged", "0.8.7" ]
       ]
     },
@@ -179,11 +179,11 @@
       ]
     },
     "bifunctors": {
-      "5.5.14": [
+      "5.5.15": [
         [ "base-orphans", "0.8.7" ],
         [ "comonad", "5.0.8" ],
         [ "tagged", "0.8.7" ],
-        [ "th-abstraction", "0.4.5.0" ]
+        [ "th-abstraction", "0.5.0.0" ]
       ]
     },
     "blaze-html": {
@@ -273,6 +273,11 @@
         [ "th-compat", "0.1.4" ]
       ]
     },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
     "random": {
       "1.2.1.1": [
         [ "splitmix", "0.1.0.4" ]
@@ -287,7 +292,7 @@
       "0.3.7.0": [
         [ "hashable", "1.4.2.0" ],
         [ "integer-logarithms", "1.0.3.1" ],
-        [ "primitive", "0.7.4.0" ]
+        [ "primitive", "0.8.0.0" ]
       ]
     },
     "semialign": {
@@ -305,7 +310,7 @@
     "semigroupoids": {
       "5.3.7": [
         [ "base-orphans", "0.8.7" ],
-        [ "bifunctors", "5.5.14" ],
+        [ "bifunctors", "5.5.15" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
@@ -364,14 +369,14 @@
     },
     "vector": {
       "0.13.0.0": [
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "vector-stream", "0.1.0.0" ]
       ]
     },
     "vector-hashtables": {
       "0.1.1.2": [
         [ "hashable", "1.4.2.0" ],
-        [ "primitive", "0.7.4.0" ],
+        [ "primitive", "0.8.0.0" ],
         [ "vector", "0.13.0.0" ]
       ]
     },
@@ -423,10 +428,10 @@
       }
     },
     "aeson": {
-      "2.1.2.0": {
-        "hash": "sha256:170ff185d9679e2616f786d79dbf1f3cad0faebf0d6b55e765920ffe31a91c48",
+      "2.1.2.1": {
+        "hash": "sha256:5d4042b903ce181ee023bbf908f37a3f55e820c5f0df102683b87f963e3522c6",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/aeson-2.1.2.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/aeson-2.1.2.1.tar.gz"
       }
     },
     "alex": {
@@ -479,10 +484,10 @@
       }
     },
     "bifunctors": {
-      "5.5.14": {
-        "hash": "sha256:530116d0c47cde3b76c3b9b7d11f0599196739033f973317e876776334699264",
+      "5.5.15": {
+        "hash": "sha256:d6359d50d359dd6048dbf6d56c7628211a1785aab9174177faa6d2d8b0d9e3b7",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bifunctors-5.5.14.tar.gz"
+        "url": "https://hackage.haskell.org/package/bifunctors-5.5.15.tar.gz"
       }
     },
     "blaze-builder": {
@@ -661,10 +666,10 @@
       }
     },
     "primitive": {
-      "0.7.4.0": {
-        "hash": "sha256:5b2d6dc2812eb2f6a115f05fcbe3e723d3aeff7894b012c617e075130581add5",
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/primitive-0.7.4.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0.tar.gz"
       }
     },
     "random": {
@@ -745,10 +750,10 @@
       }
     },
     "th-abstraction": {
-      "0.4.5.0": {
-        "hash": "sha256:00d5e24f247e328bd9898d5af5915c1e86b134b4d40baa680258635f95031526",
+      "0.5.0.0": {
+        "hash": "sha256:8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/th-abstraction-0.4.5.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0.tar.gz"
       }
     },
     "th-compat": {
