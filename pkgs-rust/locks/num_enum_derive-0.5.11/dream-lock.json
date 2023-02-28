@@ -32,23 +32,18 @@
         [ "hashbrown", "0.12.3" ]
       ]
     },
-    "nom8": {
-      "0.2.0": [
-        [ "memchr", "2.5.0" ]
-      ]
-    },
     "num_enum_derive": {
       "0.5.11": [
-        [ "proc-macro-crate", "1.3.0" ],
+        [ "proc-macro-crate", "1.3.1" ],
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
       ]
     },
     "proc-macro-crate": {
-      "1.3.0": [
+      "1.3.1": [
         [ "once_cell", "1.17.1" ],
-        [ "toml_edit", "0.18.1" ]
+        [ "toml_edit", "0.19.4" ]
       ]
     },
     "proc-macro2": {
@@ -69,10 +64,15 @@
       ]
     },
     "toml_edit": {
-      "0.18.1": [
+      "0.19.4": [
         [ "indexmap", "1.9.2" ],
-        [ "nom8", "0.2.0" ],
-        [ "toml_datetime", "0.5.1" ]
+        [ "toml_datetime", "0.6.1" ],
+        [ "winnow", "0.3.3" ]
+      ]
+    },
+    "winnow": {
+      "0.3.3": [
+        [ "memchr", "2.5.0" ]
       ]
     }
   },
@@ -101,12 +101,6 @@
         "type": "crates-io"
       }
     },
-    "nom8": {
-      "0.2.0": {
-        "hash": "ae01545c9c7fc4486ab7debaf2aad7003ac19431791868fb2e8066df97fad2f8",
-        "type": "crates-io"
-      }
-    },
     "num_enum_derive": {
       "0.5.11": {
         "hash": "dcbff9bc912032c62bf65ef1d5aea88983b420f4f839db1e9b0c281a25c9c799",
@@ -120,8 +114,8 @@
       }
     },
     "proc-macro-crate": {
-      "1.3.0": {
-        "hash": "66618389e4ec1c7afe67d51a9bf34ff9236480f8d51e7489b7d5ab0303c13f34",
+      "1.3.1": {
+        "hash": "7f4c021e1093a56626774e81216a4ce732a735e5bad4868a03f3ed65ca0c3919",
         "type": "crates-io"
       }
     },
@@ -144,20 +138,26 @@
       }
     },
     "toml_datetime": {
-      "0.5.1": {
-        "hash": "4553f467ac8e3d374bc9a177a26801e5d0f9b211aa1673fb137a403afd1c9cf5",
+      "0.6.1": {
+        "hash": "3ab8ed2edee10b50132aed5f331333428b011c99402b5a534154ed15746f9622",
         "type": "crates-io"
       }
     },
     "toml_edit": {
-      "0.18.1": {
-        "hash": "56c59d8dd7d0dcbc6428bf7aa2f0e823e26e43b3c9aca15bbc9475d23e5fa12b",
+      "0.19.4": {
+        "hash": "9a1eb0622d28f4b9c90adc4ea4b2b46b47663fde9ac5fafcb14a1369d5508825",
         "type": "crates-io"
       }
     },
     "unicode-ident": {
       "1.0.6": {
         "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
+        "type": "crates-io"
+      }
+    },
+    "winnow": {
+      "0.3.3": {
+        "hash": "faf09497b8f8b5ac5d3bb4d05c0a99be20f26fd3d5f2db7b0716e946d5103658",
         "type": "crates-io"
       }
     }
