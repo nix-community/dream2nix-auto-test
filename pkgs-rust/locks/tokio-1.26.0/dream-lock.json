@@ -3,7 +3,7 @@
     "defaultPackage": "tokio",
     "location": "",
     "packages": {
-      "tokio": "1.25.0"
+      "tokio": "1.26.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "tokio": {
-        "1.25.0": {
+        "1.26.0": {
           "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n", "homepage": "https://tokio.rs", "license": [   "mit"
           ]
         }
@@ -20,19 +20,19 @@
     },
     "relPathReplacements": {
       "tokio": {
-        "1.25.0": {}
+        "1.26.0": {}
       }
     }
   },
   "cyclicDependencies": {
     "tokio-stream": {
       "0.1.12": [
-        [ "tokio", "1.25.0" ]
+        [ "tokio", "1.26.0" ]
       ]
     },
     "tokio-test": {
       "0.4.2": [
-        [ "tokio", "1.25.0" ]
+        [ "tokio", "1.26.0" ]
       ]
     }
   },
@@ -54,11 +54,6 @@
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
-      ]
-    },
-    "bit-set": {
-      "0.5.3": [
-        [ "bit-vec", "0.6.3" ]
       ]
     },
     "console_error_panic_hook": {
@@ -270,8 +265,7 @@
     },
     "num-traits": {
       "0.2.15": [
-        [ "autocfg", "1.1.0" ],
-        [ "libm", "0.2.6" ]
+        [ "autocfg", "1.1.0" ]
       ]
     },
     "num_cpus": {
@@ -316,23 +310,6 @@
         [ "unicode-ident", "1.0.6" ]
       ]
     },
-    "proptest": {
-      "1.1.0": [
-        [ "bit-set", "0.5.3" ],
-        [ "bitflags", "1.3.2" ],
-        [ "byteorder", "1.4.3" ],
-        [ "lazy_static", "1.4.0" ],
-        [ "num-traits", "0.2.15" ],
-        [ "quick-error", "2.0.1" ],
-        [ "rand", "0.8.5" ],
-        [ "rand_chacha", "0.3.1" ],
-        [ "rand_xorshift", "0.3.0" ],
-        [ "regex-syntax", "0.6.28" ],
-        [ "rusty-fork", "0.3.0" ],
-        [ "tempfile", "3.4.0" ],
-        [ "unarray", "0.1.4" ]
-      ]
-    },
     "quote": {
       "1.0.23": [
         [ "proc-macro2", "1.0.51" ]
@@ -354,11 +331,6 @@
     "rand_core": {
       "0.6.4": [
         [ "getrandom", "0.2.8" ]
-      ]
-    },
-    "rand_xorshift": {
-      "0.3.0": [
-        [ "rand_core", "0.6.4" ]
       ]
     },
     "redox_syscall": {
@@ -386,14 +358,6 @@
         [ "libc", "0.2.139" ],
         [ "linux-raw-sys", "0.1.4" ],
         [ "windows-sys", "0.45.0" ]
-      ]
-    },
-    "rusty-fork": {
-      "0.3.0": [
-        [ "fnv", "1.0.7" ],
-        [ "quick-error", "1.2.3" ],
-        [ "tempfile", "3.4.0" ],
-        [ "wait-timeout", "0.2.0" ]
       ]
     },
     "serde": {
@@ -459,7 +423,7 @@
       ]
     },
     "tokio": {
-      "1.25.0": [
+      "1.26.0": [
         [ "async-stream", "0.3.4" ],
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
@@ -475,7 +439,6 @@
         [ "num_cpus", "1.15.0" ],
         [ "parking_lot", "0.12.1" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "proptest", "1.1.0" ],
         [ "rand", "0.8.5" ],
         [ "signal-hook-registry", "1.4.1" ],
         [ "socket2", "0.4.7" ],
@@ -485,7 +448,7 @@
         [ "tokio-test", "0.4.2" ],
         [ "tracing", "0.1.37" ],
         [ "wasm-bindgen-test", "0.3.34" ],
-        [ "windows-sys", "0.42.0" ]
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "tokio-macros": {
@@ -499,7 +462,7 @@
       "0.1.12": [
         [ "futures-core", "0.3.26" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.25.0" ]
+        [ "tokio", "1.26.0" ]
       ]
     },
     "tokio-test": {
@@ -507,7 +470,7 @@
         [ "async-stream", "0.3.4" ],
         [ "bytes", "1.4.0" ],
         [ "futures-core", "0.3.26" ],
-        [ "tokio", "1.25.0" ],
+        [ "tokio", "1.26.0" ],
         [ "tokio-stream", "0.1.12" ]
       ]
     },
@@ -551,11 +514,6 @@
         [ "tracing", "0.1.37" ],
         [ "tracing-core", "0.1.30" ],
         [ "tracing-log", "0.1.3" ]
-      ]
-    },
-    "wait-timeout": {
-      "0.2.0": [
-        [ "libc", "0.2.139" ]
       ]
     },
     "wasm-bindgen": {
@@ -682,18 +640,6 @@
         "type": "crates-io"
       }
     },
-    "bit-set": {
-      "0.5.3": {
-        "hash": "0700ddab506f33b20a03b13996eccd309a48e5ff77d0d95926aa0210fb4e95f1",
-        "type": "crates-io"
-      }
-    },
-    "bit-vec": {
-      "0.6.3": {
-        "hash": "349f9b6a179ed607305526ca489b34ad0a41aed5f7980fa90eb03160b69598fb",
-        "type": "crates-io"
-      }
-    },
     "bitflags": {
       "1.3.2": {
         "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
@@ -703,12 +649,6 @@
     "bumpalo": {
       "3.12.0": {
         "hash": "0d261e256854913907f67ed06efbc3338dfe6179796deefc1ff763fc1aee5535",
-        "type": "crates-io"
-      }
-    },
-    "byteorder": {
-      "1.4.3": {
-        "hash": "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610",
         "type": "crates-io"
       }
     },
@@ -775,12 +715,6 @@
     "float-cmp": {
       "0.9.0": {
         "hash": "98de4bbd547a563b716d8dfa9aad1cb19bfab00f4fa09a6a4ed21dbcf44ce9c4",
-        "type": "crates-io"
-      }
-    },
-    "fnv": {
-      "1.0.7": {
-        "hash": "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1",
         "type": "crates-io"
       }
     },
@@ -901,12 +835,6 @@
     "libc": {
       "0.2.139": {
         "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
-        "type": "crates-io"
-      }
-    },
-    "libm": {
-      "0.2.6": {
-        "hash": "348108ab3fba42ec82ff6e9564fc4ca0247bdccdc68dd8af9764bbc79c3c8ffb",
         "type": "crates-io"
       }
     },
@@ -1082,22 +1010,6 @@
         "type": "crates-io"
       }
     },
-    "proptest": {
-      "1.1.0": {
-        "hash": "29f1b898011ce9595050a68e60f90bad083ff2987a695a42357134c8381fba70",
-        "type": "crates-io"
-      }
-    },
-    "quick-error": {
-      "1.2.3": {
-        "hash": "a1d01941d82fa2ab50be1e79e6714289dd7cde78eba4c074bc5a4374f650dfe0",
-        "type": "crates-io"
-      },
-      "2.0.1": {
-        "hash": "a993555f31e5a609f617c12db6250dedcac1b0a85076912c436e6fc9b2c8e6a3",
-        "type": "crates-io"
-      }
-    },
     "quote": {
       "1.0.23": {
         "hash": "8856d8364d252a14d474036ea1358d63c9e6965c8e5c1885c18f73d70bff9c7b",
@@ -1119,12 +1031,6 @@
     "rand_core": {
       "0.6.4": {
         "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
-        "type": "crates-io"
-      }
-    },
-    "rand_xorshift": {
-      "0.3.0": {
-        "hash": "d25bf25ec5ae4a3f1b92f929810509a2f53d7dca2f50b794ff57e3face536c8f",
         "type": "crates-io"
       }
     },
@@ -1161,12 +1067,6 @@
     "rustversion": {
       "1.0.11": {
         "hash": "5583e89e108996506031660fe09baa5011b9dd0341b89029313006d1fb508d70",
-        "type": "crates-io"
-      }
-    },
-    "rusty-fork": {
-      "0.3.0": {
-        "hash": "cb3dcc6e454c328bb824492db107ab7c0ae8fcffe4ad210136ef014458c1bc4f",
         "type": "crates-io"
       }
     },
@@ -1267,8 +1167,8 @@
       }
     },
     "tokio": {
-      "1.25.0": {
-        "hash": "c8e00990ebabbe4c14c08aca901caed183ecd5c09562a12c824bb53d3c3fd3af",
+      "1.26.0": {
+        "hash": "03201d01c3c27a29c8a5cee5b55a93ddae1ccf6f08f65365c2c918f8c1b76f64",
         "type": "crates-io"
       }
     },
@@ -1320,12 +1220,6 @@
         "type": "crates-io"
       }
     },
-    "unarray": {
-      "0.1.4": {
-        "hash": "eaea85b334db583fe3274d12b4cd1880032beab409c0d774be044d4480ab9a94",
-        "type": "crates-io"
-      }
-    },
     "unicode-ident": {
       "1.0.6": {
         "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
@@ -1335,12 +1229,6 @@
     "valuable": {
       "0.1.0": {
         "hash": "830b7e5d4d90034032940e4ace0d9a9a057e7a45cd94e6c007832e39edb82f6d",
-        "type": "crates-io"
-      }
-    },
-    "wait-timeout": {
-      "0.2.0": {
-        "hash": "9f200f5b12eb75f8c1ed65abd4b2db8a6e1b138a20de009dacee265a2498f3f6",
         "type": "crates-io"
       }
     },
