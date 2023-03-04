@@ -3,7 +3,7 @@
     "defaultPackage": "dirs-sys",
     "location": "",
     "packages": {
-      "dirs-sys": "0.3.7"
+      "dirs-sys": "0.4.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "dirs-sys": {
-        "0.3.7": {
+        "0.4.0": {
           "description": "System-level helper functions for the dirs and directories crates.", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,17 +20,17 @@
     },
     "relPathReplacements": {
       "dirs-sys": {
-        "0.3.7": {}
+        "0.4.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "dirs-sys": {
-      "0.3.7": [
+      "0.4.0": [
         [ "libc", "0.2.139" ],
         [ "redox_users", "0.4.3" ],
-        [ "winapi", "0.3.9" ]
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "getrandom": {
@@ -42,7 +42,7 @@
     },
     "proc-macro2": {
       "1.0.51": [
-        [ "unicode-ident", "1.0.6" ]
+        [ "unicode-ident", "1.0.7" ]
       ]
     },
     "quote": {
@@ -66,7 +66,7 @@
       "1.0.109": [
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
-        [ "unicode-ident", "1.0.6" ]
+        [ "unicode-ident", "1.0.7" ]
       ]
     },
     "thiserror": {
@@ -81,10 +81,20 @@
         [ "syn", "1.0.109" ]
       ]
     },
-    "winapi": {
-      "0.3.9": [
-        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
-        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+    "windows-sys": {
+      "0.45.0": [
+        [ "windows-targets", "0.42.1" ]
+      ]
+    },
+    "windows-targets": {
+      "0.42.1": [
+        [ "windows_aarch64_gnullvm", "0.42.1" ],
+        [ "windows_aarch64_msvc", "0.42.1" ],
+        [ "windows_i686_gnu", "0.42.1" ],
+        [ "windows_i686_msvc", "0.42.1" ],
+        [ "windows_x86_64_gnu", "0.42.1" ],
+        [ "windows_x86_64_gnullvm", "0.42.1" ],
+        [ "windows_x86_64_msvc", "0.42.1" ]
       ]
     }
   },
@@ -102,8 +112,8 @@
       }
     },
     "dirs-sys": {
-      "0.3.7": {
-        "hash": "1b1d1d91c932ef41c0f2663aa8b0ca0342d444d842c06914aa0a7e352d0bada6",
+      "0.4.0": {
+        "hash": "04414300db88f70d74c5ff54e50f9e1d1737d9a5b90f53fcf2e95ca2a9ab554b",
         "type": "crates-io"
       }
     },
@@ -162,8 +172,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.6": {
-        "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
+      "1.0.7": {
+        "hash": "775c11906edafc97bc378816b94585fbd9a054eabaf86fdd0ced94af449efab7",
         "type": "crates-io"
       }
     },
@@ -173,21 +183,57 @@
         "type": "crates-io"
       }
     },
-    "winapi": {
-      "0.3.9": {
-        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+    "windows-sys": {
+      "0.45.0": {
+        "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
         "type": "crates-io"
       }
     },
-    "winapi-i686-pc-windows-gnu": {
-      "0.4.0": {
-        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+    "windows-targets": {
+      "0.42.1": {
+        "hash": "8e2522491fbfcd58cc84d47aeb2958948c4b8982e9a2d8a2a35bbaed431390e7",
         "type": "crates-io"
       }
     },
-    "winapi-x86_64-pc-windows-gnu": {
-      "0.4.0": {
-        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+    "windows_aarch64_gnullvm": {
+      "0.42.1": {
+        "hash": "8c9864e83243fdec7fc9c5444389dcbbfd258f745e7853198f365e3c4968a608",
+        "type": "crates-io"
+      }
+    },
+    "windows_aarch64_msvc": {
+      "0.42.1": {
+        "hash": "4c8b1b673ffc16c47a9ff48570a9d85e25d265735c503681332589af6253c6c7",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_gnu": {
+      "0.42.1": {
+        "hash": "de3887528ad530ba7bdbb1faa8275ec7a1155a45ffa57c37993960277145d640",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_msvc": {
+      "0.42.1": {
+        "hash": "bf4d1122317eddd6ff351aa852118a2418ad4214e6613a50e0191f7004372605",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_gnu": {
+      "0.42.1": {
+        "hash": "c1040f221285e17ebccbc2591ffdc2d44ee1f9186324dd3e84e99ac68d699c45",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_gnullvm": {
+      "0.42.1": {
+        "hash": "628bfdf232daa22b0d64fdb62b09fcc36bb01f05a3939e20ab73aaf9470d0463",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_msvc": {
+      "0.42.1": {
+        "hash": "447660ad36a13288b1db4d4248e857b510e8c3a225c822ba4fb748c0aafecffd",
         "type": "crates-io"
       }
     }

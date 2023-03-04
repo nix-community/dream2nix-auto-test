@@ -36,7 +36,7 @@
       ]
     },
     "ref-cast-impl": {
-      "1.0.14": [
+      "1.0.15": [
         [ "syn", "1.0.109" ]
       ]
     },
@@ -197,7 +197,7 @@
       "0.2.9": [
         [ "bytes", "1.4.0" ],
         [ "fnv", "1.0.7" ],
-        [ "itoa", "1.0.5" ]
+        [ "itoa", "1.0.6" ]
       ]
     },
     "http-body": {
@@ -218,9 +218,9 @@
         [ "http-body", "0.4.5" ],
         [ "httparse", "1.8.0" ],
         [ "httpdate", "1.0.2" ],
-        [ "itoa", "1.0.5" ],
+        [ "itoa", "1.0.6" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "socket2", "0.4.7" ],
+        [ "socket2", "0.4.9" ],
         [ "tokio", "1.26.0" ],
         [ "tower-service", "0.3.2" ],
         [ "tracing", "0.1.37" ],
@@ -345,7 +345,7 @@
     },
     "proc-macro2": {
       "1.0.51": [
-        [ "unicode-ident", "1.0.6" ]
+        [ "unicode-ident", "1.0.7" ]
       ]
     },
     "quote": {
@@ -354,13 +354,13 @@
       ]
     },
     "rayon": {
-      "1.6.1": [
+      "1.7.0": [
         [ "either", "1.8.1" ],
-        [ "rayon-core", "1.10.2" ]
+        [ "rayon-core", "1.11.0" ]
       ]
     },
     "rayon-core": {
-      "1.10.2": [
+      "1.11.0": [
         [ "crossbeam-channel", "0.5.7" ],
         [ "crossbeam-deque", "0.8.3" ],
         [ "crossbeam-utils", "0.8.15" ],
@@ -373,12 +373,12 @@
       ]
     },
     "ref-cast": {
-      "1.0.14": [
-        [ "ref-cast-impl", "1.0.14" ]
+      "1.0.15": [
+        [ "ref-cast-impl", "1.0.15" ]
       ]
     },
     "ref-cast-impl": {
-      "1.0.14": [
+      "1.0.15": [
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
@@ -461,16 +461,16 @@
     },
     "serde_json": {
       "1.0.93": [
-        [ "itoa", "1.0.5" ],
-        [ "ryu", "1.0.12" ],
+        [ "itoa", "1.0.6" ],
+        [ "ryu", "1.0.13" ],
         [ "serde", "1.0.152" ]
       ]
     },
     "serde_urlencoded": {
       "0.7.1": [
         [ "form_urlencoded", "1.1.0" ],
-        [ "itoa", "1.0.5" ],
-        [ "ryu", "1.0.12" ],
+        [ "itoa", "1.0.6" ],
+        [ "ryu", "1.0.13" ],
         [ "serde", "1.0.152" ]
       ]
     },
@@ -480,7 +480,7 @@
       ]
     },
     "socket2": {
-      "0.4.7": [
+      "0.4.9": [
         [ "libc", "0.2.139" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -493,14 +493,14 @@
         [ "insta", "1.28.0" ],
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
-        [ "rayon", "1.6.1" ],
-        [ "ref-cast", "1.0.14" ],
+        [ "rayon", "1.7.0" ],
+        [ "ref-cast", "1.0.15" ],
         [ "regex", "1.7.1" ],
         [ "reqwest", "0.11.14" ],
         [ "syn-test-suite", "0.0.0+test" ],
         [ "tar", "0.4.38" ],
         [ "termcolor", "1.2.0" ],
-        [ "unicode-ident", "1.0.6" ],
+        [ "unicode-ident", "1.0.7" ],
         [ "walkdir", "2.3.2" ]
       ]
     },
@@ -539,7 +539,7 @@
         [ "mio", "0.8.6" ],
         [ "num_cpus", "1.15.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "socket2", "0.4.7" ],
+        [ "socket2", "0.4.9" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -1008,8 +1008,8 @@
       }
     },
     "itoa": {
-      "1.0.5": {
-        "hash": "fad582f4b9e86b6caa621cabeb0963332d92eea04729ab12892c2533951e6440",
+      "1.0.6": {
+        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
         "type": "crates-io"
       }
     },
@@ -1158,14 +1158,14 @@
       }
     },
     "rayon": {
-      "1.6.1": {
-        "hash": "6db3a213adf02b3bcfd2d3846bb41cb22857d131789e01df434fb7e7bc0759b7",
+      "1.7.0": {
+        "hash": "1d2df5196e37bcc87abebc0053e20787d73847bb33134a69841207dd0a47f03b",
         "type": "crates-io"
       }
     },
     "rayon-core": {
-      "1.10.2": {
-        "hash": "356a0625f1954f730c0201cdab48611198dc6ce21f4acff55089b5a78e6e835b",
+      "1.11.0": {
+        "hash": "4b8f95bd6966f5c87776639160a66bd8ab9895d9d4ab01ddba9fc60661aebe8d",
         "type": "crates-io"
       }
     },
@@ -1176,14 +1176,14 @@
       }
     },
     "ref-cast": {
-      "1.0.14": {
-        "hash": "8c78fb8c9293bcd48ef6fce7b4ca950ceaf21210de6e105a883ee280c0f7b9ed",
+      "1.0.15": {
+        "hash": "a9af2cf09ef80e610097515e80095b7f76660a92743c4185aff5406cd5ce3dd5",
         "type": "crates-io"
       }
     },
     "ref-cast-impl": {
-      "1.0.14": {
-        "hash": "9f9c0c92af03644e4806106281fe2e068ac5bc0ae74a707266d06ea27bccee5f",
+      "1.0.15": {
+        "hash": "9c501201393982e275433bc55de7d6ae6f00e7699cd5572c5b57581cd69c881b",
         "type": "crates-io"
       }
     },
@@ -1212,8 +1212,8 @@
       }
     },
     "ryu": {
-      "1.0.12": {
-        "hash": "7b4b9743ed687d4b4bcedf9ff5eaa7398495ae14e61cba0a295704edbc7decde",
+      "1.0.13": {
+        "hash": "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041",
         "type": "crates-io"
       }
     },
@@ -1278,8 +1278,8 @@
       }
     },
     "socket2": {
-      "0.4.7": {
-        "hash": "02e2d2db9033d13a1567121ddd7a095ee144db4e1ca1b1bda3419bc0da294ebd",
+      "0.4.9": {
+        "hash": "64a4a911eed85daf18834cfaa86a79b7d266ff93ff5ba14005426219480ed662",
         "type": "crates-io"
       }
     },
@@ -1374,8 +1374,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.6": {
-        "hash": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
+      "1.0.7": {
+        "hash": "775c11906edafc97bc378816b94585fbd9a054eabaf86fdd0ced94af449efab7",
         "type": "crates-io"
       }
     },
