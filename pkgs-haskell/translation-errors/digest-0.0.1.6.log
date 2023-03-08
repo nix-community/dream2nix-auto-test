@@ -1,0 +1,24 @@
+
+Translating:: digest (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/digest-0.0.1.6/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1678256289
+++ date +%s
++ age=513
++ '[' 513 -gt 86400 ']'
+/tmp/tmp.NTSeyFVC8n/tmp.fAYbLhECY4/tmp.mMWfMUmuJG ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/digest-0.0.1.6/digest-0.0.1.6.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4026  100  4026    0     0  28044      0 --:--:-- --:--:-- --:--:-- 28153
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] trying: digest-0.0.1.6 (user goal)
+[__1] rejecting: digest:+pkg-config (conflict: pkg-config package zlib-any,
+not found in the pkg-config database)
+[__1] rejecting: digest:-pkg-config (manual flag can only be changed
+explicitly)
+[__1] fail (backjumping, conflict set: digest, digest:pkg-config)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: digest, digest:pkg-config
+

@@ -2,15 +2,15 @@
 Translating:: blank-canvas (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/blank-canvas-0.6.3/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1677565100
++ indexTime=1678256289
 ++ date +%s
-+ age=582
-+ '[' 582 -gt 86400 ']'
-/tmp/tmp.NQ4Cx30OPg/tmp.iEuo9RIYgm/tmp.koDEHhMn2l ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=596
++ '[' 596 -gt 86400 ']'
+/tmp/tmp.MdC32f7caE/tmp.6e5J2YhS3w/tmp.uW1MyFfEf2 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/blank-canvas-0.6.3/blank-canvas-0.6.3.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 92282  100 92282    0     0   435k      0 --:--:-- --:--:-- --:--:--  435k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 92282    0 92282    0     0   244k      0 --:--:-- --:--:-- --:--:--  245k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: blank-canvas (user goal)
@@ -20,11 +20,11 @@ blank-canvas-0.7 (constraint from user target requires ==0.6.3)
 [__1] next goal: base (dependency of blank-canvas)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: blank-canvas =>
 base>=4.7 && <4.12)
-[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
-base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0 (has
-the same characteristics that caused the previous version to fail: excluded by
-constraint '>=4.7 && <4.12' from 'blank-canvas')
+[__1] skipping: base-4.18.0.0, base-4.17.0.0, base-4.16.4.0, base-4.16.3.0,
+base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0,
+base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0,
+base-4.12.0.0 (has the same characteristics that caused the previous version
+to fail: excluded by constraint '>=4.7 && <4.12' from 'blank-canvas')
 [__1] rejecting: base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0,
 base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0, base-4.8.0.0,
 base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0,

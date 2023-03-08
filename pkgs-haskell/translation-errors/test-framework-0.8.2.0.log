@@ -2,15 +2,15 @@
 Translating:: test-framework (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/test-framework-0.8.2.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1677565100
++ indexTime=1678256289
 ++ date +%s
-+ age=385
-+ '[' 385 -gt 86400 ']'
-/tmp/tmp.78kXYX8o2S/tmp.H2teOpYW0I/tmp.5ILn8J3dbm ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=396
++ '[' 396 -gt 86400 ']'
+/tmp/tmp.720XMHY2NA/tmp.d6rIo76Wk0/tmp.YlpVmVg7EO ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/test-framework-0.8.2.0/test-framework-0.8.2.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 21317  100 21317    0     0   108k      0 --:--:-- --:--:-- --:--:--  108k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 21317  100 21317    0     0   119k      0 --:--:-- --:--:-- --:--:--  119k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: test-framework-0.8.2.0 (user goal)
@@ -34,10 +34,10 @@ base>=4.7 && <4.13, deepseq => base==4.15.1.0/installed-4.15.1.0)
 [__4] next goal: base (dependency of test-framework)
 [__4] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: time => base>=4.7
 && <4.13)
-[__4] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
-base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same
-characteristics that caused the previous version to fail: excluded by
+[__4] skipping: base-4.18.0.0, base-4.17.0.0, base-4.16.4.0, base-4.16.3.0,
+base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0,
+base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
 constraint '>=4.7 && <4.13' from 'time')
 [__4] rejecting: base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0,
 base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,

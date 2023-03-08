@@ -2,15 +2,15 @@
 Translating:: utf8-string (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/utf8-string-1.0.1.1/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1677565100
++ indexTime=1678256289
 ++ date +%s
-+ age=69
-+ '[' 69 -gt 86400 ']'
-/tmp/tmp.IlboSbQA1b/tmp.2KYbox8HCI/tmp.QHOJmNS5El ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=70
++ '[' 70 -gt 86400 ']'
+/tmp/tmp.W2zHgNd72n/tmp.BmgQvewX6l/tmp.Z8QJZJg2MS ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/utf8-string-1.0.1.1/utf8-string-1.0.1.1.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  8667    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8667  100  8667    0     0  55458      0 --:--:-- --:--:-- --:--:-- 55203
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8667  100  8667    0     0  42281      0 --:--:-- --:--:-- --:--:-- 42485
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: utf8-string (user goal)
@@ -20,12 +20,13 @@ Error: cabal: Could not resolve dependencies:
 [__1] next goal: base (dependency of utf8-string)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: utf8-string =>
 base>=4.3 && <4.9)
-[__1] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
-base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0, base-4.12.0.0,
-base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0, base-4.9.1.0,
-base-4.9.0.0 (has the same characteristics that caused the previous version to
-fail: excluded by constraint '>=4.3 && <4.9' from 'utf8-string')
+[__1] skipping: base-4.18.0.0, base-4.17.0.0, base-4.16.4.0, base-4.16.3.0,
+base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0,
+base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0,
+base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0,
+base-4.9.1.0, base-4.9.0.0 (has the same characteristics that caused the
+previous version to fail: excluded by constraint '>=4.3 && <4.9' from
+'utf8-string')
 [__1] rejecting: base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2,
 base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0,
 base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0, base-4.3.0.0,
