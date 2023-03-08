@@ -14,7 +14,7 @@
       "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
       "auto-update#0.1.6": "10adca282e131a2fa01fb7a411b02811685c1cea02e9813df2d7fb468b5ef638",
-      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "base-orphans#0.8.8.2": "b62d60c8b7c507f0d0085925fad398e4fcda928c14b524be0148effd99cfb97d",
       "bsb-http-chunked#0.0.0.4": "add530e695ea3058bf4f7156a1ca85653ff3635b87ec6d1be8c4891645190f96",
       "byteorder#1.0.4": "a952817dcbe20af0346fb55a28c13e95e2ddbf3e99f9b4fffdc063f150f13b20",
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
@@ -26,7 +26,7 @@
       "http2#1.6.5": "09a9e07d34fba12bd0b871c5fbce3708b2e16a9445b080885df6fd53b72858b3",
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
       "iproute#1.7.12": "85d181599fab8ceebf4c849110ad571bea2834d6c8c95ae7da33856c42453f40",
-      "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
+      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
       "network-byte-order#0.1.6": "23d8b609ac43a69d04d5e8f411e5f86a0266c0e8b33b65f8c92ebda64273fe3a",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "psqueues#0.2.7.3": "7213d78598d397255b1861df318d9b5058577f86a9b83a8b652540cbdbc83033",
@@ -75,7 +75,7 @@
     },
     "hashable": {
       "1.4.2.0": [
-        [ "base-orphans", "0.8.7" ],
+        [ "base-orphans", "0.8.8.2" ],
         [ "data-array-byte", "0.1.0.1" ]
       ]
     },
@@ -100,11 +100,11 @@
       "1.7.12": [
         [ "appar", "0.1.8" ],
         [ "byteorder", "1.0.4" ],
-        [ "network", "3.1.2.7" ]
+        [ "network", "3.1.2.8" ]
       ]
     },
     "network": {
-      "3.1.2.7": [
+      "3.1.2.8": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -132,13 +132,13 @@
     },
     "simple-sendfile": {
       "0.2.30": [
-        [ "network", "3.1.2.7" ]
+        [ "network", "3.1.2.8" ]
       ]
     },
     "streaming-commons": {
       "0.2.2.5": [
         [ "async", "2.2.4" ],
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "random", "1.2.1.1" ],
         [ "zlib", "0.6.3.0" ]
       ]
@@ -162,7 +162,7 @@
     "wai": {
       "3.2.3": [
         [ "http-types", "0.12.3" ],
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "vault", "0.3.1.5" ]
       ]
     },
@@ -186,7 +186,7 @@
         [ "http-types", "0.12.3" ],
         [ "http2", "1.6.5" ],
         [ "iproute", "1.7.12" ],
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "simple-sendfile", "0.2.30" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "time-manager", "0.0.0" ],
@@ -227,10 +227,10 @@
       }
     },
     "base-orphans": {
-      "0.8.7": {
-        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+      "0.8.8.2": {
+        "hash": "sha256:61cae7063884128dc98596ab7d8e6d896f6b0fa3da4e12310c850c8c08825092",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-orphans-0.8.8.2.tar.gz"
       }
     },
     "bsb-http-chunked": {
@@ -311,10 +311,10 @@
       }
     },
     "network": {
-      "3.1.2.7": {
-        "hash": "sha256:7f7620fef1a1af3d3d6747f510e73223a5c600e7d7fd9ace073d1222bdc63d85",
+      "3.1.2.8": {
+        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
       }
     },
     "network-byte-order": {

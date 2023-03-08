@@ -2,15 +2,15 @@
 Translating:: compressed (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/compressed-3.11/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1677565100
++ indexTime=1678256289
 ++ date +%s
-+ age=619
-+ '[' 619 -gt 86400 ']'
-/tmp/tmp.ijLWHPFYdA/tmp.Q8tAP45VIK/tmp.pAj0v9IS92 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=633
++ '[' 633 -gt 86400 ']'
+/tmp/tmp.dZRs0jLYTa/tmp.829H222WIb/tmp.uaeNMVj98m ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/compressed-3.11/compressed-3.11.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  7506  100  7506    0     0  40680      0 --:--:-- --:--:-- --:--:-- 40793
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  7506  100  7506    0     0  41470      0 --:--:-- --:--:-- --:--:-- 41700
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: compressed-3.11 (user goal)
@@ -26,10 +26,10 @@ constraint '>=1.1.2.1 && <1.3' from 'compressed')
 [__2] next goal: base (dependency of compressed)
 [__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: hashable =>
 base>=4.4 && <4.13)
-[__2] skipping: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0, base-4.14.3.0,
-base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has the same
-characteristics that caused the previous version to fail: excluded by
+[__2] skipping: base-4.18.0.0, base-4.17.0.0, base-4.16.4.0, base-4.16.3.0,
+base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0,
+base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
 constraint '>=4.4 && <4.13' from 'hashable')
 [__2] rejecting: base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0,
 base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,

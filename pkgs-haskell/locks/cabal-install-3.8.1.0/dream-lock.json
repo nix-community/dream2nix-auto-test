@@ -14,7 +14,7 @@
       "Cabal-syntax#3.8.1.0": "ed2d937ba6c6a20b75850349eedd41374885fc42369ef152d69e2ba70f44f593",
       "HTTP#4000.4.1": "b878d575c470bd1f72d37af6654d924ab2b9489d88de8a71bd74d9d5d726c013",
       "async#2.2.4": "2b9409023536823233ce3134558565d01b3382e651fa54ac8cb8a99967e023c9",
-      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "base-orphans#0.8.8.2": "b62d60c8b7c507f0d0085925fad398e4fcda928c14b524be0148effd99cfb97d",
       "base16-bytestring#1.0.2.0": "64abad7816ab8cabed8489e29f807b3a6f828e0b2cec0eae404323d69d36df9a",
       "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
       "cabal-install-solver#3.8.1.0": "95f75217c3f6f7231576d73dd9275303f271360a0a2a0f02bb03c80b843c88bc",
@@ -27,7 +27,7 @@
       "hashable#1.4.2.0": "02acedd7ac829b52756fe481a1d53294d8f5d42aaa56df560c62c6cec3587a14",
       "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
       "lukko#0.1.1.3": "efd4c08c4df1ac3f423858a834c0e3b5b4909febda66a901d12a8e1d57bddaa8",
-      "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
+      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
       "network-uri#2.6.4.2": "1fde59abf5d82a9666b4415bc2b2e9e33f6c1309074fda12d50410c7dbd95f3b",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "regex-base#0.94.0.2": "4ff4425c710cddf440dfbac6cd52310bb6b23e17902390ff71c9fc7eaafc4fcc",
@@ -36,7 +36,7 @@
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "tar#0.5.1.1": "bc14969ea4adfec6eee20264decf4a07c4002b38b2aa802d58d86b1a2cf7b895",
-      "th-compat#0.1.4": "6ca77c4e80b4e4109e30549c269631a9cc295c8fc2431ce4123972a5f80f7bfc",
+      "th-compat#0.1.4": "00a40a2ecf7c2ac290daf8ae25688c2d3ff86455d99ee0626edcfcdd1432409f",
       "zlib#0.6.3.0": "9adce39e4ca0b7a87d45df0a243134816c57059a08e28cff5469c98ae1f54dfc"
     },
     "compiler": {
@@ -59,7 +59,7 @@
     },
     "HTTP": {
       "4000.4.1": [
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "network-uri", "2.6.4.2" ]
       ]
     },
@@ -115,7 +115,7 @@
         [ "cryptohash-sha256", "0.11.102.1" ],
         [ "ed25519", "0.0.5.0" ],
         [ "lukko", "0.1.1.3" ],
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "network-uri", "2.6.4.2" ],
         [ "tar", "0.5.1.1" ],
         [ "zlib", "0.6.3.0" ]
@@ -123,7 +123,7 @@
     },
     "hashable": {
       "1.4.2.0": [
-        [ "base-orphans", "0.8.7" ],
+        [ "base-orphans", "0.8.8.2" ],
         [ "data-array-byte", "0.1.0.1" ]
       ]
     },
@@ -133,7 +133,7 @@
       ]
     },
     "network": {
-      "3.1.2.7": [
+      "3.1.2.8": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -188,10 +188,10 @@
       }
     },
     "base-orphans": {
-      "0.8.7": {
-        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+      "0.8.8.2": {
+        "hash": "sha256:61cae7063884128dc98596ab7d8e6d896f6b0fa3da4e12310c850c8c08825092",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-orphans-0.8.8.2.tar.gz"
       }
     },
     "base16-bytestring": {
@@ -286,10 +286,10 @@
       }
     },
     "network": {
-      "3.1.2.7": {
-        "hash": "sha256:7f7620fef1a1af3d3d6747f510e73223a5c600e7d7fd9ace073d1222bdc63d85",
+      "3.1.2.8": {
+        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
       }
     },
     "network-uri": {

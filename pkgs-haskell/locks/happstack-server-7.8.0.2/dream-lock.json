@@ -11,7 +11,7 @@
   "_subsystem": {
     "cabalHashes": {
       "HUnit#1.6.2.0": "1a79174e8af616117ad39464cac9de205ca923da6582825e97c10786fda933a4",
-      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
       "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
       "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
       "blaze-html#0.9.1.2": "74b89ffa665891f528f571ce9e3c2dce24f698563f14b6f5e9e0512eccdf5dc2",
@@ -22,14 +22,14 @@
       "hslogger#1.3.1.0": "c1b512c2ba106b57c811d493234677f740a643c2010bc698b6be4f430c953876",
       "html#1.0.1.2": "b6164bd09d2c561f2271599dc53ed9ce243ae6926a5d8896dee58ed1e2353c99",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
-      "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
+      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
       "network-bsd#2.8.1.0": "cd945ea08818281e4a8fa6f0a0640a1502aad3748546a3c197e071772452a9bd",
       "network-uri#2.6.4.2": "1fde59abf5d82a9666b4415bc2b2e9e33f6c1309074fda12d50410c7dbd95f3b",
       "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
       "sendfile#0.7.11.4": "6075316307947f1cd6948b86b264391fbbc7ecac13525ce9c8f13f5be7d6cb7a",
       "syb#0.7.2.2": "bc800dbd35a17b652082f7f9790fd20d196ea0f44daaa7d5ac46491d8ecc7347",
       "system-filepath#0.4.14": "e8ce7d24d7008a825e5d03aa672950a0e8178ac54c3de7134f36c3a7e37694a2",
-      "th-compat#0.1.4": "6ca77c4e80b4e4109e30549c269631a9cc295c8fc2431ce4123972a5f80f7bfc",
+      "th-compat#0.1.4": "00a40a2ecf7c2ac290daf8ae25688c2d3ff86455d99ee0626edcfcdd1432409f",
       "threads#0.5.1.7": "47db2802cbd9c2ef0175b2faef7bd372932db7ca25b2f6e4afe8c16135ff2679",
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
@@ -73,7 +73,7 @@
         [ "hslogger", "1.3.1.0" ],
         [ "html", "1.0.1.2" ],
         [ "monad-control", "1.0.3.1" ],
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "network-uri", "2.6.4.2" ],
         [ "old-locale", "1.0.0.7" ],
         [ "sendfile", "0.7.11.4" ],
@@ -91,7 +91,7 @@
     },
     "hslogger": {
       "1.3.1.0": [
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "network-bsd", "2.8.1.0" ],
         [ "old-locale", "1.0.0.7" ]
       ]
@@ -103,13 +103,13 @@
       ]
     },
     "network": {
-      "3.1.2.7": [
+      "3.1.2.8": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
     "network-bsd": {
       "2.8.1.0": [
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -120,12 +120,12 @@
     },
     "sendfile": {
       "0.7.11.4": [
-        [ "network", "3.1.2.7" ]
+        [ "network", "3.1.2.8" ]
       ]
     },
     "transformers-base": {
       "0.4.6": [
-        [ "base-orphans", "0.8.7" ],
+        [ "base-orphans", "0.9.0" ],
         [ "transformers-compat", "0.7.2" ]
       ]
     }
@@ -139,10 +139,10 @@
       }
     },
     "base-orphans": {
-      "0.8.7": {
-        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
       }
     },
     "base64-bytestring": {
@@ -223,10 +223,10 @@
       }
     },
     "network": {
-      "3.1.2.7": {
-        "hash": "sha256:7f7620fef1a1af3d3d6747f510e73223a5c600e7d7fd9ace073d1222bdc63d85",
+      "3.1.2.8": {
+        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
       }
     },
     "network-bsd": {

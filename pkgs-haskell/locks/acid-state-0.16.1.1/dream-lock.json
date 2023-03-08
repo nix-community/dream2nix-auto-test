@@ -15,7 +15,7 @@
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ap-normalize#0.1.0.1": "85f9f0839de0c593d9ef00fff0d96070f4767c3bdb5926b06ab0ea6ed1573c6c",
-      "base-orphans#0.8.7": "58d5514b688ec037f53b9d60097b9d87f6b3847da68f65124987d67222c3a334",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "cereal#0.5.8.3": "87a227c7b510217ea059db3dd59d9665edd8f0d1d3d8de39458e371a1d9402fb",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
@@ -25,11 +25,11 @@
       "generic-data#1.0.0.1": "d5880f83f01b4ec4b5e95b6dd70d41dbb01cd649b6ba3e0e7a9c21c051e46240",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
       "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
-      "hspec#2.10.9": "6000b21e29175be7cf6625399603772650abd3d9c47e722faa930dd5e9836bba",
-      "hspec-core#2.10.9": "bb2df616e8fc5324a73a621b6eb6461edfad9a9fe39db80927a4cd70cda48437",
-      "hspec-discover#2.10.9": "e54f978b1bcb3d0fd3a78eccf360b0731184290a1387d431531217db68f55fc4",
+      "hspec#2.10.10": "7516848133191eb01d8e7349d9ca696250eb12d6a4f2d1f20cca82a06597c66b",
+      "hspec-core#2.10.10": "bae1103f33c601482fa20f80de4556f822ff8f3f344339fd6421f34b5939768d",
+      "hspec-discover#2.10.10": "a8839a91db8e0afc97fe79a5b494468a5e83d4ad6b438706ac75c7bf0f53cd56",
       "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
-      "network#3.1.2.7": "e3d78b13db9512aeb106e44a334ab42b7aa48d26c097299084084cb8be5c5568",
+      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
       "network-bsd#2.8.1.0": "cd945ea08818281e4a8fa6f0a0640a1502aad3748546a3c197e071772452a9bd",
       "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
       "old-time#1.1.0.3": "c91fbb3ee73d20ccd015842b30f1f29a304893ebe0ae3128b7bbc13d5bb0d4c8",
@@ -59,8 +59,8 @@
       ]
     },
     "hspec-discover": {
-      "2.10.9": [
-        [ "hspec-discover", "2.10.9" ]
+      "2.10.10": [
+        [ "hspec-discover", "2.10.10" ]
       ]
     }
   },
@@ -80,20 +80,20 @@
       "0.16.1.1": [
         [ "cereal", "0.5.8.3" ],
         [ "filelock", "0.1.1.5" ],
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "network-bsd", "2.8.1.0" ],
         [ "safecopy", "0.10.4.2" ],
         [ "th-expand-syns", "0.4.11.0" ],
         [ "acid-state", "0.16.1.1" ],
         [ "acid-state", "0.16.1.1" ],
         [ "cereal", "0.5.8.3" ],
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "safecopy", "0.10.4.2" ],
         [ "acid-state", "0.16.1.1" ],
-        [ "hspec", "2.10.9" ],
-        [ "hspec-discover", "2.10.9" ],
+        [ "hspec", "2.10.10" ],
+        [ "hspec-discover", "2.10.10" ],
         [ "safecopy", "0.10.4.2" ],
-        [ "hspec-discover", "2.10.9" ]
+        [ "hspec-discover", "2.10.10" ]
       ]
     },
     "ansi-terminal": {
@@ -109,21 +109,21 @@
     "generic-data": {
       "1.0.0.1": [
         [ "ap-normalize", "0.1.0.1" ],
-        [ "base-orphans", "0.8.7" ],
+        [ "base-orphans", "0.9.0" ],
         [ "contravariant", "1.5.5" ],
         [ "show-combinators", "0.2.0.0" ]
       ]
     },
     "hspec": {
-      "2.10.9": [
+      "2.10.10": [
         [ "QuickCheck", "2.14.2" ],
-        [ "hspec-core", "2.10.9" ],
-        [ "hspec-discover", "2.10.9" ],
+        [ "hspec-core", "2.10.10" ],
+        [ "hspec-discover", "2.10.10" ],
         [ "hspec-expectations", "0.8.2" ]
       ]
     },
     "hspec-core": {
-      "2.10.9": [
+      "2.10.10": [
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
         [ "ansi-terminal", "0.11.4" ],
@@ -137,8 +137,8 @@
       ]
     },
     "hspec-discover": {
-      "2.10.9": [
-        [ "hspec-discover", "2.10.9" ]
+      "2.10.10": [
+        [ "hspec-discover", "2.10.10" ]
       ]
     },
     "hspec-expectations": {
@@ -148,13 +148,13 @@
       ]
     },
     "network": {
-      "3.1.2.7": [
+      "3.1.2.8": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
     "network-bsd": {
       "2.8.1.0": [
-        [ "network", "3.1.2.7" ],
+        [ "network", "3.1.2.8" ],
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -250,10 +250,10 @@
       }
     },
     "base-orphans": {
-      "0.8.7": {
-        "hash": "sha256:888fd67f0dbe932778f5b170922ce80d0dcab1680ee98f1d6fcc362f20d9e447",
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-orphans-0.8.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
       }
     },
     "call-stack": {
@@ -320,24 +320,24 @@
       }
     },
     "hspec": {
-      "2.10.9": {
-        "hash": "sha256:9431bdbafa152cfab9e203a98d701278c2c34e7c215dda9778db1e77f901716d",
+      "2.10.10": {
+        "hash": "sha256:9a4b5e63d51796d5f6c3590b8495a1cd8c600e1bf720086b6709ee00405d03a4",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-2.10.9.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-2.10.10.tar.gz"
       }
     },
     "hspec-core": {
-      "2.10.9": {
-        "hash": "sha256:ff7e28bc23c19988aad83d0d1ba700844b43e7d7c10ab5cb590bdf94bb127ea9",
+      "2.10.10": {
+        "hash": "sha256:644793717f2f9ee7f778e2f801ea54705bdd0abb71d7a7e40aa75bd98b8f55b6",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-core-2.10.9.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-core-2.10.10.tar.gz"
       }
     },
     "hspec-discover": {
-      "2.10.9": {
-        "hash": "sha256:f279368d7b3a1b03cc29e8fc07947cb146b555f9fb6e0f17b8d306f9787c5099",
+      "2.10.10": {
+        "hash": "sha256:a809388c0ea90b215e582f11e19e030aefa279d63f6ba1c5cbfd714403152f32",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/hspec-discover-2.10.9.tar.gz"
+        "url": "https://hackage.haskell.org/package/hspec-discover-2.10.10.tar.gz"
       }
     },
     "hspec-expectations": {
@@ -348,10 +348,10 @@
       }
     },
     "network": {
-      "3.1.2.7": {
-        "hash": "sha256:7f7620fef1a1af3d3d6747f510e73223a5c600e7d7fd9ace073d1222bdc63d85",
+      "3.1.2.8": {
+        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
       }
     },
     "network-bsd": {
