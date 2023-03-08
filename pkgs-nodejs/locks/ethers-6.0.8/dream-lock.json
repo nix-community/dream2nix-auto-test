@@ -1,0 +1,90 @@
+{
+  "_generic": {
+    "defaultPackage": "ethers",
+    "location": "",
+    "packages": {
+      "ethers": "6.0.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ethers": {
+      "6.0.8": [
+        [ "@adraffy/ens-normalize", "1.8.9" ],
+        [ "@noble/hashes", "1.1.2" ],
+        [ "@noble/secp256k1", "1.7.1" ],
+        [ "aes-js", "4.0.0-beta.3" ],
+        [ "tslib", "2.4.0" ],
+        [ "ws", "8.5.0" ]
+      ],
+      "unknown": [
+        [ "@adraffy/ens-normalize", "1.8.9" ],
+        [ "@noble/hashes", "1.1.2" ],
+        [ "@noble/secp256k1", "1.7.1" ],
+        [ "aes-js", "4.0.0-beta.3" ],
+        [ "ethers", "6.0.8" ],
+        [ "tslib", "2.4.0" ],
+        [ "ws", "8.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@adraffy/ens-normalize": {
+      "1.8.9": {
+        "hash": "sha512-93OmGCV0vO8+JQ3FHG+gZk/MPHzzMPDRiCiFcCQNTCnHaaxsacO3ScTPGlu2wX2dOtgfalbchPcw1cOYYjHCYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.8.9.tgz"
+      }
+    },
+    "@noble/hashes": {
+      "1.1.2": {
+        "hash": "sha512-KYRCASVTv6aeUi1tsF8/vpyR7zpfs3FUzy2Jqm+MU+LmUKhQ0y2FpfwqkCcxSg2ua4GALJd8k2R76WxwZGbQpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@noble/hashes/-/hashes-1.1.2.tgz"
+      }
+    },
+    "@noble/secp256k1": {
+      "1.7.1": {
+        "hash": "sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@noble/secp256k1/-/secp256k1-1.7.1.tgz"
+      }
+    },
+    "aes-js": {
+      "4.0.0-beta.3": {
+        "hash": "sha512-/xJX0/VTPcbc5xQE2VUP91y1xN8q/rDfhEzLm+vLc3hYvb5+qHCnpJRuFcrKn63zumK/sCwYYzhG8HP78JYSTA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.3.tgz"
+      }
+    },
+    "ethers": {
+      "6.0.8": {
+        "hash": "sha512-j5smdMwn4t4vEARcfUv54mTJ2NMCorYLL51wPjFInEnrRr2SF5Sl9a7Z4DXS8UO1fBJVGHnjDDrF1b7msY3f7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ethers/-/ethers-6.0.8.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    },
+    "ws": {
+      "8.5.0": {
+        "hash": "sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ws/-/ws-8.5.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_generic": {
+    "defaultPackage": "@babel/runtime",
+    "location": "",
+    "packages": {
+      "@babel/runtime": "7.21.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.21.0": [
+        [ "regenerator-runtime", "0.13.11" ]
+      ],
+      "unknown": [
+        [ "@babel/runtime", "7.21.0" ],
+        [ "regenerator-runtime", "0.13.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.21.0": {
+        "hash": "sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.21.0.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.11": {
+        "hash": "sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+      }
+    }
+  }
+}
