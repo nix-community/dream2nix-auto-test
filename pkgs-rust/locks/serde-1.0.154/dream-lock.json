@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "serde_derive",
+    "defaultPackage": "serde",
     "location": "",
     "packages": {
-      "serde_derive": "1.0.153"
+      "serde": "1.0.154"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "serde_derive": {
-        "1.0.153": {
-          "description": "Macros 1.1 implementation of #[derive(Serialize, Deserialize)]", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
+      "serde": {
+        "1.0.154": {
+          "description": "A generic serialization/deserialization framework", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "serde_derive": {
-        "1.0.153": {}
+      "serde": {
+        "1.0.154": {}
       }
     }
   },
@@ -36,11 +36,15 @@
         [ "proc-macro2", "1.0.51" ]
       ]
     },
+    "serde": {
+      "1.0.154": [
+        [ "serde_derive", "1.0.154" ]
+      ]
+    },
     "serde_derive": {
-      "1.0.153": [
+      "1.0.154": [
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
-        [ "serde", "1.0.153" ],
         [ "syn", "1.0.109" ]
       ]
     },
@@ -66,14 +70,14 @@
       }
     },
     "serde": {
-      "1.0.153": {
-        "hash": "3a382c72b4ba118526e187430bb4963cd6d55051ebf13d9b25574d379cc98d20",
+      "1.0.154": {
+        "hash": "8cdd151213925e7f1ab45a9bbfb129316bd00799784b174b7cc7bcd16961c49e",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.153": {
-        "hash": "1ef476a5790f0f6decbc66726b6e5d63680ed518283e64c7df415989d880954f",
+      "1.0.154": {
+        "hash": "4fc80d722935453bcafdc2c9a73cd6fac4dc1938f0346035d84bf99fa9e33217",
         "type": "crates-io"
       }
     },
