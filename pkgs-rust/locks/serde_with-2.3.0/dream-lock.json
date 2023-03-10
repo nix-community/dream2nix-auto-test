@@ -3,7 +3,7 @@
     "defaultPackage": "serde_with",
     "location": "",
     "packages": {
-      "serde_with": "2.2.0"
+      "serde_with": "2.3.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "serde_with": {
-        "2.2.0": {
+        "2.3.0": {
           "description": "Custom de/serialization functions for Rust's serde", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "serde_with": {
-        "2.2.0": {}
+        "2.3.0": {}
       }
     }
   },
@@ -28,7 +28,7 @@
   "dependencies": {
     "android_system_properties": {
       "0.1.5": [
-        [ "libc", "0.2.139" ]
+        [ "libc", "0.2.140" ]
       ]
     },
     "chrono": {
@@ -79,13 +79,13 @@
       ]
     },
     "darling": {
-      "0.14.3": [
-        [ "darling_core", "0.14.3" ],
-        [ "darling_macro", "0.14.3" ]
+      "0.14.4": [
+        [ "darling_core", "0.14.4" ],
+        [ "darling_macro", "0.14.4" ]
       ]
     },
     "darling_core": {
-      "0.14.3": [
+      "0.14.4": [
         [ "fnv", "1.0.7" ],
         [ "ident_case", "1.0.1" ],
         [ "proc-macro2", "1.0.51" ],
@@ -95,8 +95,8 @@
       ]
     },
     "darling_macro": {
-      "0.14.3": [
-        [ "darling_core", "0.14.3" ],
+      "0.14.4": [
+        [ "darling_core", "0.14.4" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
       ]
@@ -257,7 +257,7 @@
       ]
     },
     "serde_with": {
-      "2.2.0": [
+      "2.3.0": [
         [ "base64", "0.13.1" ],
         [ "chrono", "0.4.23" ],
         [ "doc-comment", "0.3.3" ],
@@ -276,15 +276,15 @@
         [ "serde-xml-rs", "0.6.0" ],
         [ "serde_json", "1.0.94" ],
         [ "serde_test", "1.0.154" ],
-        [ "serde_with_macros", "2.2.0" ],
+        [ "serde_with_macros", "2.3.0" ],
         [ "serde_yaml", "0.9.19" ],
         [ "time", "0.3.20" ],
         [ "version-sync", "0.9.4" ]
       ]
     },
     "serde_with_macros": {
-      "2.2.0": [
-        [ "darling", "0.14.3" ],
+      "2.3.0": [
+        [ "darling", "0.14.4" ],
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
@@ -516,20 +516,20 @@
       }
     },
     "darling": {
-      "0.14.3": {
-        "hash": "c0808e1bd8671fb44a113a14e13497557533369847788fa2ae912b6ebfce9fa8",
+      "0.14.4": {
+        "hash": "7b750cb3417fd1b327431a470f388520309479ab0bf5e323505daf0290cd3850",
         "type": "crates-io"
       }
     },
     "darling_core": {
-      "0.14.3": {
-        "hash": "001d80444f28e193f30c2f293455da62dcf9a6b29918a4253152ae2b1de592cb",
+      "0.14.4": {
+        "hash": "109c1ca6e6b7f82cc233a97004ea8ed7ca123a9af07a8230878fcfda9b158bf0",
         "type": "crates-io"
       }
     },
     "darling_macro": {
-      "0.14.3": {
-        "hash": "b36230598a2d5de7ec1c6f51f72d8a99a9208daff41de2084d06e3fd3ea56685",
+      "0.14.4": {
+        "hash": "a4aab4dbc9f7611d8b55048a3a16d2d010c2c8334e46304b40ac1cc14bf3b48e",
         "type": "crates-io"
       }
     },
@@ -630,8 +630,8 @@
       }
     },
     "libc": {
-      "0.2.139": {
-        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
+      "0.2.140": {
+        "hash": "99227334921fae1a979cf0bfdfcc6b3e5ce376ef57e16fb6fb3ea2ed6095f80c",
         "type": "crates-io"
       }
     },
@@ -804,14 +804,14 @@
       }
     },
     "serde_with": {
-      "2.2.0": {
-        "hash": "30d904179146de381af4c93d3af6ca4984b3152db687dacb9c3c35e86f39809c",
+      "2.3.0": {
+        "hash": "7ea48c9627169d206b35905699f513f513c303ab9d964a59b44fdcf66c1d1ab7",
         "type": "crates-io"
       }
     },
     "serde_with_macros": {
-      "2.2.0": {
-        "hash": "a1966009f3c05f095697c537312f5415d1e3ed31ce0a56942bac4c771c5c335e",
+      "2.3.0": {
+        "hash": "9e6b7e52858f9f06c25e1c566bbb4ab428200cb3b30053ea09dc50837de7538b",
         "type": "crates-io"
       }
     },
