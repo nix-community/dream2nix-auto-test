@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "futures",
+    "defaultPackage": "futures-util",
     "location": "",
     "packages": {
-      "futures": "0.3.26"
+      "futures-util": "0.3.27"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "futures": {
-        "0.3.26": {
-          "description": "An implementation of futures and streams featuring zero allocations,\ncomposability, and iterator-like interfaces.\n", "homepage": "https://rust-lang.github.io/futures-rs", "license": [   "mit",   "asl20"
+      "futures-util": {
+        "0.3.27": {
+          "description": "Common utilities and extension traits for the futures-rs library.\n", "homepage": "https://rust-lang.github.io/futures-rs", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "futures": {
-        "0.3.26": {}
+      "futures-util": {
+        "0.3.27": {}
       }
     }
   },
@@ -75,56 +75,37 @@
         [ "fuchsia-zircon-sys", "0.3.3" ]
       ]
     },
-    "futures": {
-      "0.3.26": [
-        [ "assert_matches", "1.5.0" ],
-        [ "futures-channel", "0.3.26" ],
-        [ "futures-core", "0.3.26" ],
-        [ "futures-executor", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
-        [ "futures-util", "0.3.26" ],
-        [ "pin-project", "1.0.12" ],
-        [ "pin-utils", "0.1.0" ],
-        [ "static_assertions", "1.1.0" ],
-        [ "tokio", "0.1.22" ]
-      ]
-    },
     "futures-channel": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ]
+      "0.3.27": [
+        [ "futures-core", "0.3.27" ]
       ]
     },
-    "futures-executor": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
-        [ "futures-util", "0.3.26" ],
-        [ "num_cpus", "1.15.0" ]
+    "futures-core": {
+      "0.3.27": [
+        [ "portable-atomic", "1.0.1" ]
       ]
     },
     "futures-macro": {
-      "0.3.26": [
+      "0.3.27": [
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
       ]
     },
     "futures-util": {
-      "0.3.26": [
+      "0.3.27": [
         [ "futures", "0.1.31" ],
-        [ "futures-channel", "0.3.26" ],
-        [ "futures-core", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
-        [ "futures-macro", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
+        [ "futures-channel", "0.3.27" ],
+        [ "futures-core", "0.3.27" ],
+        [ "futures-io", "0.3.27" ],
+        [ "futures-macro", "0.3.27" ],
+        [ "futures-sink", "0.3.27" ],
+        [ "futures-task", "0.3.27" ],
         [ "memchr", "2.5.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
         [ "slab", "0.4.8" ],
+        [ "tokio", "0.1.22" ],
         [ "tokio-io", "0.1.13" ]
       ]
     },
@@ -218,18 +199,6 @@
         [ "rustc_version", "0.2.3" ],
         [ "smallvec", "0.6.14" ],
         [ "winapi", "0.3.9" ]
-      ]
-    },
-    "pin-project": {
-      "1.0.12": [
-        [ "pin-project-internal", "1.0.12" ]
-      ]
-    },
-    "pin-project-internal": {
-      "1.0.12": [
-        [ "proc-macro2", "1.0.51" ],
-        [ "quote", "1.0.23" ],
-        [ "syn", "1.0.109" ]
       ]
     },
     "proc-macro2": {
@@ -413,12 +382,6 @@
     }
   },
   "sources": {
-    "assert_matches": {
-      "1.5.0": {
-        "hash": "9b34d609dfbaf33d6889b2b7106d3ca345eacad44200913df5ba02bfd31d2ba9",
-        "type": "crates-io"
-      }
-    },
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
@@ -505,57 +468,47 @@
       "0.1.31": {
         "hash": "3a471a38ef8ed83cd6e40aa59c1ffe17db6855c18e3604d9c4ed8c08ebc28678",
         "type": "crates-io"
-      },
-      "0.3.26": {
-        "hash": "13e2792b0ff0340399d58445b88fd9770e3489eff258a4cbc1523418f12abf84",
-        "type": "crates-io"
       }
     },
     "futures-channel": {
-      "0.3.26": {
-        "hash": "2e5317663a9089767a1ec00a487df42e0ca174b61b4483213ac24448e4664df5",
+      "0.3.27": {
+        "hash": "164713a5a0dcc3e7b4b1ed7d3b433cabc18025386f9339346e8daf15963cf7ac",
         "type": "crates-io"
       }
     },
     "futures-core": {
-      "0.3.26": {
-        "hash": "ec90ff4d0fe1f57d600049061dc6bb68ed03c7d2fbd697274c41805dcb3f8608",
-        "type": "crates-io"
-      }
-    },
-    "futures-executor": {
-      "0.3.26": {
-        "hash": "e8de0a35a6ab97ec8869e32a2473f4b1324459e14c29275d14b10cb1fd19b50e",
+      "0.3.27": {
+        "hash": "86d7a0c1aa76363dac491de0ee99faf6941128376f1cf96f07db7603b7de69dd",
         "type": "crates-io"
       }
     },
     "futures-io": {
-      "0.3.26": {
-        "hash": "bfb8371b6fb2aeb2d280374607aeabfc99d95c72edfe51692e42d3d7f0d08531",
+      "0.3.27": {
+        "hash": "89d422fa3cbe3b40dca574ab087abb5bc98258ea57eea3fd6f1fa7162c778b91",
         "type": "crates-io"
       }
     },
     "futures-macro": {
-      "0.3.26": {
-        "hash": "95a73af87da33b5acf53acfebdc339fe592ecf5357ac7c0a7734ab9d8c876a70",
+      "0.3.27": {
+        "hash": "3eb14ed937631bd8b8b8977f2c198443447a8355b6e3ca599f38c975e5a963b6",
         "type": "crates-io"
       }
     },
     "futures-sink": {
-      "0.3.26": {
-        "hash": "f310820bb3e8cfd46c80db4d7fb8353e15dfff853a127158425f31e0be6c8364",
+      "0.3.27": {
+        "hash": "ec93083a4aecafb2a80a885c9de1f0ccae9dbd32c2bb54b0c3a65690e0b8d2f2",
         "type": "crates-io"
       }
     },
     "futures-task": {
-      "0.3.26": {
-        "hash": "dcf79a1bf610b10f42aea489289c5a2c478a786509693b80cd39c44ccd936366",
+      "0.3.27": {
+        "hash": "fd65540d33b37b16542a0438c12e6aeead10d4ac5d05bd3f805b8f35ab592879",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.26": {
-        "hash": "9c1d6de3acfef38d2be4b1f543f553131788603495be83da675e180c8d6b7bd1",
+      "0.3.27": {
+        "hash": "3ef6b17e481503ec85211fed8f39d1970f128935ca1f814cd32ac4a6842e84ab",
         "type": "crates-io"
       }
     },
@@ -661,18 +614,6 @@
         "type": "crates-io"
       }
     },
-    "pin-project": {
-      "1.0.12": {
-        "hash": "ad29a609b6bcd67fee905812e544992d216af9d755757c05ed2d0e15a74c6ecc",
-        "type": "crates-io"
-      }
-    },
-    "pin-project-internal": {
-      "1.0.12": {
-        "hash": "069bdb1e05adc7a8990dce9cc75370895fbe4e3d58b9b73bf1aee56359344a55",
-        "type": "crates-io"
-      }
-    },
     "pin-project-lite": {
       "0.2.9": {
         "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
@@ -682,6 +623,12 @@
     "pin-utils": {
       "0.1.0": {
         "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
+        "type": "crates-io"
+      }
+    },
+    "portable-atomic": {
+      "1.0.1": {
+        "hash": "39c00c8683a03bd4fe7db7dd64ab4abee6b42166bc81231da983486ce96be51a",
         "type": "crates-io"
       }
     },
@@ -736,12 +683,6 @@
     "smallvec": {
       "0.6.14": {
         "hash": "b97fcaeba89edba30f044a10c6a3cc39df9c3f17d7cd829dd1446cab35f890e0",
-        "type": "crates-io"
-      }
-    },
-    "static_assertions": {
-      "1.1.0": {
-        "hash": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
         "type": "crates-io"
       }
     },

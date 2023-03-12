@@ -91,30 +91,30 @@
       ]
     },
     "futures-channel": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ]
+      "0.3.27": [
+        [ "futures-core", "0.3.27" ]
       ]
     },
     "futures-executor": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
-        [ "futures-util", "0.3.26" ]
+      "0.3.27": [
+        [ "futures-core", "0.3.27" ],
+        [ "futures-task", "0.3.27" ],
+        [ "futures-util", "0.3.27" ]
       ]
     },
     "futures-macro": {
-      "0.3.26": [
+      "0.3.27": [
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
       ]
     },
     "futures-util": {
-      "0.3.26": [
-        [ "futures-core", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
-        [ "futures-macro", "0.3.26" ],
-        [ "futures-task", "0.3.26" ],
+      "0.3.27": [
+        [ "futures-core", "0.3.27" ],
+        [ "futures-io", "0.3.27" ],
+        [ "futures-macro", "0.3.27" ],
+        [ "futures-task", "0.3.27" ],
         [ "memchr", "2.5.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
@@ -137,9 +137,9 @@
       "0.3.16": [
         [ "bytes", "1.4.0" ],
         [ "fnv", "1.0.7" ],
-        [ "futures-core", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
-        [ "futures-util", "0.3.26" ],
+        [ "futures-core", "0.3.27" ],
+        [ "futures-sink", "0.3.27" ],
+        [ "futures-util", "0.3.27" ],
         [ "http", "0.2.9" ],
         [ "indexmap", "1.9.2" ],
         [ "slab", "0.4.8" ],
@@ -282,8 +282,8 @@
     "quinn": {
       "0.8.5": [
         [ "bytes", "1.4.0" ],
-        [ "futures-channel", "0.3.26" ],
-        [ "futures-util", "0.3.26" ],
+        [ "futures-channel", "0.3.27" ],
+        [ "futures-util", "0.3.27" ],
         [ "fxhash", "0.2.1" ],
         [ "quinn-proto", "0.8.4" ],
         [ "quinn-udp", "0.1.4" ],
@@ -312,7 +312,7 @@
     },
     "quinn-udp": {
       "0.1.4": [
-        [ "futures-util", "0.3.26" ],
+        [ "futures-util", "0.3.27" ],
         [ "libc", "0.2.140" ],
         [ "quinn-proto", "0.8.4" ],
         [ "socket2", "0.4.9" ],
@@ -430,12 +430,12 @@
       ]
     },
     "serde": {
-      "1.0.154": [
-        [ "serde_derive", "1.0.154" ]
+      "1.0.155": [
+        [ "serde_derive", "1.0.155" ]
       ]
     },
     "serde_derive": {
-      "1.0.154": [
+      "1.0.155": [
         [ "proc-macro2", "1.0.51" ],
         [ "quote", "1.0.23" ],
         [ "syn", "1.0.109" ]
@@ -525,7 +525,7 @@
     },
     "tokio-openssl": {
       "0.6.3": [
-        [ "futures-util", "0.3.26" ],
+        [ "futures-util", "0.3.27" ],
         [ "openssl", "0.10.45" ],
         [ "openssl-sys", "0.9.80" ],
         [ "tokio", "1.26.0" ]
@@ -541,8 +541,8 @@
     "tokio-util": {
       "0.7.7": [
         [ "bytes", "1.4.0" ],
-        [ "futures-core", "0.3.26" ],
-        [ "futures-sink", "0.3.26" ],
+        [ "futures-core", "0.3.27" ],
+        [ "futures-sink", "0.3.27" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio", "1.26.0" ],
         [ "tracing", "0.1.37" ]
@@ -598,10 +598,10 @@
         [ "cfg-if", "1.0.0" ],
         [ "data-encoding", "2.3.3" ],
         [ "enum-as-inner", "0.5.1" ],
-        [ "futures-channel", "0.3.26" ],
-        [ "futures-executor", "0.3.26" ],
-        [ "futures-io", "0.3.26" ],
-        [ "futures-util", "0.3.26" ],
+        [ "futures-channel", "0.3.27" ],
+        [ "futures-executor", "0.3.27" ],
+        [ "futures-io", "0.3.27" ],
+        [ "futures-util", "0.3.27" ],
         [ "h2", "0.3.16" ],
         [ "http", "0.2.9" ],
         [ "idna", "0.2.3" ],
@@ -615,7 +615,7 @@
         [ "ring", "0.16.20" ],
         [ "rustls", "0.20.8" ],
         [ "rustls-pemfile", "1.0.2" ],
-        [ "serde", "1.0.154" ],
+        [ "serde", "1.0.155" ],
         [ "smallvec", "1.10.0" ],
         [ "socket2", "0.4.9" ],
         [ "thiserror", "1.0.39" ],
@@ -642,7 +642,7 @@
         [ "form_urlencoded", "1.1.0" ],
         [ "idna", "0.3.0" ],
         [ "percent-encoding", "2.2.0" ],
-        [ "serde", "1.0.154" ]
+        [ "serde", "1.0.155" ]
       ]
     },
     "wasm-bindgen": {
@@ -870,50 +870,50 @@
       }
     },
     "futures-channel": {
-      "0.3.26": {
-        "hash": "2e5317663a9089767a1ec00a487df42e0ca174b61b4483213ac24448e4664df5",
+      "0.3.27": {
+        "hash": "164713a5a0dcc3e7b4b1ed7d3b433cabc18025386f9339346e8daf15963cf7ac",
         "type": "crates-io"
       }
     },
     "futures-core": {
-      "0.3.26": {
-        "hash": "ec90ff4d0fe1f57d600049061dc6bb68ed03c7d2fbd697274c41805dcb3f8608",
+      "0.3.27": {
+        "hash": "86d7a0c1aa76363dac491de0ee99faf6941128376f1cf96f07db7603b7de69dd",
         "type": "crates-io"
       }
     },
     "futures-executor": {
-      "0.3.26": {
-        "hash": "e8de0a35a6ab97ec8869e32a2473f4b1324459e14c29275d14b10cb1fd19b50e",
+      "0.3.27": {
+        "hash": "1997dd9df74cdac935c76252744c1ed5794fac083242ea4fe77ef3ed60ba0f83",
         "type": "crates-io"
       }
     },
     "futures-io": {
-      "0.3.26": {
-        "hash": "bfb8371b6fb2aeb2d280374607aeabfc99d95c72edfe51692e42d3d7f0d08531",
+      "0.3.27": {
+        "hash": "89d422fa3cbe3b40dca574ab087abb5bc98258ea57eea3fd6f1fa7162c778b91",
         "type": "crates-io"
       }
     },
     "futures-macro": {
-      "0.3.26": {
-        "hash": "95a73af87da33b5acf53acfebdc339fe592ecf5357ac7c0a7734ab9d8c876a70",
+      "0.3.27": {
+        "hash": "3eb14ed937631bd8b8b8977f2c198443447a8355b6e3ca599f38c975e5a963b6",
         "type": "crates-io"
       }
     },
     "futures-sink": {
-      "0.3.26": {
-        "hash": "f310820bb3e8cfd46c80db4d7fb8353e15dfff853a127158425f31e0be6c8364",
+      "0.3.27": {
+        "hash": "ec93083a4aecafb2a80a885c9de1f0ccae9dbd32c2bb54b0c3a65690e0b8d2f2",
         "type": "crates-io"
       }
     },
     "futures-task": {
-      "0.3.26": {
-        "hash": "dcf79a1bf610b10f42aea489289c5a2c478a786509693b80cd39c44ccd936366",
+      "0.3.27": {
+        "hash": "fd65540d33b37b16542a0438c12e6aeead10d4ac5d05bd3f805b8f35ab592879",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.26": {
-        "hash": "9c1d6de3acfef38d2be4b1f543f553131788603495be83da675e180c8d6b7bd1",
+      "0.3.27": {
+        "hash": "3ef6b17e481503ec85211fed8f39d1970f128935ca1f814cd32ac4a6842e84ab",
         "type": "crates-io"
       }
     },
@@ -1292,14 +1292,14 @@
       }
     },
     "serde": {
-      "1.0.154": {
-        "hash": "8cdd151213925e7f1ab45a9bbfb129316bd00799784b174b7cc7bcd16961c49e",
+      "1.0.155": {
+        "hash": "71f2b4817415c6d4210bfe1c7bfcf4801b2d904cb4d0e1a8fdb651013c9e86b8",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.154": {
-        "hash": "4fc80d722935453bcafdc2c9a73cd6fac4dc1938f0346035d84bf99fa9e33217",
+      "1.0.155": {
+        "hash": "d071a94a3fac4aff69d023a7f411e33f40f3483f8c5190b1953822b6b76d7630",
         "type": "crates-io"
       }
     },
