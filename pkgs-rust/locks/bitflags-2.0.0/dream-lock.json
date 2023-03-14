@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "quote",
+    "defaultPackage": "bitflags",
     "location": "",
     "packages": {
-      "quote": "1.0.23"
+      "bitflags": "2.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,53 +11,52 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "quote": {
-        "1.0.23": {
-          "description": "Quasi-quoting macro quote!(...)", "license": [   "mit",   "asl20"
+      "bitflags": {
+        "2.0.0": {
+          "description": "A macro to generate structures which behave like bitflags.\n", "homepage": "https://github.com/bitflags/bitflags", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "quote": {
-        "1.0.23": {}
+      "bitflags": {
+        "2.0.0": {}
       }
     }
   },
-  "cyclicDependencies": {
-    "serde_derive": {
-      "1.0.155": [
-        [ "quote", "1.0.23" ]
-      ]
-    },
-    "syn": {
-      "1.0.109": [
-        [ "quote", "1.0.23" ]
-      ]
-    }
-  },
+  "cyclicDependencies": {},
   "dependencies": {
     "basic-toml": {
       "0.1.2": [
         [ "serde", "1.0.155" ]
       ]
     },
+    "bitflags": {
+      "2.0.0": [
+        [ "compiler_builtins", "0.1.89" ],
+        [ "rustc-std-workspace-core", "1.0.0" ],
+        [ "rustversion", "1.0.12" ],
+        [ "serde", "1.0.155" ],
+        [ "serde_derive", "1.0.155" ],
+        [ "serde_json", "1.0.94" ],
+        [ "serde_test", "1.0.155" ],
+        [ "trybuild", "1.0.79" ]
+      ]
+    },
     "proc-macro2": {
-      "1.0.51": [
+      "1.0.52": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
     "quote": {
-      "1.0.23": [
-        [ "proc-macro2", "1.0.51" ],
-        [ "rustversion", "1.0.12" ],
-        [ "trybuild", "1.0.79" ]
+      "1.0.25": [
+        [ "proc-macro2", "1.0.52" ]
       ]
     },
     "serde_derive": {
       "1.0.155": [
-        [ "proc-macro2", "1.0.51" ],
-        [ "quote", "1.0.23" ],
+        [ "proc-macro2", "1.0.52" ],
+        [ "quote", "1.0.25" ],
         [ "syn", "1.0.109" ]
       ]
     },
@@ -68,10 +67,15 @@
         [ "serde", "1.0.155" ]
       ]
     },
+    "serde_test": {
+      "1.0.155": [
+        [ "serde", "1.0.155" ]
+      ]
+    },
     "syn": {
       "1.0.109": [
-        [ "proc-macro2", "1.0.51" ],
-        [ "quote", "1.0.23" ],
+        [ "proc-macro2", "1.0.52" ],
+        [ "quote", "1.0.25" ],
         [ "unicode-ident", "1.0.8" ]
       ]
     },
@@ -83,7 +87,6 @@
     "trybuild": {
       "1.0.79": [
         [ "basic-toml", "0.1.2" ],
-        [ "dissimilar", "1.0.6" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.1" ],
         [ "serde", "1.0.155" ],
@@ -111,9 +114,15 @@
         "type": "crates-io"
       }
     },
-    "dissimilar": {
-      "1.0.6": {
-        "hash": "210ec60ae7d710bed8683e333e9d2855a8a56a3e9892b38bad3bb0d4d29b0d5e",
+    "bitflags": {
+      "2.0.0": {
+        "hash": "f4f6e5df9abedba5099a01a6567c6086a6fbcff57af07c360d356737f9e0c644",
+        "type": "crates-io"
+      }
+    },
+    "compiler_builtins": {
+      "0.1.89": {
+        "hash": "9fc9c2080d347a2c316518840ac9194644a9993dfa1e9778ef38979a339f5d8b",
         "type": "crates-io"
       }
     },
@@ -136,14 +145,20 @@
       }
     },
     "proc-macro2": {
-      "1.0.51": {
-        "hash": "5d727cae5b39d21da60fa540906919ad737832fe0b1c165da3a34d6548c849d6",
+      "1.0.52": {
+        "hash": "1d0e1ae9e836cc3beddd63db0df682593d7e2d3d891ae8c9083d2113e1744224",
         "type": "crates-io"
       }
     },
     "quote": {
-      "1.0.23": {
-        "hash": "8856d8364d252a14d474036ea1358d63c9e6965c8e5c1885c18f73d70bff9c7b",
+      "1.0.25": {
+        "hash": "5308e8208729c3e1504a6cfad0d5daacc4614c9a2e65d1ea312a34b5cb00fe84",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
         "type": "crates-io"
       }
     },
@@ -174,6 +189,12 @@
     "serde_json": {
       "1.0.94": {
         "hash": "1c533a59c9d8a93a09c6ab31f0fd5e5f4dd1b8fc9434804029839884765d04ea",
+        "type": "crates-io"
+      }
+    },
+    "serde_test": {
+      "1.0.155": {
+        "hash": "9d0bc197a5a347a37828f7ee26ce2cec2a786894b1968e68c6ebd17770c98e29",
         "type": "crates-io"
       }
     },

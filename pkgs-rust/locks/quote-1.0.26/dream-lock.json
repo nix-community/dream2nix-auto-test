@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "bitflags",
+    "defaultPackage": "quote",
     "location": "",
     "packages": {
-      "bitflags": "1.3.2"
+      "quote": "1.0.26"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,56 +11,53 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "bitflags": {
-        "1.3.2": {
-          "description": "A macro to generate structures which behave like bitflags.\n", "homepage": "https://github.com/bitflags/bitflags", "license": []
+      "quote": {
+        "1.0.26": {
+          "description": "Quasi-quoting macro quote!(...)", "license": [   "mit",   "asl20"
+          ]
         }
       }
     },
     "relPathReplacements": {
-      "bitflags": {
-        "1.3.2": {}
+      "quote": {
+        "1.0.26": {}
       }
     }
   },
-  "cyclicDependencies": {},
+  "cyclicDependencies": {
+    "serde_derive": {
+      "1.0.155": [
+        [ "quote", "1.0.26" ]
+      ]
+    },
+    "syn": {
+      "1.0.109": [
+        [ "quote", "1.0.26" ]
+      ]
+    }
+  },
   "dependencies": {
     "basic-toml": {
       "0.1.2": [
         [ "serde", "1.0.155" ]
       ]
     },
-    "bitflags": {
-      "1.3.2": [
-        [ "compiler_builtins", "0.1.89" ],
-        [ "rustc-std-workspace-core", "1.0.0" ],
-        [ "rustversion", "1.0.12" ],
-        [ "serde", "1.0.155" ],
-        [ "serde_derive", "1.0.155" ],
-        [ "serde_json", "1.0.94" ],
-        [ "trybuild", "1.0.79" ],
-        [ "walkdir", "2.3.2" ]
-      ]
-    },
     "proc-macro2": {
-      "1.0.51": [
+      "1.0.52": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
     "quote": {
-      "1.0.23": [
-        [ "proc-macro2", "1.0.51" ]
-      ]
-    },
-    "same-file": {
-      "1.0.6": [
-        [ "winapi-util", "0.1.5" ]
+      "1.0.26": [
+        [ "proc-macro2", "1.0.52" ],
+        [ "rustversion", "1.0.12" ],
+        [ "trybuild", "1.0.79" ]
       ]
     },
     "serde_derive": {
       "1.0.155": [
-        [ "proc-macro2", "1.0.51" ],
-        [ "quote", "1.0.23" ],
+        [ "proc-macro2", "1.0.52" ],
+        [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ]
       ]
     },
@@ -73,8 +70,8 @@
     },
     "syn": {
       "1.0.109": [
-        [ "proc-macro2", "1.0.51" ],
-        [ "quote", "1.0.23" ],
+        [ "proc-macro2", "1.0.52" ],
+        [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
     },
@@ -86,19 +83,13 @@
     "trybuild": {
       "1.0.79": [
         [ "basic-toml", "0.1.2" ],
+        [ "dissimilar", "1.0.6" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.1" ],
         [ "serde", "1.0.155" ],
         [ "serde_derive", "1.0.155" ],
         [ "serde_json", "1.0.94" ],
         [ "termcolor", "1.2.0" ]
-      ]
-    },
-    "walkdir": {
-      "2.3.2": [
-        [ "same-file", "1.0.6" ],
-        [ "winapi", "0.3.9" ],
-        [ "winapi-util", "0.1.5" ]
       ]
     },
     "winapi": {
@@ -120,15 +111,9 @@
         "type": "crates-io"
       }
     },
-    "bitflags": {
-      "1.3.2": {
-        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
-        "type": "crates-io"
-      }
-    },
-    "compiler_builtins": {
-      "0.1.89": {
-        "hash": "9fc9c2080d347a2c316518840ac9194644a9993dfa1e9778ef38979a339f5d8b",
+    "dissimilar": {
+      "1.0.6": {
+        "hash": "210ec60ae7d710bed8683e333e9d2855a8a56a3e9892b38bad3bb0d4d29b0d5e",
         "type": "crates-io"
       }
     },
@@ -151,20 +136,14 @@
       }
     },
     "proc-macro2": {
-      "1.0.51": {
-        "hash": "5d727cae5b39d21da60fa540906919ad737832fe0b1c165da3a34d6548c849d6",
+      "1.0.52": {
+        "hash": "1d0e1ae9e836cc3beddd63db0df682593d7e2d3d891ae8c9083d2113e1744224",
         "type": "crates-io"
       }
     },
     "quote": {
-      "1.0.23": {
-        "hash": "8856d8364d252a14d474036ea1358d63c9e6965c8e5c1885c18f73d70bff9c7b",
-        "type": "crates-io"
-      }
-    },
-    "rustc-std-workspace-core": {
-      "1.0.0": {
-        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+      "1.0.26": {
+        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
         "type": "crates-io"
       }
     },
@@ -177,12 +156,6 @@
     "ryu": {
       "1.0.13": {
         "hash": "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041",
-        "type": "crates-io"
-      }
-    },
-    "same-file": {
-      "1.0.6": {
-        "hash": "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502",
         "type": "crates-io"
       }
     },
@@ -225,12 +198,6 @@
     "unicode-ident": {
       "1.0.8": {
         "hash": "e5464a87b239f13a63a501f2701565754bae92d243d4bb7eb12f6d57d2269bf4",
-        "type": "crates-io"
-      }
-    },
-    "walkdir": {
-      "2.3.2": {
-        "hash": "808cf2735cd4b6866113f648b791c6adc5714537bc222d9347bb203386ffda56",
         "type": "crates-io"
       }
     },
