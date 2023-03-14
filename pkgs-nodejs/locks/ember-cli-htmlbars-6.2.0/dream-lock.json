@@ -17,21 +17,32 @@
   "cyclicDependencies": {
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
+      ]
+    },
+    "string.prototype.trim": {
+      "1.2.7": [
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.6": [
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     }
   },
   "dependencies": {
+    "array-buffer-byte-length": {
+      "1.0.0": [
+        [ "call-bind", "1.0.2" ],
+        [ "is-array-buffer", "3.0.2" ]
+      ]
+    },
     "async": {
       "2.6.4": [
         [ "lodash", "4.17.21" ]
@@ -181,6 +192,7 @@
         [ "@ember/edition-utils", "1.2.0" ],
         [ "@types/minimatch", "3.0.5" ],
         [ "@types/symlink-or-copy", "1.2.0" ],
+        [ "array-buffer-byte-length", "1.0.0" ],
         [ "async", "2.6.4" ],
         [ "async-disk-cache", "2.1.0" ],
         [ "async-promise-queue", "1.0.5" ],
@@ -209,7 +221,7 @@
         [ "ember-rfc176-data", "0.3.18" ],
         [ "ensure-posix-path", "1.1.1" ],
         [ "errlop", "2.2.0" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "es-set-tostringtag", "2.0.1" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "for-each", "0.3.3" ],
@@ -292,6 +304,7 @@
         [ "sourcemap-codec", "1.4.8" ],
         [ "sprintf-js", "1.1.2" ],
         [ "string.prototype.matchall", "4.0.8" ],
+        [ "string.prototype.trim", "1.2.7" ],
         [ "string.prototype.trimend", "1.0.6" ],
         [ "string.prototype.trimstart", "1.0.6" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ],
@@ -320,12 +333,12 @@
       ]
     },
     "es-abstract": {
-      "1.21.1": [
+      "1.21.2": [
+        [ "array-buffer-byte-length", "1.0.0" ],
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
         [ "es-set-tostringtag", "2.0.1" ],
         [ "es-to-primitive", "1.2.1" ],
-        [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
         [ "get-intrinsic", "1.2.0" ],
         [ "get-symbol-description", "1.0.0" ],
@@ -349,6 +362,7 @@
         [ "object.assign", "4.1.4" ],
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "safe-regex-test", "1.0.0" ],
+        [ "string.prototype.trim", "1.2.7" ],
         [ "string.prototype.trimend", "1.0.6" ],
         [ "string.prototype.trimstart", "1.0.6" ],
         [ "typed-array-length", "1.0.4" ],
@@ -410,7 +424,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -713,7 +727,7 @@
       "4.0.8": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "get-intrinsic", "1.2.0" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.5" ],
@@ -721,18 +735,25 @@
         [ "side-channel", "1.0.4" ]
       ]
     },
+    "string.prototype.trim": {
+      "1.2.7": [
+        [ "call-bind", "1.0.2" ],
+        [ "define-properties", "1.2.0" ],
+        [ "es-abstract", "1.21.2" ]
+      ]
+    },
     "string.prototype.trimend": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "sync-disk-cache": {
@@ -826,6 +847,13 @@
         "hash": "sha512-Lja2xYuuf2B3knEsga8ShbOdsfNOtzT73GyJmZyY7eGl2+ajOqrs8yM5ze0fsSoYwvA6bw7/Qr7OZ7PEEmYwWg==",
         "type": "http",
         "url": "https://registry.npmjs.org/@types/symlink-or-copy/-/symlink-or-copy-1.2.0.tgz"
+      }
+    },
+    "array-buffer-byte-length": {
+      "1.0.0": {
+        "hash": "sha512-LPuwb2P+NrQw3XhxGc36+XSvuBPopovXYTR9Ew++Du9Yb/bx5AzBfrIsBoj0EZUifjQU+sHL21sseZ3jerWO/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.0.tgz"
       }
     },
     "async": {
@@ -1035,10 +1063,10 @@
       }
     },
     "es-abstract": {
-      "1.21.1": {
-        "hash": "sha512-QudMsPOz86xYz/1dG1OuGBKOELjCh99IIWHLzy5znUB6j8xG2yMA7bfTV86VSqKF+Y/H08vQPR+9jyXpuC6hfg==",
+      "1.21.2": {
+        "hash": "sha512-y/B5POM2iBnIxCiernH1G7rC9qQoM77lLIMQLuob0zhp8C56Po81+2Nj0WFKnd0pNReDTnkYryc+zhOzpEIROg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.1.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.2.tgz"
       }
     },
     "es-set-tostringtag": {
@@ -1663,6 +1691,13 @@
         "hash": "sha512-6zOCOcJ+RJAQshcTvXPHoxoQGONa3e/Lqx90wUA+wEzX78sg5Bo+1tQo4N0pohS0erG9qtCqJDjNCQBjeWVxyg==",
         "type": "http",
         "url": "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.8.tgz"
+      }
+    },
+    "string.prototype.trim": {
+      "1.2.7": {
+        "hash": "sha512-p6TmeT1T3411M8Cgg9wBTMRtY2q9+PNy9EV1i2lIXUN/btt763oIfxwN3RR8VU6wHX8j/1CFy0L+YuThm6bgOg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.7.tgz"
       }
     },
     "string.prototype.trimend": {

@@ -1,0 +1,97 @@
+{
+  "_generic": {
+    "defaultPackage": "@angular/platform-browser",
+    "location": "",
+    "packages": {
+      "@angular/platform-browser": "14.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@angular/common": {
+      "14.3.0": [
+        [ "tslib", "2.5.0" ]
+      ]
+    },
+    "@angular/core": {
+      "14.3.0": [
+        [ "tslib", "2.5.0" ]
+      ]
+    },
+    "@angular/platform-browser": {
+      "14.3.0": [
+        [ "tslib", "2.5.0" ]
+      ],
+      "unknown": [
+        [ "@angular/common", "14.3.0" ],
+        [ "@angular/core", "14.3.0" ],
+        [ "@angular/platform-browser", "14.3.0" ],
+        [ "rxjs", "7.8.0" ],
+        [ "tslib", "2.5.0" ],
+        [ "zone.js", "0.12.0" ]
+      ]
+    },
+    "rxjs": {
+      "7.8.0": [
+        [ "tslib", "2.5.0" ]
+      ]
+    },
+    "zone.js": {
+      "0.12.0": [
+        [ "tslib", "2.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@angular/common": {
+      "14.3.0": {
+        "hash": "sha512-pV9oyG3JhGWeQ+TFB0Qub6a1VZWMNZ6/7zEopvYivdqa5yDLLDSBRWb6P80RuONXyGnM1pa7l5nYopX+r/23GQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/common/-/common-14.3.0.tgz"
+      }
+    },
+    "@angular/core": {
+      "14.3.0": {
+        "hash": "sha512-wYiwItc0Uyn4FWZ/OAx/Ubp2/WrD3EgUJ476y1XI7yATGPF8n9Ld5iCXT08HOvc4eBcYlDfh90kTXR6/MfhzdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/core/-/core-14.3.0.tgz"
+      }
+    },
+    "@angular/platform-browser": {
+      "14.3.0": {
+        "hash": "sha512-w9Y3740UmTz44T0Egvc+4QV9sEbO61L+aRHbpkLTJdlEGzHByZvxJmJyBYmdqeyTPwc/Zpy7c02frlpfAlyB7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-14.3.0.tgz"
+      }
+    },
+    "rxjs": {
+      "7.8.0": {
+        "hash": "sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rxjs/-/rxjs-7.8.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.5.0": {
+        "hash": "sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.5.0.tgz"
+      }
+    },
+    "zone.js": {
+      "0.12.0": {
+        "hash": "sha512-XtC+I5dXU14HrzidAKBNMqneIVUykLEAA1x+v4KVrd6AUPWlwYORF8KgsVqvgdHiKZ4BkxxjvYi/ksEixTPR0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/zone.js/-/zone.js-0.12.0.tgz"
+      }
+    }
+  }
+}

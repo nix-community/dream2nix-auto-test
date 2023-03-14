@@ -17,17 +17,22 @@
   "cyclicDependencies": {
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
+      ]
+    },
+    "string.prototype.trim": {
+      "1.2.7": [
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.6": [
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     }
   },
@@ -220,11 +225,17 @@
         [ "color-convert", "2.0.1" ]
       ]
     },
+    "array-buffer-byte-length": {
+      "1.0.0": [
+        [ "call-bind", "1.0.2" ],
+        [ "is-array-buffer", "3.0.2" ]
+      ]
+    },
     "array-includes": {
       "3.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "get-intrinsic", "1.2.0" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -233,7 +244,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -241,7 +252,7 @@
       "1.3.1": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -258,7 +269,7 @@
     },
     "browserslist": {
       "4.21.5": [
-        [ "caniuse-lite", "1.0.30001464" ],
+        [ "caniuse-lite", "1.0.30001466" ],
         [ "electron-to-chromium", "1.4.328" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
@@ -378,12 +389,12 @@
       ]
     },
     "es-abstract": {
-      "1.21.1": [
+      "1.21.2": [
+        [ "array-buffer-byte-length", "1.0.0" ],
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
         [ "es-set-tostringtag", "2.0.1" ],
         [ "es-to-primitive", "1.2.1" ],
-        [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
         [ "get-intrinsic", "1.2.0" ],
         [ "get-symbol-description", "1.0.0" ],
@@ -407,6 +418,7 @@
         [ "object.assign", "4.1.4" ],
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "safe-regex-test", "1.0.0" ],
+        [ "string.prototype.trim", "1.2.7" ],
         [ "string.prototype.trimend", "1.0.6" ],
         [ "string.prototype.trimstart", "1.0.6" ],
         [ "typed-array-length", "1.0.4" ],
@@ -626,8 +638,8 @@
       ]
     },
     "esm-utils": {
-      "4.1.1": [
-        [ "import-meta-resolve", "2.2.0" ],
+      "4.1.2": [
+        [ "import-meta-resolve", "2.2.2" ],
         [ "url-or-path", "2.1.0" ]
       ]
     },
@@ -720,7 +732,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -945,7 +957,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.15.0" ],
+        [ "@types/node", "18.15.3" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1069,7 +1081,7 @@
       "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "once": {
@@ -1287,18 +1299,25 @@
         [ "strip-ansi", "6.0.1" ]
       ]
     },
+    "string.prototype.trim": {
+      "1.2.7": [
+        [ "call-bind", "1.0.2" ],
+        [ "define-properties", "1.2.0" ],
+        [ "es-abstract", "1.21.2" ]
+      ]
+    },
     "string.prototype.trimend": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
-        [ "es-abstract", "1.21.1" ]
+        [ "es-abstract", "1.21.2" ]
       ]
     },
     "strip-ansi": {
@@ -1480,7 +1499,7 @@
         [ "eslint-plugin-no-use-extend-native", "0.5.0" ],
         [ "eslint-plugin-prettier", "4.2.1" ],
         [ "eslint-plugin-unicorn", "44.0.2" ],
-        [ "esm-utils", "4.1.1" ],
+        [ "esm-utils", "4.1.2" ],
         [ "find-cache-dir", "4.0.0" ],
         [ "find-up", "6.3.0" ],
         [ "get-stdin", "9.0.0" ],
@@ -1522,7 +1541,7 @@
         [ "@types/json-schema", "7.0.11" ],
         [ "@types/json5", "0.0.29" ],
         [ "@types/minimist", "1.2.2" ],
-        [ "@types/node", "18.15.0" ],
+        [ "@types/node", "18.15.3" ],
         [ "@types/normalize-package-data", "2.4.1" ],
         [ "@types/parse-json", "4.0.0" ],
         [ "@webassemblyjs/ast", "1.11.1" ],
@@ -1551,6 +1570,7 @@
         [ "ansi-regex", "5.0.1" ],
         [ "ansi-styles", "4.3.0" ],
         [ "argparse", "2.0.1" ],
+        [ "array-buffer-byte-length", "1.0.0" ],
         [ "array-find", "1.0.0" ],
         [ "array-includes", "3.1.6" ],
         [ "array.prototype.flat", "1.3.1" ],
@@ -1568,7 +1588,7 @@
         [ "callsites", "3.1.0" ],
         [ "camelcase", "7.0.1" ],
         [ "camelcase-keys", "8.0.2" ],
-        [ "caniuse-lite", "1.0.30001464" ],
+        [ "caniuse-lite", "1.0.30001466" ],
         [ "chalk", "4.1.2" ],
         [ "chrome-trace-event", "1.0.3" ],
         [ "ci-info", "3.8.0" ],
@@ -1595,7 +1615,7 @@
         [ "enhanced-resolve", "0.9.1" ],
         [ "env-editor", "1.1.0" ],
         [ "error-ex", "1.3.2" ],
-        [ "es-abstract", "1.21.1" ],
+        [ "es-abstract", "1.21.2" ],
         [ "es-module-lexer", "0.9.3" ],
         [ "es-set-tostringtag", "2.0.1" ],
         [ "es-shim-unscopables", "1.0.0" ],
@@ -1621,7 +1641,7 @@
         [ "eslint-scope", "7.1.1" ],
         [ "eslint-utils", "3.0.0" ],
         [ "eslint-visitor-keys", "3.3.0" ],
-        [ "esm-utils", "4.1.1" ],
+        [ "esm-utils", "4.1.2" ],
         [ "espree", "9.5.0" ],
         [ "espurify", "2.1.1" ],
         [ "esquery", "1.5.0" ],
@@ -1674,7 +1694,7 @@
         [ "human-signals", "2.1.0" ],
         [ "ignore", "5.2.4" ],
         [ "import-fresh", "3.3.0" ],
-        [ "import-meta-resolve", "2.2.0" ],
+        [ "import-meta-resolve", "2.2.2" ],
         [ "import-modules", "2.1.0" ],
         [ "imurmurhash", "0.1.4" ],
         [ "indent-string", "4.0.0" ],
@@ -1822,6 +1842,7 @@
         [ "spdx-expression-parse", "3.0.1" ],
         [ "spdx-license-ids", "3.0.13" ],
         [ "string-width", "4.2.3" ],
+        [ "string.prototype.trim", "1.2.7" ],
         [ "string.prototype.trimend", "1.0.6" ],
         [ "string.prototype.trimstart", "1.0.6" ],
         [ "strip-ansi", "6.0.1" ],
@@ -2053,10 +2074,10 @@
       }
     },
     "@types/node": {
-      "18.15.0": {
-        "hash": "sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==",
+      "18.15.3": {
+        "hash": "sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.15.0.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.15.3.tgz"
       }
     },
     "@types/normalize-package-data": {
@@ -2260,6 +2281,13 @@
         "url": "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz"
       }
     },
+    "array-buffer-byte-length": {
+      "1.0.0": {
+        "hash": "sha512-LPuwb2P+NrQw3XhxGc36+XSvuBPopovXYTR9Ew++Du9Yb/bx5AzBfrIsBoj0EZUifjQU+sHL21sseZ3jerWO/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.0.tgz"
+      }
+    },
     "array-find": {
       "1.0.0": {
         "hash": "sha512-kO/vVCacW9mnpn3WPWbTVlEnOabK2L7LWi2HViURtCM46y1zb6I8UMjx4LgbiqadTgHnLInUronwn3ampNTJtQ==",
@@ -2385,10 +2413,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001464": {
-        "hash": "sha512-oww27MtUmusatpRpCGSOneQk2/l5czXANDSFvsc7VuOQ86s3ANhZetpwXNf1zY/zdfP63Xvjz325DAdAoES13g==",
+      "1.0.30001466": {
+        "hash": "sha512-ewtFBSfWjEmxUgNBSZItFSmVtvk9zkwkl1OfRZlKA8slltRN+/C/tuGVrF9styXkN36Yu3+SeJ1qkXxDEyNZ5w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001464.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001466.tgz"
       }
     },
     "chalk": {
@@ -2614,10 +2642,10 @@
       }
     },
     "es-abstract": {
-      "1.21.1": {
-        "hash": "sha512-QudMsPOz86xYz/1dG1OuGBKOELjCh99IIWHLzy5znUB6j8xG2yMA7bfTV86VSqKF+Y/H08vQPR+9jyXpuC6hfg==",
+      "1.21.2": {
+        "hash": "sha512-y/B5POM2iBnIxCiernH1G7rC9qQoM77lLIMQLuob0zhp8C56Po81+2Nj0WFKnd0pNReDTnkYryc+zhOzpEIROg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.1.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.2.tgz"
       }
     },
     "es-module-lexer": {
@@ -2821,10 +2849,10 @@
       }
     },
     "esm-utils": {
-      "4.1.1": {
-        "hash": "sha512-cTy4OQgEP/yc7RY3s6EgwMGZ10gAPhCLE9FcrQ6/5bhf37o9PZCFSjzQR1tYb4GaKAEMaW1UmDcMZR13H4p6LQ==",
+      "4.1.2": {
+        "hash": "sha512-hYKPzOCkAU11rMIiH6gvvReARaSLiRhJkGWPcwJB/S4zg7em//YKAcRxwZYw4sW5mRmI6lhV59wWWTdWKwOXvQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/esm-utils/-/esm-utils-4.1.1.tgz"
+        "url": "https://registry.npmjs.org/esm-utils/-/esm-utils-4.1.2.tgz"
       }
     },
     "espree": {
@@ -3227,10 +3255,10 @@
       }
     },
     "import-meta-resolve": {
-      "2.2.0": {
-        "hash": "sha512-CpPOtiCHxP9HdtDM5F45tNiAe66Cqlv3f5uHoJjt+KlaLrUh9/Wz9vepADZ78SlqEo62aDWZtj9ydMGXV+CPnw==",
+      "2.2.2": {
+        "hash": "sha512-f8KcQ1D80V7RnqVm+/lirO9zkOxjGxhaTC1IPrBGd3MEfNgmNG67tSUO9gTi2F3Blr2Az6g1vocaxzkVnWl9MA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/import-meta-resolve/-/import-meta-resolve-2.2.0.tgz"
+        "url": "https://registry.npmjs.org/import-meta-resolve/-/import-meta-resolve-2.2.2.tgz"
       }
     },
     "import-modules": {
@@ -4360,6 +4388,13 @@
         "hash": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==",
         "type": "http",
         "url": "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
+      }
+    },
+    "string.prototype.trim": {
+      "1.2.7": {
+        "hash": "sha512-p6TmeT1T3411M8Cgg9wBTMRtY2q9+PNy9EV1i2lIXUN/btt763oIfxwN3RR8VU6wHX8j/1CFy0L+YuThm6bgOg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.7.tgz"
       }
     },
     "string.prototype.trimend": {
