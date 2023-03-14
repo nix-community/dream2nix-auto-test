@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "mmorph",
+    "location": "",
+    "packages": {
+      "mmorph": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "transformers-compat#0.6.6": "e2686c31df27a39ff058371acb46e78639ea47c8f35adee926db7e6aa70a6a19"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "mmorph": {
+      "1.2.0": [
+        [ "transformers-compat", "0.6.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "mmorph": {
+      "1.2.0": {
+        "hash": "sha256:61338058eb676b466a462ca45d59f436a77a3bd6b816e4268c6d88522b6a4280",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/mmorph-1.2.0/mmorph-1.2.0.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.6.6": {
+        "hash": "sha256:7e2e0251e5e6d28142615a4b950a3fabac9c0b7804b1ec4a4ae985f19519a9f9",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.6.6.tar.gz"
+      }
+    }
+  }
+}

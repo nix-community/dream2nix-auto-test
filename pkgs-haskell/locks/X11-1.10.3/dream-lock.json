@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "X11",
+    "location": "",
+    "packages": {
+      "X11": "1.10.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "X11": {
+      "1.10.3": [
+        [ "data-default-class", "0.1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "X11": {
+      "1.10.3": {
+        "hash": "sha256:d84ad1b8f5cdb65a0de17f84d765ebbb7aeeab9608c3740804da28100616d242",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/X11-1.10.3/X11-1.10.3.tar.gz"
+      }
+    },
+    "data-default-class": {
+      "0.1.2.0": {
+        "hash": "sha256:4f01b423f000c3e069aaf52a348564a6536797f31498bb85c3db4bd2d0973e56",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-class-0.1.2.0.tar.gz"
+      }
+    }
+  }
+}

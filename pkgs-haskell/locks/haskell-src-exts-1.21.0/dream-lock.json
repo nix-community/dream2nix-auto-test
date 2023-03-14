@@ -1,0 +1,317 @@
+{
+  "_generic": {
+    "defaultPackage": "haskell-src-exts",
+    "location": "",
+    "packages": {
+      "haskell-src-exts": "1.21.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
+      "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
+      "happy#1.20.1.1": "a381633c5e8f9e9e5a8e1900930ce13172397b4677fcfcc08cd38eb3f73b61b1",
+      "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
+      "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
+      "logict#0.8.0.0": "3d5d87a1d892a4732351c9a0b022d2d07bbb14e60582967c3c703c6ed69de88a",
+      "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
+      "pretty-show#1.10": "bfef8da0ac4db4fc7f41edfec9e9a701ac206418d70702bff1e40f20d6a2b1f1",
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
+      "smallcheck#1.2.1": "2bc8dd48aa3bb7f06637b4e05092b4ccb60057134e29c8b87f247988cada3490",
+      "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
+      "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
+      "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
+      "tasty-golden#2.3.5": "09bb4d8adceea6ab3dbc4ad29470c5e6dee09173e2e1b3fb0fabfd1bc50469a8",
+      "tasty-smallcheck#0.8.2": "b0eeb241a4d34401dbc23790b56989a6089b9b9b2dc07f7b0eece7c485826300",
+      "temporary#1.3": "3a66c136f700dbf42f3c5000ca93e80b26dead51e54322c83272b236c1ec8ef1",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
+      "typed-process#0.2.11.0": "defde2c4dcd07750381d6e15ee7a517938c8d6353abcf27bba9f290e75a67d39",
+      "unliftio-core#0.2.1.0": "9fc3506770b16cdc73114307f854d56ddb96c7b930e7a5ed9b48cd0a8f33fca6"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "haskell-src-exts": {
+      "1.21.0": [
+        [ "haskell-src-exts", "1.21.0" ]
+      ]
+    },
+    "pretty-show": {
+      "1.10": [
+        [ "pretty-show", "1.10" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "ansi-terminal": {
+      "0.11.4": [
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": [
+        [ "ansi-terminal", "0.11.4" ]
+      ]
+    },
+    "async": {
+      "2.2.4": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "hashable": {
+      "1.4.2.0": [
+        [ "base-orphans", "0.9.0" ],
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "haskell-src-exts": {
+      "1.21.0": [
+        [ "happy", "1.20.1.1" ],
+        [ "haskell-src-exts", "1.21.0" ],
+        [ "pretty-show", "1.10" ],
+        [ "smallcheck", "1.2.1" ],
+        [ "tasty", "1.4.3" ],
+        [ "tasty-golden", "2.3.5" ],
+        [ "tasty-smallcheck", "0.8.2" ]
+      ]
+    },
+    "optparse-applicative": {
+      "0.17.0.0": [
+        [ "ansi-wl-pprint", "0.6.9" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "pretty-show": {
+      "1.10": [
+        [ "haskell-lexer", "1.1.1" ],
+        [ "happy", "1.20.1.1" ],
+        [ "pretty-show", "1.10" ]
+      ]
+    },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "smallcheck": {
+      "1.2.1": [
+        [ "logict", "0.8.0.0" ]
+      ]
+    },
+    "tasty": {
+      "1.4.3": [
+        [ "ansi-terminal", "0.11.4" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "tagged", "0.8.7" ]
+      ]
+    },
+    "tasty-golden": {
+      "2.3.5": [
+        [ "async", "2.2.4" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "tagged", "0.8.7" ],
+        [ "tasty", "1.4.3" ],
+        [ "temporary", "1.3" ],
+        [ "typed-process", "0.2.11.0" ]
+      ]
+    },
+    "tasty-smallcheck": {
+      "0.8.2": [
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "smallcheck", "1.2.1" ],
+        [ "tagged", "0.8.7" ],
+        [ "tasty", "1.4.3" ]
+      ]
+    },
+    "temporary": {
+      "1.3": [
+        [ "random", "1.2.1.1" ]
+      ]
+    },
+    "typed-process": {
+      "0.2.11.0": [
+        [ "async", "2.2.4" ],
+        [ "unliftio-core", "0.2.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-terminal": {
+      "0.11.4": {
+        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+      }
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": {
+        "hash": "sha256:a7b2e8e7cd3f02f2954e8b17dc60a0ccd889f49e2068ebb15abfa1d42f7a4eac",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-wl-pprint-0.6.9.tar.gz"
+      }
+    },
+    "async": {
+      "2.2.4": {
+        "hash": "sha256:484df85be0e76c4fed9376451e48e1d0c6e97952ce79735b72d54297e7e0a725",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/async-2.2.4.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "happy": {
+      "1.20.1.1": {
+        "hash": "sha256:8b4e7dc5a6c5fd666f8f7163232931ab28746d0d17da8fa1cbd68be9e878881b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/happy-1.20.1.1.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
+      }
+    },
+    "haskell-lexer": {
+      "1.1.1": {
+        "hash": "sha256:c8eeda569a30f115244c17920247ba2c45d11b3e30805f648a878f7855d8f349",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/haskell-lexer-1.1.1.tar.gz"
+      }
+    },
+    "haskell-src-exts": {
+      "1.21.0": {
+        "hash": "sha256:95dac187824edfa23b6a2363880b5e113df8ce4a641e8a0f76e6d45aaa699ff3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/haskell-src-exts-1.21.0/haskell-src-exts-1.21.0.tar.gz"
+      }
+    },
+    "logict": {
+      "0.8.0.0": {
+        "hash": "sha256:fe926df295bc43df794247360e7a0a0dfdc778bce986f8aadba98fe52228fb56",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/logict-0.8.0.0.tar.gz"
+      }
+    },
+    "optparse-applicative": {
+      "0.17.0.0": {
+        "hash": "sha256:825b2e4d3dafe0ba64a073366a88062b3712b81f851793d9ce2327bee70af724",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.0.0.tar.gz"
+      }
+    },
+    "pretty-show": {
+      "1.10": {
+        "hash": "sha256:307f9086e0b063d439dc4f513e36a145e8a57f23de448aefae2a6c00f6da6fd2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/pretty-show-1.10.tar.gz"
+      }
+    },
+    "random": {
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
+      }
+    },
+    "smallcheck": {
+      "1.2.1": {
+        "hash": "sha256:e41f9d11b50e0526dd28c9bc6cf6dddf98cebd782911a00c3e5cbe4ce53fc869",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/smallcheck-1.2.1.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
+      }
+    },
+    "tagged": {
+      "0.8.7": {
+        "hash": "sha256:6414eeac27a1633f49e2f78199ced99ce8ce3d70b658cf6d55b1d81ff60cb961",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tagged-0.8.7.tar.gz"
+      }
+    },
+    "tasty": {
+      "1.4.3": {
+        "hash": "sha256:f420da9560267271dce8a0007a1cb77c06987f0d129eb0f613110ce61f71cb00",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-1.4.3.tar.gz"
+      }
+    },
+    "tasty-golden": {
+      "2.3.5": {
+        "hash": "sha256:8b37b541a2603da27e88fcf3209118817e978a36187142dda160b39c6cb7740e",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-golden-2.3.5.tar.gz"
+      }
+    },
+    "tasty-smallcheck": {
+      "0.8.2": {
+        "hash": "sha256:d5cbd7a2a7100e4afd3aaac01a8fa1b7814fb074d93aeff1b51240b687e54f33",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-smallcheck-0.8.2.tar.gz"
+      }
+    },
+    "temporary": {
+      "1.3": {
+        "hash": "sha256:8c442993694b5ffca823ce864af95bd2841fb5264ee511c61cf48cc71d879890",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/temporary-1.3.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "typed-process": {
+      "0.2.11.0": {
+        "hash": "sha256:948c59540675d85f35c99e285cdb8686713ec1689f530d5d21813239ea91f625",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/typed-process-0.2.11.0.tar.gz"
+      }
+    },
+    "unliftio-core": {
+      "0.2.1.0": {
+        "hash": "sha256:99384cba8d56d9d61b85e38a313a93ebcdb78be6566367f0930ef580597fe3e3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unliftio-core-0.2.1.0.tar.gz"
+      }
+    }
+  }
+}

@@ -2,34 +2,34 @@
 Translating:: system-filepath (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/system-filepath-0.4.14/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1678601788
++ indexTime=1678774724
 ++ date +%s
-+ age=960
-+ '[' 960 -gt 86400 ']'
-/tmp/tmp.m2yqARdTgw/tmp.4PbhB8BuHp/tmp.0OgCDo4gua ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=536
++ '[' 536 -gt 86400 ']'
+/tmp/tmp.mmUKazdokF/tmp.JFv9zrrWuV/tmp.GkBe6yoJxR ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/system-filepath-0.4.14/system-filepath-0.4.14.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 16663  100 16663    0     0  77300      0 --:--:-- --:--:-- --:--:-- 77502
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 16663  100 16663    0     0  99159      0 --:--:-- --:--:-- --:--:-- 99778
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: system-filepath-0.4.14 (user goal)
 [__1] next goal: system-filepath:setup.Cabal (dependency of system-filepath)
 [__1] rejecting: system-filepath:setup.Cabal-3.4.1.0/installed-3.4.1.0
 (conflict: system-filepath => system-filepath:setup.Cabal>=1.7 && <1.25)
-[__1] skipping: system-filepath:setup.Cabal-3.8.1.0,
-system-filepath:setup.Cabal-3.6.3.0, system-filepath:setup.Cabal-3.6.2.0,
-system-filepath:setup.Cabal-3.6.1.0, system-filepath:setup.Cabal-3.6.0.0,
-system-filepath:setup.Cabal-3.4.1.0, system-filepath:setup.Cabal-3.4.0.0,
-system-filepath:setup.Cabal-3.2.1.0, system-filepath:setup.Cabal-3.2.0.0,
-system-filepath:setup.Cabal-3.0.2.0, system-filepath:setup.Cabal-3.0.1.0,
-system-filepath:setup.Cabal-3.0.0.0, system-filepath:setup.Cabal-2.4.1.0,
-system-filepath:setup.Cabal-2.4.0.1, system-filepath:setup.Cabal-2.4.0.0,
-system-filepath:setup.Cabal-2.2.0.1, system-filepath:setup.Cabal-2.2.0.0,
-system-filepath:setup.Cabal-2.0.1.1, system-filepath:setup.Cabal-2.0.1.0,
-system-filepath:setup.Cabal-2.0.0.2 (has the same characteristics that caused
-the previous version to fail: excluded by constraint '>=1.7 && <1.25' from
-'system-filepath')
+[__1] skipping: system-filepath:setup.Cabal-3.10.1.0,
+system-filepath:setup.Cabal-3.8.1.0, system-filepath:setup.Cabal-3.6.3.0,
+system-filepath:setup.Cabal-3.6.2.0, system-filepath:setup.Cabal-3.6.1.0,
+system-filepath:setup.Cabal-3.6.0.0, system-filepath:setup.Cabal-3.4.1.0,
+system-filepath:setup.Cabal-3.4.0.0, system-filepath:setup.Cabal-3.2.1.0,
+system-filepath:setup.Cabal-3.2.0.0, system-filepath:setup.Cabal-3.0.2.0,
+system-filepath:setup.Cabal-3.0.1.0, system-filepath:setup.Cabal-3.0.0.0,
+system-filepath:setup.Cabal-2.4.1.0, system-filepath:setup.Cabal-2.4.0.1,
+system-filepath:setup.Cabal-2.4.0.0, system-filepath:setup.Cabal-2.2.0.1,
+system-filepath:setup.Cabal-2.2.0.0, system-filepath:setup.Cabal-2.0.1.1,
+system-filepath:setup.Cabal-2.0.1.0, system-filepath:setup.Cabal-2.0.0.2 (has
+the same characteristics that caused the previous version to fail: excluded by
+constraint '>=1.7 && <1.25' from 'system-filepath')
 [__1] rejecting: system-filepath:setup.Cabal-1.24.2.0,
 system-filepath:setup.Cabal-1.24.0.0, system-filepath:setup.Cabal-1.22.8.0,
 system-filepath:setup.Cabal-1.22.7.0, system-filepath:setup.Cabal-1.22.6.0,

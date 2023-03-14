@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "monad-control",
+    "location": "",
+    "packages": {
+      "monad-control": "1.0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "monad-control": {
+      "1.0.3.1": [
+        [ "transformers-base", "0.4.6" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "transformers-base": {
+      "0.4.6": [
+        [ "base-orphans", "0.9.0" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "monad-control": {
+      "1.0.3.1": {
+        "hash": "sha256:ae0baea04d99375ef788140367179994a7178d400a8ce0d9026846546772713c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/monad-control-1.0.3.1/monad-control-1.0.3.1.tar.gz"
+      }
+    },
+    "transformers-base": {
+      "0.4.6": {
+        "hash": "sha256:323bf8689eb691b122661cffa41a25e00fea7a768433fe2dde35d3da7d32cf90",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-base-0.4.6.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+
+Translating:: ghc (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/ghc-9.6.1/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1678774724
+++ date +%s
++ age=166
++ '[' 166 -gt 86400 ']'
+/tmp/tmp.mRzugt4lZ2/tmp.yHkncDQwKt/tmp.w3XXP0Ib3x ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/ghc-9.6.1/ghc-9.6.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1504k    0 1504k    0     0  2796k      0 --:--:-- --:--:-- --:--:-- 2795k100 5376k    0 5376k    0     0  7815k      0 --:--:-- --:--:-- --:--:-- 7815k
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] trying: ghc-9.6.1 (user goal)
+[__1] next goal: template-haskell (dependency of ghc)
+[__1] rejecting: template-haskell-2.17.0.0/installed-2.17.0.0 (conflict: ghc
+=> template-haskell>=2.20 && <2.21)
+[__1] skipping: template-haskell-2.19.0.0, template-haskell-2.18.0.0,
+template-haskell-2.17.0.0, template-haskell-2.16.0.0,
+template-haskell-2.15.0.0, template-haskell-2.14.0.0,
+template-haskell-2.13.0.0, template-haskell-2.12.0.0,
+template-haskell-2.11.1.0, template-haskell-2.11.0.0,
+template-haskell-2.10.0.0, template-haskell-2.9.0.0, template-haskell-2.8.0.0,
+template-haskell-2.7.0.0, template-haskell-2.6.0.0, template-haskell-2.5.0.0,
+template-haskell-2.4.0.1, template-haskell-2.4.0.0, template-haskell-2.3.0.1,
+template-haskell-2.3.0.0, template-haskell-2.2.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=2.20 && <2.21' from 'ghc')
+[__1] fail (backjumping, conflict set: ghc, template-haskell)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: ghc, template-haskell
+

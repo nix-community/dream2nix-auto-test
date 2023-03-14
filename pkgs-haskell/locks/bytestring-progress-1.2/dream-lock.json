@@ -1,0 +1,123 @@
+{
+  "_generic": {
+    "defaultPackage": "bytestring-progress",
+    "location": "",
+    "packages": {
+      "bytestring-progress": "1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
+      "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
+      "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
+      "stm-chans#3.0.0.6": "146039ef0f5331e796165305198c66c91d61a4fc56219914401cab50f1cf0679",
+      "terminal-progress-bar#0.2": "c5543e4ed288c924e860056f62a4d2254513d153fa36efeadcd7b98c492d3b6f",
+      "terminal-size#0.3.4": "f0318c54273d04afb65109683b442792dcb67af1ad01ab5ec64423a28bb97715"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async": {
+      "2.2.4": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "bytestring-progress": {
+      "1.2": [
+        [ "terminal-progress-bar", "0.2" ]
+      ]
+    },
+    "hashable": {
+      "1.4.2.0": [
+        [ "base-orphans", "0.9.0" ],
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "terminal-progress-bar": {
+      "0.2": [
+        [ "async", "2.2.4" ],
+        [ "stm-chans", "3.0.0.6" ],
+        [ "terminal-size", "0.3.4" ]
+      ]
+    },
+    "terminal-size": {
+      "0.3.4": [
+        [ "hsc2hs", "0.68.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "async": {
+      "2.2.4": {
+        "hash": "sha256:484df85be0e76c4fed9376451e48e1d0c6e97952ce79735b72d54297e7e0a725",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/async-2.2.4.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "bytestring-progress": {
+      "1.2": {
+        "hash": "sha256:11ef519d5df71c3837428251aaefc874593ab35630cc7926889d79552fd6bba4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bytestring-progress-1.2/bytestring-progress-1.2.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
+      }
+    },
+    "hsc2hs": {
+      "0.68.9": {
+        "hash": "sha256:c95b10ce0b2c881480e35118d738dcc9cefc435ec72baa0031af81d0d4d3bc0a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.9.tar.gz"
+      }
+    },
+    "stm-chans": {
+      "3.0.0.6": {
+        "hash": "sha256:ea6e3e83b67380ada44a566014e2611ef9f98142a8bbb91583fb598425760a12",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/stm-chans-3.0.0.6.tar.gz"
+      }
+    },
+    "terminal-progress-bar": {
+      "0.2": {
+        "hash": "sha256:d6b134fb6f7b1cbe67004153608a77701f45532bad9618ead6dac1dae9f84a14",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/terminal-progress-bar-0.2.tar.gz"
+      }
+    },
+    "terminal-size": {
+      "0.3.4": {
+        "hash": "sha256:b0f070d6926cdaacf3a412c5518e5c23afca1e0ed00808a5328c96e468b67f49",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/terminal-size-0.3.4.tar.gz"
+      }
+    }
+  }
+}

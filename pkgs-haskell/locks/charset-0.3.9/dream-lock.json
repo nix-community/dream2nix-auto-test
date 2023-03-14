@@ -1,0 +1,79 @@
+{
+  "_generic": {
+    "defaultPackage": "charset",
+    "location": "",
+    "packages": {
+      "charset": "0.3.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
+      "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
+      "unordered-containers#0.2.19.1": "9ad8972c2e913c37b1d4f0e1261517fd7a1b8c8a58077e057be69837e3dbaa00"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "charset": {
+      "0.3.9": [
+        [ "unordered-containers", "0.2.19.1" ]
+      ]
+    },
+    "hashable": {
+      "1.4.2.0": [
+        [ "base-orphans", "0.9.0" ],
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "unordered-containers": {
+      "0.2.19.1": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "charset": {
+      "0.3.9": {
+        "hash": "sha256:cb4f8781491d1e346e7eef7b33bfadae96642c81777165ec585a05591abc998b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/charset-0.3.9/charset-0.3.9.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
+      }
+    },
+    "unordered-containers": {
+      "0.2.19.1": {
+        "hash": "sha256:1b27bec5e0d522b27a6029ebf4c4a6d40acbc083c787008e32fb55c4b1d128d2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unordered-containers-0.2.19.1.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "data-accessor-mtl",
+    "location": "",
+    "packages": {
+      "data-accessor-mtl": "0.2.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "data-accessor#0.2.3.1": "a80a740bd0956537f3d25228afd26bd48e45f9bf75990bb6a7720bcda17cb4a1"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "data-accessor-mtl": {
+      "0.2.0.5": [
+        [ "data-accessor", "0.2.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "data-accessor": {
+      "0.2.3.1": {
+        "hash": "sha256:06a3c790a27e107aaa4d11556866e874d1e4edc814bd4928bc6ff61f3b0d5791",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-accessor-0.2.3.1.tar.gz"
+      }
+    },
+    "data-accessor-mtl": {
+      "0.2.0.5": {
+        "hash": "sha256:99c4ad65547cfe8cb8b5e5a88cf4d7826c8abe1c61cffceff7609460122dcd76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-accessor-mtl-0.2.0.5/data-accessor-mtl-0.2.0.5.tar.gz"
+      }
+    }
+  }
+}

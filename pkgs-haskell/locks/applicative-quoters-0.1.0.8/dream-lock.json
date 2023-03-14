@@ -1,0 +1,160 @@
+{
+  "_generic": {
+    "defaultPackage": "applicative-quoters",
+    "location": "",
+    "packages": {
+      "applicative-quoters": "0.1.0.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "happy#1.20.1.1": "a381633c5e8f9e9e5a8e1900930ce13172397b4677fcfcc08cd38eb3f73b61b1",
+      "haskell-src-exts#1.23.1": "339841f4a6710e915a0bac8df18d8a454c11d626131aee4d05b6be150b7f863e",
+      "haskell-src-meta#0.8.11": "c4a50c38afe65fd1c21143e44b2e9cbce23c1384a6b261108cd2ef84e3407eeb",
+      "safe#0.3.19": "0910dafb8898f52bde4c646e560228a0fd08b1fca5457f222d2f5c0fad6d2039",
+      "syb#0.7.2.2": "bc800dbd35a17b652082f7f9790fd20d196ea0f44daaa7d5ac46491d8ecc7347",
+      "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
+      "th-compat#0.1.4": "e5ae7c083ef3a22248558f8451669bb1c55ea8090f5908b86b9033743c161730",
+      "th-expand-syns#0.4.11.0": "e8654156d8a75343e3f4e7170ebf12993b649f003004e910a2bcfc75f267844d",
+      "th-lift#0.8.3": "3043e803a08c22676dcf71a4021d0fa276fcecc2ac3dbc4b230fee0b994ca7e9",
+      "th-orphans#0.13.14": "5e2bbb363f8f7cfc90080cab338e788fbe97ae34d2ff2e11adc6ff27467c63d1",
+      "th-reify-many#0.1.10": "1827dcffb0c9f214e9739053fc808683336ea65c3749ff2d6148db189cbbd2a4"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "applicative-quoters": {
+      "0.1.0.8": [
+        [ "haskell-src-meta", "0.8.11" ]
+      ]
+    },
+    "haskell-src-exts": {
+      "1.23.1": [
+        [ "happy", "1.20.1.1" ]
+      ]
+    },
+    "haskell-src-meta": {
+      "0.8.11": [
+        [ "haskell-src-exts", "1.23.1" ],
+        [ "syb", "0.7.2.2" ],
+        [ "th-orphans", "0.13.14" ]
+      ]
+    },
+    "th-expand-syns": {
+      "0.4.11.0": [
+        [ "syb", "0.7.2.2" ],
+        [ "th-abstraction", "0.5.0.0" ]
+      ]
+    },
+    "th-lift": {
+      "0.8.3": [
+        [ "th-abstraction", "0.5.0.0" ]
+      ]
+    },
+    "th-orphans": {
+      "0.13.14": [
+        [ "th-compat", "0.1.4" ],
+        [ "th-lift", "0.8.3" ],
+        [ "th-reify-many", "0.1.10" ]
+      ]
+    },
+    "th-reify-many": {
+      "0.1.10": [
+        [ "safe", "0.3.19" ],
+        [ "th-expand-syns", "0.4.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "applicative-quoters": {
+      "0.1.0.8": {
+        "hash": "sha256:f45d567b408bacb17ef567857affb5cdf69299dd5b57fd559370a291404ba282",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/applicative-quoters-0.1.0.8/applicative-quoters-0.1.0.8.tar.gz"
+      }
+    },
+    "happy": {
+      "1.20.1.1": {
+        "hash": "sha256:8b4e7dc5a6c5fd666f8f7163232931ab28746d0d17da8fa1cbd68be9e878881b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/happy-1.20.1.1.tar.gz"
+      }
+    },
+    "haskell-src-exts": {
+      "1.23.1": {
+        "hash": "sha256:67853047169fff7d3e5d87acef214ee185a6ab8c6a104ed9c59e389574cf6c05",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/haskell-src-exts-1.23.1.tar.gz"
+      }
+    },
+    "haskell-src-meta": {
+      "0.8.11": {
+        "hash": "sha256:3ca7fb27deceb3116682c24d9c122dc4c328a7566c39076c924f407556077af2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/haskell-src-meta-0.8.11.tar.gz"
+      }
+    },
+    "safe": {
+      "0.3.19": {
+        "hash": "sha256:25043442c8f8aa95955bb17467d023630632b961aaa61e807e325d9b2c33f7a2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/safe-0.3.19.tar.gz"
+      }
+    },
+    "syb": {
+      "0.7.2.2": {
+        "hash": "sha256:8143c6983b6248d57f00e47ec3cd16541acbaa55eb8093fedd5b7cee9a95b2e3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/syb-0.7.2.2.tar.gz"
+      }
+    },
+    "th-abstraction": {
+      "0.5.0.0": {
+        "hash": "sha256:8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0.tar.gz"
+      }
+    },
+    "th-compat": {
+      "0.1.4": {
+        "hash": "sha256:d8f97ac14ab47b6b8a7b0fdb4ff95426322ec56badd01652ac15da4a44d4bab8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-compat-0.1.4.tar.gz"
+      }
+    },
+    "th-expand-syns": {
+      "0.4.11.0": {
+        "hash": "sha256:8acd59ce73078ec6fb39f7555c4bb6cf1e49c256859c30aa8a4fda6d029bf7d0",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-expand-syns-0.4.11.0.tar.gz"
+      }
+    },
+    "th-lift": {
+      "0.8.3": {
+        "hash": "sha256:25d57bf5f8e7deefeb4ace0539805ae1e90b1ba5a034ebcc36141846408c6b75",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-lift-0.8.3.tar.gz"
+      }
+    },
+    "th-orphans": {
+      "0.13.14": {
+        "hash": "sha256:9ddb2a1a0f6afeb8b6697256bfa5930f1f75e99624e370931c4b48bd16c3077c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-orphans-0.13.14.tar.gz"
+      }
+    },
+    "th-reify-many": {
+      "0.1.10": {
+        "hash": "sha256:9d250e61242f2fb887dedc9d28c0141832ff256e63bebc2bf5abff81037be4a5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-reify-many-0.1.10.tar.gz"
+      }
+    }
+  }
+}

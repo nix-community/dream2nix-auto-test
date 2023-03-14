@@ -2,15 +2,15 @@
 Translating:: ghc-paths (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/ghc-paths-0.1.0.9/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1678601788
++ indexTime=1678774724
 ++ date +%s
-+ age=752
-+ '[' 752 -gt 86400 ']'
-/tmp/tmp.BsgyhCrZuw/tmp.oUGFLiyO8K/tmp.iFHrmJ5WlI ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=424
++ '[' 424 -gt 86400 ']'
+/tmp/tmp.va1PKsnV0m/tmp.8mvLocuUTQ/tmp.1NLMQ93yUv ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/ghc-paths-0.1.0.9/ghc-paths-0.1.0.9.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2402    0  2402    0     0   6936      0 --:--:-- --:--:-- --:--:--  6942
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2402  100  2402    0     0  12745      0 --:--:-- --:--:-- --:--:-- 12708
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: ghc-paths (user goal)
@@ -20,18 +20,19 @@ Error: cabal: Could not resolve dependencies:
 [__1] next goal: ghc-paths:setup.Cabal (dependency of ghc-paths)
 [__1] rejecting: ghc-paths:setup.Cabal-3.4.1.0/installed-3.4.1.0 (conflict:
 ghc-paths => ghc-paths:setup.Cabal>=1.5 && <1.25)
-[__1] skipping: ghc-paths:setup.Cabal-3.8.1.0, ghc-paths:setup.Cabal-3.6.3.0,
-ghc-paths:setup.Cabal-3.6.2.0, ghc-paths:setup.Cabal-3.6.1.0,
-ghc-paths:setup.Cabal-3.6.0.0, ghc-paths:setup.Cabal-3.4.1.0,
-ghc-paths:setup.Cabal-3.4.0.0, ghc-paths:setup.Cabal-3.2.1.0,
-ghc-paths:setup.Cabal-3.2.0.0, ghc-paths:setup.Cabal-3.0.2.0,
-ghc-paths:setup.Cabal-3.0.1.0, ghc-paths:setup.Cabal-3.0.0.0,
-ghc-paths:setup.Cabal-2.4.1.0, ghc-paths:setup.Cabal-2.4.0.1,
-ghc-paths:setup.Cabal-2.4.0.0, ghc-paths:setup.Cabal-2.2.0.1,
-ghc-paths:setup.Cabal-2.2.0.0, ghc-paths:setup.Cabal-2.0.1.1,
-ghc-paths:setup.Cabal-2.0.1.0, ghc-paths:setup.Cabal-2.0.0.2 (has the same
-characteristics that caused the previous version to fail: excluded by
-constraint '>=1.5 && <1.25' from 'ghc-paths')
+[__1] skipping: ghc-paths:setup.Cabal-3.10.1.0, ghc-paths:setup.Cabal-3.8.1.0,
+ghc-paths:setup.Cabal-3.6.3.0, ghc-paths:setup.Cabal-3.6.2.0,
+ghc-paths:setup.Cabal-3.6.1.0, ghc-paths:setup.Cabal-3.6.0.0,
+ghc-paths:setup.Cabal-3.4.1.0, ghc-paths:setup.Cabal-3.4.0.0,
+ghc-paths:setup.Cabal-3.2.1.0, ghc-paths:setup.Cabal-3.2.0.0,
+ghc-paths:setup.Cabal-3.0.2.0, ghc-paths:setup.Cabal-3.0.1.0,
+ghc-paths:setup.Cabal-3.0.0.0, ghc-paths:setup.Cabal-2.4.1.0,
+ghc-paths:setup.Cabal-2.4.0.1, ghc-paths:setup.Cabal-2.4.0.0,
+ghc-paths:setup.Cabal-2.2.0.1, ghc-paths:setup.Cabal-2.2.0.0,
+ghc-paths:setup.Cabal-2.0.1.1, ghc-paths:setup.Cabal-2.0.1.0,
+ghc-paths:setup.Cabal-2.0.0.2 (has the same characteristics that caused the
+previous version to fail: excluded by constraint '>=1.5 && <1.25' from
+'ghc-paths')
 [__1] rejecting: ghc-paths:setup.Cabal-1.24.2.0,
 ghc-paths:setup.Cabal-1.24.0.0, ghc-paths:setup.Cabal-1.22.8.0,
 ghc-paths:setup.Cabal-1.22.7.0, ghc-paths:setup.Cabal-1.22.6.0,

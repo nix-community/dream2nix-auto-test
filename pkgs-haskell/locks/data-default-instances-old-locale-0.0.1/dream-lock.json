@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "data-default-instances-old-locale",
+    "location": "",
+    "packages": {
+      "data-default-instances-old-locale": "0.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
+      "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "data-default-instances-old-locale": {
+      "0.0.1": [
+        [ "data-default-class", "0.1.2.0" ],
+        [ "old-locale", "1.0.0.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "data-default-class": {
+      "0.1.2.0": {
+        "hash": "sha256:4f01b423f000c3e069aaf52a348564a6536797f31498bb85c3db4bd2d0973e56",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-class-0.1.2.0.tar.gz"
+      }
+    },
+    "data-default-instances-old-locale": {
+      "0.0.1": {
+        "hash": "sha256:60d3b02922958c4908d7bf2b24ddf61511665745f784227d206745784b0c0802",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-instances-old-locale-0.0.1/data-default-instances-old-locale-0.0.1.tar.gz"
+      }
+    },
+    "old-locale": {
+      "1.0.0.7": {
+        "hash": "sha256:dbaf8bf6b888fb98845705079296a23c3f40ee2f449df7312f7f7f1de18d7b50",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/old-locale-1.0.0.7.tar.gz"
+      }
+    }
+  }
+}

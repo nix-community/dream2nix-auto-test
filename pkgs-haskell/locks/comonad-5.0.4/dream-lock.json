@@ -1,0 +1,116 @@
+{
+  "_generic": {
+    "defaultPackage": "comonad",
+    "location": "",
+    "packages": {
+      "comonad": "5.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "cabal-doctest#1.0.9": "6dea0dbd1457f43d96ce1cfb1bab8b9f55d4fb82940e2bfa5aad78e6e2260656",
+      "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
+      "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
+      "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
+      "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "comonad": {
+      "5.0.4": [
+        [ "contravariant", "1.5.5" ],
+        [ "distributive", "0.6.2.1" ],
+        [ "semigroups", "0.20" ],
+        [ "tagged", "0.8.7" ],
+        [ "transformers-compat", "0.7.2" ],
+        [ "cabal-doctest", "1.0.9" ]
+      ]
+    },
+    "contravariant": {
+      "1.5.5": [
+        [ "StateVar", "1.2.2" ]
+      ]
+    },
+    "distributive": {
+      "0.6.2.1": [
+        [ "base-orphans", "0.9.0" ],
+        [ "tagged", "0.8.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "StateVar": {
+      "1.2.2": {
+        "hash": "sha256:5e4b39da395656a59827b0280508aafdc70335798b50e5d6fd52596026251825",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/StateVar-1.2.2.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "cabal-doctest": {
+      "1.0.9": {
+        "hash": "sha256:5556088496111d33810c4ae6c4a065bb37fa3315e9e8891e8000b1ab6707ba73",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cabal-doctest-1.0.9.tar.gz"
+      }
+    },
+    "comonad": {
+      "5.0.4": {
+        "hash": "sha256:78a89d7f9f0975b40b3294adcb70885649572b687ac5f5dc98e452471838e825",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/comonad-5.0.4/comonad-5.0.4.tar.gz"
+      }
+    },
+    "contravariant": {
+      "1.5.5": {
+        "hash": "sha256:062fd66580d7aad0b5ba93e644ffa7feee69276ef50f20d4ed9f1deb7642dffa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/contravariant-1.5.5.tar.gz"
+      }
+    },
+    "distributive": {
+      "0.6.2.1": {
+        "hash": "sha256:d7351392e078f58caa46630a4b9c643e1e2e9dddee45848c5c8358e7b1316b91",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/distributive-0.6.2.1.tar.gz"
+      }
+    },
+    "semigroups": {
+      "0.20": {
+        "hash": "sha256:902d2e33c96b40a89de5957f2a9e097197afcc35e257e45b32ebe770993673e1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/semigroups-0.20.tar.gz"
+      }
+    },
+    "tagged": {
+      "0.8.7": {
+        "hash": "sha256:6414eeac27a1633f49e2f78199ced99ce8ce3d70b658cf6d55b1d81ff60cb961",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tagged-0.8.7.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    }
+  }
+}

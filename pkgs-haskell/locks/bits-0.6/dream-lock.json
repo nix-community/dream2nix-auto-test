@@ -1,0 +1,185 @@
+{
+  "_generic": {
+    "defaultPackage": "bits",
+    "location": "",
+    "packages": {
+      "bits": "0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "OneTuple#0.4.1.1": "be0324c77a0eaf1d48b771b7e86f2b19d53a9f5ecc6ab2c914dab7dad309c671",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "binary-orphans#1.0.4.1": "016c5a865732ed8452cc78ea710ee87f072b161ef76c3f8992cbe676bec4c116",
+      "bytes#0.17.2": "317d07ae22a999341b373706db2a4ef03cd43f33c8b43db813afce919e323a3b",
+      "cereal#0.5.8.3": "87a227c7b510217ea059db3dd59d9665edd8f0d1d3d8de39458e371a1d9402fb",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
+      "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
+      "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
+      "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
+      "scientific#0.3.7.0": "26d8109106963a345368011081453d25ee1dfa6afae2b1f57b426b4bcd392d91",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
+      "unordered-containers#0.2.19.1": "9ad8972c2e913c37b1d4f0e1261517fd7a1b8c8a58077e057be69837e3dbaa00",
+      "void#0.7.3": "13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "OneTuple": {
+      "0.4.1.1": [
+        [ "base-orphans", "0.9.0" ]
+      ]
+    },
+    "binary-orphans": {
+      "1.0.4.1": [
+        [ "OneTuple", "0.4.1.1" ],
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "bits": {
+      "0.6": [
+        [ "bytes", "0.17.2" ]
+      ]
+    },
+    "bytes": {
+      "0.17.2": [
+        [ "binary-orphans", "1.0.4.1" ],
+        [ "cereal", "0.5.8.3" ],
+        [ "hashable", "1.4.2.0" ],
+        [ "scientific", "0.3.7.0" ],
+        [ "transformers-compat", "0.7.2" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "void", "0.7.3" ]
+      ]
+    },
+    "hashable": {
+      "1.4.2.0": [
+        [ "base-orphans", "0.9.0" ],
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "scientific": {
+      "0.3.7.0": [
+        [ "hashable", "1.4.2.0" ],
+        [ "integer-logarithms", "1.0.3.1" ],
+        [ "primitive", "0.8.0.0" ]
+      ]
+    },
+    "unordered-containers": {
+      "0.2.19.1": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "OneTuple": {
+      "0.4.1.1": {
+        "hash": "sha256:c9e764d4ee1e57cad8341bd5d0de33ba3a52b6793fc1309679f2bf60c030bb2b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/OneTuple-0.4.1.1.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "binary-orphans": {
+      "1.0.4.1": {
+        "hash": "sha256:5f5b789bc86d25bbd054b86b2d9a6a03f4ac0dd480f283564b6d6465cfa2f0d2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/binary-orphans-1.0.4.1.tar.gz"
+      }
+    },
+    "bits": {
+      "0.6": {
+        "hash": "sha256:23698ceb2630b1aae8b561cf6bff6dc9e2d70fa5827ea139839a7196925242a3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bits-0.6/bits-0.6.tar.gz"
+      }
+    },
+    "bytes": {
+      "0.17.2": {
+        "hash": "sha256:bc55f41edad589bc0ba389e8b106d7425a87390dcd5f1371e3194a9cc2c4781a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bytes-0.17.2.tar.gz"
+      }
+    },
+    "cereal": {
+      "0.5.8.3": {
+        "hash": "sha256:99905220661b26e5bd91130bd9772554938608a5b1d717240a6eb331121e0f6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cereal-0.5.8.3.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
+      }
+    },
+    "integer-logarithms": {
+      "1.0.3.1": {
+        "hash": "sha256:9b0a9f9fab609b15cd015865721fb05f744a1bc77ae92fd133872de528bbea7f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/integer-logarithms-1.0.3.1.tar.gz"
+      }
+    },
+    "primitive": {
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0.tar.gz"
+      }
+    },
+    "scientific": {
+      "0.3.7.0": {
+        "hash": "sha256:a3a121c4b3d68fb8b9f8c709ab012e48f090ed553609247a805ad070d6b343a9",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/scientific-0.3.7.0.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "unordered-containers": {
+      "0.2.19.1": {
+        "hash": "sha256:1b27bec5e0d522b27a6029ebf4c4a6d40acbc083c787008e32fb55c4b1d128d2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unordered-containers-0.2.19.1.tar.gz"
+      }
+    },
+    "void": {
+      "0.7.3": {
+        "hash": "sha256:53af758ddc37dc63981671e503438d02c6f64a2d8744e9bec557a894431f7317",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/void-0.7.3.tar.gz"
+      }
+    }
+  }
+}

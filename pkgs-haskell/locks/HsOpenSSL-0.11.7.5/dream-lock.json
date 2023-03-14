@@ -1,0 +1,58 @@
+{
+  "_generic": {
+    "defaultPackage": "HsOpenSSL",
+    "location": "",
+    "packages": {
+      "HsOpenSSL": "0.11.7.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
+      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "HsOpenSSL": {
+      "0.11.7.5": [
+        [ "network", "3.1.2.8" ],
+        [ "hsc2hs", "0.68.9" ]
+      ]
+    },
+    "network": {
+      "3.1.2.8": [
+        [ "hsc2hs", "0.68.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "HsOpenSSL": {
+      "0.11.7.5": {
+        "hash": "sha256:e1f85ebe2ac9207414f2ad0b1c7c972f336e8f15ca182e42a5886909962d1478",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/HsOpenSSL-0.11.7.5/HsOpenSSL-0.11.7.5.tar.gz"
+      }
+    },
+    "hsc2hs": {
+      "0.68.9": {
+        "hash": "sha256:c95b10ce0b2c881480e35118d738dcc9cefc435ec72baa0031af81d0d4d3bc0a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hsc2hs-0.68.9.tar.gz"
+      }
+    },
+    "network": {
+      "3.1.2.8": {
+        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
+      }
+    }
+  }
+}

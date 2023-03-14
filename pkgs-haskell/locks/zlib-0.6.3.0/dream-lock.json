@@ -1,0 +1,176 @@
+{
+  "_generic": {
+    "defaultPackage": "zlib",
+    "location": "",
+    "packages": {
+      "zlib": "0.6.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
+      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
+      "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
+      "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
+      "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
+      "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "zlib": {
+      "0.6.3.0": [
+        [ "zlib", "0.6.3.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "QuickCheck": {
+      "2.14.2": [
+        [ "random", "1.2.1.1" ],
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "ansi-terminal": {
+      "0.11.4": [
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": [
+        [ "ansi-terminal", "0.11.4" ]
+      ]
+    },
+    "optparse-applicative": {
+      "0.17.0.0": [
+        [ "ansi-wl-pprint", "0.6.9" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "tasty": {
+      "1.4.3": [
+        [ "ansi-terminal", "0.11.4" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "tagged", "0.8.7" ]
+      ]
+    },
+    "tasty-quickcheck": {
+      "0.10.2": [
+        [ "QuickCheck", "2.14.2" ],
+        [ "optparse-applicative", "0.17.0.0" ],
+        [ "random", "1.2.1.1" ],
+        [ "tagged", "0.8.7" ],
+        [ "tasty", "1.4.3" ]
+      ]
+    },
+    "zlib": {
+      "0.6.3.0": [
+        [ "QuickCheck", "2.14.2" ],
+        [ "tasty", "1.4.3" ],
+        [ "tasty-quickcheck", "0.10.2" ],
+        [ "zlib", "0.6.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "QuickCheck": {
+      "2.14.2": {
+        "hash": "sha256:d87b6c85696b601175274361fa62217894401e401e150c3c5d4013ac53cd36f3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/QuickCheck-2.14.2.tar.gz"
+      }
+    },
+    "ansi-terminal": {
+      "0.11.4": {
+        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+      }
+    },
+    "ansi-wl-pprint": {
+      "0.6.9": {
+        "hash": "sha256:a7b2e8e7cd3f02f2954e8b17dc60a0ccd889f49e2068ebb15abfa1d42f7a4eac",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-wl-pprint-0.6.9.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "optparse-applicative": {
+      "0.17.0.0": {
+        "hash": "sha256:825b2e4d3dafe0ba64a073366a88062b3712b81f851793d9ce2327bee70af724",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.0.0.tar.gz"
+      }
+    },
+    "random": {
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
+      }
+    },
+    "tagged": {
+      "0.8.7": {
+        "hash": "sha256:6414eeac27a1633f49e2f78199ced99ce8ce3d70b658cf6d55b1d81ff60cb961",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tagged-0.8.7.tar.gz"
+      }
+    },
+    "tasty": {
+      "1.4.3": {
+        "hash": "sha256:f420da9560267271dce8a0007a1cb77c06987f0d129eb0f613110ce61f71cb00",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-1.4.3.tar.gz"
+      }
+    },
+    "tasty-quickcheck": {
+      "0.10.2": {
+        "hash": "sha256:b4884c815db26a543ee1062664ee051ac89d51b2c2526d30029c6eb95b36cce2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tasty-quickcheck-0.10.2.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "zlib": {
+      "0.6.3.0": {
+        "hash": "sha256:9eaa989ad4534438b5beb51c1d3a4c8f6a088fdff0b259a5394fbf39aaee04da",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/zlib-0.6.3.0/zlib-0.6.3.0.tar.gz"
+      }
+    }
+  }
+}

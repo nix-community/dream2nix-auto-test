@@ -1,0 +1,968 @@
+{
+  "_generic": {
+    "defaultPackage": "hlint",
+    "location": "",
+    "packages": {
+      "hlint": "3.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "OneTuple#0.4.1.1": "be0324c77a0eaf1d48b771b7e86f2b19d53a9f5ecc6ab2c914dab7dad309c671",
+      "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
+      "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
+      "aeson#2.1.2.1": "f10f3c661bd5cf57aee46b94420e47736240b8e209ac15f4bfc1a4e4d55831fa",
+      "alex#3.2.7.1": "ab26a38cefae59403f746370e5a0c943b8d5bda098eb83f37052b2429ee780ce",
+      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "assoc#1.0.2": "9decd0933cb6b903a40a8ace02d634bf90048ee2e5b0a514dccad7056c041881",
+      "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
+      "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
+      "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
+      "bitvec#1.1.3.0": "54fea850c9e3d3f8f771d569c0c2b339f2dea1085b6cb9da108bce6594dc9682",
+      "clock#0.8.3": "a692159828c2cd278eaec317b3a7e9fb6d7b787c8a19f086004d15d9fa1fd72c",
+      "cmdargs#0.10.22": "0d1a33c3978fbcdda4f2543e62ac3ed8ad36152e141cdeebeece7e08d6529d63",
+      "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
+      "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
+      "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
+      "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
+      "cpphs#1.20.9.1": "0ad26fef4e6be4cb13e1df93aab7bdbe9c3d3bc6c63b84d9e29cc0f691fe12b9",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
+      "data-default#0.7.1.1": "2804e8d14f521a1edee88b68b66347448e7f3b685868290fdc55930e4471f5a9",
+      "data-default-class#0.1.2.0": "63e62120b7efd733a5a17cf59ceb43268e9a929c748127172d7d42f4a336e327",
+      "data-default-instances-containers#0.0.1": "6e1f4b28028a3bc455aaf4b5a9104b71ea72cff78b1b8041863df7afd1a8deb3",
+      "data-default-instances-dlist#0.0.1": "4286abacbb256c392907701be16986a6e07f2beaf2778e7bd925465655d9e301",
+      "data-default-instances-old-locale#0.0.1": "d4a757f68f0f83531fcb34a4525fe6769c54a45182e28ffdfff19c2b0ace42fb",
+      "data-fix#0.3.2": "c27b354476175581925217323e0f559d35ceff26907ceaa03cb65c6df38e3de9",
+      "deriving-aeson#0.2.9": "abc80f155111de4656dce2cecc644332f6da2582ef7a8ac8f281fdb73a0e7f71",
+      "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
+      "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
+      "extra#1.7.12": "3ac58d7341976173d1052e7b2837d119212d9afcf911735667c7f1ab67aec25f",
+      "file-embed#0.0.15.0": "18beed8999dff37bcffd0d1d8a59dcd406be8e517c10213afefc941091985c06",
+      "filepattern#0.1.3": "372c1733d83b90045eb29da9f010fed79bfef8771ce65eb126a1d83ecc54a9a2",
+      "generically#0.1.1": "aa00d9a77b7fb90c08f935699758ed9de55975021b1e979c6a4a4b5b49a940a9",
+      "ghc-lib-parser#9.4.4.20221225": "65663de2c3791f8d03fb25123ae54aaba5d0cb21262680fcfb5d07e59fb4a573",
+      "ghc-lib-parser-ex#9.4.0.0": "a55b192642e1efd3fd3a358aff416e88b6b04f33572bd1d7be9e9008648f2523",
+      "happy#1.20.1.1": "a381633c5e8f9e9e5a8e1900930ce13172397b4677fcfcc08cd38eb3f73b61b1",
+      "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
+      "hscolour#1.24.4": "3a329fa0ea9138f651088f1fa25522aabeab0eb591932d3fd56c66736bbe78be",
+      "indexed-traversable#0.1.2.1": "154b4649199a602dea948a93cb34a6c4be71576c4f78410733dd9f6bc79b6e0b",
+      "indexed-traversable-instances#0.1.1.2": "b493ed83623a7cba498d31a9d36beec233406f20377f1be3bb51d4ce3bd2ceef",
+      "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
+      "libyaml#0.1.2": "7fb663b11fcdb86503c14aa81763106ea79b1048fc29a1fe44ec346d9ecac101",
+      "mono-traversable#1.0.15.3": "059bf3c05cdbef2d06b765333fe41c2168ced2503a23de674e2a59ceb2548c48",
+      "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
+      "polyparse#1.13": "7f9bb348169af5c4858ae2cccc7ac4a9d281f0f6a4d477b26f6f2a71cfff3577",
+      "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
+      "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
+      "refact#0.3.0.2": "4ea82b93debdc0711e1bc4b5d8989b9e19613f369ff2049da33c5250b8d33bcd",
+      "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
+      "scientific#0.3.7.0": "26d8109106963a345368011081453d25ee1dfa6afae2b1f57b426b4bcd392d91",
+      "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
+      "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
+      "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
+      "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
+      "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
+      "syb#0.7.2.2": "bc800dbd35a17b652082f7f9790fd20d196ea0f44daaa7d5ac46491d8ecc7347",
+      "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
+      "text-short#0.1.5": "c296eb2289dc5bf39912989c295cb82ef05ae5f84ee83ea5dc21f48da80e7052",
+      "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
+      "these#1.1.1.1": "2991c13e264b0c35c696c8f5f85c428c53bc42e93b1dfbd19a582052112d948a",
+      "time-compat#1.9.6.1": "dd4de1fa0d6b7108982efc7ac41938569e4c9b06230bb87d34aae007c52ddb67",
+      "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
+      "uniplate#1.6.13": "c8b715570d0b4baa72512e677552dd3f98372a64bf9de000e779bd4162fd7be7",
+      "unliftio-core#0.2.1.0": "9fc3506770b16cdc73114307f854d56ddb96c7b930e7a5ed9b48cd0a8f33fca6",
+      "unordered-containers#0.2.19.1": "9ad8972c2e913c37b1d4f0e1261517fd7a1b8c8a58077e057be69837e3dbaa00",
+      "utf8-string#1.0.2": "79416292186feeaf1f60e49ac5a1ffae9bf1b120e040a74bf0e81ca7f1d31d3f",
+      "uuid-types#1.0.5": "9ca76986e3950af5e908502be2373e2292d6dc57ec10f5aeb41d7dc3a1961782",
+      "vector#0.13.0.0": "fa5cac81a17a5af388716792e8b99c24b3b66770086756d0d8b23f8272a0244c",
+      "vector-algorithms#0.9.0.1": "f3e5c6695529a94edf762117cafd91c989cb642ad3f8ca4014dbb13c8f6c2a20",
+      "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca",
+      "witherable#0.4.2": "cec516b35df0ff53ab0068e70a912a0ba7b65c672fbc554727183faa195ad3b8",
+      "yaml#0.11.11.0": "a2acb8d325b094e1184cc8b0f71deacf4b772e99bd0f53081cb032fdf5563ff9"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "attoparsec": {
+      "0.14.4": [
+        [ "attoparsec", "0.14.4" ]
+      ]
+    },
+    "hlint": {
+      "3.5": [
+        [ "hlint", "3.5" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "OneTuple": {
+      "0.4.1.1": [
+        [ "base-orphans", "0.9.0" ]
+      ]
+    },
+    "QuickCheck": {
+      "2.14.2": [
+        [ "random", "1.2.1.1" ],
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "aeson": {
+      "2.1.2.1": [
+        [ "OneTuple", "0.4.1.1" ],
+        [ "QuickCheck", "2.14.2" ],
+        [ "attoparsec", "0.14.4" ],
+        [ "base-compat-batteries", "0.12.2" ],
+        [ "data-fix", "0.3.2" ],
+        [ "dlist", "1.0" ],
+        [ "generically", "0.1.1" ],
+        [ "hashable", "1.4.2.0" ],
+        [ "indexed-traversable", "0.1.2.1" ],
+        [ "primitive", "0.8.0.0" ],
+        [ "scientific", "0.3.7.0" ],
+        [ "semialign", "1.2.0.1" ],
+        [ "strict", "0.4.0.1" ],
+        [ "tagged", "0.8.7" ],
+        [ "text-short", "0.1.5" ],
+        [ "th-abstraction", "0.5.0.0" ],
+        [ "these", "1.1.1.1" ],
+        [ "time-compat", "1.9.6.1" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "uuid-types", "1.0.5" ],
+        [ "vector", "0.13.0.0" ],
+        [ "witherable", "0.4.2" ]
+      ]
+    },
+    "ansi-terminal": {
+      "0.11.4": [
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "assoc": {
+      "1.0.2": [
+        [ "bifunctors", "5.5.15" ],
+        [ "tagged", "0.8.7" ]
+      ]
+    },
+    "attoparsec": {
+      "0.14.4": [
+        [ "attoparsec", "0.14.4" ],
+        [ "scientific", "0.3.7.0" ]
+      ]
+    },
+    "base-compat-batteries": {
+      "0.12.2": [
+        [ "base-compat", "0.12.2" ]
+      ]
+    },
+    "bifunctors": {
+      "5.5.15": [
+        [ "base-orphans", "0.9.0" ],
+        [ "comonad", "5.0.8" ],
+        [ "tagged", "0.8.7" ],
+        [ "th-abstraction", "0.5.0.0" ]
+      ]
+    },
+    "bitvec": {
+      "1.1.3.0": [
+        [ "primitive", "0.8.0.0" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "comonad": {
+      "5.0.8": [
+        [ "distributive", "0.6.2.1" ],
+        [ "indexed-traversable", "0.1.2.1" ],
+        [ "tagged", "0.8.7" ],
+        [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "conduit": {
+      "1.3.4.3": [
+        [ "mono-traversable", "1.0.15.3" ],
+        [ "primitive", "0.8.0.0" ],
+        [ "resourcet", "1.3.0" ],
+        [ "unliftio-core", "0.2.1.0" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "contravariant": {
+      "1.5.5": [
+        [ "StateVar", "1.2.2" ]
+      ]
+    },
+    "cpphs": {
+      "1.20.9.1": [
+        [ "polyparse", "1.13" ],
+        [ "polyparse", "1.13" ]
+      ]
+    },
+    "data-default": {
+      "0.7.1.1": [
+        [ "data-default-class", "0.1.2.0" ],
+        [ "data-default-instances-containers", "0.0.1" ],
+        [ "data-default-instances-dlist", "0.0.1" ],
+        [ "data-default-instances-old-locale", "0.0.1" ]
+      ]
+    },
+    "data-default-instances-containers": {
+      "0.0.1": [
+        [ "data-default-class", "0.1.2.0" ]
+      ]
+    },
+    "data-default-instances-dlist": {
+      "0.0.1": [
+        [ "data-default-class", "0.1.2.0" ],
+        [ "dlist", "1.0" ]
+      ]
+    },
+    "data-default-instances-old-locale": {
+      "0.0.1": [
+        [ "data-default-class", "0.1.2.0" ],
+        [ "old-locale", "1.0.0.7" ]
+      ]
+    },
+    "data-fix": {
+      "0.3.2": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "deriving-aeson": {
+      "0.2.9": [
+        [ "aeson", "2.1.2.1" ]
+      ]
+    },
+    "distributive": {
+      "0.6.2.1": [
+        [ "base-orphans", "0.9.0" ],
+        [ "tagged", "0.8.7" ]
+      ]
+    },
+    "extra": {
+      "1.7.12": [
+        [ "clock", "0.8.3" ]
+      ]
+    },
+    "filepattern": {
+      "0.1.3": [
+        [ "extra", "1.7.12" ]
+      ]
+    },
+    "ghc-lib-parser": {
+      "9.4.4.20221225": [
+        [ "alex", "3.2.7.1" ],
+        [ "happy", "1.20.1.1" ]
+      ]
+    },
+    "ghc-lib-parser-ex": {
+      "9.4.0.0": [
+        [ "ghc-lib-parser", "9.4.4.20221225" ],
+        [ "uniplate", "1.6.13" ]
+      ]
+    },
+    "hashable": {
+      "1.4.2.0": [
+        [ "base-orphans", "0.9.0" ],
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "hlint": {
+      "3.5": [
+        [ "aeson", "2.1.2.1" ],
+        [ "ansi-terminal", "0.11.4" ],
+        [ "cmdargs", "0.10.22" ],
+        [ "cpphs", "1.20.9.1" ],
+        [ "data-default", "0.7.1.1" ],
+        [ "deriving-aeson", "0.2.9" ],
+        [ "extra", "1.7.12" ],
+        [ "file-embed", "0.0.15.0" ],
+        [ "filepattern", "0.1.3" ],
+        [ "ghc-lib-parser", "9.4.4.20221225" ],
+        [ "ghc-lib-parser-ex", "9.4.0.0" ],
+        [ "hscolour", "1.24.4" ],
+        [ "refact", "0.3.0.2" ],
+        [ "uniplate", "1.6.13" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "utf8-string", "1.0.2" ],
+        [ "vector", "0.13.0.0" ],
+        [ "yaml", "0.11.11.0" ],
+        [ "hlint", "3.5" ]
+      ]
+    },
+    "indexed-traversable-instances": {
+      "0.1.1.2": [
+        [ "OneTuple", "0.4.1.1" ],
+        [ "indexed-traversable", "0.1.2.1" ],
+        [ "tagged", "0.8.7" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "libyaml": {
+      "0.1.2": [
+        [ "conduit", "1.3.4.3" ],
+        [ "resourcet", "1.3.0" ]
+      ]
+    },
+    "mono-traversable": {
+      "1.0.15.3": [
+        [ "hashable", "1.4.2.0" ],
+        [ "split", "0.2.3.5" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "vector", "0.13.0.0" ],
+        [ "vector-algorithms", "0.9.0.1" ]
+      ]
+    },
+    "primitive": {
+      "0.8.0.0": [
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    },
+    "random": {
+      "1.2.1.1": [
+        [ "splitmix", "0.1.0.4" ]
+      ]
+    },
+    "resourcet": {
+      "1.3.0": [
+        [ "primitive", "0.8.0.0" ],
+        [ "unliftio-core", "0.2.1.0" ]
+      ]
+    },
+    "scientific": {
+      "0.3.7.0": [
+        [ "hashable", "1.4.2.0" ],
+        [ "integer-logarithms", "1.0.3.1" ],
+        [ "primitive", "0.8.0.0" ]
+      ]
+    },
+    "semialign": {
+      "1.2.0.1": [
+        [ "hashable", "1.4.2.0" ],
+        [ "indexed-traversable", "0.1.2.1" ],
+        [ "indexed-traversable-instances", "0.1.1.2" ],
+        [ "semigroupoids", "5.3.7" ],
+        [ "tagged", "0.8.7" ],
+        [ "these", "1.1.1.1" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "semigroupoids": {
+      "5.3.7": [
+        [ "base-orphans", "0.9.0" ],
+        [ "bifunctors", "5.5.15" ],
+        [ "comonad", "5.0.8" ],
+        [ "contravariant", "1.5.5" ],
+        [ "distributive", "0.6.2.1" ],
+        [ "hashable", "1.4.2.0" ],
+        [ "tagged", "0.8.7" ],
+        [ "transformers-compat", "0.7.2" ],
+        [ "unordered-containers", "0.2.19.1" ]
+      ]
+    },
+    "strict": {
+      "0.4.0.1": [
+        [ "assoc", "1.0.2" ],
+        [ "hashable", "1.4.2.0" ],
+        [ "these", "1.1.1.1" ]
+      ]
+    },
+    "text-short": {
+      "0.1.5": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "these": {
+      "1.1.1.1": [
+        [ "assoc", "1.0.2" ],
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "time-compat": {
+      "1.9.6.1": [
+        [ "base-orphans", "0.9.0" ],
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "uniplate": {
+      "1.6.13": [
+        [ "hashable", "1.4.2.0" ],
+        [ "syb", "0.7.2.2" ],
+        [ "unordered-containers", "0.2.19.1" ]
+      ]
+    },
+    "unordered-containers": {
+      "0.2.19.1": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "uuid-types": {
+      "1.0.5": [
+        [ "hashable", "1.4.2.0" ],
+        [ "random", "1.2.1.1" ]
+      ]
+    },
+    "vector": {
+      "0.13.0.0": [
+        [ "primitive", "0.8.0.0" ],
+        [ "vector-stream", "0.1.0.0" ]
+      ]
+    },
+    "vector-algorithms": {
+      "0.9.0.1": [
+        [ "bitvec", "1.1.3.0" ],
+        [ "primitive", "0.8.0.0" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "witherable": {
+      "0.4.2": [
+        [ "base-orphans", "0.9.0" ],
+        [ "hashable", "1.4.2.0" ],
+        [ "indexed-traversable", "0.1.2.1" ],
+        [ "indexed-traversable-instances", "0.1.1.2" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    },
+    "yaml": {
+      "0.11.11.0": [
+        [ "aeson", "2.1.2.1" ],
+        [ "attoparsec", "0.14.4" ],
+        [ "conduit", "1.3.4.3" ],
+        [ "libyaml", "0.1.2" ],
+        [ "resourcet", "1.3.0" ],
+        [ "scientific", "0.3.7.0" ],
+        [ "unordered-containers", "0.2.19.1" ],
+        [ "vector", "0.13.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "OneTuple": {
+      "0.4.1.1": {
+        "hash": "sha256:c9e764d4ee1e57cad8341bd5d0de33ba3a52b6793fc1309679f2bf60c030bb2b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/OneTuple-0.4.1.1.tar.gz"
+      }
+    },
+    "QuickCheck": {
+      "2.14.2": {
+        "hash": "sha256:d87b6c85696b601175274361fa62217894401e401e150c3c5d4013ac53cd36f3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/QuickCheck-2.14.2.tar.gz"
+      }
+    },
+    "StateVar": {
+      "1.2.2": {
+        "hash": "sha256:5e4b39da395656a59827b0280508aafdc70335798b50e5d6fd52596026251825",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/StateVar-1.2.2.tar.gz"
+      }
+    },
+    "aeson": {
+      "2.1.2.1": {
+        "hash": "sha256:5d4042b903ce181ee023bbf908f37a3f55e820c5f0df102683b87f963e3522c6",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/aeson-2.1.2.1.tar.gz"
+      }
+    },
+    "alex": {
+      "3.2.7.1": {
+        "hash": "sha256:9bd2f1a27e8f1b2ffdb5b2fbd3ed82b6f0e85191459a1b24ffcbef4e68a81bec",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/alex-3.2.7.1.tar.gz"
+      }
+    },
+    "ansi-terminal": {
+      "0.11.4": {
+        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+      }
+    },
+    "assoc": {
+      "1.0.2": {
+        "hash": "sha256:d8988dc6e8718c7a3456515b769c9336aeeec730cf86fc5175247969ff8f144f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/assoc-1.0.2.tar.gz"
+      }
+    },
+    "attoparsec": {
+      "0.14.4": {
+        "hash": "sha256:3f337fe58624565de12426f607c23e60c7b09c86b4e3adfc827ca188c9979e6c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/attoparsec-0.14.4.tar.gz"
+      }
+    },
+    "base-compat": {
+      "0.12.2": {
+        "hash": "sha256:a62adc883a5ac436f80e4ae02c3c56111cf1007492f267c291139a668d2150bd",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-compat-0.12.2.tar.gz"
+      }
+    },
+    "base-compat-batteries": {
+      "0.12.2": {
+        "hash": "sha256:ede9092e07f904e0759160bf1ecd3fb7eb043bae6dc89a37c3dc94829ec5eb99",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-compat-batteries-0.12.2.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "bifunctors": {
+      "5.5.15": {
+        "hash": "sha256:d6359d50d359dd6048dbf6d56c7628211a1785aab9174177faa6d2d8b0d9e3b7",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bifunctors-5.5.15.tar.gz"
+      }
+    },
+    "bitvec": {
+      "1.1.3.0": {
+        "hash": "sha256:1c4c3af50a1fcf46e46e2fa9e0493fffaf62de3607ae7553d18015f8a1a60551",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/bitvec-1.1.3.0.tar.gz"
+      }
+    },
+    "clock": {
+      "0.8.3": {
+        "hash": "sha256:845ce5db4c98cefd517323e005f87effceff886987305e421c4ef616dc0505d1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/clock-0.8.3.tar.gz"
+      }
+    },
+    "cmdargs": {
+      "0.10.22": {
+        "hash": "sha256:b8b12e7f8795cf13037bb062d453b86c788eae62558586f59e9419aabe6e9bef",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cmdargs-0.10.22.tar.gz"
+      }
+    },
+    "colour": {
+      "2.3.6": {
+        "hash": "sha256:2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/colour-2.3.6.tar.gz"
+      }
+    },
+    "comonad": {
+      "5.0.8": {
+        "hash": "sha256:ef6cdf2cc292cc43ee6aa96c581b235fdea8ab44a0bffb24dc79ae2b2ef33d13",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/comonad-5.0.8.tar.gz"
+      }
+    },
+    "conduit": {
+      "1.3.4.3": {
+        "hash": "sha256:aca2a086a6ee065a5d1f1efc0632bccf52a8f961e4134a4fb60447765987907d",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/conduit-1.3.4.3.tar.gz"
+      }
+    },
+    "contravariant": {
+      "1.5.5": {
+        "hash": "sha256:062fd66580d7aad0b5ba93e644ffa7feee69276ef50f20d4ed9f1deb7642dffa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/contravariant-1.5.5.tar.gz"
+      }
+    },
+    "cpphs": {
+      "1.20.9.1": {
+        "hash": "sha256:7f59b10bc3374004cee3c04fa4ee4a1b90d0dca84a3d0e436d5861a1aa3b919f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/cpphs-1.20.9.1.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "data-default": {
+      "0.7.1.1": {
+        "hash": "sha256:b0f95d279cd75cacaa8152a01590dc3460f7134f6840b37052abb3ba3cb2a511",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-0.7.1.1.tar.gz"
+      }
+    },
+    "data-default-class": {
+      "0.1.2.0": {
+        "hash": "sha256:4f01b423f000c3e069aaf52a348564a6536797f31498bb85c3db4bd2d0973e56",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-class-0.1.2.0.tar.gz"
+      }
+    },
+    "data-default-instances-containers": {
+      "0.0.1": {
+        "hash": "sha256:a55e07af005c9815d82f3fc95e125db82994377c9f4a769428878701d4ec081a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-instances-containers-0.0.1.tar.gz"
+      }
+    },
+    "data-default-instances-dlist": {
+      "0.0.1": {
+        "hash": "sha256:7d683711cbf08abd7adcd5ac2be825381308d220397315a5570fe61b719b5959",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-instances-dlist-0.0.1.tar.gz"
+      }
+    },
+    "data-default-instances-old-locale": {
+      "0.0.1": {
+        "hash": "sha256:60d3b02922958c4908d7bf2b24ddf61511665745f784227d206745784b0c0802",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-default-instances-old-locale-0.0.1.tar.gz"
+      }
+    },
+    "data-fix": {
+      "0.3.2": {
+        "hash": "sha256:3a172d3bc0639c327345e965f9d9023e099425814b28dcdb7b60ff66d66219cc",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-fix-0.3.2.tar.gz"
+      }
+    },
+    "deriving-aeson": {
+      "0.2.9": {
+        "hash": "sha256:c0b2975df7ed5ba668982ba442318c36adfe8be3c32dcf136c13bf9662261833",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/deriving-aeson-0.2.9.tar.gz"
+      }
+    },
+    "distributive": {
+      "0.6.2.1": {
+        "hash": "sha256:d7351392e078f58caa46630a4b9c643e1e2e9dddee45848c5c8358e7b1316b91",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/distributive-0.6.2.1.tar.gz"
+      }
+    },
+    "dlist": {
+      "1.0": {
+        "hash": "sha256:173d637328bb173fcc365f30d29ff4a94292a1e0e5558aeb3dfc11de81510115",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/dlist-1.0.tar.gz"
+      }
+    },
+    "extra": {
+      "1.7.12": {
+        "hash": "sha256:e571a9ec1d8865f0fbb0e0ba1eb575f783b0365c80db19b54a93600bae43b03c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/extra-1.7.12.tar.gz"
+      }
+    },
+    "file-embed": {
+      "0.0.15.0": {
+        "hash": "sha256:f066b85d537a20252faa59489f6a854e4e8f39080f08730c9e195e418cec5bdd",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/file-embed-0.0.15.0.tar.gz"
+      }
+    },
+    "filepattern": {
+      "0.1.3": {
+        "hash": "sha256:cc445d439ea2f65cac7604d3578aa2c3a62e5a91dc989f4ce5b3390db9e59636",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/filepattern-0.1.3.tar.gz"
+      }
+    },
+    "generically": {
+      "0.1.1": {
+        "hash": "sha256:04c5a436bec4b041f71a733f56a1bd7f435f63dde8d3eb5c1f48d55b4dbc43cf",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/generically-0.1.1.tar.gz"
+      }
+    },
+    "ghc-lib-parser": {
+      "9.4.4.20221225": {
+        "hash": "sha256:67f6d80ce04d4178b762c7e139388c1106a818d8a532a5ac458c8209ef61652b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ghc-lib-parser-9.4.4.20221225.tar.gz"
+      }
+    },
+    "ghc-lib-parser-ex": {
+      "9.4.0.0": {
+        "hash": "sha256:ce3ff339a0a259a18ae921c547b35732eaca1a567a33fba1a7c65c16c973191b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ghc-lib-parser-ex-9.4.0.0.tar.gz"
+      }
+    },
+    "happy": {
+      "1.20.1.1": {
+        "hash": "sha256:8b4e7dc5a6c5fd666f8f7163232931ab28746d0d17da8fa1cbd68be9e878881b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/happy-1.20.1.1.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
+      }
+    },
+    "hlint": {
+      "3.5": {
+        "hash": "sha256:98bd120a10a086c17d6bf1176a510dc12b36581e5a901f1e024555bb3ccead4f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hlint-3.5/hlint-3.5.tar.gz"
+      }
+    },
+    "hscolour": {
+      "1.24.4": {
+        "hash": "sha256:243332b082294117f37b2c2c68079fa61af68b36223b3fc07594f245e0e5321d",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hscolour-1.24.4.tar.gz"
+      }
+    },
+    "indexed-traversable": {
+      "0.1.2.1": {
+        "hash": "sha256:fe854c10285debc7d6fe3e09da0928a740ebc091ad2911ae695bb007e6f746a4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/indexed-traversable-0.1.2.1.tar.gz"
+      }
+    },
+    "indexed-traversable-instances": {
+      "0.1.1.2": {
+        "hash": "sha256:0f9b4e895ccc819f74d15f913c93613cc74cab74dbb05d7e305aa387bdbe374a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/indexed-traversable-instances-0.1.1.2.tar.gz"
+      }
+    },
+    "integer-logarithms": {
+      "1.0.3.1": {
+        "hash": "sha256:9b0a9f9fab609b15cd015865721fb05f744a1bc77ae92fd133872de528bbea7f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/integer-logarithms-1.0.3.1.tar.gz"
+      }
+    },
+    "libyaml": {
+      "0.1.2": {
+        "hash": "sha256:8f42d66f199fcaee255326f8f770d88b0670df56b5eb78002d6058f3a45e97b5",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/libyaml-0.1.2.tar.gz"
+      }
+    },
+    "mono-traversable": {
+      "1.0.15.3": {
+        "hash": "sha256:98b220f3313d74227a4249210c8818e839678343e62b3ebb1b8c867cf2b974b7",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/mono-traversable-1.0.15.3.tar.gz"
+      }
+    },
+    "old-locale": {
+      "1.0.0.7": {
+        "hash": "sha256:dbaf8bf6b888fb98845705079296a23c3f40ee2f449df7312f7f7f1de18d7b50",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/old-locale-1.0.0.7.tar.gz"
+      }
+    },
+    "polyparse": {
+      "1.13": {
+        "hash": "sha256:1c4c72980e1e5a4f07fea65ca08b2399581d2a6aa21eb1078f7ad286c279707b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/polyparse-1.13.tar.gz"
+      }
+    },
+    "primitive": {
+      "0.8.0.0": {
+        "hash": "sha256:5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/primitive-0.8.0.0.tar.gz"
+      }
+    },
+    "random": {
+      "1.2.1.1": {
+        "hash": "sha256:3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/random-1.2.1.1.tar.gz"
+      }
+    },
+    "refact": {
+      "0.3.0.2": {
+        "hash": "sha256:0ad029727797c8ca5d179c7abf1bfc135d86a7d72cf93785ee12ad243aeb1f6c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/refact-0.3.0.2.tar.gz"
+      }
+    },
+    "resourcet": {
+      "1.3.0": {
+        "hash": "sha256:ec601785ee42a201f32adb205b8685c983f18757b1bd33d2e806d571e0f9996b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/resourcet-1.3.0.tar.gz"
+      }
+    },
+    "scientific": {
+      "0.3.7.0": {
+        "hash": "sha256:a3a121c4b3d68fb8b9f8c709ab012e48f090ed553609247a805ad070d6b343a9",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/scientific-0.3.7.0.tar.gz"
+      }
+    },
+    "semialign": {
+      "1.2.0.1": {
+        "hash": "sha256:d900697041ae4b0cca3243273a2b3e80bcf74d937405d6a5ff34dc33ee952132",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/semialign-1.2.0.1.tar.gz"
+      }
+    },
+    "semigroupoids": {
+      "5.3.7": {
+        "hash": "sha256:6d45cdb6c58c75ca588859b80b2c92b6f48590a03e065c24ce5d767a6a963799",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/semigroupoids-5.3.7.tar.gz"
+      }
+    },
+    "split": {
+      "0.2.3.5": {
+        "hash": "sha256:bf8aa8d610354a2b576946a6c838251ec5988c8374100638e6b2604513b93159",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/split-0.2.3.5.tar.gz"
+      }
+    },
+    "splitmix": {
+      "0.1.0.4": {
+        "hash": "sha256:6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4.tar.gz"
+      }
+    },
+    "strict": {
+      "0.4.0.1": {
+        "hash": "sha256:dff6abc08ad637e51891bb8b475778c40926c51219eda60fd64f0d9680226241",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/strict-0.4.0.1.tar.gz"
+      }
+    },
+    "syb": {
+      "0.7.2.2": {
+        "hash": "sha256:8143c6983b6248d57f00e47ec3cd16541acbaa55eb8093fedd5b7cee9a95b2e3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/syb-0.7.2.2.tar.gz"
+      }
+    },
+    "tagged": {
+      "0.8.7": {
+        "hash": "sha256:6414eeac27a1633f49e2f78199ced99ce8ce3d70b658cf6d55b1d81ff60cb961",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/tagged-0.8.7.tar.gz"
+      }
+    },
+    "text-short": {
+      "0.1.5": {
+        "hash": "sha256:a35ec6cde2ada084c1a050dc5885be5ab01f851b93d744cf0facbc1c18002dda",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/text-short-0.1.5.tar.gz"
+      }
+    },
+    "th-abstraction": {
+      "0.5.0.0": {
+        "hash": "sha256:8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0.tar.gz"
+      }
+    },
+    "these": {
+      "1.1.1.1": {
+        "hash": "sha256:d798c9f56e17def441e8f51e54cc11afdb3e76c6a9d1e9ee154e9a78da0bf508",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/these-1.1.1.1.tar.gz"
+      }
+    },
+    "time-compat": {
+      "1.9.6.1": {
+        "hash": "sha256:ad07bb00eb9678c2136d3680752b00acc4cbc522654bb3199bf31c61ef1e6b80",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/time-compat-1.9.6.1.tar.gz"
+      }
+    },
+    "transformers-compat": {
+      "0.7.2": {
+        "hash": "sha256:b62c7304c9f3cbc9463d0739aa85cb9489f217ea092b9d625d417514fbcc9d6a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/transformers-compat-0.7.2.tar.gz"
+      }
+    },
+    "uniplate": {
+      "1.6.13": {
+        "hash": "sha256:e777c94628445556a71f135a42cf72d2cfbaccba5849cc42fbfec8b2182e3ad2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/uniplate-1.6.13.tar.gz"
+      }
+    },
+    "unliftio-core": {
+      "0.2.1.0": {
+        "hash": "sha256:99384cba8d56d9d61b85e38a313a93ebcdb78be6566367f0930ef580597fe3e3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unliftio-core-0.2.1.0.tar.gz"
+      }
+    },
+    "unordered-containers": {
+      "0.2.19.1": {
+        "hash": "sha256:1b27bec5e0d522b27a6029ebf4c4a6d40acbc083c787008e32fb55c4b1d128d2",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/unordered-containers-0.2.19.1.tar.gz"
+      }
+    },
+    "utf8-string": {
+      "1.0.2": {
+        "hash": "sha256:ee48deada7600370728c4156cb002441de770d0121ae33a68139a9ed9c19b09a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/utf8-string-1.0.2.tar.gz"
+      }
+    },
+    "uuid-types": {
+      "1.0.5": {
+        "hash": "sha256:ad68b89b7a64c07dd5c250a11be2033ee929318ff51ec7b4e4b54e1b4deba7dd",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/uuid-types-1.0.5.tar.gz"
+      }
+    },
+    "vector": {
+      "0.13.0.0": {
+        "hash": "sha256:c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-0.13.0.0.tar.gz"
+      }
+    },
+    "vector-algorithms": {
+      "0.9.0.1": {
+        "hash": "sha256:2ba7c0d3a8f26ef3ada24ff4abe81609225ecbab3b5754f048f8a0a3ecc33841",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-algorithms-0.9.0.1.tar.gz"
+      }
+    },
+    "vector-stream": {
+      "0.1.0.0": {
+        "hash": "sha256:a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0.tar.gz"
+      }
+    },
+    "witherable": {
+      "0.4.2": {
+        "hash": "sha256:790d2bb274283419173bd89104439860675a9410f70f21912973ecd9098b4104",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/witherable-0.4.2.tar.gz"
+      }
+    },
+    "yaml": {
+      "0.11.11.0": {
+        "hash": "sha256:4c95c00bd2e134cd5c2a9c7032bcadac300fa2b8ed794ac61637a28431580023",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/yaml-0.11.11.0.tar.gz"
+      }
+    }
+  }
+}

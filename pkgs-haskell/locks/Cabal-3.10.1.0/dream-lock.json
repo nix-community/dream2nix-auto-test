@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "Cabal",
+    "location": "",
+    "packages": {
+      "Cabal": "3.10.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "Cabal-syntax#3.10.1.0": "bb835ebab577fd0f9c11dab96210dbb8d68ffc62652576f4b092563c345930e7"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "Cabal": {
+      "3.10.1.0": [
+        [ "Cabal-syntax", "3.10.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "Cabal": {
+      "3.10.1.0": {
+        "hash": "sha256:0bdbab8e4c3178016fb0f070d8b62bc3067f93afabfbd3aa17c8065d0ecc98ee",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/Cabal-3.10.1.0/Cabal-3.10.1.0.tar.gz"
+      }
+    },
+    "Cabal-syntax": {
+      "3.10.1.0": {
+        "hash": "sha256:3b80092355327768a0de8298ac50ee906b7e82462e2ba14542730573b453f522",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/Cabal-syntax-3.10.1.0.tar.gz"
+      }
+    }
+  }
+}

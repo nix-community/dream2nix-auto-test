@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "hspec-expectations",
+    "location": "",
+    "packages": {
+      "hspec-expectations": "0.6.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "HUnit#1.6.2.0": "1a79174e8af616117ad39464cac9de205ca923da6582825e97c10786fda933a4",
+      "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "HUnit": {
+      "1.6.2.0": [
+        [ "call-stack", "0.4.0" ]
+      ]
+    },
+    "hspec-expectations": {
+      "0.6.1.1": [
+        [ "HUnit", "1.6.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "HUnit": {
+      "1.6.2.0": {
+        "hash": "sha256:b0b7538871ffc058486fc00740886d2f3172f8fa6869936bfe83a5e10bd744ab",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/HUnit-1.6.2.0.tar.gz"
+      }
+    },
+    "call-stack": {
+      "0.4.0": {
+        "hash": "sha256:430bcf8a3404f7e55319573c0b807b1356946f0c8f289bb3d9afb279c636b87b",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/call-stack-0.4.0.tar.gz"
+      }
+    },
+    "hspec-expectations": {
+      "0.6.1.1": {
+        "hash": "sha256:3d4ef50cb6b51eb0de3ce97193029fd337d4b71de452f3d2c7eb467199586638",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hspec-expectations-0.6.1.1/hspec-expectations-0.6.1.1.tar.gz"
+      }
+    }
+  }
+}
