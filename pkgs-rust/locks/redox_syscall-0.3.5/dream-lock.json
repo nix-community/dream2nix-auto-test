@@ -3,7 +3,7 @@
     "defaultPackage": "redox_syscall",
     "location": "",
     "packages": {
-      "redox_syscall": "0.3.4"
+      "redox_syscall": "0.3.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "redox_syscall": {
-        "0.3.4": {
+        "0.3.5": {
           "description": "A Rust library to access raw Redox system calls", "license": [   "mit"
           ]
         }
@@ -20,15 +20,22 @@
     },
     "relPathReplacements": {
       "redox_syscall": {
-        "0.3.4": {}
+        "0.3.5": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "bitflags": {
+      "1.3.2": [
+        [ "compiler_builtins", "0.1.89" ],
+        [ "rustc-std-workspace-core", "1.0.0" ]
+      ]
+    },
     "redox_syscall": {
-      "0.3.4": [
-        [ "bitflags", "1.3.2" ]
+      "0.3.5": [
+        [ "bitflags", "1.3.2" ],
+        [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     }
   },
@@ -39,9 +46,21 @@
         "type": "crates-io"
       }
     },
+    "compiler_builtins": {
+      "0.1.89": {
+        "hash": "9fc9c2080d347a2c316518840ac9194644a9993dfa1e9778ef38979a339f5d8b",
+        "type": "crates-io"
+      }
+    },
     "redox_syscall": {
-      "0.3.4": {
-        "hash": "fb02a9aee8e8c7ad8d86890f1e16b49e0bbbffc9961ff3788c31d57c98bcbf03",
+      "0.3.5": {
+        "hash": "567664f262709473930a4bf9e51bf2ebf3348f2e748ccc50dea20646858f8f29",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
         "type": "crates-io"
       }
     }
