@@ -3,7 +3,7 @@
     "defaultPackage": "webpack-dev-server",
     "location": "",
     "packages": {
-      "webpack-dev-server": "4.11.1"
+      "webpack-dev-server": "4.12.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -260,7 +260,7 @@
     "browserslist": {
       "4.21.5": [
         [ "caniuse-lite", "1.0.30001466" ],
-        [ "electron-to-chromium", "1.4.328" ],
+        [ "electron-to-chromium", "1.4.330" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -512,6 +512,12 @@
         [ "@types/node", "18.15.3" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
+      ]
+    },
+    "launch-editor": {
+      "2.6.0": [
+        [ "picocolors", "1.0.0" ],
+        [ "shell-quote", "1.8.0" ]
       ]
     },
     "memfs": {
@@ -828,7 +834,7 @@
       ]
     },
     "webpack-dev-server": {
-      "4.11.1": [
+      "4.12.0": [
         [ "@types/bonjour", "3.5.10" ],
         [ "@types/connect-history-api-fallback", "1.3.5" ],
         [ "@types/express", "4.17.17" ],
@@ -848,6 +854,7 @@
         [ "html-entities", "2.3.3" ],
         [ "http-proxy-middleware", "2.0.6" ],
         [ "ipaddr.js", "2.0.1" ],
+        [ "launch-editor", "2.6.0" ],
         [ "open", "8.4.2" ],
         [ "p-retry", "4.6.2" ],
         [ "rimraf", "3.0.2" ],
@@ -948,7 +955,7 @@
         [ "dns-equal", "1.0.0" ],
         [ "dns-packet", "5.4.0" ],
         [ "ee-first", "1.1.1" ],
-        [ "electron-to-chromium", "1.4.328" ],
+        [ "electron-to-chromium", "1.4.330" ],
         [ "encodeurl", "1.0.2" ],
         [ "enhanced-resolve", "5.12.0" ],
         [ "es-module-lexer", "0.9.3" ],
@@ -1009,6 +1016,7 @@
         [ "jest-worker", "27.5.1" ],
         [ "json-parse-even-better-errors", "2.3.1" ],
         [ "json-schema-traverse", "0.4.1" ],
+        [ "launch-editor", "2.6.0" ],
         [ "loader-runner", "4.3.0" ],
         [ "media-typer", "0.3.0" ],
         [ "memfs", "3.4.13" ],
@@ -1069,6 +1077,7 @@
         [ "setprototypeof", "1.2.0" ],
         [ "shebang-command", "2.0.0" ],
         [ "shebang-regex", "3.0.0" ],
+        [ "shell-quote", "1.8.0" ],
         [ "side-channel", "1.0.4" ],
         [ "signal-exit", "3.0.7" ],
         [ "sockjs", "0.3.24" ],
@@ -1098,7 +1107,7 @@
         [ "wbuf", "1.7.3" ],
         [ "webpack", "5.76.1" ],
         [ "webpack-dev-middleware", "5.3.3" ],
-        [ "webpack-dev-server", "4.11.1" ],
+        [ "webpack-dev-server", "4.12.0" ],
         [ "webpack-sources", "3.2.3" ],
         [ "websocket-driver", "0.7.4" ],
         [ "websocket-extensions", "0.1.4" ],
@@ -1768,10 +1777,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.328": {
-        "hash": "sha512-DE9tTy2PNmy1v55AZAO542ui+MLC2cvINMK4P2LXGsJdput/ThVG9t+QGecPuAZZSgC8XoI+Jh9M1OG9IoNSCw==",
+      "1.4.330": {
+        "hash": "sha512-PqyefhybrVdjAJ45HaPLtuVaehiSw7C3ya0aad+rvmV53IVyXmYRk3pwIOb2TxTDTnmgQdn46NjMMaysx79/6Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.328.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.330.tgz"
       }
     },
     "encodeurl": {
@@ -2217,6 +2226,13 @@
         "hash": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==",
         "type": "http",
         "url": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz"
+      }
+    },
+    "launch-editor": {
+      "2.6.0": {
+        "hash": "sha512-JpDCcQnyAAzZZaZ7vEiSqL690w7dAEyLao+KC96zBplnYbJS7TYNjvM3M7y3dGz+v7aIsJk3hllWuc0kWAjyRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/launch-editor/-/launch-editor-2.6.0.tgz"
       }
     },
     "loader-runner": {
@@ -2669,6 +2685,13 @@
         "url": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
       }
     },
+    "shell-quote": {
+      "1.8.0": {
+        "hash": "sha512-QHsz8GgQIGKlRi24yFc6a6lN69Idnx634w49ay6+jA5yFh7a1UY+4Rp6HPx/L/1zcEDPEij8cIsiqR6bQsE5VQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.0.tgz"
+      }
+    },
     "side-channel": {
       "1.0.4": {
         "hash": "sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==",
@@ -2883,10 +2906,10 @@
       }
     },
     "webpack-dev-server": {
-      "4.11.1": {
-        "hash": "sha512-lILVz9tAUy1zGFwieuaQtYiadImb5M3d+H+L1zDYalYoDl0cksAB1UNyuE5MMWJrG6zR1tXkCP2fitl7yoUJiw==",
+      "4.12.0": {
+        "hash": "sha512-XRN9YRnvOj3TQQ5w/0pR1y1xDcVnbWtNkTri46kuEbaWUPTHsWUvOyAAI7PZHLY+hsFki2kRltJjKMw7e+IiqA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-4.11.1.tgz"
+        "url": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-4.12.0.tgz"
       }
     },
     "webpack-sources": {
