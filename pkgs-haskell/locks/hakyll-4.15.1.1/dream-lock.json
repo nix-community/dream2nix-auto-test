@@ -40,7 +40,7 @@
       "bitvec#1.1.3.0": "54fea850c9e3d3f8f771d569c0c2b339f2dea1085b6cb9da108bce6594dc9682",
       "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
       "blaze-html#0.9.1.2": "74b89ffa665891f528f571ce9e3c2dce24f698563f14b6f5e9e0512eccdf5dc2",
-      "blaze-markup#0.8.2.8": "8a47373003f472e851afbc3332bb9e0bf1b539a0dfad631bceb704332749c6c2",
+      "blaze-markup#0.8.2.8": "a8fe050fb93397df36c3f5b19c22628e0e54446382e0f6775e2b45c1ad999eee",
       "bsb-http-chunked#0.0.0.4": "add530e695ea3058bf4f7156a1ca85653ff3635b87ec6d1be8c4891645190f96",
       "byteorder#1.0.4": "a952817dcbe20af0346fb55a28c13e95e2ddbf3e99f9b4fffdc063f150f13b20",
       "cabal-doctest#1.0.9": "6dea0dbd1457f43d96ce1cfb1bab8b9f55d4fb82940e2bfa5aad78e6e2260656",
@@ -179,7 +179,7 @@
       "unicode-data#0.4.0.1": "081e269b48f2d8511579a6dd1aa5f5c2f940e63d9bafec5fb911c11e32b27ad3",
       "unicode-transforms#0.4.0.1": "adffd08a043cbf633e9574c35e206315bb07e73ed3886a91472d3cf208d8a6c3",
       "uniplate#1.6.13": "c8b715570d0b4baa72512e677552dd3f98372a64bf9de000e779bd4162fd7be7",
-      "unix-compat#0.6": "0f5d0929d838077909d397c7c83b711b89db4ed3d4dafea46af19c04b389b53c",
+      "unix-compat#0.7": "651fa34c14d9c05c1bbd508271a971e39d99e2b415518f100a17b84174ab6625",
       "unix-time#0.4.9": "90107508e322fe0a6418d0138224ca8f0faa0ae9deac13e66612fd7977e5513a",
       "unliftio#0.2.24.0": "ff0e9f20b7fdda83b5da8da5d50e0f2634b90f8b6688169ef1296e3af51d4f8c",
       "unliftio-core#0.2.1.0": "9fc3506770b16cdc73114307f854d56ddb96c7b930e7a5ed9b48cd0a8f33fca6",
@@ -193,7 +193,7 @@
       "wai-app-static#3.1.7.4": "551d79e6a78c3c6a2c23c603122482288fa021f7c07a1ce5cbf8730167eb20fc",
       "wai-extra#3.1.13.0": "fc3e7c337ac46733ce2da7a0d6422185387b3bb3709e72403a359eb19678db37",
       "wai-logger#2.4.0": "630b3d573dce5c6a84dfb372d69f8d15f9dbb52d6a04df43e57a44f0ca0eab0a",
-      "warp#3.3.24": "03e12e3702ab41dfe066d56ca0d653002ac5e72e8a864c726424a6383dcb2d06",
+      "warp#3.3.25": "3108518eb0d64f19d4c031f990166e5e5ab3542f877df3946eb7e300881d2ca1",
       "witherable#0.4.2": "cec516b35df0ff53ab0068e70a912a0ba7b65c672fbc554727183faa195ad3b8",
       "word8#0.1.3": "e5464d0600821a116467d4b12fef12b15ff040c3599500e5f0274225e78c6faf",
       "x509#1.7.7": "90eef2d745a654146fc1c325e035eaddac531e4d2145d4bc1dcf4b8fad439d34",
@@ -563,7 +563,7 @@
       "3.2.1": [
         [ "auto-update", "0.1.6" ],
         [ "easy-file", "0.2.3" ],
-        [ "unix-compat", "0.6" ],
+        [ "unix-compat", "0.7" ],
         [ "unix-time", "0.4.9" ]
       ]
     },
@@ -572,7 +572,7 @@
         [ "async", "2.2.4" ],
         [ "hinotify", "0.4.1" ],
         [ "shelly", "1.12.0" ],
-        [ "unix-compat", "0.6" ]
+        [ "unix-compat", "0.7" ]
       ]
     },
     "hakyll": {
@@ -601,7 +601,7 @@
         [ "vector", "0.12.3.1" ],
         [ "wai", "3.2.3" ],
         [ "wai-app-static", "3.1.7.4" ],
-        [ "warp", "3.3.24" ],
+        [ "warp", "3.3.25" ],
         [ "yaml", "0.11.11.0" ],
         [ "hakyll", "4.15.1.1" ],
         [ "QuickCheck", "2.14.2" ],
@@ -1028,7 +1028,7 @@
         [ "lifted-base", "0.2.3.12" ],
         [ "monad-control", "1.0.3.1" ],
         [ "transformers-base", "0.4.6" ],
-        [ "unix-compat", "0.6" ]
+        [ "unix-compat", "0.7" ]
       ]
     },
     "simple-sendfile": {
@@ -1267,11 +1267,11 @@
         [ "mime-types", "0.1.1.0" ],
         [ "old-locale", "1.0.0.7" ],
         [ "optparse-applicative", "0.16.1.0" ],
-        [ "unix-compat", "0.6" ],
+        [ "unix-compat", "0.7" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
-        [ "warp", "3.3.24" ],
+        [ "warp", "3.3.25" ],
         [ "zlib", "0.6.3.0" ],
         [ "mime-types", "0.1.1.0" ],
         [ "wai-app-static", "3.1.7.4" ]
@@ -1296,7 +1296,7 @@
         [ "vault", "0.3.1.5" ],
         [ "wai", "3.2.3" ],
         [ "wai-logger", "2.4.0" ],
-        [ "warp", "3.3.24" ],
+        [ "warp", "3.3.25" ],
         [ "word8", "0.1.3" ]
       ]
     },
@@ -1311,7 +1311,7 @@
       ]
     },
     "warp": {
-      "3.3.24": [
+      "3.3.25": [
         [ "auto-update", "0.1.6" ],
         [ "bsb-http-chunked", "0.0.0.4" ],
         [ "case-insensitive", "1.2.1.0" ],
@@ -1325,7 +1325,7 @@
         [ "simple-sendfile", "0.2.30" ],
         [ "streaming-commons", "0.2.2.5" ],
         [ "time-manager", "0.0.0" ],
-        [ "unix-compat", "0.6" ],
+        [ "unix-compat", "0.7" ],
         [ "unliftio", "0.2.24.0" ],
         [ "vault", "0.3.1.5" ],
         [ "wai", "3.2.3" ],
@@ -2607,10 +2607,10 @@
       }
     },
     "unix-compat": {
-      "0.6": {
-        "hash": "sha256:b4cd823a6543ad3aca8e740ecf5f44aabde60f1452b5a55655db5c8b7a44d5f8",
+      "0.7": {
+        "hash": "sha256:2b75ca79e0f7368f915f01ca6a5201f7df58ada46b9e4869bca1b92d853f2e3e",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/unix-compat-0.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/unix-compat-0.7.tar.gz"
       }
     },
     "unix-time": {
@@ -2705,10 +2705,10 @@
       }
     },
     "warp": {
-      "3.3.24": {
-        "hash": "sha256:6acd3a99998ca44559aa3956fa4f69b36f246d8bc584324be94ded57c6fe253c",
+      "3.3.25": {
+        "hash": "sha256:ea7d18f031898b5d8d0fa2306ed27a08d6b0a3dc223f84961423aab36d1446f1",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/warp-3.3.24.tar.gz"
+        "url": "https://hackage.haskell.org/package/warp-3.3.25.tar.gz"
       }
     },
     "witherable": {

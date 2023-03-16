@@ -21,7 +21,7 @@
       "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
       "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
       "hashmap#1.3.3": "831096cd644d1b87f16c1933d19cdf938fe8f3911af7ed68b3e8c0bde4baeba4",
-      "nothunks#0.1.3": "33bb3af223163535fa59d1fa83ba95a355106ba3fcffe5452d4abbf13ab4608d",
+      "nothunks#0.1.3": "f13e909333ce9139ae03a0416afb2442242c029147d786503aca605da2e2027d",
       "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
@@ -33,7 +33,8 @@
       "tasty-hunit#0.10.0.3": "ba774024f3a26100c559dbef41e030bdf443408ed848691f7b9aa85b6fb218c3",
       "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
-      "vector#0.12.3.1": "abbfe8830e13549596e1295219d340eb01bd00e1c7124d0dd16586911a291c59"
+      "vector#0.13.0.0": "fa5cac81a17a5af388716792e8b99c24b3b66770086756d0d8b23f8272a0244c",
+      "vector-stream#0.1.0.0": "f5d6d5291cd1b5f2f063403593f1f5c8127d692c888eedeb3e1eb40497a88dca"
     },
     "compiler": {
       "name": "ghc",
@@ -89,7 +90,7 @@
     },
     "nothunks": {
       "0.1.3": [
-        [ "vector", "0.12.3.1" ]
+        [ "vector", "0.13.0.0" ]
       ]
     },
     "optparse-applicative": {
@@ -156,8 +157,9 @@
       ]
     },
     "vector": {
-      "0.12.3.1": [
-        [ "primitive", "0.8.0.0" ]
+      "0.13.0.0": [
+        [ "primitive", "0.8.0.0" ],
+        [ "vector-stream", "0.1.0.0" ]
       ]
     }
   },
@@ -331,10 +333,17 @@
       }
     },
     "vector": {
-      "0.12.3.1": {
-        "hash": "sha256:fb4a53c02bd4d7fdf155c0604da9a5bb0f3b3bfce5d9960aea11c2ae235b9f35",
+      "0.13.0.0": {
+        "hash": "sha256:c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/vector-0.12.3.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/vector-0.13.0.0.tar.gz"
+      }
+    },
+    "vector-stream": {
+      "0.1.0.0": {
+        "hash": "sha256:a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0.tar.gz"
       }
     }
   }
