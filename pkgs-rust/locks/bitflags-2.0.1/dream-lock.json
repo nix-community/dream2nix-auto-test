@@ -3,7 +3,7 @@
     "defaultPackage": "bitflags",
     "location": "",
     "packages": {
-      "bitflags": "2.0.0"
+      "bitflags": "2.0.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "bitflags": {
-        "2.0.0": {
+        "2.0.1": {
           "description": "A macro to generate structures which behave like bitflags.\n", "homepage": "https://github.com/bitflags/bitflags", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "bitflags": {
-        "2.0.0": {}
+        "2.0.1": {}
       }
     }
   },
@@ -28,18 +28,18 @@
   "dependencies": {
     "basic-toml": {
       "0.1.2": [
-        [ "serde", "1.0.155" ]
+        [ "serde", "1.0.156" ]
       ]
     },
     "bitflags": {
-      "2.0.0": [
+      "2.0.1": [
         [ "compiler_builtins", "0.1.89" ],
         [ "rustc-std-workspace-core", "1.0.0" ],
         [ "rustversion", "1.0.12" ],
-        [ "serde", "1.0.155" ],
-        [ "serde_derive", "1.0.155" ],
+        [ "serde", "1.0.156" ],
+        [ "serde_derive", "1.0.156" ],
         [ "serde_json", "1.0.94" ],
-        [ "serde_test", "1.0.155" ],
+        [ "serde_test", "1.0.156" ],
         [ "trybuild", "1.0.79" ]
       ]
     },
@@ -49,14 +49,14 @@
       ]
     },
     "quote": {
-      "1.0.25": [
+      "1.0.26": [
         [ "proc-macro2", "1.0.52" ]
       ]
     },
     "serde_derive": {
-      "1.0.155": [
+      "1.0.156": [
         [ "proc-macro2", "1.0.52" ],
-        [ "quote", "1.0.25" ],
+        [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ]
       ]
     },
@@ -64,18 +64,18 @@
       "1.0.94": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.155" ]
+        [ "serde", "1.0.156" ]
       ]
     },
     "serde_test": {
-      "1.0.155": [
-        [ "serde", "1.0.155" ]
+      "1.0.156": [
+        [ "serde", "1.0.156" ]
       ]
     },
     "syn": {
       "1.0.109": [
         [ "proc-macro2", "1.0.52" ],
-        [ "quote", "1.0.25" ],
+        [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
     },
@@ -89,8 +89,8 @@
         [ "basic-toml", "0.1.2" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.1" ],
-        [ "serde", "1.0.155" ],
-        [ "serde_derive", "1.0.155" ],
+        [ "serde", "1.0.156" ],
+        [ "serde_derive", "1.0.156" ],
         [ "serde_json", "1.0.94" ],
         [ "termcolor", "1.2.0" ]
       ]
@@ -115,8 +115,8 @@
       }
     },
     "bitflags": {
-      "2.0.0": {
-        "hash": "f4f6e5df9abedba5099a01a6567c6086a6fbcff57af07c360d356737f9e0c644",
+      "2.0.1": {
+        "hash": "d5dd14596c0e5b954530d0e6f1fd99b89c03e313aa2086e8da4303701a09e1cf",
         "type": "crates-io"
       }
     },
@@ -151,8 +151,8 @@
       }
     },
     "quote": {
-      "1.0.25": {
-        "hash": "5308e8208729c3e1504a6cfad0d5daacc4614c9a2e65d1ea312a34b5cb00fe84",
+      "1.0.26": {
+        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
         "type": "crates-io"
       }
     },
@@ -175,14 +175,14 @@
       }
     },
     "serde": {
-      "1.0.155": {
-        "hash": "71f2b4817415c6d4210bfe1c7bfcf4801b2d904cb4d0e1a8fdb651013c9e86b8",
+      "1.0.156": {
+        "hash": "314b5b092c0ade17c00142951e50ced110ec27cea304b1037c6969246c2469a4",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.155": {
-        "hash": "d071a94a3fac4aff69d023a7f411e33f40f3483f8c5190b1953822b6b76d7630",
+      "1.0.156": {
+        "hash": "d7e29c4601e36bcec74a223228dce795f4cd3616341a4af93520ca1a837c087d",
         "type": "crates-io"
       }
     },
@@ -193,8 +193,8 @@
       }
     },
     "serde_test": {
-      "1.0.155": {
-        "hash": "9d0bc197a5a347a37828f7ee26ce2cec2a786894b1968e68c6ebd17770c98e29",
+      "1.0.156": {
+        "hash": "64c93038456d65c93efcfaa9e35de69a0ae8c34e8cdfa386070a290e5a65c8e2",
         "type": "crates-io"
       }
     },
