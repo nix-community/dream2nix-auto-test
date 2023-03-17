@@ -70,7 +70,7 @@
         [ "serde_derive", "1.0.156" ],
         [ "serde_json", "1.0.94" ],
         [ "tinytemplate", "1.2.1" ],
-        [ "walkdir", "2.3.2" ]
+        [ "walkdir", "2.3.3" ]
       ]
     },
     "criterion-plot": {
@@ -167,7 +167,8 @@
       ]
     },
     "io-lifetimes": {
-      "1.0.6": [
+      "1.0.7": [
+        [ "hermit-abi", "0.3.1" ],
         [ "libc", "0.2.140" ],
         [ "windows-sys", "0.45.0" ]
       ]
@@ -323,7 +324,7 @@
       "0.36.9": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.2.8" ],
-        [ "io-lifetimes", "1.0.6" ],
+        [ "io-lifetimes", "1.0.7" ],
         [ "libc", "0.2.140" ],
         [ "linux-raw-sys", "0.1.4" ],
         [ "windows-sys", "0.45.0" ]
@@ -462,9 +463,8 @@
       ]
     },
     "walkdir": {
-      "2.3.2": [
+      "2.3.3": [
         [ "same-file", "1.0.6" ],
-        [ "winapi", "0.3.9" ],
         [ "winapi-util", "0.1.5" ]
       ]
     },
@@ -719,6 +719,10 @@
       "0.2.6": {
         "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
         "type": "crates-io"
+      },
+      "0.3.1": {
+        "hash": "fed44880c466736ef9a5c5b5facefb5ed0785676d0c02d612db14e54f0d84286",
+        "type": "crates-io"
       }
     },
     "instant": {
@@ -728,8 +732,8 @@
       }
     },
     "io-lifetimes": {
-      "1.0.6": {
-        "hash": "cfa919a82ea574332e2de6e74b4c36e74d41982b335080fa59d4ef31be20fdf3",
+      "1.0.7": {
+        "hash": "76e86b86ae312accbf05ade23ce76b625e0e47a255712b7414037385a1c05380",
         "type": "crates-io"
       }
     },
@@ -1134,8 +1138,8 @@
       }
     },
     "walkdir": {
-      "2.3.2": {
-        "hash": "808cf2735cd4b6866113f648b791c6adc5714537bc222d9347bb203386ffda56",
+      "2.3.3": {
+        "hash": "36df944cda56c7d8d8b7496af378e6b16de9284591917d307c9b4d313c44e698",
         "type": "crates-io"
       }
     },
