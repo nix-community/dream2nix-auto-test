@@ -102,7 +102,7 @@
       "http-conduit#2.3.8": "5a5f23a594dc47754d8670de5b6dffbdf1849417ce9f0a41c4d77ea52232c255",
       "http-date#0.0.11": "b278b07f880705e3b0b073206ad26954548b666d616733c9a6b5d50993f547d4",
       "http-types#0.12.3": "f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9",
-      "http2#4.0.0": "7162b5d66e8fa6f52cb62fedc39dfce8234691604d13ce34a0e535038d9ad733",
+      "http2#4.1.0": "31c1d8d4b4ca409a82f6611eebd2614e09b1a3291f8d4f7d27be2f402019ab03",
       "indexed-traversable#0.1.2.1": "154b4649199a602dea948a93cb34a6c4be71576c4f78410733dd9f6bc79b6e0b",
       "indexed-traversable-instances#0.1.1.2": "b493ed83623a7cba498d31a9d36beec233406f20377f1be3bb51d4ce3bd2ceef",
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
@@ -110,7 +110,7 @@
       "ipynb#0.2": "d3ec93f44fac7ddeb06e5419d0577321831cc903ecb176ca6be5015c55e9893a",
       "jira-wiki-markup#1.4.0": "f6d4614d8987a1b73d9ffe5539c03dac6b90990db6f13cc564e0798af4417d10",
       "libyaml#0.1.2": "7fb663b11fcdb86503c14aa81763106ea79b1048fc29a1fe44ec346d9ecac101",
-      "lifted-async#0.10.2.3": "f2d8686be29850211e303c204eb9b9e9a1b57abc6a46e8f113c3afd7d6572ce0",
+      "lifted-async#0.10.2.3": "360fde1b040a3ecbbdbf39dcc19e59f284881d3bf6c8b8894734a4d9519d50e3",
       "lifted-base#0.2.3.12": "e94ad0692c9c5d85c373e508f23654f2da8ac8c3e475c2b65ffbc04fb165ad69",
       "lpeg#1.0.4": "8da68d7309600b66cabac37e3349d41db7dc773c63fa0b67f745c272600e9b67",
       "lrucache#1.2.0.1": "18fc3d7052012c7ab3cd395160f34b53c5e1ec5379cc45185baf35b90ffadc2e",
@@ -175,7 +175,7 @@
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
       "type-equality#1": "556006736473a9a4434591812e7106b1db2389faf364a9eaf87d5b4305921b56",
       "typed-process#0.2.11.0": "defde2c4dcd07750381d6e15ee7a517938c8d6353abcf27bba9f290e75a67d39",
-      "unicode-collation#0.1.3.3": "28bf15f9d518c75032c16d5de624e80547a9466bb4227c6b7401c1ae4cfd6e1b",
+      "unicode-collation#0.1.3.4": "a9064aec5562ace68bc632090329b26b27d9e3385a9014d806270bdee632faec",
       "unicode-data#0.4.0.1": "081e269b48f2d8511579a6dd1aa5f5c2f940e63d9bafec5fb911c11e32b27ad3",
       "unicode-transforms#0.4.0.1": "adffd08a043cbf633e9574c35e206315bb07e73ed3886a91472d3cf208d8a6c3",
       "uniplate#1.6.13": "c8b715570d0b4baa72512e677552dd3f98372a64bf9de000e779bd4162fd7be7",
@@ -407,7 +407,7 @@
         [ "pandoc-types", "1.22.2.1" ],
         [ "safe", "0.3.19" ],
         [ "scientific", "0.3.7.0" ],
-        [ "unicode-collation", "0.1.3.3" ],
+        [ "unicode-collation", "0.1.3.4" ],
         [ "uniplate", "1.6.13" ],
         [ "vector", "0.12.3.1" ],
         [ "xml-conduit", "1.9.1.1" ]
@@ -759,7 +759,7 @@
       ]
     },
     "http2": {
-      "4.0.0": [
+      "4.1.0": [
         [ "async", "2.2.4" ],
         [ "case-insensitive", "1.2.1.0" ],
         [ "http-types", "0.12.3" ],
@@ -923,7 +923,7 @@
         [ "temporary", "1.3" ],
         [ "texmath", "0.12.4" ],
         [ "text-conversions", "0.3.1.1" ],
-        [ "unicode-collation", "0.1.3.3" ],
+        [ "unicode-collation", "0.1.3.4" ],
         [ "unicode-transforms", "0.4.0.1" ],
         [ "xml", "1.3.14" ],
         [ "xml-conduit", "1.9.1.1" ],
@@ -1190,7 +1190,7 @@
       ]
     },
     "unicode-collation": {
-      "0.1.3.3": [
+      "0.1.3.4": [
         [ "th-lift-instances", "0.1.20" ]
       ]
     },
@@ -1257,6 +1257,8 @@
     },
     "wai-app-static": {
       "3.1.7.4": [
+        [ "mime-types", "0.1.1.0" ],
+        [ "wai-app-static", "3.1.7.4" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "blaze-markup", "0.8.2.8" ],
         [ "cryptonite", "0.30" ],
@@ -1272,9 +1274,7 @@
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
         [ "warp", "3.3.25" ],
-        [ "zlib", "0.6.3.0" ],
-        [ "mime-types", "0.1.1.0" ],
-        [ "wai-app-static", "3.1.7.4" ]
+        [ "zlib", "0.6.3.0" ]
       ]
     },
     "wai-extra": {
@@ -1318,7 +1318,7 @@
         [ "hashable", "1.4.2.0" ],
         [ "http-date", "0.0.11" ],
         [ "http-types", "0.12.3" ],
-        [ "http2", "4.0.0" ],
+        [ "http2", "4.1.0" ],
         [ "iproute", "1.7.12" ],
         [ "network", "3.1.2.8" ],
         [ "recv", "0.1.0" ],
@@ -2068,10 +2068,10 @@
       }
     },
     "http2": {
-      "4.0.0": {
-        "hash": "sha256:eb9b7f0690aec4839792544fc3ccc4f6f141fe3f4f2952a19c3abed3e70479bf",
+      "4.1.0": {
+        "hash": "sha256:6da8bbdab1c82a3c005c6aceff2d8b0d2e715e55c059dcc4ba61ce14da8e1d4d",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/http2-4.0.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/http2-4.1.0.tar.gz"
       }
     },
     "indexed-traversable": {
@@ -2579,10 +2579,10 @@
       }
     },
     "unicode-collation": {
-      "0.1.3.3": {
-        "hash": "sha256:74ef9c21f0a0491144369812a378f7b42f2b34992cdec77f1892630ca66eac46",
+      "0.1.3.4": {
+        "hash": "sha256:b08dbe9bb269d6eda2639cdfc63caee136794f46c16a1ad51b5305dd2ea6d429",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/unicode-collation-0.1.3.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/unicode-collation-0.1.3.4.tar.gz"
       }
     },
     "unicode-data": {
