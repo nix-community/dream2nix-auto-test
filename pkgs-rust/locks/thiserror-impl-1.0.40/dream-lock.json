@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "serde",
+    "defaultPackage": "thiserror-impl",
     "location": "",
     "packages": {
-      "serde": "1.0.156"
+      "thiserror-impl": "1.0.40"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "serde": {
-        "1.0.156": {
-          "description": "A generic serialization/deserialization framework", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
+      "thiserror-impl": {
+        "1.0.40": {
+          "description": "Implementation detail of the `thiserror` crate", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "serde": {
-        "1.0.156": {}
+      "thiserror-impl": {
+        "1.0.40": {}
       }
     }
   },
@@ -36,23 +36,18 @@
         [ "proc-macro2", "1.0.52" ]
       ]
     },
-    "serde": {
-      "1.0.156": [
-        [ "serde_derive", "1.0.156" ]
-      ]
-    },
-    "serde_derive": {
-      "1.0.156": [
-        [ "proc-macro2", "1.0.52" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
-      ]
-    },
     "syn": {
-      "1.0.109": [
+      "2.0.0": [
         [ "proc-macro2", "1.0.52" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
+      ]
+    },
+    "thiserror-impl": {
+      "1.0.40": [
+        [ "proc-macro2", "1.0.52" ],
+        [ "quote", "1.0.26" ],
+        [ "syn", "2.0.0" ]
       ]
     }
   },
@@ -69,21 +64,15 @@
         "type": "crates-io"
       }
     },
-    "serde": {
-      "1.0.156": {
-        "hash": "314b5b092c0ade17c00142951e50ced110ec27cea304b1037c6969246c2469a4",
-        "type": "crates-io"
-      }
-    },
-    "serde_derive": {
-      "1.0.156": {
-        "hash": "d7e29c4601e36bcec74a223228dce795f4cd3616341a4af93520ca1a837c087d",
-        "type": "crates-io"
-      }
-    },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.0": {
+        "hash": "4cff13bb1732bccfe3b246f3fdb09edfd51c01d6f5299b7ccd9457c2e4e37774",
+        "type": "crates-io"
+      }
+    },
+    "thiserror-impl": {
+      "1.0.40": {
+        "hash": "f9456a42c5b0d803c8cd86e73dd7cc9edd429499f37a3550d286d5e86720569f",
         "type": "crates-io"
       }
     },

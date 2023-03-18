@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "thiserror-impl",
+    "defaultPackage": "serde",
     "location": "",
     "packages": {
-      "thiserror-impl": "1.0.39"
+      "serde": "1.0.157"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "thiserror-impl": {
-        "1.0.39": {
-          "description": "Implementation detail of the `thiserror` crate", "license": [   "mit",   "asl20"
+      "serde": {
+        "1.0.157": {
+          "description": "A generic serialization/deserialization framework", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "thiserror-impl": {
-        "1.0.39": {}
+      "serde": {
+        "1.0.157": {}
       }
     }
   },
@@ -36,18 +36,23 @@
         [ "proc-macro2", "1.0.52" ]
       ]
     },
+    "serde": {
+      "1.0.157": [
+        [ "serde_derive", "1.0.157" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.157": [
+        [ "proc-macro2", "1.0.52" ],
+        [ "quote", "1.0.26" ],
+        [ "syn", "2.0.0" ]
+      ]
+    },
     "syn": {
-      "1.0.109": [
+      "2.0.0": [
         [ "proc-macro2", "1.0.52" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
-      ]
-    },
-    "thiserror-impl": {
-      "1.0.39": [
-        [ "proc-macro2", "1.0.52" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
       ]
     }
   },
@@ -64,15 +69,21 @@
         "type": "crates-io"
       }
     },
-    "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+    "serde": {
+      "1.0.157": {
+        "hash": "707de5fcf5df2b5788fca98dd7eab490bc2fd9b7ef1404defc462833b83f25ca",
         "type": "crates-io"
       }
     },
-    "thiserror-impl": {
-      "1.0.39": {
-        "hash": "5420d42e90af0c38c3290abcca25b9b3bdf379fc9f55c528f53a269d9c9a267e",
+    "serde_derive": {
+      "1.0.157": {
+        "hash": "78997f4555c22a7971214540c4a661291970619afd56de19f77e0de86296e1e5",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "2.0.0": {
+        "hash": "4cff13bb1732bccfe3b246f3fdb09edfd51c01d6f5299b7ccd9457c2e4e37774",
         "type": "crates-io"
       }
     },

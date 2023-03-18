@@ -3,7 +3,7 @@
     "defaultPackage": "anyhow",
     "location": "",
     "packages": {
-      "anyhow": "1.0.69"
+      "anyhow": "1.0.70"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "anyhow": {
-        "1.0.69": {
+        "1.0.70": {
           "description": "Flexible concrete Error type built on std::error::Error", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "anyhow": {
-        "1.0.69": {}
+        "1.0.70": {}
       }
     }
   },
@@ -32,12 +32,12 @@
       ]
     },
     "anyhow": {
-      "1.0.69": [
+      "1.0.70": [
         [ "backtrace", "0.3.67" ],
         [ "futures", "0.3.27" ],
         [ "rustversion", "1.0.12" ],
-        [ "syn", "1.0.109" ],
-        [ "thiserror", "1.0.39" ],
+        [ "syn", "2.0.0" ],
+        [ "thiserror", "1.0.40" ],
         [ "trybuild", "1.0.79" ]
       ]
     },
@@ -54,7 +54,7 @@
     },
     "basic-toml": {
       "0.1.2": [
-        [ "serde", "1.0.156" ]
+        [ "serde", "1.0.157" ]
       ]
     },
     "futures": {
@@ -103,21 +103,21 @@
       ]
     },
     "serde_derive": {
-      "1.0.156": [
+      "1.0.157": [
         [ "proc-macro2", "1.0.52" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.0" ]
       ]
     },
     "serde_json": {
       "1.0.94": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.156" ]
+        [ "serde", "1.0.157" ]
       ]
     },
     "syn": {
-      "1.0.109": [
+      "2.0.0": [
         [ "proc-macro2", "1.0.52" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
@@ -129,15 +129,15 @@
       ]
     },
     "thiserror": {
-      "1.0.39": [
-        [ "thiserror-impl", "1.0.39" ]
+      "1.0.40": [
+        [ "thiserror-impl", "1.0.40" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.39": [
+      "1.0.40": [
         [ "proc-macro2", "1.0.52" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.0" ]
       ]
     },
     "trybuild": {
@@ -146,8 +146,8 @@
         [ "dissimilar", "1.0.6" ],
         [ "glob", "0.3.1" ],
         [ "once_cell", "1.17.1" ],
-        [ "serde", "1.0.156" ],
-        [ "serde_derive", "1.0.156" ],
+        [ "serde", "1.0.157" ],
+        [ "serde_derive", "1.0.157" ],
         [ "serde_json", "1.0.94" ],
         [ "termcolor", "1.2.0" ]
       ]
@@ -178,8 +178,8 @@
       }
     },
     "anyhow": {
-      "1.0.69": {
-        "hash": "224afbd727c3d6e4b90103ece64b8d1b67fbb1973b1046c2281eed3f3803f800",
+      "1.0.70": {
+        "hash": "7de8ce5e0f9f8d88245311066a578d72b7af3e7088f32783804676302df237e4",
         "type": "crates-io"
       }
     },
@@ -346,14 +346,14 @@
       }
     },
     "serde": {
-      "1.0.156": {
-        "hash": "314b5b092c0ade17c00142951e50ced110ec27cea304b1037c6969246c2469a4",
+      "1.0.157": {
+        "hash": "707de5fcf5df2b5788fca98dd7eab490bc2fd9b7ef1404defc462833b83f25ca",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.156": {
-        "hash": "d7e29c4601e36bcec74a223228dce795f4cd3616341a4af93520ca1a837c087d",
+      "1.0.157": {
+        "hash": "78997f4555c22a7971214540c4a661291970619afd56de19f77e0de86296e1e5",
         "type": "crates-io"
       }
     },
@@ -364,8 +364,8 @@
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.0": {
+        "hash": "4cff13bb1732bccfe3b246f3fdb09edfd51c01d6f5299b7ccd9457c2e4e37774",
         "type": "crates-io"
       }
     },
@@ -376,14 +376,14 @@
       }
     },
     "thiserror": {
-      "1.0.39": {
-        "hash": "a5ab016db510546d856297882807df8da66a16fb8c4101cb8b30054b0d5b2d9c",
+      "1.0.40": {
+        "hash": "978c9a314bd8dc99be594bc3c175faaa9794be04a5a5e153caba6915336cebac",
         "type": "crates-io"
       }
     },
     "thiserror-impl": {
-      "1.0.39": {
-        "hash": "5420d42e90af0c38c3290abcca25b9b3bdf379fc9f55c528f53a269d9c9a267e",
+      "1.0.40": {
+        "hash": "f9456a42c5b0d803c8cd86e73dd7cc9edd429499f37a3550d286d5e86720569f",
         "type": "crates-io"
       }
     },
