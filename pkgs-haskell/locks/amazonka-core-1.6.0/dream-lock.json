@@ -14,7 +14,7 @@
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "adjunctions#4.4.2": "f77a007099851b948f6c98acc49753f4ec19ec234471acfce50386ec50402846",
-      "aeson#2.1.2.1": "c84e594479f5ec677caade363eaa2ef4b9fdc6fae33ed071c6eb8602cac3d39b",
+      "aeson#2.1.2.1": "5b8d62a60963a925c4d123a46e42a8e235a32188522c9f119f64ac228c2612a7",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "asn1-encoding#0.9.6": "27ed8f6043aed79630313bb931f7c8e2b510f0b4586cd55c16ae040c7d1ea098",
@@ -23,8 +23,8 @@
       "assoc#1.1": "ac83c915110288bca295386daf834936b9fd16d654bea8d8898bf091626c5c82",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
-      "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
-      "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
+      "base-compat#0.13.0": "5ebd0e68acc0de64a945bf0bebcd39d4869a4ea3618cdd5ec639aac527bf599e",
+      "base-compat-batteries#0.13.0": "bc348124f46ed073989389d3c91e21d4d595db76a1fa975665c84229a7332e28",
       "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
       "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
       "bifunctors#5.6.1": "85f00753e27513ba259385e22761d0a46fed6b9ef051c4604bd7e7e96beff4e6",
@@ -166,7 +166,7 @@
         [ "OneTuple", "0.4.1.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
-        [ "base-compat-batteries", "0.12.2" ],
+        [ "base-compat-batteries", "0.13.0" ],
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
         [ "generically", "0.1.1" ],
@@ -270,8 +270,10 @@
       ]
     },
     "base-compat-batteries": {
-      "0.12.2": [
-        [ "base-compat", "0.12.2" ]
+      "0.13.0": [
+        [ "OneTuple", "0.4.1.1" ],
+        [ "base-compat", "0.13.0" ],
+        [ "foldable1-classes-compat", "0.1" ]
       ]
     },
     "bifunctors": {
@@ -884,17 +886,17 @@
       }
     },
     "base-compat": {
-      "0.12.2": {
-        "hash": "sha256:a62adc883a5ac436f80e4ae02c3c56111cf1007492f267c291139a668d2150bd",
+      "0.13.0": {
+        "hash": "sha256:8bf66075da849a037974a7feb9d7ecd81ce57e4522a0df40daf11db14fcea30d",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-compat-0.12.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-compat-0.13.0.tar.gz"
       }
     },
     "base-compat-batteries": {
-      "0.12.2": {
-        "hash": "sha256:ede9092e07f904e0759160bf1ecd3fb7eb043bae6dc89a37c3dc94829ec5eb99",
+      "0.13.0": {
+        "hash": "sha256:3768af40d1d64f9b0845a8ddb18e63ba3a4c765d0d96db9dc28b5b66d1232f98",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-compat-batteries-0.12.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-compat-batteries-0.13.0.tar.gz"
       }
     },
     "base-orphans": {

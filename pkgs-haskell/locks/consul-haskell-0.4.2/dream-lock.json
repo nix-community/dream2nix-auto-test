@@ -14,7 +14,7 @@
       "OneTuple#0.4.1.1": "be0324c77a0eaf1d48b771b7e86f2b19d53a9f5ecc6ab2c914dab7dad309c671",
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
-      "aeson#2.1.2.1": "c84e594479f5ec677caade363eaa2ef4b9fdc6fae33ed071c6eb8602cac3d39b",
+      "aeson#2.1.2.1": "5b8d62a60963a925c4d123a46e42a8e235a32188522c9f119f64ac228c2612a7",
       "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "appar#0.1.8": "a5d529bacbb74d566e4c5f9479af0637eac5957705f6db4d2670517489795de8",
@@ -24,8 +24,8 @@
       "assoc#1.1": "ac83c915110288bca295386daf834936b9fd16d654bea8d8898bf091626c5c82",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
-      "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
-      "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
+      "base-compat#0.13.0": "5ebd0e68acc0de64a945bf0bebcd39d4869a4ea3618cdd5ec639aac527bf599e",
+      "base-compat-batteries#0.13.0": "bc348124f46ed073989389d3c91e21d4d595db76a1fa975665c84229a7332e28",
       "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
       "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
       "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
@@ -63,7 +63,7 @@
       "indexed-traversable-instances#0.1.1.2": "b493ed83623a7cba498d31a9d36beec233406f20377f1be3bb51d4ce3bd2ceef",
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
       "iproute#1.7.12": "85d181599fab8ceebf4c849110ad571bea2834d6c8c95ae7da33856c42453f40",
-      "lifted-async#0.10.2.3": "360fde1b040a3ecbbdbf39dcc19e59f284881d3bf6c8b8894734a4d9519d50e3",
+      "lifted-async#0.10.2.4": "0626ec951073dedc4c712679a87065ae2eee34a53b803448dd47ba6b429bc83a",
       "lifted-base#0.2.3.12": "e94ad0692c9c5d85c373e508f23654f2da8ac8c3e475c2b65ffbc04fb165ad69",
       "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
       "mime-types#0.1.1.0": "c68f421c569e325ec4c5595a6916cc6336cf11c7f11bc569a62c6a32214454ad",
@@ -149,7 +149,7 @@
         [ "OneTuple", "0.4.1.1" ],
         [ "QuickCheck", "2.14.2" ],
         [ "attoparsec", "0.14.4" ],
-        [ "base-compat-batteries", "0.12.2" ],
+        [ "base-compat-batteries", "0.13.0" ],
         [ "data-fix", "0.3.2" ],
         [ "dlist", "1.0" ],
         [ "generically", "0.1.1" ],
@@ -215,8 +215,10 @@
       ]
     },
     "base-compat-batteries": {
-      "0.12.2": [
-        [ "base-compat", "0.12.2" ]
+      "0.13.0": [
+        [ "OneTuple", "0.4.1.1" ],
+        [ "base-compat", "0.13.0" ],
+        [ "foldable1-classes-compat", "0.1" ]
       ]
     },
     "bifunctors": {
@@ -270,7 +272,7 @@
         [ "http-client", "0.7.13.1" ],
         [ "http-client-tls", "0.3.6.1" ],
         [ "http-types", "0.12.3" ],
-        [ "lifted-async", "0.10.2.3" ],
+        [ "lifted-async", "0.10.2.4" ],
         [ "lifted-base", "0.2.3.12" ],
         [ "monad-control", "1.0.3.1" ],
         [ "network", "3.1.2.8" ],
@@ -384,7 +386,7 @@
       ]
     },
     "lifted-async": {
-      "0.10.2.3": [
+      "0.10.2.4": [
         [ "async", "2.2.4" ],
         [ "constraints", "0.13.4" ],
         [ "lifted-base", "0.2.3.12" ],
@@ -744,17 +746,17 @@
       }
     },
     "base-compat": {
-      "0.12.2": {
-        "hash": "sha256:a62adc883a5ac436f80e4ae02c3c56111cf1007492f267c291139a668d2150bd",
+      "0.13.0": {
+        "hash": "sha256:8bf66075da849a037974a7feb9d7ecd81ce57e4522a0df40daf11db14fcea30d",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-compat-0.12.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-compat-0.13.0.tar.gz"
       }
     },
     "base-compat-batteries": {
-      "0.12.2": {
-        "hash": "sha256:ede9092e07f904e0759160bf1ecd3fb7eb043bae6dc89a37c3dc94829ec5eb99",
+      "0.13.0": {
+        "hash": "sha256:3768af40d1d64f9b0845a8ddb18e63ba3a4c765d0d96db9dc28b5b66d1232f98",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-compat-batteries-0.12.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-compat-batteries-0.13.0.tar.gz"
       }
     },
     "base-orphans": {
@@ -1024,10 +1026,10 @@
       }
     },
     "lifted-async": {
-      "0.10.2.3": {
-        "hash": "sha256:51ed64e9f5c9c585dc5897288977fca759eb2bdb22aae91f2ac37d962e3309cf",
+      "0.10.2.4": {
+        "hash": "sha256:9bed4dee15f40c35a4d92a2d8ca29e4a9fe7904a5b773486dfef58040a3ebe5d",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/lifted-async-0.10.2.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/lifted-async-0.10.2.4.tar.gz"
       }
     },
     "lifted-base": {
