@@ -3,7 +3,7 @@
     "defaultPackage": "ordered-float",
     "location": "",
     "packages": {
-      "ordered-float": "3.4.0"
+      "ordered-float": "3.6.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "ordered-float": {
-        "3.4.0": {
+        "3.6.0": {
           "description": "Wrappers for total ordering on floats", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "ordered-float": {
-        "3.4.0": {}
+        "3.6.0": {}
       }
     }
   },
@@ -62,14 +62,14 @@
       ]
     },
     "io-lifetimes": {
-      "1.0.8": [
+      "1.0.9": [
         [ "hermit-abi", "0.3.1" ],
         [ "libc", "0.2.140" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
     "memoffset": {
-      "0.7.1": [
+      "0.8.0": [
         [ "autocfg", "1.1.0" ]
       ]
     },
@@ -80,7 +80,7 @@
       ]
     },
     "ordered-float": {
-      "3.4.0": [
+      "3.6.0": [
         [ "arbitrary", "1.3.0" ],
         [ "bytemuck", "1.13.1" ],
         [ "num-traits", "0.2.15" ],
@@ -88,9 +88,9 @@
         [ "rand", "0.8.5" ],
         [ "rkyv", "0.7.40" ],
         [ "schemars", "0.8.12" ],
-        [ "serde", "1.0.157" ],
-        [ "serde_test", "1.0.157" ],
-        [ "speedy", "0.8.5" ]
+        [ "serde", "1.0.158" ],
+        [ "serde_test", "1.0.158" ],
+        [ "speedy", "0.8.6" ]
       ]
     },
     "proc-macro2": {
@@ -175,10 +175,10 @@
       ]
     },
     "rustix": {
-      "0.36.10": [
+      "0.36.11": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.2.8" ],
-        [ "io-lifetimes", "1.0.8" ],
+        [ "io-lifetimes", "1.0.9" ],
         [ "libc", "0.2.140" ],
         [ "linux-raw-sys", "0.1.4" ],
         [ "windows-sys", "0.45.0" ]
@@ -196,7 +196,7 @@
       "0.8.12": [
         [ "dyn-clone", "1.0.11" ],
         [ "schemars_derive", "0.8.12" ],
-        [ "serde", "1.0.157" ],
+        [ "serde", "1.0.158" ],
         [ "serde_json", "1.0.94" ]
       ]
     },
@@ -209,15 +209,15 @@
       ]
     },
     "serde": {
-      "1.0.157": [
-        [ "serde_derive", "1.0.157" ]
+      "1.0.158": [
+        [ "serde_derive", "1.0.158" ]
       ]
     },
     "serde_derive": {
-      "1.0.157": [
+      "1.0.158": [
         [ "proc-macro2", "1.0.52" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.2" ]
+        [ "syn", "2.0.4" ]
       ]
     },
     "serde_derive_internals": {
@@ -231,17 +231,17 @@
       "1.0.94": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.157" ]
+        [ "serde", "1.0.158" ]
       ]
     },
     "serde_test": {
-      "1.0.157": [
-        [ "serde", "1.0.157" ]
+      "1.0.158": [
+        [ "serde", "1.0.158" ]
       ]
     },
     "speedy": {
-      "0.8.5": [
-        [ "memoffset", "0.7.1" ]
+      "0.8.6": [
+        [ "memoffset", "0.8.0" ]
       ]
     },
     "syn": {
@@ -250,7 +250,7 @@
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ],
-      "2.0.2": [
+      "2.0.4": [
         [ "proc-macro2", "1.0.52" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
@@ -261,7 +261,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.2.16" ],
-        [ "rustix", "0.36.10" ],
+        [ "rustix", "0.36.11" ],
         [ "windows-sys", "0.42.0" ]
       ]
     },
@@ -406,8 +406,8 @@
       }
     },
     "io-lifetimes": {
-      "1.0.8": {
-        "hash": "0dd6da19f25979c7270e70fa95ab371ec3b701cd0eefc47667a09785b3c59155",
+      "1.0.9": {
+        "hash": "09270fd4fa1111bc614ed2246c7ef56239a3063d5be0d1ec3b589c505d400aeb",
         "type": "crates-io"
       }
     },
@@ -442,8 +442,8 @@
       }
     },
     "memoffset": {
-      "0.7.1": {
-        "hash": "5de893c32cde5f383baa4c04c5d6dbdd735cfd4a794b0debdb2bb1b421da5ff4",
+      "0.8.0": {
+        "hash": "d61c719bcfbcf5d62b3a09efa6088de8c54bc0bfcd3ea7ae39fcc186108b8de1",
         "type": "crates-io"
       }
     },
@@ -454,8 +454,8 @@
       }
     },
     "ordered-float": {
-      "3.4.0": {
-        "hash": "d84eb1409416d254e4a9c8fa56cc24701755025b458f0fcd8e59e1f5f40c23bf",
+      "3.6.0": {
+        "hash": "13a384337e997e6860ffbaa83708b2ef329fd8c54cb67a5f64d421e0f943254f",
         "type": "crates-io"
       }
     },
@@ -554,8 +554,8 @@
       }
     },
     "rustix": {
-      "0.36.10": {
-        "hash": "2fe885c3a125aa45213b68cc1472a49880cb5923dc23f522ad2791b882228778",
+      "0.36.11": {
+        "hash": "db4165c9963ab29e422d6c26fbc1d37f15bace6b2810221f9d925023480fcf0e",
         "type": "crates-io"
       }
     },
@@ -590,14 +590,14 @@
       }
     },
     "serde": {
-      "1.0.157": {
-        "hash": "707de5fcf5df2b5788fca98dd7eab490bc2fd9b7ef1404defc462833b83f25ca",
+      "1.0.158": {
+        "hash": "771d4d9c4163ee138805e12c710dd365e4f44be8be0503cb1bb9eb989425d9c9",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.157": {
-        "hash": "78997f4555c22a7971214540c4a661291970619afd56de19f77e0de86296e1e5",
+      "1.0.158": {
+        "hash": "e801c1712f48475582b7696ac71e0ca34ebb30e09338425384269d9717c62cad",
         "type": "crates-io"
       }
     },
@@ -614,14 +614,14 @@
       }
     },
     "serde_test": {
-      "1.0.157": {
-        "hash": "4231c6fab29d02b3cc705db3422aa36f7d23f1e1c096c947c8b8816d7c43dd45",
+      "1.0.158": {
+        "hash": "f6938f32e516ec5ec98e274149de16c0d5f31b463f0927019f5e8a092fc81f6f",
         "type": "crates-io"
       }
     },
     "speedy": {
-      "0.8.5": {
-        "hash": "37d686619bd990cf4d94762d6a2ea473f5a8abe206c9289417bf2945dbff9909",
+      "0.8.6": {
+        "hash": "7642861d1a1569b105c57008df95fb12ba648f7f90358f46e99bdfbf26729b84",
         "type": "crates-io"
       }
     },
@@ -630,8 +630,8 @@
         "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
         "type": "crates-io"
       },
-      "2.0.2": {
-        "hash": "59d3276aee1fa0c33612917969b5172b5be2db051232a6e4826f1a1a9191b045",
+      "2.0.4": {
+        "hash": "2c622ae390c9302e214c31013517c2061ecb2699935882c60a9b37f82f8625ae",
         "type": "crates-io"
       }
     },
