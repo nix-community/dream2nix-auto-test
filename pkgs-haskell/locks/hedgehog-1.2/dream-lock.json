@@ -10,7 +10,8 @@
   },
   "_subsystem": {
     "cabalHashes": {
-      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
       "barbies#2.0.4.0": "2b1ed8b14e6ee1b5cbf81495ca5f8ff9bde519d4cec778fcdb05fdd645610716",
       "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
@@ -60,7 +61,13 @@
   },
   "dependencies": {
     "ansi-terminal": {
-      "0.11.4": [
+      "0.11.5": [
+        [ "ansi-terminal-types", "0.11.5" ],
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-terminal-types": {
+      "0.11.5": [
         [ "colour", "2.3.6" ]
       ]
     },
@@ -76,7 +83,7 @@
     },
     "concurrent-output": {
       "1.10.17": [
-        [ "ansi-terminal", "0.11.4" ],
+        [ "ansi-terminal", "0.11.5" ],
         [ "async", "2.2.4" ],
         [ "terminal-size", "0.3.4" ]
       ]
@@ -102,7 +109,7 @@
     },
     "hedgehog": {
       "1.2": [
-        [ "ansi-terminal", "0.11.4" ],
+        [ "ansi-terminal", "0.11.5" ],
         [ "async", "2.2.4" ],
         [ "barbies", "2.0.4.0" ],
         [ "concurrent-output", "1.10.17" ],
@@ -179,10 +186,17 @@
   },
   "sources": {
     "ansi-terminal": {
-      "0.11.4": {
-        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+      "0.11.5": {
+        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+      }
+    },
+    "ansi-terminal-types": {
+      "0.11.5": {
+        "hash": "sha256:bf7b230389f43105100a6d5740822598a88b38eaaf7d042de595ccf72db4fdd1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-types-0.11.5.tar.gz"
       }
     },
     "async": {

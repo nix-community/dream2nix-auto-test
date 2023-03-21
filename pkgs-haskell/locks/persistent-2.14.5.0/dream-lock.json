@@ -17,7 +17,8 @@
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "aeson#2.1.2.1": "5b8d62a60963a925c4d123a46e42a8e235a32188522c9f119f64ac228c2612a7",
-      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "assoc#1.1": "ac83c915110288bca295386daf834936b9fd16d654bea8d8898bf091626c5c82",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
@@ -30,7 +31,7 @@
       "base64-bytestring#1.2.1.0": "50ec0e229255d4c45cbdd568da011311b8887f304b931564886016f4984334d8",
       "bifunctors#5.6.1": "85f00753e27513ba259385e22761d0a46fed6b9ef051c4604bd7e7e96beff4e6",
       "binary-orphans#1.0.4.1": "14959d902b173a9c19491ff6777c7d06292b8bff31d55cd1749c4417885d2ee1",
-      "bitvec#1.1.3.0": "54fea850c9e3d3f8f771d569c0c2b339f2dea1085b6cb9da108bce6594dc9682",
+      "bitvec#1.1.4.0": "8991eec6409f181bd6ccb20e24ac759659940170cd00ca530ec7dd5ffa4f30fc",
       "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
       "blaze-html#0.9.1.2": "74b89ffa665891f528f571ce9e3c2dce24f698563f14b6f5e9e0512eccdf5dc2",
       "blaze-markup#0.8.2.8": "a8fe050fb93397df36c3f5b19c22628e0e54446382e0f6775e2b45c1ad999eee",
@@ -64,7 +65,7 @@
       "hspec-core#2.10.10": "bae1103f33c601482fa20f80de4556f822ff8f3f344339fd6421f34b5939768d",
       "hspec-discover#2.10.10": "a8839a91db8e0afc97fe79a5b494468a5e83d4ad6b438706ac75c7bf0f53cd56",
       "hspec-expectations#0.8.2": "e2db24881baadc2d9d23b03cb629e80dcbda89a6b04ace9adb5f4d02ef8b31aa",
-      "http-api-data#0.5": "f304551bbdbf3d7ca842fd9e12516a673bf0ea41bfabd6c3c68c0054295098bd",
+      "http-api-data#0.5.1": "31d945aebe9839d005f91703af9df5bd1efe5377060c950f9ec637f84c73a2a5",
       "http-types#0.12.3": "f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9",
       "indexed-traversable#0.1.2.1": "154b4649199a602dea948a93cb34a6c4be71576c4f78410733dd9f6bc79b6e0b",
       "indexed-traversable-instances#0.1.1.2": "b493ed83623a7cba498d31a9d36beec233406f20377f1be3bb51d4ce3bd2ceef",
@@ -207,13 +208,19 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.4": [
+      "0.11.5": [
+        [ "ansi-terminal-types", "0.11.5" ],
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-terminal-types": {
+      "0.11.5": [
         [ "colour", "2.3.6" ]
       ]
     },
     "ansi-wl-pprint": {
       "0.6.9": [
-        [ "ansi-terminal", "0.11.4" ]
+        [ "ansi-terminal", "0.11.5" ]
       ]
     },
     "assoc": {
@@ -260,7 +267,7 @@
       ]
     },
     "bitvec": {
-      "1.1.3.0": [
+      "1.1.4.0": [
         [ "primitive", "0.8.0.0" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -419,7 +426,7 @@
       "2.10.10": [
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
-        [ "ansi-terminal", "0.11.4" ],
+        [ "ansi-terminal", "0.11.5" ],
         [ "call-stack", "0.4.0" ],
         [ "haskell-lexer", "1.1.1" ],
         [ "hspec-expectations", "0.8.2" ],
@@ -441,7 +448,7 @@
       ]
     },
     "http-api-data": {
-      "0.5": [
+      "0.5.1": [
         [ "attoparsec", "0.14.4" ],
         [ "attoparsec-iso8601", "1.1.0.0" ],
         [ "base-compat", "0.12.2" ],
@@ -550,7 +557,7 @@
         [ "blaze-html", "0.9.1.2" ],
         [ "conduit", "1.3.4.3" ],
         [ "fast-logger", "3.2.1" ],
-        [ "http-api-data", "0.5" ],
+        [ "http-api-data", "0.5.1" ],
         [ "lift-type", "0.1.1.1" ],
         [ "monad-logger", "0.3.39" ],
         [ "path-pieces", "0.2.1" ],
@@ -575,7 +582,7 @@
         [ "conduit", "1.3.4.3" ],
         [ "fast-logger", "3.2.1" ],
         [ "hspec", "2.10.10" ],
-        [ "http-api-data", "0.5" ],
+        [ "http-api-data", "0.5.1" ],
         [ "monad-logger", "0.3.39" ],
         [ "path-pieces", "0.2.1" ],
         [ "persistent", "2.14.5.0" ],
@@ -806,7 +813,7 @@
     },
     "vector-algorithms": {
       "0.9.0.1": [
-        [ "bitvec", "1.1.3.0" ],
+        [ "bitvec", "1.1.4.0" ],
         [ "primitive", "0.8.0.0" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -883,10 +890,17 @@
       }
     },
     "ansi-terminal": {
-      "0.11.4": {
-        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+      "0.11.5": {
+        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+      }
+    },
+    "ansi-terminal-types": {
+      "0.11.5": {
+        "hash": "sha256:bf7b230389f43105100a6d5740822598a88b38eaaf7d042de595ccf72db4fdd1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-types-0.11.5.tar.gz"
       }
     },
     "ansi-wl-pprint": {
@@ -974,10 +988,10 @@
       }
     },
     "bitvec": {
-      "1.1.3.0": {
-        "hash": "sha256:1c4c3af50a1fcf46e46e2fa9e0493fffaf62de3607ae7553d18015f8a1a60551",
+      "1.1.4.0": {
+        "hash": "sha256:68f0b1e01604ca8bdeaef47b3621faec456d6f76d6820a321eccd4d3749454a8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bitvec-1.1.3.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/bitvec-1.1.4.0.tar.gz"
       }
     },
     "blaze-builder": {
@@ -1212,10 +1226,10 @@
       }
     },
     "http-api-data": {
-      "0.5": {
-        "hash": "sha256:f7edb4202cd6567e9ec5cda94dec0a823ca0ef00cf2fd7ec2cf80d946776b73f",
+      "0.5.1": {
+        "hash": "sha256:6166c64824e139a2727cc31af44d0077f66eb3921a20973bc6e98ff9fb77122b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/http-api-data-0.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/http-api-data-0.5.1.tar.gz"
       }
     },
     "http-types": {

@@ -19,7 +19,8 @@
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "active#0.2.0.16": "c892097f30adbb891035b703fee2b7d5668d513cbb21975f2e8e045672e6ce33",
       "adjunctions#4.4.2": "f77a007099851b948f6c98acc49753f4ec19ec234471acfce50386ec50402846",
-      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "assoc#1.1": "ac83c915110288bca295386daf834936b9fd16d654bea8d8898bf091626c5c82",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
@@ -160,13 +161,19 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.4": [
+      "0.11.5": [
+        [ "ansi-terminal-types", "0.11.5" ],
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-terminal-types": {
+      "0.11.5": [
         [ "colour", "2.3.6" ]
       ]
     },
     "ansi-wl-pprint": {
       "0.6.9": [
-        [ "ansi-terminal", "0.11.4" ]
+        [ "ansi-terminal", "0.11.5" ]
       ]
     },
     "assoc": {
@@ -683,10 +690,17 @@
       }
     },
     "ansi-terminal": {
-      "0.11.4": {
-        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+      "0.11.5": {
+        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+      }
+    },
+    "ansi-terminal-types": {
+      "0.11.5": {
+        "hash": "sha256:bf7b230389f43105100a6d5740822598a88b38eaaf7d042de595ccf72db4fdd1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-types-0.11.5.tar.gz"
       }
     },
     "ansi-wl-pprint": {

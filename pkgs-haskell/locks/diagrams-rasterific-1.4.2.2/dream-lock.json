@@ -17,14 +17,15 @@
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "active#0.2.0.16": "c892097f30adbb891035b703fee2b7d5668d513cbb21975f2e8e045672e6ce33",
       "adjunctions#4.4.2": "f77a007099851b948f6c98acc49753f4ec19ec234471acfce50386ec50402846",
-      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "assoc#1.0.2": "9decd0933cb6b903a40a8ace02d634bf90048ee2e5b0a514dccad7056c041881",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
       "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
       "bifunctors#5.5.15": "5ebaf9a1996de38ad9d77bec37a5585b6461b34f39446e8f1cadae7689a12bfd",
       "binary-orphans#1.0.4.1": "14959d902b173a9c19491ff6777c7d06292b8bff31d55cd1749c4417885d2ee1",
-      "bitvec#1.1.3.0": "54fea850c9e3d3f8f771d569c0c2b339f2dea1085b6cb9da108bce6594dc9682",
+      "bitvec#1.1.4.0": "8991eec6409f181bd6ccb20e24ac759659940170cd00ca530ec7dd5ffa4f30fc",
       "bytes#0.17.2": "317d07ae22a999341b373706db2a4ef03cd43f33c8b43db813afce919e323a3b",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "cereal#0.5.8.3": "87a227c7b510217ea059db3dd59d9665edd8f0d1d3d8de39458e371a1d9402fb",
@@ -148,13 +149,19 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.4": [
+      "0.11.5": [
+        [ "ansi-terminal-types", "0.11.5" ],
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-terminal-types": {
+      "0.11.5": [
         [ "colour", "2.3.6" ]
       ]
     },
     "ansi-wl-pprint": {
       "0.6.9": [
-        [ "ansi-terminal", "0.11.4" ]
+        [ "ansi-terminal", "0.11.5" ]
       ]
     },
     "assoc": {
@@ -183,7 +190,7 @@
       ]
     },
     "bitvec": {
-      "1.1.3.0": [
+      "1.1.4.0": [
         [ "primitive", "0.8.0.0" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -495,7 +502,7 @@
     },
     "vector-algorithms": {
       "0.9.0.1": [
-        [ "bitvec", "1.1.3.0" ],
+        [ "bitvec", "1.1.4.0" ],
         [ "primitive", "0.8.0.0" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -552,10 +559,17 @@
       }
     },
     "ansi-terminal": {
-      "0.11.4": {
-        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+      "0.11.5": {
+        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+      }
+    },
+    "ansi-terminal-types": {
+      "0.11.5": {
+        "hash": "sha256:bf7b230389f43105100a6d5740822598a88b38eaaf7d042de595ccf72db4fdd1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-types-0.11.5.tar.gz"
       }
     },
     "ansi-wl-pprint": {
@@ -601,10 +615,10 @@
       }
     },
     "bitvec": {
-      "1.1.3.0": {
-        "hash": "sha256:1c4c3af50a1fcf46e46e2fa9e0493fffaf62de3607ae7553d18015f8a1a60551",
+      "1.1.4.0": {
+        "hash": "sha256:68f0b1e01604ca8bdeaef47b3621faec456d6f76d6820a321eccd4d3749454a8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bitvec-1.1.3.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/bitvec-1.1.4.0.tar.gz"
       }
     },
     "bytes": {

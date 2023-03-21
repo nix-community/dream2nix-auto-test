@@ -17,7 +17,8 @@
       "adjunctions#4.4.2": "f77a007099851b948f6c98acc49753f4ec19ec234471acfce50386ec50402846",
       "aeson#2.1.2.1": "5b8d62a60963a925c4d123a46e42a8e235a32188522c9f119f64ac228c2612a7",
       "alex#3.2.7.1": "ab26a38cefae59403f746370e5a0c943b8d5bda098eb83f37052b2429ee780ce",
-      "ansi-terminal#0.11.4": "410737137c798e23339a08435a5511785ebf1db08700e37debbd7801cf73fc82",
+      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
       "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "appar#0.1.8": "a5d529bacbb74d566e4c5f9479af0637eac5957705f6db4d2670517489795de8",
       "asn1-encoding#0.9.6": "27ed8f6043aed79630313bb931f7c8e2b510f0b4586cd55c16ae040c7d1ea098",
@@ -35,7 +36,7 @@
       "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
       "basic-prelude#0.7.0": "efe61aec70e6f523435d46fcd18587f28febbb1bc7d20d20e5aa249d93ed9e96",
       "bifunctors#5.6.1": "85f00753e27513ba259385e22761d0a46fed6b9ef051c4604bd7e7e96beff4e6",
-      "bitvec#1.1.3.0": "54fea850c9e3d3f8f771d569c0c2b339f2dea1085b6cb9da108bce6594dc9682",
+      "bitvec#1.1.4.0": "8991eec6409f181bd6ccb20e24ac759659940170cd00ca530ec7dd5ffa4f30fc",
       "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
       "blaze-html#0.9.1.2": "74b89ffa665891f528f571ce9e3c2dce24f698563f14b6f5e9e0512eccdf5dc2",
       "blaze-markup#0.8.2.8": "a8fe050fb93397df36c3f5b19c22628e0e54446382e0f6775e2b45c1ad999eee",
@@ -88,7 +89,7 @@
       "hjsmin#0.2.0.4": "4e81260f019081f1bdd7e4e285b35f2f09eea83ff9cd721aaa4e0ba979228fa0",
       "hourglass#0.2.12": "e083f5e030dfebe432e30a9c0fa07a99a54eac992f622442646be561fd7a44e8",
       "hsc2hs#0.68.9": "115b8c34b9f83603cfd9eb8b1e2d7ac520da0a4a43d96be435f06ce01a7bc95e",
-      "http-api-data#0.5": "f304551bbdbf3d7ca842fd9e12516a673bf0ea41bfabd6c3c68c0054295098bd",
+      "http-api-data#0.5.1": "31d945aebe9839d005f91703af9df5bd1efe5377060c950f9ec637f84c73a2a5",
       "http-client#0.7.13.1": "6480749144f27919547733262f06a6ae3c759b57b692af53f9beb309d05a1699",
       "http-client-tls#0.3.6.1": "c986b98a06ddde487fcfe139f024717d9263c61037ff45a4c63dae93b290c27f",
       "http-conduit#2.3.8": "5a5f23a594dc47754d8670de5b6dffbdf1849417ce9f0a41c4d77ea52232c255",
@@ -280,13 +281,19 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.4": [
+      "0.11.5": [
+        [ "ansi-terminal-types", "0.11.5" ],
+        [ "colour", "2.3.6" ]
+      ]
+    },
+    "ansi-terminal-types": {
+      "0.11.5": [
         [ "colour", "2.3.6" ]
       ]
     },
     "ansi-wl-pprint": {
       "0.6.9": [
-        [ "ansi-terminal", "0.11.4" ]
+        [ "ansi-terminal", "0.11.5" ]
       ]
     },
     "asn1-encoding": {
@@ -352,7 +359,7 @@
       ]
     },
     "bitvec": {
-      "1.1.3.0": [
+      "1.1.4.0": [
         [ "primitive", "0.8.0.0" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -628,7 +635,7 @@
       ]
     },
     "http-api-data": {
-      "0.5": [
+      "0.5.1": [
         [ "attoparsec", "0.14.4" ],
         [ "attoparsec-iso8601", "1.1.0.0" ],
         [ "base-compat", "0.12.2" ],
@@ -870,7 +877,7 @@
         [ "blaze-html", "0.9.1.2" ],
         [ "conduit", "1.3.4.3" ],
         [ "fast-logger", "3.2.1" ],
-        [ "http-api-data", "0.5" ],
+        [ "http-api-data", "0.5.1" ],
         [ "lift-type", "0.1.1.1" ],
         [ "monad-logger", "0.3.39" ],
         [ "path-pieces", "0.2.1" ],
@@ -1127,7 +1134,7 @@
     },
     "vector-algorithms": {
       "0.9.0.1": [
-        [ "bitvec", "1.1.3.0" ],
+        [ "bitvec", "1.1.4.0" ],
         [ "primitive", "0.8.0.0" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -1152,8 +1159,6 @@
     },
     "wai-app-static": {
       "3.1.7.4": [
-        [ "mime-types", "0.1.1.0" ],
-        [ "wai-app-static", "3.1.7.4" ],
         [ "blaze-html", "0.9.1.2" ],
         [ "blaze-markup", "0.8.2.8" ],
         [ "cryptonite", "0.30" ],
@@ -1169,14 +1174,16 @@
         [ "wai", "3.2.3" ],
         [ "wai-extra", "3.1.13.0" ],
         [ "warp", "3.3.25" ],
-        [ "zlib", "0.6.3.0" ]
+        [ "zlib", "0.6.3.0" ],
+        [ "mime-types", "0.1.1.0" ],
+        [ "wai-app-static", "3.1.7.4" ]
       ]
     },
     "wai-extra": {
       "3.1.13.0": [
         [ "HUnit", "1.6.2.0" ],
         [ "aeson", "2.1.2.1" ],
-        [ "ansi-terminal", "0.11.4" ],
+        [ "ansi-terminal", "0.11.5" ],
         [ "base64-bytestring", "1.2.1.0" ],
         [ "call-stack", "0.4.0" ],
         [ "case-insensitive", "1.2.1.0" ],
@@ -1482,10 +1489,17 @@
       }
     },
     "ansi-terminal": {
-      "0.11.4": {
-        "hash": "sha256:7898e48f0a535c1857cde52c803f28096ba89759461fe4d157fd55dcdb420e25",
+      "0.11.5": {
+        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+      }
+    },
+    "ansi-terminal-types": {
+      "0.11.5": {
+        "hash": "sha256:bf7b230389f43105100a6d5740822598a88b38eaaf7d042de595ccf72db4fdd1",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/ansi-terminal-types-0.11.5.tar.gz"
       }
     },
     "ansi-wl-pprint": {
@@ -1608,10 +1622,10 @@
       }
     },
     "bitvec": {
-      "1.1.3.0": {
-        "hash": "sha256:1c4c3af50a1fcf46e46e2fa9e0493fffaf62de3607ae7553d18015f8a1a60551",
+      "1.1.4.0": {
+        "hash": "sha256:68f0b1e01604ca8bdeaef47b3621faec456d6f76d6820a321eccd4d3749454a8",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/bitvec-1.1.3.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/bitvec-1.1.4.0.tar.gz"
       }
     },
     "blaze-builder": {
@@ -1986,10 +2000,10 @@
       }
     },
     "http-api-data": {
-      "0.5": {
-        "hash": "sha256:f7edb4202cd6567e9ec5cda94dec0a823ca0ef00cf2fd7ec2cf80d946776b73f",
+      "0.5.1": {
+        "hash": "sha256:6166c64824e139a2727cc31af44d0077f66eb3921a20973bc6e98ff9fb77122b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/http-api-data-0.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/http-api-data-0.5.1.tar.gz"
       }
     },
     "http-client": {
