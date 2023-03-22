@@ -3,7 +3,7 @@
     "defaultPackage": "multimap",
     "location": "",
     "packages": {
-      "multimap": "0.8.3"
+      "multimap": "0.9.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,21 +12,22 @@
     "gitSources": [],
     "meta": {
       "multimap": {
-        "0.8.3": {
-          "description": "A multimap implementation.", "license": []
+        "0.9.0": {
+          "description": "A multimap implementation.", "license": [   "mit",   "asl20"
+          ]
         }
       }
     },
     "relPathReplacements": {
       "multimap": {
-        "0.8.3": {}
+        "0.9.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "multimap": {
-      "0.8.3": [
+      "0.9.0": [
         [ "serde", "1.0.158" ],
         [ "serde_test", "1.0.158" ]
       ]
@@ -39,8 +40,8 @@
   },
   "sources": {
     "multimap": {
-      "0.8.3": {
-        "hash": "e5ce46fe64a9d73be07dcbe690a38ce1b293be448fd8ce1e6c1b8062c9f72c6a",
+      "0.9.0": {
+        "hash": "70db9248a93dc36a36d9a47898caa007a32755c7ad140ec64eeeb50d5a730631",
         "type": "crates-io"
       }
     },
