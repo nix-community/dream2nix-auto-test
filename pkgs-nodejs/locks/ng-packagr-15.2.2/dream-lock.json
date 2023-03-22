@@ -237,7 +237,7 @@
     "autoprefixer": {
       "10.4.14": [
         [ "browserslist", "4.21.5" ],
-        [ "caniuse-lite", "1.0.30001468" ],
+        [ "caniuse-lite", "1.0.30001469" ],
         [ "fraction.js", "4.2.0" ],
         [ "normalize-range", "0.1.2" ],
         [ "picocolors", "1.0.0" ],
@@ -267,8 +267,8 @@
     },
     "browserslist": {
       "4.21.5": [
-        [ "caniuse-lite", "1.0.30001468" ],
-        [ "electron-to-chromium", "1.4.334" ],
+        [ "caniuse-lite", "1.0.30001469" ],
+        [ "electron-to-chromium", "1.4.335" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -280,10 +280,10 @@
       ]
     },
     "cacache": {
-      "17.0.4": [
+      "17.0.5": [
         [ "@npmcli/fs", "3.1.0" ],
         [ "fs-minipass", "3.0.1" ],
-        [ "glob", "8.1.0" ],
+        [ "glob", "9.3.1" ],
         [ "lru-cache", "7.18.3" ],
         [ "minipass", "4.2.5" ],
         [ "minipass-collect", "1.0.2" ],
@@ -421,6 +421,12 @@
         [ "inherits", "2.0.4" ],
         [ "minimatch", "5.1.6" ],
         [ "once", "1.4.0" ]
+      ],
+      "9.3.1": [
+        [ "fs.realpath", "1.0.0" ],
+        [ "minimatch", "7.4.2" ],
+        [ "minipass", "4.2.5" ],
+        [ "path-scurry", "1.6.2" ]
       ]
     },
     "glob-parent": {
@@ -529,6 +535,9 @@
       ],
       "5.1.6": [
         [ "brace-expansion", "2.0.1" ]
+      ],
+      "7.4.2": [
+        [ "brace-expansion", "2.0.1" ]
       ]
     },
     "minipass": {
@@ -572,7 +581,7 @@
         [ "ansi-colors", "4.1.3" ],
         [ "autoprefixer", "10.4.14" ],
         [ "browserslist", "4.21.5" ],
-        [ "cacache", "17.0.4" ],
+        [ "cacache", "17.0.5" ],
         [ "chokidar", "3.5.3" ],
         [ "commander", "10.0.0" ],
         [ "convert-source-map", "2.0.0" ],
@@ -667,8 +676,8 @@
         [ "browserslist", "4.21.5" ],
         [ "buffer", "5.7.1" ],
         [ "builtin-modules", "3.3.0" ],
-        [ "cacache", "17.0.4" ],
-        [ "caniuse-lite", "1.0.30001468" ],
+        [ "cacache", "17.0.5" ],
+        [ "caniuse-lite", "1.0.30001469" ],
         [ "chalk", "2.4.2" ],
         [ "chokidar", "3.5.3" ],
         [ "chownr", "2.0.0" ],
@@ -689,7 +698,7 @@
         [ "deepmerge", "4.3.1" ],
         [ "defaults", "1.0.4" ],
         [ "dependency-graph", "0.11.0" ],
-        [ "electron-to-chromium", "1.4.334" ],
+        [ "electron-to-chromium", "1.4.335" ],
         [ "emoji-regex", "8.0.0" ],
         [ "errno", "0.1.8" ],
         [ "esbuild", "0.17.12" ],
@@ -778,6 +787,7 @@
         [ "parse-node-version", "1.0.1" ],
         [ "path-exists", "4.0.0" ],
         [ "path-parse", "1.0.7" ],
+        [ "path-scurry", "1.6.2" ],
         [ "picocolors", "1.0.0" ],
         [ "picomatch", "2.3.1" ],
         [ "pify", "4.0.1" ],
@@ -874,6 +884,12 @@
     "p-map": {
       "4.0.0": [
         [ "aggregate-error", "3.1.0" ]
+      ]
+    },
+    "path-scurry": {
+      "1.6.2": [
+        [ "lru-cache", "7.18.3" ],
+        [ "minipass", "4.2.5" ]
       ]
     },
     "piscina": {
@@ -1581,17 +1597,17 @@
       }
     },
     "cacache": {
-      "17.0.4": {
-        "hash": "sha512-Z/nL3gU+zTUjz5pCA5vVjYM8pmaw2kxM7JEiE0fv3w77Wj+sFbi70CrBruUWH0uNcEdvLDixFpgA2JM4F4DBjA==",
+      "17.0.5": {
+        "hash": "sha512-Y/PRQevNSsjAPWykl9aeGz8Pr+OI6BYM9fYDNMvOkuUiG9IhG4LEmaYrZZZvioMUEQ+cBCxT0v8wrnCURccyKA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cacache/-/cacache-17.0.4.tgz"
+        "url": "https://registry.npmjs.org/cacache/-/cacache-17.0.5.tgz"
       }
     },
     "caniuse-lite": {
-      "1.0.30001468": {
-        "hash": "sha512-zgAo8D5kbOyUcRAgSmgyuvBkjrGk5CGYG5TYgFdpQv+ywcyEpo1LOWoG8YmoflGnh+V+UsNuKYedsoYs0hzV5A==",
+      "1.0.30001469": {
+        "hash": "sha512-Rcp7221ScNqQPP3W+lVOYDyjdR6dC+neEQCttoNr5bAyz54AboB4iwpnWgyi8P4YUsPybVzT4LgWiBbI3drL4g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001468.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001469.tgz"
       }
     },
     "chalk": {
@@ -1760,10 +1776,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.334": {
-        "hash": "sha512-laZ1odk+TRen6q0GeyQx/JEkpD3iSZT7ewopCpKqg9bTjP1l8XRfU3Bg20CFjNPZkp5+NDBl3iqd4o/kPO+Vew==",
+      "1.4.335": {
+        "hash": "sha512-l/eowQqTnrq3gu+WSrdfkhfNHnPgYqlKAwxz7MTOj6mom19vpEDHNXl6dxDxyTiYuhemydprKr/HCrHfgk+OfQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.334.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.335.tgz"
       }
     },
     "emoji-regex": {
@@ -1909,6 +1925,11 @@
         "hash": "sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/glob/-/glob-8.1.0.tgz"
+      },
+      "9.3.1": {
+        "hash": "sha512-qERvJb7IGsnkx6YYmaaGvDpf77c951hICMdWaFXyH3PlVob8sbPJJyJX0kWkiCWyXUzoy9UOTNjGg0RbD8bYIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/glob/-/glob-9.3.1.tgz"
       }
     },
     "glob-parent": {
@@ -2226,6 +2247,11 @@
         "hash": "sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==",
         "type": "http",
         "url": "https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz"
+      },
+      "7.4.2": {
+        "hash": "sha512-xy4q7wou3vUoC9k1xGTXc+awNdGaGVHtFUaey8tiX4H1QRc04DZ/rmDFwNm2EBsuYEhAZ6SgMmYf3InGY6OauA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-7.4.2.tgz"
       }
     },
     "minipass": {
@@ -2420,6 +2446,13 @@
         "hash": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
         "type": "http",
         "url": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
+      }
+    },
+    "path-scurry": {
+      "1.6.2": {
+        "hash": "sha512-J6MQNh56h6eHFY3vsQ+Lq+zKPwn71POieutmVt2leU8W+zz8HVIdJyn3I3Zs6IKbIQtuKXirVjTBFNBcbFO44Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-scurry/-/path-scurry-1.6.2.tgz"
       }
     },
     "picocolors": {
