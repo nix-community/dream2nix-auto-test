@@ -54,7 +54,7 @@
       "fast-logger#3.2.1": "fa88db57a48860d61a65dee14057e43a87000f89620ed9797a7108d1bf984270",
       "focus#1.0.3": "3d3912de7412272a76f76fa16644ac3550dbcc7fb2d504fa1d80a209dd18114f",
       "foldable1-classes-compat#0.1": "851225c0d4ccf6ca5e4df17347490945c9928548e431f15e7e7d80c240bc4d17",
-      "foldl#1.4.14": "6ca3b5a312fb7ddfad4df5079da585dd22099dcf4f540af651bd707d242b056c",
+      "foldl#1.4.14": "f6e2b79665fd30edbe47cbfee4a762e143cac65f1f679c7abbf913dd904cefa8",
       "generically#0.1.1": "2b9b5efb6eea2fb65377565d53d85b0ccc5b37404fba4bef1d60277caa877e5e",
       "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
       "haskell-lexer#1.1.1": "4ce310678b7e56b51acb558c0233d2f71a3f3553f8a88e9b48c0bc68301f799b",
@@ -98,7 +98,7 @@
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "scientific#0.3.7.0": "26d8109106963a345368011081453d25ee1dfa6afae2b1f57b426b4bcd392d91",
       "semialign#1.3": "3aba5784d0c6b0c0cf5e31477e6f9054dc2257b441a5000002e89be3d8cc8548",
-      "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
+      "semigroupoids#6.0.0.1": "3ca506912c2e1fe97930d1565a2eebb608de6bc7f49736119609d6a78058dc13",
       "setenv#0.1.1.3": "c5916ac0d2a828473cd171261328a290afe0abd799db1ac8c310682fe778c45b",
       "simple-sendfile#0.2.30": "c6893e159dc20eea6d0b805bfd8d9b73e6a6ba3fe72cc396acdc24fdcd33cc38",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
@@ -388,7 +388,7 @@
         [ "primitive", "0.8.0.0" ],
         [ "profunctors", "5.6.2" ],
         [ "random", "1.2.1.1" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -625,7 +625,7 @@
         [ "hashable", "1.4.2.0" ],
         [ "indexed-traversable", "0.1.2.1" ],
         [ "indexed-traversable-instances", "0.1.1.2" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "tagged", "0.8.7" ],
         [ "these", "1.2" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -633,12 +633,13 @@
       ]
     },
     "semigroupoids": {
-      "5.3.7": [
+      "6.0.0.1": [
         [ "base-orphans", "0.9.0" ],
         [ "bifunctors", "5.6.1" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
+        [ "foldable1-classes-compat", "0.1" ],
         [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.7" ],
         [ "transformers-compat", "0.7.2" ],
@@ -1465,10 +1466,10 @@
       }
     },
     "semigroupoids": {
-      "5.3.7": {
-        "hash": "sha256:6d45cdb6c58c75ca588859b80b2c92b6f48590a03e065c24ce5d767a6a963799",
+      "6.0.0.1": {
+        "hash": "sha256:7da38a9891bdf8205fd6522cdb712956b8c0bf5c52983da60295c8e057d77934",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/semigroupoids-5.3.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/semigroupoids-6.0.0.1.tar.gz"
       }
     },
     "setenv": {
