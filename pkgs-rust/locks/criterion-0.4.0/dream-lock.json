@@ -59,7 +59,7 @@
       "2.3.1": [
         [ "async-channel", "1.8.0" ],
         [ "async-executor", "1.5.0" ],
-        [ "async-io", "1.12.0" ],
+        [ "async-io", "1.13.0" ],
         [ "async-lock", "2.7.0" ],
         [ "blocking", "1.3.0" ],
         [ "futures-lite", "1.12.0" ],
@@ -67,19 +67,19 @@
       ]
     },
     "async-io": {
-      "1.12.0": [
+      "1.13.0": [
         [ "async-lock", "2.7.0" ],
         [ "autocfg", "1.1.0" ],
+        [ "cfg-if", "1.0.0" ],
         [ "concurrent-queue", "2.1.0" ],
         [ "futures-lite", "1.12.0" ],
-        [ "libc", "0.2.140" ],
         [ "log", "0.4.17" ],
         [ "parking", "2.0.0" ],
         [ "polling", "2.6.0" ],
+        [ "rustix", "0.37.3" ],
         [ "slab", "0.4.8" ],
         [ "socket2", "0.4.9" ],
-        [ "waker-fn", "1.1.0" ],
-        [ "windows-sys", "0.42.0" ]
+        [ "waker-fn", "1.1.0" ]
       ]
     },
     "async-lock": {
@@ -89,7 +89,7 @@
     },
     "async-net": {
       "1.7.0": [
-        [ "async-io", "1.12.0" ],
+        [ "async-io", "1.13.0" ],
         [ "autocfg", "1.1.0" ],
         [ "blocking", "1.3.0" ],
         [ "futures-lite", "1.12.0" ]
@@ -97,7 +97,7 @@
     },
     "async-process": {
       "1.6.0": [
-        [ "async-io", "1.12.0" ],
+        [ "async-io", "1.13.0" ],
         [ "async-lock", "2.7.0" ],
         [ "autocfg", "1.1.0" ],
         [ "blocking", "1.3.0" ],
@@ -113,7 +113,7 @@
       "1.12.0": [
         [ "async-channel", "1.8.0" ],
         [ "async-global-executor", "2.3.1" ],
-        [ "async-io", "1.12.0" ],
+        [ "async-io", "1.13.0" ],
         [ "async-lock", "2.7.0" ],
         [ "crossbeam-utils", "0.8.15" ],
         [ "futures-channel", "0.3.27" ],
@@ -267,6 +267,11 @@
         [ "errno-dragonfly", "0.1.2" ],
         [ "libc", "0.2.140" ],
         [ "winapi", "0.3.9" ]
+      ],
+      "0.3.0": [
+        [ "errno-dragonfly", "0.1.2" ],
+        [ "libc", "0.2.140" ],
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "errno-dragonfly": {
@@ -497,6 +502,14 @@
         [ "libc", "0.2.140" ],
         [ "linux-raw-sys", "0.1.4" ],
         [ "windows-sys", "0.45.0" ]
+      ],
+      "0.37.3": [
+        [ "bitflags", "1.3.2" ],
+        [ "errno", "0.3.0" ],
+        [ "io-lifetimes", "1.0.9" ],
+        [ "libc", "0.2.140" ],
+        [ "linux-raw-sys", "0.3.0" ],
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "same-file": {
@@ -513,7 +526,7 @@
       "1.0.158": [
         [ "proc-macro2", "1.0.53" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.5" ]
+        [ "syn", "2.0.8" ]
       ]
     },
     "serde_json": {
@@ -544,7 +557,7 @@
         [ "async-channel", "1.8.0" ],
         [ "async-executor", "1.5.0" ],
         [ "async-fs", "1.6.0" ],
-        [ "async-io", "1.12.0" ],
+        [ "async-io", "1.13.0" ],
         [ "async-lock", "2.7.0" ],
         [ "async-net", "1.7.0" ],
         [ "async-process", "1.6.0" ],
@@ -564,7 +577,7 @@
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ],
-      "2.0.5": [
+      "2.0.8": [
         [ "proc-macro2", "1.0.53" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
@@ -725,8 +738,8 @@
       }
     },
     "async-io": {
-      "1.12.0": {
-        "hash": "8c374dda1ed3e7d8f0d9ba58715f924862c63eae6849c92d3a18e7fbde9e2794",
+      "1.13.0": {
+        "hash": "0fc5b45d93ef0529756f812ca52e44c221b35341892d3dcc34132ac02f3dd2af",
         "type": "crates-io"
       }
     },
@@ -914,6 +927,10 @@
       "0.2.8": {
         "hash": "f639046355ee4f37944e44f60642c6f3a7efa3cf6b78c78a0d989a8ce6c396a1",
         "type": "crates-io"
+      },
+      "0.3.0": {
+        "hash": "50d6a0976c999d473fe89ad888d5a284e55366d9dc9038b1ba2aa15128c4afa0",
+        "type": "crates-io"
       }
     },
     "errno-dragonfly": {
@@ -1084,6 +1101,10 @@
       "0.1.4": {
         "hash": "f051f77a7c8e6957c0696eac88f26b0117e54f52d3fc682ab19397a8812846a4",
         "type": "crates-io"
+      },
+      "0.3.0": {
+        "hash": "cd550e73688e6d578f0ac2119e32b797a327631a42f9433e59d02e139c8df60d",
+        "type": "crates-io"
       }
     },
     "log": {
@@ -1252,6 +1273,10 @@
       "0.36.11": {
         "hash": "db4165c9963ab29e422d6c26fbc1d37f15bace6b2810221f9d925023480fcf0e",
         "type": "crates-io"
+      },
+      "0.37.3": {
+        "hash": "62b24138615de35e32031d041a09032ef3487a616d901ca4db224e7d557efae2",
+        "type": "crates-io"
       }
     },
     "ryu": {
@@ -1325,8 +1350,8 @@
         "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
         "type": "crates-io"
       },
-      "2.0.5": {
-        "hash": "89c2d1c76a26822187a1fbb5964e3fff108bc208f02e820ab9dac1234f6b388a",
+      "2.0.8": {
+        "hash": "bcc02725fd69ab9f26eab07fad303e2497fad6fb9eba4f96c4d1687bdf704ad9",
         "type": "crates-io"
       }
     },
