@@ -3,7 +3,7 @@
     "defaultPackage": "eslint-plugin-vue",
     "location": "",
     "packages": {
-      "eslint-plugin-vue": "9.9.0"
+      "eslint-plugin-vue": "9.10.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -17,7 +17,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@eslint-community/eslint-utils": {
-      "4.3.0": [
+      "4.4.0": [
         [ "eslint-visitor-keys", "3.3.0" ]
       ]
     },
@@ -102,8 +102,8 @@
     },
     "eslint": {
       "8.36.0": [
-        [ "@eslint-community/eslint-utils", "4.3.0" ],
-        [ "@eslint-community/regexpp", "4.4.0" ],
+        [ "@eslint-community/eslint-utils", "4.4.0" ],
+        [ "@eslint-community/regexpp", "4.4.1" ],
         [ "@eslint/eslintrc", "2.0.1" ],
         [ "@eslint/js", "8.36.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
@@ -145,8 +145,8 @@
       ]
     },
     "eslint-plugin-vue": {
-      "9.9.0": [
-        [ "eslint-utils", "3.0.0" ],
+      "9.10.0": [
+        [ "@eslint-community/eslint-utils", "4.4.0" ],
         [ "natural-compare", "1.4.0" ],
         [ "nth-check", "2.1.1" ],
         [ "postcss-selector-parser", "6.0.11" ],
@@ -155,8 +155,8 @@
         [ "xml-name-validator", "4.0.0" ]
       ],
       "unknown": [
-        [ "@eslint-community/eslint-utils", "4.3.0" ],
-        [ "@eslint-community/regexpp", "4.4.0" ],
+        [ "@eslint-community/eslint-utils", "4.4.0" ],
+        [ "@eslint-community/regexpp", "4.4.1" ],
         [ "@eslint/eslintrc", "2.0.1" ],
         [ "@eslint/js", "8.36.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
@@ -186,9 +186,8 @@
         [ "doctrine", "3.0.0" ],
         [ "escape-string-regexp", "4.0.0" ],
         [ "eslint", "8.36.0" ],
-        [ "eslint-plugin-vue", "9.9.0" ],
+        [ "eslint-plugin-vue", "9.10.0" ],
         [ "eslint-scope", "7.1.1" ],
-        [ "eslint-utils", "3.0.0" ],
         [ "eslint-visitor-keys", "3.3.0" ],
         [ "espree", "9.5.0" ],
         [ "esquery", "1.5.0" ],
@@ -271,11 +270,6 @@
       "7.1.1": [
         [ "esrecurse", "4.3.0" ],
         [ "estraverse", "5.3.0" ]
-      ]
-    },
-    "eslint-utils": {
-      "3.0.0": [
-        [ "eslint-visitor-keys", "2.1.0" ]
       ]
     },
     "espree": {
@@ -480,17 +474,17 @@
   },
   "sources": {
     "@eslint-community/eslint-utils": {
-      "4.3.0": {
-        "hash": "sha512-v3oplH6FYCULtFuCeqyuTd9D2WKO937Dxdq+GmHOLL72TTRriLxz2VLlNfkZRsvj6PKnOPAtuT6dwrs/pA5DvA==",
+      "4.4.0": {
+        "hash": "sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.3.0.tgz"
+        "url": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz"
       }
     },
     "@eslint-community/regexpp": {
-      "4.4.0": {
-        "hash": "sha512-A9983Q0LnDGdLPjxyXQ00sbV+K+O+ko2Dr+CZigbHWtX9pNfxlaBkMR8X1CztI73zuEyEBXTVjx7CE+/VSwDiQ==",
+      "4.4.1": {
+        "hash": "sha512-BISJ6ZE4xQsuL/FmsyRaiffpq977bMlsKfGHTQrOGFErfByxIe6iZTxPf/00Zon9b9a7iUykfQwejN3s2ZW/Bw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.4.0.tgz"
+        "url": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.4.1.tgz"
       }
     },
     "@eslint/eslintrc": {
@@ -697,10 +691,10 @@
       }
     },
     "eslint-plugin-vue": {
-      "9.9.0": {
-        "hash": "sha512-YbubS7eK0J7DCf0U2LxvVP7LMfs6rC6UltihIgval3azO3gyDwEGVgsCMe1TmDiEkl6GdMKfRpaME6QxIYtzDQ==",
+      "9.10.0": {
+        "hash": "sha512-2MgP31OBf8YilUvtakdVMc8xVbcMp7z7/iQj8LHVpXrSXHPXSJRUIGSPFI6b6pyCx/buKaFJ45ycqfHvQRiW2g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-9.9.0.tgz"
+        "url": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-9.10.0.tgz"
       }
     },
     "eslint-scope": {
@@ -710,19 +704,7 @@
         "url": "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.1.1.tgz"
       }
     },
-    "eslint-utils": {
-      "3.0.0": {
-        "hash": "sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/eslint-utils/-/eslint-utils-3.0.0.tgz"
-      }
-    },
     "eslint-visitor-keys": {
-      "2.1.0": {
-        "hash": "sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz"
-      },
       "3.3.0": {
         "hash": "sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==",
         "type": "http",
