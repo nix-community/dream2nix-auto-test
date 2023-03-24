@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "openssl",
+    "defaultPackage": "openssl-sys",
     "location": "",
     "packages": {
-      "openssl": "0.10.47"
+      "openssl-sys": "0.9.83"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "openssl": {
-        "0.10.47": {
-          "description": "OpenSSL bindings", "license": [   "asl20"
+      "openssl-sys": {
+        "0.9.83": {
+          "description": "FFI bindings to OpenSSL", "license": [   "mit"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "openssl": {
-        "0.10.47": {}
+      "openssl-sys": {
+        "0.9.83": {}
       }
     }
   },
@@ -35,9 +35,9 @@
         [ "lazycell", "1.3.0" ],
         [ "log", "0.4.17" ],
         [ "peeking_take_while", "0.1.2" ],
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.53" ],
         [ "quote", "1.0.26" ],
-        [ "regex", "1.7.1" ],
+        [ "regex", "1.7.2" ],
         [ "rustc-hash", "1.1.0" ],
         [ "shlex", "1.1.0" ],
         [ "syn", "1.0.109" ],
@@ -54,11 +54,6 @@
         [ "glob", "0.3.1" ],
         [ "libc", "0.2.140" ],
         [ "libloading", "0.7.4" ]
-      ]
-    },
-    "foreign-types": {
-      "0.3.2": [
-        [ "foreign-types-shared", "0.1.1" ]
       ]
     },
     "libloading": {
@@ -78,60 +73,41 @@
         [ "minimal-lexical", "0.2.1" ]
       ]
     },
-    "openssl": {
-      "0.10.47": [
-        [ "bitflags", "1.3.2" ],
-        [ "cfg-if", "1.0.0" ],
-        [ "foreign-types", "0.3.2" ],
-        [ "hex", "0.3.2" ],
-        [ "libc", "0.2.140" ],
-        [ "once_cell", "1.17.1" ],
-        [ "openssl-macros", "0.1.0" ],
-        [ "openssl-sys", "0.9.82" ]
-      ]
-    },
-    "openssl-macros": {
-      "0.1.0": [
-        [ "proc-macro2", "1.0.52" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
-      ]
-    },
     "openssl-src": {
-      "111.25.1+1.1.1t": [
+      "111.25.2+1.1.1t": [
         [ "cc", "1.0.79" ]
       ]
     },
     "openssl-sys": {
-      "0.9.82": [
+      "0.9.83": [
         [ "autocfg", "1.1.0" ],
         [ "bindgen", "0.64.0" ],
         [ "bssl-sys", "0.1.0" ],
         [ "cc", "1.0.79" ],
         [ "libc", "0.2.140" ],
-        [ "openssl-src", "111.25.1+1.1.1t" ],
+        [ "openssl-src", "111.25.2+1.1.1t" ],
         [ "pkg-config", "0.3.26" ],
         [ "vcpkg", "0.2.15" ]
       ]
     },
     "proc-macro2": {
-      "1.0.52": [
+      "1.0.53": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
     "quote": {
       "1.0.26": [
-        [ "proc-macro2", "1.0.52" ]
+        [ "proc-macro2", "1.0.53" ]
       ]
     },
     "regex": {
-      "1.7.1": [
-        [ "regex-syntax", "0.6.28" ]
+      "1.7.2": [
+        [ "regex-syntax", "0.6.29" ]
       ]
     },
     "syn": {
       "1.0.109": [
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.53" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
@@ -205,27 +181,9 @@
         "type": "crates-io"
       }
     },
-    "foreign-types": {
-      "0.3.2": {
-        "hash": "f6f339eb8adc052cd2ca78910fda869aefa38d22d5cb648e6485e4d3fc06f3b1",
-        "type": "crates-io"
-      }
-    },
-    "foreign-types-shared": {
-      "0.1.1": {
-        "hash": "00b0228411908ca8685dba7fc2cdd70ec9990a6e753e89b6ac91a84c40fbaf4b",
-        "type": "crates-io"
-      }
-    },
     "glob": {
       "0.3.1": {
         "hash": "d2fabcfbdc87f4758337ca535fb41a6d701b65693ce38287d856d1674551ec9b",
-        "type": "crates-io"
-      }
-    },
-    "hex": {
-      "0.3.2": {
-        "hash": "805026a5d0141ffc30abb3be3173848ad46a1b1664fe632428479619a3644d77",
         "type": "crates-io"
       }
     },
@@ -283,27 +241,15 @@
         "type": "crates-io"
       }
     },
-    "openssl": {
-      "0.10.47": {
-        "hash": "d8b277f87dacc05a6b709965d1cbafac4649d6ce9f3ce9ceb88508b5666dfec9",
-        "type": "crates-io"
-      }
-    },
-    "openssl-macros": {
-      "0.1.0": {
-        "hash": "b501e44f11665960c7e7fcf062c7d96a14ade4aa98116c004b2e37b5be7d736c",
-        "type": "crates-io"
-      }
-    },
     "openssl-src": {
-      "111.25.1+1.1.1t": {
-        "hash": "1ef9a9cc6ea7d9d5e7c4a913dc4b48d0e359eddf01af1dfec96ba7064b4aba10",
+      "111.25.2+1.1.1t": {
+        "hash": "320708a054ad9b3bf314688b5db87cf4d6683d64cfc835e2337924ae62bf4431",
         "type": "crates-io"
       }
     },
     "openssl-sys": {
-      "0.9.82": {
-        "hash": "a95792af3c4e0153c3914df2261bedd30a98476f94dc892b67dfe1d89d433a04",
+      "0.9.83": {
+        "hash": "666416d899cf077260dac8698d60a60b435a46d57e82acb1be3d0dad87284e5b",
         "type": "crates-io"
       }
     },
@@ -320,8 +266,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.52": {
-        "hash": "1d0e1ae9e836cc3beddd63db0df682593d7e2d3d891ae8c9083d2113e1744224",
+      "1.0.53": {
+        "hash": "ba466839c78239c09faf015484e5cc04860f88242cff4d03eb038f04b4699b73",
         "type": "crates-io"
       }
     },
@@ -332,14 +278,14 @@
       }
     },
     "regex": {
-      "1.7.1": {
-        "hash": "48aaa5748ba571fb95cd2c85c09f629215d3a6ece942baa100950af03a34f733",
+      "1.7.2": {
+        "hash": "cce168fea28d3e05f158bda4576cf0c844d5045bc2cc3620fa0292ed5bb5814c",
         "type": "crates-io"
       }
     },
     "regex-syntax": {
-      "0.6.28": {
-        "hash": "456c603be3e8d448b072f410900c09faf164fbce2d480456f50eea6e25f9c848",
+      "0.6.29": {
+        "hash": "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1",
         "type": "crates-io"
       }
     },

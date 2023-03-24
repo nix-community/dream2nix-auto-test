@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "linux-raw-sys",
+    "location": "",
+    "packages": {
+      "linux-raw-sys": "0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "linux-raw-sys": {
+        "0.3.0": {
+          "description": "Generated bindings for Linux's userspace API", "license": [   "asl20",   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "linux-raw-sys": {
+        "0.3.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "linux-raw-sys": {
+      "0.3.0": [
+        [ "compiler_builtins", "0.1.89" ],
+        [ "libc", "0.2.140" ],
+        [ "rustc-std-workspace-core", "1.0.0" ],
+        [ "static_assertions", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "compiler_builtins": {
+      "0.1.89": {
+        "hash": "9fc9c2080d347a2c316518840ac9194644a9993dfa1e9778ef38979a339f5d8b",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.140": {
+        "hash": "99227334921fae1a979cf0bfdfcc6b3e5ce376ef57e16fb6fb3ea2ed6095f80c",
+        "type": "crates-io"
+      }
+    },
+    "linux-raw-sys": {
+      "0.3.0": {
+        "hash": "cd550e73688e6d578f0ac2119e32b797a327631a42f9433e59d02e139c8df60d",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    },
+    "static_assertions": {
+      "1.1.0": {
+        "hash": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+        "type": "crates-io"
+      }
+    }
+  }
+}
