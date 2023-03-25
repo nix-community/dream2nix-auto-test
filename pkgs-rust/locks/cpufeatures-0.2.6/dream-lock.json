@@ -3,7 +3,7 @@
     "defaultPackage": "cpufeatures",
     "location": "",
     "packages": {
-      "cpufeatures": "0.2.5"
+      "cpufeatures": "0.2.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "cpufeatures": {
-        "0.2.5": {
+        "0.2.6": {
           "description": "Lightweight runtime CPU feature detection for x86/x86_64 and aarch64 with\nno_std support and support for mobile targets including Android and iOS\n", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,29 +20,31 @@
     },
     "relPathReplacements": {
       "cpufeatures": {
-        "0.2.5": {}
+        "0.2.6": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "cpufeatures": {
-      "0.2.5": [
+      "0.2.6": [
         [ "libc", "0.2.140" ]
       ]
     }
   },
   "sources": {
     "cpufeatures": {
-      "0.2.5": {
-        "hash": "28d997bd5e24a5928dd43e46dc529867e207907fe0b239c3477d924f7f2ca320",
+      "0.2.6": {
+        "hash": "280a9f2d8b3a38871a3c8a46fb80db65e5e5ed97da80c4d08bf27fb63e35e181",
         "type": "crates-io"
       }
     },
     "libc": {
       "0.2.140": {
         "hash": "99227334921fae1a979cf0bfdfcc6b3e5ce376ef57e16fb6fb3ea2ed6095f80c",
-        "type": "crates-io"
+        "pname": "libc",
+        "type": "crates-io",
+        "version": "0.2.140"
       }
     }
   }

@@ -23,24 +23,21 @@
       }
     }
   },
-  "cyclicDependencies": {
-    "signal-hook": {
-      "0.3.15": [
-        [ "signal-hook-registry", "1.4.1" ]
-      ]
-    }
-  },
+  "cyclicDependencies": {},
   "dependencies": {
     "signal-hook": {
       "0.3.15": [
         [ "libc", "0.2.140" ],
-        [ "signal-hook-registry", "1.4.1" ]
+        [ "signal-hook-registry", "1.4.1$crates-io" ]
       ]
     },
     "signal-hook-registry": {
       "1.4.1": [
         [ "libc", "0.2.140" ],
         [ "signal-hook", "0.3.15" ]
+      ],
+      "1.4.1$crates-io": [
+        [ "libc", "0.2.140" ]
       ]
     }
   },
@@ -48,19 +45,29 @@
     "libc": {
       "0.2.140": {
         "hash": "99227334921fae1a979cf0bfdfcc6b3e5ce376ef57e16fb6fb3ea2ed6095f80c",
-        "type": "crates-io"
+        "pname": "libc",
+        "type": "crates-io",
+        "version": "0.2.140"
       }
     },
     "signal-hook": {
       "0.3.15": {
         "hash": "732768f1176d21d09e076c23a93123d40bba92d50c4058da34d45c8de8e682b9",
-        "type": "crates-io"
+        "pname": "signal-hook",
+        "type": "crates-io",
+        "version": "0.3.15"
       }
     },
     "signal-hook-registry": {
       "1.4.1": {
         "hash": "d8229b473baa5980ac72ef434c4415e70c4b5e71b423043adb4ba059f89c99a1",
         "type": "crates-io"
+      },
+      "1.4.1$crates-io": {
+        "hash": "d8229b473baa5980ac72ef434c4415e70c4b5e71b423043adb4ba059f89c99a1",
+        "pname": "signal-hook-registry",
+        "type": "crates-io",
+        "version": "1.4.1"
       }
     }
   }
