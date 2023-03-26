@@ -69,7 +69,7 @@
       "digest#0.0.1.3": "2658eec5dd3516cd349aad4c2e734d4a6dbd5f3247c3feebd1e75d54a538c213",
       "distributive#0.6.2.1": "0f99f5541cca04acf89b64432b03422b6408e830a8dff30e6c4334ef1a48680c",
       "dlist#1.0": "124cb3aa1decebd5171b46601b1f74cca6cfae12d266ace3799b86dd05ef7cb4",
-      "doclayout#0.4": "e98428855c12ca41233a0b6e9238b0f654d26ecf53e1e0236074a996ed595c36",
+      "doclayout#0.4.0.1": "965e4e7eb6cd2ecfce955984d343426385c2639dab45c3d8fbcae7eb4e5f7091",
       "doctemplates#0.11": "42922bf2ea2c166f8d7ffd1df0e23ce69b6400f95fa195aeb932b13c932fe933",
       "emojis#0.1.2": "3932d99972b998464beb4d67eddebeb00a21dab3e3b2d68bdb996e5cb0ccbc26",
       "file-embed#0.0.15.0": "18beed8999dff37bcffd0d1d8a59dcd406be8e517c10213afefc941091985c06",
@@ -129,7 +129,7 @@
       "tasty-hunit#0.10.0.3": "ba774024f3a26100c559dbef41e030bdf443408ed848691f7b9aa85b6fb218c3",
       "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
       "temporary#1.3": "3a66c136f700dbf42f3c5000ca93e80b26dead51e54322c83272b236c1ec8ef1",
-      "texmath#0.12.6": "818de58cce2b5d4cbb29b0f0a02f35869d637bc0688f5accbd6b69021dc371ca",
+      "texmath#0.12.7": "c557a2a554bb2db242806ac49f04ecdf819334d21feccbd930a081f41e1a74bf",
       "text-conversions#0.3.1.1": "35dc3ee494275509a3a771d5d27fc02d4af34478a40126cba87cdc6f007d551e",
       "text-short#0.1.5": "c296eb2289dc5bf39912989c295cb82ef05ae5f84ee83ea5dc21f48da80e7052",
       "th-abstraction#0.5.0.0": "4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457",
@@ -485,7 +485,7 @@
       ]
     },
     "doclayout": {
-      "0.4": [
+      "0.4.0.1": [
         [ "emojis", "0.1.2" ],
         [ "safe", "0.3.19" ]
       ]
@@ -493,7 +493,7 @@
     "doctemplates": {
       "0.11": [
         [ "aeson", "2.1.2.1" ],
-        [ "doclayout", "0.4" ],
+        [ "doclayout", "0.4.0.1" ],
         [ "safe", "0.3.19" ],
         [ "scientific", "0.3.7.0" ],
         [ "text-conversions", "0.3.1.1" ],
@@ -507,7 +507,7 @@
     },
     "gridtables": {
       "0.1.0.0": [
-        [ "doclayout", "0.4" ]
+        [ "doclayout", "0.4.0.1" ]
       ]
     },
     "hashable": {
@@ -633,7 +633,7 @@
         [ "commonmark-pandoc", "0.2.1.3" ],
         [ "connection", "0.3.1" ],
         [ "data-default", "0.7.1.1" ],
-        [ "doclayout", "0.4" ],
+        [ "doclayout", "0.4.0.1" ],
         [ "doctemplates", "0.11" ],
         [ "emojis", "0.1.2" ],
         [ "file-embed", "0.0.15.0" ],
@@ -659,7 +659,7 @@
         [ "syb", "0.7.2.3" ],
         [ "tagsoup", "0.14.8" ],
         [ "temporary", "1.3" ],
-        [ "texmath", "0.12.6" ],
+        [ "texmath", "0.12.7" ],
         [ "text-conversions", "0.3.1.1" ],
         [ "unicode-collation", "0.1.3.4" ],
         [ "unicode-transforms", "0.4.0.1" ],
@@ -863,7 +863,7 @@
       ]
     },
     "texmath": {
-      "0.12.6": [
+      "0.12.7": [
         [ "pandoc-types", "1.23" ],
         [ "split", "0.2.3.5" ],
         [ "syb", "0.7.2.3" ],
@@ -1465,10 +1465,10 @@
       }
     },
     "doclayout": {
-      "0.4": {
-        "hash": "sha256:7d2ede4024d1f5e5d918fd799f7e046b03023434e327bc1e1c1402eeb8ffb3a3",
+      "0.4.0.1": {
+        "hash": "sha256:f7d3515d41abdfd7a5b69f28bf9520f591881364262698fd49686506b570b30b",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/doclayout-0.4.tar.gz"
+        "url": "https://hackage.haskell.org/package/doclayout-0.4.0.1.tar.gz"
       }
     },
     "doctemplates": {
@@ -1892,10 +1892,10 @@
       }
     },
     "texmath": {
-      "0.12.6": {
-        "hash": "sha256:6fc38a9e876650e3466e4167f7aa5242fbbe5a5f636528af1d6e607da913fe98",
+      "0.12.7": {
+        "hash": "sha256:1b3e70bc2694fff2fe776921981df6210df79577cedb0e7f5371020e3a38ddc5",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/texmath-0.12.6.tar.gz"
+        "url": "https://hackage.haskell.org/package/texmath-0.12.7.tar.gz"
       }
     },
     "text-conversions": {
