@@ -3,7 +3,7 @@
     "defaultPackage": "lerna",
     "location": "",
     "packages": {
-      "lerna": "6.6.0"
+      "lerna": "6.6.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -45,15 +45,15 @@
       ]
     },
     "@lerna/child-process": {
-      "6.6.0": [
+      "6.6.1": [
         [ "chalk", "4.1.0" ],
         [ "execa", "5.0.0" ],
         [ "strong-log-transformer", "2.1.0" ]
       ]
     },
     "@lerna/create": {
-      "6.6.0": [
-        [ "@lerna/child-process", "6.6.0" ],
+      "6.6.1": [
+        [ "@lerna/child-process", "6.6.1" ],
         [ "dedent", "0.7.0" ],
         [ "fs-extra", "9.1.0" ],
         [ "init-package-json", "3.0.2" ],
@@ -69,7 +69,7 @@
       ]
     },
     "@lerna/legacy-package-management": {
-      "6.6.0": [
+      "6.6.1": [
         [ "@npmcli/arborist", "6.2.3" ],
         [ "@npmcli/run-script", "4.1.7" ],
         [ "@nrwl/devkit", "15.8.9" ],
@@ -114,7 +114,6 @@
         [ "p-queue", "6.6.2" ],
         [ "p-waterfall", "2.1.1" ],
         [ "pacote", "13.6.2" ],
-        [ "path-exists", "4.0.0" ],
         [ "pify", "5.0.0" ],
         [ "pretty-format", "29.4.3" ],
         [ "read-cmd-shim", "3.0.0" ],
@@ -1189,10 +1188,10 @@
       ]
     },
     "lerna": {
-      "6.6.0": [
-        [ "@lerna/child-process", "6.6.0" ],
-        [ "@lerna/create", "6.6.0" ],
-        [ "@lerna/legacy-package-management", "6.6.0" ],
+      "6.6.1": [
+        [ "@lerna/child-process", "6.6.1" ],
+        [ "@lerna/create", "6.6.1" ],
+        [ "@lerna/legacy-package-management", "6.6.1" ],
         [ "@npmcli/arborist", "6.2.3" ],
         [ "@npmcli/run-script", "4.1.7" ],
         [ "@nrwl/devkit", "15.8.9" ],
@@ -1245,12 +1244,11 @@
         [ "p-reduce", "2.1.0" ],
         [ "p-waterfall", "2.1.1" ],
         [ "pacote", "13.6.2" ],
-        [ "path-exists", "4.0.0" ],
         [ "pify", "5.0.0" ],
         [ "read-cmd-shim", "3.0.0" ],
         [ "read-package-json", "5.0.1" ],
         [ "resolve-from", "5.0.0" ],
-        [ "rimraf", "3.0.2" ],
+        [ "rimraf", "4.4.1" ],
         [ "semver", "7.3.8" ],
         [ "signal-exit", "3.0.7" ],
         [ "slash", "3.0.0" ],
@@ -1276,9 +1274,9 @@
         [ "@hutson/parse-repository-url", "3.0.2" ],
         [ "@isaacs/string-locale-compare", "1.1.0" ],
         [ "@jest/schemas", "29.4.3" ],
-        [ "@lerna/child-process", "6.6.0" ],
-        [ "@lerna/create", "6.6.0" ],
-        [ "@lerna/legacy-package-management", "6.6.0" ],
+        [ "@lerna/child-process", "6.6.1" ],
+        [ "@lerna/create", "6.6.1" ],
+        [ "@lerna/legacy-package-management", "6.6.1" ],
         [ "@nodelib/fs.scandir", "2.1.5" ],
         [ "@nodelib/fs.stat", "2.0.5" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
@@ -1535,7 +1533,7 @@
         [ "just-diff", "6.0.2" ],
         [ "just-diff-apply", "5.5.0" ],
         [ "kind-of", "6.0.3" ],
-        [ "lerna", "6.6.0" ],
+        [ "lerna", "6.6.1" ],
         [ "libnpmaccess", "6.0.3" ],
         [ "libnpmpublish", "6.0.4" ],
         [ "lines-and-columns", "2.0.3" ],
@@ -1654,7 +1652,7 @@
         [ "restore-cursor", "3.1.0" ],
         [ "retry", "0.12.0" ],
         [ "reusify", "1.0.4" ],
-        [ "rimraf", "3.0.2" ],
+        [ "rimraf", "4.4.1" ],
         [ "run-async", "2.4.1" ],
         [ "run-parallel", "1.2.0" ],
         [ "rxjs", "7.8.0" ],
@@ -2452,6 +2450,9 @@
     "rimraf": {
       "3.0.2": [
         [ "glob", "7.2.3" ]
+      ],
+      "4.4.1": [
+        [ "glob", "9.3.2" ]
       ]
     },
     "run-parallel": {
@@ -2813,24 +2814,24 @@
       }
     },
     "@lerna/child-process": {
-      "6.6.0": {
-        "hash": "sha512-Y1elVHYKBLvdseKu74ud+pWqQi0I81AeWBKLRs0ehnD2EZsmy/f5ILkRcNU9aUp4GPF1TMUPAq2/+0By97gb1g==",
+      "6.6.1": {
+        "hash": "sha512-yUCDCcRNNbI9UUsUB6FYEmDHpo5Tn/f0q5D7vhDP4i6Or8kBj82y7+e31hwfLvK2ykOYlDVs2MxAluH/+QUBOQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lerna/child-process/-/child-process-6.6.0.tgz"
+        "url": "https://registry.npmjs.org/@lerna/child-process/-/child-process-6.6.1.tgz"
       }
     },
     "@lerna/create": {
-      "6.6.0": {
-        "hash": "sha512-F1Q4bB9QzePSnIPd2ZY6a+3l/aZiYYmN1J0ednr8O+xMOyZsumX29c4XvnS7rgovz4aFqi+XdXiL35vmvrSfjA==",
+      "6.6.1": {
+        "hash": "sha512-GDmHFhQ0mr0RcXWXrsLyfMV6ch/dZV/Ped1e6sFVQhsLL9P+FFXX1ZWxa/dQQ90VWF2qWcmK0+S/L3kUz2xvTA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lerna/create/-/create-6.6.0.tgz"
+        "url": "https://registry.npmjs.org/@lerna/create/-/create-6.6.1.tgz"
       }
     },
     "@lerna/legacy-package-management": {
-      "6.6.0": {
-        "hash": "sha512-vGkQv7nuZNhjs1+Arm1m+CKyBblig4oSv/PakyNnqTnRNryIgdXqYFn8DGGkUsA3qXLlouY41Sz5xEY/7hjNEA==",
+      "6.6.1": {
+        "hash": "sha512-0EYxSFr34VgeudA5rvjGJSY7s4seITMVB7AJ9LRFv9QDUk6jpvapV13ZAaKnhDTxX5vNCfnJuWHXXWq0KyPF/Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lerna/legacy-package-management/-/legacy-package-management-6.6.0.tgz"
+        "url": "https://registry.npmjs.org/@lerna/legacy-package-management/-/legacy-package-management-6.6.1.tgz"
       }
     },
     "@nodelib/fs.scandir": {
@@ -4861,10 +4862,10 @@
       }
     },
     "lerna": {
-      "6.6.0": {
-        "hash": "sha512-E1uxpcKVkXPL7IZd8jXmoGlES878M7ConEpkX1o+KTs99ir9c3StIOnrhULYHP3VacUyjtxAPyPCCSg6rIipaw==",
+      "6.6.1": {
+        "hash": "sha512-WJtrvmbmR+6hMB9b5pvsxJzew0lRL6hARgW/My9BM4vYaxwPIA2I0riv3qQu5Zd7lYse7FEqJkTnl9Kn1bXhLA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/lerna/-/lerna-6.6.0.tgz"
+        "url": "https://registry.npmjs.org/lerna/-/lerna-6.6.1.tgz"
       }
     },
     "libnpmaccess": {
@@ -5943,6 +5944,11 @@
         "hash": "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==",
         "type": "http",
         "url": "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz"
+      },
+      "4.4.1": {
+        "hash": "sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rimraf/-/rimraf-4.4.1.tgz"
       }
     },
     "run-async": {
