@@ -1,0 +1,827 @@
+{
+  "_generic": {
+    "defaultPackage": "cssnano",
+    "location": "",
+    "packages": {
+      "cssnano": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "browserslist": {
+      "4.21.5": [
+        [ "caniuse-lite", "1.0.30001472" ],
+        [ "electron-to-chromium", "1.4.341" ],
+        [ "node-releases", "2.0.10" ],
+        [ "update-browserslist-db", "1.0.10" ]
+      ]
+    },
+    "caniuse-api": {
+      "3.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "caniuse-lite", "1.0.30001472" ],
+        [ "lodash.memoize", "4.1.2" ],
+        [ "lodash.uniq", "4.5.0" ]
+      ]
+    },
+    "css-select": {
+      "5.1.0": [
+        [ "boolbase", "1.0.0" ],
+        [ "css-what", "6.1.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "domutils", "3.0.1" ],
+        [ "nth-check", "2.1.1" ]
+      ]
+    },
+    "css-tree": {
+      "2.2.1": [
+        [ "mdn-data", "2.0.28" ],
+        [ "source-map-js", "1.0.2" ]
+      ],
+      "2.3.1": [
+        [ "mdn-data", "2.0.30" ],
+        [ "source-map-js", "1.0.2" ]
+      ]
+    },
+    "cssnano": {
+      "6.0.0": [
+        [ "cssnano-preset-default", "6.0.0" ],
+        [ "lilconfig", "2.1.0" ]
+      ],
+      "unknown": [
+        [ "@trysound/sax", "0.2.0" ],
+        [ "boolbase", "1.0.0" ],
+        [ "browserslist", "4.21.5" ],
+        [ "caniuse-api", "3.0.0" ],
+        [ "caniuse-lite", "1.0.30001472" ],
+        [ "colord", "2.9.3" ],
+        [ "commander", "7.2.0" ],
+        [ "css-declaration-sorter", "6.4.0" ],
+        [ "css-select", "5.1.0" ],
+        [ "css-tree", "2.3.1" ],
+        [ "css-what", "6.1.0" ],
+        [ "cssesc", "3.0.0" ],
+        [ "cssnano", "6.0.0" ],
+        [ "cssnano-preset-default", "6.0.0" ],
+        [ "cssnano-utils", "4.0.0" ],
+        [ "csso", "5.0.5" ],
+        [ "dom-serializer", "2.0.0" ],
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "domutils", "3.0.1" ],
+        [ "electron-to-chromium", "1.4.341" ],
+        [ "entities", "4.4.0" ],
+        [ "escalade", "3.1.1" ],
+        [ "lilconfig", "2.1.0" ],
+        [ "lodash.memoize", "4.1.2" ],
+        [ "lodash.uniq", "4.5.0" ],
+        [ "mdn-data", "2.0.30" ],
+        [ "nanoid", "3.3.6" ],
+        [ "node-releases", "2.0.10" ],
+        [ "nth-check", "2.1.1" ],
+        [ "picocolors", "1.0.0" ],
+        [ "postcss", "8.4.21" ],
+        [ "postcss-calc", "8.2.4" ],
+        [ "postcss-colormin", "6.0.0" ],
+        [ "postcss-convert-values", "6.0.0" ],
+        [ "postcss-discard-comments", "6.0.0" ],
+        [ "postcss-discard-duplicates", "6.0.0" ],
+        [ "postcss-discard-empty", "6.0.0" ],
+        [ "postcss-discard-overridden", "6.0.0" ],
+        [ "postcss-merge-longhand", "6.0.0" ],
+        [ "postcss-merge-rules", "6.0.0" ],
+        [ "postcss-minify-font-values", "6.0.0" ],
+        [ "postcss-minify-gradients", "6.0.0" ],
+        [ "postcss-minify-params", "6.0.0" ],
+        [ "postcss-minify-selectors", "6.0.0" ],
+        [ "postcss-normalize-charset", "6.0.0" ],
+        [ "postcss-normalize-display-values", "6.0.0" ],
+        [ "postcss-normalize-positions", "6.0.0" ],
+        [ "postcss-normalize-repeat-style", "6.0.0" ],
+        [ "postcss-normalize-string", "6.0.0" ],
+        [ "postcss-normalize-timing-functions", "6.0.0" ],
+        [ "postcss-normalize-unicode", "6.0.0" ],
+        [ "postcss-normalize-url", "6.0.0" ],
+        [ "postcss-normalize-whitespace", "6.0.0" ],
+        [ "postcss-ordered-values", "6.0.0" ],
+        [ "postcss-reduce-initial", "6.0.0" ],
+        [ "postcss-reduce-transforms", "6.0.0" ],
+        [ "postcss-selector-parser", "6.0.11" ],
+        [ "postcss-svgo", "6.0.0" ],
+        [ "postcss-unique-selectors", "6.0.0" ],
+        [ "postcss-value-parser", "4.2.0" ],
+        [ "source-map-js", "1.0.2" ],
+        [ "stylehacks", "6.0.0" ],
+        [ "svgo", "3.0.2" ],
+        [ "update-browserslist-db", "1.0.10" ],
+        [ "util-deprecate", "1.0.2" ]
+      ]
+    },
+    "cssnano-preset-default": {
+      "6.0.0": [
+        [ "css-declaration-sorter", "6.4.0" ],
+        [ "cssnano-utils", "4.0.0" ],
+        [ "postcss-calc", "8.2.4" ],
+        [ "postcss-colormin", "6.0.0" ],
+        [ "postcss-convert-values", "6.0.0" ],
+        [ "postcss-discard-comments", "6.0.0" ],
+        [ "postcss-discard-duplicates", "6.0.0" ],
+        [ "postcss-discard-empty", "6.0.0" ],
+        [ "postcss-discard-overridden", "6.0.0" ],
+        [ "postcss-merge-longhand", "6.0.0" ],
+        [ "postcss-merge-rules", "6.0.0" ],
+        [ "postcss-minify-font-values", "6.0.0" ],
+        [ "postcss-minify-gradients", "6.0.0" ],
+        [ "postcss-minify-params", "6.0.0" ],
+        [ "postcss-minify-selectors", "6.0.0" ],
+        [ "postcss-normalize-charset", "6.0.0" ],
+        [ "postcss-normalize-display-values", "6.0.0" ],
+        [ "postcss-normalize-positions", "6.0.0" ],
+        [ "postcss-normalize-repeat-style", "6.0.0" ],
+        [ "postcss-normalize-string", "6.0.0" ],
+        [ "postcss-normalize-timing-functions", "6.0.0" ],
+        [ "postcss-normalize-unicode", "6.0.0" ],
+        [ "postcss-normalize-url", "6.0.0" ],
+        [ "postcss-normalize-whitespace", "6.0.0" ],
+        [ "postcss-ordered-values", "6.0.0" ],
+        [ "postcss-reduce-initial", "6.0.0" ],
+        [ "postcss-reduce-transforms", "6.0.0" ],
+        [ "postcss-svgo", "6.0.0" ],
+        [ "postcss-unique-selectors", "6.0.0" ]
+      ]
+    },
+    "csso": {
+      "5.0.5": [
+        [ "css-tree", "2.2.1" ]
+      ]
+    },
+    "dom-serializer": {
+      "2.0.0": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "entities", "4.4.0" ]
+      ]
+    },
+    "domhandler": {
+      "5.0.3": [
+        [ "domelementtype", "2.3.0" ]
+      ]
+    },
+    "domutils": {
+      "3.0.1": [
+        [ "dom-serializer", "2.0.0" ],
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ]
+      ]
+    },
+    "nth-check": {
+      "2.1.1": [
+        [ "boolbase", "1.0.0" ]
+      ]
+    },
+    "postcss": {
+      "8.4.21": [
+        [ "nanoid", "3.3.6" ],
+        [ "picocolors", "1.0.0" ],
+        [ "source-map-js", "1.0.2" ]
+      ]
+    },
+    "postcss-calc": {
+      "8.2.4": [
+        [ "postcss-selector-parser", "6.0.11" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-colormin": {
+      "6.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "caniuse-api", "3.0.0" ],
+        [ "colord", "2.9.3" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-convert-values": {
+      "6.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-merge-longhand": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ],
+        [ "stylehacks", "6.0.0" ]
+      ]
+    },
+    "postcss-merge-rules": {
+      "6.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "caniuse-api", "3.0.0" ],
+        [ "cssnano-utils", "4.0.0" ],
+        [ "postcss-selector-parser", "6.0.11" ]
+      ]
+    },
+    "postcss-minify-font-values": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-minify-gradients": {
+      "6.0.0": [
+        [ "colord", "2.9.3" ],
+        [ "cssnano-utils", "4.0.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-minify-params": {
+      "6.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "cssnano-utils", "4.0.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-minify-selectors": {
+      "6.0.0": [
+        [ "postcss-selector-parser", "6.0.11" ]
+      ]
+    },
+    "postcss-normalize-display-values": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-normalize-positions": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-normalize-repeat-style": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-normalize-string": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-normalize-timing-functions": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-normalize-unicode": {
+      "6.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-normalize-url": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-normalize-whitespace": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-ordered-values": {
+      "6.0.0": [
+        [ "cssnano-utils", "4.0.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-reduce-initial": {
+      "6.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "caniuse-api", "3.0.0" ]
+      ]
+    },
+    "postcss-reduce-transforms": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-selector-parser": {
+      "6.0.11": [
+        [ "cssesc", "3.0.0" ],
+        [ "util-deprecate", "1.0.2" ]
+      ]
+    },
+    "postcss-svgo": {
+      "6.0.0": [
+        [ "postcss-value-parser", "4.2.0" ],
+        [ "svgo", "3.0.2" ]
+      ]
+    },
+    "postcss-unique-selectors": {
+      "6.0.0": [
+        [ "postcss-selector-parser", "6.0.11" ]
+      ]
+    },
+    "stylehacks": {
+      "6.0.0": [
+        [ "browserslist", "4.21.5" ],
+        [ "postcss-selector-parser", "6.0.11" ]
+      ]
+    },
+    "svgo": {
+      "3.0.2": [
+        [ "@trysound/sax", "0.2.0" ],
+        [ "commander", "7.2.0" ],
+        [ "css-select", "5.1.0" ],
+        [ "css-tree", "2.3.1" ],
+        [ "csso", "5.0.5" ],
+        [ "picocolors", "1.0.0" ]
+      ]
+    },
+    "update-browserslist-db": {
+      "1.0.10": [
+        [ "escalade", "3.1.1" ],
+        [ "picocolors", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trysound/sax": {
+      "0.2.0": {
+        "hash": "sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
+      }
+    },
+    "boolbase": {
+      "1.0.0": {
+        "hash": "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz"
+      }
+    },
+    "browserslist": {
+      "4.21.5": {
+        "hash": "sha512-tUkiguQGW7S3IhB7N+c2MV/HZPSCPAAiYBZXLsBhFB/PCy6ZKKsZrmBayHV9fdGV/ARIfJ14NkxKzRDjvp7L6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.21.5.tgz"
+      }
+    },
+    "caniuse-api": {
+      "3.0.0": {
+        "hash": "sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/caniuse-api/-/caniuse-api-3.0.0.tgz"
+      }
+    },
+    "caniuse-lite": {
+      "1.0.30001472": {
+        "hash": "sha512-xWC/0+hHHQgj3/vrKYY0AAzeIUgr7L9wlELIcAvZdDUHlhL/kNxMdnQLOSOQfP8R51ZzPhmHdyMkI0MMpmxCfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001472.tgz"
+      }
+    },
+    "colord": {
+      "2.9.3": {
+        "hash": "sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/colord/-/colord-2.9.3.tgz"
+      }
+    },
+    "commander": {
+      "7.2.0": {
+        "hash": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
+      }
+    },
+    "css-declaration-sorter": {
+      "6.4.0": {
+        "hash": "sha512-jDfsatwWMWN0MODAFuHszfjphEXfNw9JUAhmY4pLu3TyTU+ohUpsbVtbU+1MZn4a47D9kqh03i4eyOm+74+zew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-declaration-sorter/-/css-declaration-sorter-6.4.0.tgz"
+      }
+    },
+    "css-select": {
+      "5.1.0": {
+        "hash": "sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz"
+      }
+    },
+    "css-tree": {
+      "2.2.1": {
+        "hash": "sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-tree/-/css-tree-2.2.1.tgz"
+      },
+      "2.3.1": {
+        "hash": "sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-tree/-/css-tree-2.3.1.tgz"
+      }
+    },
+    "css-what": {
+      "6.1.0": {
+        "hash": "sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
+      }
+    },
+    "cssesc": {
+      "3.0.0": {
+        "hash": "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
+      }
+    },
+    "cssnano": {
+      "6.0.0": {
+        "hash": "sha512-RGlcbzGhzEBCHuQe3k+Udyj5M00z0pm9S+VurHXFEOXxH+y0sVrJH2sMzoyz2d8N1EScazg+DVvmgyx0lurwwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssnano/-/cssnano-6.0.0.tgz"
+      }
+    },
+    "cssnano-preset-default": {
+      "6.0.0": {
+        "hash": "sha512-BDxlaFzObRDXUiCCBQUNQcI+f1/aX2mgoNtXGjV6PG64POcHoDUoX+LgMWw+Q4609QhxwkcSnS65YFs42RA6qQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssnano-preset-default/-/cssnano-preset-default-6.0.0.tgz"
+      }
+    },
+    "cssnano-utils": {
+      "4.0.0": {
+        "hash": "sha512-Z39TLP+1E0KUcd7LGyF4qMfu8ZufI0rDzhdyAMsa/8UyNUU8wpS0fhdBxbQbv32r64ea00h4878gommRVg2BHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssnano-utils/-/cssnano-utils-4.0.0.tgz"
+      }
+    },
+    "csso": {
+      "5.0.5": {
+        "hash": "sha512-0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csso/-/csso-5.0.5.tgz"
+      }
+    },
+    "dom-serializer": {
+      "2.0.0": {
+        "hash": "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
+      }
+    },
+    "domelementtype": {
+      "2.3.0": {
+        "hash": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+      }
+    },
+    "domhandler": {
+      "5.0.3": {
+        "hash": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz"
+      }
+    },
+    "domutils": {
+      "3.0.1": {
+        "hash": "sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domutils/-/domutils-3.0.1.tgz"
+      }
+    },
+    "electron-to-chromium": {
+      "1.4.341": {
+        "hash": "sha512-R4A8VfUBQY9WmAhuqY5tjHRf5fH2AAf6vqitBOE0y6u2PgHgqHSrhZmu78dIX3fVZtjqlwJNX1i2zwC3VpHtQQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.341.tgz"
+      }
+    },
+    "entities": {
+      "4.4.0": {
+        "hash": "sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
+      }
+    },
+    "escalade": {
+      "3.1.1": {
+        "hash": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
+      }
+    },
+    "lilconfig": {
+      "2.1.0": {
+        "hash": "sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lilconfig/-/lilconfig-2.1.0.tgz"
+      }
+    },
+    "lodash.memoize": {
+      "4.1.2": {
+        "hash": "sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz"
+      }
+    },
+    "lodash.uniq": {
+      "4.5.0": {
+        "hash": "sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
+      }
+    },
+    "mdn-data": {
+      "2.0.28": {
+        "hash": "sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.28.tgz"
+      },
+      "2.0.30": {
+        "hash": "sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.30.tgz"
+      }
+    },
+    "nanoid": {
+      "3.3.6": {
+        "hash": "sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz"
+      }
+    },
+    "node-releases": {
+      "2.0.10": {
+        "hash": "sha512-5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.10.tgz"
+      }
+    },
+    "nth-check": {
+      "2.1.1": {
+        "hash": "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz"
+      }
+    },
+    "picocolors": {
+      "1.0.0": {
+        "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+      }
+    },
+    "postcss": {
+      "8.4.21": {
+        "hash": "sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss/-/postcss-8.4.21.tgz"
+      }
+    },
+    "postcss-calc": {
+      "8.2.4": {
+        "hash": "sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-calc/-/postcss-calc-8.2.4.tgz"
+      }
+    },
+    "postcss-colormin": {
+      "6.0.0": {
+        "hash": "sha512-EuO+bAUmutWoZYgHn2T1dG1pPqHU6L4TjzPlu4t1wZGXQ/fxV16xg2EJmYi0z+6r+MGV1yvpx1BHkUaRrPa2bw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-colormin/-/postcss-colormin-6.0.0.tgz"
+      }
+    },
+    "postcss-convert-values": {
+      "6.0.0": {
+        "hash": "sha512-U5D8QhVwqT++ecmy8rnTb+RL9n/B806UVaS3m60lqle4YDFcpbS3ae5bTQIh3wOGUSDHSEtMYLs/38dNG7EYFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-convert-values/-/postcss-convert-values-6.0.0.tgz"
+      }
+    },
+    "postcss-discard-comments": {
+      "6.0.0": {
+        "hash": "sha512-p2skSGqzPMZkEQvJsgnkBhCn8gI7NzRH2683EEjrIkoMiwRELx68yoUJ3q3DGSGuQ8Ug9Gsn+OuDr46yfO+eFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-discard-comments/-/postcss-discard-comments-6.0.0.tgz"
+      }
+    },
+    "postcss-discard-duplicates": {
+      "6.0.0": {
+        "hash": "sha512-bU1SXIizMLtDW4oSsi5C/xHKbhLlhek/0/yCnoMQany9k3nPBq+Ctsv/9oMmyqbR96HYHxZcHyK2HR5P/mqoGA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-discard-duplicates/-/postcss-discard-duplicates-6.0.0.tgz"
+      }
+    },
+    "postcss-discard-empty": {
+      "6.0.0": {
+        "hash": "sha512-b+h1S1VT6dNhpcg+LpyiUrdnEZfICF0my7HAKgJixJLW7BnNmpRH34+uw/etf5AhOlIhIAuXApSzzDzMI9K/gQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-discard-empty/-/postcss-discard-empty-6.0.0.tgz"
+      }
+    },
+    "postcss-discard-overridden": {
+      "6.0.0": {
+        "hash": "sha512-4VELwssYXDFigPYAZ8vL4yX4mUepF/oCBeeIT4OXsJPYOtvJumyz9WflmJWTfDwCUcpDR+z0zvCWBXgTx35SVw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-discard-overridden/-/postcss-discard-overridden-6.0.0.tgz"
+      }
+    },
+    "postcss-merge-longhand": {
+      "6.0.0": {
+        "hash": "sha512-4VSfd1lvGkLTLYcxFuISDtWUfFS4zXe0FpF149AyziftPFQIWxjvFSKhA4MIxMe4XM3yTDgQMbSNgzIVxChbIg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-merge-longhand/-/postcss-merge-longhand-6.0.0.tgz"
+      }
+    },
+    "postcss-merge-rules": {
+      "6.0.0": {
+        "hash": "sha512-rCXkklftzEkniyv3f4mRCQzxD6oE4Quyh61uyWTUbCJ26Pv2hoz+fivJSsSBWxDBeScR4fKCfF3HHTcD7Ybqnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-merge-rules/-/postcss-merge-rules-6.0.0.tgz"
+      }
+    },
+    "postcss-minify-font-values": {
+      "6.0.0": {
+        "hash": "sha512-zNRAVtyh5E8ndZEYXA4WS8ZYsAp798HiIQ1V2UF/C/munLp2r1UGHwf1+6JFu7hdEhJFN+W1WJQKBrtjhFgEnA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-minify-font-values/-/postcss-minify-font-values-6.0.0.tgz"
+      }
+    },
+    "postcss-minify-gradients": {
+      "6.0.0": {
+        "hash": "sha512-wO0F6YfVAR+K1xVxF53ueZJza3L+R3E6cp0VwuXJQejnNUH0DjcAFe3JEBeTY1dLwGa0NlDWueCA1VlEfiKgAA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-minify-gradients/-/postcss-minify-gradients-6.0.0.tgz"
+      }
+    },
+    "postcss-minify-params": {
+      "6.0.0": {
+        "hash": "sha512-Fz/wMQDveiS0n5JPcvsMeyNXOIMrwF88n7196puSuQSWSa+/Ofc1gDOSY2xi8+A4PqB5dlYCKk/WfqKqsI+ReQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-minify-params/-/postcss-minify-params-6.0.0.tgz"
+      }
+    },
+    "postcss-minify-selectors": {
+      "6.0.0": {
+        "hash": "sha512-ec/q9JNCOC2CRDNnypipGfOhbYPuUkewGwLnbv6omue/PSASbHSU7s6uSQ0tcFRVv731oMIx8k0SP4ZX6be/0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-minify-selectors/-/postcss-minify-selectors-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-charset": {
+      "6.0.0": {
+        "hash": "sha512-cqundwChbu8yO/gSWkuFDmKrCZ2vJzDAocheT2JTd0sFNA4HMGoKMfbk2B+J0OmO0t5GUkiAkSM5yF2rSLUjgQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-charset/-/postcss-normalize-charset-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-display-values": {
+      "6.0.0": {
+        "hash": "sha512-Qyt5kMrvy7dJRO3OjF7zkotGfuYALETZE+4lk66sziWSPzlBEt7FrUshV6VLECkI4EN8Z863O6Nci4NXQGNzYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-display-values/-/postcss-normalize-display-values-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-positions": {
+      "6.0.0": {
+        "hash": "sha512-mPCzhSV8+30FZyWhxi6UoVRYd3ZBJgTRly4hOkaSifo0H+pjDYcii/aVT4YE6QpOil15a5uiv6ftnY3rm0igPg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-positions/-/postcss-normalize-positions-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-repeat-style": {
+      "6.0.0": {
+        "hash": "sha512-50W5JWEBiOOAez2AKBh4kRFm2uhrT3O1Uwdxz7k24aKtbD83vqmcVG7zoIwo6xI2FZ/HDlbrCopXhLeTpQib1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-string": {
+      "6.0.0": {
+        "hash": "sha512-KWkIB7TrPOiqb8ZZz6homet2KWKJwIlysF5ICPZrXAylGe2hzX/HSf4NTX2rRPJMAtlRsj/yfkrWGavFuB+c0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-string/-/postcss-normalize-string-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-timing-functions": {
+      "6.0.0": {
+        "hash": "sha512-tpIXWciXBp5CiFs8sem90IWlw76FV4oi6QEWfQwyeREVwUy39VSeSqjAT7X0Qw650yAimYW5gkl2Gd871N5SQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-unicode": {
+      "6.0.0": {
+        "hash": "sha512-ui5crYkb5ubEUDugDc786L/Me+DXp2dLg3fVJbqyAl0VPkAeALyAijF2zOsnZyaS1HyfPuMH0DwyY18VMFVNkg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-unicode/-/postcss-normalize-unicode-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-url": {
+      "6.0.0": {
+        "hash": "sha512-98mvh2QzIPbb02YDIrYvAg4OUzGH7s1ZgHlD3fIdTHLgPLRpv1ZTKJDnSAKr4Rt21ZQFzwhGMXxpXlfrUBKFHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-url/-/postcss-normalize-url-6.0.0.tgz"
+      }
+    },
+    "postcss-normalize-whitespace": {
+      "6.0.0": {
+        "hash": "sha512-7cfE1AyLiK0+ZBG6FmLziJzqQCpTQY+8XjMhMAz8WSBSCsCNNUKujgIgjCAmDT3cJ+3zjTXFkoD15ZPsckArVw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-normalize-whitespace/-/postcss-normalize-whitespace-6.0.0.tgz"
+      }
+    },
+    "postcss-ordered-values": {
+      "6.0.0": {
+        "hash": "sha512-K36XzUDpvfG/nWkjs6d1hRBydeIxGpKS2+n+ywlKPzx1nMYDYpoGbcjhj5AwVYJK1qV2/SDoDEnHzlPD6s3nMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-ordered-values/-/postcss-ordered-values-6.0.0.tgz"
+      }
+    },
+    "postcss-reduce-initial": {
+      "6.0.0": {
+        "hash": "sha512-s2UOnidpVuXu6JiiI5U+fV2jamAw5YNA9Fdi/GRK0zLDLCfXmSGqQtzpUPtfN66RtCbb9fFHoyZdQaxOB3WxVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-reduce-initial/-/postcss-reduce-initial-6.0.0.tgz"
+      }
+    },
+    "postcss-reduce-transforms": {
+      "6.0.0": {
+        "hash": "sha512-FQ9f6xM1homnuy1wLe9lP1wujzxnwt1EwiigtWwuyf8FsqqXUDUp2Ulxf9A5yjlUOTdCJO6lonYjg1mgqIIi2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-reduce-transforms/-/postcss-reduce-transforms-6.0.0.tgz"
+      }
+    },
+    "postcss-selector-parser": {
+      "6.0.11": {
+        "hash": "sha512-zbARubNdogI9j7WY4nQJBiNqQf3sLS3wCP4WfOidu+p28LofJqDH1tcXypGrcmMHhDk2t9wGhCsYe/+szLTy1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.11.tgz"
+      }
+    },
+    "postcss-svgo": {
+      "6.0.0": {
+        "hash": "sha512-r9zvj/wGAoAIodn84dR/kFqwhINp5YsJkLoujybWG59grR/IHx+uQ2Zo+IcOwM0jskfYX3R0mo+1Kip1VSNcvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-svgo/-/postcss-svgo-6.0.0.tgz"
+      }
+    },
+    "postcss-unique-selectors": {
+      "6.0.0": {
+        "hash": "sha512-EPQzpZNxOxP7777t73RQpZE5e9TrnCrkvp7AH7a0l89JmZiPnS82y216JowHXwpBCQitfyxrof9TK3rYbi7/Yw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-unique-selectors/-/postcss-unique-selectors-6.0.0.tgz"
+      }
+    },
+    "postcss-value-parser": {
+      "4.2.0": {
+        "hash": "sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
+      }
+    },
+    "source-map-js": {
+      "1.0.2": {
+        "hash": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+      }
+    },
+    "stylehacks": {
+      "6.0.0": {
+        "hash": "sha512-+UT589qhHPwz6mTlCLSt/vMNTJx8dopeJlZAlBMJPWA3ORqu6wmQY7FBXf+qD+FsqoBJODyqNxOUP3jdntFRdw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stylehacks/-/stylehacks-6.0.0.tgz"
+      }
+    },
+    "svgo": {
+      "3.0.2": {
+        "hash": "sha512-Z706C1U2pb1+JGP48fbazf3KxHrWOsLme6Rv7imFBn5EnuanDW1GPaA/P1/dvObE670JDePC3mnj0k0B7P0jjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svgo/-/svgo-3.0.2.tgz"
+      }
+    },
+    "update-browserslist-db": {
+      "1.0.10": {
+        "hash": "sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.10.tgz"
+      }
+    },
+    "util-deprecate": {
+      "1.0.2": {
+        "hash": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+      }
+    }
+  }
+}
