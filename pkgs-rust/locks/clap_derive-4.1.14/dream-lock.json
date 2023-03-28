@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "clap_derive",
+    "location": "",
+    "packages": {
+      "clap_derive": "4.1.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "clap_derive": {
+        "4.1.14": {
+          "description": "Parse command line argument by defining a struct, derive crate.", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "clap_derive": {
+        "4.1.14": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clap_derive": {
+      "4.1.14": [
+        [ "heck", "0.4.1" ],
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "syn", "2.0.11" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.54": [
+        [ "unicode-ident", "1.0.8" ]
+      ]
+    },
+    "quote": {
+      "1.0.26": [
+        [ "proc-macro2", "1.0.54" ]
+      ]
+    },
+    "syn": {
+      "2.0.11": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "unicode-ident", "1.0.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "clap_derive": {
+      "4.1.14": {
+        "hash": "81d7dc0031c3a59a04fc2ba395c8e2dd463cba1859275f065d225f6122221b45",
+        "type": "crates-io"
+      }
+    },
+    "heck": {
+      "0.4.1": {
+        "hash": "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8",
+        "pname": "heck",
+        "type": "crates-io",
+        "version": "0.4.1"
+      }
+    },
+    "proc-macro2": {
+      "1.0.54": {
+        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
+        "pname": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.54"
+      }
+    },
+    "quote": {
+      "1.0.26": {
+        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
+        "pname": "quote",
+        "type": "crates-io",
+        "version": "1.0.26"
+      }
+    },
+    "syn": {
+      "2.0.11": {
+        "hash": "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "2.0.11"
+      }
+    },
+    "unicode-ident": {
+      "1.0.8": {
+        "hash": "e5464a87b239f13a63a501f2701565754bae92d243d4bb7eb12f6d57d2269bf4",
+        "pname": "unicode-ident",
+        "type": "crates-io",
+        "version": "1.0.8"
+      }
+    }
+  }
+}

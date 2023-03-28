@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "serde_derive",
+    "location": "",
+    "packages": {
+      "serde_derive": "1.0.159"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "serde_derive": {
+        "1.0.159": {
+          "description": "Macros 1.1 implementation of #[derive(Serialize, Deserialize)]", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "serde_derive": {
+        "1.0.159": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proc-macro2": {
+      "1.0.54": [
+        [ "unicode-ident", "1.0.8" ]
+      ]
+    },
+    "quote": {
+      "1.0.26": [
+        [ "proc-macro2", "1.0.54" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.159": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "serde", "1.0.159" ],
+        [ "syn", "2.0.11" ]
+      ]
+    },
+    "syn": {
+      "2.0.11": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "unicode-ident", "1.0.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "proc-macro2": {
+      "1.0.54": {
+        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
+        "pname": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.54"
+      }
+    },
+    "quote": {
+      "1.0.26": {
+        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
+        "pname": "quote",
+        "type": "crates-io",
+        "version": "1.0.26"
+      }
+    },
+    "serde": {
+      "1.0.159": {
+        "hash": "3c04e8343c3daeec41f58990b9d77068df31209f2af111e059e9fe9646693065",
+        "pname": "serde",
+        "type": "crates-io",
+        "version": "1.0.159"
+      }
+    },
+    "serde_derive": {
+      "1.0.159": {
+        "hash": "4c614d17805b093df4b147b51339e7e44bf05ef59fba1e45d83500bcfb4d8585",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "2.0.11": {
+        "hash": "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "2.0.11"
+      }
+    },
+    "unicode-ident": {
+      "1.0.8": {
+        "hash": "e5464a87b239f13a63a501f2701565754bae92d243d4bb7eb12f6d57d2269bf4",
+        "pname": "unicode-ident",
+        "type": "crates-io",
+        "version": "1.0.8"
+      }
+    }
+  }
+}

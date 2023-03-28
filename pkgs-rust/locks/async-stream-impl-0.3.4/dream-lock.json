@@ -33,7 +33,7 @@
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ],
-        [ "tokio", "1.26.0" ]
+        [ "tokio", "1.27.0" ]
       ]
     },
     "futures-macro": {
@@ -134,29 +134,33 @@
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
+      ],
+      "2.0.11": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "unicode-ident", "1.0.8" ]
       ]
     },
     "tokio": {
-      "1.26.0": [
+      "1.27.0": [
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
         [ "libc", "0.2.140" ],
-        [ "memchr", "2.5.0" ],
         [ "mio", "0.8.6" ],
         [ "num_cpus", "1.15.0" ],
         [ "parking_lot", "0.12.1" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "signal-hook-registry", "1.4.1" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio-macros", "1.8.2" ],
+        [ "tokio-macros", "2.0.0" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
     "tokio-macros": {
-      "1.8.2": [
+      "2.0.0": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.11" ]
       ]
     },
     "winapi": {
@@ -285,14 +289,6 @@
         "version": "0.4.17"
       }
     },
-    "memchr": {
-      "2.5.0": {
-        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
-        "pname": "memchr",
-        "type": "crates-io",
-        "version": "2.5.0"
-      }
-    },
     "mio": {
       "0.8.6": {
         "hash": "5b9d9a46eff5b4ff64b45a9e316a6d1e0bc719ef429cbec4dc630684212bfdf9",
@@ -411,22 +407,28 @@
         "pname": "syn",
         "type": "crates-io",
         "version": "1.0.109"
+      },
+      "2.0.11": {
+        "hash": "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "2.0.11"
       }
     },
     "tokio": {
-      "1.26.0": {
-        "hash": "03201d01c3c27a29c8a5cee5b55a93ddae1ccf6f08f65365c2c918f8c1b76f64",
+      "1.27.0": {
+        "hash": "d0de47a4eecbe11f498978a9b29d792f0d2692d1dd003650c24c76510e3bc001",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.26.0"
+        "version": "1.27.0"
       }
     },
     "tokio-macros": {
-      "1.8.2": {
-        "hash": "d266c00fde287f55d3f1c3e96c500c362a2b8c695076ec180f27918820bc6df8",
+      "2.0.0": {
+        "hash": "61a573bdc87985e9d6ddeed1b3d864e8a302c847e40d647746df2f1de209d1ce",
         "pname": "tokio-macros",
         "type": "crates-io",
-        "version": "1.8.2"
+        "version": "2.0.0"
       }
     },
     "unicode-ident": {

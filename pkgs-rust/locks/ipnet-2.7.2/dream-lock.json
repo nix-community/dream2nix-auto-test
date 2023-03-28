@@ -1,0 +1,232 @@
+{
+  "_generic": {
+    "defaultPackage": "ipnet",
+    "location": "",
+    "packages": {
+      "ipnet": "2.7.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "ipnet": {
+        "2.7.2": {
+          "description": "Provides types and useful methods for working with IPv4 and IPv6 network addresses, commonly called IP prefixes. The new `IpNet`, `Ipv4Net`, and `Ipv6Net` types build on the existing `IpAddr`, `Ipv4Addr`, and `Ipv6Addr` types already provided in Rust's standard library and align to their design to stay consistent. The module also provides useful traits that extend `Ipv4Addr` and `Ipv6Addr` with methods for `Add`, `Sub`, `BitAnd`, and `BitOr` operations. The module only uses stable feature so it is guaranteed to compile using the stable toolchain.", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "ipnet": {
+        "2.7.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ipnet": {
+      "2.7.2": [
+        [ "schemars", "0.8.12" ],
+        [ "serde", "1.0.159" ],
+        [ "serde_test", "1.0.159" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.54": [
+        [ "unicode-ident", "1.0.8" ]
+      ]
+    },
+    "quote": {
+      "1.0.26": [
+        [ "proc-macro2", "1.0.54" ]
+      ]
+    },
+    "schemars": {
+      "0.8.12": [
+        [ "dyn-clone", "1.0.11" ],
+        [ "schemars_derive", "0.8.12" ],
+        [ "serde", "1.0.159" ],
+        [ "serde_json", "1.0.95" ]
+      ]
+    },
+    "schemars_derive": {
+      "0.8.12": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "serde_derive_internals", "0.26.0" ],
+        [ "syn", "1.0.109" ]
+      ]
+    },
+    "serde": {
+      "1.0.159": [
+        [ "serde_derive", "1.0.159" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.159": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "syn", "2.0.11" ]
+      ]
+    },
+    "serde_derive_internals": {
+      "0.26.0": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "syn", "1.0.109" ]
+      ]
+    },
+    "serde_json": {
+      "1.0.95": [
+        [ "itoa", "1.0.6" ],
+        [ "ryu", "1.0.13" ],
+        [ "serde", "1.0.159" ]
+      ]
+    },
+    "serde_test": {
+      "1.0.159": [
+        [ "serde", "1.0.159" ]
+      ]
+    },
+    "syn": {
+      "1.0.109": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "unicode-ident", "1.0.8" ]
+      ],
+      "2.0.11": [
+        [ "proc-macro2", "1.0.54" ],
+        [ "quote", "1.0.26" ],
+        [ "unicode-ident", "1.0.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "dyn-clone": {
+      "1.0.11": {
+        "hash": "68b0cf012f1230e43cd00ebb729c6bb58707ecfa8ad08b52ef3a4ccd2697fc30",
+        "pname": "dyn-clone",
+        "type": "crates-io",
+        "version": "1.0.11"
+      }
+    },
+    "ipnet": {
+      "2.7.2": {
+        "hash": "12b6ee2129af8d4fb011108c73d99a1b83a85977f23b82460c0ae2e25bb4b57f",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.6": {
+        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
+        "pname": "itoa",
+        "type": "crates-io",
+        "version": "1.0.6"
+      }
+    },
+    "proc-macro2": {
+      "1.0.54": {
+        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
+        "pname": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.54"
+      }
+    },
+    "quote": {
+      "1.0.26": {
+        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
+        "pname": "quote",
+        "type": "crates-io",
+        "version": "1.0.26"
+      }
+    },
+    "ryu": {
+      "1.0.13": {
+        "hash": "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041",
+        "pname": "ryu",
+        "type": "crates-io",
+        "version": "1.0.13"
+      }
+    },
+    "schemars": {
+      "0.8.12": {
+        "hash": "02c613288622e5f0c3fdc5dbd4db1c5fbe752746b1d1a56a0630b78fd00de44f",
+        "pname": "schemars",
+        "type": "crates-io",
+        "version": "0.8.12"
+      }
+    },
+    "schemars_derive": {
+      "0.8.12": {
+        "hash": "109da1e6b197438deb6db99952990c7f959572794b80ff93707d55a232545e7c",
+        "pname": "schemars_derive",
+        "type": "crates-io",
+        "version": "0.8.12"
+      }
+    },
+    "serde": {
+      "1.0.159": {
+        "hash": "3c04e8343c3daeec41f58990b9d77068df31209f2af111e059e9fe9646693065",
+        "pname": "serde",
+        "type": "crates-io",
+        "version": "1.0.159"
+      }
+    },
+    "serde_derive": {
+      "1.0.159": {
+        "hash": "4c614d17805b093df4b147b51339e7e44bf05ef59fba1e45d83500bcfb4d8585",
+        "pname": "serde_derive",
+        "type": "crates-io",
+        "version": "1.0.159"
+      }
+    },
+    "serde_derive_internals": {
+      "0.26.0": {
+        "hash": "85bf8229e7920a9f636479437026331ce11aa132b4dde37d121944a44d6e5f3c",
+        "pname": "serde_derive_internals",
+        "type": "crates-io",
+        "version": "0.26.0"
+      }
+    },
+    "serde_json": {
+      "1.0.95": {
+        "hash": "d721eca97ac802aa7777b701877c8004d950fc142651367300d21c1cc0194744",
+        "pname": "serde_json",
+        "type": "crates-io",
+        "version": "1.0.95"
+      }
+    },
+    "serde_test": {
+      "1.0.159": {
+        "hash": "f259aa64e48efaf5a4fea11f97cacb109f7fc3ae9db7244cbb40c01c7faf42bc",
+        "pname": "serde_test",
+        "type": "crates-io",
+        "version": "1.0.159"
+      }
+    },
+    "syn": {
+      "1.0.109": {
+        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "1.0.109"
+      },
+      "2.0.11": {
+        "hash": "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "2.0.11"
+      }
+    },
+    "unicode-ident": {
+      "1.0.8": {
+        "hash": "e5464a87b239f13a63a501f2701565754bae92d243d4bb7eb12f6d57d2269bf4",
+        "pname": "unicode-ident",
+        "type": "crates-io",
+        "version": "1.0.8"
+      }
+    }
+  }
+}
