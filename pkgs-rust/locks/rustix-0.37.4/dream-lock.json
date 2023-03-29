@@ -3,7 +3,7 @@
     "defaultPackage": "rustix",
     "location": "",
     "packages": {
-      "rustix": "0.37.3"
+      "rustix": "0.37.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "rustix": {
-        "0.37.3": {
+        "0.37.4": {
           "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock2-like syscalls", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "rustix": {
-        "0.37.3": {}
+        "0.37.4": {}
       }
     }
   },
@@ -35,7 +35,7 @@
     },
     "bitflags": {
       "1.3.2": [
-        [ "compiler_builtins", "0.1.89" ],
+        [ "compiler_builtins", "0.1.90" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     },
@@ -43,7 +43,7 @@
       "0.2.0": [
         [ "ciborium-io", "0.2.0" ],
         [ "ciborium-ll", "0.2.0" ],
-        [ "serde", "1.0.158" ]
+        [ "serde", "1.0.159" ]
       ]
     },
     "ciborium-ll": {
@@ -56,7 +56,7 @@
       "3.2.23": [
         [ "bitflags", "1.3.2" ],
         [ "clap_lex", "0.2.4" ],
-        [ "indexmap", "1.9.2" ],
+        [ "indexmap", "1.9.3" ],
         [ "textwrap", "0.16.0" ]
       ]
     },
@@ -84,10 +84,10 @@
         [ "oorandom", "11.1.3" ],
         [ "plotters", "0.3.4" ],
         [ "rayon", "1.7.0" ],
-        [ "regex", "1.7.1" ],
-        [ "serde", "1.0.158" ],
-        [ "serde_derive", "1.0.158" ],
-        [ "serde_json", "1.0.94" ],
+        [ "regex", "1.7.3" ],
+        [ "serde", "1.0.159" ],
+        [ "serde_derive", "1.0.159" ],
+        [ "serde_json", "1.0.95" ],
         [ "tinytemplate", "1.2.1" ],
         [ "walkdir", "2.3.3" ]
       ]
@@ -169,7 +169,7 @@
       ]
     },
     "indexmap": {
-      "1.9.2": [
+      "1.9.3": [
         [ "autocfg", "1.1.0" ],
         [ "hashbrown", "0.12.3" ]
       ]
@@ -180,7 +180,7 @@
       ]
     },
     "io-lifetimes": {
-      "1.0.8": [
+      "1.0.9": [
         [ "fs-err", "2.9.0" ],
         [ "hermit-abi", "0.3.1" ],
         [ "libc", "0.2.140" ],
@@ -200,7 +200,7 @@
     },
     "linux-raw-sys": {
       "0.3.0": [
-        [ "compiler_builtins", "0.1.89" ],
+        [ "compiler_builtins", "0.1.90" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     },
@@ -276,7 +276,7 @@
     "proc-macro-error": {
       "1.0.4": [
         [ "proc-macro-error-attr", "1.0.4" ],
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ],
         [ "version_check", "0.9.4" ]
@@ -284,19 +284,19 @@
     },
     "proc-macro-error-attr": {
       "1.0.4": [
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "version_check", "0.9.4" ]
       ]
     },
     "proc-macro2": {
-      "1.0.52": [
+      "1.0.54": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
     "quote": {
       "1.0.26": [
-        [ "proc-macro2", "1.0.52" ]
+        [ "proc-macro2", "1.0.54" ]
       ]
     },
     "rayon": {
@@ -319,28 +319,28 @@
       ]
     },
     "regex": {
-      "1.7.1": [
-        [ "regex-syntax", "0.6.28" ]
+      "1.7.3": [
+        [ "regex-syntax", "0.6.29" ]
       ]
     },
     "rustix": {
-      "0.36.10": [
+      "0.36.11": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.2.8" ],
-        [ "io-lifetimes", "1.0.8" ],
+        [ "io-lifetimes", "1.0.9" ],
         [ "libc", "0.2.140" ],
         [ "linux-raw-sys", "0.1.4" ],
         [ "windows-sys", "0.45.0" ]
       ],
-      "0.37.3": [
+      "0.37.4": [
         [ "bitflags", "1.3.2" ],
         [ "cc", "1.0.79" ],
-        [ "compiler_builtins", "0.1.89" ],
+        [ "compiler_builtins", "0.1.90" ],
         [ "criterion", "0.4.0" ],
         [ "ctor", "0.1.26" ],
         [ "errno", "0.3.0" ],
         [ "flate2", "1.0.25" ],
-        [ "io-lifetimes", "1.0.8" ],
+        [ "io-lifetimes", "1.0.9" ],
         [ "itoa", "1.0.6" ],
         [ "libc", "0.2.140" ],
         [ "linux-raw-sys", "0.3.0" ],
@@ -359,22 +359,22 @@
       ]
     },
     "serde": {
-      "1.0.158": [
-        [ "serde_derive", "1.0.158" ]
+      "1.0.159": [
+        [ "serde_derive", "1.0.159" ]
       ]
     },
     "serde_derive": {
-      "1.0.158": [
-        [ "proc-macro2", "1.0.52" ],
+      "1.0.159": [
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.3" ]
+        [ "syn", "2.0.11" ]
       ]
     },
     "serde_json": {
-      "1.0.94": [
+      "1.0.95": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.158" ]
+        [ "serde", "1.0.159" ]
       ]
     },
     "serial_test": {
@@ -387,7 +387,7 @@
     "serial_test_derive": {
       "0.6.0": [
         [ "proc-macro-error", "1.0.4" ],
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "rustversion", "1.0.12" ],
         [ "syn", "1.0.109" ]
@@ -395,12 +395,12 @@
     },
     "syn": {
       "1.0.109": [
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ],
-      "2.0.3": [
-        [ "proc-macro2", "1.0.52" ],
+      "2.0.11": [
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
@@ -410,14 +410,14 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.2.16" ],
-        [ "rustix", "0.36.10" ],
+        [ "rustix", "0.36.11" ],
         [ "windows-sys", "0.42.0" ]
       ]
     },
     "tinytemplate": {
       "1.2.1": [
-        [ "serde", "1.0.158" ],
-        [ "serde_json", "1.0.94" ]
+        [ "serde", "1.0.159" ],
+        [ "serde_json", "1.0.95" ]
       ]
     },
     "walkdir": {
@@ -437,7 +437,7 @@
         [ "bumpalo", "3.12.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.17.1" ],
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ],
         [ "wasm-bindgen-shared", "0.2.84" ]
@@ -451,7 +451,7 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.84": [
-        [ "proc-macro2", "1.0.52" ],
+        [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ],
         [ "wasm-bindgen-backend", "0.2.84" ],
@@ -615,11 +615,11 @@
       }
     },
     "compiler_builtins": {
-      "0.1.89": {
-        "hash": "9fc9c2080d347a2c316518840ac9194644a9993dfa1e9778ef38979a339f5d8b",
+      "0.1.90": {
+        "hash": "a3ca0978cbe31e8ed82689ddb9e97f2839b006f9773c16d85be98d5e9f18673d",
         "pname": "compiler_builtins",
         "type": "crates-io",
-        "version": "0.1.89"
+        "version": "0.1.90"
       }
     },
     "crc32fast": {
@@ -777,11 +777,11 @@
       }
     },
     "indexmap": {
-      "1.9.2": {
-        "hash": "1885e79c1fc4b10f0e172c475f458b7f7b93061064d98c3293e98c5ba0c8b399",
+      "1.9.3": {
+        "hash": "bd070e393353796e801d209ad339e89596eb4c8d430d18ede6a1cced8fafbd99",
         "pname": "indexmap",
         "type": "crates-io",
-        "version": "1.9.2"
+        "version": "1.9.3"
       }
     },
     "instant": {
@@ -793,11 +793,11 @@
       }
     },
     "io-lifetimes": {
-      "1.0.8": {
-        "hash": "0dd6da19f25979c7270e70fa95ab371ec3b701cd0eefc47667a09785b3c59155",
+      "1.0.9": {
+        "hash": "09270fd4fa1111bc614ed2246c7ef56239a3063d5be0d1ec3b589c505d400aeb",
         "pname": "io-lifetimes",
         "type": "crates-io",
-        "version": "1.0.8"
+        "version": "1.0.9"
       }
     },
     "itertools": {
@@ -991,11 +991,11 @@
       }
     },
     "proc-macro2": {
-      "1.0.52": {
-        "hash": "1d0e1ae9e836cc3beddd63db0df682593d7e2d3d891ae8c9083d2113e1744224",
+      "1.0.54": {
+        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.52"
+        "version": "1.0.54"
       }
     },
     "quote": {
@@ -1031,19 +1031,19 @@
       }
     },
     "regex": {
-      "1.7.1": {
-        "hash": "48aaa5748ba571fb95cd2c85c09f629215d3a6ece942baa100950af03a34f733",
+      "1.7.3": {
+        "hash": "8b1f693b24f6ac912f4893ef08244d70b6067480d2f1a46e950c9691e6749d1d",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.7.1"
+        "version": "1.7.3"
       }
     },
     "regex-syntax": {
-      "0.6.28": {
-        "hash": "456c603be3e8d448b072f410900c09faf164fbce2d480456f50eea6e25f9c848",
+      "0.6.29": {
+        "hash": "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.6.28"
+        "version": "0.6.29"
       }
     },
     "rustc-std-workspace-alloc": {
@@ -1063,14 +1063,14 @@
       }
     },
     "rustix": {
-      "0.36.10": {
-        "hash": "2fe885c3a125aa45213b68cc1472a49880cb5923dc23f522ad2791b882228778",
+      "0.36.11": {
+        "hash": "db4165c9963ab29e422d6c26fbc1d37f15bace6b2810221f9d925023480fcf0e",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.36.10"
+        "version": "0.36.11"
       },
-      "0.37.3": {
-        "hash": "62b24138615de35e32031d041a09032ef3487a616d901ca4db224e7d557efae2",
+      "0.37.4": {
+        "hash": "c348b5dc624ecee40108aa2922fed8bad89d7fcc2b9f8cb18f632898ac4a37f9",
         "type": "crates-io"
       }
     },
@@ -1107,27 +1107,27 @@
       }
     },
     "serde": {
-      "1.0.158": {
-        "hash": "771d4d9c4163ee138805e12c710dd365e4f44be8be0503cb1bb9eb989425d9c9",
+      "1.0.159": {
+        "hash": "3c04e8343c3daeec41f58990b9d77068df31209f2af111e059e9fe9646693065",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.158"
+        "version": "1.0.159"
       }
     },
     "serde_derive": {
-      "1.0.158": {
-        "hash": "e801c1712f48475582b7696ac71e0ca34ebb30e09338425384269d9717c62cad",
+      "1.0.159": {
+        "hash": "4c614d17805b093df4b147b51339e7e44bf05ef59fba1e45d83500bcfb4d8585",
         "pname": "serde_derive",
         "type": "crates-io",
-        "version": "1.0.158"
+        "version": "1.0.159"
       }
     },
     "serde_json": {
-      "1.0.94": {
-        "hash": "1c533a59c9d8a93a09c6ab31f0fd5e5f4dd1b8fc9434804029839884765d04ea",
+      "1.0.95": {
+        "hash": "d721eca97ac802aa7777b701877c8004d950fc142651367300d21c1cc0194744",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.94"
+        "version": "1.0.95"
       }
     },
     "serial_test": {
@@ -1161,11 +1161,11 @@
         "type": "crates-io",
         "version": "1.0.109"
       },
-      "2.0.3": {
-        "hash": "e8234ae35e70582bfa0f1fedffa6daa248e41dd045310b19800c4a36382c8f60",
+      "2.0.11": {
+        "hash": "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.3"
+        "version": "2.0.11"
       }
     },
     "tempfile": {
