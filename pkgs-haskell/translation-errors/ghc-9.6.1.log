@@ -2,33 +2,33 @@
 Translating:: ghc (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/ghc-9.6.1/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1679984222
++ indexTime=1680070629
 ++ date +%s
-+ age=188
-+ '[' 188 -gt 86400 ']'
-/tmp/tmp.ND7ZksTF8I/tmp.MBy3ucGsyN/tmp.v2bNWiT6cy ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=174
++ '[' 174 -gt 86400 ']'
+/tmp/tmp.uLwHjAH8Aq/tmp.tWeIwBPENn/tmp.EmcQWNS8cc ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/ghc-9.6.1/ghc-9.6.1.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 5376k    0 5376k    0     0  9234k      0 --:--:-- --:--:-- --:--:-- 9238k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2875k    0 2875k    0     0  4702k      0 --:--:-- --:--:-- --:--:-- 4697k100 5376k    0 5376k    0     0  7738k      0 --:--:-- --:--:-- --:--:-- 7736k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: ghc-9.6.1 (user goal)
 [__1] next goal: template-haskell (dependency of ghc)
 [__1] rejecting: template-haskell-2.17.0.0/installed-2.17.0.0 (conflict: ghc
 => template-haskell>=2.20 && <2.21)
-[__1] skipping: template-haskell-2.19.0.0, template-haskell-2.18.0.0,
-template-haskell-2.17.0.0, template-haskell-2.16.0.0,
-template-haskell-2.15.0.0, template-haskell-2.14.0.0,
-template-haskell-2.13.0.0, template-haskell-2.12.0.0,
-template-haskell-2.11.1.0, template-haskell-2.11.0.0,
-template-haskell-2.10.0.0, template-haskell-2.9.0.0, template-haskell-2.8.0.0,
-template-haskell-2.7.0.0, template-haskell-2.6.0.0, template-haskell-2.5.0.0,
-template-haskell-2.4.0.1, template-haskell-2.4.0.0, template-haskell-2.3.0.1,
-template-haskell-2.3.0.0, template-haskell-2.2.0.0 (has the same
-characteristics that caused the previous version to fail: excluded by
-constraint '>=2.20 && <2.21' from 'ghc')
+[__1] rejecting: template-haskell-2.20.0.0, template-haskell-2.19.0.0,
+template-haskell-2.18.0.0, template-haskell-2.17.0.0,
+template-haskell-2.16.0.0, template-haskell-2.15.0.0,
+template-haskell-2.14.0.0, template-haskell-2.13.0.0,
+template-haskell-2.12.0.0, template-haskell-2.11.1.0,
+template-haskell-2.11.0.0, template-haskell-2.10.0.0,
+template-haskell-2.9.0.0, template-haskell-2.8.0.0, template-haskell-2.7.0.0,
+template-haskell-2.6.0.0, template-haskell-2.5.0.0, template-haskell-2.4.0.1,
+template-haskell-2.4.0.0, template-haskell-2.3.0.1, template-haskell-2.3.0.0,
+template-haskell-2.2.0.0 (constraint from non-upgradeable package requires
+installed instance)
 [__1] fail (backjumping, conflict set: ghc, template-haskell)
 After searching the rest of the dependency tree exhaustively, these were the
-goals I've had most trouble fulfilling: ghc, template-haskell
+goals I've had most trouble fulfilling: template-haskell, ghc
 

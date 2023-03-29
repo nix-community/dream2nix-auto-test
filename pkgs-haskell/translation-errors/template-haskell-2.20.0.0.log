@@ -1,0 +1,32 @@
+
+Translating:: template-haskell (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/template-haskell-2.20.0.0/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1680070629
+++ date +%s
++ age=16
++ '[' 16 -gt 86400 ']'
+/tmp/tmp.kr8IkC7Vpv/tmp.UD3S1Yg7YE/tmp.ohqcZNgcZt ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/template-haskell-2.20.0.0/template-haskell-2.20.0.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 84438    0 84438    0     0   230k      0 --:--:-- --:--:-- --:--:--  230k
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] next goal: template-haskell (user goal)
+[__0] rejecting: template-haskell-2.20.0.0 (constraint from non-upgradeable
+package requires installed instance)
+[__0] rejecting: template-haskell-2.19.0.0, template-haskell-2.18.0.0,
+template-haskell-2.17.0.0/installed-2.17.0.0, template-haskell-2.17.0.0,
+template-haskell-2.16.0.0, template-haskell-2.15.0.0,
+template-haskell-2.14.0.0, template-haskell-2.13.0.0,
+template-haskell-2.12.0.0, template-haskell-2.11.1.0,
+template-haskell-2.11.0.0, template-haskell-2.10.0.0,
+template-haskell-2.9.0.0, template-haskell-2.8.0.0, template-haskell-2.7.0.0,
+template-haskell-2.6.0.0, template-haskell-2.5.0.0, template-haskell-2.4.0.1,
+template-haskell-2.4.0.0, template-haskell-2.3.0.1, template-haskell-2.3.0.0,
+template-haskell-2.2.0.0 (constraint from user target requires ==2.20.0.0)
+[__0] fail (backjumping, conflict set: template-haskell)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: template-haskell
+
