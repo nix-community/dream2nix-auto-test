@@ -3,7 +3,7 @@
     "defaultPackage": "rustix",
     "location": "",
     "packages": {
-      "rustix": "0.37.4"
+      "rustix": "0.37.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "rustix": {
-        "0.37.4": {
+        "0.37.5": {
           "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock2-like syscalls", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "rustix": {
-        "0.37.4": {}
+        "0.37.5": {}
       }
     }
   },
@@ -132,11 +132,6 @@
       ]
     },
     "errno": {
-      "0.2.8": [
-        [ "errno-dragonfly", "0.1.2" ],
-        [ "libc", "0.2.140" ],
-        [ "winapi", "0.3.9" ]
-      ],
       "0.3.0": [
         [ "errno-dragonfly", "0.1.2" ],
         [ "libc", "0.2.140" ],
@@ -180,9 +175,8 @@
       ]
     },
     "io-lifetimes": {
-      "1.0.9": [
+      "1.0.6": [
         [ "fs-err", "2.9.0" ],
-        [ "hermit-abi", "0.3.1" ],
         [ "libc", "0.2.140" ],
         [ "os_pipe", "1.1.3" ],
         [ "windows-sys", "0.45.0" ]
@@ -316,6 +310,9 @@
     "redox_syscall": {
       "0.2.16": [
         [ "bitflags", "1.3.2" ]
+      ],
+      "0.3.5": [
+        [ "bitflags", "1.3.2" ]
       ]
     },
     "regex": {
@@ -324,15 +321,15 @@
       ]
     },
     "rustix": {
-      "0.36.11": [
+      "0.37.4": [
         [ "bitflags", "1.3.2" ],
-        [ "errno", "0.2.8" ],
-        [ "io-lifetimes", "1.0.9" ],
+        [ "errno", "0.3.0" ],
+        [ "io-lifetimes", "1.0.6" ],
         [ "libc", "0.2.140" ],
-        [ "linux-raw-sys", "0.1.4" ],
+        [ "linux-raw-sys", "0.3.0" ],
         [ "windows-sys", "0.45.0" ]
       ],
-      "0.37.4": [
+      "0.37.5": [
         [ "bitflags", "1.3.2" ],
         [ "cc", "1.0.79" ],
         [ "compiler_builtins", "0.1.90" ],
@@ -340,16 +337,16 @@
         [ "ctor", "0.1.26" ],
         [ "errno", "0.3.0" ],
         [ "flate2", "1.0.25" ],
-        [ "io-lifetimes", "1.0.9" ],
+        [ "io-lifetimes", "1.0.6" ],
         [ "itoa", "1.0.6" ],
         [ "libc", "0.2.140" ],
         [ "linux-raw-sys", "0.3.0" ],
         [ "memoffset", "0.8.0" ],
-        [ "once_cell", "1.17.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
         [ "rustc-std-workspace-core", "1.0.0" ],
         [ "serial_test", "0.6.0" ],
-        [ "tempfile", "3.4.0" ],
+        [ "tempfile", "3.5.0" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -406,12 +403,12 @@
       ]
     },
     "tempfile": {
-      "3.4.0": [
+      "3.5.0": [
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
-        [ "redox_syscall", "0.2.16" ],
-        [ "rustix", "0.36.11" ],
-        [ "windows-sys", "0.42.0" ]
+        [ "redox_syscall", "0.3.5" ],
+        [ "rustix", "0.37.4" ],
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "tinytemplate": {
@@ -436,7 +433,7 @@
       "0.2.84": [
         [ "bumpalo", "3.12.0" ],
         [ "log", "0.4.17" ],
-        [ "once_cell", "1.17.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ],
@@ -476,15 +473,6 @@
       ]
     },
     "windows-sys": {
-      "0.42.0": [
-        [ "windows_aarch64_gnullvm", "0.42.2" ],
-        [ "windows_aarch64_msvc", "0.42.2" ],
-        [ "windows_i686_gnu", "0.42.2" ],
-        [ "windows_i686_msvc", "0.42.2" ],
-        [ "windows_x86_64_gnu", "0.42.2" ],
-        [ "windows_x86_64_gnullvm", "0.42.2" ],
-        [ "windows_x86_64_msvc", "0.42.2" ]
-      ],
       "0.45.0": [
         [ "windows-targets", "0.42.2" ]
       ]
@@ -695,12 +683,6 @@
       }
     },
     "errno": {
-      "0.2.8": {
-        "hash": "f639046355ee4f37944e44f60642c6f3a7efa3cf6b78c78a0d989a8ce6c396a1",
-        "pname": "errno",
-        "type": "crates-io",
-        "version": "0.2.8"
-      },
       "0.3.0": {
         "hash": "50d6a0976c999d473fe89ad888d5a284e55366d9dc9038b1ba2aa15128c4afa0",
         "pname": "errno",
@@ -768,12 +750,6 @@
         "pname": "hermit-abi",
         "type": "crates-io",
         "version": "0.2.6"
-      },
-      "0.3.1": {
-        "hash": "fed44880c466736ef9a5c5b5facefb5ed0785676d0c02d612db14e54f0d84286",
-        "pname": "hermit-abi",
-        "type": "crates-io",
-        "version": "0.3.1"
       }
     },
     "indexmap": {
@@ -793,11 +769,11 @@
       }
     },
     "io-lifetimes": {
-      "1.0.9": {
-        "hash": "09270fd4fa1111bc614ed2246c7ef56239a3063d5be0d1ec3b589c505d400aeb",
+      "1.0.6": {
+        "hash": "cfa919a82ea574332e2de6e74b4c36e74d41982b335080fa59d4ef31be20fdf3",
         "pname": "io-lifetimes",
         "type": "crates-io",
-        "version": "1.0.9"
+        "version": "1.0.6"
       }
     },
     "itertools": {
@@ -841,12 +817,6 @@
       }
     },
     "linux-raw-sys": {
-      "0.1.4": {
-        "hash": "f051f77a7c8e6957c0696eac88f26b0117e54f52d3fc682ab19397a8812846a4",
-        "pname": "linux-raw-sys",
-        "type": "crates-io",
-        "version": "0.1.4"
-      },
       "0.3.0": {
         "hash": "cd550e73688e6d578f0ac2119e32b797a327631a42f9433e59d02e139c8df60d",
         "pname": "linux-raw-sys",
@@ -903,11 +873,11 @@
       }
     },
     "once_cell": {
-      "1.17.1": {
-        "hash": "b7e5500299e16ebb147ae15a00a942af264cf3688f47923b8fc2cd5858f23ad3",
+      "1.14.0": {
+        "hash": "2f7254b99e31cad77da24b08ebf628882739a608578bb1bcdfc1f9c21260d7c0",
         "pname": "once_cell",
         "type": "crates-io",
-        "version": "1.17.1"
+        "version": "1.14.0"
       }
     },
     "oorandom": {
@@ -1028,6 +998,12 @@
         "pname": "redox_syscall",
         "type": "crates-io",
         "version": "0.2.16"
+      },
+      "0.3.5": {
+        "hash": "567664f262709473930a4bf9e51bf2ebf3348f2e748ccc50dea20646858f8f29",
+        "pname": "redox_syscall",
+        "type": "crates-io",
+        "version": "0.3.5"
       }
     },
     "regex": {
@@ -1063,14 +1039,14 @@
       }
     },
     "rustix": {
-      "0.36.11": {
-        "hash": "db4165c9963ab29e422d6c26fbc1d37f15bace6b2810221f9d925023480fcf0e",
-        "pname": "rustix",
-        "type": "crates-io",
-        "version": "0.36.11"
-      },
       "0.37.4": {
         "hash": "c348b5dc624ecee40108aa2922fed8bad89d7fcc2b9f8cb18f632898ac4a37f9",
+        "pname": "rustix",
+        "type": "crates-io",
+        "version": "0.37.4"
+      },
+      "0.37.5": {
+        "hash": "0e78cc525325c06b4a7ff02db283472f3c042b7ff0c391f96c6d5ac6f4f91b75",
         "type": "crates-io"
       }
     },
@@ -1169,11 +1145,11 @@
       }
     },
     "tempfile": {
-      "3.4.0": {
-        "hash": "af18f7ae1acd354b992402e9ec5864359d693cd8a79dcbef59f76891701c1e95",
+      "3.5.0": {
+        "hash": "b9fbec84f381d5795b08656e4912bec604d162bff9291d6189a78f4c8ab87998",
         "pname": "tempfile",
         "type": "crates-io",
-        "version": "3.4.0"
+        "version": "3.5.0"
       }
     },
     "textwrap": {
@@ -1297,12 +1273,6 @@
       }
     },
     "windows-sys": {
-      "0.42.0": {
-        "hash": "5a3e1820f08b8513f676f7ab6c1f99ff312fb97b553d30ff4dd86f9f15728aa7",
-        "pname": "windows-sys",
-        "type": "crates-io",
-        "version": "0.42.0"
-      },
       "0.45.0": {
         "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
         "pname": "windows-sys",
