@@ -34,7 +34,7 @@
       "0.1.68": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.11" ]
+        [ "syn", "2.0.12" ]
       ]
     },
     "backtrace": {
@@ -91,30 +91,30 @@
       ]
     },
     "futures-channel": {
-      "0.3.27": [
-        [ "futures-core", "0.3.27" ]
+      "0.3.28": [
+        [ "futures-core", "0.3.28" ]
       ]
     },
     "futures-executor": {
-      "0.3.27": [
-        [ "futures-core", "0.3.27" ],
-        [ "futures-task", "0.3.27" ],
-        [ "futures-util", "0.3.27" ]
+      "0.3.28": [
+        [ "futures-core", "0.3.28" ],
+        [ "futures-task", "0.3.28" ],
+        [ "futures-util", "0.3.28" ]
       ]
     },
     "futures-macro": {
-      "0.3.27": [
+      "0.3.28": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.12" ]
       ]
     },
     "futures-util": {
-      "0.3.27": [
-        [ "futures-core", "0.3.27" ],
-        [ "futures-io", "0.3.27" ],
-        [ "futures-macro", "0.3.27" ],
-        [ "futures-task", "0.3.27" ],
+      "0.3.28": [
+        [ "futures-core", "0.3.28" ],
+        [ "futures-io", "0.3.28" ],
+        [ "futures-macro", "0.3.28" ],
+        [ "futures-task", "0.3.28" ],
         [ "memchr", "2.5.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
@@ -137,9 +137,9 @@
       "0.3.16": [
         [ "bytes", "1.4.0" ],
         [ "fnv", "1.0.7" ],
-        [ "futures-core", "0.3.27" ],
-        [ "futures-sink", "0.3.27" ],
-        [ "futures-util", "0.3.27" ],
+        [ "futures-core", "0.3.28" ],
+        [ "futures-sink", "0.3.28" ],
+        [ "futures-util", "0.3.28" ],
         [ "http", "0.2.9" ],
         [ "indexmap", "1.9.3" ],
         [ "slab", "0.4.8" ],
@@ -283,8 +283,8 @@
     "quinn": {
       "0.8.5": [
         [ "bytes", "1.4.0" ],
-        [ "futures-channel", "0.3.27" ],
-        [ "futures-util", "0.3.27" ],
+        [ "futures-channel", "0.3.28" ],
+        [ "futures-util", "0.3.28" ],
         [ "fxhash", "0.2.1" ],
         [ "quinn-proto", "0.8.4" ],
         [ "quinn-udp", "0.1.4" ],
@@ -313,7 +313,7 @@
     },
     "quinn-udp": {
       "0.1.4": [
-        [ "futures-util", "0.3.27" ],
+        [ "futures-util", "0.3.28" ],
         [ "libc", "0.2.140" ],
         [ "quinn-proto", "0.8.4" ],
         [ "socket2", "0.4.9" ],
@@ -376,7 +376,7 @@
         [ "errno", "0.3.0" ],
         [ "io-lifetimes", "1.0.9" ],
         [ "libc", "0.2.140" ],
-        [ "linux-raw-sys", "0.3.0" ],
+        [ "linux-raw-sys", "0.3.1" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -439,7 +439,7 @@
       "1.0.159": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.11" ]
+        [ "syn", "2.0.12" ]
       ]
     },
     "sharded-slab": {
@@ -464,7 +464,7 @@
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ],
-      "2.0.11": [
+      "2.0.12": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
@@ -488,7 +488,7 @@
       "1.0.40": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.11" ]
+        [ "syn", "2.0.12" ]
       ]
     },
     "thread_local": {
@@ -519,7 +519,7 @@
       "2.0.0": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.11" ]
+        [ "syn", "2.0.12" ]
       ]
     },
     "tokio-native-tls": {
@@ -530,7 +530,7 @@
     },
     "tokio-openssl": {
       "0.6.3": [
-        [ "futures-util", "0.3.27" ],
+        [ "futures-util", "0.3.28" ],
         [ "openssl", "0.10.48" ],
         [ "openssl-sys", "0.9.83" ],
         [ "tokio", "1.27.0" ]
@@ -546,8 +546,8 @@
     "tokio-util": {
       "0.7.7": [
         [ "bytes", "1.4.0" ],
-        [ "futures-core", "0.3.27" ],
-        [ "futures-sink", "0.3.27" ],
+        [ "futures-core", "0.3.28" ],
+        [ "futures-sink", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio", "1.27.0" ],
         [ "tracing", "0.1.37" ]
@@ -603,10 +603,10 @@
         [ "cfg-if", "1.0.0" ],
         [ "data-encoding", "2.3.3" ],
         [ "enum-as-inner", "0.5.1" ],
-        [ "futures-channel", "0.3.27" ],
-        [ "futures-executor", "0.3.27" ],
-        [ "futures-io", "0.3.27" ],
-        [ "futures-util", "0.3.27" ],
+        [ "futures-channel", "0.3.28" ],
+        [ "futures-executor", "0.3.28" ],
+        [ "futures-io", "0.3.28" ],
+        [ "futures-util", "0.3.28" ],
         [ "h2", "0.3.16" ],
         [ "http", "0.2.9" ],
         [ "idna", "0.2.3" ],
@@ -923,67 +923,67 @@
       }
     },
     "futures-channel": {
-      "0.3.27": {
-        "hash": "164713a5a0dcc3e7b4b1ed7d3b433cabc18025386f9339346e8daf15963cf7ac",
+      "0.3.28": {
+        "hash": "955518d47e09b25bbebc7a18df10b81f0c766eaf4c4f1cccef2fca5f2a4fb5f2",
         "pname": "futures-channel",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "futures-core": {
-      "0.3.27": {
-        "hash": "86d7a0c1aa76363dac491de0ee99faf6941128376f1cf96f07db7603b7de69dd",
+      "0.3.28": {
+        "hash": "4bca583b7e26f571124fe5b7561d49cb2868d79116cfa0eefce955557c6fee8c",
         "pname": "futures-core",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "futures-executor": {
-      "0.3.27": {
-        "hash": "1997dd9df74cdac935c76252744c1ed5794fac083242ea4fe77ef3ed60ba0f83",
+      "0.3.28": {
+        "hash": "ccecee823288125bd88b4d7f565c9e58e41858e47ab72e8ea2d64e93624386e0",
         "pname": "futures-executor",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "futures-io": {
-      "0.3.27": {
-        "hash": "89d422fa3cbe3b40dca574ab087abb5bc98258ea57eea3fd6f1fa7162c778b91",
+      "0.3.28": {
+        "hash": "4fff74096e71ed47f8e023204cfd0aa1289cd54ae5430a9523be060cdb849964",
         "pname": "futures-io",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "futures-macro": {
-      "0.3.27": {
-        "hash": "3eb14ed937631bd8b8b8977f2c198443447a8355b6e3ca599f38c975e5a963b6",
+      "0.3.28": {
+        "hash": "89ca545a94061b6365f2c7355b4b32bd20df3ff95f02da9329b34ccc3bd6ee72",
         "pname": "futures-macro",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "futures-sink": {
-      "0.3.27": {
-        "hash": "ec93083a4aecafb2a80a885c9de1f0ccae9dbd32c2bb54b0c3a65690e0b8d2f2",
+      "0.3.28": {
+        "hash": "f43be4fe21a13b9781a69afa4985b0f6ee0e1afab2c6f454a8cf30e2b2237b6e",
         "pname": "futures-sink",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "futures-task": {
-      "0.3.27": {
-        "hash": "fd65540d33b37b16542a0438c12e6aeead10d4ac5d05bd3f805b8f35ab592879",
+      "0.3.28": {
+        "hash": "76d3d132be6c0e6aa1534069c705a74a5997a356c0dc2f86a47765e5617c5b65",
         "pname": "futures-task",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "futures-util": {
-      "0.3.27": {
-        "hash": "3ef6b17e481503ec85211fed8f39d1970f128935ca1f814cd32ac4a6842e84ab",
+      "0.3.28": {
+        "hash": "26b01e40b772d54cf6c6d721c1d1abd0647a0106a12ecaa1c186273392a69533",
         "pname": "futures-util",
         "type": "crates-io",
-        "version": "0.3.27"
+        "version": "0.3.28"
       }
     },
     "fxhash": {
@@ -1135,11 +1135,11 @@
       }
     },
     "linux-raw-sys": {
-      "0.3.0": {
-        "hash": "cd550e73688e6d578f0ac2119e32b797a327631a42f9433e59d02e139c8df60d",
+      "0.3.1": {
+        "hash": "d59d8c75012853d2e872fb56bc8a2e53718e2cafe1a4c823143141c6d90c322f",
         "pname": "linux-raw-sys",
         "type": "crates-io",
-        "version": "0.3.0"
+        "version": "0.3.1"
       }
     },
     "log": {
@@ -1555,11 +1555,11 @@
         "type": "crates-io",
         "version": "1.0.109"
       },
-      "2.0.11": {
-        "hash": "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40",
+      "2.0.12": {
+        "hash": "79d9531f94112cfc3e4c8f5f02cb2b58f72c97b7efd85f70203cc6d8efda5927",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.11"
+        "version": "2.0.12"
       }
     },
     "tempfile": {

@@ -1,0 +1,151 @@
+{
+  "_generic": {
+    "defaultPackage": "futures-executor",
+    "location": "",
+    "packages": {
+      "futures-executor": "0.3.28"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "futures-executor": {
+        "0.3.28": {
+          "description": "Executors for asynchronous tasks based on the futures-rs library.\n", "homepage": "https://rust-lang.github.io/futures-rs", "license": [   "mit",   "asl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "futures-executor": {
+        "0.3.28": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "futures-executor": {
+      "0.3.28": [
+        [ "futures-core", "0.3.28" ],
+        [ "futures-task", "0.3.28" ],
+        [ "futures-util", "0.3.28" ],
+        [ "num_cpus", "1.15.0" ]
+      ]
+    },
+    "futures-util": {
+      "0.3.28": [
+        [ "futures-core", "0.3.28" ],
+        [ "futures-task", "0.3.28" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-utils", "0.1.0" ],
+        [ "slab", "0.4.8" ]
+      ]
+    },
+    "hermit-abi": {
+      "0.2.6": [
+        [ "libc", "0.2.140" ]
+      ]
+    },
+    "num_cpus": {
+      "1.15.0": [
+        [ "hermit-abi", "0.2.6" ],
+        [ "libc", "0.2.140" ]
+      ]
+    },
+    "slab": {
+      "0.4.8": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "pname": "autocfg",
+        "type": "crates-io",
+        "version": "1.1.0"
+      }
+    },
+    "futures-core": {
+      "0.3.28": {
+        "hash": "4bca583b7e26f571124fe5b7561d49cb2868d79116cfa0eefce955557c6fee8c",
+        "pname": "futures-core",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-executor": {
+      "0.3.28": {
+        "hash": "ccecee823288125bd88b4d7f565c9e58e41858e47ab72e8ea2d64e93624386e0",
+        "type": "crates-io"
+      }
+    },
+    "futures-task": {
+      "0.3.28": {
+        "hash": "76d3d132be6c0e6aa1534069c705a74a5997a356c0dc2f86a47765e5617c5b65",
+        "pname": "futures-task",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-util": {
+      "0.3.28": {
+        "hash": "26b01e40b772d54cf6c6d721c1d1abd0647a0106a12ecaa1c186273392a69533",
+        "pname": "futures-util",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "hermit-abi": {
+      "0.2.6": {
+        "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
+        "pname": "hermit-abi",
+        "type": "crates-io",
+        "version": "0.2.6"
+      }
+    },
+    "libc": {
+      "0.2.140": {
+        "hash": "99227334921fae1a979cf0bfdfcc6b3e5ce376ef57e16fb6fb3ea2ed6095f80c",
+        "pname": "libc",
+        "type": "crates-io",
+        "version": "0.2.140"
+      }
+    },
+    "num_cpus": {
+      "1.15.0": {
+        "hash": "0fac9e2da13b5eb447a6ce3d392f23a29d8694bff781bf03a16cd9ac8697593b",
+        "pname": "num_cpus",
+        "type": "crates-io",
+        "version": "1.15.0"
+      }
+    },
+    "pin-project-lite": {
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+        "pname": "pin-project-lite",
+        "type": "crates-io",
+        "version": "0.2.9"
+      }
+    },
+    "pin-utils": {
+      "0.1.0": {
+        "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
+        "pname": "pin-utils",
+        "type": "crates-io",
+        "version": "0.1.0"
+      }
+    },
+    "slab": {
+      "0.4.8": {
+        "hash": "6528351c9bc8ab22353f9d776db39a20288e8d6c37ef8cfe3317cf875eecfc2d",
+        "pname": "slab",
+        "type": "crates-io",
+        "version": "0.4.8"
+      }
+    }
+  }
+}
