@@ -3,7 +3,7 @@
     "defaultPackage": "rustix",
     "location": "",
     "packages": {
-      "rustix": "0.37.5"
+      "rustix": "0.37.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "rustix": {
-        "0.37.5": {
+        "0.37.6": {
           "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock2-like syscalls", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "rustix": {
-        "0.37.5": {}
+        "0.37.6": {}
       }
     }
   },
@@ -35,7 +35,7 @@
     },
     "bitflags": {
       "1.3.2": [
-        [ "compiler_builtins", "0.1.90" ],
+        [ "compiler_builtins", "0.1.91" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     },
@@ -193,8 +193,8 @@
       ]
     },
     "linux-raw-sys": {
-      "0.3.0": [
-        [ "compiler_builtins", "0.1.90" ],
+      "0.3.1": [
+        [ "compiler_builtins", "0.1.91" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     },
@@ -321,18 +321,18 @@
       ]
     },
     "rustix": {
-      "0.37.4": [
+      "0.37.5": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.0" ],
         [ "io-lifetimes", "1.0.6" ],
         [ "libc", "0.2.140" ],
-        [ "linux-raw-sys", "0.3.0" ],
+        [ "linux-raw-sys", "0.3.1" ],
         [ "windows-sys", "0.45.0" ]
       ],
-      "0.37.5": [
+      "0.37.6": [
         [ "bitflags", "1.3.2" ],
         [ "cc", "1.0.79" ],
-        [ "compiler_builtins", "0.1.90" ],
+        [ "compiler_builtins", "0.1.91" ],
         [ "criterion", "0.4.0" ],
         [ "ctor", "0.1.26" ],
         [ "errno", "0.3.0" ],
@@ -340,7 +340,7 @@
         [ "io-lifetimes", "1.0.6" ],
         [ "itoa", "1.0.6" ],
         [ "libc", "0.2.140" ],
-        [ "linux-raw-sys", "0.3.0" ],
+        [ "linux-raw-sys", "0.3.1" ],
         [ "memoffset", "0.8.0" ],
         [ "once_cell", "1.14.0" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
@@ -364,7 +364,7 @@
       "1.0.159": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.11" ]
+        [ "syn", "2.0.12" ]
       ]
     },
     "serde_json": {
@@ -396,7 +396,7 @@
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ],
-      "2.0.11": [
+      "2.0.12": [
         [ "proc-macro2", "1.0.54" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
@@ -407,7 +407,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.4" ],
+        [ "rustix", "0.37.5" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -603,11 +603,11 @@
       }
     },
     "compiler_builtins": {
-      "0.1.90": {
-        "hash": "a3ca0978cbe31e8ed82689ddb9e97f2839b006f9773c16d85be98d5e9f18673d",
+      "0.1.91": {
+        "hash": "571298a3cce7e2afbd3d61abb91a18667d5ab25993ec577a88ee8ac45f00cc3a",
         "pname": "compiler_builtins",
         "type": "crates-io",
-        "version": "0.1.90"
+        "version": "0.1.91"
       }
     },
     "crc32fast": {
@@ -817,11 +817,11 @@
       }
     },
     "linux-raw-sys": {
-      "0.3.0": {
-        "hash": "cd550e73688e6d578f0ac2119e32b797a327631a42f9433e59d02e139c8df60d",
+      "0.3.1": {
+        "hash": "d59d8c75012853d2e872fb56bc8a2e53718e2cafe1a4c823143141c6d90c322f",
         "pname": "linux-raw-sys",
         "type": "crates-io",
-        "version": "0.3.0"
+        "version": "0.3.1"
       }
     },
     "lock_api": {
@@ -1039,14 +1039,14 @@
       }
     },
     "rustix": {
-      "0.37.4": {
-        "hash": "c348b5dc624ecee40108aa2922fed8bad89d7fcc2b9f8cb18f632898ac4a37f9",
-        "pname": "rustix",
-        "type": "crates-io",
-        "version": "0.37.4"
-      },
       "0.37.5": {
         "hash": "0e78cc525325c06b4a7ff02db283472f3c042b7ff0c391f96c6d5ac6f4f91b75",
+        "pname": "rustix",
+        "type": "crates-io",
+        "version": "0.37.5"
+      },
+      "0.37.6": {
+        "hash": "d097081ed288dfe45699b72f5b5d648e5f15d64d900c7080273baa20c16a6849",
         "type": "crates-io"
       }
     },
@@ -1137,11 +1137,11 @@
         "type": "crates-io",
         "version": "1.0.109"
       },
-      "2.0.11": {
-        "hash": "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40",
+      "2.0.12": {
+        "hash": "79d9531f94112cfc3e4c8f5f02cb2b58f72c97b7efd85f70203cc6d8efda5927",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.11"
+        "version": "2.0.12"
       }
     },
     "tempfile": {

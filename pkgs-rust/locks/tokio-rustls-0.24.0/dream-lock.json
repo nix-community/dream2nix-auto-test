@@ -3,7 +3,7 @@
     "defaultPackage": "tokio-rustls",
     "location": "",
     "packages": {
-      "tokio-rustls": "0.23.4"
+      "tokio-rustls": "0.24.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,14 +12,14 @@
     "gitSources": [],
     "meta": {
       "tokio-rustls": {
-        "0.23.4": {
+        "0.24.0": {
           "description": "Asynchronous TLS/SSL streams for Tokio using Rustls.", "homepage": "https://github.com/tokio-rs/tls", "license": []
         }
       }
     },
     "relPathReplacements": {
       "tokio-rustls": {
-        "0.23.4": {}
+        "0.24.0": {}
       }
     }
   },
@@ -119,16 +119,22 @@
       ]
     },
     "rustls": {
-      "0.20.8": [
+      "0.21.0": [
         [ "log", "0.4.17" ],
         [ "ring", "0.16.20" ],
-        [ "sct", "0.7.0" ],
-        [ "webpki", "0.22.0" ]
+        [ "rustls-webpki", "0.100.1" ],
+        [ "sct", "0.7.0" ]
       ]
     },
     "rustls-pemfile": {
-      "0.2.1": [
-        [ "base64", "0.13.1" ]
+      "1.0.2": [
+        [ "base64", "0.21.0" ]
+      ]
+    },
+    "rustls-webpki": {
+      "0.100.1": [
+        [ "ring", "0.16.20" ],
+        [ "untrusted", "0.7.1" ]
       ]
     },
     "sct": {
@@ -188,13 +194,13 @@
       ]
     },
     "tokio-rustls": {
-      "0.23.4": [
+      "0.24.0": [
         [ "futures-util", "0.3.28" ],
         [ "lazy_static", "1.4.0" ],
-        [ "rustls", "0.20.8" ],
-        [ "rustls-pemfile", "0.2.1" ],
+        [ "rustls", "0.21.0" ],
+        [ "rustls-pemfile", "1.0.2" ],
+        [ "rustls-webpki", "0.100.1" ],
         [ "tokio", "1.27.0" ],
-        [ "webpki", "0.22.0" ],
         [ "webpki-roots", "0.22.6" ]
       ]
     },
@@ -280,11 +286,11 @@
       }
     },
     "base64": {
-      "0.13.1": {
-        "hash": "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8",
+      "0.21.0": {
+        "hash": "a4a4ddaa51a5bc52a6948f74c06d20aaaddb71924eab79b8c97a8c556e942d6a",
         "pname": "base64",
         "type": "crates-io",
-        "version": "0.13.1"
+        "version": "0.21.0"
       }
     },
     "bitflags": {
@@ -496,19 +502,27 @@
       }
     },
     "rustls": {
-      "0.20.8": {
-        "hash": "fff78fc74d175294f4e83b28343315ffcfb114b156f0185e9741cb5570f50e2f",
+      "0.21.0": {
+        "hash": "07180898a28ed6a7f7ba2311594308f595e3dd2e3c3812fa0a80a47b45f17e5d",
         "pname": "rustls",
         "type": "crates-io",
-        "version": "0.20.8"
+        "version": "0.21.0"
       }
     },
     "rustls-pemfile": {
-      "0.2.1": {
-        "hash": "5eebeaeb360c87bfb72e84abdb3447159c0eaececf1bef2aecd65a8be949d1c9",
+      "1.0.2": {
+        "hash": "d194b56d58803a43635bdc398cd17e383d6f71f9182b9a192c127ca42494a59b",
         "pname": "rustls-pemfile",
         "type": "crates-io",
-        "version": "0.2.1"
+        "version": "1.0.2"
+      }
+    },
+    "rustls-webpki": {
+      "0.100.1": {
+        "hash": "d6207cd5ed3d8dca7816f8f3725513a34609c0c765bf652b8c3cb4cfd87db46b",
+        "pname": "rustls-webpki",
+        "type": "crates-io",
+        "version": "0.100.1"
       }
     },
     "scopeguard": {
@@ -598,8 +612,8 @@
       }
     },
     "tokio-rustls": {
-      "0.23.4": {
-        "hash": "c43ee83903113e03984cb9e5cebe6c04a5116269e900e3ddba8f068a62adda59",
+      "0.24.0": {
+        "hash": "e0d409377ff5b1e3ca6437aa86c1eb7d40c134bfec254e44c830defa92669db5",
         "type": "crates-io"
       }
     },
