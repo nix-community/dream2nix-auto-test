@@ -3,7 +3,7 @@
     "defaultPackage": "postcss-preset-env",
     "location": "",
     "packages": {
-      "postcss-preset-env": "8.2.0"
+      "postcss-preset-env": "8.3.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -86,6 +86,14 @@
         [ "@csstools/css-tokenizer", "2.1.0" ]
       ]
     },
+    "@csstools/postcss-media-minmax": {
+      "1.0.0": [
+        [ "@csstools/css-calc", "1.0.1" ],
+        [ "@csstools/css-parser-algorithms", "2.1.0" ],
+        [ "@csstools/css-tokenizer", "2.1.0" ],
+        [ "@csstools/media-query-list-parser", "2.0.2" ]
+      ]
+    },
     "@csstools/postcss-media-queries-aspect-ratio-number-values": {
       "1.0.1": [
         [ "@csstools/css-parser-algorithms", "2.1.0" ],
@@ -154,7 +162,7 @@
     "browserslist": {
       "4.21.5": [
         [ "caniuse-lite", "1.0.30001473" ],
-        [ "electron-to-chromium", "1.4.347" ],
+        [ "electron-to-chromium", "1.4.348" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -283,7 +291,7 @@
       ]
     },
     "postcss-preset-env": {
-      "8.2.0": [
+      "8.3.0": [
         [ "@csstools/postcss-cascade-layers", "3.0.1" ],
         [ "@csstools/postcss-color-function", "2.2.0" ],
         [ "@csstools/postcss-color-mix-function", "1.0.0" ],
@@ -295,6 +303,7 @@
         [ "@csstools/postcss-logical-float-and-clear", "1.0.1" ],
         [ "@csstools/postcss-logical-resize", "1.0.1" ],
         [ "@csstools/postcss-logical-viewport-units", "1.0.2" ],
+        [ "@csstools/postcss-media-minmax", "1.0.0" ],
         [ "@csstools/postcss-media-queries-aspect-ratio-number-values", "1.0.1" ],
         [ "@csstools/postcss-nested-calc", "2.0.2" ],
         [ "@csstools/postcss-normalize-display-values", "2.0.1" ],
@@ -310,7 +319,7 @@
         [ "css-blank-pseudo", "5.0.2" ],
         [ "css-has-pseudo", "5.0.2" ],
         [ "css-prefers-color-scheme", "8.0.2" ],
-        [ "cssdb", "7.5.2" ],
+        [ "cssdb", "7.5.3" ],
         [ "postcss-attribute-case-insensitive", "6.0.2" ],
         [ "postcss-clamp", "4.1.0" ],
         [ "postcss-color-functional-notation", "5.0.2" ],
@@ -329,7 +338,6 @@
         [ "postcss-initial", "4.0.1" ],
         [ "postcss-lab-function", "5.2.0" ],
         [ "postcss-logical", "6.1.0" ],
-        [ "postcss-media-minmax", "5.0.0" ],
         [ "postcss-nesting", "11.2.2" ],
         [ "postcss-opacity-percentage", "2.0.0" ],
         [ "postcss-overflow-shorthand", "4.0.1" ],
@@ -359,6 +367,7 @@
         [ "@csstools/postcss-logical-float-and-clear", "1.0.1" ],
         [ "@csstools/postcss-logical-resize", "1.0.1" ],
         [ "@csstools/postcss-logical-viewport-units", "1.0.2" ],
+        [ "@csstools/postcss-media-minmax", "1.0.0" ],
         [ "@csstools/postcss-media-queries-aspect-ratio-number-values", "1.0.1" ],
         [ "@csstools/postcss-nested-calc", "2.0.2" ],
         [ "@csstools/postcss-normalize-display-values", "2.0.1" ],
@@ -376,9 +385,9 @@
         [ "css-blank-pseudo", "5.0.2" ],
         [ "css-has-pseudo", "5.0.2" ],
         [ "css-prefers-color-scheme", "8.0.2" ],
-        [ "cssdb", "7.5.2" ],
+        [ "cssdb", "7.5.3" ],
         [ "cssesc", "3.0.0" ],
-        [ "electron-to-chromium", "1.4.347" ],
+        [ "electron-to-chromium", "1.4.348" ],
         [ "escalade", "3.1.1" ],
         [ "fraction.js", "4.2.0" ],
         [ "nanoid", "3.3.6" ],
@@ -404,13 +413,12 @@
         [ "postcss-initial", "4.0.1" ],
         [ "postcss-lab-function", "5.2.0" ],
         [ "postcss-logical", "6.1.0" ],
-        [ "postcss-media-minmax", "5.0.0" ],
         [ "postcss-nesting", "11.2.2" ],
         [ "postcss-opacity-percentage", "2.0.0" ],
         [ "postcss-overflow-shorthand", "4.0.1" ],
         [ "postcss-page-break", "3.0.4" ],
         [ "postcss-place", "8.0.1" ],
-        [ "postcss-preset-env", "8.2.0" ],
+        [ "postcss-preset-env", "8.3.0" ],
         [ "postcss-pseudo-class-any-link", "8.0.2" ],
         [ "postcss-replace-overflow-wrap", "4.0.0" ],
         [ "postcss-selector-not", "7.0.1" ],
@@ -576,6 +584,13 @@
         "url": "https://registry.npmjs.org/@csstools/postcss-logical-viewport-units/-/postcss-logical-viewport-units-1.0.2.tgz"
       }
     },
+    "@csstools/postcss-media-minmax": {
+      "1.0.0": {
+        "hash": "sha512-qXHZ0QVDszKf4SsLazOEzFl+m+IkhHOigqMy/gHNIzAtqB3XeBQUa+dTi1ROmQBDH1HXktGwy+tafFBg9UoaxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-media-minmax/-/postcss-media-minmax-1.0.0.tgz"
+      }
+    },
     "@csstools/postcss-media-queries-aspect-ratio-number-values": {
       "1.0.1": {
         "hash": "sha512-V9yQqXdje6OfqDf6EL5iGOpi6N0OEczwYK83rql9UapQwFEryXlAehR5AqH8QqLYb6+y31wUXK6vMxCp0920Zg==",
@@ -696,10 +711,10 @@
       }
     },
     "cssdb": {
-      "7.5.2": {
-        "hash": "sha512-Xpu7Bf5Vlw+G7ikA2Lg/lVCRTSY8D5M5qFUgGNFyS4pa8ufGLyCBxIX/3if3krHlF1SKSfVPI/YsAWLDVEbocw==",
+      "7.5.3": {
+        "hash": "sha512-NQNRhrEnS6cW+RU/foLphb6xI/MDA70bI3Cy6VxJU8ilxgyTYz1X9zUzFGVTG5nGPylcKAGIt/UNc4deT56lQQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cssdb/-/cssdb-7.5.2.tgz"
+        "url": "https://registry.npmjs.org/cssdb/-/cssdb-7.5.3.tgz"
       }
     },
     "cssesc": {
@@ -710,10 +725,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.347": {
-        "hash": "sha512-LNi3+/9nV0vT6Bz1OsSoZ/w7IgNuWdefZ7mjKNjZxyRlI/ag6uMXxsxAy5Etvuixq3Q26exw2fc4bNYvYQqXSw==",
+      "1.4.348": {
+        "hash": "sha512-gM7TdwuG3amns/1rlgxMbeeyNoBFPa+4Uu0c7FeROWh4qWmvSOnvcslKmWy51ggLKZ2n/F/4i2HJ+PVNxH9uCQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.347.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.348.tgz"
       }
     },
     "escalade": {
@@ -891,13 +906,6 @@
         "url": "https://registry.npmjs.org/postcss-logical/-/postcss-logical-6.1.0.tgz"
       }
     },
-    "postcss-media-minmax": {
-      "5.0.0": {
-        "hash": "sha512-yDUvFf9QdFZTuCUg0g0uNSHVlJ5X1lSzDZjPSFaiCWvjgsvu8vEVxtahPrLMinIDEEGnx6cBe6iqdx5YWz08wQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/postcss-media-minmax/-/postcss-media-minmax-5.0.0.tgz"
-      }
-    },
     "postcss-nesting": {
       "11.2.2": {
         "hash": "sha512-aOTiUniAB1bcPE6GGiynWRa6PZFPhOTAm5q3q5cem6QeSijIHHkWr6gs65ukCZMXeak8yXeZVbBJET3VM+HlhA==",
@@ -934,10 +942,10 @@
       }
     },
     "postcss-preset-env": {
-      "8.2.0": {
-        "hash": "sha512-m5wWWANGQlXFYpgIcuatUWXYFQDhSfxeet4RiwietcuDpnXWpkY9JbzegR73DP0V6MUbhiIIl0vVjfJyql+Esw==",
+      "8.3.0": {
+        "hash": "sha512-VFc/bhwRo37RoTVzCTCKDJLw0lwsqLRCTc7dkJkfs9S7XXfTbk7QkhbMWHd2L+iZsAsE5yqdSRBZ41/Q828TbA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-8.2.0.tgz"
+        "url": "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-8.3.0.tgz"
       }
     },
     "postcss-pseudo-class-any-link": {
