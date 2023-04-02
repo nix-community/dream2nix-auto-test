@@ -228,8 +228,8 @@
     "@npmcli/map-workspaces": {
       "3.0.3": [
         [ "@npmcli/name-from-folder", "2.0.0" ],
-        [ "glob", "9.3.2" ],
-        [ "minimatch", "7.4.3" ],
+        [ "glob", "9.3.4" ],
+        [ "minimatch", "7.4.4" ],
         [ "read-package-json-fast", "3.0.2" ]
       ]
     },
@@ -385,7 +385,7 @@
     },
     "@tufjs/models": {
       "1.0.1": [
-        [ "minimatch", "7.4.3" ]
+        [ "minimatch", "7.4.4" ]
       ]
     },
     "@yarnpkg/parsers": {
@@ -531,7 +531,7 @@
       "17.0.5": [
         [ "@npmcli/fs", "3.1.0" ],
         [ "fs-minipass", "3.0.1" ],
-        [ "glob", "9.3.2" ],
+        [ "glob", "9.3.4" ],
         [ "lru-cache", "7.18.3" ],
         [ "minipass", "4.2.5" ],
         [ "minipass-collect", "1.0.2" ],
@@ -969,9 +969,9 @@
         [ "minimatch", "5.1.6" ],
         [ "once", "1.4.0" ]
       ],
-      "9.3.2": [
+      "9.3.4": [
         [ "fs.realpath", "1.0.0" ],
-        [ "minimatch", "7.4.3" ],
+        [ "minimatch", "8.0.2" ],
         [ "minipass", "4.2.5" ],
         [ "path-scurry", "1.6.3" ]
       ]
@@ -1050,7 +1050,7 @@
         [ "minimatch", "5.1.6" ]
       ],
       "6.0.2": [
-        [ "minimatch", "7.4.3" ]
+        [ "minimatch", "7.4.4" ]
       ]
     },
     "import-fresh": {
@@ -1452,7 +1452,7 @@
         [ "git-up", "7.0.0" ],
         [ "git-url-parse", "13.1.0" ],
         [ "gitconfiglocal", "1.0.0" ],
-        [ "glob", "9.3.2" ],
+        [ "glob", "9.3.4" ],
         [ "glob-parent", "5.1.2" ],
         [ "globby", "11.1.0" ],
         [ "graceful-fs", "4.2.10" ],
@@ -1864,7 +1864,10 @@
       "6.2.0": [
         [ "brace-expansion", "2.0.1" ]
       ],
-      "7.4.3": [
+      "7.4.4": [
+        [ "brace-expansion", "2.0.1" ]
+      ],
+      "8.0.2": [
         [ "brace-expansion", "2.0.1" ]
       ]
     },
@@ -2347,7 +2350,7 @@
         [ "npm-normalize-package-bin", "1.0.1" ]
       ],
       "6.0.1": [
-        [ "glob", "9.3.2" ],
+        [ "glob", "9.3.4" ],
         [ "json-parse-even-better-errors", "3.0.0" ],
         [ "normalize-package-data", "5.0.0" ],
         [ "npm-normalize-package-bin", "3.0.0" ]
@@ -2438,7 +2441,7 @@
         [ "glob", "7.2.3" ]
       ],
       "4.4.1": [
-        [ "glob", "9.3.2" ]
+        [ "glob", "9.3.4" ]
       ]
     },
     "run-parallel": {
@@ -4303,10 +4306,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/glob/-/glob-8.1.0.tgz"
       },
-      "9.3.2": {
-        "hash": "sha512-BTv/JhKXFEHsErMte/AnfiSv8yYOLLiyH2lTg8vn02O21zWFgHPTfxtgn1QRe7NRgggUhC8hacR2Re94svHqeA==",
+      "9.3.4": {
+        "hash": "sha512-qaSc49hojMOv1EPM4EuyITjDSgSKI0rthoHnvE81tcOi1SCVndHko7auqxdQ14eiQG2NDBJBE86+2xIrbIvrbA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/glob/-/glob-9.3.2.tgz"
+        "url": "https://registry.npmjs.org/glob/-/glob-9.3.4.tgz"
       }
     },
     "glob-parent": {
@@ -5034,10 +5037,15 @@
         "type": "http",
         "url": "https://registry.npmjs.org/minimatch/-/minimatch-6.2.0.tgz"
       },
-      "7.4.3": {
-        "hash": "sha512-5UB4yYusDtkRPbRiy1cqZ1IpGNcJCGlEMG17RKzPddpyiPKoCdwohbED8g4QXT0ewCt8LTkQXuljsUfQ3FKM4A==",
+      "7.4.4": {
+        "hash": "sha512-T+8B3kNrLP7jDb5eaC4rUIp6DKoeTSb6f9SwF2phcY2gxJUA0GEf1i29/FHxBMEfx0ppWlr434/D0P+6jb8bOQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/minimatch/-/minimatch-7.4.3.tgz"
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-7.4.4.tgz"
+      },
+      "8.0.2": {
+        "hash": "sha512-ikHGF67ODxj7vS5NKU2wvTsFLbExee+KXVCnBWh8Cg2hVJfBMQIrlo50qru/09E0EifjnU8dZhJ/iHhyXJM6Mw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-8.0.2.tgz"
       }
     },
     "minimist": {
