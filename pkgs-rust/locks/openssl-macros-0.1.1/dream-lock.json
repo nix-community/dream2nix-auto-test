@@ -3,7 +3,7 @@
     "defaultPackage": "openssl-macros",
     "location": "",
     "packages": {
-      "openssl-macros": "0.1.0"
+      "openssl-macros": "0.1.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,39 +12,39 @@
     "gitSources": [],
     "meta": {
       "openssl-macros": {
-        "0.1.0": {
+        "0.1.1": {
           "description": "Internal macros used by the openssl crate.", "license": []
         }
       }
     },
     "relPathReplacements": {
       "openssl-macros": {
-        "0.1.0": {}
+        "0.1.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "openssl-macros": {
-      "0.1.0": [
-        [ "proc-macro2", "1.0.54" ],
+      "0.1.1": [
+        [ "proc-macro2", "1.0.55" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.13" ]
       ]
     },
     "proc-macro2": {
-      "1.0.54": [
+      "1.0.55": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
     "quote": {
       "1.0.26": [
-        [ "proc-macro2", "1.0.54" ]
+        [ "proc-macro2", "1.0.55" ]
       ]
     },
     "syn": {
-      "1.0.109": [
-        [ "proc-macro2", "1.0.54" ],
+      "2.0.13": [
+        [ "proc-macro2", "1.0.55" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
@@ -52,17 +52,17 @@
   },
   "sources": {
     "openssl-macros": {
-      "0.1.0": {
-        "hash": "b501e44f11665960c7e7fcf062c7d96a14ade4aa98116c004b2e37b5be7d736c",
+      "0.1.1": {
+        "hash": "a948666b637a0f465e8564c73e89d4dde00d72d4d473cc972f390fc3dcee7d9c",
         "type": "crates-io"
       }
     },
     "proc-macro2": {
-      "1.0.54": {
-        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
+      "1.0.55": {
+        "hash": "1d0dd4be24fcdcfeaa12a432d588dc59bbad6cad3510c67e74a2b6b2fc950564",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.54"
+        "version": "1.0.55"
       }
     },
     "quote": {
@@ -74,11 +74,11 @@
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.13": {
+        "hash": "4c9da457c5285ac1f936ebd076af6dac17a61cfe7826f2076b4d015cf47bc8ec",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.109"
+        "version": "2.0.13"
       }
     },
     "unicode-ident": {

@@ -3,7 +3,7 @@
     "defaultPackage": "signature",
     "location": "",
     "packages": {
-      "signature": "2.0.0"
+      "signature": "2.1.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "signature": {
-        "2.0.0": {
+        "2.1.0": {
           "description": "Traits for cryptographic signature algorithms (e.g. ECDSA, Ed25519)", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "signature": {
-        "2.0.0": {}
+        "2.1.0": {}
       }
     }
   },
@@ -55,13 +55,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.54": [
+      "1.0.55": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
     "quote": {
       "1.0.26": [
-        [ "proc-macro2", "1.0.54" ]
+        [ "proc-macro2", "1.0.55" ]
       ]
     },
     "sha2": {
@@ -72,7 +72,7 @@
       ]
     },
     "signature": {
-      "2.0.0": [
+      "2.1.0": [
         [ "digest", "0.10.6" ],
         [ "hex-literal", "0.3.4" ],
         [ "rand_core", "0.6.4" ],
@@ -82,14 +82,14 @@
     },
     "signature_derive": {
       "2.0.0": [
-        [ "proc-macro2", "1.0.54" ],
+        [ "proc-macro2", "1.0.55" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ]
       ]
     },
     "syn": {
       "1.0.109": [
-        [ "proc-macro2", "1.0.54" ],
+        [ "proc-macro2", "1.0.55" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
@@ -161,11 +161,11 @@
       }
     },
     "proc-macro2": {
-      "1.0.54": {
-        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
+      "1.0.55": {
+        "hash": "1d0dd4be24fcdcfeaa12a432d588dc59bbad6cad3510c67e74a2b6b2fc950564",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.54"
+        "version": "1.0.55"
       }
     },
     "quote": {
@@ -193,8 +193,8 @@
       }
     },
     "signature": {
-      "2.0.0": {
-        "hash": "8fe458c98333f9c8152221191a77e2a44e8325d0193484af2e9421a53019e57d",
+      "2.1.0": {
+        "hash": "5e1788eed21689f9cf370582dfc467ef36ed9c707f073528ddafa8d83e3b8500",
         "type": "crates-io"
       }
     },
