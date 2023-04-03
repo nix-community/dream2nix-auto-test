@@ -3,7 +3,7 @@
     "defaultPackage": "libgit2-sys",
     "location": "",
     "packages": {
-      "libgit2-sys": "0.14.2+1.5.1"
+      "libgit2-sys": "0.15.0+1.6.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "libgit2-sys": {
-        "0.14.2+1.5.1": {
+        "0.15.0+1.6.3": {
           "description": "Native bindings to the libgit2 library", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "libgit2-sys": {
-        "0.14.2+1.5.1": {}
+        "0.15.0+1.6.3": {}
       }
     }
   },
@@ -42,17 +42,17 @@
       ]
     },
     "libgit2-sys": {
-      "0.14.2+1.5.1": [
+      "0.15.0+1.6.3": [
         [ "cc", "1.0.79" ],
         [ "libc", "0.2.140" ],
-        [ "libssh2-sys", "0.2.23" ],
+        [ "libssh2-sys", "0.3.0" ],
         [ "libz-sys", "1.1.8" ],
         [ "openssl-sys", "0.9.84" ],
         [ "pkg-config", "0.3.26" ]
       ]
     },
     "libssh2-sys": {
-      "0.2.23": [
+      "0.3.0": [
         [ "cc", "1.0.79" ],
         [ "libc", "0.2.140" ],
         [ "libz-sys", "1.1.8" ],
@@ -119,17 +119,17 @@
       }
     },
     "libgit2-sys": {
-      "0.14.2+1.5.1": {
-        "hash": "7f3d95f6b51075fe9810a7ae22c7095f12b98005ab364d8544797a825ce946a4",
+      "0.15.0+1.6.3": {
+        "hash": "032e537ae4dd4e50c877f258dc55fcd0657b5021f454094a425bb6bcc9edea4c",
         "type": "crates-io"
       }
     },
     "libssh2-sys": {
-      "0.2.23": {
-        "hash": "b094a36eb4b8b8c8a7b4b8ae43b2944502be3e59cd87687595cf6b0a71b3f4ca",
+      "0.3.0": {
+        "hash": "2dc8a030b787e2119a731f1951d6a773e2280c660f8ec4b0f5e1505a386e71ee",
         "pname": "libssh2-sys",
         "type": "crates-io",
-        "version": "0.2.23"
+        "version": "0.3.0"
       }
     },
     "libz-sys": {

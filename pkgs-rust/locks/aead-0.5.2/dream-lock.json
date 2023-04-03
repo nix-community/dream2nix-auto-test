@@ -3,7 +3,7 @@
     "defaultPackage": "aead",
     "location": "",
     "packages": {
-      "aead": "0.5.1"
+      "aead": "0.5.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "aead": {
-        "0.5.1": {
+        "0.5.2": {
           "description": "Traits for Authenticated Encryption with Associated Data (AEAD) algorithms,\nsuch as AES-GCM as ChaCha20Poly1305, which provide a high-level API\n", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,14 +20,15 @@
     },
     "relPathReplacements": {
       "aead": {
-        "0.5.1": {}
+        "0.5.2": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "aead": {
-      "0.5.1": [
+      "0.5.2": [
+        [ "arrayvec", "0.7.2" ],
         [ "blobby", "0.3.1" ],
         [ "bytes", "1.4.0" ],
         [ "crypto-common", "0.1.6" ],
@@ -98,9 +99,17 @@
   },
   "sources": {
     "aead": {
-      "0.5.1": {
-        "hash": "5c192eb8f11fc081b0fe4259ba5af04217d4e0faddd02417310a927911abd7c8",
+      "0.5.2": {
+        "hash": "d122413f284cf2d62fb1b7db97e02edb8cda96d769b16e443a4f6195e35662b0",
         "type": "crates-io"
+      }
+    },
+    "arrayvec": {
+      "0.7.2": {
+        "hash": "8da52d66c7071e2e3fa2a1e5c6d088fec47b593032b254f5e980de8ea54454d6",
+        "pname": "arrayvec",
+        "type": "crates-io",
+        "version": "0.7.2"
       }
     },
     "atomic-polyfill": {
