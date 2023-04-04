@@ -3,7 +3,7 @@
     "defaultPackage": "postcss-loader",
     "location": "",
     "packages": {
-      "postcss-loader": "7.1.0"
+      "postcss-loader": "7.2.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -28,21 +28,30 @@
         [ "js-tokens", "4.0.0" ]
       ]
     },
+    "@cspotcode/source-map-support": {
+      "0.8.1": [
+        [ "@jridgewell/trace-mapping", "0.3.9" ]
+      ]
+    },
     "@jridgewell/gen-mapping": {
       "0.3.2": [
         [ "@jridgewell/set-array", "1.1.2" ],
         [ "@jridgewell/sourcemap-codec", "1.4.14" ],
-        [ "@jridgewell/trace-mapping", "0.3.17" ]
+        [ "@jridgewell/trace-mapping", "0.3.9" ]
       ]
     },
     "@jridgewell/source-map": {
       "0.3.2": [
         [ "@jridgewell/gen-mapping", "0.3.2" ],
-        [ "@jridgewell/trace-mapping", "0.3.17" ]
+        [ "@jridgewell/trace-mapping", "0.3.9" ]
       ]
     },
     "@jridgewell/trace-mapping": {
       "0.3.17": [
+        [ "@jridgewell/resolve-uri", "3.1.0" ],
+        [ "@jridgewell/sourcemap-codec", "1.4.14" ]
+      ],
+      "0.3.9": [
         [ "@jridgewell/resolve-uri", "3.1.0" ],
         [ "@jridgewell/sourcemap-codec", "1.4.14" ]
       ]
@@ -150,8 +159,8 @@
     },
     "browserslist": {
       "4.21.5": [
-        [ "caniuse-lite", "1.0.30001473" ],
-        [ "electron-to-chromium", "1.4.348" ],
+        [ "caniuse-lite", "1.0.30001474" ],
+        [ "electron-to-chromium", "1.4.350" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -247,8 +256,9 @@
       ]
     },
     "postcss-loader": {
-      "7.1.0": [
+      "7.2.3": [
         [ "cosmiconfig", "8.1.3" ],
+        [ "cosmiconfig-typescript-loader", "4.3.0" ],
         [ "klona", "2.0.6" ],
         [ "semver", "7.3.8" ]
       ],
@@ -256,12 +266,17 @@
         [ "@babel/code-frame", "7.21.4" ],
         [ "@babel/helper-validator-identifier", "7.19.1" ],
         [ "@babel/highlight", "7.18.6" ],
+        [ "@cspotcode/source-map-support", "0.8.1" ],
         [ "@jridgewell/gen-mapping", "0.3.2" ],
         [ "@jridgewell/resolve-uri", "3.1.0" ],
         [ "@jridgewell/set-array", "1.1.2" ],
         [ "@jridgewell/source-map", "0.3.2" ],
         [ "@jridgewell/sourcemap-codec", "1.4.14" ],
-        [ "@jridgewell/trace-mapping", "0.3.17" ],
+        [ "@jridgewell/trace-mapping", "0.3.9" ],
+        [ "@tsconfig/node10", "1.0.9" ],
+        [ "@tsconfig/node12", "1.0.11" ],
+        [ "@tsconfig/node14", "1.0.3" ],
+        [ "@tsconfig/node16", "1.0.3" ],
         [ "@types/eslint", "8.37.0" ],
         [ "@types/eslint-scope", "3.7.4" ],
         [ "@types/estree", "0.0.51" ],
@@ -286,21 +301,26 @@
         [ "@xtuc/long", "4.2.2" ],
         [ "acorn", "8.8.2" ],
         [ "acorn-import-assertions", "1.8.0" ],
+        [ "acorn-walk", "8.2.0" ],
         [ "ajv", "6.12.6" ],
         [ "ajv-keywords", "3.5.2" ],
         [ "ansi-styles", "3.2.1" ],
+        [ "arg", "4.1.3" ],
         [ "argparse", "2.0.1" ],
         [ "browserslist", "4.21.5" ],
         [ "buffer-from", "1.1.2" ],
         [ "callsites", "3.1.0" ],
-        [ "caniuse-lite", "1.0.30001473" ],
+        [ "caniuse-lite", "1.0.30001474" ],
         [ "chalk", "2.4.2" ],
         [ "chrome-trace-event", "1.0.3" ],
         [ "color-convert", "1.9.3" ],
         [ "color-name", "1.1.3" ],
         [ "commander", "2.20.3" ],
         [ "cosmiconfig", "8.1.3" ],
-        [ "electron-to-chromium", "1.4.348" ],
+        [ "cosmiconfig-typescript-loader", "4.3.0" ],
+        [ "create-require", "1.1.1" ],
+        [ "diff", "4.0.2" ],
+        [ "electron-to-chromium", "1.4.350" ],
         [ "enhanced-resolve", "5.12.0" ],
         [ "error-ex", "1.3.2" ],
         [ "es-module-lexer", "0.9.3" ],
@@ -326,6 +346,7 @@
         [ "lines-and-columns", "1.2.4" ],
         [ "loader-runner", "4.3.0" ],
         [ "lru-cache", "6.0.0" ],
+        [ "make-error", "1.3.6" ],
         [ "merge-stream", "2.0.0" ],
         [ "mime-db", "1.52.0" ],
         [ "mime-types", "2.1.35" ],
@@ -337,7 +358,7 @@
         [ "path-type", "4.0.0" ],
         [ "picocolors", "1.0.0" ],
         [ "postcss", "8.4.21" ],
-        [ "postcss-loader", "7.1.0" ],
+        [ "postcss-loader", "7.2.3" ],
         [ "punycode", "2.3.0" ],
         [ "randombytes", "2.1.0" ],
         [ "resolve-from", "4.0.0" ],
@@ -352,12 +373,16 @@
         [ "tapable", "2.2.1" ],
         [ "terser", "5.16.8" ],
         [ "terser-webpack-plugin", "5.3.7" ],
+        [ "ts-node", "10.9.1" ],
+        [ "typescript", "5.0.3" ],
         [ "update-browserslist-db", "1.0.10" ],
         [ "uri-js", "4.4.1" ],
+        [ "v8-compile-cache-lib", "3.0.1" ],
         [ "watchpack", "2.4.0" ],
         [ "webpack", "5.77.0" ],
         [ "webpack-sources", "3.2.3" ],
-        [ "yallist", "4.0.0" ]
+        [ "yallist", "4.0.0" ],
+        [ "yn", "3.1.1" ]
       ]
     },
     "randombytes": {
@@ -411,6 +436,23 @@
         [ "schema-utils", "3.1.1" ],
         [ "serialize-javascript", "6.0.1" ],
         [ "terser", "5.16.8" ]
+      ]
+    },
+    "ts-node": {
+      "10.9.1": [
+        [ "@cspotcode/source-map-support", "0.8.1" ],
+        [ "@tsconfig/node10", "1.0.9" ],
+        [ "@tsconfig/node12", "1.0.11" ],
+        [ "@tsconfig/node14", "1.0.3" ],
+        [ "@tsconfig/node16", "1.0.3" ],
+        [ "acorn", "8.8.2" ],
+        [ "acorn-walk", "8.2.0" ],
+        [ "arg", "4.1.3" ],
+        [ "create-require", "1.1.1" ],
+        [ "diff", "4.0.2" ],
+        [ "make-error", "1.3.6" ],
+        [ "v8-compile-cache-lib", "3.0.1" ],
+        [ "yn", "3.1.1" ]
       ]
     },
     "update-browserslist-db": {
@@ -481,6 +523,13 @@
         "url": "https://registry.npmjs.org/@babel/highlight/-/highlight-7.18.6.tgz"
       }
     },
+    "@cspotcode/source-map-support": {
+      "0.8.1": {
+        "hash": "sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz"
+      }
+    },
     "@jridgewell/gen-mapping": {
       "0.3.2": {
         "hash": "sha512-mh65xKQAzI6iBcFzwv28KVWSmCkdRBWoOh+bYQGW3+6OZvbbN3TqMGo5hqYxQniRcH9F2VZIoJCm4pa3BPDK/A==",
@@ -521,6 +570,39 @@
         "hash": "sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==",
         "type": "http",
         "url": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.17.tgz"
+      },
+      "0.3.9": {
+        "hash": "sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz"
+      }
+    },
+    "@tsconfig/node10": {
+      "1.0.9": {
+        "hash": "sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.9.tgz"
+      }
+    },
+    "@tsconfig/node12": {
+      "1.0.11": {
+        "hash": "sha512-cqefuRsh12pWyGsIoBKJA9luFu3mRxCA+ORZvA4ktLSzIuCUtWVxGIuXigEwO5/ywWFMZ2QEGKWvkZG1zDMTag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz"
+      }
+    },
+    "@tsconfig/node14": {
+      "1.0.3": {
+        "hash": "sha512-ysT8mhdixWK6Hw3i1V2AeRqZ5WfXg1G43mqoYlM2nc6388Fq5jcXyr5mRsqViLx/GJYdoL0bfXD8nmF+Zn/Iow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz"
+      }
+    },
+    "@tsconfig/node16": {
+      "1.0.3": {
+        "hash": "sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.3.tgz"
       }
     },
     "@types/eslint": {
@@ -691,6 +773,13 @@
         "url": "https://registry.npmjs.org/acorn-import-assertions/-/acorn-import-assertions-1.8.0.tgz"
       }
     },
+    "acorn-walk": {
+      "8.2.0": {
+        "hash": "sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.2.0.tgz"
+      }
+    },
     "ajv": {
       "6.12.6": {
         "hash": "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==",
@@ -710,6 +799,13 @@
         "hash": "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==",
         "type": "http",
         "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz"
+      }
+    },
+    "arg": {
+      "4.1.3": {
+        "hash": "sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/arg/-/arg-4.1.3.tgz"
       }
     },
     "argparse": {
@@ -741,10 +837,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001473": {
-        "hash": "sha512-ewDad7+D2vlyy+E4UJuVfiBsU69IL+8oVmTuZnH5Q6CIUbxNfI50uVpRHbUPDD6SUaN2o0Lh4DhTrvLG/Tn1yg==",
+      "1.0.30001474": {
+        "hash": "sha512-iaIZ8gVrWfemh5DG3T9/YqarVZoYf0r188IjaGwx68j4Pf0SGY6CQkmJUIE+NZHkkecQGohzXmBGEwWDr9aM3Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001473.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001474.tgz"
       }
     },
     "chalk": {
@@ -789,11 +885,32 @@
         "url": "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.1.3.tgz"
       }
     },
-    "electron-to-chromium": {
-      "1.4.348": {
-        "hash": "sha512-gM7TdwuG3amns/1rlgxMbeeyNoBFPa+4Uu0c7FeROWh4qWmvSOnvcslKmWy51ggLKZ2n/F/4i2HJ+PVNxH9uCQ==",
+    "cosmiconfig-typescript-loader": {
+      "4.3.0": {
+        "hash": "sha512-NTxV1MFfZDLPiBMjxbHRwSh5LaLcPMwNdCutmnHJCKoVnlvldPWlllonKwrsRJ5pYZBIBGRWWU2tfvzxgeSW5Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.348.tgz"
+        "url": "https://registry.npmjs.org/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-4.3.0.tgz"
+      }
+    },
+    "create-require": {
+      "1.1.1": {
+        "hash": "sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz"
+      }
+    },
+    "diff": {
+      "4.0.2": {
+        "hash": "sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/diff/-/diff-4.0.2.tgz"
+      }
+    },
+    "electron-to-chromium": {
+      "1.4.350": {
+        "hash": "sha512-XnXcWpVnOfHZ4C3NPiL+SubeoGV8zc/pg8GEubRtc1dPA/9jKS2vsOPmtClJHhWxUb2RSGC1OBLCbgNUJMtZPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.350.tgz"
       }
     },
     "enhanced-resolve": {
@@ -981,6 +1098,13 @@
         "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
       }
     },
+    "make-error": {
+      "1.3.6": {
+        "hash": "sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz"
+      }
+    },
     "merge-stream": {
       "2.0.0": {
         "hash": "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==",
@@ -1059,10 +1183,10 @@
       }
     },
     "postcss-loader": {
-      "7.1.0": {
-        "hash": "sha512-vTD2DJ8vJD0Vr1WzMQkRZWRjcynGh3t7NeoLg+Sb1TeuK7etiZfL/ZwHbaVa3M+Qni7Lj/29voV9IggnIUjlIw==",
+      "7.2.3": {
+        "hash": "sha512-H/PIjgbn2q7zFnmUMPvEupIFnOAg+fYWC/4F6DugK8uPITVYyEflnSjLFV0u20B3Qi88PzPiAlzn8hBSu3f8oA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/postcss-loader/-/postcss-loader-7.1.0.tgz"
+        "url": "https://registry.npmjs.org/postcss-loader/-/postcss-loader-7.2.3.tgz"
       }
     },
     "punycode": {
@@ -1168,6 +1292,20 @@
         "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.7.tgz"
       }
     },
+    "ts-node": {
+      "10.9.1": {
+        "hash": "sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ts-node/-/ts-node-10.9.1.tgz"
+      }
+    },
+    "typescript": {
+      "5.0.3": {
+        "hash": "sha512-xv8mOEDnigb/tN9PSMTwSEqAnUvkoXMQlicOb0IUVDBSQCgBSaAAROUZYy2IcUy5qU6XajK5jjjO7TMWqBTKZA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/typescript/-/typescript-5.0.3.tgz"
+      }
+    },
     "update-browserslist-db": {
       "1.0.10": {
         "hash": "sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==",
@@ -1180,6 +1318,13 @@
         "hash": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
         "type": "http",
         "url": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz"
+      }
+    },
+    "v8-compile-cache-lib": {
+      "3.0.1": {
+        "hash": "sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz"
       }
     },
     "watchpack": {
@@ -1208,6 +1353,13 @@
         "hash": "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==",
         "type": "http",
         "url": "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
+      }
+    },
+    "yn": {
+      "3.1.1": {
+        "hash": "sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yn/-/yn-3.1.1.tgz"
       }
     }
   }
