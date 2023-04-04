@@ -75,7 +75,7 @@
       "microlens-mtl#0.2.0.3": "0ace1ba95677117219681fb9a8b08b3bf049ab5973eed14453b260aaf1feb582",
       "microlens-th#0.4.3.12": "3d20719cb1543a082e151cf75ad0e41832cc270298fd77e83f8b5299c874b670",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
-      "monoid-extras#0.6.2": "87cb78c643d89ee09d5d6de28b0921ad7eab4fb6938739f808797d693d4b43c0",
+      "monoid-extras#0.6.2": "0cf6bbbff925bf665074aba1ba077d6c12caf52084d8091e4e264786cd4d88f6",
       "mtl-compat#0.2.2": "4257fb56e5690734973aad060010bec6c2857f5c1ac6cf87fc335ed3bc7c85f4",
       "newtype-generics#0.6.2": "ce6b681a347a320bd3ce3cf4321fa9471e62616e72c6c5df8a78dca0bb3eec75",
       "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
@@ -87,7 +87,7 @@
       "reflection#2.1.7": "3e6ff7b582e98d8c6f84387cb37627e94831646ddab0586786a9782fe799a5dc",
       "safe-exceptions#0.1.7.3": "6e9b1b233af80cc0aa17ea858d2641ba146fb11cbcc5970a52649e89d77282e2",
       "scientific#0.3.7.0": "26d8109106963a345368011081453d25ee1dfa6afae2b1f57b426b4bcd392d91",
-      "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
+      "semigroupoids#6.0.0.1": "3ca506912c2e1fe97930d1565a2eebb608de6bc7f49736119609d6a78058dc13",
       "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
       "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
@@ -141,7 +141,7 @@
       "0.2.0.17": [
         [ "lens", "5.2.2" ],
         [ "linear", "1.22" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "semigroups", "0.20" ],
         [ "vector", "0.13.0.0" ]
       ]
@@ -153,7 +153,7 @@
         [ "distributive", "0.6.2.1" ],
         [ "free", "5.2" ],
         [ "profunctors", "5.6.2" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "semigroups", "0.20" ],
         [ "tagged", "0.8.7" ],
         [ "transformers-compat", "0.7.2" ],
@@ -378,7 +378,7 @@
         [ "distributive", "0.6.2.1" ],
         [ "indexed-traversable", "0.1.2.1" ],
         [ "profunctors", "5.6.2" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "th-abstraction", "0.4.5.0" ],
         [ "transformers-base", "0.4.6" ]
       ]
@@ -444,7 +444,7 @@
         [ "free", "5.2" ],
         [ "invariant", "0.6.1" ],
         [ "profunctors", "5.6.2" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "tagged", "0.8.7" ],
         [ "transformers-compat", "0.7.2" ]
       ]
@@ -466,7 +466,7 @@
         [ "parallel", "3.2.2.0" ],
         [ "profunctors", "5.6.2" ],
         [ "reflection", "2.1.7" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "strict", "0.5" ],
         [ "tagged", "0.8.7" ],
         [ "th-abstraction", "0.4.5.0" ],
@@ -488,7 +488,7 @@
         [ "lens", "5.2.2" ],
         [ "random", "1.2.1.1" ],
         [ "reflection", "2.1.7" ],
-        [ "semigroupoids", "5.3.7" ],
+        [ "semigroupoids", "6.0.0.1" ],
         [ "tagged", "0.8.7" ],
         [ "transformers-compat", "0.7.2" ],
         [ "unordered-containers", "0.2.19.1" ],
@@ -530,7 +530,7 @@
     "monoid-extras": {
       "0.6.2": [
         [ "groups", "0.5.3" ],
-        [ "semigroupoids", "5.3.7" ]
+        [ "semigroupoids", "6.0.0.1" ]
       ]
     },
     "optparse-applicative": {
@@ -567,12 +567,13 @@
       ]
     },
     "semigroupoids": {
-      "5.3.7": [
+      "6.0.0.1": [
         [ "base-orphans", "0.9.0" ],
         [ "bifunctors", "5.6.1" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
+        [ "foldable1-classes-compat", "0.1" ],
         [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.7" ],
         [ "transformers-compat", "0.7.2" ],
@@ -1173,10 +1174,10 @@
       }
     },
     "semigroupoids": {
-      "5.3.7": {
-        "hash": "sha256:6d45cdb6c58c75ca588859b80b2c92b6f48590a03e065c24ce5d767a6a963799",
+      "6.0.0.1": {
+        "hash": "sha256:7da38a9891bdf8205fd6522cdb712956b8c0bf5c52983da60295c8e057d77934",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/semigroupoids-5.3.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/semigroupoids-6.0.0.1.tar.gz"
       }
     },
     "semigroups": {

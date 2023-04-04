@@ -24,9 +24,9 @@
       "groups#0.5.3": "b536d995c65281f5b891a694213fe4abce2fcee71ebda08bb9ec9e334cdcc741",
       "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a",
       "indexed-traversable#0.1.2.1": "154b4649199a602dea948a93cb34a6c4be71576c4f78410733dd9f6bc79b6e0b",
-      "monoid-extras#0.6.2": "87cb78c643d89ee09d5d6de28b0921ad7eab4fb6938739f808797d693d4b43c0",
+      "monoid-extras#0.6.2": "0cf6bbbff925bf665074aba1ba077d6c12caf52084d8091e4e264786cd4d88f6",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
-      "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
+      "semigroupoids#6.0.0.1": "3ca506912c2e1fe97930d1565a2eebb608de6bc7f49736119609d6a78058dc13",
       "semigroups#0.20": "925341e6f7eb104cb490bef06eab93bb7995c7c67c51ee938185a2ddefa7aaf2",
       "size-based#0.1.3.1": "b6abfa5639cce41666a4aaa0aeb964042187a01ffff8451b5efe9f7561f54962",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
@@ -114,7 +114,7 @@
     "monoid-extras": {
       "0.6.2": [
         [ "groups", "0.5.3" ],
-        [ "semigroupoids", "5.3.7" ]
+        [ "semigroupoids", "6.0.0.1" ]
       ]
     },
     "random": {
@@ -123,12 +123,13 @@
       ]
     },
     "semigroupoids": {
-      "5.3.7": [
+      "6.0.0.1": [
         [ "base-orphans", "0.9.0" ],
         [ "bifunctors", "5.6.1" ],
         [ "comonad", "5.0.8" ],
         [ "contravariant", "1.5.5" ],
         [ "distributive", "0.6.2.1" ],
+        [ "foldable1-classes-compat", "0.1" ],
         [ "hashable", "1.4.2.0" ],
         [ "tagged", "0.8.7" ],
         [ "transformers-compat", "0.7.2" ],
@@ -275,10 +276,10 @@
       }
     },
     "semigroupoids": {
-      "5.3.7": {
-        "hash": "sha256:6d45cdb6c58c75ca588859b80b2c92b6f48590a03e065c24ce5d767a6a963799",
+      "6.0.0.1": {
+        "hash": "sha256:7da38a9891bdf8205fd6522cdb712956b8c0bf5c52983da60295c8e057d77934",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/semigroupoids-5.3.7.tar.gz"
+        "url": "https://hackage.haskell.org/package/semigroupoids-6.0.0.1.tar.gz"
       }
     },
     "semigroups": {

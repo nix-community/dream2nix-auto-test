@@ -143,14 +143,14 @@
       "scientific#0.3.7.0": "26d8109106963a345368011081453d25ee1dfa6afae2b1f57b426b4bcd392d91",
       "semialign#1.2.0.1": "ee3468e349e72ec0a604ae05573a4de7181d97d10366254244a0cca8a76d6c35",
       "semigroupoids#5.3.7": "ac093739682f0dc7a37698b423590dc0f1ca89fed908fbbc5a73a44beefa7d18",
-      "shelly#1.12.0.1": "c60142ef70db3516fc88d1ebafd54aa8b11021b15f9f9b8d48ae001a5752ccde",
+      "shelly#1.12.1": "a5fcf2a81ad6953aa5c8d5ccab82a3c47d9ac848316d607c696c190df1454039",
       "simple-sendfile#0.2.30": "c6893e159dc20eea6d0b805bfd8d9b73e6a6ba3fe72cc396acdc24fdcd33cc38",
       "skylighting#0.12.3.1": "b99a893d721e9b5f110f99dee8de70d79d5c07fbf6f43a9f65b27024cb104633",
       "skylighting-core#0.12.3.1": "436dc32581d42cfb207327153b61f36a851a6ad3ae2141dc7af79b76570f58e6",
       "socks#0.6.1": "ac190808eea704672df18f702e8f2ad0b7a4d0af528e95ee55ea6ee0be672e2a",
       "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
-      "streaming-commons#0.2.2.5": "34959abee70e63d370b5a4bee0bc3483c66d1e53906fb5e13844ae8b9a62a4a3",
+      "streaming-commons#0.2.2.6": "f3a6db1e6c12760c00a38393693d473b8b4f9211eed036388eca89996ba50d66",
       "strict#0.4.0.1": "d6205a748eb8db4cd17a7179be970c94598809709294ccfa43159c7f3cc4bf5d",
       "syb#0.7.2.3": "d71f6747016466b0766491eae36be842ba98ba25e2aec26eaedbeea965c0586a",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
@@ -465,7 +465,7 @@
         [ "network", "3.1.2.8" ],
         [ "primitive", "0.7.4.0" ],
         [ "resourcet", "1.2.6" ],
-        [ "streaming-commons", "0.2.2.5" ],
+        [ "streaming-commons", "0.2.2.6" ],
         [ "typed-process", "0.2.11.0" ],
         [ "unliftio-core", "0.2.1.0" ]
       ]
@@ -578,7 +578,7 @@
       "0.3.0.1": [
         [ "async", "2.2.4" ],
         [ "hinotify", "0.4.1" ],
-        [ "shelly", "1.12.0.1" ],
+        [ "shelly", "1.12.1" ],
         [ "unix-compat", "0.7" ]
       ]
     },
@@ -725,7 +725,7 @@
         [ "network", "3.1.2.8" ],
         [ "network-uri", "2.6.4.2" ],
         [ "random", "1.2.1.1" ],
-        [ "streaming-commons", "0.2.2.5" ]
+        [ "streaming-commons", "0.2.2.6" ]
       ]
     },
     "http-client-tls": {
@@ -1028,7 +1028,7 @@
       ]
     },
     "shelly": {
-      "1.12.0.1": [
+      "1.12.1": [
         [ "async", "2.2.4" ],
         [ "enclosed-exceptions", "1.0.3" ],
         [ "lifted-async", "0.10.2.4" ],
@@ -1070,7 +1070,7 @@
       ]
     },
     "streaming-commons": {
-      "0.2.2.5": [
+      "0.2.2.6": [
         [ "async", "2.2.4" ],
         [ "network", "3.1.2.8" ],
         [ "random", "1.2.1.1" ],
@@ -1299,7 +1299,7 @@
         [ "iproute", "1.7.12" ],
         [ "network", "3.1.2.8" ],
         [ "resourcet", "1.2.6" ],
-        [ "streaming-commons", "0.2.2.5" ],
+        [ "streaming-commons", "0.2.2.6" ],
         [ "vault", "0.3.1.5" ],
         [ "wai", "3.2.3" ],
         [ "wai-logger", "2.4.0" ],
@@ -1330,7 +1330,7 @@
         [ "network", "3.1.2.8" ],
         [ "recv", "0.1.0" ],
         [ "simple-sendfile", "0.2.30" ],
-        [ "streaming-commons", "0.2.2.5" ],
+        [ "streaming-commons", "0.2.2.6" ],
         [ "time-manager", "0.0.0" ],
         [ "unix-compat", "0.7" ],
         [ "unliftio", "0.2.24.0" ],
@@ -2362,10 +2362,10 @@
       }
     },
     "shelly": {
-      "1.12.0.1": {
-        "hash": "sha256:5b9bd8e265dc3fe36f61634b38b1445a912c68ad638f0e092a1cbc14092074ae",
+      "1.12.1": {
+        "hash": "sha256:135a264422228c9b13232c28206ee9fb0498dd15767d6a9f857bb30202f80c77",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/shelly-1.12.0.1.tar.gz"
+        "url": "https://hackage.haskell.org/package/shelly-1.12.1.tar.gz"
       }
     },
     "simple-sendfile": {
@@ -2411,10 +2411,10 @@
       }
     },
     "streaming-commons": {
-      "0.2.2.5": {
-        "hash": "sha256:ca50819bdb2b248ced790e9faab07a3a5369ef702d9f9a932f26438bbeeca704",
+      "0.2.2.6": {
+        "hash": "sha256:0180958a882eb0f6262b812fe886c2b1b8285474b5b958f814ae4f05409fbf79",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/streaming-commons-0.2.2.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/streaming-commons-0.2.2.6.tar.gz"
       }
     },
     "strict": {
