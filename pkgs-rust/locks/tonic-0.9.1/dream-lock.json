@@ -3,7 +3,7 @@
     "defaultPackage": "tonic",
     "location": "",
     "packages": {
-      "tonic": "0.9.0"
+      "tonic": "0.9.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "tonic": {
-        "0.9.0": {
+        "0.9.1": {
           "description": "A gRPC over HTTP/2 implementation focused on high performance, interoperability, and flexibility.\n", "homepage": "https://github.com/hyperium/tonic", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "tonic": {
-        "0.9.0": {}
+        "0.9.1": {}
       }
     }
   },
@@ -40,14 +40,14 @@
     },
     "async-stream-impl": {
       "0.3.4": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ]
       ]
     },
     "async-trait": {
       "0.1.68": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "2.0.13" ]
       ]
@@ -236,13 +236,13 @@
     },
     "pin-project-internal": {
       "1.0.12": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ]
       ]
     },
     "proc-macro2": {
-      "1.0.55": [
+      "1.0.56": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
@@ -260,14 +260,14 @@
     },
     "quickcheck_macros": {
       "1.0.0": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ]
       ]
     },
     "quote": {
       "1.0.26": [
-        [ "proc-macro2", "1.0.55" ]
+        [ "proc-macro2", "1.0.56" ]
       ]
     },
     "rand": {
@@ -307,11 +307,11 @@
       ]
     },
     "rustls": {
-      "0.20.8": [
+      "0.21.0": [
         [ "log", "0.4.17" ],
         [ "ring", "0.16.20" ],
-        [ "sct", "0.7.0" ],
-        [ "webpki", "0.22.0" ]
+        [ "rustls-webpki", "0.100.1" ],
+        [ "sct", "0.7.0" ]
       ]
     },
     "rustls-native-certs": {
@@ -325,6 +325,12 @@
     "rustls-pemfile": {
       "1.0.2": [
         [ "base64", "0.21.0" ]
+      ]
+    },
+    "rustls-webpki": {
+      "0.100.1": [
+        [ "ring", "0.16.20" ],
+        [ "untrusted", "0.7.1" ]
       ]
     },
     "schannel": {
@@ -366,12 +372,12 @@
     },
     "syn": {
       "1.0.109": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ],
       "2.0.13": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
@@ -396,16 +402,15 @@
     },
     "tokio-macros": {
       "2.0.0": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "2.0.13" ]
       ]
     },
     "tokio-rustls": {
-      "0.23.4": [
-        [ "rustls", "0.20.8" ],
-        [ "tokio", "1.27.0" ],
-        [ "webpki", "0.22.0" ]
+      "0.24.0": [
+        [ "rustls", "0.21.0" ],
+        [ "tokio", "1.27.0" ]
       ]
     },
     "tokio-stream": {
@@ -426,7 +431,7 @@
       ]
     },
     "tonic": {
-      "0.9.0": [
+      "0.9.1": [
         [ "async-stream", "0.3.4" ],
         [ "async-trait", "0.1.68" ],
         [ "axum", "0.6.12" ],
@@ -451,13 +456,13 @@
         [ "rustls-pemfile", "1.0.2" ],
         [ "static_assertions", "1.1.0" ],
         [ "tokio", "1.27.0" ],
-        [ "tokio-rustls", "0.23.4" ],
+        [ "tokio-rustls", "0.24.0" ],
         [ "tokio-stream", "0.1.12" ],
         [ "tower", "0.4.13" ],
         [ "tower-layer", "0.3.2" ],
         [ "tower-service", "0.3.2" ],
         [ "tracing", "0.1.37" ],
-        [ "webpki-roots", "0.22.6" ]
+        [ "webpki-roots", "0.23.0" ]
       ]
     },
     "tower": {
@@ -488,7 +493,7 @@
     },
     "tracing-attributes": {
       "0.1.23": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ]
       ]
@@ -515,7 +520,7 @@
         [ "bumpalo", "3.12.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.17.1" ],
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ],
         [ "wasm-bindgen-shared", "0.2.84" ]
@@ -529,7 +534,7 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.84": [
-        [ "proc-macro2", "1.0.55" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "1.0.109" ],
         [ "wasm-bindgen-backend", "0.2.84" ],
@@ -542,15 +547,9 @@
         [ "wasm-bindgen", "0.2.84" ]
       ]
     },
-    "webpki": {
-      "0.22.0": [
-        [ "ring", "0.16.20" ],
-        [ "untrusted", "0.7.1" ]
-      ]
-    },
     "webpki-roots": {
-      "0.22.6": [
-        [ "webpki", "0.22.0" ]
+      "0.23.0": [
+        [ "rustls-webpki", "0.100.1" ]
       ]
     },
     "winapi": {
@@ -1035,11 +1034,11 @@
       }
     },
     "proc-macro2": {
-      "1.0.55": {
-        "hash": "1d0dd4be24fcdcfeaa12a432d588dc59bbad6cad3510c67e74a2b6b2fc950564",
+      "1.0.56": {
+        "hash": "2b63bdb0cd06f1f4dedf69b254734f9b45af66e4a031e42a7480257d9898b435",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.55"
+        "version": "1.0.56"
       }
     },
     "prost": {
@@ -1123,11 +1122,11 @@
       }
     },
     "rustls": {
-      "0.20.8": {
-        "hash": "fff78fc74d175294f4e83b28343315ffcfb114b156f0185e9741cb5570f50e2f",
+      "0.21.0": {
+        "hash": "07180898a28ed6a7f7ba2311594308f595e3dd2e3c3812fa0a80a47b45f17e5d",
         "pname": "rustls",
         "type": "crates-io",
-        "version": "0.20.8"
+        "version": "0.21.0"
       }
     },
     "rustls-native-certs": {
@@ -1144,6 +1143,14 @@
         "pname": "rustls-pemfile",
         "type": "crates-io",
         "version": "1.0.2"
+      }
+    },
+    "rustls-webpki": {
+      "0.100.1": {
+        "hash": "d6207cd5ed3d8dca7816f8f3725513a34609c0c765bf652b8c3cb4cfd87db46b",
+        "pname": "rustls-webpki",
+        "type": "crates-io",
+        "version": "0.100.1"
       }
     },
     "rustversion": {
@@ -1273,11 +1280,11 @@
       }
     },
     "tokio-rustls": {
-      "0.23.4": {
-        "hash": "c43ee83903113e03984cb9e5cebe6c04a5116269e900e3ddba8f068a62adda59",
+      "0.24.0": {
+        "hash": "e0d409377ff5b1e3ca6437aa86c1eb7d40c134bfec254e44c830defa92669db5",
         "pname": "tokio-rustls",
         "type": "crates-io",
-        "version": "0.23.4"
+        "version": "0.24.0"
       }
     },
     "tokio-stream": {
@@ -1297,8 +1304,8 @@
       }
     },
     "tonic": {
-      "0.9.0": {
-        "hash": "1395a90742867024769551f906de147d352fb7cbdb4fd1cdbffe17734cfb124c",
+      "0.9.1": {
+        "hash": "38bd8e87955eb13c1986671838177d6792cdc52af9bffced0d2c8a9a7f741ab3",
         "type": "crates-io"
       }
     },
@@ -1438,20 +1445,12 @@
         "version": "0.3.61"
       }
     },
-    "webpki": {
-      "0.22.0": {
-        "hash": "f095d78192e208183081cc07bc5515ef55216397af48b873e5edcd72637fa1bd",
-        "pname": "webpki",
-        "type": "crates-io",
-        "version": "0.22.0"
-      }
-    },
     "webpki-roots": {
-      "0.22.6": {
-        "hash": "b6c71e40d7d2c34a5106301fb632274ca37242cd0c9d3e64dbece371a40a2d87",
+      "0.23.0": {
+        "hash": "aa54963694b65584e170cf5dc46aeb4dcaa5584e652ff5f3952e56d66aff0125",
         "pname": "webpki-roots",
         "type": "crates-io",
-        "version": "0.22.6"
+        "version": "0.23.0"
       }
     },
     "winapi": {
