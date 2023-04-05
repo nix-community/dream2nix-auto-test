@@ -3,7 +3,7 @@
     "defaultPackage": "xo",
     "location": "",
     "packages": {
-      "xo": "0.53.1"
+      "xo": "0.54.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -117,14 +117,14 @@
       ]
     },
     "@types/eslint": {
-      "7.29.0": [
+      "8.37.0": [
         [ "@types/estree", "1.0.0" ],
         [ "@types/json-schema", "7.0.11" ]
       ]
     },
     "@types/eslint-scope": {
       "3.7.4": [
-        [ "@types/eslint", "7.29.0" ],
+        [ "@types/eslint", "8.37.0" ],
         [ "@types/estree", "1.0.0" ]
       ]
     },
@@ -270,7 +270,7 @@
     "browserslist": {
       "4.21.5": [
         [ "caniuse-lite", "1.0.30001474" ],
-        [ "electron-to-chromium", "1.4.350" ],
+        [ "electron-to-chromium", "1.4.352" ],
         [ "node-releases", "2.0.10" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -319,12 +319,11 @@
       ]
     },
     "cosmiconfig": {
-      "7.1.0": [
-        [ "@types/parse-json", "4.0.0" ],
+      "8.1.3": [
         [ "import-fresh", "3.3.0" ],
+        [ "js-yaml", "4.1.0" ],
         [ "parse-json", "5.2.0" ],
-        [ "path-type", "4.0.0" ],
-        [ "yaml", "1.10.2" ]
+        [ "path-type", "4.0.0" ]
       ]
     },
     "cross-spawn": {
@@ -495,8 +494,8 @@
       ]
     },
     "eslint-formatter-pretty": {
-      "4.1.0": [
-        [ "@types/eslint", "7.29.0" ],
+      "5.0.0": [
+        [ "@types/eslint", "8.37.0" ],
         [ "ansi-escapes", "4.3.2" ],
         [ "chalk", "4.1.2" ],
         [ "eslint-rule-docs", "1.1.235" ],
@@ -534,7 +533,7 @@
       ]
     },
     "eslint-plugin-ava": {
-      "13.2.0": [
+      "14.0.0": [
         [ "enhance-visitors", "1.0.0" ],
         [ "eslint-utils", "3.0.0" ],
         [ "espree", "9.5.1" ],
@@ -602,18 +601,20 @@
       ]
     },
     "eslint-plugin-unicorn": {
-      "44.0.2": [
+      "46.0.0": [
         [ "@babel/helper-validator-identifier", "7.19.1" ],
+        [ "@eslint-community/eslint-utils", "4.4.0" ],
         [ "ci-info", "3.8.0" ],
         [ "clean-regexp", "1.0.0" ],
-        [ "eslint-utils", "3.0.0" ],
         [ "esquery", "1.5.0" ],
         [ "indent-string", "4.0.0" ],
         [ "is-builtin-module", "3.2.1" ],
+        [ "jsesc", "3.0.2" ],
         [ "lodash", "4.17.21" ],
         [ "pluralize", "8.0.0" ],
         [ "read-pkg-up", "7.0.1" ],
         [ "regexp-tree", "0.1.24" ],
+        [ "regjsparser", "0.9.1" ],
         [ "safe-regex", "2.1.1" ],
         [ "semver", "7.3.8" ],
         [ "strip-indent", "3.0.0" ]
@@ -1216,6 +1217,11 @@
         [ "functions-have-names", "1.2.3" ]
       ]
     },
+    "regjsparser": {
+      "0.9.1": [
+        [ "jsesc", "0.5.0" ]
+      ]
+    },
     "resolve": {
       "1.22.1": [
         [ "is-core-module", "2.11.0" ],
@@ -1368,7 +1374,7 @@
       ]
     },
     "to-absolute-glob": {
-      "2.0.2": [
+      "3.0.0": [
         [ "is-absolute", "1.0.0" ],
         [ "is-negated-glob", "1.0.0" ]
       ]
@@ -1482,38 +1488,38 @@
       ]
     },
     "xo": {
-      "0.53.1": [
+      "0.54.0": [
         [ "@eslint/eslintrc", "1.4.1" ],
         [ "arrify", "3.0.0" ],
-        [ "cosmiconfig", "7.1.0" ],
+        [ "cosmiconfig", "8.1.3" ],
         [ "define-lazy-prop", "3.0.0" ],
         [ "eslint", "8.37.0" ],
         [ "eslint-config-prettier", "8.8.0" ],
         [ "eslint-config-xo", "0.43.1" ],
-        [ "eslint-formatter-pretty", "4.1.0" ],
+        [ "eslint-formatter-pretty", "5.0.0" ],
         [ "eslint-import-resolver-webpack", "0.13.2" ],
-        [ "eslint-plugin-ava", "13.2.0" ],
+        [ "eslint-plugin-ava", "14.0.0" ],
         [ "eslint-plugin-eslint-comments", "3.2.0" ],
         [ "eslint-plugin-import", "2.27.5" ],
         [ "eslint-plugin-n", "15.7.0" ],
         [ "eslint-plugin-no-use-extend-native", "0.5.0" ],
         [ "eslint-plugin-prettier", "4.2.1" ],
-        [ "eslint-plugin-unicorn", "44.0.2" ],
+        [ "eslint-plugin-unicorn", "46.0.0" ],
         [ "esm-utils", "4.1.2" ],
         [ "find-cache-dir", "4.0.0" ],
         [ "find-up", "6.3.0" ],
         [ "get-stdin", "9.0.0" ],
+        [ "get-tsconfig", "4.5.0" ],
         [ "globby", "13.1.3" ],
         [ "imurmurhash", "0.1.4" ],
         [ "json-stable-stringify-without-jsonify", "1.0.1" ],
-        [ "json5", "2.2.3" ],
         [ "lodash-es", "4.17.21" ],
         [ "meow", "11.0.0" ],
         [ "open-editor", "4.0.0" ],
         [ "prettier", "2.8.7" ],
         [ "slash", "5.0.0" ],
-        [ "to-absolute-glob", "2.0.2" ],
-        [ "typescript", "4.9.5" ]
+        [ "to-absolute-glob", "3.0.0" ],
+        [ "typescript", "5.0.3" ]
       ],
       "unknown": [
         [ "@babel/code-frame", "7.21.4" ],
@@ -1535,7 +1541,7 @@
         [ "@nodelib/fs.scandir", "2.1.5" ],
         [ "@nodelib/fs.stat", "2.0.5" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
-        [ "@types/eslint", "7.29.0" ],
+        [ "@types/eslint", "8.37.0" ],
         [ "@types/eslint-scope", "3.7.4" ],
         [ "@types/estree", "1.0.0" ],
         [ "@types/json-schema", "7.0.11" ],
@@ -1543,7 +1549,6 @@
         [ "@types/minimist", "1.2.2" ],
         [ "@types/node", "18.15.11" ],
         [ "@types/normalize-package-data", "2.4.1" ],
-        [ "@types/parse-json", "4.0.0" ],
         [ "@webassemblyjs/ast", "1.11.1" ],
         [ "@webassemblyjs/floating-point-hex-parser", "1.11.1" ],
         [ "@webassemblyjs/helper-api-error", "1.11.1" ],
@@ -1599,7 +1604,7 @@
         [ "common-path-prefix", "3.0.0" ],
         [ "concat-map", "0.0.1" ],
         [ "confusing-browser-globals", "1.0.11" ],
-        [ "cosmiconfig", "7.1.0" ],
+        [ "cosmiconfig", "8.1.3" ],
         [ "cross-spawn", "7.0.3" ],
         [ "debug", "4.3.4" ],
         [ "decamelize", "6.0.0" ],
@@ -1609,7 +1614,7 @@
         [ "define-properties", "1.2.0" ],
         [ "dir-glob", "3.0.1" ],
         [ "doctrine", "3.0.0" ],
-        [ "electron-to-chromium", "1.4.350" ],
+        [ "electron-to-chromium", "1.4.352" ],
         [ "emoji-regex", "8.0.0" ],
         [ "enhance-visitors", "1.0.0" ],
         [ "enhanced-resolve", "0.9.1" ],
@@ -1625,18 +1630,18 @@
         [ "eslint", "8.37.0" ],
         [ "eslint-config-prettier", "8.8.0" ],
         [ "eslint-config-xo", "0.43.1" ],
-        [ "eslint-formatter-pretty", "4.1.0" ],
+        [ "eslint-formatter-pretty", "5.0.0" ],
         [ "eslint-import-resolver-node", "0.3.7" ],
         [ "eslint-import-resolver-webpack", "0.13.2" ],
         [ "eslint-module-utils", "2.7.4" ],
-        [ "eslint-plugin-ava", "13.2.0" ],
+        [ "eslint-plugin-ava", "14.0.0" ],
         [ "eslint-plugin-es", "4.1.0" ],
         [ "eslint-plugin-eslint-comments", "3.2.0" ],
         [ "eslint-plugin-import", "2.27.5" ],
         [ "eslint-plugin-n", "15.7.0" ],
         [ "eslint-plugin-no-use-extend-native", "0.5.0" ],
         [ "eslint-plugin-prettier", "4.2.1" ],
-        [ "eslint-plugin-unicorn", "44.0.2" ],
+        [ "eslint-plugin-unicorn", "46.0.0" ],
         [ "eslint-rule-docs", "1.1.235" ],
         [ "eslint-scope", "7.1.1" ],
         [ "eslint-utils", "3.0.0" ],
@@ -1673,6 +1678,7 @@
         [ "get-stdin", "9.0.0" ],
         [ "get-stream", "6.0.1" ],
         [ "get-symbol-description", "1.0.0" ],
+        [ "get-tsconfig", "4.5.0" ],
         [ "glob", "7.2.3" ],
         [ "glob-parent", "6.0.2" ],
         [ "glob-to-regexp", "0.4.1" ],
@@ -1744,10 +1750,11 @@
         [ "js-tokens", "4.0.0" ],
         [ "js-types", "1.0.0" ],
         [ "js-yaml", "4.1.0" ],
+        [ "jsesc", "3.0.2" ],
         [ "json-parse-even-better-errors", "2.3.1" ],
         [ "json-schema-traverse", "0.4.1" ],
         [ "json-stable-stringify-without-jsonify", "1.0.1" ],
-        [ "json5", "2.2.3" ],
+        [ "json5", "1.0.2" ],
         [ "kind-of", "6.0.3" ],
         [ "levn", "0.4.1" ],
         [ "line-column-path", "3.0.0" ],
@@ -1819,6 +1826,7 @@
         [ "regexp-tree", "0.1.24" ],
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "regexpp", "3.2.0" ],
+        [ "regjsparser", "0.9.1" ],
         [ "resolve", "1.22.1" ],
         [ "resolve-from", "5.0.0" ],
         [ "reusify", "1.0.4" ],
@@ -1857,14 +1865,14 @@
         [ "terser", "5.16.8" ],
         [ "terser-webpack-plugin", "5.3.7" ],
         [ "text-table", "0.2.0" ],
-        [ "to-absolute-glob", "2.0.2" ],
+        [ "to-absolute-glob", "3.0.0" ],
         [ "to-regex-range", "5.0.1" ],
         [ "trim-newlines", "4.1.1" ],
         [ "tsconfig-paths", "3.14.2" ],
         [ "type-check", "0.4.0" ],
         [ "type-fest", "0.21.3" ],
         [ "typed-array-length", "1.0.4" ],
-        [ "typescript", "4.9.5" ],
+        [ "typescript", "5.0.3" ],
         [ "unbox-primitive", "1.0.2" ],
         [ "unc-path-regex", "0.1.2" ],
         [ "update-browserslist-db", "1.0.10" ],
@@ -1879,9 +1887,8 @@
         [ "which-typed-array", "1.1.9" ],
         [ "word-wrap", "1.2.3" ],
         [ "wrappy", "1.0.2" ],
-        [ "xo", "0.53.1" ],
+        [ "xo", "0.54.0" ],
         [ "yallist", "4.0.0" ],
-        [ "yaml", "1.10.2" ],
         [ "yargs-parser", "21.1.1" ],
         [ "yocto-queue", "1.0.0" ]
       ]
@@ -2027,10 +2034,10 @@
       }
     },
     "@types/eslint": {
-      "7.29.0": {
-        "hash": "sha512-VNcvioYDH8/FxaeTKkM4/TiTwt6pBV9E3OfGmvaw8tPl0rrHCJ4Ll15HRT+pMiFAf/MLQvAzC+6RzUMEL9Ceng==",
+      "8.37.0": {
+        "hash": "sha512-Piet7dG2JBuDIfohBngQ3rCt7MgO9xCO4xIMKxBThCq5PNRB91IjlJ10eJVwfoNtvTErmxLzwBZ7rHZtbOMmFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/eslint/-/eslint-7.29.0.tgz"
+        "url": "https://registry.npmjs.org/@types/eslint/-/eslint-8.37.0.tgz"
       }
     },
     "@types/eslint-scope": {
@@ -2085,13 +2092,6 @@
         "hash": "sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==",
         "type": "http",
         "url": "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz"
-      }
-    },
-    "@types/parse-json": {
-      "4.0.0": {
-        "hash": "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
       }
     },
     "@webassemblyjs/ast": {
@@ -2505,10 +2505,10 @@
       }
     },
     "cosmiconfig": {
-      "7.1.0": {
-        "hash": "sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA==",
+      "8.1.3": {
+        "hash": "sha512-/UkO2JKI18b5jVMJUp0lvKFMpa/Gye+ZgZjKD+DGEN9y7NRcf/nK1A0sp67ONmKtnDCNMS44E6jrk0Yc3bDuUw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-7.1.0.tgz"
+        "url": "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.1.3.tgz"
       }
     },
     "cross-spawn": {
@@ -2595,10 +2595,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.350": {
-        "hash": "sha512-XnXcWpVnOfHZ4C3NPiL+SubeoGV8zc/pg8GEubRtc1dPA/9jKS2vsOPmtClJHhWxUb2RSGC1OBLCbgNUJMtZPw==",
+      "1.4.352": {
+        "hash": "sha512-ikFUEyu5/q+wJpMOxWxTaEVk2M1qKqTGKKyfJmod1CPZxKfYnxVS41/GCBQg21ItBpZybyN8sNpRqCUGm+Zc4Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.350.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.352.tgz"
       }
     },
     "emoji-regex": {
@@ -2717,10 +2717,10 @@
       }
     },
     "eslint-formatter-pretty": {
-      "4.1.0": {
-        "hash": "sha512-IsUTtGxF1hrH6lMWiSl1WbGaiP01eT6kzywdY1U+zLc0MP+nwEnUiS9UI8IaOTUhTeQJLlCEWIbXINBH4YJbBQ==",
+      "5.0.0": {
+        "hash": "sha512-Uick451FoL22/wXqyScX3inW8ZlD/GQO7eFXj3bqb6N/ZtuuF00/CwSNIKLbFCJPrX5V4EdQBSgJ/UVnmLRnug==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint-formatter-pretty/-/eslint-formatter-pretty-4.1.0.tgz"
+        "url": "https://registry.npmjs.org/eslint-formatter-pretty/-/eslint-formatter-pretty-5.0.0.tgz"
       }
     },
     "eslint-import-resolver-node": {
@@ -2745,10 +2745,10 @@
       }
     },
     "eslint-plugin-ava": {
-      "13.2.0": {
-        "hash": "sha512-i5B5izsEdERKQLruk1nIWzTTE7C26/ju8qQf7JeyRv32XT2lRMW0zMFZNhIrEf5/5VvpSz2rqrV7UcjClGbKsw==",
+      "14.0.0": {
+        "hash": "sha512-XmKT6hppaipwwnLVwwvQliSU6AF1QMHiNoLD5JQfzhUhf0jY7CO0O624fQrE+Y/fTb9vbW8r77nKf7M/oHulxw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint-plugin-ava/-/eslint-plugin-ava-13.2.0.tgz"
+        "url": "https://registry.npmjs.org/eslint-plugin-ava/-/eslint-plugin-ava-14.0.0.tgz"
       }
     },
     "eslint-plugin-es": {
@@ -2794,10 +2794,10 @@
       }
     },
     "eslint-plugin-unicorn": {
-      "44.0.2": {
-        "hash": "sha512-GLIDX1wmeEqpGaKcnMcqRvMVsoabeF0Ton0EX4Th5u6Kmf7RM9WBl705AXFEsns56ESkEs0uyelLuUTvz9Tr0w==",
+      "46.0.0": {
+        "hash": "sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint-plugin-unicorn/-/eslint-plugin-unicorn-44.0.2.tgz"
+        "url": "https://registry.npmjs.org/eslint-plugin-unicorn/-/eslint-plugin-unicorn-46.0.0.tgz"
       }
     },
     "eslint-rule-docs": {
@@ -3085,6 +3085,13 @@
         "hash": "sha512-2EmdH1YvIQiZpltCNgkuiUnyukzxM/R6NDJX31Ke3BG1Nq5b0S2PhX59UKi9vZpPDQVdqn+1IcaAwnzTT5vCjw==",
         "type": "http",
         "url": "https://registry.npmjs.org/get-symbol-description/-/get-symbol-description-1.0.0.tgz"
+      }
+    },
+    "get-tsconfig": {
+      "4.5.0": {
+        "hash": "sha512-MjhiaIWCJ1sAU4pIQ5i5OfOuHHxVo1oYeNsWTON7jxYkod8pHocXeh+SSbmu5OZZZK73B6cbJ2XADzXehLyovQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.5.0.tgz"
       }
     },
     "glob": {
@@ -3609,6 +3616,18 @@
         "url": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz"
       }
     },
+    "jsesc": {
+      "0.5.0": {
+        "hash": "sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz"
+      },
+      "3.0.2": {
+        "hash": "sha512-xKqzzWXDttJuOcawBt4KnKHHIf5oQ/Cxax+0PWFG+DFDgHNAdi+TXECADI+RYiFUMmx8792xsMbbgXj4CwnP4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jsesc/-/jsesc-3.0.2.tgz"
+      }
+    },
     "json-parse-even-better-errors": {
       "2.3.1": {
         "hash": "sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==",
@@ -3635,11 +3654,6 @@
         "hash": "sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==",
         "type": "http",
         "url": "https://registry.npmjs.org/json5/-/json5-1.0.2.tgz"
-      },
-      "2.2.3": {
-        "hash": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz"
       }
     },
     "kind-of": {
@@ -4209,6 +4223,13 @@
         "url": "https://registry.npmjs.org/regexpp/-/regexpp-3.2.0.tgz"
       }
     },
+    "regjsparser": {
+      "0.9.1": {
+        "hash": "sha512-dQUtn90WanSNl+7mQKcXAgZxvUe7Z0SqXlgzv0za4LwiUhyzBC58yQO3liFoUgu8GiJVInAhJjkj1N0EtQ5nkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regjsparser/-/regjsparser-0.9.1.tgz"
+      }
+    },
     "resolve": {
       "1.22.1": {
         "hash": "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==",
@@ -4516,10 +4537,10 @@
       }
     },
     "to-absolute-glob": {
-      "2.0.2": {
-        "hash": "sha512-rtwLUQEwT8ZeKQbyFJyomBRYXyE16U5VKuy0ftxLMK/PZb2fkOsg5r9kHdauuVDbsNdIBoC/HCthpidamQFXYA==",
+      "3.0.0": {
+        "hash": "sha512-loO/XEWTRqpfcpI7+Jr2RR2Umaaozx1t6OSVWtMi0oy5F/Fxg3IC+D/TToDnxyAGs7uZBGT/6XmyDUxgsObJXA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/to-absolute-glob/-/to-absolute-glob-2.0.2.tgz"
+        "url": "https://registry.npmjs.org/to-absolute-glob/-/to-absolute-glob-3.0.0.tgz"
       }
     },
     "to-regex-range": {
@@ -4590,10 +4611,10 @@
       }
     },
     "typescript": {
-      "4.9.5": {
-        "hash": "sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==",
+      "5.0.3": {
+        "hash": "sha512-xv8mOEDnigb/tN9PSMTwSEqAnUvkoXMQlicOb0IUVDBSQCgBSaAAROUZYy2IcUy5qU6XajK5jjjO7TMWqBTKZA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
+        "url": "https://registry.npmjs.org/typescript/-/typescript-5.0.3.tgz"
       }
     },
     "unbox-primitive": {
@@ -4695,10 +4716,10 @@
       }
     },
     "xo": {
-      "0.53.1": {
-        "hash": "sha512-/2R8SPehv1UhiIqJ9uSvrAjslcoygICNsUlEb/Zf2V6rMtr7YCoggc6hlt6b/kbncpR989Roqt6AvEO779dFxw==",
+      "0.54.0": {
+        "hash": "sha512-2YAVQqGOTZ+/ZthvfEdFjp1MoFy0i94s5QgVOhLuXnvvy7u+H1QO4KwecvSBNr5MuoG9WM2LRDkBabAwtCauSA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/xo/-/xo-0.53.1.tgz"
+        "url": "https://registry.npmjs.org/xo/-/xo-0.54.0.tgz"
       }
     },
     "yallist": {
@@ -4706,13 +4727,6 @@
         "hash": "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==",
         "type": "http",
         "url": "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
-      }
-    },
-    "yaml": {
-      "1.10.2": {
-        "hash": "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
       }
     },
     "yargs-parser": {
