@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "@angular/common",
+    "defaultPackage": "@angular/core",
     "location": "",
     "packages": {
-      "@angular/common": "14.3.0"
+      "@angular/core": "13.4.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -16,21 +16,15 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "@angular/common": {
-      "14.3.0": [
+    "@angular/core": {
+      "13.4.0": [
         [ "tslib", "2.5.0" ]
       ],
       "unknown": [
-        [ "@angular/common", "14.3.0" ],
-        [ "@angular/core", "14.3.0" ],
+        [ "@angular/core", "13.4.0" ],
         [ "rxjs", "7.8.0" ],
         [ "tslib", "2.5.0" ],
-        [ "zone.js", "0.12.0" ]
-      ]
-    },
-    "@angular/core": {
-      "14.3.0": [
-        [ "tslib", "2.5.0" ]
+        [ "zone.js", "0.11.8" ]
       ]
     },
     "rxjs": {
@@ -39,24 +33,17 @@
       ]
     },
     "zone.js": {
-      "0.12.0": [
+      "0.11.8": [
         [ "tslib", "2.5.0" ]
       ]
     }
   },
   "sources": {
-    "@angular/common": {
-      "14.3.0": {
-        "hash": "sha512-pV9oyG3JhGWeQ+TFB0Qub6a1VZWMNZ6/7zEopvYivdqa5yDLLDSBRWb6P80RuONXyGnM1pa7l5nYopX+r/23GQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@angular/common/-/common-14.3.0.tgz"
-      }
-    },
     "@angular/core": {
-      "14.3.0": {
-        "hash": "sha512-wYiwItc0Uyn4FWZ/OAx/Ubp2/WrD3EgUJ476y1XI7yATGPF8n9Ld5iCXT08HOvc4eBcYlDfh90kTXR6/MfhzdQ==",
+      "13.4.0": {
+        "hash": "sha512-RE9KL7pRj+3lkJjdSR2uKmqiG0gqjnoVCMbSLG93pWrmzNIhElmlkiDaK39aMHGl836dc68Usv9CEisyVnRqHQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@angular/core/-/core-14.3.0.tgz"
+        "url": "https://registry.npmjs.org/@angular/core/-/core-13.4.0.tgz"
       }
     },
     "rxjs": {
@@ -74,10 +61,10 @@
       }
     },
     "zone.js": {
-      "0.12.0": {
-        "hash": "sha512-XtC+I5dXU14HrzidAKBNMqneIVUykLEAA1x+v4KVrd6AUPWlwYORF8KgsVqvgdHiKZ4BkxxjvYi/ksEixTPR0Q==",
+      "0.11.8": {
+        "hash": "sha512-82bctBg2hKcEJ21humWIkXRlLBBmrc3nN7DFh5LGGhcyycO2S7FN8NmdvlcKaGFDNVL4/9kFLmwmInTavdJERA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/zone.js/-/zone.js-0.12.0.tgz"
+        "url": "https://registry.npmjs.org/zone.js/-/zone.js-0.11.8.tgz"
       }
     }
   }
