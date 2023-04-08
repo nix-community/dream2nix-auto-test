@@ -157,7 +157,7 @@
         [ "@semantic-release/commit-analyzer", "9.0.2" ],
         [ "@semantic-release/error", "3.0.0" ],
         [ "@semantic-release/github", "8.0.7" ],
-        [ "@semantic-release/npm", "10.0.2" ],
+        [ "@semantic-release/npm", "10.0.3" ],
         [ "@semantic-release/release-notes-generator", "10.0.3" ],
         [ "@tootallnate/once", "2.0.0" ],
         [ "@types/minimist", "1.2.2" ],
@@ -329,7 +329,7 @@
         [ "queue-microtask", "1.2.3" ],
         [ "quick-lru", "4.0.1" ],
         [ "rc", "1.2.8" ],
-        [ "read-pkg", "7.1.0" ],
+        [ "read-pkg", "8.0.0" ],
         [ "read-pkg-up", "9.1.0" ],
         [ "readable-stream", "2.3.8" ],
         [ "redent", "3.0.0" ],
@@ -433,7 +433,7 @@
       ]
     },
     "@semantic-release/npm": {
-      "10.0.2": [
+      "10.0.3": [
         [ "@semantic-release/error", "3.0.0" ],
         [ "aggregate-error", "4.0.1" ],
         [ "execa", "7.1.1" ],
@@ -443,7 +443,7 @@
         [ "normalize-url", "8.0.0" ],
         [ "npm", "9.6.4" ],
         [ "rc", "1.2.8" ],
-        [ "read-pkg", "7.1.0" ],
+        [ "read-pkg", "8.0.0" ],
         [ "registry-auth-token", "5.0.2" ],
         [ "semver", "7.3.8" ],
         [ "tempy", "3.0.0" ]
@@ -916,6 +916,12 @@
         [ "is-core-module", "2.11.0" ],
         [ "semver", "7.3.8" ],
         [ "validate-npm-package-license", "3.0.4" ]
+      ],
+      "5.0.0": [
+        [ "hosted-git-info", "6.1.1" ],
+        [ "is-core-module", "2.11.0" ],
+        [ "semver", "7.3.8" ],
+        [ "validate-npm-package-license", "3.0.4" ]
       ]
     },
     "npm-run-path": {
@@ -981,6 +987,13 @@
         [ "error-ex", "1.3.2" ],
         [ "json-parse-even-better-errors", "2.3.1" ],
         [ "lines-and-columns", "1.2.4" ]
+      ],
+      "7.0.0": [
+        [ "@babel/code-frame", "7.21.4" ],
+        [ "error-ex", "1.3.2" ],
+        [ "json-parse-even-better-errors", "3.0.0" ],
+        [ "lines-and-columns", "2.0.3" ],
+        [ "type-fest", "3.8.0" ]
       ]
     },
     "pkg-conf": {
@@ -1009,6 +1022,12 @@
         [ "normalize-package-data", "3.0.3" ],
         [ "parse-json", "5.2.0" ],
         [ "type-fest", "2.19.0" ]
+      ],
+      "8.0.0": [
+        [ "@types/normalize-package-data", "2.4.1" ],
+        [ "normalize-package-data", "5.0.0" ],
+        [ "parse-json", "7.0.0" ],
+        [ "type-fest", "3.8.0" ]
       ]
     },
     "read-pkg-up": {
@@ -1072,7 +1091,7 @@
         [ "@semantic-release/commit-analyzer", "9.0.2" ],
         [ "@semantic-release/error", "3.0.0" ],
         [ "@semantic-release/github", "8.0.7" ],
-        [ "@semantic-release/npm", "10.0.2" ],
+        [ "@semantic-release/npm", "10.0.3" ],
         [ "@semantic-release/release-notes-generator", "10.0.3" ],
         [ "aggregate-error", "4.0.1" ],
         [ "cosmiconfig", "8.1.3" ],
@@ -1435,10 +1454,10 @@
       }
     },
     "@semantic-release/npm": {
-      "10.0.2": {
-        "hash": "sha512-Mo0XoBza4pUapxiBhLLYXeSZ9tkuHDUd/WvMbpilwuPRfJDnQXMqx5tBVon8d2mBk8JXmXpqB+ExhlWJmVT40A==",
+      "10.0.3": {
+        "hash": "sha512-Chbv3kX4o+y+r1X6hsqBVB8NFbSVfiNlYOqMG6o9Wc8r5Y4cjxfbaMCuJ++XAtw3YXYX/NVD05cPzBi4Orjusg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@semantic-release/npm/-/npm-10.0.2.tgz"
+        "url": "https://registry.npmjs.org/@semantic-release/npm/-/npm-10.0.3.tgz"
       }
     },
     "@semantic-release/release-notes-generator": {
@@ -2263,6 +2282,11 @@
         "hash": "sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==",
         "type": "http",
         "url": "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz"
+      },
+      "3.0.0": {
+        "hash": "sha512-iZbGHafX/59r39gPwVPRBGw0QQKnA7tte5pSMrhWOW7swGsVvVTjmfyAV9pNqk8YGT7tRCdxRu8uzcgZwoDooA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-3.0.0.tgz"
       }
     },
     "json-stringify-safe": {
@@ -2298,6 +2322,11 @@
         "hash": "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==",
         "type": "http",
         "url": "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
+      },
+      "2.0.3": {
+        "hash": "sha512-cNOjgCnLB+FnvWWtyRTzmB3POJ+cXxTA81LoW7u8JdmhfXzriropYwpjShnz1QLLWsQwY7nIxoDmcPTwphDK9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-2.0.3.tgz"
       }
     },
     "load-json-file": {
@@ -2533,6 +2562,11 @@
         "hash": "sha512-p2W1sgqij3zMMyRC067Dg16bfzVH+w7hyegmpIvZ4JNjqtGOVAIvLmjBx3yP7YTe9vKJgkoNOPjwQGogDoMXFA==",
         "type": "http",
         "url": "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-3.0.3.tgz"
+      },
+      "5.0.0": {
+        "hash": "sha512-h9iPVIfrVZ9wVYQnxFgtw1ugSvGEMOlyPWWtm8BMJhnwyEL/FLbYbTY3V3PpjI/BUK67n9PEWDu6eHzu1fB15Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-5.0.0.tgz"
       }
     },
     "normalize-url": {
@@ -2675,6 +2709,11 @@
         "hash": "sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==",
         "type": "http",
         "url": "https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz"
+      },
+      "7.0.0": {
+        "hash": "sha512-kP+TQYAzAiVnzOlWOe0diD6L35s9bJh0SCn95PIbZFKrOYuIRQsQkeWEYxzVDuHTt9V9YqvYCJ2Qo4z9wdfZPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/parse-json/-/parse-json-7.0.0.tgz"
       }
     },
     "path-exists": {
@@ -2793,6 +2832,11 @@
         "hash": "sha512-5iOehe+WF75IccPc30bWTbpdDQLOCc3Uu8bi3Dte3Eueij81yx1Mrufk8qBx/YAbR4uL1FdUr+7BKXDwEtisXg==",
         "type": "http",
         "url": "https://registry.npmjs.org/read-pkg/-/read-pkg-7.1.0.tgz"
+      },
+      "8.0.0": {
+        "hash": "sha512-Ajb9oSjxXBw0YyOiwtQ2dKbAA/vMnUPnY63XcCk+mXo0BwIdQEMgZLZiMWGttQHcUhUgbK0mH85ethMPKXxziw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/read-pkg/-/read-pkg-8.0.0.tgz"
       }
     },
     "read-pkg-up": {
@@ -3203,6 +3247,11 @@
         "hash": "sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==",
         "type": "http",
         "url": "https://registry.npmjs.org/type-fest/-/type-fest-2.19.0.tgz"
+      },
+      "3.8.0": {
+        "hash": "sha512-FVNSzGQz9Th+/9R6Lvv7WIAkstylfHN2/JYxkyhhmKFYh9At2DST8t6L6Lref9eYO8PXFTfG9Sg1Agg0K3vq3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-fest/-/type-fest-3.8.0.tgz"
       }
     },
     "uglify-js": {
