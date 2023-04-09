@@ -16,6 +16,19 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "@jridgewell/gen-mapping": {
+      "0.3.3": [
+        [ "@jridgewell/set-array", "1.1.2" ],
+        [ "@jridgewell/sourcemap-codec", "1.4.15" ],
+        [ "@jridgewell/trace-mapping", "0.3.18" ]
+      ]
+    },
+    "@jridgewell/trace-mapping": {
+      "0.3.18": [
+        [ "@jridgewell/resolve-uri", "3.1.0" ],
+        [ "@jridgewell/sourcemap-codec", "1.4.14" ]
+      ]
+    },
     "@nodelib/fs.scandir": {
       "2.1.5": [
         [ "@nodelib/fs.stat", "2.0.5" ],
@@ -202,7 +215,8 @@
       ]
     },
     "sucrase": {
-      "3.31.0": [
+      "3.32.0": [
+        [ "@jridgewell/gen-mapping", "0.3.3" ],
         [ "commander", "4.1.1" ],
         [ "glob", "7.1.6" ],
         [ "lines-and-columns", "1.2.4" ],
@@ -236,9 +250,14 @@
         [ "postcss-value-parser", "4.2.0" ],
         [ "quick-lru", "5.1.1" ],
         [ "resolve", "1.22.2" ],
-        [ "sucrase", "3.31.0" ]
+        [ "sucrase", "3.32.0" ]
       ],
       "unknown": [
+        [ "@jridgewell/gen-mapping", "0.3.3" ],
+        [ "@jridgewell/resolve-uri", "3.1.0" ],
+        [ "@jridgewell/set-array", "1.1.2" ],
+        [ "@jridgewell/sourcemap-codec", "1.4.15" ],
+        [ "@jridgewell/trace-mapping", "0.3.18" ],
         [ "@nodelib/fs.scandir", "2.1.5" ],
         [ "@nodelib/fs.stat", "2.0.5" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
@@ -306,7 +325,7 @@
         [ "reusify", "1.0.4" ],
         [ "run-parallel", "1.2.0" ],
         [ "source-map-js", "1.0.2" ],
-        [ "sucrase", "3.31.0" ],
+        [ "sucrase", "3.32.0" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ],
         [ "tailwindcss", "3.3.1" ],
         [ "thenify", "3.3.1" ],
@@ -335,6 +354,46 @@
     }
   },
   "sources": {
+    "@jridgewell/gen-mapping": {
+      "0.3.3": {
+        "hash": "sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"
+      }
+    },
+    "@jridgewell/resolve-uri": {
+      "3.1.0": {
+        "hash": "sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz"
+      }
+    },
+    "@jridgewell/set-array": {
+      "1.1.2": {
+        "hash": "sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.1.2.tgz"
+      }
+    },
+    "@jridgewell/sourcemap-codec": {
+      "1.4.14": {
+        "hash": "sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz"
+      },
+      "1.4.15": {
+        "hash": "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
+      }
+    },
+    "@jridgewell/trace-mapping": {
+      "0.3.18": {
+        "hash": "sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.18.tgz"
+      }
+    },
     "@nodelib/fs.scandir": {
       "2.1.5": {
         "hash": "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==",
@@ -810,10 +869,10 @@
       }
     },
     "sucrase": {
-      "3.31.0": {
-        "hash": "sha512-6QsHnkqyVEzYcaiHsOKkzOtOgdJcb8i54x6AV2hDwyZcY9ZyykGZVw6L/YN98xC0evwTP6utsWWrKRaa8QlfEQ==",
+      "3.32.0": {
+        "hash": "sha512-ydQOU34rpSyj2TGyz4D2p8rbktIOZ8QY9s+DGLvFU1i5pWJE8vkpruCjGCMHsdXwnD7JDcS+noSwM/a7zyNFDQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/sucrase/-/sucrase-3.31.0.tgz"
+        "url": "https://registry.npmjs.org/sucrase/-/sucrase-3.32.0.tgz"
       }
     },
     "supports-preserve-symlinks-flag": {
