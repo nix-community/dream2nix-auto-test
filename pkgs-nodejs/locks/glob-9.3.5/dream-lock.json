@@ -3,7 +3,7 @@
     "defaultPackage": "glob",
     "location": "",
     "packages": {
-      "glob": "9.3.4"
+      "glob": "9.3.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -22,32 +22,32 @@
       ]
     },
     "glob": {
-      "9.3.4": [
+      "9.3.5": [
         [ "fs.realpath", "1.0.0" ],
-        [ "minimatch", "8.0.3" ],
-        [ "minipass", "4.2.5" ],
-        [ "path-scurry", "1.6.3" ]
+        [ "minimatch", "8.0.4" ],
+        [ "minipass", "4.2.7" ],
+        [ "path-scurry", "1.6.4" ]
       ],
       "unknown": [
         [ "balanced-match", "1.0.2" ],
         [ "brace-expansion", "2.0.1" ],
         [ "fs.realpath", "1.0.0" ],
-        [ "glob", "9.3.4" ],
-        [ "lru-cache", "7.18.3" ],
-        [ "minimatch", "8.0.3" ],
-        [ "minipass", "4.2.5" ],
-        [ "path-scurry", "1.6.3" ]
+        [ "glob", "9.3.5" ],
+        [ "lru-cache", "9.0.0" ],
+        [ "minimatch", "8.0.4" ],
+        [ "minipass", "4.2.7" ],
+        [ "path-scurry", "1.6.4" ]
       ]
     },
     "minimatch": {
-      "8.0.3": [
+      "8.0.4": [
         [ "brace-expansion", "2.0.1" ]
       ]
     },
     "path-scurry": {
-      "1.6.3": [
-        [ "lru-cache", "7.18.3" ],
-        [ "minipass", "4.2.5" ]
+      "1.6.4": [
+        [ "lru-cache", "9.0.0" ],
+        [ "minipass", "5.0.0" ]
       ]
     }
   },
@@ -74,38 +74,43 @@
       }
     },
     "glob": {
-      "9.3.4": {
-        "hash": "sha512-qaSc49hojMOv1EPM4EuyITjDSgSKI0rthoHnvE81tcOi1SCVndHko7auqxdQ14eiQG2NDBJBE86+2xIrbIvrbA==",
+      "9.3.5": {
+        "hash": "sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/glob/-/glob-9.3.4.tgz"
+        "url": "https://registry.npmjs.org/glob/-/glob-9.3.5.tgz"
       }
     },
     "lru-cache": {
-      "7.18.3": {
-        "hash": "sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==",
+      "9.0.0": {
+        "hash": "sha512-9AEKXzvOZc4BMacFnYiTOlDH/197LNnQIK9wZ6iMB5NXPzuv4bWR/Msv7iUMplkiMQ1qQL+KSv/JF1mZAB5Lrg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz"
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-9.0.0.tgz"
       }
     },
     "minimatch": {
-      "8.0.3": {
-        "hash": "sha512-tEEvU9TkZgnFDCtpnrEYnPsjT7iUx42aXfs4bzmQ5sMA09/6hZY0jeZcGkXyDagiBOvkUjNo8Viom+Me6+2x7g==",
+      "8.0.4": {
+        "hash": "sha512-W0Wvr9HyFXZRGIDgCicunpQ299OKXs9RgZfaukz4qAW/pJhcpUfupc9c+OObPOFueNy8VSrZgEmDtk6Kh4WzDA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/minimatch/-/minimatch-8.0.3.tgz"
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-8.0.4.tgz"
       }
     },
     "minipass": {
-      "4.2.5": {
-        "hash": "sha512-+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==",
+      "4.2.7": {
+        "hash": "sha512-ScVIgqHcXRMyfflqHmEW0bm8z8rb5McHyOY3ewX9JBgZaR77G7nxq9L/mtV96/QbAAwtbCAHVVLzD1kkyfFQEw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/minipass/-/minipass-4.2.5.tgz"
+        "url": "https://registry.npmjs.org/minipass/-/minipass-4.2.7.tgz"
+      },
+      "5.0.0": {
+        "hash": "sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minipass/-/minipass-5.0.0.tgz"
       }
     },
     "path-scurry": {
-      "1.6.3": {
-        "hash": "sha512-RAmB+n30SlN+HnNx6EbcpoDy9nwdpcGPnEKrJnu6GZoDWBdIjo1UQMVtW2ybtC7LC2oKLcMq8y5g8WnKLiod9g==",
+      "1.6.4": {
+        "hash": "sha512-Qp/9IHkdNiXJ3/Kon++At2nVpnhRiPq/aSvQN+H3U1WZbvNRK0RIQK/o4HMqPoXjpuGJUEWpHSs6Mnjxqh3TQg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/path-scurry/-/path-scurry-1.6.3.tgz"
+        "url": "https://registry.npmjs.org/path-scurry/-/path-scurry-1.6.4.tgz"
       }
     }
   }
