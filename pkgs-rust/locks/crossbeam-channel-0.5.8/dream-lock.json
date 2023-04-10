@@ -3,7 +3,7 @@
     "defaultPackage": "crossbeam-channel",
     "location": "",
     "packages": {
-      "crossbeam-channel": "0.5.7"
+      "crossbeam-channel": "0.5.8"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "crossbeam-channel": {
-        "0.5.7": {
+        "0.5.8": {
           "description": "Multi-producer multi-consumer channels for message passing", "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-channel", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,14 +20,14 @@
     },
     "relPathReplacements": {
       "crossbeam-channel": {
-        "0.5.7": {}
+        "0.5.8": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "crossbeam-channel": {
-      "0.5.7": [
+      "0.5.8": [
         [ "cfg-if", "1.0.0" ],
         [ "crossbeam-utils", "0.8.15" ],
         [ "num_cpus", "1.15.0" ],
@@ -43,24 +43,24 @@
     "getrandom": {
       "0.2.8": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.139" ],
+        [ "libc", "0.2.141" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
     "hermit-abi": {
       "0.2.6": [
-        [ "libc", "0.2.139" ]
+        [ "libc", "0.2.141" ]
       ]
     },
     "num_cpus": {
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
-        [ "libc", "0.2.139" ]
+        [ "libc", "0.2.141" ]
       ]
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.139" ],
+        [ "libc", "0.2.141" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.4" ]
       ]
@@ -78,13 +78,13 @@
     },
     "signal-hook": {
       "0.3.15": [
-        [ "libc", "0.2.139" ],
+        [ "libc", "0.2.141" ],
         [ "signal-hook-registry", "1.4.1" ]
       ]
     },
     "signal-hook-registry": {
       "1.4.1": [
-        [ "libc", "0.2.139" ]
+        [ "libc", "0.2.141" ]
       ]
     }
   },
@@ -98,8 +98,8 @@
       }
     },
     "crossbeam-channel": {
-      "0.5.7": {
-        "hash": "cf2b3e8478797446514c91ef04bafcb59faba183e621ad488df88983cc14128c",
+      "0.5.8": {
+        "hash": "a33c2bf77f2df06183c3aa30d1e96c0695a313d4f9c453cc3762a6db39f99200",
         "type": "crates-io"
       }
     },
@@ -128,11 +128,11 @@
       }
     },
     "libc": {
-      "0.2.139": {
-        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
+      "0.2.141": {
+        "hash": "3304a64d199bb964be99741b7a14d26972741915b3649639149b2479bb46f4b5",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.139"
+        "version": "0.2.141"
       }
     },
     "num_cpus": {
