@@ -31,6 +31,11 @@
         [ "cfg-if", "1.0.0" ]
       ]
     },
+    "fdeflate": {
+      "0.3.0": [
+        [ "simd-adler32", "0.3.5" ]
+      ]
+    },
     "flate2": {
       "1.0.25": [
         [ "crc32fast", "1.3.2" ],
@@ -45,12 +50,16 @@
         [ "jpeg-decoder", "0.3.0" ],
         [ "num-rational", "0.4.1" ],
         [ "num-traits", "0.2.15" ],
-        [ "png", "0.17.7" ]
+        [ "png", "0.17.8" ]
       ]
     },
     "miniz_oxide": {
       "0.6.2": [
         [ "adler", "1.0.2" ]
+      ],
+      "0.7.1": [
+        [ "adler", "1.0.2" ],
+        [ "simd-adler32", "0.3.5" ]
       ]
     },
     "num-integer": {
@@ -78,11 +87,12 @@
       ]
     },
     "png": {
-      "0.17.7": [
+      "0.17.8": [
         [ "bitflags", "1.3.2" ],
         [ "crc32fast", "1.3.2" ],
+        [ "fdeflate", "0.3.0" ],
         [ "flate2", "1.0.25" ],
-        [ "miniz_oxide", "0.6.2" ]
+        [ "miniz_oxide", "0.7.1" ]
       ]
     }
   },
@@ -151,6 +161,14 @@
         "version": "1.3.2"
       }
     },
+    "fdeflate": {
+      "0.3.0": {
+        "hash": "d329bdeac514ee06249dabc27877490f17f5d371ec693360768b838e19f3ae10",
+        "pname": "fdeflate",
+        "type": "crates-io",
+        "version": "0.3.0"
+      }
+    },
     "flate2": {
       "1.0.25": {
         "hash": "a8a2db397cb1c8772f31494cb8917e48cd1e64f0fa7efac59fbd741a0a8ce841",
@@ -181,6 +199,12 @@
         "pname": "miniz_oxide",
         "type": "crates-io",
         "version": "0.6.2"
+      },
+      "0.7.1": {
+        "hash": "e7810e0be55b428ada41041c41f32c9f1a42817901b4ccf45fa3d4b6561e74c7",
+        "pname": "miniz_oxide",
+        "type": "crates-io",
+        "version": "0.7.1"
       }
     },
     "num-integer": {
@@ -222,11 +246,19 @@
       }
     },
     "png": {
-      "0.17.7": {
-        "hash": "5d708eaf860a19b19ce538740d2b4bdeeb8337fa53f7738455e706623ad5c638",
+      "0.17.8": {
+        "hash": "aaeebc51f9e7d2c150d3f3bfeb667f2aa985db5ef1e3d212847bdedb488beeaa",
         "pname": "png",
         "type": "crates-io",
-        "version": "0.17.7"
+        "version": "0.17.8"
+      }
+    },
+    "simd-adler32": {
+      "0.3.5": {
+        "hash": "238abfbb77c1915110ad968465608b68e869e0772622c9656714e73e5a1a522f",
+        "pname": "simd-adler32",
+        "type": "crates-io",
+        "version": "0.3.5"
       }
     }
   }
