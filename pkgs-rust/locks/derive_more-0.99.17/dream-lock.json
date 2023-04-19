@@ -1,0 +1,145 @@
+{
+  "_generic": {
+    "defaultPackage": "derive_more",
+    "location": "",
+    "packages": {
+      "derive_more": "0.99.17"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "derive_more": {
+        "0.99.17": {
+          "description": "Adds #[derive(x)] macros for more traits", "license": [   "mit"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "derive_more": {
+        "0.99.17": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "derive_more": {
+      "0.99.17": [
+        [ "convert_case", "0.4.0" ],
+        [ "peg", "0.5.7" ],
+        [ "proc-macro2", "1.0.32" ],
+        [ "quote", "1.0.10" ],
+        [ "rustc_version", "0.4.0" ],
+        [ "syn", "1.0.81" ]
+      ]
+    },
+    "peg": {
+      "0.5.7": [
+        [ "quote", "0.3.15" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.32": [
+        [ "unicode-xid", "0.2.1" ]
+      ]
+    },
+    "quote": {
+      "1.0.10": [
+        [ "proc-macro2", "1.0.32" ]
+      ]
+    },
+    "rustc_version": {
+      "0.4.0": [
+        [ "semver", "1.0.4" ]
+      ]
+    },
+    "syn": {
+      "1.0.81": [
+        [ "proc-macro2", "1.0.32" ],
+        [ "quote", "1.0.10" ],
+        [ "unicode-xid", "0.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "convert_case": {
+      "0.4.0": {
+        "hash": "6245d59a3e82a7fc217c5828a6692dbc6dfb63a0c8c90495621f7b9d79704a0e",
+        "pname": "convert_case",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "derive_more": {
+      "0.99.17": {
+        "hash": "4fb810d30a7c1953f91334de7244731fc3f3c10d7fe163338a35b9f640960321",
+        "type": "crates-io"
+      }
+    },
+    "peg": {
+      "0.5.7": {
+        "hash": "40df12dde1d836ed2a4c3bfc2799797e3abaf807d97520d28d6e3f3bf41a5f85",
+        "pname": "peg",
+        "type": "crates-io",
+        "version": "0.5.7"
+      }
+    },
+    "proc-macro2": {
+      "1.0.32": {
+        "hash": "ba508cc11742c0dc5c1659771673afbab7a0efab23aa17e854cbab0837ed0b43",
+        "pname": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.32"
+      }
+    },
+    "quote": {
+      "0.3.15": {
+        "hash": "7a6e920b65c65f10b2ae65c831a81a073a89edd28c7cce89475bff467ab4167a",
+        "pname": "quote",
+        "type": "crates-io",
+        "version": "0.3.15"
+      },
+      "1.0.10": {
+        "hash": "38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05",
+        "pname": "quote",
+        "type": "crates-io",
+        "version": "1.0.10"
+      }
+    },
+    "rustc_version": {
+      "0.4.0": {
+        "hash": "bfa0f585226d2e68097d4f95d113b15b83a82e819ab25717ec0590d9584ef366",
+        "pname": "rustc_version",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "semver": {
+      "1.0.4": {
+        "hash": "568a8e6258aa33c13358f81fd834adb854c6f7c9468520910a9b1e8fac068012",
+        "pname": "semver",
+        "type": "crates-io",
+        "version": "1.0.4"
+      }
+    },
+    "syn": {
+      "1.0.81": {
+        "hash": "f2afee18b8beb5a596ecb4a2dce128c719b4ba399d34126b9e4396e3f9860966",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "1.0.81"
+      }
+    },
+    "unicode-xid": {
+      "0.2.1": {
+        "hash": "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564",
+        "pname": "unicode-xid",
+        "type": "crates-io",
+        "version": "0.2.1"
+      }
+    }
+  }
+}
