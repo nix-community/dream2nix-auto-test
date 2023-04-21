@@ -3,7 +3,7 @@
     "defaultPackage": "regex",
     "location": "",
     "packages": {
-      "regex": "1.7.3"
+      "regex": "1.8.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "regex": {
-        "1.7.3": {
+        "1.8.0": {
           "description": "An implementation of regular expressions for Rust. This implementation uses\nfinite automata and guarantees linear time matching on all inputs.\n", "homepage": "https://github.com/rust-lang/regex", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,21 +20,21 @@
     },
     "relPathReplacements": {
       "regex": {
-        "1.7.3": {}
+        "1.8.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "aho-corasick": {
-      "0.7.20": [
+      "1.0.0": [
         [ "memchr", "2.5.0" ]
       ]
     },
     "getrandom": {
-      "0.2.8": [
+      "0.2.9": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.139" ],
+        [ "libc", "0.2.142" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
@@ -50,27 +50,27 @@
     },
     "rand_core": {
       "0.6.4": [
-        [ "getrandom", "0.2.8" ]
+        [ "getrandom", "0.2.9" ]
       ]
     },
     "regex": {
-      "1.7.3": [
-        [ "aho-corasick", "0.7.20" ],
+      "1.8.0": [
+        [ "aho-corasick", "1.0.0" ],
         [ "lazy_static", "1.4.0" ],
         [ "memchr", "2.5.0" ],
         [ "quickcheck", "1.0.3" ],
         [ "rand", "0.8.5" ],
-        [ "regex-syntax", "0.6.29" ]
+        [ "regex-syntax", "0.7.0" ]
       ]
     }
   },
   "sources": {
     "aho-corasick": {
-      "0.7.20": {
-        "hash": "cc936419f96fa211c1b9166887b38e5e40b19958e5b895be7c1f93adec7071ac",
+      "1.0.0": {
+        "hash": "e5bce8d450891e3b36f85a2230cec441fddd60e0c455b61b15bb3ffba955ca85",
         "pname": "aho-corasick",
         "type": "crates-io",
-        "version": "0.7.20"
+        "version": "1.0.0"
       }
     },
     "cfg-if": {
@@ -82,11 +82,11 @@
       }
     },
     "getrandom": {
-      "0.2.8": {
-        "hash": "c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31",
+      "0.2.9": {
+        "hash": "c85e1d9ab2eadba7e5040d4e09cbd6d072b76a557ad64e797c2cb9d4da21d7e4",
         "pname": "getrandom",
         "type": "crates-io",
-        "version": "0.2.8"
+        "version": "0.2.9"
       }
     },
     "lazy_static": {
@@ -98,11 +98,11 @@
       }
     },
     "libc": {
-      "0.2.139": {
-        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
+      "0.2.142": {
+        "hash": "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.139"
+        "version": "0.2.142"
       }
     },
     "memchr": {
@@ -138,17 +138,17 @@
       }
     },
     "regex": {
-      "1.7.3": {
-        "hash": "8b1f693b24f6ac912f4893ef08244d70b6067480d2f1a46e950c9691e6749d1d",
+      "1.8.0": {
+        "hash": "ac6cf59af1067a3fb53fbe5c88c053764e930f932be1d71d3ffe032cbe147f59",
         "type": "crates-io"
       }
     },
     "regex-syntax": {
-      "0.6.29": {
-        "hash": "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1",
+      "0.7.0": {
+        "hash": "b6868896879ba532248f33598de5181522d8b3d9d724dfd230911e1a7d4822f5",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.6.29"
+        "version": "0.7.0"
       }
     },
     "wasi": {

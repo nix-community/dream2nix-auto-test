@@ -29,6 +29,9 @@
     "aho-corasick": {
       "0.7.20": [
         [ "memchr", "2.5.0" ]
+      ],
+      "1.0.1": [
+        [ "memchr", "2.5.0" ]
       ]
     },
     "bstr": {
@@ -45,7 +48,7 @@
         [ "glob", "0.3.1" ],
         [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.17" ],
-        [ "regex", "1.7.3" ],
+        [ "regex", "1.8.0" ],
         [ "serde", "1.0.160" ],
         [ "serde_json", "1.0.96" ]
       ]
@@ -56,10 +59,10 @@
       ]
     },
     "regex": {
-      "1.7.3": [
-        [ "aho-corasick", "0.7.20" ],
+      "1.8.0": [
+        [ "aho-corasick", "1.0.1" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-syntax", "0.6.29" ]
+        [ "regex-syntax", "0.7.0" ]
       ]
     },
     "serde_json": {
@@ -77,6 +80,12 @@
         "pname": "aho-corasick",
         "type": "crates-io",
         "version": "0.7.20"
+      },
+      "1.0.1": {
+        "hash": "67fc08ce920c31afb70f013dcce1bfc3a3195de6a228474e45e1f145b36f8d04",
+        "pname": "aho-corasick",
+        "type": "crates-io",
+        "version": "1.0.1"
       }
     },
     "bstr": {
@@ -150,19 +159,19 @@
       }
     },
     "regex": {
-      "1.7.3": {
-        "hash": "8b1f693b24f6ac912f4893ef08244d70b6067480d2f1a46e950c9691e6749d1d",
+      "1.8.0": {
+        "hash": "ac6cf59af1067a3fb53fbe5c88c053764e930f932be1d71d3ffe032cbe147f59",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.7.3"
+        "version": "1.8.0"
       }
     },
     "regex-syntax": {
-      "0.6.29": {
-        "hash": "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1",
+      "0.7.0": {
+        "hash": "b6868896879ba532248f33598de5181522d8b3d9d724dfd230911e1a7d4822f5",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.6.29"
+        "version": "0.7.0"
       }
     },
     "ryu": {

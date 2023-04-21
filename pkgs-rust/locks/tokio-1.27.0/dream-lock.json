@@ -27,7 +27,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "aho-corasick": {
-      "0.7.20": [
+      "1.0.1": [
         [ "memchr", "2.5.0" ]
       ]
     },
@@ -54,14 +54,14 @@
     "errno": {
       "0.3.1": [
         [ "errno-dragonfly", "0.1.2" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
     "errno-dragonfly": {
       "0.1.2": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "fastrand": {
@@ -122,7 +122,7 @@
     "generator": {
       "0.7.3": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "log", "0.4.17" ],
         [ "rustversion", "1.0.12" ],
         [ "windows", "0.44.0" ]
@@ -131,13 +131,13 @@
     "getrandom": {
       "0.2.9": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
     "hermit-abi": {
       "0.2.6": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "instant": {
@@ -148,7 +148,7 @@
     "io-lifetimes": {
       "1.0.10": [
         [ "hermit-abi", "0.3.1" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -197,7 +197,7 @@
     },
     "mio": {
       "0.8.6": [
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "log", "0.4.17" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
         [ "windows-sys", "0.45.0" ]
@@ -232,12 +232,12 @@
       "0.24.3": [
         [ "bitflags", "1.3.2" ],
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ],
       "0.26.2": [
         [ "bitflags", "1.3.2" ],
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "memoffset", "0.7.1" ],
         [ "static_assertions", "1.1.0" ]
       ]
@@ -261,7 +261,7 @@
     "num_cpus": {
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "parking_lot": {
@@ -273,7 +273,7 @@
     "parking_lot_core": {
       "0.9.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "redox_syscall", "0.2.16" ],
         [ "smallvec", "1.10.0" ],
         [ "windows-sys", "0.45.0" ]
@@ -286,7 +286,7 @@
         [ "itertools", "0.10.5" ],
         [ "normalize-line-endings", "0.3.0" ],
         [ "predicates-core", "1.0.6" ],
-        [ "regex", "1.7.3" ]
+        [ "regex", "1.8.0" ]
       ]
     },
     "predicates-tree": {
@@ -307,7 +307,7 @@
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.4" ]
       ]
@@ -332,10 +332,10 @@
       ]
     },
     "regex": {
-      "1.7.3": [
-        [ "aho-corasick", "0.7.20" ],
+      "1.8.0": [
+        [ "aho-corasick", "1.0.1" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-syntax", "0.6.29" ]
+        [ "regex-syntax", "0.7.0" ]
       ]
     },
     "regex-automata": {
@@ -348,7 +348,7 @@
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.10" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "linux-raw-sys", "0.3.3" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -379,7 +379,7 @@
     },
     "signal-hook-registry": {
       "1.4.1": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "slab": {
@@ -389,7 +389,7 @@
     },
     "socket2": {
       "0.4.9": [
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -426,7 +426,7 @@
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
         [ "futures", "0.3.28" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "loom", "0.5.6" ],
         [ "mio", "0.8.6" ],
         [ "mio-aio", "0.7.0" ],
@@ -509,7 +509,7 @@
         [ "matchers", "0.1.0" ],
         [ "nu-ansi-term", "0.46.0" ],
         [ "once_cell", "1.17.1" ],
-        [ "regex", "1.7.3" ],
+        [ "regex", "1.8.0" ],
         [ "sharded-slab", "0.1.4" ],
         [ "smallvec", "1.10.0" ],
         [ "thread_local", "1.1.7" ],
@@ -622,11 +622,11 @@
   },
   "sources": {
     "aho-corasick": {
-      "0.7.20": {
-        "hash": "cc936419f96fa211c1b9166887b38e5e40b19958e5b895be7c1f93adec7071ac",
+      "1.0.1": {
+        "hash": "67fc08ce920c31afb70f013dcce1bfc3a3195de6a228474e45e1f145b36f8d04",
         "pname": "aho-corasick",
         "type": "crates-io",
-        "version": "0.7.20"
+        "version": "1.0.1"
       }
     },
     "async-stream": {
@@ -916,11 +916,11 @@
       }
     },
     "libc": {
-      "0.2.141": {
-        "hash": "3304a64d199bb964be99741b7a14d26972741915b3649639149b2479bb46f4b5",
+      "0.2.142": {
+        "hash": "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.141"
+        "version": "0.2.142"
       }
     },
     "linux-raw-sys": {
@@ -1200,11 +1200,11 @@
       }
     },
     "regex": {
-      "1.7.3": {
-        "hash": "8b1f693b24f6ac912f4893ef08244d70b6067480d2f1a46e950c9691e6749d1d",
+      "1.8.0": {
+        "hash": "ac6cf59af1067a3fb53fbe5c88c053764e930f932be1d71d3ffe032cbe147f59",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.7.3"
+        "version": "1.8.0"
       }
     },
     "regex-automata": {
@@ -1221,6 +1221,12 @@
         "pname": "regex-syntax",
         "type": "crates-io",
         "version": "0.6.29"
+      },
+      "0.7.0": {
+        "hash": "b6868896879ba532248f33598de5181522d8b3d9d724dfd230911e1a7d4822f5",
+        "pname": "regex-syntax",
+        "type": "crates-io",
+        "version": "0.7.0"
       }
     },
     "rustix": {

@@ -27,14 +27,14 @@
   "cyclicDependencies": {},
   "dependencies": {
     "aho-corasick": {
-      "0.7.20": [
+      "1.0.1": [
         [ "memchr", "2.5.0" ]
       ]
     },
     "atty": {
       "0.2.14": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -90,7 +90,7 @@
         [ "oorandom", "11.1.3" ],
         [ "plotters", "0.3.4" ],
         [ "rayon", "1.7.0" ],
-        [ "regex", "1.7.3" ],
+        [ "regex", "1.8.0" ],
         [ "serde", "1.0.160" ],
         [ "serde_derive", "1.0.160" ],
         [ "serde_json", "1.0.96" ],
@@ -134,13 +134,13 @@
     "env_logger": {
       "0.8.4": [
         [ "log", "0.4.17" ],
-        [ "regex", "1.7.3" ]
+        [ "regex", "1.8.0" ]
       ]
     },
     "getrandom": {
       "0.2.9": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
@@ -159,10 +159,10 @@
     },
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ],
       "0.2.6": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "indexmap": {
@@ -200,7 +200,7 @@
     "num_cpus": {
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "plotters": {
@@ -243,7 +243,7 @@
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.4" ]
       ]
@@ -274,10 +274,10 @@
       ]
     },
     "regex": {
-      "1.7.3": [
-        [ "aho-corasick", "0.7.20" ],
+      "1.8.0": [
+        [ "aho-corasick", "1.0.1" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-syntax", "0.6.29" ]
+        [ "regex-syntax", "0.7.0" ]
       ]
     },
     "same-file": {
@@ -393,11 +393,11 @@
   },
   "sources": {
     "aho-corasick": {
-      "0.7.20": {
-        "hash": "cc936419f96fa211c1b9166887b38e5e40b19958e5b895be7c1f93adec7071ac",
+      "1.0.1": {
+        "hash": "67fc08ce920c31afb70f013dcce1bfc3a3195de6a228474e45e1f145b36f8d04",
         "pname": "aho-corasick",
         "type": "crates-io",
-        "version": "0.7.20"
+        "version": "1.0.1"
       }
     },
     "anes": {
@@ -675,11 +675,11 @@
       }
     },
     "libc": {
-      "0.2.141": {
-        "hash": "3304a64d199bb964be99741b7a14d26972741915b3649639149b2479bb46f4b5",
+      "0.2.142": {
+        "hash": "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.141"
+        "version": "0.2.142"
       }
     },
     "libm": {
@@ -859,19 +859,19 @@
       }
     },
     "regex": {
-      "1.7.3": {
-        "hash": "8b1f693b24f6ac912f4893ef08244d70b6067480d2f1a46e950c9691e6749d1d",
+      "1.8.0": {
+        "hash": "ac6cf59af1067a3fb53fbe5c88c053764e930f932be1d71d3ffe032cbe147f59",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.7.3"
+        "version": "1.8.0"
       }
     },
     "regex-syntax": {
-      "0.6.29": {
-        "hash": "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1",
+      "0.7.0": {
+        "hash": "b6868896879ba532248f33598de5181522d8b3d9d724dfd230911e1a7d4822f5",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.6.29"
+        "version": "0.7.0"
       }
     },
     "ryu": {

@@ -27,7 +27,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "aho-corasick": {
-      "0.7.20": [
+      "1.0.1": [
         [ "memchr", "2.5.0" ]
       ]
     },
@@ -42,14 +42,14 @@
       "0.15.5": [
         [ "encode_unicode", "0.3.6" ],
         [ "lazy_static", "1.4.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.42.0" ]
       ]
     },
     "core-foundation": {
       "0.9.3": [
         [ "core-foundation-sys", "0.8.4" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "crc32fast": {
@@ -92,14 +92,14 @@
     "errno": {
       "0.3.1": [
         [ "errno-dragonfly", "0.1.2" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
     "errno-dragonfly": {
       "0.1.2": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "fastrand": {
@@ -110,7 +110,7 @@
     "filetime": {
       "0.2.21": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "redox_syscall", "0.2.16" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -164,7 +164,7 @@
     },
     "hermit-abi": {
       "0.2.6": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "http": {
@@ -239,7 +239,7 @@
     "io-lifetimes": {
       "1.0.10": [
         [ "hermit-abi", "0.3.1" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -265,7 +265,7 @@
     },
     "mio": {
       "0.8.6": [
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "log", "0.4.17" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
         [ "windows-sys", "0.45.0" ]
@@ -274,11 +274,11 @@
     "native-tls": {
       "0.2.11": [
         [ "lazy_static", "1.4.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "log", "0.4.17" ],
-        [ "openssl", "0.10.50" ],
+        [ "openssl", "0.10.51" ],
         [ "openssl-probe", "0.1.5" ],
-        [ "openssl-sys", "0.9.85" ],
+        [ "openssl-sys", "0.9.86" ],
         [ "schannel", "0.1.21" ],
         [ "security-framework", "2.8.2" ],
         [ "security-framework-sys", "2.8.0" ],
@@ -288,18 +288,18 @@
     "num_cpus": {
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "openssl": {
-      "0.10.50": [
+      "0.10.51": [
         [ "bitflags", "1.3.2" ],
         [ "cfg-if", "1.0.0" ],
         [ "foreign-types", "0.3.2" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "once_cell", "1.17.1" ],
         [ "openssl-macros", "0.1.1" ],
-        [ "openssl-sys", "0.9.85" ]
+        [ "openssl-sys", "0.9.86" ]
       ]
     },
     "openssl-macros": {
@@ -310,9 +310,9 @@
       ]
     },
     "openssl-sys": {
-      "0.9.85": [
+      "0.9.86": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "pkg-config", "0.3.26" ],
         [ "vcpkg", "0.2.15" ]
       ]
@@ -362,10 +362,10 @@
       ]
     },
     "regex": {
-      "1.7.3": [
-        [ "aho-corasick", "0.7.20" ],
+      "1.8.0": [
+        [ "aho-corasick", "1.0.1" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-syntax", "0.6.29" ]
+        [ "regex-syntax", "0.7.0" ]
       ]
     },
     "reqwest": {
@@ -406,7 +406,7 @@
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.10" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "linux-raw-sys", "0.3.3" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -426,14 +426,14 @@
         [ "bitflags", "1.3.2" ],
         [ "core-foundation", "0.9.3" ],
         [ "core-foundation-sys", "0.8.4" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "security-framework-sys", "2.8.0" ]
       ]
     },
     "security-framework-sys": {
       "2.8.0": [
         [ "core-foundation-sys", "0.8.4" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "serde_json": {
@@ -458,7 +458,7 @@
     },
     "socket2": {
       "0.4.9": [
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -477,7 +477,7 @@
         [ "quote", "1.0.26" ],
         [ "rayon", "1.7.0" ],
         [ "ref-cast", "1.0.16" ],
-        [ "regex", "1.7.3" ],
+        [ "regex", "1.8.0" ],
         [ "reqwest", "0.11.16" ],
         [ "rustversion", "1.0.12" ],
         [ "syn-test-suite", "0.0.0+test" ],
@@ -495,7 +495,7 @@
     "tar": {
       "0.4.38": [
         [ "filetime", "0.2.21" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "xattr", "0.2.3" ]
       ]
     },
@@ -522,7 +522,7 @@
       "1.27.0": [
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "mio", "0.8.6" ],
         [ "num_cpus", "1.15.0" ],
         [ "pin-project-lite", "0.2.9" ],
@@ -683,7 +683,7 @@
     },
     "xattr": {
       "0.2.3": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "yaml-rust": {
@@ -702,11 +702,11 @@
       }
     },
     "aho-corasick": {
-      "0.7.20": {
-        "hash": "cc936419f96fa211c1b9166887b38e5e40b19958e5b895be7c1f93adec7071ac",
+      "1.0.1": {
+        "hash": "67fc08ce920c31afb70f013dcce1bfc3a3195de6a228474e45e1f145b36f8d04",
         "pname": "aho-corasick",
         "type": "crates-io",
-        "version": "0.7.20"
+        "version": "1.0.1"
       }
     },
     "anyhow": {
@@ -1140,11 +1140,11 @@
       }
     },
     "libc": {
-      "0.2.141": {
-        "hash": "3304a64d199bb964be99741b7a14d26972741915b3649639149b2479bb46f4b5",
+      "0.2.142": {
+        "hash": "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.141"
+        "version": "0.2.142"
       }
     },
     "linked-hash-map": {
@@ -1236,11 +1236,11 @@
       }
     },
     "openssl": {
-      "0.10.50": {
-        "hash": "7e30d8bc91859781f0a943411186324d580f2bbeb71b452fe91ae344806af3f1",
+      "0.10.51": {
+        "hash": "97ea2d98598bf9ada7ea6ee8a30fb74f9156b63bbe495d64ec2b87c269d2dda3",
         "pname": "openssl",
         "type": "crates-io",
-        "version": "0.10.50"
+        "version": "0.10.51"
       }
     },
     "openssl-macros": {
@@ -1260,11 +1260,11 @@
       }
     },
     "openssl-sys": {
-      "0.9.85": {
-        "hash": "0d3d193fb1488ad46ffe3aaabc912cc931d02ee8518fe2959aea8ef52718b0c0",
+      "0.9.86": {
+        "hash": "992bac49bdbab4423199c654a5515bd2a6c6a23bf03f2dd3bdb7e5ae6259bc69",
         "pname": "openssl-sys",
         "type": "crates-io",
-        "version": "0.9.85"
+        "version": "0.9.86"
       }
     },
     "percent-encoding": {
@@ -1362,19 +1362,19 @@
       }
     },
     "regex": {
-      "1.7.3": {
-        "hash": "8b1f693b24f6ac912f4893ef08244d70b6067480d2f1a46e950c9691e6749d1d",
+      "1.8.0": {
+        "hash": "ac6cf59af1067a3fb53fbe5c88c053764e930f932be1d71d3ffe032cbe147f59",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.7.3"
+        "version": "1.8.0"
       }
     },
     "regex-syntax": {
-      "0.6.29": {
-        "hash": "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1",
+      "0.7.0": {
+        "hash": "b6868896879ba532248f33598de5181522d8b3d9d724dfd230911e1a7d4822f5",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.6.29"
+        "version": "0.7.0"
       }
     },
     "reqwest": {
