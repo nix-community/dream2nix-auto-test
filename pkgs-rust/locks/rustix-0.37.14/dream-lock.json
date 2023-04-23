@@ -3,7 +3,7 @@
     "defaultPackage": "rustix",
     "location": "",
     "packages": {
-      "rustix": "0.37.13"
+      "rustix": "0.37.14"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "rustix": {
-        "0.37.13": {
+        "0.37.14": {
           "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock2-like syscalls", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "rustix": {
-        "0.37.13": {}
+        "0.37.14": {}
       }
     }
   },
@@ -29,7 +29,7 @@
     "atty": {
       "0.2.14": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -84,7 +84,7 @@
         [ "oorandom", "11.1.3" ],
         [ "plotters", "0.3.4" ],
         [ "rayon", "1.7.0" ],
-        [ "regex", "1.7.3" ],
+        [ "regex", "1.8.1" ],
         [ "serde", "1.0.160" ],
         [ "serde_derive", "1.0.160" ],
         [ "serde_json", "1.0.96" ],
@@ -134,14 +134,14 @@
     "errno": {
       "0.3.1": [
         [ "errno-dragonfly", "0.1.2" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
     "errno-dragonfly": {
       "0.1.2": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "fastrand": {
@@ -157,10 +157,10 @@
     },
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ],
       "0.2.6": [
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "indexmap": {
@@ -178,7 +178,7 @@
       "1.0.10": [
         [ "fs-err", "2.9.0" ],
         [ "hermit-abi", "0.3.1" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "os_pipe", "1.1.3" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -228,12 +228,12 @@
     "num_cpus": {
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
-        [ "libc", "0.2.141" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "os_pipe": {
       "1.1.3": [
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -248,7 +248,7 @@
       "0.8.6": [
         [ "cfg-if", "1.0.0" ],
         [ "instant", "0.1.12" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "redox_syscall", "0.2.16" ],
         [ "smallvec", "1.10.0" ],
         [ "winapi", "0.3.9" ]
@@ -317,20 +317,20 @@
       ]
     },
     "regex": {
-      "1.7.3": [
-        [ "regex-syntax", "0.6.29" ]
+      "1.8.1": [
+        [ "regex-syntax", "0.7.1" ]
       ]
     },
     "rustix": {
-      "0.37.12": [
+      "0.37.13": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.10" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "linux-raw-sys", "0.3.3" ],
         [ "windows-sys", "0.48.0" ]
       ],
-      "0.37.13": [
+      "0.37.14": [
         [ "bitflags", "1.3.2" ],
         [ "cc", "1.0.79" ],
         [ "compiler_builtins", "0.1.91" ],
@@ -340,7 +340,7 @@
         [ "flate2", "1.0.25" ],
         [ "io-lifetimes", "1.0.10" ],
         [ "itoa", "1.0.6" ],
-        [ "libc", "0.2.141" ],
+        [ "libc", "0.2.142" ],
         [ "linux-raw-sys", "0.3.3" ],
         [ "memoffset", "0.8.0" ],
         [ "once_cell", "1.17.1" ],
@@ -408,7 +408,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.12" ],
+        [ "rustix", "0.37.13" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -828,11 +828,11 @@
       }
     },
     "libc": {
-      "0.2.141": {
-        "hash": "3304a64d199bb964be99741b7a14d26972741915b3649639149b2479bb46f4b5",
+      "0.2.142": {
+        "hash": "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.141"
+        "version": "0.2.142"
       }
     },
     "linux-raw-sys": {
@@ -1026,19 +1026,19 @@
       }
     },
     "regex": {
-      "1.7.3": {
-        "hash": "8b1f693b24f6ac912f4893ef08244d70b6067480d2f1a46e950c9691e6749d1d",
+      "1.8.1": {
+        "hash": "af83e617f331cc6ae2da5443c602dfa5af81e517212d9d611a5b3ba1777b5370",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.7.3"
+        "version": "1.8.1"
       }
     },
     "regex-syntax": {
-      "0.6.29": {
-        "hash": "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1",
+      "0.7.1": {
+        "hash": "a5996294f19bd3aae0453a862ad728f60e6600695733dd5df01da90c54363a3c",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.6.29"
+        "version": "0.7.1"
       }
     },
     "rustc-std-workspace-alloc": {
@@ -1058,14 +1058,14 @@
       }
     },
     "rustix": {
-      "0.37.12": {
-        "hash": "722529a737f5a942fdbac3a46cee213053196737c5eaa3386d52e85b786f2659",
-        "pname": "rustix",
-        "type": "crates-io",
-        "version": "0.37.12"
-      },
       "0.37.13": {
         "hash": "f79bef90eb6d984c72722595b5b1348ab39275a5e5123faca6863bf07d75a4e0",
+        "pname": "rustix",
+        "type": "crates-io",
+        "version": "0.37.13"
+      },
+      "0.37.14": {
+        "hash": "d9b864d3c18a5785a05953adeed93e2dca37ed30f18e69bba9f30079d51f363f",
         "type": "crates-io"
       }
     },
