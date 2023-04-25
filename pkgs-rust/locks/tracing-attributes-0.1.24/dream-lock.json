@@ -3,7 +3,7 @@
     "defaultPackage": "tracing-attributes",
     "location": "",
     "packages": {
-      "tracing-attributes": "0.1.23"
+      "tracing-attributes": "0.1.24"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "tracing-attributes": {
-        "0.1.23": {
+        "0.1.24": {
           "description": "Procedural macro attributes for automatically instrumenting functions.\n", "homepage": "https://tokio.rs", "license": [   "mit"
           ]
         }
@@ -20,12 +20,26 @@
     },
     "relPathReplacements": {
       "tracing-attributes": {
-        "0.1.23": {}
+        "0.1.24": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "async-stream": {
+      "0.3.5": [
+        [ "async-stream-impl", "0.3.5" ],
+        [ "futures-core", "0.3.28" ],
+        [ "pin-project-lite", "0.2.9" ]
+      ]
+    },
+    "async-stream-impl": {
+      "0.3.5": [
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ],
+        [ "syn", "2.0.15" ]
+      ]
+    },
     "async-trait": {
       "0.1.68": [
         [ "proc-macro2", "1.0.56" ],
@@ -93,17 +107,7 @@
         [ "lazy_static", "1.4.0" ]
       ]
     },
-    "slab": {
-      "0.4.8": [
-        [ "autocfg", "1.1.0" ]
-      ]
-    },
     "syn": {
-      "1.0.109": [
-        [ "proc-macro2", "1.0.56" ],
-        [ "quote", "1.0.26" ],
-        [ "unicode-ident", "1.0.8" ]
-      ],
       "2.0.15": [
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
@@ -122,45 +126,52 @@
       ]
     },
     "tokio": {
-      "0.3.7": [
+      "1.27.0": [
         [ "autocfg", "1.1.0" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "windows-sys", "0.45.0" ]
+      ]
+    },
+    "tokio-stream": {
+      "0.1.12": [
         [ "futures-core", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "slab", "0.4.8" ]
+        [ "tokio", "1.27.0" ]
       ]
     },
     "tokio-test": {
-      "0.3.0": [
-        [ "bytes", "0.5.6" ],
+      "0.4.2": [
+        [ "async-stream", "0.3.5" ],
+        [ "bytes", "1.4.0" ],
         [ "futures-core", "0.3.28" ],
-        [ "tokio", "0.3.7" ]
+        [ "tokio", "1.27.0" ],
+        [ "tokio-stream", "0.1.12" ]
       ]
     },
     "tracing": {
       "0.1.37": [
         [ "cfg-if", "1.0.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tracing-attributes", "0.1.23$crates-io" ],
+        [ "tracing-attributes", "0.1.24$crates-io" ],
         [ "tracing-core", "0.1.30" ]
       ]
     },
     "tracing-attributes": {
-      "0.1.23": [
+      "0.1.24": [
         [ "async-trait", "0.1.68" ],
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "rustversion", "1.0.12" ],
-        [ "syn", "1.0.109" ],
-        [ "tokio-test", "0.3.0" ],
+        [ "syn", "2.0.15" ],
+        [ "tokio-test", "0.4.2" ],
         [ "tracing", "0.1.37" ],
-        [ "tracing-core", "0.1.30" ],
         [ "tracing-subscriber", "0.3.17" ],
         [ "trybuild", "1.0.80" ]
       ],
-      "0.1.23$crates-io": [
+      "0.1.24$crates-io": [
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.15" ]
       ]
     },
     "tracing-core": {
@@ -211,9 +222,41 @@
       "0.1.5": [
         [ "winapi", "0.3.9" ]
       ]
+    },
+    "windows-sys": {
+      "0.45.0": [
+        [ "windows-targets", "0.42.2" ]
+      ]
+    },
+    "windows-targets": {
+      "0.42.2": [
+        [ "windows_aarch64_gnullvm", "0.42.2" ],
+        [ "windows_aarch64_msvc", "0.42.2" ],
+        [ "windows_i686_gnu", "0.42.2" ],
+        [ "windows_i686_msvc", "0.42.2" ],
+        [ "windows_x86_64_gnu", "0.42.2" ],
+        [ "windows_x86_64_gnullvm", "0.42.2" ],
+        [ "windows_x86_64_msvc", "0.42.2" ]
+      ]
     }
   },
   "sources": {
+    "async-stream": {
+      "0.3.5": {
+        "hash": "cd56dd203fef61ac097dd65721a419ddccb106b2d2b70ba60a6b529f03961a51",
+        "pname": "async-stream",
+        "type": "crates-io",
+        "version": "0.3.5"
+      }
+    },
+    "async-stream-impl": {
+      "0.3.5": {
+        "hash": "16e62a023e7c117e27523144c5d2459f4397fcc3cab0085af8e2224f643a0193",
+        "pname": "async-stream-impl",
+        "type": "crates-io",
+        "version": "0.3.5"
+      }
+    },
     "async-trait": {
       "0.1.68": {
         "hash": "b9ccdd8f2a161be9bd5c023df56f1b2a0bd1d83872ae53b71a84a12c9bf6e842",
@@ -239,11 +282,11 @@
       }
     },
     "bytes": {
-      "0.5.6": {
-        "hash": "0e4cec68f03f32e44924783795810fa50a7035d8c8ebe78580ad7e6c703fba38",
+      "1.4.0": {
+        "hash": "89b2fd2a0dcf38d7971e2194b6b6eebab45ae01067456a7fd93d5547a61b70be",
         "pname": "bytes",
         "type": "crates-io",
-        "version": "0.5.6"
+        "version": "1.4.0"
       }
     },
     "cfg-if": {
@@ -428,14 +471,6 @@
         "version": "0.1.4"
       }
     },
-    "slab": {
-      "0.4.8": {
-        "hash": "6528351c9bc8ab22353f9d776db39a20288e8d6c37ef8cfe3317cf875eecfc2d",
-        "pname": "slab",
-        "type": "crates-io",
-        "version": "0.4.8"
-      }
-    },
     "smallvec": {
       "1.10.0": {
         "hash": "a507befe795404456341dfab10cef66ead4c041f62b8b11bbb92bffe5d0953e0",
@@ -445,12 +480,6 @@
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
-        "pname": "syn",
-        "type": "crates-io",
-        "version": "1.0.109"
-      },
       "2.0.15": {
         "hash": "a34fcf3e8b60f57e6a14301a2e916d323af98b0ea63c599441eec8558660c822",
         "pname": "syn",
@@ -475,19 +504,27 @@
       }
     },
     "tokio": {
-      "0.3.7": {
-        "hash": "46409491c9375a693ce7032101970a54f8a2010efb77e13f70788f0d84489e39",
+      "1.27.0": {
+        "hash": "d0de47a4eecbe11f498978a9b29d792f0d2692d1dd003650c24c76510e3bc001",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "0.3.7"
+        "version": "1.27.0"
+      }
+    },
+    "tokio-stream": {
+      "0.1.12": {
+        "hash": "8fb52b74f05dbf495a8fba459fdc331812b96aa086d9eb78101fa0d4569c3313",
+        "pname": "tokio-stream",
+        "type": "crates-io",
+        "version": "0.1.12"
       }
     },
     "tokio-test": {
-      "0.3.0": {
-        "hash": "7edc5a2b13a713b9134debc9aa1265b0a1ccf6a81fa05af2ba26e4aee56cdf1a",
+      "0.4.2": {
+        "hash": "53474327ae5e166530d17f2d956afcb4f8a004de581b3cae10f12006bc8163e3",
         "pname": "tokio-test",
         "type": "crates-io",
-        "version": "0.3.0"
+        "version": "0.4.2"
       }
     },
     "tracing": {
@@ -499,15 +536,15 @@
       }
     },
     "tracing-attributes": {
-      "0.1.23": {
-        "hash": "4017f8f45139870ca7e672686113917c71c7a6e02d4924eda67186083c03081a",
+      "0.1.24": {
+        "hash": "0f57e3ca2a01450b1a921183a9c9cbfda207fd822cef4ccb00a65402cbba7a74",
         "type": "crates-io"
       },
-      "0.1.23$crates-io": {
-        "hash": "4017f8f45139870ca7e672686113917c71c7a6e02d4924eda67186083c03081a",
+      "0.1.24$crates-io": {
+        "hash": "0f57e3ca2a01450b1a921183a9c9cbfda207fd822cef4ccb00a65402cbba7a74",
         "pname": "tracing-attributes",
         "type": "crates-io",
-        "version": "0.1.23"
+        "version": "0.1.24"
       }
     },
     "tracing-core": {
@@ -588,6 +625,78 @@
         "pname": "winapi-x86_64-pc-windows-gnu",
         "type": "crates-io",
         "version": "0.4.0"
+      }
+    },
+    "windows-sys": {
+      "0.45.0": {
+        "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
+        "pname": "windows-sys",
+        "type": "crates-io",
+        "version": "0.45.0"
+      }
+    },
+    "windows-targets": {
+      "0.42.2": {
+        "hash": "8e5180c00cd44c9b1c88adb3693291f1cd93605ded80c250a75d472756b4d071",
+        "pname": "windows-targets",
+        "type": "crates-io",
+        "version": "0.42.2"
+      }
+    },
+    "windows_aarch64_gnullvm": {
+      "0.42.2": {
+        "hash": "597a5118570b68bc08d8d59125332c54f1ba9d9adeedeef5b99b02ba2b0698f8",
+        "pname": "windows_aarch64_gnullvm",
+        "type": "crates-io",
+        "version": "0.42.2"
+      }
+    },
+    "windows_aarch64_msvc": {
+      "0.42.2": {
+        "hash": "e08e8864a60f06ef0d0ff4ba04124db8b0fb3be5776a5cd47641e942e58c4d43",
+        "pname": "windows_aarch64_msvc",
+        "type": "crates-io",
+        "version": "0.42.2"
+      }
+    },
+    "windows_i686_gnu": {
+      "0.42.2": {
+        "hash": "c61d927d8da41da96a81f029489353e68739737d3beca43145c8afec9a31a84f",
+        "pname": "windows_i686_gnu",
+        "type": "crates-io",
+        "version": "0.42.2"
+      }
+    },
+    "windows_i686_msvc": {
+      "0.42.2": {
+        "hash": "44d840b6ec649f480a41c8d80f9c65108b92d89345dd94027bfe06ac444d1060",
+        "pname": "windows_i686_msvc",
+        "type": "crates-io",
+        "version": "0.42.2"
+      }
+    },
+    "windows_x86_64_gnu": {
+      "0.42.2": {
+        "hash": "8de912b8b8feb55c064867cf047dda097f92d51efad5b491dfb98f6bbb70cb36",
+        "pname": "windows_x86_64_gnu",
+        "type": "crates-io",
+        "version": "0.42.2"
+      }
+    },
+    "windows_x86_64_gnullvm": {
+      "0.42.2": {
+        "hash": "26d41b46a36d453748aedef1486d5c7a85db22e56aff34643984ea85514e94a3",
+        "pname": "windows_x86_64_gnullvm",
+        "type": "crates-io",
+        "version": "0.42.2"
+      }
+    },
+    "windows_x86_64_msvc": {
+      "0.42.2": {
+        "hash": "9aec5da331524158c6d1a4ac0ab1541149c0b9505fde06423b02f5ef0106b9f0",
+        "pname": "windows_x86_64_msvc",
+        "type": "crates-io",
+        "version": "0.42.2"
       }
     }
   }
