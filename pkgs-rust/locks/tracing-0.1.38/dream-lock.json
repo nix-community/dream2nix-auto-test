@@ -3,7 +3,7 @@
     "defaultPackage": "tracing",
     "location": "",
     "packages": {
-      "tracing": "0.1.37"
+      "tracing": "0.1.38"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "tracing": {
-        "0.1.37": {
+        "0.1.38": {
           "description": "Application-level tracing for Rust.\n", "homepage": "https://tokio.rs", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "tracing": {
-        "0.1.37": {}
+        "0.1.38": {}
       }
     }
   },
@@ -112,6 +112,31 @@
     "csv-core": {
       "0.1.10": [
         [ "memchr", "2.5.0" ]
+      ]
+    },
+    "futures": {
+      "0.3.28": [
+        [ "futures-channel", "0.3.28" ],
+        [ "futures-core", "0.3.28" ],
+        [ "futures-io", "0.3.28" ],
+        [ "futures-sink", "0.3.28" ],
+        [ "futures-task", "0.3.28" ],
+        [ "futures-util", "0.3.28" ]
+      ]
+    },
+    "futures-channel": {
+      "0.3.28": [
+        [ "futures-core", "0.3.28" ],
+        [ "futures-sink", "0.3.28" ]
+      ]
+    },
+    "futures-util": {
+      "0.3.28": [
+        [ "futures-core", "0.3.28" ],
+        [ "futures-sink", "0.3.28" ],
+        [ "futures-task", "0.3.28" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-utils", "0.1.0" ]
       ]
     },
     "hermit-abi": {
@@ -245,9 +270,9 @@
       ]
     },
     "tracing": {
-      "0.1.37": [
-        [ "cfg-if", "1.0.0" ],
+      "0.1.38": [
         [ "criterion", "0.3.6" ],
+        [ "futures", "0.3.28" ],
         [ "log", "0.4.17" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tracing-attributes", "0.1.24" ],
@@ -485,6 +510,62 @@
         "version": "1.8.1"
       }
     },
+    "futures": {
+      "0.3.28": {
+        "hash": "23342abe12aba583913b2e62f22225ff9c950774065e4bfb61a19cd9770fec40",
+        "pname": "futures",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-channel": {
+      "0.3.28": {
+        "hash": "955518d47e09b25bbebc7a18df10b81f0c766eaf4c4f1cccef2fca5f2a4fb5f2",
+        "pname": "futures-channel",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-core": {
+      "0.3.28": {
+        "hash": "4bca583b7e26f571124fe5b7561d49cb2868d79116cfa0eefce955557c6fee8c",
+        "pname": "futures-core",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-io": {
+      "0.3.28": {
+        "hash": "4fff74096e71ed47f8e023204cfd0aa1289cd54ae5430a9523be060cdb849964",
+        "pname": "futures-io",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-sink": {
+      "0.3.28": {
+        "hash": "f43be4fe21a13b9781a69afa4985b0f6ee0e1afab2c6f454a8cf30e2b2237b6e",
+        "pname": "futures-sink",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-task": {
+      "0.3.28": {
+        "hash": "76d3d132be6c0e6aa1534069c705a74a5997a356c0dc2f86a47765e5617c5b65",
+        "pname": "futures-task",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-util": {
+      "0.3.28": {
+        "hash": "26b01e40b772d54cf6c6d721c1d1abd0647a0106a12ecaa1c186273392a69533",
+        "pname": "futures-util",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
     "half": {
       "1.8.2": {
         "hash": "eabb4a44450da02c90444cf74558da904edde8fb4e9035a9a6a4e15445af0bd7",
@@ -609,6 +690,14 @@
         "pname": "pin-project-lite",
         "type": "crates-io",
         "version": "0.2.9"
+      }
+    },
+    "pin-utils": {
+      "0.1.0": {
+        "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
+        "pname": "pin-utils",
+        "type": "crates-io",
+        "version": "0.1.0"
       }
     },
     "plotters": {
@@ -778,8 +867,8 @@
       }
     },
     "tracing": {
-      "0.1.37": {
-        "hash": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8",
+      "0.1.38": {
+        "hash": "cf9cf6a813d3f40c88b0b6b6f29a5c95c6cdbf97c1f9cc53fb820200f5ad814d",
         "type": "crates-io"
       }
     },

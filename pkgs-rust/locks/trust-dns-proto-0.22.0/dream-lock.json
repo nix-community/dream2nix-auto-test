@@ -143,9 +143,9 @@
         [ "http", "0.2.9" ],
         [ "indexmap", "1.9.3" ],
         [ "slab", "0.4.8" ],
-        [ "tokio", "1.27.0" ],
-        [ "tokio-util", "0.7.7" ],
-        [ "tracing", "0.1.37" ]
+        [ "tokio", "1.28.0" ],
+        [ "tokio-util", "0.7.8" ],
+        [ "tracing", "0.1.38" ]
       ]
     },
     "hermit-abi": {
@@ -289,8 +289,8 @@
         [ "quinn-udp", "0.1.4" ],
         [ "rustls", "0.20.8" ],
         [ "thiserror", "1.0.40" ],
-        [ "tokio", "1.27.0" ],
-        [ "tracing", "0.1.37" ],
+        [ "tokio", "1.28.0" ],
+        [ "tracing", "0.1.38" ],
         [ "webpki", "0.22.0" ]
       ]
     },
@@ -306,7 +306,7 @@
         [ "slab", "0.4.8" ],
         [ "thiserror", "1.0.40" ],
         [ "tinyvec", "1.6.0" ],
-        [ "tracing", "0.1.37" ],
+        [ "tracing", "0.1.38" ],
         [ "webpki", "0.22.0" ]
       ]
     },
@@ -316,8 +316,8 @@
         [ "libc", "0.2.142" ],
         [ "quinn-proto", "0.8.4" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio", "1.27.0" ],
-        [ "tracing", "0.1.37" ]
+        [ "tokio", "1.28.0" ],
+        [ "tracing", "0.1.38" ]
       ]
     },
     "quote": {
@@ -370,7 +370,7 @@
       ]
     },
     "rustix": {
-      "0.37.14": [
+      "0.37.15": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.10" ],
@@ -474,7 +474,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.14" ],
+        [ "rustix", "0.37.15" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -502,7 +502,7 @@
       ]
     },
     "tokio": {
-      "1.27.0": [
+      "1.28.0": [
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
         [ "libc", "0.2.142" ],
@@ -510,12 +510,12 @@
         [ "num_cpus", "1.15.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio-macros", "2.0.0" ],
-        [ "windows-sys", "0.45.0" ]
+        [ "tokio-macros", "2.1.0" ],
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "tokio-macros": {
-      "2.0.0": [
+      "2.1.0": [
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "2.0.15" ]
@@ -524,7 +524,7 @@
     "tokio-native-tls": {
       "0.3.1": [
         [ "native-tls", "0.2.11" ],
-        [ "tokio", "1.27.0" ]
+        [ "tokio", "1.28.0" ]
       ]
     },
     "tokio-openssl": {
@@ -532,29 +532,28 @@
         [ "futures-util", "0.3.28" ],
         [ "openssl", "0.10.52" ],
         [ "openssl-sys", "0.9.87" ],
-        [ "tokio", "1.27.0" ]
+        [ "tokio", "1.28.0" ]
       ]
     },
     "tokio-rustls": {
       "0.23.4": [
         [ "rustls", "0.20.8" ],
-        [ "tokio", "1.27.0" ],
+        [ "tokio", "1.28.0" ],
         [ "webpki", "0.22.0" ]
       ]
     },
     "tokio-util": {
-      "0.7.7": [
+      "0.7.8": [
         [ "bytes", "1.4.0" ],
         [ "futures-core", "0.3.28" ],
         [ "futures-sink", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.27.0" ],
-        [ "tracing", "0.1.37" ]
+        [ "tokio", "1.28.0" ],
+        [ "tracing", "0.1.38" ]
       ]
     },
     "tracing": {
-      "0.1.37": [
-        [ "cfg-if", "1.0.0" ],
+      "0.1.38": [
         [ "pin-project-lite", "0.2.9" ],
         [ "tracing-attributes", "0.1.24" ],
         [ "tracing-core", "0.1.30" ]
@@ -589,7 +588,7 @@
         [ "sharded-slab", "0.1.4" ],
         [ "smallvec", "1.10.0" ],
         [ "thread_local", "1.1.7" ],
-        [ "tracing", "0.1.37" ],
+        [ "tracing", "0.1.38" ],
         [ "tracing-core", "0.1.30" ],
         [ "tracing-log", "0.1.3" ]
       ]
@@ -624,11 +623,11 @@
         [ "socket2", "0.4.9" ],
         [ "thiserror", "1.0.40" ],
         [ "tinyvec", "1.6.0" ],
-        [ "tokio", "1.27.0" ],
+        [ "tokio", "1.28.0" ],
         [ "tokio-native-tls", "0.3.1" ],
         [ "tokio-openssl", "0.6.3" ],
         [ "tokio-rustls", "0.23.4" ],
-        [ "tracing", "0.1.37" ],
+        [ "tracing", "0.1.38" ],
         [ "tracing-subscriber", "0.3.17" ],
         [ "url", "2.3.1" ],
         [ "wasm-bindgen", "0.2.84" ],
@@ -1440,11 +1439,11 @@
       }
     },
     "rustix": {
-      "0.37.14": {
-        "hash": "d9b864d3c18a5785a05953adeed93e2dca37ed30f18e69bba9f30079d51f363f",
+      "0.37.15": {
+        "hash": "a0661814f891c57c930a610266415528da53c4933e6dea5fb350cbfe048a9ece",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.37.14"
+        "version": "0.37.15"
       }
     },
     "rustls": {
@@ -1628,19 +1627,19 @@
       }
     },
     "tokio": {
-      "1.27.0": {
-        "hash": "d0de47a4eecbe11f498978a9b29d792f0d2692d1dd003650c24c76510e3bc001",
+      "1.28.0": {
+        "hash": "c3c786bf8134e5a3a166db9b29ab8f48134739014a3eca7bc6bfa95d673b136f",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.27.0"
+        "version": "1.28.0"
       }
     },
     "tokio-macros": {
-      "2.0.0": {
-        "hash": "61a573bdc87985e9d6ddeed1b3d864e8a302c847e40d647746df2f1de209d1ce",
+      "2.1.0": {
+        "hash": "630bdcf245f78637c13ec01ffae6187cca34625e8c63150d424b59e55af2675e",
         "pname": "tokio-macros",
         "type": "crates-io",
-        "version": "2.0.0"
+        "version": "2.1.0"
       }
     },
     "tokio-native-tls": {
@@ -1668,19 +1667,19 @@
       }
     },
     "tokio-util": {
-      "0.7.7": {
-        "hash": "5427d89453009325de0d8f342c9490009f76e999cb7672d77e46267448f7e6b2",
+      "0.7.8": {
+        "hash": "806fe8c2c87eccc8b3267cbae29ed3ab2d0bd37fca70ab622e46aaa9375ddb7d",
         "pname": "tokio-util",
         "type": "crates-io",
-        "version": "0.7.7"
+        "version": "0.7.8"
       }
     },
     "tracing": {
-      "0.1.37": {
-        "hash": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8",
+      "0.1.38": {
+        "hash": "cf9cf6a813d3f40c88b0b6b6f29a5c95c6cdbf97c1f9cc53fb820200f5ad814d",
         "pname": "tracing",
         "type": "crates-io",
-        "version": "0.1.37"
+        "version": "0.1.38"
       }
     },
     "tracing-attributes": {

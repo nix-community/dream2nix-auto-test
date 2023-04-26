@@ -3,7 +3,7 @@
     "defaultPackage": "tokio",
     "location": "",
     "packages": {
-      "tokio": "1.27.0"
+      "tokio": "1.28.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "tokio": {
-        "1.27.0": {
+        "1.28.0": {
           "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n", "homepage": "https://tokio.rs", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "tokio": {
-        "1.27.0": {}
+        "1.28.0": {}
       }
     }
   },
@@ -181,7 +181,7 @@
         [ "scoped-tls", "1.0.1" ],
         [ "serde", "1.0.160" ],
         [ "serde_json", "1.0.96" ],
-        [ "tracing", "0.1.37" ],
+        [ "tracing", "0.1.38" ],
         [ "tracing-subscriber", "0.3.17" ]
       ]
     },
@@ -240,11 +240,6 @@
         [ "libc", "0.2.142" ],
         [ "memoffset", "0.7.1" ],
         [ "static_assertions", "1.1.0" ]
-      ]
-    },
-    "ntapi": {
-      "0.3.7": [
-        [ "winapi", "0.3.9" ]
       ]
     },
     "nu-ansi-term": {
@@ -344,7 +339,7 @@
       ]
     },
     "rustix": {
-      "0.37.14": [
+      "0.37.15": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.10" ],
@@ -410,7 +405,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.14" ],
+        [ "rustix", "0.37.15" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -421,7 +416,7 @@
       ]
     },
     "tokio": {
-      "1.27.0": [
+      "1.28.0": [
         [ "async-stream", "0.3.5" ],
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
@@ -432,7 +427,6 @@
         [ "mio-aio", "0.7.0" ],
         [ "mockall", "0.11.4" ],
         [ "nix", "0.26.2" ],
-        [ "ntapi", "0.3.7" ],
         [ "num_cpus", "1.15.0" ],
         [ "parking_lot", "0.12.1" ],
         [ "pin-project-lite", "0.2.9" ],
@@ -440,31 +434,31 @@
         [ "signal-hook-registry", "1.4.1" ],
         [ "socket2", "0.4.9" ],
         [ "tempfile", "3.5.0" ],
-        [ "tokio-macros", "2.0.0" ],
-        [ "tokio-stream", "0.1.12" ],
+        [ "tokio-macros", "2.1.0" ],
+        [ "tokio-stream", "0.1.13" ],
         [ "tokio-test", "0.4.2" ],
-        [ "tracing", "0.1.37" ],
+        [ "tracing", "0.1.38" ],
         [ "wasm-bindgen-test", "0.3.34" ],
-        [ "windows-sys", "0.45.0" ]
+        [ "windows-sys", "0.48.0" ]
       ],
-      "1.27.0$crates-io": [
+      "1.28.0$crates-io": [
         [ "autocfg", "1.1.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "windows-sys", "0.45.0" ]
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "tokio-macros": {
-      "2.0.0": [
+      "2.1.0": [
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "syn", "2.0.15" ]
       ]
     },
     "tokio-stream": {
-      "0.1.12": [
+      "0.1.13": [
         [ "futures-core", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.27.0$crates-io" ]
+        [ "tokio", "1.28.0$crates-io" ]
       ]
     },
     "tokio-test": {
@@ -472,13 +466,12 @@
         [ "async-stream", "0.3.5" ],
         [ "bytes", "1.4.0" ],
         [ "futures-core", "0.3.28" ],
-        [ "tokio", "1.27.0$crates-io" ],
-        [ "tokio-stream", "0.1.12" ]
+        [ "tokio", "1.28.0$crates-io" ],
+        [ "tokio-stream", "0.1.13" ]
       ]
     },
     "tracing": {
-      "0.1.37": [
-        [ "cfg-if", "1.0.0" ],
+      "0.1.38": [
         [ "pin-project-lite", "0.2.9" ],
         [ "tracing-attributes", "0.1.24" ],
         [ "tracing-core", "0.1.30" ]
@@ -513,7 +506,7 @@
         [ "sharded-slab", "0.1.4" ],
         [ "smallvec", "1.10.0" ],
         [ "thread_local", "1.1.7" ],
-        [ "tracing", "0.1.37" ],
+        [ "tracing", "0.1.38" ],
         [ "tracing-core", "0.1.30" ],
         [ "tracing-log", "0.1.3" ]
       ]
@@ -1033,14 +1026,6 @@
         "version": "0.3.0"
       }
     },
-    "ntapi": {
-      "0.3.7": {
-        "hash": "c28774a7fd2fbb4f0babd8237ce554b73af68021b5f695a3cebd6c59bac0980f",
-        "pname": "ntapi",
-        "type": "crates-io",
-        "version": "0.3.7"
-      }
-    },
     "nu-ansi-term": {
       "0.46.0": {
         "hash": "77a8165726e8236064dbb45459242600304b42a5ea24ee2948e18e023bf7ba84",
@@ -1230,11 +1215,11 @@
       }
     },
     "rustix": {
-      "0.37.14": {
-        "hash": "d9b864d3c18a5785a05953adeed93e2dca37ed30f18e69bba9f30079d51f363f",
+      "0.37.15": {
+        "hash": "a0661814f891c57c930a610266415528da53c4933e6dea5fb350cbfe048a9ece",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.37.14"
+        "version": "0.37.15"
       }
     },
     "rustversion": {
@@ -1380,31 +1365,31 @@
       }
     },
     "tokio": {
-      "1.27.0": {
-        "hash": "d0de47a4eecbe11f498978a9b29d792f0d2692d1dd003650c24c76510e3bc001",
+      "1.28.0": {
+        "hash": "c3c786bf8134e5a3a166db9b29ab8f48134739014a3eca7bc6bfa95d673b136f",
         "type": "crates-io"
       },
-      "1.27.0$crates-io": {
-        "hash": "d0de47a4eecbe11f498978a9b29d792f0d2692d1dd003650c24c76510e3bc001",
+      "1.28.0$crates-io": {
+        "hash": "c3c786bf8134e5a3a166db9b29ab8f48134739014a3eca7bc6bfa95d673b136f",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.27.0"
+        "version": "1.28.0"
       }
     },
     "tokio-macros": {
-      "2.0.0": {
-        "hash": "61a573bdc87985e9d6ddeed1b3d864e8a302c847e40d647746df2f1de209d1ce",
+      "2.1.0": {
+        "hash": "630bdcf245f78637c13ec01ffae6187cca34625e8c63150d424b59e55af2675e",
         "pname": "tokio-macros",
         "type": "crates-io",
-        "version": "2.0.0"
+        "version": "2.1.0"
       }
     },
     "tokio-stream": {
-      "0.1.12": {
-        "hash": "8fb52b74f05dbf495a8fba459fdc331812b96aa086d9eb78101fa0d4569c3313",
+      "0.1.13": {
+        "hash": "76cd2598a37719e3cd4c28af93f978506a97a2920ef4d96e4b12e38b8cbc8940",
         "pname": "tokio-stream",
         "type": "crates-io",
-        "version": "0.1.12"
+        "version": "0.1.13"
       }
     },
     "tokio-test": {
@@ -1416,11 +1401,11 @@
       }
     },
     "tracing": {
-      "0.1.37": {
-        "hash": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8",
+      "0.1.38": {
+        "hash": "cf9cf6a813d3f40c88b0b6b6f29a5c95c6cdbf97c1f9cc53fb820200f5ad814d",
         "pname": "tracing",
         "type": "crates-io",
-        "version": "0.1.37"
+        "version": "0.1.38"
       }
     },
     "tracing-attributes": {
