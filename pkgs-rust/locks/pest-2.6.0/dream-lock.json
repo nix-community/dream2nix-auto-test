@@ -3,7 +3,7 @@
     "defaultPackage": "pest",
     "location": "",
     "packages": {
-      "pest": "2.5.7"
+      "pest": "2.6.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,48 +12,48 @@
     "gitSources": [],
     "meta": {
       "pest": {
-        "2.5.7": {
+        "2.6.0": {
           "description": "The Elegant Parser", "homepage": "https://pest.rs/", "license": []
         }
       }
     },
     "relPathReplacements": {
       "pest": {
-        "2.5.7": {}
+        "2.6.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "pest": {
-      "2.5.7": [
+      "2.6.0": [
         [ "memchr", "2.5.0" ],
-        [ "serde", "1.0.159" ],
-        [ "serde_json", "1.0.95" ],
+        [ "serde", "1.0.160" ],
+        [ "serde_json", "1.0.96" ],
         [ "thiserror", "1.0.40" ],
         [ "ucd-trie", "0.1.5" ]
       ]
     },
     "proc-macro2": {
-      "1.0.54": [
+      "1.0.56": [
         [ "unicode-ident", "1.0.8" ]
       ]
     },
     "quote": {
       "1.0.26": [
-        [ "proc-macro2", "1.0.54" ]
+        [ "proc-macro2", "1.0.56" ]
       ]
     },
     "serde_json": {
-      "1.0.95": [
+      "1.0.96": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.159" ]
+        [ "serde", "1.0.160" ]
       ]
     },
     "syn": {
-      "2.0.12": [
-        [ "proc-macro2", "1.0.54" ],
+      "2.0.15": [
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
       ]
@@ -65,9 +65,9 @@
     },
     "thiserror-impl": {
       "1.0.40": [
-        [ "proc-macro2", "1.0.54" ],
+        [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "2.0.12" ]
+        [ "syn", "2.0.15" ]
       ]
     }
   },
@@ -89,17 +89,17 @@
       }
     },
     "pest": {
-      "2.5.7": {
-        "hash": "7b1403e8401ad5dedea73c626b99758535b342502f8d1e361f4a2dd952749122",
+      "2.6.0": {
+        "hash": "e68e84bfb01f0507134eac1e9b410a12ba379d064eab48c50ba4ce329a527b70",
         "type": "crates-io"
       }
     },
     "proc-macro2": {
-      "1.0.54": {
-        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
+      "1.0.56": {
+        "hash": "2b63bdb0cd06f1f4dedf69b254734f9b45af66e4a031e42a7480257d9898b435",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.54"
+        "version": "1.0.56"
       }
     },
     "quote": {
@@ -119,27 +119,27 @@
       }
     },
     "serde": {
-      "1.0.159": {
-        "hash": "3c04e8343c3daeec41f58990b9d77068df31209f2af111e059e9fe9646693065",
+      "1.0.160": {
+        "hash": "bb2f3770c8bce3bcda7e149193a069a0f4365bda1fa5cd88e03bca26afc1216c",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.159"
+        "version": "1.0.160"
       }
     },
     "serde_json": {
-      "1.0.95": {
-        "hash": "d721eca97ac802aa7777b701877c8004d950fc142651367300d21c1cc0194744",
+      "1.0.96": {
+        "hash": "057d394a50403bcac12672b2b18fb387ab6d289d957dab67dd201875391e52f1",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.95"
+        "version": "1.0.96"
       }
     },
     "syn": {
-      "2.0.12": {
-        "hash": "79d9531f94112cfc3e4c8f5f02cb2b58f72c97b7efd85f70203cc6d8efda5927",
+      "2.0.15": {
+        "hash": "a34fcf3e8b60f57e6a14301a2e916d323af98b0ea63c599441eec8558660c822",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.12"
+        "version": "2.0.15"
       }
     },
     "thiserror": {
