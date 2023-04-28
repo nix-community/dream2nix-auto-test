@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "darling_macro",
+    "defaultPackage": "darling_core",
     "location": "",
     "packages": {
-      "darling_macro": "0.14.4"
+      "darling_core": "0.20.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,35 +11,29 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "darling_macro": {
-        "0.14.4": {
-          "description": "Internal support for a proc-macro library for reading attributes into structs when\nimplementing custom derives. Use https://crates.io/crates/darling in your code.\n", "license": [   "mit"
+      "darling_core": {
+        "0.20.0": {
+          "description": "Helper crate for proc-macro library for reading attributes into structs when\nimplementing custom derives. Use https://crates.io/crates/darling in your code.\n", "license": [   "mit"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "darling_macro": {
-        "0.14.4": {}
+      "darling_core": {
+        "0.20.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "darling_core": {
-      "0.14.4": [
+      "0.20.0": [
         [ "fnv", "1.0.7" ],
         [ "ident_case", "1.0.1" ],
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
-      ]
-    },
-    "darling_macro": {
-      "0.14.4": [
-        [ "darling_core", "0.14.4" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "strsim", "0.10.0" ],
+        [ "syn", "2.0.15" ]
       ]
     },
     "proc-macro2": {
@@ -53,7 +47,7 @@
       ]
     },
     "syn": {
-      "1.0.109": [
+      "2.0.15": [
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.8" ]
@@ -62,16 +56,8 @@
   },
   "sources": {
     "darling_core": {
-      "0.14.4": {
-        "hash": "109c1ca6e6b7f82cc233a97004ea8ed7ca123a9af07a8230878fcfda9b158bf0",
-        "pname": "darling_core",
-        "type": "crates-io",
-        "version": "0.14.4"
-      }
-    },
-    "darling_macro": {
-      "0.14.4": {
-        "hash": "a4aab4dbc9f7611d8b55048a3a16d2d010c2c8334e46304b40ac1cc14bf3b48e",
+      "0.20.0": {
+        "hash": "2ea05d2fcb27b53f7a98faddaf5f2914760330ab7703adfc9df13332b42189f9",
         "type": "crates-io"
       }
     },
@@ -107,12 +93,20 @@
         "version": "1.0.26"
       }
     },
+    "strsim": {
+      "0.10.0": {
+        "hash": "73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623",
+        "pname": "strsim",
+        "type": "crates-io",
+        "version": "0.10.0"
+      }
+    },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.15": {
+        "hash": "a34fcf3e8b60f57e6a14301a2e916d323af98b0ea63c599441eec8558660c822",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.109"
+        "version": "2.0.15"
       }
     },
     "unicode-ident": {

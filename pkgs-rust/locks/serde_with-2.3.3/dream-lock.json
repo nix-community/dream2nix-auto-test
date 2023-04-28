@@ -3,7 +3,7 @@
     "defaultPackage": "serde_with",
     "location": "",
     "packages": {
-      "serde_with": "2.3.2"
+      "serde_with": "2.3.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "serde_with": {
-        "2.3.2": {
+        "2.3.3": {
           "description": "Custom de/serialization functions for Rust's serde", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "serde_with": {
-        "2.3.2": {}
+        "2.3.3": {}
       }
     }
   },
@@ -79,26 +79,26 @@
       ]
     },
     "darling": {
-      "0.14.4": [
-        [ "darling_core", "0.14.4" ],
-        [ "darling_macro", "0.14.4" ]
+      "0.20.0": [
+        [ "darling_core", "0.20.0" ],
+        [ "darling_macro", "0.20.0" ]
       ]
     },
     "darling_core": {
-      "0.14.4": [
+      "0.20.0": [
         [ "fnv", "1.0.7" ],
         [ "ident_case", "1.0.1" ],
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
         [ "strsim", "0.10.0" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.15" ]
       ]
     },
     "darling_macro": {
-      "0.14.4": [
-        [ "darling_core", "0.14.4" ],
+      "0.20.0": [
+        [ "darling_core", "0.20.0" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.15" ]
       ]
     },
     "expect-test": {
@@ -257,7 +257,7 @@
       ]
     },
     "serde_with": {
-      "2.3.2": [
+      "2.3.3": [
         [ "base64", "0.13.1" ],
         [ "chrono", "0.4.24" ],
         [ "doc-comment", "0.3.3" ],
@@ -276,18 +276,18 @@
         [ "serde-xml-rs", "0.6.0" ],
         [ "serde_json", "1.0.96" ],
         [ "serde_test", "1.0.160" ],
-        [ "serde_with_macros", "2.3.2" ],
+        [ "serde_with_macros", "2.3.3" ],
         [ "serde_yaml", "0.9.21" ],
         [ "time", "0.3.20" ],
         [ "version-sync", "0.9.4" ]
       ]
     },
     "serde_with_macros": {
-      "2.3.2": [
-        [ "darling", "0.14.4" ],
+      "2.3.3": [
+        [ "darling", "0.20.0" ],
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.15" ]
       ]
     },
     "serde_yaml": {
@@ -569,27 +569,27 @@
       }
     },
     "darling": {
-      "0.14.4": {
-        "hash": "7b750cb3417fd1b327431a470f388520309479ab0bf5e323505daf0290cd3850",
+      "0.20.0": {
+        "hash": "e7c99d16b88c92aef47e58dadd53e87b4bd234c29934947a6cec8b466300f99b",
         "pname": "darling",
         "type": "crates-io",
-        "version": "0.14.4"
+        "version": "0.20.0"
       }
     },
     "darling_core": {
-      "0.14.4": {
-        "hash": "109c1ca6e6b7f82cc233a97004ea8ed7ca123a9af07a8230878fcfda9b158bf0",
+      "0.20.0": {
+        "hash": "2ea05d2fcb27b53f7a98faddaf5f2914760330ab7703adfc9df13332b42189f9",
         "pname": "darling_core",
         "type": "crates-io",
-        "version": "0.14.4"
+        "version": "0.20.0"
       }
     },
     "darling_macro": {
-      "0.14.4": {
-        "hash": "a4aab4dbc9f7611d8b55048a3a16d2d010c2c8334e46304b40ac1cc14bf3b48e",
+      "0.20.0": {
+        "hash": "7bfb82b62b1b8a2a9808fb4caf844ede819a76cfc23b2827d7f94eefb49551eb",
         "pname": "darling_macro",
         "type": "crates-io",
-        "version": "0.14.4"
+        "version": "0.20.0"
       }
     },
     "diff": {
@@ -953,17 +953,17 @@
       }
     },
     "serde_with": {
-      "2.3.2": {
-        "hash": "331bb8c3bf9b92457ab7abecf07078c13f7d270ba490103e84e8b014490cd0b0",
+      "2.3.3": {
+        "hash": "07ff71d2c147a7b57362cead5e22f772cd52f6ab31cfcd9edcd7f6aeb2a0afbe",
         "type": "crates-io"
       }
     },
     "serde_with_macros": {
-      "2.3.2": {
-        "hash": "859011bddcc11f289f07f467cc1fe01c7a941daa4d8f6c40d4d1c92eb6d9319c",
+      "2.3.3": {
+        "hash": "881b6f881b17d13214e5d494c939ebab463d01264ce1811e9d4ac3a882e7695f",
         "pname": "serde_with_macros",
         "type": "crates-io",
-        "version": "2.3.2"
+        "version": "2.3.3"
       }
     },
     "serde_yaml": {
