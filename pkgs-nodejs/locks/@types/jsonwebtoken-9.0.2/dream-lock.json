@@ -1,0 +1,45 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/jsonwebtoken",
+    "location": "",
+    "packages": {
+      "@types/jsonwebtoken": "9.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/jsonwebtoken": {
+      "9.0.2": [
+        [ "@types/node", "18.16.3" ]
+      ],
+      "unknown": [
+        [ "@types/jsonwebtoken", "9.0.2" ],
+        [ "@types/node", "18.16.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/jsonwebtoken": {
+      "9.0.2": {
+        "hash": "sha512-drE6uz7QBKq1fYqqoFKTDRdFCPHd5TCub75BM+D+cMx7NU9hUz7SESLfC2fSCXVFMO5Yj8sOWHuGqPgjc+fz0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-9.0.2.tgz"
+      }
+    },
+    "@types/node": {
+      "18.16.3": {
+        "hash": "sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.16.3.tgz"
+      }
+    }
+  }
+}

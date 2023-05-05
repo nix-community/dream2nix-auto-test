@@ -1,0 +1,121 @@
+{
+  "_generic": {
+    "defaultPackage": "redis",
+    "location": "",
+    "packages": {
+      "redis": "4.6.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@redis/client": {
+      "1.5.7": [
+        [ "cluster-key-slot", "1.1.2" ],
+        [ "generic-pool", "3.9.0" ],
+        [ "yallist", "4.0.0" ]
+      ]
+    },
+    "redis": {
+      "4.6.6": [
+        [ "@redis/bloom", "1.2.0" ],
+        [ "@redis/client", "1.5.7" ],
+        [ "@redis/graph", "1.1.0" ],
+        [ "@redis/json", "1.0.4" ],
+        [ "@redis/search", "1.1.2" ],
+        [ "@redis/time-series", "1.0.4" ]
+      ],
+      "unknown": [
+        [ "@redis/bloom", "1.2.0" ],
+        [ "@redis/client", "1.5.7" ],
+        [ "@redis/graph", "1.1.0" ],
+        [ "@redis/json", "1.0.4" ],
+        [ "@redis/search", "1.1.2" ],
+        [ "@redis/time-series", "1.0.4" ],
+        [ "cluster-key-slot", "1.1.2" ],
+        [ "generic-pool", "3.9.0" ],
+        [ "redis", "4.6.6" ],
+        [ "yallist", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@redis/bloom": {
+      "1.2.0": {
+        "hash": "sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@redis/bloom/-/bloom-1.2.0.tgz"
+      }
+    },
+    "@redis/client": {
+      "1.5.7": {
+        "hash": "sha512-gaOBOuJPjK5fGtxSseaKgSvjiZXQCdLlGg9WYQst+/GRUjmXaiB5kVkeQMRtPc7Q2t93XZcJfBMSwzs/XS9UZw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@redis/client/-/client-1.5.7.tgz"
+      }
+    },
+    "@redis/graph": {
+      "1.1.0": {
+        "hash": "sha512-16yZWngxyXPd+MJxeSr0dqh2AIOi8j9yXKcKCwVaKDbH3HTuETpDVPcLujhFYVPtYrngSco31BUcSa9TH31Gqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@redis/graph/-/graph-1.1.0.tgz"
+      }
+    },
+    "@redis/json": {
+      "1.0.4": {
+        "hash": "sha512-LUZE2Gdrhg0Rx7AN+cZkb1e6HjoSKaeeW8rYnt89Tly13GBI5eP4CwDVr+MY8BAYfCg4/N15OUrtLoona9uSgw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@redis/json/-/json-1.0.4.tgz"
+      }
+    },
+    "@redis/search": {
+      "1.1.2": {
+        "hash": "sha512-/cMfstG/fOh/SsE+4/BQGeuH/JJloeWuH+qJzM8dbxuWvdWibWAOAHHCZTMPhV3xIlH4/cUEIA8OV5QnYpaVoA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@redis/search/-/search-1.1.2.tgz"
+      }
+    },
+    "@redis/time-series": {
+      "1.0.4": {
+        "hash": "sha512-ThUIgo2U/g7cCuZavucQTQzA9g9JbDDY2f64u3AbAoz/8vE2lt2U37LamDUVChhaDA3IRT9R6VvJwqnUfTJzng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@redis/time-series/-/time-series-1.0.4.tgz"
+      }
+    },
+    "cluster-key-slot": {
+      "1.1.2": {
+        "hash": "sha512-RMr0FhtfXemyinomL4hrWcYJxmX6deFdCxpJzhDttxgO1+bcCnkk+9drydLVDmAMG7NE6aN/fl4F7ucU/90gAA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cluster-key-slot/-/cluster-key-slot-1.1.2.tgz"
+      }
+    },
+    "generic-pool": {
+      "3.9.0": {
+        "hash": "sha512-hymDOu5B53XvN4QT9dBmZxPX4CWhBPPLguTZ9MMFeFa/Kg0xWVfylOVNlJji/E7yTZWFd/q9GO5TxDLq156D7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/generic-pool/-/generic-pool-3.9.0.tgz"
+      }
+    },
+    "redis": {
+      "4.6.6": {
+        "hash": "sha512-aLs2fuBFV/VJ28oLBqYykfnhGGkFxvx0HdCEBYdJ99FFbSEMZ7c1nVKwR6ZRv+7bb7JnC0mmCzaqu8frgOYhpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redis/-/redis-4.6.6.tgz"
+      }
+    },
+    "yallist": {
+      "4.0.0": {
+        "hash": "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
+      }
+    }
+  }
+}

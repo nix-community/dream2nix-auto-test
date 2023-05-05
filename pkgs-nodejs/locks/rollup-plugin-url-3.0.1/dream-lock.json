@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup-plugin-url",
+    "location": "",
+    "packages": {
+      "rollup-plugin-url": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rollup": {
+      "3.21.5": [
+        [ "fsevents", "2.3.2" ]
+      ]
+    },
+    "rollup-plugin-url": {
+      "3.0.1": [
+        [ "mime", "2.6.0" ],
+        [ "rollup-pluginutils", "2.8.2" ]
+      ],
+      "unknown": [
+        [ "estree-walker", "0.6.1" ],
+        [ "fsevents", "2.3.2" ],
+        [ "mime", "2.6.0" ],
+        [ "rollup", "3.21.5" ],
+        [ "rollup-plugin-url", "3.0.1" ],
+        [ "rollup-pluginutils", "2.8.2" ]
+      ]
+    },
+    "rollup-pluginutils": {
+      "2.8.2": [
+        [ "estree-walker", "0.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "estree-walker": {
+      "0.6.1": {
+        "hash": "sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.6.1.tgz"
+      }
+    },
+    "fsevents": {
+      "2.3.2": {
+        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+      }
+    },
+    "mime": {
+      "2.6.0": {
+        "hash": "sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime/-/mime-2.6.0.tgz"
+      }
+    },
+    "rollup": {
+      "3.21.5": {
+        "hash": "sha512-a4NTKS4u9PusbUJcfF4IMxuqjFzjm6ifj76P54a7cKnvVzJaG12BLVR+hgU2YDGHzyMMQNxLAZWuALsn8q2oQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup/-/rollup-3.21.5.tgz"
+      }
+    },
+    "rollup-plugin-url": {
+      "3.0.1": {
+        "hash": "sha512-fQVrxlW335snHfPqZ7a0JIkkYEIrLeFobpAxRMQnyv7xQeJOY1yOd84STIdCaLYPoGzwOq8waOdGipNH181kzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-url/-/rollup-plugin-url-3.0.1.tgz"
+      }
+    },
+    "rollup-pluginutils": {
+      "2.8.2": {
+        "hash": "sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz"
+      }
+    }
+  }
+}
