@@ -28,21 +28,21 @@
   "dependencies": {
     "caps": {
       "0.5.5": [
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "thiserror", "1.0.40" ]
       ]
     },
     "errno": {
       "0.3.1": [
         [ "errno-dragonfly", "0.1.2" ],
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
     "errno-dragonfly": {
       "0.1.2": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.143" ]
+        [ "libc", "0.2.144" ]
       ]
     },
     "fastrand": {
@@ -53,7 +53,7 @@
     "getrandom": {
       "0.2.9": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
@@ -65,7 +65,7 @@
     "io-lifetimes": {
       "1.0.10": [
         [ "hermit-abi", "0.3.1" ],
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -87,7 +87,7 @@
         [ "caps", "0.5.5" ],
         [ "cfg-if", "1.0.0" ],
         [ "lazy_static", "1.4.0" ],
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "memoffset", "0.7.1" ],
         [ "parking_lot", "0.12.1" ],
         [ "pin-utils", "0.1.0" ],
@@ -107,7 +107,7 @@
     "parking_lot_core": {
       "0.9.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "redox_syscall", "0.2.16" ],
         [ "smallvec", "1.10.0" ],
         [ "windows-sys", "0.45.0" ]
@@ -119,13 +119,13 @@
       ]
     },
     "quote": {
-      "1.0.26": [
+      "1.0.27": [
         [ "proc-macro2", "1.0.56" ]
       ]
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.4" ]
       ]
@@ -154,7 +154,7 @@
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.10" ],
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "linux-raw-sys", "0.3.7" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -167,7 +167,7 @@
     "syn": {
       "2.0.15": [
         [ "proc-macro2", "1.0.56" ],
-        [ "quote", "1.0.26" ],
+        [ "quote", "1.0.27" ],
         [ "unicode-ident", "1.0.8" ]
       ]
     },
@@ -175,7 +175,7 @@
       "0.4.6": [
         [ "bitflags", "1.3.2" ],
         [ "byteorder", "1.4.3" ],
-        [ "libc", "0.2.143" ],
+        [ "libc", "0.2.144" ],
         [ "thiserror", "1.0.40" ],
         [ "walkdir", "2.3.3" ]
       ]
@@ -197,7 +197,7 @@
     "thiserror-impl": {
       "1.0.40": [
         [ "proc-macro2", "1.0.56" ],
-        [ "quote", "1.0.26" ],
+        [ "quote", "1.0.27" ],
         [ "syn", "2.0.15" ]
       ]
     },
@@ -369,11 +369,11 @@
       }
     },
     "libc": {
-      "0.2.143": {
-        "hash": "edc207893e85c5d6be840e969b496b53d94cec8be2d501b214f50daa97fa8024",
+      "0.2.144": {
+        "hash": "2b00cc1c228a6782d0f076e7b232802e0c5689d41bb5df366f2a6b6621cfdfe1",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.143"
+        "version": "0.2.144"
       }
     },
     "linux-raw-sys": {
@@ -447,11 +447,11 @@
       }
     },
     "quote": {
-      "1.0.26": {
-        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
+      "1.0.27": {
+        "hash": "8f4f29d145265ec1c483c7c654450edde0bfe043d3938d6972630663356d9500",
         "pname": "quote",
         "type": "crates-io",
-        "version": "1.0.26"
+        "version": "1.0.27"
       }
     },
     "rand": {
