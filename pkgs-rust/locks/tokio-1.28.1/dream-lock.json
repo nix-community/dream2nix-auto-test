@@ -3,7 +3,7 @@
     "defaultPackage": "tokio",
     "location": "",
     "packages": {
-      "tokio": "1.28.0"
+      "tokio": "1.28.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "tokio": {
-        "1.28.0": {
+        "1.28.1": {
           "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n", "homepage": "https://tokio.rs", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "tokio": {
-        "1.28.0": {}
+        "1.28.1": {}
       }
     }
   },
@@ -179,7 +179,7 @@
         [ "generator", "0.7.4" ],
         [ "pin-utils", "0.1.0" ],
         [ "scoped-tls", "1.0.1" ],
-        [ "serde", "1.0.162" ],
+        [ "serde", "1.0.163" ],
         [ "serde_json", "1.0.96" ],
         [ "tracing", "0.1.37" ],
         [ "tracing-subscriber", "0.3.17" ]
@@ -349,12 +349,12 @@
       ]
     },
     "serde": {
-      "1.0.162": [
-        [ "serde_derive", "1.0.162" ]
+      "1.0.163": [
+        [ "serde_derive", "1.0.163" ]
       ]
     },
     "serde_derive": {
-      "1.0.162": [
+      "1.0.163": [
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.27" ],
         [ "syn", "2.0.15" ]
@@ -364,7 +364,7 @@
       "1.0.96": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.162" ]
+        [ "serde", "1.0.163" ]
       ]
     },
     "sharded-slab": {
@@ -416,7 +416,7 @@
       ]
     },
     "tokio": {
-      "1.28.0": [
+      "1.28.1": [
         [ "async-stream", "0.3.5" ],
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
@@ -441,7 +441,7 @@
         [ "wasm-bindgen-test", "0.3.35" ],
         [ "windows-sys", "0.48.0" ]
       ],
-      "1.28.0$crates-io": [
+      "1.28.1$crates-io": [
         [ "autocfg", "1.1.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "windows-sys", "0.48.0" ]
@@ -458,7 +458,7 @@
       "0.1.14": [
         [ "futures-core", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.0$crates-io" ]
+        [ "tokio", "1.28.1$crates-io" ]
       ]
     },
     "tokio-test": {
@@ -466,7 +466,7 @@
         [ "async-stream", "0.3.5" ],
         [ "bytes", "1.4.0" ],
         [ "futures-core", "0.3.28" ],
-        [ "tokio", "1.28.0$crates-io" ],
+        [ "tokio", "1.28.1$crates-io" ],
         [ "tokio-stream", "0.1.14" ]
       ]
     },
@@ -475,7 +475,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tracing-attributes", "0.1.24" ],
-        [ "tracing-core", "0.1.30" ]
+        [ "tracing-core", "0.1.31" ]
       ]
     },
     "tracing-attributes": {
@@ -486,7 +486,7 @@
       ]
     },
     "tracing-core": {
-      "0.1.30": [
+      "0.1.31": [
         [ "once_cell", "1.17.1" ],
         [ "valuable", "0.1.0" ]
       ]
@@ -495,7 +495,7 @@
       "0.1.3": [
         [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.17" ],
-        [ "tracing-core", "0.1.30" ]
+        [ "tracing-core", "0.1.31" ]
       ]
     },
     "tracing-subscriber": {
@@ -508,7 +508,7 @@
         [ "smallvec", "1.10.0" ],
         [ "thread_local", "1.1.7" ],
         [ "tracing", "0.1.37" ],
-        [ "tracing-core", "0.1.30" ],
+        [ "tracing-core", "0.1.31" ],
         [ "tracing-log", "0.1.3" ]
       ]
     },
@@ -1256,19 +1256,19 @@
       }
     },
     "serde": {
-      "1.0.162": {
-        "hash": "71b2f6e1ab5c2b98c05f0f35b236b22e8df7ead6ffbf51d7808da7f8817e7ab6",
+      "1.0.163": {
+        "hash": "2113ab51b87a539ae008b5c6c02dc020ffa39afd2d83cffcb3f4eb2722cebec2",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.162"
+        "version": "1.0.163"
       }
     },
     "serde_derive": {
-      "1.0.162": {
-        "hash": "a2a0814352fd64b58489904a44ea8d90cb1a91dcb6b4f5ebabc32c8318e93cb6",
+      "1.0.163": {
+        "hash": "8c805777e3930c8883389c602315a24224bcc738b63905ef87cd1420353ea93e",
         "pname": "serde_derive",
         "type": "crates-io",
-        "version": "1.0.162"
+        "version": "1.0.163"
       }
     },
     "serde_json": {
@@ -1366,15 +1366,15 @@
       }
     },
     "tokio": {
-      "1.28.0": {
-        "hash": "c3c786bf8134e5a3a166db9b29ab8f48134739014a3eca7bc6bfa95d673b136f",
+      "1.28.1": {
+        "hash": "0aa32867d44e6f2ce3385e89dceb990188b8bb0fb25b0cf576647a6f98ac5105",
         "type": "crates-io"
       },
-      "1.28.0$crates-io": {
-        "hash": "c3c786bf8134e5a3a166db9b29ab8f48134739014a3eca7bc6bfa95d673b136f",
+      "1.28.1$crates-io": {
+        "hash": "0aa32867d44e6f2ce3385e89dceb990188b8bb0fb25b0cf576647a6f98ac5105",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.28.0"
+        "version": "1.28.1"
       }
     },
     "tokio-macros": {
@@ -1418,11 +1418,11 @@
       }
     },
     "tracing-core": {
-      "0.1.30": {
-        "hash": "24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a",
+      "0.1.31": {
+        "hash": "0955b8137a1df6f1a2e9a37d8a6656291ff0297c1a97c24e0d8425fe2312f79a",
         "pname": "tracing-core",
         "type": "crates-io",
-        "version": "0.1.30"
+        "version": "0.1.31"
       }
     },
     "tracing-log": {
