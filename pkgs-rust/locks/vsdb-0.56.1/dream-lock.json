@@ -3,7 +3,7 @@
     "defaultPackage": "vsdb",
     "location": "",
     "packages": {
-      "vsdb": "0.56.0"
+      "vsdb": "0.56.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "vsdb": {
-        "0.56.0": {
+        "0.56.1": {
           "description": "A stuctured DB with some 'Git-like' features, mainly used in blockchain projects.", "homepage": "https://github.com/rust-util-collections/vsdb", "license": [   "gpl3"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "vsdb": {
-        "0.56.0": {}
+        "0.56.1": {}
       }
     }
   },
@@ -42,7 +42,7 @@
     },
     "bcs": {
       "0.1.5": [
-        [ "serde", "1.0.162" ],
+        [ "serde", "1.0.163" ],
         [ "thiserror", "1.0.40" ]
       ]
     },
@@ -92,7 +92,7 @@
       "0.2.1": [
         [ "ciborium-io", "0.2.1" ],
         [ "ciborium-ll", "0.2.1" ],
-        [ "serde", "1.0.162" ]
+        [ "serde", "1.0.163" ]
       ]
     },
     "ciborium-ll": {
@@ -141,8 +141,8 @@
         [ "plotters", "0.3.4" ],
         [ "rayon", "1.7.0" ],
         [ "regex", "1.8.1" ],
-        [ "serde", "1.0.162" ],
-        [ "serde_derive", "1.0.162" ],
+        [ "serde", "1.0.163" ],
+        [ "serde_derive", "1.0.163" ],
         [ "serde_json", "1.0.96" ],
         [ "tinytemplate", "1.2.1" ],
         [ "walkdir", "2.3.3" ]
@@ -324,7 +324,7 @@
         [ "byte-slice-cast", "1.2.2" ],
         [ "impl-trait-for-tuples", "0.2.2" ],
         [ "parity-scale-codec-derive", "3.1.4" ],
-        [ "serde", "1.0.162" ]
+        [ "serde", "1.0.163" ]
       ]
     },
     "parity-scale-codec-derive": {
@@ -464,7 +464,7 @@
       "1.1.1": [
         [ "byteorder", "1.4.3" ],
         [ "rmp", "0.8.11" ],
-        [ "serde", "1.0.162" ]
+        [ "serde", "1.0.163" ]
       ]
     },
     "rocksdb": {
@@ -488,12 +488,12 @@
       ]
     },
     "serde": {
-      "1.0.162": [
-        [ "serde_derive", "1.0.162" ]
+      "1.0.163": [
+        [ "serde_derive", "1.0.163" ]
       ]
     },
     "serde_derive": {
-      "1.0.162": [
+      "1.0.163": [
         [ "proc-macro2", "1.0.56" ],
         [ "quote", "1.0.27" ],
         [ "syn", "2.0.15" ]
@@ -503,7 +503,7 @@
       "1.0.96": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.162" ]
+        [ "serde", "1.0.163" ]
       ]
     },
     "syn": {
@@ -538,7 +538,7 @@
     "time": {
       "0.3.21": [
         [ "itoa", "1.0.6" ],
-        [ "serde", "1.0.162" ],
+        [ "serde", "1.0.163" ],
         [ "time-core", "0.1.1" ],
         [ "time-macros", "0.2.9" ]
       ]
@@ -555,7 +555,7 @@
     },
     "tinytemplate": {
       "1.2.1": [
-        [ "serde", "1.0.162" ],
+        [ "serde", "1.0.163" ],
         [ "serde_json", "1.0.96" ]
       ]
     },
@@ -589,7 +589,7 @@
       ]
     },
     "vsdb": {
-      "0.56.0": [
+      "0.56.1": [
         [ "bcs", "0.1.5" ],
         [ "criterion", "0.4.0" ],
         [ "hex", "0.4.3" ],
@@ -598,7 +598,7 @@
         [ "rand", "0.8.5" ],
         [ "rmp-serde", "1.1.1" ],
         [ "ruc", "4.1.0" ],
-        [ "serde", "1.0.162" ],
+        [ "serde", "1.0.163" ],
         [ "serde_json", "1.0.96" ],
         [ "vsdb_core", "0.56.0" ]
       ]
@@ -613,7 +613,7 @@
         [ "rand", "0.8.5" ],
         [ "rocksdb", "0.21.0" ],
         [ "ruc", "4.1.0" ],
-        [ "serde", "1.0.162" ],
+        [ "serde", "1.0.163" ],
         [ "threadpool", "1.8.1" ],
         [ "vsdb_derive", "0.53.0" ],
         [ "vsdbsled", "0.34.7-p1" ]
@@ -1595,19 +1595,19 @@
       }
     },
     "serde": {
-      "1.0.162": {
-        "hash": "71b2f6e1ab5c2b98c05f0f35b236b22e8df7ead6ffbf51d7808da7f8817e7ab6",
+      "1.0.163": {
+        "hash": "2113ab51b87a539ae008b5c6c02dc020ffa39afd2d83cffcb3f4eb2722cebec2",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.162"
+        "version": "1.0.163"
       }
     },
     "serde_derive": {
-      "1.0.162": {
-        "hash": "a2a0814352fd64b58489904a44ea8d90cb1a91dcb6b4f5ebabc32c8318e93cb6",
+      "1.0.163": {
+        "hash": "8c805777e3930c8883389c602315a24224bcc738b63905ef87cd1420353ea93e",
         "pname": "serde_derive",
         "type": "crates-io",
-        "version": "1.0.162"
+        "version": "1.0.163"
       }
     },
     "serde_json": {
@@ -1801,8 +1801,8 @@
       }
     },
     "vsdb": {
-      "0.56.0": {
-        "hash": "0489bd750bb78b1599e6e950c3f9e780193359aabcd9cd952c395776bc6cf408",
+      "0.56.1": {
+        "hash": "9e162aa7a436e4cce14238c1e1f4f6be2b5c384fb9f313e870709dce974a37eb",
         "type": "crates-io"
       }
     },
