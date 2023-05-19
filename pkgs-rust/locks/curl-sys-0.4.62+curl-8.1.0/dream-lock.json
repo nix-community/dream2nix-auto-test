@@ -3,7 +3,7 @@
     "defaultPackage": "curl-sys",
     "location": "",
     "packages": {
-      "curl-sys": "0.4.61+curl-8.0.1"
+      "curl-sys": "0.4.62+curl-8.1.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "curl-sys": {
-        "0.4.61+curl-8.0.1": {
+        "0.4.62+curl-8.1.0": {
           "description": "Native bindings to the libcurl library", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "curl-sys": {
-        "0.4.61+curl-8.0.1": {}
+        "0.4.62+curl-8.1.0": {}
       }
     }
   },
@@ -32,7 +32,7 @@
       ]
     },
     "curl-sys": {
-      "0.4.61+curl-8.0.1": [
+      "0.4.62+curl-8.1.0": [
         [ "cc", "1.0.79" ],
         [ "libc", "0.2.144" ],
         [ "libnghttp2-sys", "0.1.7+1.45.0" ],
@@ -105,7 +105,7 @@
     "proc-macro-crate": {
       "1.3.1": [
         [ "once_cell", "1.17.1" ],
-        [ "toml_edit", "0.19.8" ]
+        [ "toml_edit", "0.19.9" ]
       ]
     },
     "proc-macro2": {
@@ -172,9 +172,9 @@
       ]
     },
     "toml_edit": {
-      "0.19.8": [
+      "0.19.9": [
         [ "indexmap", "1.9.3" ],
-        [ "toml_datetime", "0.6.1" ],
+        [ "toml_datetime", "0.6.2" ],
         [ "winnow", "0.4.6" ]
       ]
     },
@@ -284,8 +284,8 @@
       }
     },
     "curl-sys": {
-      "0.4.61+curl-8.0.1": {
-        "hash": "14d05c10f541ae6f3bc5b3d923c20001f47db7d5f0b2bc6ad16490133842db79",
+      "0.4.62+curl-8.1.0": {
+        "hash": "274ef7ef7c1113c7611af49ce248a700afa1171045a1aaa40137030773f993b8",
         "type": "crates-io"
       }
     },
@@ -488,19 +488,19 @@
       }
     },
     "toml_datetime": {
-      "0.6.1": {
-        "hash": "3ab8ed2edee10b50132aed5f331333428b011c99402b5a534154ed15746f9622",
+      "0.6.2": {
+        "hash": "5a76a9312f5ba4c2dec6b9161fdf25d87ad8a09256ccea5a556fef03c706a10f",
         "pname": "toml_datetime",
         "type": "crates-io",
-        "version": "0.6.1"
+        "version": "0.6.2"
       }
     },
     "toml_edit": {
-      "0.19.8": {
-        "hash": "239410c8609e8125456927e6707163a3b1fdb40561e4b803bc041f466ccfdc13",
+      "0.19.9": {
+        "hash": "92d964908cec0d030b812013af25a0e57fddfadb1e066ecc6681d86253129d4f",
         "pname": "toml_edit",
         "type": "crates-io",
-        "version": "0.19.8"
+        "version": "0.19.9"
       }
     },
     "unicode-ident": {

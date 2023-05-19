@@ -3,7 +3,7 @@
     "defaultPackage": "toml",
     "location": "",
     "packages": {
-      "toml": "0.7.3"
+      "toml": "0.7.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "toml": {
-        "0.7.3": {
+        "0.7.4": {
           "description": "A native Rust encoder and decoder of TOML-formatted files and streams. Provides\nimplementations of the standard Serialize/Deserialize traits for TOML data to\nfacilitate deserializing and serializing Rust structures.\n", "homepage": "https://github.com/toml-rs/toml", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "toml": {
-        "0.7.3": {}
+        "0.7.4": {}
       }
     }
   },
@@ -29,6 +29,33 @@
     "aho-corasick": {
       "0.7.19": [
         [ "memchr", "2.5.0" ]
+      ]
+    },
+    "anstream": {
+      "0.3.1": [
+        [ "anstyle", "1.0.0" ],
+        [ "anstyle-parse", "0.2.0" ],
+        [ "anstyle-query", "1.0.0" ],
+        [ "anstyle-wincon", "1.0.1" ],
+        [ "colorchoice", "1.0.0" ],
+        [ "is-terminal", "0.4.7" ],
+        [ "utf8parse", "0.2.1" ]
+      ]
+    },
+    "anstyle-parse": {
+      "0.2.0": [
+        [ "utf8parse", "0.2.1" ]
+      ]
+    },
+    "anstyle-query": {
+      "1.0.0": [
+        [ "windows-sys", "0.48.0" ]
+      ]
+    },
+    "anstyle-wincon": {
+      "1.0.1": [
+        [ "anstyle", "1.0.0" ],
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "bstr": {
@@ -47,7 +74,7 @@
         [ "bitflags", "1.3.2" ],
         [ "clap_derive", "4.0.21" ],
         [ "clap_lex", "0.3.0" ],
-        [ "is-terminal", "0.4.3" ],
+        [ "is-terminal", "0.4.7" ],
         [ "once_cell", "1.15.0" ],
         [ "strsim", "0.10.0" ],
         [ "termcolor", "1.1.3" ]
@@ -57,21 +84,14 @@
       "4.0.21": [
         [ "heck", "0.4.0" ],
         [ "proc-macro-error", "1.0.4" ],
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ],
         [ "syn", "1.0.105" ]
       ]
     },
     "clap_lex": {
       "0.3.0": [
         [ "os_str_bytes", "6.3.0" ]
-      ]
-    },
-    "concolor": {
-      "0.0.11": [
-        [ "bitflags", "1.3.2" ],
-        [ "concolor-query", "0.1.0" ],
-        [ "is-terminal", "0.4.3" ]
       ]
     },
     "crossbeam-utils": {
@@ -81,16 +101,16 @@
       ]
     },
     "errno": {
-      "0.2.8": [
+      "0.3.1": [
         [ "errno-dragonfly", "0.1.2" ],
-        [ "libc", "0.2.133" ],
-        [ "winapi", "0.3.9" ]
+        [ "libc", "0.2.142" ],
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "errno-dragonfly": {
       "0.1.2": [
         [ "cc", "1.0.73" ],
-        [ "libc", "0.2.133" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "globset": {
@@ -104,7 +124,7 @@
     },
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.133" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "ignore": {
@@ -128,8 +148,8 @@
     },
     "include_dir_macros": {
       "0.7.3": [
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ]
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ]
       ]
     },
     "indexmap": {
@@ -140,16 +160,16 @@
     },
     "io-lifetimes": {
       "1.0.3": [
-        [ "libc", "0.2.133" ],
+        [ "libc", "0.2.142" ],
         [ "windows-sys", "0.42.0" ]
       ]
     },
     "is-terminal": {
-      "0.4.3": [
+      "0.4.7": [
         [ "hermit-abi", "0.3.1" ],
         [ "io-lifetimes", "1.0.3" ],
-        [ "rustix", "0.36.4" ],
-        [ "windows-sys", "0.45.0" ]
+        [ "rustix", "0.37.7" ],
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "libtest-mimic": {
@@ -178,33 +198,33 @@
     "num_cpus": {
       "1.13.1": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.133" ]
+        [ "libc", "0.2.142" ]
       ]
     },
     "proc-macro-error": {
       "1.0.4": [
         [ "proc-macro-error-attr", "1.0.4" ],
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ],
         [ "syn", "1.0.105" ],
         [ "version_check", "0.9.4" ]
       ]
     },
     "proc-macro-error-attr": {
       "1.0.4": [
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ],
         [ "version_check", "0.9.4" ]
       ]
     },
     "proc-macro2": {
-      "1.0.47": [
+      "1.0.56": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
-      "1.0.21": [
-        [ "proc-macro2", "1.0.47" ]
+      "1.0.26": [
+        [ "proc-macro2", "1.0.56" ]
       ]
     },
     "regex": {
@@ -215,13 +235,13 @@
       ]
     },
     "rustix": {
-      "0.36.4": [
+      "0.37.7": [
         [ "bitflags", "1.3.2" ],
-        [ "errno", "0.2.8" ],
+        [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.3" ],
-        [ "libc", "0.2.133" ],
-        [ "linux-raw-sys", "0.1.3" ],
-        [ "windows-sys", "0.42.0" ]
+        [ "libc", "0.2.142" ],
+        [ "linux-raw-sys", "0.3.6" ],
+        [ "windows-sys", "0.45.0" ]
       ]
     },
     "same-file": {
@@ -230,42 +250,52 @@
       ]
     },
     "serde": {
-      "1.0.152": [
-        [ "serde_derive", "1.0.152" ]
+      "1.0.160": [
+        [ "serde_derive", "1.0.160" ]
       ]
     },
     "serde_derive": {
-      "1.0.152": [
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.105" ]
+      "1.0.160": [
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ],
+        [ "syn", "2.0.15" ]
       ]
     },
     "serde_json": {
-      "1.0.93": [
+      "1.0.96": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.152" ]
+        [ "serde", "1.0.160" ]
       ]
     },
     "serde_spanned": {
-      "0.6.1": [
-        [ "serde", "1.0.152" ]
+      "0.6.2": [
+        [ "serde", "1.0.160" ]
       ]
     },
     "snapbox": {
-      "0.4.7": [
-        [ "concolor", "0.0.11" ],
+      "0.4.11": [
+        [ "anstream", "0.3.1" ],
+        [ "anstyle", "1.0.0" ],
         [ "normalize-line-endings", "0.3.0" ],
         [ "similar", "2.2.0" ],
-        [ "snapbox-macros", "0.3.1" ],
-        [ "yansi", "0.5.1" ]
+        [ "snapbox-macros", "0.3.4" ]
+      ]
+    },
+    "snapbox-macros": {
+      "0.3.4": [
+        [ "anstream", "0.3.1" ]
       ]
     },
     "syn": {
       "1.0.105": [
-        [ "proc-macro2", "1.0.47" ],
-        [ "quote", "1.0.21" ],
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ],
+        [ "unicode-ident", "1.0.4" ]
+      ],
+      "2.0.15": [
+        [ "proc-macro2", "1.0.56" ],
+        [ "quote", "1.0.26" ],
         [ "unicode-ident", "1.0.4" ]
       ]
     },
@@ -285,22 +315,22 @@
       ]
     },
     "toml": {
-      "0.7.3": [
+      "0.7.4": [
         [ "indexmap", "1.9.1" ],
-        [ "serde", "1.0.152" ],
-        [ "serde_json", "1.0.93" ],
-        [ "serde_spanned", "0.6.1" ],
-        [ "snapbox", "0.4.7" ],
+        [ "serde", "1.0.160" ],
+        [ "serde_json", "1.0.96" ],
+        [ "serde_spanned", "0.6.2" ],
+        [ "snapbox", "0.4.11" ],
         [ "toml-test-harness", "0.4.3" ],
-        [ "toml_datetime", "0.6.1" ],
-        [ "toml_edit", "0.19.6" ]
+        [ "toml_datetime", "0.6.2" ],
+        [ "toml_edit", "0.19.9" ]
       ]
     },
     "toml-test": {
       "0.3.4": [
         [ "chrono", "0.4.22" ],
-        [ "serde", "1.0.152" ],
-        [ "serde_json", "1.0.93" ]
+        [ "serde", "1.0.160" ],
+        [ "serde_json", "1.0.96" ]
       ]
     },
     "toml-test-data": {
@@ -317,17 +347,17 @@
       ]
     },
     "toml_datetime": {
-      "0.6.1": [
-        [ "serde", "1.0.152" ]
+      "0.6.2": [
+        [ "serde", "1.0.160" ]
       ]
     },
     "toml_edit": {
-      "0.19.6": [
+      "0.19.9": [
         [ "indexmap", "1.9.1" ],
-        [ "serde", "1.0.152" ],
-        [ "serde_spanned", "0.6.1" ],
-        [ "toml_datetime", "0.6.1" ],
-        [ "winnow", "0.3.0" ]
+        [ "serde", "1.0.160" ],
+        [ "serde_spanned", "0.6.2" ],
+        [ "toml_datetime", "0.6.2" ],
+        [ "winnow", "0.4.6" ]
       ]
     },
     "walkdir": {
@@ -360,6 +390,9 @@
       ],
       "0.45.0": [
         [ "windows-targets", "0.42.1" ]
+      ],
+      "0.48.0": [
+        [ "windows-targets", "0.48.0" ]
       ]
     },
     "windows-targets": {
@@ -371,10 +404,19 @@
         [ "windows_x86_64_gnu", "0.42.1" ],
         [ "windows_x86_64_gnullvm", "0.42.1" ],
         [ "windows_x86_64_msvc", "0.42.1" ]
+      ],
+      "0.48.0": [
+        [ "windows_aarch64_gnullvm", "0.48.0" ],
+        [ "windows_aarch64_msvc", "0.48.0" ],
+        [ "windows_i686_gnu", "0.48.0" ],
+        [ "windows_i686_msvc", "0.48.0" ],
+        [ "windows_x86_64_gnu", "0.48.0" ],
+        [ "windows_x86_64_gnullvm", "0.48.0" ],
+        [ "windows_x86_64_msvc", "0.48.0" ]
       ]
     },
     "winnow": {
-      "0.3.0": [
+      "0.4.6": [
         [ "memchr", "2.5.0" ]
       ]
     }
@@ -386,6 +428,46 @@
         "pname": "aho-corasick",
         "type": "crates-io",
         "version": "0.7.19"
+      }
+    },
+    "anstream": {
+      "0.3.1": {
+        "hash": "6342bd4f5a1205d7f41e94a41a901f5647c938cdfa96036338e8533c9d6c2450",
+        "pname": "anstream",
+        "type": "crates-io",
+        "version": "0.3.1"
+      }
+    },
+    "anstyle": {
+      "1.0.0": {
+        "hash": "41ed9a86bf92ae6580e0a31281f65a1b1d867c0cc68d5346e2ae128dddfa6a7d",
+        "pname": "anstyle",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    },
+    "anstyle-parse": {
+      "0.2.0": {
+        "hash": "e765fd216e48e067936442276d1d57399e37bce53c264d6fefbe298080cb57ee",
+        "pname": "anstyle-parse",
+        "type": "crates-io",
+        "version": "0.2.0"
+      }
+    },
+    "anstyle-query": {
+      "1.0.0": {
+        "hash": "5ca11d4be1bab0c8bc8734a9aa7bf4ee8316d462a08c6ac5052f888fef5b494b",
+        "pname": "anstyle-query",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    },
+    "anstyle-wincon": {
+      "1.0.1": {
+        "hash": "180abfa45703aebe0093f79badacc01b8fd4ea2e35118747e5811127f926e188",
+        "pname": "anstyle-wincon",
+        "type": "crates-io",
+        "version": "1.0.1"
       }
     },
     "autocfg": {
@@ -460,20 +542,12 @@
         "version": "0.3.0"
       }
     },
-    "concolor": {
-      "0.0.11": {
-        "hash": "318d6c16e73b3a900eb212ad6a82fc7d298c5ab8184c7a9998646455bc474a16",
-        "pname": "concolor",
+    "colorchoice": {
+      "1.0.0": {
+        "hash": "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7",
+        "pname": "colorchoice",
         "type": "crates-io",
-        "version": "0.0.11"
-      }
-    },
-    "concolor-query": {
-      "0.1.0": {
-        "hash": "82a90734b3d5dcf656e7624cca6bce9c3a90ee11f900e80141a7427ccfb3d317",
-        "pname": "concolor-query",
-        "type": "crates-io",
-        "version": "0.1.0"
+        "version": "1.0.0"
       }
     },
     "crossbeam-utils": {
@@ -485,11 +559,11 @@
       }
     },
     "errno": {
-      "0.2.8": {
-        "hash": "f639046355ee4f37944e44f60642c6f3a7efa3cf6b78c78a0d989a8ce6c396a1",
+      "0.3.1": {
+        "hash": "4bcfec3a70f97c962c307b2d2c56e358cf1d00b558d74262b5f929ee8cc7e73a",
         "pname": "errno",
         "type": "crates-io",
-        "version": "0.2.8"
+        "version": "0.3.1"
       }
     },
     "errno-dragonfly": {
@@ -587,11 +661,11 @@
       }
     },
     "is-terminal": {
-      "0.4.3": {
-        "hash": "22e18b0a45d56fe973d6db23972bf5bc46f988a4a2385deac9cc29572f09daef",
+      "0.4.7": {
+        "hash": "adcf93614601c8129ddf72e2d5633df827ba6551541c6d8c59520a371475be1f",
         "pname": "is-terminal",
         "type": "crates-io",
-        "version": "0.4.3"
+        "version": "0.4.7"
       }
     },
     "itoa": {
@@ -611,11 +685,11 @@
       }
     },
     "libc": {
-      "0.2.133": {
-        "hash": "c0f80d65747a3e43d1596c7c5492d95d5edddaabd45a7fcdb02b95f644164966",
+      "0.2.142": {
+        "hash": "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.133"
+        "version": "0.2.142"
       }
     },
     "libtest-mimic": {
@@ -627,11 +701,11 @@
       }
     },
     "linux-raw-sys": {
-      "0.1.3": {
-        "hash": "8f9f08d8963a6c613f4b1a78f4f4a4dbfadf8e6545b2d72861731e4858b8b47f",
+      "0.3.6": {
+        "hash": "b64f40e5e03e0d54f03845c8197d0291253cdbedfb1cb46b13c2c117554a9f4c",
         "pname": "linux-raw-sys",
         "type": "crates-io",
-        "version": "0.1.3"
+        "version": "0.3.6"
       }
     },
     "log": {
@@ -715,19 +789,19 @@
       }
     },
     "proc-macro2": {
-      "1.0.47": {
-        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
+      "1.0.56": {
+        "hash": "2b63bdb0cd06f1f4dedf69b254734f9b45af66e4a031e42a7480257d9898b435",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.47"
+        "version": "1.0.56"
       }
     },
     "quote": {
-      "1.0.21": {
-        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+      "1.0.26": {
+        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
         "pname": "quote",
         "type": "crates-io",
-        "version": "1.0.21"
+        "version": "1.0.26"
       }
     },
     "regex": {
@@ -747,11 +821,11 @@
       }
     },
     "rustix": {
-      "0.36.4": {
-        "hash": "cb93e85278e08bb5788653183213d3a60fc242b10cb9be96586f5a73dcb67c23",
+      "0.37.7": {
+        "hash": "2aae838e49b3d63e9274e1c01833cc8139d3fec468c3b84688c628f44b1ae11d",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.36.4"
+        "version": "0.37.7"
       }
     },
     "ryu": {
@@ -771,35 +845,35 @@
       }
     },
     "serde": {
-      "1.0.152": {
-        "hash": "bb7d1f0d3021d347a83e556fc4683dea2ea09d87bccdf88ff5c12545d89d5efb",
+      "1.0.160": {
+        "hash": "bb2f3770c8bce3bcda7e149193a069a0f4365bda1fa5cd88e03bca26afc1216c",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.152"
+        "version": "1.0.160"
       }
     },
     "serde_derive": {
-      "1.0.152": {
-        "hash": "af487d118eecd09402d70a5d72551860e788df87b464af30e5ea6a38c75c541e",
+      "1.0.160": {
+        "hash": "291a097c63d8497e00160b166a967a4a79c64f3facdd01cbd7502231688d77df",
         "pname": "serde_derive",
         "type": "crates-io",
-        "version": "1.0.152"
+        "version": "1.0.160"
       }
     },
     "serde_json": {
-      "1.0.93": {
-        "hash": "cad406b69c91885b5107daf2c29572f6c8cdb3c66826821e286c533490c0bc76",
+      "1.0.96": {
+        "hash": "057d394a50403bcac12672b2b18fb387ab6d289d957dab67dd201875391e52f1",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.93"
+        "version": "1.0.96"
       }
     },
     "serde_spanned": {
-      "0.6.1": {
-        "hash": "0efd8caf556a6cebd3b285caf480045fcc1ac04f6bd786b09a6f11af30c4fcf4",
+      "0.6.2": {
+        "hash": "93107647184f6027e3b7dcb2e11034cf95ffa1e3a682c67951963ac69c1c007d",
         "pname": "serde_spanned",
         "type": "crates-io",
-        "version": "0.6.1"
+        "version": "0.6.2"
       }
     },
     "similar": {
@@ -811,19 +885,19 @@
       }
     },
     "snapbox": {
-      "0.4.7": {
-        "hash": "09c20d8ee8713199cfd44148b70e47cb94f3e8dc538d727d31788f49e67b623e",
+      "0.4.11": {
+        "hash": "f6bccd62078347f89a914e3004d94582e13824d4e3d8a816317862884c423835",
         "pname": "snapbox",
         "type": "crates-io",
-        "version": "0.4.7"
+        "version": "0.4.11"
       }
     },
     "snapbox-macros": {
-      "0.3.1": {
-        "hash": "485e65c1203eb37244465e857d15a26d3a85a5410648ccb53b18bd44cb3a7336",
+      "0.3.4": {
+        "hash": "eaaf09df9f0eeae82be96290918520214530e738a7fe5a351b0f24cf77c0ca31",
         "pname": "snapbox-macros",
         "type": "crates-io",
-        "version": "0.3.1"
+        "version": "0.3.4"
       }
     },
     "strsim": {
@@ -840,6 +914,12 @@
         "pname": "syn",
         "type": "crates-io",
         "version": "1.0.105"
+      },
+      "2.0.15": {
+        "hash": "a34fcf3e8b60f57e6a14301a2e916d323af98b0ea63c599441eec8558660c822",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "2.0.15"
       }
     },
     "termcolor": {
@@ -867,8 +947,8 @@
       }
     },
     "toml": {
-      "0.7.3": {
-        "hash": "b403acf6f2bb0859c93c7f0d967cb4a75a7ac552100f9322faf64dc047669b21",
+      "0.7.4": {
+        "hash": "d6135d499e69981f9ff0ef2167955a5333c35e36f6937d382974566b3d5b94ec",
         "type": "crates-io"
       }
     },
@@ -897,19 +977,19 @@
       }
     },
     "toml_datetime": {
-      "0.6.1": {
-        "hash": "3ab8ed2edee10b50132aed5f331333428b011c99402b5a534154ed15746f9622",
+      "0.6.2": {
+        "hash": "5a76a9312f5ba4c2dec6b9161fdf25d87ad8a09256ccea5a556fef03c706a10f",
         "pname": "toml_datetime",
         "type": "crates-io",
-        "version": "0.6.1"
+        "version": "0.6.2"
       }
     },
     "toml_edit": {
-      "0.19.6": {
-        "hash": "08de71aa0d6e348f070457f85af8bd566e2bc452156a423ddf22861b3a953fae",
+      "0.19.9": {
+        "hash": "92d964908cec0d030b812013af25a0e57fddfadb1e066ecc6681d86253129d4f",
         "pname": "toml_edit",
         "type": "crates-io",
-        "version": "0.19.6"
+        "version": "0.19.9"
       }
     },
     "unicode-ident": {
@@ -918,6 +998,14 @@
         "pname": "unicode-ident",
         "type": "crates-io",
         "version": "1.0.4"
+      }
+    },
+    "utf8parse": {
+      "0.2.1": {
+        "hash": "711b9620af191e0cdc7468a8d14e709c3dcdb115b36f838e601583af800a370a",
+        "pname": "utf8parse",
+        "type": "crates-io",
+        "version": "0.2.1"
       }
     },
     "version_check": {
@@ -980,6 +1068,12 @@
         "pname": "windows-sys",
         "type": "crates-io",
         "version": "0.45.0"
+      },
+      "0.48.0": {
+        "hash": "677d2418bec65e3338edb076e806bc1ec15693c5d0104683f2efe857f61056a9",
+        "pname": "windows-sys",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows-targets": {
@@ -988,6 +1082,12 @@
         "pname": "windows-targets",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "7b1eb6f0cd7c80c79759c929114ef071b87354ce476d9d94271031c0497adfd5",
+        "pname": "windows-targets",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows_aarch64_gnullvm": {
@@ -996,6 +1096,12 @@
         "pname": "windows_aarch64_gnullvm",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "91ae572e1b79dba883e0d315474df7305d12f569b400fcf90581b06062f7e1bc",
+        "pname": "windows_aarch64_gnullvm",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows_aarch64_msvc": {
@@ -1004,6 +1110,12 @@
         "pname": "windows_aarch64_msvc",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "b2ef27e0d7bdfcfc7b868b317c1d32c641a6fe4629c171b8928c7b08d98d7cf3",
+        "pname": "windows_aarch64_msvc",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows_i686_gnu": {
@@ -1012,6 +1124,12 @@
         "pname": "windows_i686_gnu",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "622a1962a7db830d6fd0a69683c80a18fda201879f0f447f065a3b7467daa241",
+        "pname": "windows_i686_gnu",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows_i686_msvc": {
@@ -1020,6 +1138,12 @@
         "pname": "windows_i686_msvc",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "4542c6e364ce21bf45d69fdd2a8e455fa38d316158cfd43b3ac1c5b1b19f8e00",
+        "pname": "windows_i686_msvc",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_gnu": {
@@ -1028,6 +1152,12 @@
         "pname": "windows_x86_64_gnu",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "ca2b8a661f7628cbd23440e50b05d705db3686f894fc9580820623656af974b1",
+        "pname": "windows_x86_64_gnu",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_gnullvm": {
@@ -1036,6 +1166,12 @@
         "pname": "windows_x86_64_gnullvm",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "7896dbc1f41e08872e9d5e8f8baa8fdd2677f29468c4e156210174edc7f7b953",
+        "pname": "windows_x86_64_gnullvm",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_msvc": {
@@ -1044,22 +1180,20 @@
         "pname": "windows_x86_64_msvc",
         "type": "crates-io",
         "version": "0.42.1"
+      },
+      "0.48.0": {
+        "hash": "1a515f5799fe4961cb532f983ce2b23082366b898e52ffbce459c86f67c8378a",
+        "pname": "windows_x86_64_msvc",
+        "type": "crates-io",
+        "version": "0.48.0"
       }
     },
     "winnow": {
-      "0.3.0": {
-        "hash": "efdd927d1a3d5d98abcfc4cf8627371862ee6abfe52a988050621c50c66b4493",
+      "0.4.6": {
+        "hash": "61de7bac303dc551fe038e2b3cef0f571087a47571ea6e79a87692ac99b99699",
         "pname": "winnow",
         "type": "crates-io",
-        "version": "0.3.0"
-      }
-    },
-    "yansi": {
-      "0.5.1": {
-        "hash": "09041cd90cf85f7f8b2df60c646f853b7f535ce68f85244eb6731cf89fa498ec",
-        "pname": "yansi",
-        "type": "crates-io",
-        "version": "0.5.1"
+        "version": "0.4.6"
       }
     }
   }
