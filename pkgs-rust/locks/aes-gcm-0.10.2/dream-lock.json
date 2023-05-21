@@ -3,7 +3,7 @@
     "defaultPackage": "aes-gcm",
     "location": "",
     "packages": {
-      "aes-gcm": "0.10.1"
+      "aes-gcm": "0.10.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "aes-gcm": {
-        "0.10.1": {
+        "0.10.2": {
           "description": "Pure Rust implementation of the AES-GCM (Galois/Counter Mode)\nAuthenticated Encryption with Associated Data (AEAD) Cipher\nwith optional architecture-specific hardware acceleration\n", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "aes-gcm": {
-        "0.10.1": {}
+        "0.10.2": {}
       }
     }
   },
@@ -28,6 +28,7 @@
   "dependencies": {
     "aead": {
       "0.5.2": [
+        [ "arrayvec", "0.7.2" ],
         [ "blobby", "0.3.1" ],
         [ "crypto-common", "0.1.6" ],
         [ "generic-array", "0.14.7" ],
@@ -42,7 +43,7 @@
       ]
     },
     "aes-gcm": {
-      "0.10.1": [
+      "0.10.2": [
         [ "aead", "0.5.2" ],
         [ "aes", "0.8.2" ],
         [ "cipher", "0.4.4" ],
@@ -173,9 +174,17 @@
       }
     },
     "aes-gcm": {
-      "0.10.1": {
-        "hash": "82e1366e0c69c9f927b1fa5ce2c7bf9eafc8f9268c0b9800729e8b267612447c",
+      "0.10.2": {
+        "hash": "209b47e8954a928e1d72e86eca7000ebb6655fe1436d33eefc2201cad027e237",
         "type": "crates-io"
+      }
+    },
+    "arrayvec": {
+      "0.7.2": {
+        "hash": "8da52d66c7071e2e3fa2a1e5c6d088fec47b593032b254f5e980de8ea54454d6",
+        "pname": "arrayvec",
+        "type": "crates-io",
+        "version": "0.7.2"
       }
     },
     "atomic-polyfill": {
