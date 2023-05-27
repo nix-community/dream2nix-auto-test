@@ -3,7 +3,7 @@
     "defaultPackage": "syn",
     "location": "",
     "packages": {
-      "syn": "2.0.16"
+      "syn": "2.0.18"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "syn": {
-        "2.0.16": {
+        "2.0.18": {
           "description": "Parser for Rust source code", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "syn": {
-        "2.0.16": {}
+        "2.0.18": {}
       }
     }
   },
@@ -33,9 +33,9 @@
     },
     "automod": {
       "1.0.8": [
-        [ "proc-macro2", "1.0.58" ],
-        [ "quote", "1.0.27" ],
-        [ "syn", "2.0.16$crates-io" ]
+        [ "proc-macro2", "1.0.59" ],
+        [ "quote", "1.0.28" ],
+        [ "syn", "2.0.18$crates-io" ]
       ]
     },
     "console": {
@@ -304,9 +304,9 @@
     },
     "openssl-macros": {
       "0.1.1": [
-        [ "proc-macro2", "1.0.58" ],
-        [ "quote", "1.0.27" ],
-        [ "syn", "2.0.16$crates-io" ]
+        [ "proc-macro2", "1.0.59" ],
+        [ "quote", "1.0.28" ],
+        [ "syn", "2.0.18$crates-io" ]
       ]
     },
     "openssl-sys": {
@@ -318,13 +318,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.58": [
+      "1.0.59": [
         [ "unicode-ident", "1.0.9" ]
       ]
     },
     "quote": {
-      "1.0.27": [
-        [ "proc-macro2", "1.0.58" ]
+      "1.0.28": [
+        [ "proc-macro2", "1.0.59" ]
       ]
     },
     "rayon": {
@@ -356,13 +356,13 @@
     },
     "ref-cast-impl": {
       "1.0.16": [
-        [ "proc-macro2", "1.0.58" ],
-        [ "quote", "1.0.27" ],
-        [ "syn", "2.0.16$crates-io" ]
+        [ "proc-macro2", "1.0.59" ],
+        [ "quote", "1.0.28" ],
+        [ "syn", "2.0.18$crates-io" ]
       ]
     },
     "regex": {
-      "1.8.2": [
+      "1.8.3": [
         [ "aho-corasick", "1.0.1" ],
         [ "memchr", "2.5.0" ],
         [ "regex-syntax", "0.7.2" ]
@@ -370,7 +370,7 @@
     },
     "reqwest": {
       "0.11.18": [
-        [ "base64", "0.21.1" ],
+        [ "base64", "0.21.2" ],
         [ "bytes", "1.4.0" ],
         [ "encoding_rs", "0.8.32" ],
         [ "futures-core", "0.3.28" ],
@@ -463,16 +463,16 @@
       ]
     },
     "syn": {
-      "2.0.16": [
+      "2.0.18": [
         [ "anyhow", "1.0.71" ],
         [ "automod", "1.0.8" ],
         [ "flate2", "1.0.26" ],
         [ "insta", "1.29.0" ],
-        [ "proc-macro2", "1.0.58" ],
-        [ "quote", "1.0.27" ],
+        [ "proc-macro2", "1.0.59" ],
+        [ "quote", "1.0.28" ],
         [ "rayon", "1.7.0" ],
         [ "ref-cast", "1.0.16" ],
-        [ "regex", "1.8.2" ],
+        [ "regex", "1.8.3" ],
         [ "reqwest", "0.11.18" ],
         [ "rustversion", "1.0.12" ],
         [ "syn-test-suite", "0.0.0+test" ],
@@ -481,9 +481,9 @@
         [ "unicode-ident", "1.0.9" ],
         [ "walkdir", "2.3.3" ]
       ],
-      "2.0.16$crates-io": [
-        [ "proc-macro2", "1.0.58" ],
-        [ "quote", "1.0.27" ],
+      "2.0.18$crates-io": [
+        [ "proc-macro2", "1.0.59" ],
+        [ "quote", "1.0.28" ],
         [ "unicode-ident", "1.0.9" ]
       ]
     },
@@ -588,9 +588,9 @@
         [ "bumpalo", "3.13.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.17.1" ],
-        [ "proc-macro2", "1.0.58" ],
-        [ "quote", "1.0.27" ],
-        [ "syn", "2.0.16$crates-io" ],
+        [ "proc-macro2", "1.0.59" ],
+        [ "quote", "1.0.28" ],
+        [ "syn", "2.0.18$crates-io" ],
         [ "wasm-bindgen-shared", "0.2.86" ]
       ]
     },
@@ -604,15 +604,15 @@
     },
     "wasm-bindgen-macro": {
       "0.2.86": [
-        [ "quote", "1.0.27" ],
+        [ "quote", "1.0.28" ],
         [ "wasm-bindgen-macro-support", "0.2.86" ]
       ]
     },
     "wasm-bindgen-macro-support": {
       "0.2.86": [
-        [ "proc-macro2", "1.0.58" ],
-        [ "quote", "1.0.27" ],
-        [ "syn", "2.0.16$crates-io" ],
+        [ "proc-macro2", "1.0.59" ],
+        [ "quote", "1.0.28" ],
+        [ "syn", "2.0.18$crates-io" ],
         [ "wasm-bindgen-backend", "0.2.86" ],
         [ "wasm-bindgen-shared", "0.2.86" ]
       ]
@@ -729,11 +729,11 @@
       }
     },
     "base64": {
-      "0.21.1": {
-        "hash": "3f1e31e207a6b8fb791a38ea3105e6cb541f55e4d029902d3039a4ad07cc4105",
+      "0.21.2": {
+        "hash": "604178f6c5c21f02dc555784810edfb88d34ac2c73b2eae109655649ee73ce3d",
         "pname": "base64",
         "type": "crates-io",
-        "version": "0.21.1"
+        "version": "0.21.2"
       }
     },
     "bitflags": {
@@ -1295,19 +1295,19 @@
       }
     },
     "proc-macro2": {
-      "1.0.58": {
-        "hash": "fa1fb82fc0c281dd9671101b66b771ebbe1eaf967b96ac8740dcba4b70005ca8",
+      "1.0.59": {
+        "hash": "6aeca18b86b413c660b781aa319e4e2648a3e6f9eadc9b47e9038e6fe9f3451b",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.58"
+        "version": "1.0.59"
       }
     },
     "quote": {
-      "1.0.27": {
-        "hash": "8f4f29d145265ec1c483c7c654450edde0bfe043d3938d6972630663356d9500",
+      "1.0.28": {
+        "hash": "1b9ab9c7eadfd8df19006f1cf1a4aed13540ed5cbc047010ece5826e10825488",
         "pname": "quote",
         "type": "crates-io",
-        "version": "1.0.27"
+        "version": "1.0.28"
       }
     },
     "rayon": {
@@ -1357,11 +1357,11 @@
       }
     },
     "regex": {
-      "1.8.2": {
-        "hash": "d1a59b5d8e97dee33696bf13c5ba8ab85341c002922fba050069326b9c498974",
+      "1.8.3": {
+        "hash": "81ca098a9821bd52d6b24fd8b10bd081f47d39c22778cafaa75a2857a62c6390",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.8.2"
+        "version": "1.8.3"
       }
     },
     "regex-syntax": {
@@ -1493,15 +1493,15 @@
       }
     },
     "syn": {
-      "2.0.16": {
-        "hash": "a6f671d4b5ffdb8eadec19c0ae67fe2639df8684bd7bc4b83d986b8db549cf01",
+      "2.0.18": {
+        "hash": "32d41677bcbe24c20c52e7c70b0d8db04134c5d1066bf98662e2871ad200ea3e",
         "type": "crates-io"
       },
-      "2.0.16$crates-io": {
-        "hash": "a6f671d4b5ffdb8eadec19c0ae67fe2639df8684bd7bc4b83d986b8db549cf01",
+      "2.0.18$crates-io": {
+        "hash": "32d41677bcbe24c20c52e7c70b0d8db04134c5d1066bf98662e2871ad200ea3e",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.16"
+        "version": "2.0.18"
       }
     },
     "syn-test-suite": {
