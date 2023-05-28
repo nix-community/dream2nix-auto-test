@@ -3,7 +3,7 @@
     "defaultPackage": "enum-as-inner",
     "location": "",
     "packages": {
-      "enum-as-inner": "0.5.1"
+      "enum-as-inner": "0.5.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,25 +12,25 @@
     "gitSources": [],
     "meta": {
       "enum-as-inner": {
-        "0.5.1": {
+        "0.5.2": {
           "description": "A proc-macro for deriving inner field accessor functions on enums.\n", "license": []
         }
       }
     },
     "relPathReplacements": {
       "enum-as-inner": {
-        "0.5.1": {}
+        "0.5.2": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "enum-as-inner": {
-      "0.5.1": [
+      "0.5.2": [
         [ "heck", "0.4.1" ],
         [ "proc-macro2", "1.0.59" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.18" ]
       ]
     },
     "proc-macro2": {
@@ -44,7 +44,7 @@
       ]
     },
     "syn": {
-      "1.0.109": [
+      "2.0.18": [
         [ "proc-macro2", "1.0.59" ],
         [ "quote", "1.0.28" ],
         [ "unicode-ident", "1.0.9" ]
@@ -53,8 +53,8 @@
   },
   "sources": {
     "enum-as-inner": {
-      "0.5.1": {
-        "hash": "c9720bba047d567ffc8a3cba48bf19126600e249ab7f128e9233e6376976a116",
+      "0.5.2": {
+        "hash": "356538125fac8ab67d41d09b010daa294659f0b6279a175a947ad5c254b6114c",
         "type": "crates-io"
       }
     },
@@ -83,11 +83,11 @@
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.18": {
+        "hash": "32d41677bcbe24c20c52e7c70b0d8db04134c5d1066bf98662e2871ad200ea3e",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.109"
+        "version": "2.0.18"
       }
     },
     "unicode-ident": {

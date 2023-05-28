@@ -3,7 +3,7 @@
     "defaultPackage": "log",
     "location": "",
     "packages": {
-      "log": "0.4.17"
+      "log": "0.4.18"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "log": {
-        "0.4.17": {
+        "0.4.18": {
           "description": "A lightweight logging facade for Rust\n", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,31 +20,26 @@
     },
     "relPathReplacements": {
       "log": {
-        "0.4.17": {}
+        "0.4.18": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "ctor": {
-      "0.1.26": [
-        [ "quote", "1.0.28" ],
-        [ "syn", "1.0.109" ]
-      ]
-    },
     "erased-serde": {
       "0.3.25": [
         [ "serde", "1.0.163" ]
       ]
     },
     "log": {
-      "0.4.17": [
-        [ "cfg-if", "1.0.0" ],
+      "0.4.18": [
         [ "rustversion", "1.0.12" ],
         [ "serde", "1.0.163" ],
         [ "serde_test", "1.0.163" ],
-        [ "sval", "1.0.0-alpha.5" ],
-        [ "value-bag", "1.0.0-alpha.9" ]
+        [ "sval", "2.4.0" ],
+        [ "sval_derive", "2.4.0" ],
+        [ "sval_ref", "2.4.0" ],
+        [ "value-bag", "1.4.0" ]
       ]
     },
     "proc-macro2": {
@@ -79,25 +74,52 @@
         [ "serde", "1.0.163" ]
       ]
     },
-    "sval": {
-      "1.0.0-alpha.5": [
-        [ "serde", "1.0.163" ],
-        [ "sval_derive", "1.0.0-alpha.5" ]
+    "sval_buffer": {
+      "2.4.0": [
+        [ "sval", "2.4.0" ],
+        [ "sval_ref", "2.4.0" ]
       ]
     },
     "sval_derive": {
-      "1.0.0-alpha.5": [
+      "2.4.0": [
         [ "proc-macro2", "1.0.59" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.18" ]
+      ]
+    },
+    "sval_dynamic": {
+      "2.4.0": [
+        [ "sval", "2.4.0" ]
+      ]
+    },
+    "sval_fmt": {
+      "2.4.0": [
+        [ "itoa", "1.0.6" ],
+        [ "ryu", "1.0.13" ],
+        [ "sval", "2.4.0" ]
+      ]
+    },
+    "sval_json": {
+      "2.4.0": [
+        [ "itoa", "1.0.6" ],
+        [ "ryu", "1.0.13" ],
+        [ "sval", "2.4.0" ]
+      ]
+    },
+    "sval_ref": {
+      "2.4.0": [
+        [ "sval", "2.4.0" ]
+      ]
+    },
+    "sval_serde": {
+      "2.4.0": [
+        [ "serde", "1.0.163" ],
+        [ "sval", "2.4.0" ],
+        [ "sval_buffer", "2.4.0" ],
+        [ "sval_fmt", "2.4.0" ]
       ]
     },
     "syn": {
-      "1.0.109": [
-        [ "proc-macro2", "1.0.59" ],
-        [ "quote", "1.0.28" ],
-        [ "unicode-ident", "1.0.9" ]
-      ],
       "2.0.18": [
         [ "proc-macro2", "1.0.59" ],
         [ "quote", "1.0.28" ],
@@ -105,33 +127,31 @@
       ]
     },
     "value-bag": {
-      "1.0.0-alpha.9": [
-        [ "ctor", "0.1.26" ],
+      "1.4.0": [
+        [ "value-bag-serde1", "1.4.0" ],
+        [ "value-bag-sval2", "1.4.0" ]
+      ]
+    },
+    "value-bag-serde1": {
+      "1.4.0": [
         [ "erased-serde", "0.3.25" ],
         [ "serde", "1.0.163" ],
-        [ "serde_fmt", "1.0.3" ],
-        [ "sval", "1.0.0-alpha.5" ],
-        [ "version_check", "0.9.4" ]
+        [ "serde_fmt", "1.0.3" ]
+      ]
+    },
+    "value-bag-sval2": {
+      "1.4.0": [
+        [ "sval", "2.4.0" ],
+        [ "sval_buffer", "2.4.0" ],
+        [ "sval_dynamic", "2.4.0" ],
+        [ "sval_fmt", "2.4.0" ],
+        [ "sval_json", "2.4.0" ],
+        [ "sval_ref", "2.4.0" ],
+        [ "sval_serde", "2.4.0" ]
       ]
     }
   },
   "sources": {
-    "cfg-if": {
-      "1.0.0": {
-        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
-        "pname": "cfg-if",
-        "type": "crates-io",
-        "version": "1.0.0"
-      }
-    },
-    "ctor": {
-      "0.1.26": {
-        "hash": "6d2301688392eb071b0bf1a37be05c469d3cc4dbbd95df672fe28ab021e6a096",
-        "pname": "ctor",
-        "type": "crates-io",
-        "version": "0.1.26"
-      }
-    },
     "erased-serde": {
       "0.3.25": {
         "hash": "4f2b0c2380453a92ea8b6c8e5f64ecaafccddde8ceab55ff7a8ac1029f894569",
@@ -140,9 +160,17 @@
         "version": "0.3.25"
       }
     },
+    "itoa": {
+      "1.0.6": {
+        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
+        "pname": "itoa",
+        "type": "crates-io",
+        "version": "1.0.6"
+      }
+    },
     "log": {
-      "0.4.17": {
-        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+      "0.4.18": {
+        "hash": "518ef76f2f87365916b142844c16d8fefd85039bc5699050210a7778ee1cd1de",
         "type": "crates-io"
       }
     },
@@ -168,6 +196,14 @@
         "pname": "rustversion",
         "type": "crates-io",
         "version": "1.0.12"
+      }
+    },
+    "ryu": {
+      "1.0.13": {
+        "hash": "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041",
+        "pname": "ryu",
+        "type": "crates-io",
+        "version": "1.0.13"
       }
     },
     "serde": {
@@ -203,28 +239,70 @@
       }
     },
     "sval": {
-      "1.0.0-alpha.5": {
-        "hash": "45f6ee7c7b87caf59549e9fe45d6a69c75c8019e79e212a835c5da0e92f0ba08",
+      "2.4.0": {
+        "hash": "1515bb3042d9613119ed1cb94e53c9caefac276f2ad6bfaa44645d20a2500af6",
         "pname": "sval",
         "type": "crates-io",
-        "version": "1.0.0-alpha.5"
+        "version": "2.4.0"
+      }
+    },
+    "sval_buffer": {
+      "2.4.0": {
+        "hash": "75d7893d7b47fc4fa42a1c4817416d61444c110ca754c724edfaa80c3cde6aa2",
+        "pname": "sval_buffer",
+        "type": "crates-io",
+        "version": "2.4.0"
       }
     },
     "sval_derive": {
-      "1.0.0-alpha.5": {
-        "hash": "774208d8ecc53864db9e1da50bd2657750936da1e05c1385728e76ecd0ca8ab2",
+      "2.4.0": {
+        "hash": "a961418c0263bd98bb6097c8005c95a68c2fe13abbce8b921c59641975bcad5c",
         "pname": "sval_derive",
         "type": "crates-io",
-        "version": "1.0.0-alpha.5"
+        "version": "2.4.0"
+      }
+    },
+    "sval_dynamic": {
+      "2.4.0": {
+        "hash": "ce4afcda4a9921629a62ee5923ebe6738db4f16d302004abfe7e17d6aeb70846",
+        "pname": "sval_dynamic",
+        "type": "crates-io",
+        "version": "2.4.0"
+      }
+    },
+    "sval_fmt": {
+      "2.4.0": {
+        "hash": "e40de95a562de713522349039425809acbfc75fec722690981da11000ef73572",
+        "pname": "sval_fmt",
+        "type": "crates-io",
+        "version": "2.4.0"
+      }
+    },
+    "sval_json": {
+      "2.4.0": {
+        "hash": "637b14955353c2f718b0b9fae94bbd6cbb5ccceeb26c7f50d4a35f662dfafab3",
+        "pname": "sval_json",
+        "type": "crates-io",
+        "version": "2.4.0"
+      }
+    },
+    "sval_ref": {
+      "2.4.0": {
+        "hash": "ad6cac002fb5fc7129160f72e73fb7bc27097119c40b14a7278719c24bdc1dd8",
+        "pname": "sval_ref",
+        "type": "crates-io",
+        "version": "2.4.0"
+      }
+    },
+    "sval_serde": {
+      "2.4.0": {
+        "hash": "67a6b4e5f23c912d433f945037f874a0e81b557a9ef2b2bdfbc7f6103c18df6c",
+        "pname": "sval_serde",
+        "type": "crates-io",
+        "version": "2.4.0"
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
-        "pname": "syn",
-        "type": "crates-io",
-        "version": "1.0.109"
-      },
       "2.0.18": {
         "hash": "32d41677bcbe24c20c52e7c70b0d8db04134c5d1066bf98662e2871ad200ea3e",
         "pname": "syn",
@@ -241,19 +319,27 @@
       }
     },
     "value-bag": {
-      "1.0.0-alpha.9": {
-        "hash": "2209b78d1249f7e6f3293657c9779fe31ced465df091bbd433a1cf88e916ec55",
+      "1.4.0": {
+        "hash": "a4d330786735ea358f3bc09eea4caa098569c1c93f342d9aca0514915022fe7e",
         "pname": "value-bag",
         "type": "crates-io",
-        "version": "1.0.0-alpha.9"
+        "version": "1.4.0"
       }
     },
-    "version_check": {
-      "0.9.4": {
-        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
-        "pname": "version_check",
+    "value-bag-serde1": {
+      "1.4.0": {
+        "hash": "4735c95b4cca1447b448e2e2e87e98d7e7498f4da27e355cf7af02204521001d",
+        "pname": "value-bag-serde1",
         "type": "crates-io",
-        "version": "0.9.4"
+        "version": "1.4.0"
+      }
+    },
+    "value-bag-sval2": {
+      "1.4.0": {
+        "hash": "859cb4f0ce7da6a118b559ba74b0e63bf569bea867c20ba457a6b1c886a04e97",
+        "pname": "value-bag-sval2",
+        "type": "crates-io",
+        "version": "1.4.0"
       }
     }
   }
