@@ -3,7 +3,7 @@
     "defaultPackage": "mio",
     "location": "",
     "packages": {
-      "mio": "0.8.6"
+      "mio": "0.8.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "mio": {
-        "0.8.6": {
+        "0.8.7": {
           "description": "Lightweight non-blocking I/O.", "homepage": "https://github.com/tokio-rs/mio", "license": [   "mit"
           ]
         }
@@ -20,14 +20,14 @@
     },
     "relPathReplacements": {
       "mio": {
-        "0.8.6": {}
+        "0.8.7": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "env_logger": {
-      "0.8.4": [
+      "0.9.3": [
         [ "log", "0.4.17" ]
       ]
     },
@@ -44,13 +44,13 @@
       ]
     },
     "mio": {
-      "0.8.6": [
-        [ "env_logger", "0.8.4" ],
+      "0.8.7": [
+        [ "env_logger", "0.9.3" ],
         [ "libc", "0.2.139" ],
         [ "log", "0.4.17" ],
         [ "rand", "0.8.5" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
-        [ "windows-sys", "0.45.0" ]
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "rand": {
@@ -72,19 +72,19 @@
       ]
     },
     "windows-sys": {
-      "0.45.0": [
-        [ "windows-targets", "0.42.1" ]
+      "0.48.0": [
+        [ "windows-targets", "0.48.0" ]
       ]
     },
     "windows-targets": {
-      "0.42.1": [
-        [ "windows_aarch64_gnullvm", "0.42.1" ],
-        [ "windows_aarch64_msvc", "0.42.1" ],
-        [ "windows_i686_gnu", "0.42.1" ],
-        [ "windows_i686_msvc", "0.42.1" ],
-        [ "windows_x86_64_gnu", "0.42.1" ],
-        [ "windows_x86_64_gnullvm", "0.42.1" ],
-        [ "windows_x86_64_msvc", "0.42.1" ]
+      "0.48.0": [
+        [ "windows_aarch64_gnullvm", "0.48.0" ],
+        [ "windows_aarch64_msvc", "0.48.0" ],
+        [ "windows_i686_gnu", "0.48.0" ],
+        [ "windows_i686_msvc", "0.48.0" ],
+        [ "windows_x86_64_gnu", "0.48.0" ],
+        [ "windows_x86_64_gnullvm", "0.48.0" ],
+        [ "windows_x86_64_msvc", "0.48.0" ]
       ]
     }
   },
@@ -98,11 +98,11 @@
       }
     },
     "env_logger": {
-      "0.8.4": {
-        "hash": "a19187fea3ac7e84da7dacf48de0c45d63c6a76f9490dae389aead16c243fce3",
+      "0.9.3": {
+        "hash": "a12e6657c4c97ebab115a42dcee77225f7f482cdd841cf7088c657a42e9e00e7",
         "pname": "env_logger",
         "type": "crates-io",
-        "version": "0.8.4"
+        "version": "0.9.3"
       }
     },
     "getrandom": {
@@ -130,8 +130,8 @@
       }
     },
     "mio": {
-      "0.8.6": {
-        "hash": "5b9d9a46eff5b4ff64b45a9e316a6d1e0bc719ef429cbec4dc630684212bfdf9",
+      "0.8.7": {
+        "hash": "eebffdb73fe72e917997fad08bdbf31ac50b0fa91cec93e69a0662e4264d454c",
         "type": "crates-io"
       }
     },
@@ -176,75 +176,75 @@
       }
     },
     "windows-sys": {
-      "0.45.0": {
-        "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
+      "0.48.0": {
+        "hash": "677d2418bec65e3338edb076e806bc1ec15693c5d0104683f2efe857f61056a9",
         "pname": "windows-sys",
         "type": "crates-io",
-        "version": "0.45.0"
+        "version": "0.48.0"
       }
     },
     "windows-targets": {
-      "0.42.1": {
-        "hash": "8e2522491fbfcd58cc84d47aeb2958948c4b8982e9a2d8a2a35bbaed431390e7",
+      "0.48.0": {
+        "hash": "7b1eb6f0cd7c80c79759c929114ef071b87354ce476d9d94271031c0497adfd5",
         "pname": "windows-targets",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     },
     "windows_aarch64_gnullvm": {
-      "0.42.1": {
-        "hash": "8c9864e83243fdec7fc9c5444389dcbbfd258f745e7853198f365e3c4968a608",
+      "0.48.0": {
+        "hash": "91ae572e1b79dba883e0d315474df7305d12f569b400fcf90581b06062f7e1bc",
         "pname": "windows_aarch64_gnullvm",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     },
     "windows_aarch64_msvc": {
-      "0.42.1": {
-        "hash": "4c8b1b673ffc16c47a9ff48570a9d85e25d265735c503681332589af6253c6c7",
+      "0.48.0": {
+        "hash": "b2ef27e0d7bdfcfc7b868b317c1d32c641a6fe4629c171b8928c7b08d98d7cf3",
         "pname": "windows_aarch64_msvc",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     },
     "windows_i686_gnu": {
-      "0.42.1": {
-        "hash": "de3887528ad530ba7bdbb1faa8275ec7a1155a45ffa57c37993960277145d640",
+      "0.48.0": {
+        "hash": "622a1962a7db830d6fd0a69683c80a18fda201879f0f447f065a3b7467daa241",
         "pname": "windows_i686_gnu",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     },
     "windows_i686_msvc": {
-      "0.42.1": {
-        "hash": "bf4d1122317eddd6ff351aa852118a2418ad4214e6613a50e0191f7004372605",
+      "0.48.0": {
+        "hash": "4542c6e364ce21bf45d69fdd2a8e455fa38d316158cfd43b3ac1c5b1b19f8e00",
         "pname": "windows_i686_msvc",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_gnu": {
-      "0.42.1": {
-        "hash": "c1040f221285e17ebccbc2591ffdc2d44ee1f9186324dd3e84e99ac68d699c45",
+      "0.48.0": {
+        "hash": "ca2b8a661f7628cbd23440e50b05d705db3686f894fc9580820623656af974b1",
         "pname": "windows_x86_64_gnu",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_gnullvm": {
-      "0.42.1": {
-        "hash": "628bfdf232daa22b0d64fdb62b09fcc36bb01f05a3939e20ab73aaf9470d0463",
+      "0.48.0": {
+        "hash": "7896dbc1f41e08872e9d5e8f8baa8fdd2677f29468c4e156210174edc7f7b953",
         "pname": "windows_x86_64_gnullvm",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_msvc": {
-      "0.42.1": {
-        "hash": "447660ad36a13288b1db4d4248e857b510e8c3a225c822ba4fb748c0aafecffd",
+      "0.48.0": {
+        "hash": "1a515f5799fe4961cb532f983ce2b23082366b898e52ffbce459c86f67c8378a",
         "pname": "windows_x86_64_msvc",
         "type": "crates-io",
-        "version": "0.42.1"
+        "version": "0.48.0"
       }
     }
   }
