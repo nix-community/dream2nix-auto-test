@@ -41,7 +41,7 @@
     "call-bind": {
       "1.0.2": [
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.2.0" ]
+        [ "get-intrinsic", "1.2.1" ]
       ]
     },
     "content-disposition": {
@@ -110,8 +110,9 @@
         [ "forwarded", "0.2.0" ],
         [ "fresh", "0.5.2" ],
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ],
         [ "http-errors", "2.0.0" ],
         [ "iconv-lite", "0.4.24" ],
@@ -159,9 +160,10 @@
       ]
     },
     "get-intrinsic": {
-      "1.2.0": [
+      "1.2.1": [
         [ "function-bind", "1.1.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ]
       ]
     },
@@ -241,7 +243,7 @@
     "side-channel": {
       "1.0.4": [
         [ "call-bind", "1.0.2" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "object-inspect", "1.12.3" ]
       ]
     },
@@ -401,10 +403,10 @@
       }
     },
     "get-intrinsic": {
-      "1.2.0": {
-        "hash": "sha512-L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==",
+      "1.2.1": {
+        "hash": "sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.0.tgz"
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz"
       }
     },
     "has": {
@@ -412,6 +414,13 @@
         "hash": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
         "type": "http",
         "url": "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
+      }
+    },
+    "has-proto": {
+      "1.0.1": {
+        "hash": "sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
       }
     },
     "has-symbols": {

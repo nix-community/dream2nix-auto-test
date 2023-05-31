@@ -158,7 +158,7 @@
         [ "dash-ast", "1.0.0" ],
         [ "defined", "1.0.1" ],
         [ "deps-sort", "2.0.1" ],
-        [ "des.js", "1.0.1" ],
+        [ "des.js", "1.1.0" ],
         [ "detective", "5.2.1" ],
         [ "diffie-hellman", "5.0.3" ],
         [ "domain-browser", "1.2.0" ],
@@ -171,10 +171,11 @@
         [ "fs.realpath", "1.0.0" ],
         [ "function-bind", "1.1.1" ],
         [ "get-assigned-identifiers", "1.2.0" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "glob", "7.2.3" ],
         [ "gopd", "1.0.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ],
         [ "has-tostringtag", "1.0.0" ],
         [ "hash-base", "3.1.0" ],
@@ -190,7 +191,7 @@
         [ "is-arguments", "1.1.1" ],
         [ "is-buffer", "1.1.6" ],
         [ "is-callable", "1.2.7" ],
-        [ "is-core-module", "2.12.0" ],
+        [ "is-core-module", "2.12.1" ],
         [ "is-generator-function", "1.0.10" ],
         [ "is-typed-array", "1.1.10" ],
         [ "isarray", "1.0.0" ],
@@ -279,7 +280,7 @@
     "browserify-des": {
       "1.0.2": [
         [ "cipher-base", "1.0.4" ],
-        [ "des.js", "1.0.1" ],
+        [ "des.js", "1.1.0" ],
         [ "inherits", "2.0.4" ],
         [ "safe-buffer", "5.2.1" ]
       ]
@@ -317,7 +318,7 @@
     "call-bind": {
       "1.0.2": [
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.2.0" ]
+        [ "get-intrinsic", "1.2.1" ]
       ]
     },
     "cipher-base": {
@@ -391,7 +392,7 @@
       ]
     },
     "des.js": {
-      "1.0.1": [
+      "1.1.0": [
         [ "inherits", "2.0.4" ],
         [ "minimalistic-assert", "1.0.1" ]
       ]
@@ -438,9 +439,10 @@
       ]
     },
     "get-intrinsic": {
-      "1.2.0": [
+      "1.2.1": [
         [ "function-bind", "1.1.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ]
       ]
     },
@@ -456,7 +458,7 @@
     },
     "gopd": {
       "1.0.1": [
-        [ "get-intrinsic", "1.2.0" ]
+        [ "get-intrinsic", "1.2.1" ]
       ]
     },
     "has": {
@@ -521,7 +523,7 @@
       ]
     },
     "is-core-module": {
-      "2.12.0": [
+      "2.12.1": [
         [ "has", "1.0.3" ]
       ]
     },
@@ -654,7 +656,7 @@
     },
     "resolve": {
       "1.22.2": [
-        [ "is-core-module", "2.12.0" ],
+        [ "is-core-module", "2.12.1" ],
         [ "path-parse", "1.0.7" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ]
       ]
@@ -1070,10 +1072,10 @@
       }
     },
     "des.js": {
-      "1.0.1": {
-        "hash": "sha512-Q0I4pfFrv2VPd34/vfLrFOoRmlYj3OV50i7fskps1jZWK1kApMWWT9G6RRUeYedLcBDIhnSDaUvJMb3AhUlaEA==",
+      "1.1.0": {
+        "hash": "sha512-r17GxjhUCjSRy8aiJpr8/UadFIzMzJGexI3Nmz4ADi9LYSFx4gTBp80+NaX/YsXWWLhpZ7v/v/ubEc/bCNfKwg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/des.js/-/des.js-1.0.1.tgz"
+        "url": "https://registry.npmjs.org/des.js/-/des.js-1.1.0.tgz"
       }
     },
     "detective": {
@@ -1161,10 +1163,10 @@
       }
     },
     "get-intrinsic": {
-      "1.2.0": {
-        "hash": "sha512-L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==",
+      "1.2.1": {
+        "hash": "sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.0.tgz"
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz"
       }
     },
     "glob": {
@@ -1186,6 +1188,13 @@
         "hash": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
         "type": "http",
         "url": "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
+      }
+    },
+    "has-proto": {
+      "1.0.1": {
+        "hash": "sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
       }
     },
     "has-symbols": {
@@ -1299,10 +1308,10 @@
       }
     },
     "is-core-module": {
-      "2.12.0": {
-        "hash": "sha512-RECHCBCd/viahWmwj6enj19sKbHfJrddi/6cBDsNTKbNq0f7VeaUkBo60BqzvPqo/W54ChS62Z5qyun7cfOMqQ==",
+      "2.12.1": {
+        "hash": "sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.0.tgz"
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.1.tgz"
       }
     },
     "is-generator-function": {

@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/webpack",
+    "location": "",
+    "packages": {
+      "@types/webpack": "3.8.22"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/uglify-js": {
+      "3.17.1": [
+        [ "source-map", "0.6.1" ]
+      ]
+    },
+    "@types/webpack": {
+      "3.8.22": [
+        [ "@types/node", "20.2.5" ],
+        [ "@types/tapable", "0.2.5" ],
+        [ "@types/uglify-js", "3.17.1" ],
+        [ "source-map", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "@types/node", "20.2.5" ],
+        [ "@types/tapable", "0.2.5" ],
+        [ "@types/uglify-js", "3.17.1" ],
+        [ "@types/webpack", "3.8.22" ],
+        [ "source-map", "0.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "20.2.5": {
+        "hash": "sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-20.2.5.tgz"
+      }
+    },
+    "@types/tapable": {
+      "0.2.5": {
+        "hash": "sha512-dEoVvo/I9QFomyhY+4Q6Qk+I+dhG59TYceZgC6Q0mCifVPErx6Y83PNTKGDS5e9h9Eti6q0S2mm16BU6iQK+3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/tapable/-/tapable-0.2.5.tgz"
+      }
+    },
+    "@types/uglify-js": {
+      "3.17.1": {
+        "hash": "sha512-GkewRA4i5oXacU/n4MA9+bLgt5/L3F1mKrYvFGm7r2ouLXhRKjuWwo9XHNnbx6WF3vlGW21S3fCvgqxvxXXc5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/uglify-js/-/uglify-js-3.17.1.tgz"
+      }
+    },
+    "@types/webpack": {
+      "3.8.22": {
+        "hash": "sha512-Ny6EY6gj5Tvngbz3Hh/7F2gt011yKpDp9/nZumtsnnYcRbFKSSaoBgPE38G4uwwDwJk0FZxHSSq9X2ihihXAGg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/webpack/-/webpack-3.8.22.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "_generic": {
+    "defaultPackage": "react-redux",
+    "location": "",
+    "packages": {
+      "react-redux": "8.0.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.22.3": [
+        [ "regenerator-runtime", "0.13.11" ]
+      ]
+    },
+    "@types/hoist-non-react-statics": {
+      "3.3.1": [
+        [ "@types/react", "18.2.7" ],
+        [ "hoist-non-react-statics", "3.3.2" ]
+      ]
+    },
+    "@types/react": {
+      "18.2.7": [
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/scheduler", "0.16.3" ],
+        [ "csstype", "3.1.2" ]
+      ]
+    },
+    "hoist-non-react-statics": {
+      "3.3.2": [
+        [ "react-is", "16.13.1" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-redux": {
+      "8.0.7": [
+        [ "@babel/runtime", "7.22.3" ],
+        [ "@types/hoist-non-react-statics", "3.3.1" ],
+        [ "@types/use-sync-external-store", "0.0.3" ],
+        [ "hoist-non-react-statics", "3.3.2" ],
+        [ "react-is", "18.2.0" ],
+        [ "use-sync-external-store", "1.2.0" ]
+      ],
+      "unknown": [
+        [ "@babel/runtime", "7.22.3" ],
+        [ "@types/hoist-non-react-statics", "3.3.1" ],
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/react", "18.2.7" ],
+        [ "@types/scheduler", "0.16.3" ],
+        [ "@types/use-sync-external-store", "0.0.3" ],
+        [ "csstype", "3.1.2" ],
+        [ "hoist-non-react-statics", "3.3.2" ],
+        [ "js-tokens", "4.0.0" ],
+        [ "loose-envify", "1.4.0" ],
+        [ "react", "18.2.0" ],
+        [ "react-is", "18.2.0" ],
+        [ "react-redux", "8.0.7" ],
+        [ "regenerator-runtime", "0.13.11" ],
+        [ "use-sync-external-store", "1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.22.3": {
+        "hash": "sha512-XsDuspWKLUsxwCp6r7EhsExHtYfbe5oAGQ19kqngTdCPUoPQzOPdUbD/pB9PJiwb2ptYKQDjSJT3R6dC+EPqfQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.22.3.tgz"
+      }
+    },
+    "@types/hoist-non-react-statics": {
+      "3.3.1": {
+        "hash": "sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz"
+      }
+    },
+    "@types/prop-types": {
+      "15.7.5": {
+        "hash": "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
+      }
+    },
+    "@types/react": {
+      "18.2.7": {
+        "hash": "sha512-ojrXpSH2XFCmHm7Jy3q44nXDyN54+EYKP2lBhJ2bqfyPj6cIUW/FZW/Csdia34NQgq7KYcAlHi5184m4X88+yw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react/-/react-18.2.7.tgz"
+      }
+    },
+    "@types/scheduler": {
+      "0.16.3": {
+        "hash": "sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.3.tgz"
+      }
+    },
+    "@types/use-sync-external-store": {
+      "0.0.3": {
+        "hash": "sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.3.tgz"
+      }
+    },
+    "csstype": {
+      "3.1.2": {
+        "hash": "sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz"
+      }
+    },
+    "hoist-non-react-statics": {
+      "3.3.2": {
+        "hash": "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "react-is": {
+      "16.13.1": {
+        "hash": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
+      },
+      "18.2.0": {
+        "hash": "sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
+      }
+    },
+    "react-redux": {
+      "8.0.7": {
+        "hash": "sha512-1vRQuCQI5Y2uNmrMXg81RXKiBHY3jBzvCvNmZF437O/Z9/pZ+ba2uYHbemYXb3g8rjsacBGo+/wmfrQKzMhJsg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-redux/-/react-redux-8.0.7.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.11": {
+        "hash": "sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+      }
+    },
+    "use-sync-external-store": {
+      "1.2.0": {
+        "hash": "sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
+      }
+    }
+  }
+}

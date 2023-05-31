@@ -18,7 +18,7 @@
   "dependencies": {
     "@types/cors": {
       "2.8.13": [
-        [ "@types/node", "18.16.3" ]
+        [ "@types/node", "20.2.5" ]
       ]
     },
     "accepts": {
@@ -68,7 +68,7 @@
     "call-bind": {
       "1.0.2": [
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.2.0" ]
+        [ "get-intrinsic", "1.2.1" ]
       ]
     },
     "chokidar": {
@@ -129,13 +129,13 @@
       "6.4.2": [
         [ "@types/cookie", "0.4.1" ],
         [ "@types/cors", "2.8.13" ],
-        [ "@types/node", "18.16.3" ],
+        [ "@types/node", "20.2.5" ],
         [ "accepts", "1.3.8" ],
         [ "base64id", "2.0.0" ],
         [ "cookie", "0.4.2" ],
         [ "cors", "2.8.5" ],
         [ "debug", "4.3.4" ],
-        [ "engine.io-parser", "5.0.6" ],
+        [ "engine.io-parser", "5.0.7" ],
         [ "ws", "8.11.0" ]
       ]
     },
@@ -163,9 +163,10 @@
       ]
     },
     "get-intrinsic": {
-      "1.2.0": [
+      "1.2.1": [
         [ "function-bind", "1.1.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ]
       ]
     },
@@ -268,7 +269,7 @@
         [ "@socket.io/component-emitter", "3.1.0" ],
         [ "@types/cookie", "0.4.1" ],
         [ "@types/cors", "2.8.13" ],
-        [ "@types/node", "18.16.3" ],
+        [ "@types/node", "20.2.5" ],
         [ "accepts", "1.3.8" ],
         [ "ansi-regex", "5.0.1" ],
         [ "ansi-styles", "4.3.0" ],
@@ -301,7 +302,7 @@
         [ "emoji-regex", "8.0.0" ],
         [ "encodeurl", "1.0.2" ],
         [ "engine.io", "6.4.2" ],
-        [ "engine.io-parser", "5.0.6" ],
+        [ "engine.io-parser", "5.0.7" ],
         [ "ent", "2.2.0" ],
         [ "escalade", "3.1.1" ],
         [ "escape-html", "1.0.3" ],
@@ -316,11 +317,12 @@
         [ "fsevents", "2.3.2" ],
         [ "function-bind", "1.1.1" ],
         [ "get-caller-file", "2.0.5" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "glob", "7.2.3" ],
         [ "glob-parent", "5.1.2" ],
         [ "graceful-fs", "4.2.11" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ],
         [ "http-errors", "2.0.0" ],
         [ "http-proxy", "1.18.1" ],
@@ -370,7 +372,7 @@
         [ "side-channel", "1.0.4" ],
         [ "socket.io", "4.6.1" ],
         [ "socket.io-adapter", "2.5.2" ],
-        [ "socket.io-parser", "4.2.2" ],
+        [ "socket.io-parser", "4.2.3" ],
         [ "source-map", "0.6.1" ],
         [ "statuses", "1.5.0" ],
         [ "streamroller", "3.1.5" ],
@@ -457,7 +459,7 @@
     "side-channel": {
       "1.0.4": [
         [ "call-bind", "1.0.2" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "object-inspect", "1.12.3" ]
       ]
     },
@@ -468,7 +470,7 @@
         [ "debug", "4.3.4" ],
         [ "engine.io", "6.4.2" ],
         [ "socket.io-adapter", "2.5.2" ],
-        [ "socket.io-parser", "4.2.2" ]
+        [ "socket.io-parser", "4.2.3" ]
       ]
     },
     "socket.io-adapter": {
@@ -477,7 +479,7 @@
       ]
     },
     "socket.io-parser": {
-      "4.2.2": [
+      "4.2.3": [
         [ "@socket.io/component-emitter", "3.1.0" ],
         [ "debug", "4.3.4" ]
       ]
@@ -566,10 +568,10 @@
       }
     },
     "@types/node": {
-      "18.16.3": {
-        "hash": "sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==",
+      "20.2.5": {
+        "hash": "sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.16.3.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-20.2.5.tgz"
       }
     },
     "accepts": {
@@ -802,10 +804,10 @@
       }
     },
     "engine.io-parser": {
-      "5.0.6": {
-        "hash": "sha512-tjuoZDMAdEhVnSFleYPCtdL2GXwVTGtNjoeJd9IhIG3C1xs9uwxqRNEu5WpnDZCaozwVlK/nuQhpodhXSIMaxw==",
+      "5.0.7": {
+        "hash": "sha512-P+jDFbvK6lE3n1OL+q9KuzdOFWkkZ/cMV9gol/SbVfpyqfvrfrFTOFJ6fQm2VC3PZHlU3QPhVwmbsCnauHF2MQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.0.6.tgz"
+        "url": "https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.0.7.tgz"
       }
     },
     "ent": {
@@ -907,10 +909,10 @@
       }
     },
     "get-intrinsic": {
-      "1.2.0": {
-        "hash": "sha512-L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==",
+      "1.2.1": {
+        "hash": "sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.0.tgz"
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz"
       }
     },
     "glob": {
@@ -939,6 +941,13 @@
         "hash": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
         "type": "http",
         "url": "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
+      }
+    },
+    "has-proto": {
+      "1.0.1": {
+        "hash": "sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
       }
     },
     "has-symbols": {
@@ -1295,10 +1304,10 @@
       }
     },
     "socket.io-parser": {
-      "4.2.2": {
-        "hash": "sha512-DJtziuKypFkMMHCm2uIshOYC7QaylbtzQwiMYDuCKy3OPkjLzu4B2vAhTlqipRHHzrI0NJeBAizTK7X+6m1jVw==",
+      "4.2.3": {
+        "hash": "sha512-JMafRntWVO2DCJimKsRTh/wnqVvO4hrfwOqtO7f+uzwsQMuxO6VwImtYxaQ+ieoyshWOTJyV0fA21lccEXRPpQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-4.2.2.tgz"
+        "url": "https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-4.2.3.tgz"
       }
     },
     "source-map": {

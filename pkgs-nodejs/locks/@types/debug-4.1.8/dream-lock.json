@@ -1,0 +1,45 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/debug",
+    "location": "",
+    "packages": {
+      "@types/debug": "4.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/debug": {
+      "4.1.8": [
+        [ "@types/ms", "0.7.31" ]
+      ],
+      "unknown": [
+        [ "@types/debug", "4.1.8" ],
+        [ "@types/ms", "0.7.31" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/debug": {
+      "4.1.8": {
+        "hash": "sha512-/vPO1EPOs306Cvhwv7KfVfYvOJqA/S/AXjaHQiJboCZzcNDb+TIJFN9/2C9DZ//ijSKWioNyUxD792QmDJ+HKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/debug/-/debug-4.1.8.tgz"
+      }
+    },
+    "@types/ms": {
+      "0.7.31": {
+        "hash": "sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/ms/-/ms-0.7.31.tgz"
+      }
+    }
+  }
+}

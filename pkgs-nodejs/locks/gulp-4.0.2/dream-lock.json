@@ -171,7 +171,7 @@
     "call-bind": {
       "1.0.2": [
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.2.0" ]
+        [ "get-intrinsic", "1.2.1" ]
       ]
     },
     "chokidar": {
@@ -441,9 +441,10 @@
       ]
     },
     "get-intrinsic": {
-      "1.2.0": [
+      "1.2.1": [
         [ "function-bind", "1.1.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ]
       ]
     },
@@ -610,7 +611,7 @@
         [ "fsevents", "1.2.13" ],
         [ "function-bind", "1.1.1" ],
         [ "get-caller-file", "1.0.3" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "get-value", "2.0.6" ],
         [ "glob", "7.2.3" ],
         [ "glob-parent", "3.1.0" ],
@@ -625,6 +626,7 @@
         [ "gulplog", "1.0.0" ],
         [ "has", "1.0.3" ],
         [ "has-property-descriptors", "1.0.0" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ],
         [ "has-value", "1.0.0" ],
         [ "has-values", "1.0.0" ],
@@ -640,7 +642,7 @@
         [ "is-arrayish", "0.2.1" ],
         [ "is-binary-path", "1.0.1" ],
         [ "is-buffer", "1.1.6" ],
-        [ "is-core-module", "2.12.0" ],
+        [ "is-core-module", "2.12.1" ],
         [ "is-data-descriptor", "1.0.0" ],
         [ "is-descriptor", "1.0.2" ],
         [ "is-extendable", "0.1.1" ],
@@ -832,7 +834,7 @@
     },
     "has-property-descriptors": {
       "1.0.0": [
-        [ "get-intrinsic", "1.2.0" ]
+        [ "get-intrinsic", "1.2.1" ]
       ]
     },
     "has-value": {
@@ -884,7 +886,7 @@
       ]
     },
     "is-core-module": {
-      "2.12.0": [
+      "2.12.1": [
         [ "has", "1.0.3" ]
       ]
     },
@@ -1251,7 +1253,7 @@
     },
     "resolve": {
       "1.22.2": [
-        [ "is-core-module", "2.12.0" ],
+        [ "is-core-module", "2.12.1" ],
         [ "path-parse", "1.0.7" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ]
       ]
@@ -2206,10 +2208,10 @@
       }
     },
     "get-intrinsic": {
-      "1.2.0": {
-        "hash": "sha512-L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==",
+      "1.2.1": {
+        "hash": "sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.0.tgz"
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz"
       }
     },
     "get-value": {
@@ -2308,6 +2310,13 @@
         "hash": "sha512-62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.0.tgz"
+      }
+    },
+    "has-proto": {
+      "1.0.1": {
+        "hash": "sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
       }
     },
     "has-symbols": {
@@ -2431,10 +2440,10 @@
       }
     },
     "is-core-module": {
-      "2.12.0": {
-        "hash": "sha512-RECHCBCd/viahWmwj6enj19sKbHfJrddi/6cBDsNTKbNq0f7VeaUkBo60BqzvPqo/W54ChS62Z5qyun7cfOMqQ==",
+      "2.12.1": {
+        "hash": "sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.0.tgz"
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.1.tgz"
       }
     },
     "is-data-descriptor": {

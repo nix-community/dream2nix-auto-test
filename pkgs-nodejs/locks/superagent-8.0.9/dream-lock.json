@@ -19,7 +19,7 @@
     "call-bind": {
       "1.0.2": [
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.2.0" ]
+        [ "get-intrinsic", "1.2.1" ]
       ]
     },
     "combined-stream": {
@@ -50,13 +50,14 @@
         [ "dezalgo", "1.0.4" ],
         [ "hexoid", "1.0.0" ],
         [ "once", "1.4.0" ],
-        [ "qs", "6.11.1" ]
+        [ "qs", "6.11.2" ]
       ]
     },
     "get-intrinsic": {
-      "1.2.0": [
+      "1.2.1": [
         [ "function-bind", "1.1.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ]
       ]
     },
@@ -81,19 +82,19 @@
       ]
     },
     "qs": {
-      "6.11.1": [
+      "6.11.2": [
         [ "side-channel", "1.0.4" ]
       ]
     },
     "semver": {
-      "7.5.0": [
+      "7.5.1": [
         [ "lru-cache", "6.0.0" ]
       ]
     },
     "side-channel": {
       "1.0.4": [
         [ "call-bind", "1.0.2" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "object-inspect", "1.12.3" ]
       ]
     },
@@ -107,8 +108,8 @@
         [ "formidable", "2.1.2" ],
         [ "methods", "1.1.2" ],
         [ "mime", "2.6.0" ],
-        [ "qs", "6.11.1" ],
-        [ "semver", "7.5.0" ]
+        [ "qs", "6.11.2" ],
+        [ "semver", "7.5.1" ]
       ],
       "unknown": [
         [ "asap", "2.0.6" ],
@@ -124,8 +125,9 @@
         [ "form-data", "4.0.0" ],
         [ "formidable", "2.1.2" ],
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.2.0" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
         [ "has-symbols", "1.0.3" ],
         [ "hexoid", "1.0.0" ],
         [ "lru-cache", "6.0.0" ],
@@ -136,8 +138,8 @@
         [ "ms", "2.1.2" ],
         [ "object-inspect", "1.12.3" ],
         [ "once", "1.4.0" ],
-        [ "qs", "6.11.1" ],
-        [ "semver", "7.5.0" ],
+        [ "qs", "6.11.2" ],
+        [ "semver", "7.5.1" ],
         [ "side-channel", "1.0.4" ],
         [ "superagent", "8.0.9" ],
         [ "wrappy", "1.0.2" ],
@@ -238,10 +240,10 @@
       }
     },
     "get-intrinsic": {
-      "1.2.0": {
-        "hash": "sha512-L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==",
+      "1.2.1": {
+        "hash": "sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.0.tgz"
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz"
       }
     },
     "has": {
@@ -249,6 +251,13 @@
         "hash": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
         "type": "http",
         "url": "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
+      }
+    },
+    "has-proto": {
+      "1.0.1": {
+        "hash": "sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
       }
     },
     "has-symbols": {
@@ -322,17 +331,17 @@
       }
     },
     "qs": {
-      "6.11.1": {
-        "hash": "sha512-0wsrzgTz/kAVIeuxSjnpGC56rzYtr6JT/2BwEvMaPhFIoYa1aGO8LbzuU1R0uUYQkLpWBTOj0l/CLAJB64J6nQ==",
+      "6.11.2": {
+        "hash": "sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/qs/-/qs-6.11.1.tgz"
+        "url": "https://registry.npmjs.org/qs/-/qs-6.11.2.tgz"
       }
     },
     "semver": {
-      "7.5.0": {
-        "hash": "sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==",
+      "7.5.1": {
+        "hash": "sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/semver/-/semver-7.5.0.tgz"
+        "url": "https://registry.npmjs.org/semver/-/semver-7.5.1.tgz"
       }
     },
     "side-channel": {
