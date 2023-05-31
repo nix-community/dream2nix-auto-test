@@ -17,9 +17,8 @@
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
       "StateVar#1.2.2": "3c022c00485fe165e3080d5da6b3ca9c9b02f62c5deebc584d1b3d1309ce673e",
       "aeson#2.1.2.1": "5b8d62a60963a925c4d123a46e42a8e235a32188522c9f119f64ac228c2612a7",
-      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal#1.0": "640ffecfd95471388d939fcacb57bdc0cef15f0457746c234a12cdd5a6c6d1e8",
       "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
-      "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
       "assoc#1.1": "ac83c915110288bca295386daf834936b9fd16d654bea8d8898bf091626c5c82",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
@@ -37,7 +36,7 @@
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
       "comonad#5.0.8": "1f1aabd73ec7f80f20cf078a748a60cd48d8e57277802fdf6a9ab3601a9b8f7e",
       "contravariant#1.5.5": "470ed0e040e879e2da4af1b2c8f94e199f6135852a8107858d5ae0a95365835f",
-      "criterion#1.6.0.0": "6c0d247b3101c827e8e87df3a4cfeb9b0d2cc4ee1f4dd5726f41063ef58f01eb",
+      "criterion#1.6.2.0": "256081026738835780a97314180972788d00847a7f4224cdab5612e8360b96a0",
       "criterion-measurement#0.2.1.0": "646d5b5c55499580747746396b731ef9d6e2cd59fa7b488354788e68eae8e9bc",
       "cryptonite#0.30": "12c85dea7be63e5ad90bcb487eb3846bf3c413347f94336fa1dede7b28f9936a",
       "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
@@ -58,8 +57,10 @@
       "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
       "microstache#1.0.2.3": "d14104c814878f6a161a753d1c6b8d7ee1d0546c984f907a516038d6c0b79011",
       "mwc-random#0.15.0.2": "109e0fb72ce64bda468fc44d9cb5abbf455d6337140b57eb851a8183baba0597",
-      "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
+      "optparse-applicative#0.18.1.0": "b4cf8d9018e5e67cb1f14edb5130b6d05ad8bc1b5f6bd4efaa6ec0b7f28f559d",
       "parallel#3.2.2.0": "c652c3c6e927ba461f40ee374f80e2e1ecfe833e950654d4303a3b15597624b8",
+      "prettyprinter#1.7.1": "9c43c9d8c3cd9f445596e5a2379574bba87f935a4d1fa41b5407ee3cf4edc743",
+      "prettyprinter-ansi-terminal#1.1.3": "b00f727b964cf13adff7acf575a71fa7e405f5240aff50b07f10df76ab89f8d3",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "scientific#0.3.7.0": "26d8109106963a345368011081453d25ee1dfa6afae2b1f57b426b4bcd392d91",
@@ -98,8 +99,8 @@
       ]
     },
     "criterion": {
-      "1.6.0.0": [
-        [ "criterion", "1.6.0.0" ]
+      "1.6.2.0": [
+        [ "criterion", "1.6.2.0" ]
       ]
     },
     "cryptohash": {
@@ -158,7 +159,7 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.5": [
+      "1.0": [
         [ "ansi-terminal-types", "0.11.5" ],
         [ "colour", "2.3.6" ]
       ]
@@ -166,11 +167,6 @@
     "ansi-terminal-types": {
       "0.11.5": [
         [ "colour", "2.3.6" ]
-      ]
-    },
-    "ansi-wl-pprint": {
-      "0.6.9": [
-        [ "ansi-terminal", "0.11.5" ]
       ]
     },
     "assoc": {
@@ -247,10 +243,9 @@
       ]
     },
     "criterion": {
-      "1.6.0.0": [
+      "1.6.2.0": [
         [ "Glob", "0.10.2" ],
         [ "aeson", "2.1.2.1" ],
-        [ "ansi-wl-pprint", "0.6.9" ],
         [ "base-compat-batteries", "0.13.0" ],
         [ "binary-orphans", "1.0.4.1" ],
         [ "cassava", "0.5.3.0" ],
@@ -259,14 +254,16 @@
         [ "js-chart", "2.9.4.1" ],
         [ "microstache", "1.0.2.3" ],
         [ "mwc-random", "0.15.0.2" ],
-        [ "optparse-applicative", "0.17.0.0" ],
+        [ "optparse-applicative", "0.18.1.0" ],
+        [ "prettyprinter", "1.7.1" ],
+        [ "prettyprinter-ansi-terminal", "1.1.3" ],
         [ "statistics", "0.16.2.0" ],
         [ "transformers-compat", "0.7.2" ],
         [ "vector", "0.13.0.0" ],
         [ "vector-algorithms", "0.9.0.1" ],
         [ "base-compat-batteries", "0.13.0" ],
-        [ "criterion", "1.6.0.0" ],
-        [ "optparse-applicative", "0.17.0.0" ]
+        [ "criterion", "1.6.2.0" ],
+        [ "optparse-applicative", "0.18.1.0" ]
       ]
     },
     "criterion-measurement": {
@@ -282,12 +279,12 @@
         [ "cryptonite", "0.30" ],
         [ "memory", "0.18.0" ],
         [ "byteable", "0.1.1" ],
-        [ "criterion", "1.6.0.0" ],
+        [ "criterion", "1.6.2.0" ],
         [ "cryptohash", "0.11.9" ],
-        [ "criterion", "1.6.0.0" ],
+        [ "criterion", "1.6.2.0" ],
         [ "cryptohash", "0.11.9" ],
         [ "byteable", "0.1.1" ],
-        [ "criterion", "1.6.0.0" ],
+        [ "criterion", "1.6.2.0" ],
         [ "cryptohash", "0.11.9" ],
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
@@ -373,9 +370,16 @@
       ]
     },
     "optparse-applicative": {
-      "0.17.0.0": [
-        [ "ansi-wl-pprint", "0.6.9" ],
+      "0.18.1.0": [
+        [ "prettyprinter", "1.7.1" ],
+        [ "prettyprinter-ansi-terminal", "1.1.3" ],
         [ "transformers-compat", "0.7.2" ]
+      ]
+    },
+    "prettyprinter-ansi-terminal": {
+      "1.1.3": [
+        [ "ansi-terminal", "1.0" ],
+        [ "prettyprinter", "1.7.1" ]
       ]
     },
     "primitive": {
@@ -447,8 +451,8 @@
     },
     "tasty": {
       "1.4.3": [
-        [ "ansi-terminal", "0.11.5" ],
-        [ "optparse-applicative", "0.17.0.0" ],
+        [ "ansi-terminal", "1.0" ],
+        [ "optparse-applicative", "0.18.1.0" ],
         [ "tagged", "0.8.7" ]
       ]
     },
@@ -461,7 +465,7 @@
     "tasty-quickcheck": {
       "0.10.2": [
         [ "QuickCheck", "2.14.2" ],
-        [ "optparse-applicative", "0.17.0.0" ],
+        [ "optparse-applicative", "0.18.1.0" ],
         [ "random", "1.2.1.1" ],
         [ "tagged", "0.8.7" ],
         [ "tasty", "1.4.3" ]
@@ -581,10 +585,10 @@
       }
     },
     "ansi-terminal": {
-      "0.11.5": {
-        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
+      "1.0": {
+        "hash": "sha256:0798a98f79189e62b5ff0aa247ba95fc3845f0f6f1e14ecceb37facfbdd5cfc9",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-1.0.tar.gz"
       }
     },
     "ansi-terminal-types": {
@@ -592,13 +596,6 @@
         "hash": "sha256:bf7b230389f43105100a6d5740822598a88b38eaaf7d042de595ccf72db4fdd1",
         "type": "http",
         "url": "https://hackage.haskell.org/package/ansi-terminal-types-0.11.5.tar.gz"
-      }
-    },
-    "ansi-wl-pprint": {
-      "0.6.9": {
-        "hash": "sha256:a7b2e8e7cd3f02f2954e8b17dc60a0ccd889f49e2068ebb15abfa1d42f7a4eac",
-        "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-wl-pprint-0.6.9.tar.gz"
       }
     },
     "assoc": {
@@ -721,10 +718,10 @@
       }
     },
     "criterion": {
-      "1.6.0.0": {
-        "hash": "sha256:4029ef9ccd158e995a97827bb50d189a98a0875ea4b73300276fac1510a252b0",
+      "1.6.2.0": {
+        "hash": "sha256:b5093c9041877d388c997dbe765053af46b66c0e6e19fa02fca9132b04d431fa",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/criterion-1.6.0.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/criterion-1.6.2.0.tar.gz"
       }
     },
     "criterion-measurement": {
@@ -875,10 +872,10 @@
       }
     },
     "optparse-applicative": {
-      "0.17.0.0": {
-        "hash": "sha256:825b2e4d3dafe0ba64a073366a88062b3712b81f851793d9ce2327bee70af724",
+      "0.18.1.0": {
+        "hash": "sha256:63811ab4fd26e829b8868364325a88be3acc79819f5bb5005b2dd3b961ecc491",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.0.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/optparse-applicative-0.18.1.0.tar.gz"
       }
     },
     "parallel": {
@@ -886,6 +883,20 @@
         "hash": "sha256:170453a71a2a8b31cca63125533f7771d7debeb639700bdabdd779c34d8a6ef6",
         "type": "http",
         "url": "https://hackage.haskell.org/package/parallel-3.2.2.0.tar.gz"
+      }
+    },
+    "prettyprinter": {
+      "1.7.1": {
+        "hash": "sha256:5e6ea6903114fa118fcc359633dfb7ecddecb92c06c853d02a77b72b251f0b45",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/prettyprinter-1.7.1.tar.gz"
+      }
+    },
+    "prettyprinter-ansi-terminal": {
+      "1.1.3": {
+        "hash": "sha256:813739308ad6050620578994effe21058a170a341716acf52573fae42b5b1db3",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.3.tar.gz"
       }
     },
     "primitive": {

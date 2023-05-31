@@ -16,7 +16,7 @@
       "basement#0.0.15": "2bf8ea6a351fb049399ccf1fa2c2513ddb0d8274b87bd9146ed7603fa06cd8a8",
       "bitvec#1.1.4.0": "8991eec6409f181bd6ccb20e24ac759659940170cd00ca530ec7dd5ffa4f30fc",
       "byteable#0.1.1": "12eeda93251d4b5d510ac95cf578f5c89d4a399b14ca73116deaf4921a516fdf",
-      "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
+      "conduit#1.3.5": "22665df25c9c158d5fcfb299e46b0b642868add42a6bb13b79d457dc7ff7be1a",
       "conduit-extra#1.3.6": "83303e6fea78a683fdbb41682fc8dbc47b1d8830da1f09e88940f9a744a7f984",
       "cryptohash#0.11.9": "59d9494ba0cc9eef087ecba2e12e4d3e2d3b0327dd1542af552e3dca0e7de70d",
       "cryptonite#0.30": "12c85dea7be63e5ad90bcb487eb3846bf3c413347f94336fa1dede7b28f9936a",
@@ -26,7 +26,7 @@
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
       "memory#0.18.0": "e12bde756b01c1a28c62e46f0f8433c4890898051a786794a7d88907ca14abca",
       "mono-traversable#1.0.15.3": "059bf3c05cdbef2d06b765333fe41c2168ced2503a23de674e2a59ceb2548c48",
-      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
+      "network#3.1.4.0": "d50e055f45bd09a8238200ec64ffa0f17492c32cdb5807487894388ce1c2f839",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "resourcet#1.3.0": "faa760fb28fb5c98fbe4867e375a775495cabc00926da81fa102dc991017d2c5",
@@ -73,7 +73,7 @@
       ]
     },
     "conduit": {
-      "1.3.4.3": [
+      "1.3.5": [
         [ "mono-traversable", "1.0.15.3" ],
         [ "primitive", "0.8.0.0" ],
         [ "resourcet", "1.3.0" ],
@@ -85,8 +85,8 @@
       "1.3.6": [
         [ "async", "2.2.4" ],
         [ "attoparsec", "0.14.4" ],
-        [ "conduit", "1.3.4.3" ],
-        [ "network", "3.1.2.8" ],
+        [ "conduit", "1.3.5" ],
+        [ "network", "3.1.4.0" ],
         [ "primitive", "0.8.0.0" ],
         [ "resourcet", "1.3.0" ],
         [ "streaming-commons", "0.2.2.6" ],
@@ -103,7 +103,7 @@
     },
     "cryptohash-conduit": {
       "0.1.1": [
-        [ "conduit", "1.3.4.3" ],
+        [ "conduit", "1.3.5" ],
         [ "conduit-extra", "1.3.6" ],
         [ "cryptohash", "0.11.9" ],
         [ "resourcet", "1.3.0" ]
@@ -136,7 +136,7 @@
       ]
     },
     "network": {
-      "3.1.2.8": [
+      "3.1.4.0": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -166,7 +166,7 @@
     "streaming-commons": {
       "0.2.2.6": [
         [ "async", "2.2.4" ],
-        [ "network", "3.1.2.8" ],
+        [ "network", "3.1.4.0" ],
         [ "random", "1.2.1.1" ],
         [ "zlib", "0.6.3.0" ]
       ]
@@ -240,10 +240,10 @@
       }
     },
     "conduit": {
-      "1.3.4.3": {
-        "hash": "sha256:aca2a086a6ee065a5d1f1efc0632bccf52a8f961e4134a4fb60447765987907d",
+      "1.3.5": {
+        "hash": "sha256:2bb0d3e0eecc43e3d1d8cfc2125914f9175cde752be2d5908a1e120f321c782d",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/conduit-1.3.4.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/conduit-1.3.5.tar.gz"
       }
     },
     "conduit-extra": {
@@ -317,10 +317,10 @@
       }
     },
     "network": {
-      "3.1.2.8": {
-        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
+      "3.1.4.0": {
+        "hash": "sha256:b452a2afac95d9207357eb3820c719c7c7d27871ef4b6ed7bfcd03a036b9158e",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.4.0.tar.gz"
       }
     },
     "primitive": {

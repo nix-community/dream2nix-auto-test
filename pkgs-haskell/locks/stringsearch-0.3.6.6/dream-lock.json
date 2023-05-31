@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "stringsearch",
+    "location": "",
+    "packages": {
+      "stringsearch": "0.3.6.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "containers#0.5.11.0": "1af9da3baaddc4f4aaea016b07d4c38ddbf702ce3f0df31120531950837996b8"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "stringsearch": {
+      "0.3.6.6": [
+        [ "containers", "0.5.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "containers": {
+      "0.5.11.0": {
+        "hash": "sha256:58cd226ad5a147b12240f854a1fbadf809fd56cb9532123d60c1b23d13e04948",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/containers-0.5.11.0.tar.gz"
+      }
+    },
+    "stringsearch": {
+      "0.3.6.6": {
+        "hash": "sha256:295f1971920bc52263d8275d7054ad223a7e1aefe75533f9887735c9644ffe4a",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/stringsearch-0.3.6.6/stringsearch-0.3.6.6.tar.gz"
+      }
+    }
+  }
+}

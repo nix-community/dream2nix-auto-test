@@ -2,25 +2,25 @@
 Translating:: hslogger (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/hslogger-1.3.1.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1681193794
++ indexTime=1685513832
 ++ date +%s
-+ age=597
-+ '[' 597 -gt 86400 ']'
-/tmp/tmp.JU1U12m1bZ/tmp.gkbDqL4W4M/tmp.CdRFUQ4EtE ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=563
++ '[' 563 -gt 86400 ']'
+/tmp/tmp.1Rg9amHfkC/tmp.yTkVawiido/tmp.ipC877dgl6 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/hslogger-1.3.1.0/hslogger-1.3.1.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 37468  100 37468    0     0   132k      0 --:--:-- --:--:-- --:--:--  132k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 37468  100 37468    0     0   144k      0 --:--:-- --:--:-- --:--:--  157k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: hslogger-1.3.1.0 (user goal)
 [__1] next goal: base (dependency of hslogger)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: hslogger =>
 base>=4.3 && <4.14)
-[__1] skipping: base-4.18.0.0, base-4.17.0.0, base-4.16.4.0, base-4.16.3.0,
-base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0,
-base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0 (has the same
-characteristics that caused the previous version to fail: excluded by
+[__1] skipping: base-4.18.0.0, base-4.17.1.0, base-4.17.0.0, base-4.16.4.0,
+base-4.16.3.0, base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0,
+base-4.15.0.0, base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0 (has
+the same characteristics that caused the previous version to fail: excluded by
 constraint '>=4.3 && <4.14' from 'hslogger')
 [__1] rejecting: base-4.13.0.0, base-4.12.0.0, base-4.11.1.0, base-4.11.0.0,
 base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0,

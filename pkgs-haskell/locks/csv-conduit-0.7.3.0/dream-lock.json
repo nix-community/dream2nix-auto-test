@@ -11,9 +11,9 @@
   "_subsystem": {
     "cabalHashes": {
       "HUnit#1.6.2.0": "1a79174e8af616117ad39464cac9de205ca923da6582825e97c10786fda933a4",
-      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal#1.0": "640ffecfd95471388d939fcacb57bdc0cef15f0457746c234a12cdd5a6c6d1e8",
       "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
-      "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
+      "ansi-wl-pprint#0.6.9": "fb737bc96e2aef34ad595d54ced7a73f648c521ebcb00fe0679aff45ccd49212",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
       "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
@@ -21,7 +21,7 @@
       "blaze-builder#0.4.2.2": "f0017df374c330de0ebe0eb15eae8c48427bddefa1d81a3cb31c0a4812ecdb08",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
-      "conduit#1.3.4.3": "50f2eea690e053c77acc2e66ab403ace55282932f419078e432db5873ab55b3b",
+      "conduit#1.3.5": "22665df25c9c158d5fcfb299e46b0b642868add42a6bb13b79d457dc7ff7be1a",
       "conduit-extra#1.3.6": "83303e6fea78a683fdbb41682fc8dbc47b1d8830da1f09e88940f9a744a7f984",
       "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
       "data-default#0.7.1.1": "2804e8d14f521a1edee88b68b66347448e7f3b685868290fdc55930e4471f5a9",
@@ -38,7 +38,7 @@
       "mmorph#1.2.0": "df9b213ec18f811cb3137b478d148f3f1680ee43f841cb775835fa282fdb0295",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
       "mono-traversable#1.0.15.3": "059bf3c05cdbef2d06b765333fe41c2168ced2503a23de674e2a59ceb2548c48",
-      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
+      "network#3.1.4.0": "d50e055f45bd09a8238200ec64ffa0f17492c32cdb5807487894388ce1c2f839",
       "old-locale#1.0.0.7": "fa998be2c7e00cd26a6e9075bea790caaf3932caa3e9497ad69bc20380dd6911",
       "ordered-containers#0.2.3": "89e2aca36de1335c3464c0f4893cbf791cadf9df36b2fb5e07a0e2d92f1e0cb6",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
@@ -51,7 +51,7 @@
       "split#0.2.3.5": "f472fa7019647cacac3267742a6f7ac0a5c816f9890e80e4b826cd937436de87",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "streaming-commons#0.2.2.6": "f3a6db1e6c12760c00a38393693d473b8b4f9211eed036388eca89996ba50d66",
-      "test-framework#0.8.2.0": "af3e5d38b3429aaf3964e91f4a4dcf25cfe0a35d22898ff5ce8121b6310e54e9",
+      "test-framework#0.8.2.0": "d62395d54bb2a0e2fe2dacd55f55678bc87a769103cca6295ead59720f92158f",
       "test-framework-hunit#0.3.0.2": "7fd007e9cb082cd64a2213a6d36acf057f7d6df6b5343a088e81b2b3a9a23545",
       "transformers-base#0.4.6": "6f18f320e371c8954c4b6b211e2fdd5d15a6d6310bd605b9d640f47ede408961",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643",
@@ -88,7 +88,7 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.5": [
+      "1.0": [
         [ "ansi-terminal-types", "0.11.5" ],
         [ "colour", "2.3.6" ]
       ]
@@ -100,7 +100,7 @@
     },
     "ansi-wl-pprint": {
       "0.6.9": [
-        [ "ansi-terminal", "0.11.5" ]
+        [ "ansi-terminal", "1.0" ]
       ]
     },
     "async": {
@@ -121,7 +121,7 @@
       ]
     },
     "conduit": {
-      "1.3.4.3": [
+      "1.3.5": [
         [ "mono-traversable", "1.0.15.3" ],
         [ "primitive", "0.8.0.0" ],
         [ "resourcet", "1.3.0" ],
@@ -133,8 +133,8 @@
       "1.3.6": [
         [ "async", "2.2.4" ],
         [ "attoparsec", "0.14.4" ],
-        [ "conduit", "1.3.4.3" ],
-        [ "network", "3.1.2.8" ],
+        [ "conduit", "1.3.5" ],
+        [ "network", "3.1.4.0" ],
         [ "primitive", "0.8.0.0" ],
         [ "resourcet", "1.3.0" ],
         [ "streaming-commons", "0.2.2.6" ],
@@ -146,7 +146,7 @@
       "0.7.3.0": [
         [ "attoparsec", "0.14.4" ],
         [ "blaze-builder", "0.4.2.2" ],
-        [ "conduit", "1.3.4.3" ],
+        [ "conduit", "1.3.5" ],
         [ "conduit-extra", "1.3.6" ],
         [ "data-default", "0.7.1.1" ],
         [ "mmorph", "1.2.0" ],
@@ -158,7 +158,7 @@
         [ "unordered-containers", "0.2.19.1" ],
         [ "vector", "0.13.0.0" ],
         [ "HUnit", "1.6.2.0" ],
-        [ "conduit", "1.3.4.3" ],
+        [ "conduit", "1.3.5" ],
         [ "csv-conduit", "0.7.3.0" ],
         [ "ordered-containers", "0.2.3" ],
         [ "primitive", "0.8.0.0" ],
@@ -219,7 +219,7 @@
       ]
     },
     "network": {
-      "3.1.2.8": [
+      "3.1.4.0": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -254,14 +254,14 @@
     "streaming-commons": {
       "0.2.2.6": [
         [ "async", "2.2.4" ],
-        [ "network", "3.1.2.8" ],
+        [ "network", "3.1.4.0" ],
         [ "random", "1.2.1.1" ],
         [ "zlib", "0.6.3.0" ]
       ]
     },
     "test-framework": {
       "0.8.2.0": [
-        [ "ansi-terminal", "0.11.5" ],
+        [ "ansi-terminal", "1.0" ],
         [ "ansi-wl-pprint", "0.6.9" ],
         [ "hostname", "1.0" ],
         [ "old-locale", "1.0.0.7" ],
@@ -317,10 +317,10 @@
       }
     },
     "ansi-terminal": {
-      "0.11.5": {
-        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
+      "1.0": {
+        "hash": "sha256:0798a98f79189e62b5ff0aa247ba95fc3845f0f6f1e14ecceb37facfbdd5cfc9",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-1.0.tar.gz"
       }
     },
     "ansi-terminal-types": {
@@ -387,10 +387,10 @@
       }
     },
     "conduit": {
-      "1.3.4.3": {
-        "hash": "sha256:aca2a086a6ee065a5d1f1efc0632bccf52a8f961e4134a4fb60447765987907d",
+      "1.3.5": {
+        "hash": "sha256:2bb0d3e0eecc43e3d1d8cfc2125914f9175cde752be2d5908a1e120f321c782d",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/conduit-1.3.4.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/conduit-1.3.5.tar.gz"
       }
     },
     "conduit-extra": {
@@ -513,10 +513,10 @@
       }
     },
     "network": {
-      "3.1.2.8": {
-        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
+      "3.1.4.0": {
+        "hash": "sha256:b452a2afac95d9207357eb3820c719c7c7d27871ef4b6ed7bfcd03a036b9158e",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.4.0.tar.gz"
       }
     },
     "old-locale": {

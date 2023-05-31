@@ -1,0 +1,42 @@
+
+Translating:: distributed-process (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/distributed-process-0.7.4/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1685513832
+++ date +%s
++ age=905
++ '[' 905 -gt 86400 ']'
+/tmp/tmp.TxPlxVnbWG/tmp.wT1mdXjTxq/tmp.fNDejRXWvD ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/distributed-process-0.7.4/distributed-process-0.7.4.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 83930    0 83930    0     0   286k      0 --:--:-- --:--:-- --:--:--  287k
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] trying: distributed-process-0.7.4 (user goal)
+[__1] next goal: stm (dependency of distributed-process)
+[__1] rejecting: stm-2.5.0.0/installed-2.5.0.0 (conflict: distributed-process
+=> stm>=2.4 && <2.5)
+[__1] skipping: stm-2.5.1.0, stm-2.5.0.2, stm-2.5.0.1, stm-2.5.0.0 (has the
+same characteristics that caused the previous version to fail: excluded by
+constraint '>=2.4 && <2.5' from 'distributed-process')
+[__1] trying: stm-2.4.5.1
+[__2] next goal: base (dependency of distributed-process)
+[__2] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: stm => base>=4.3
+&& <4.12)
+[__2] skipping: base-4.18.0.0, base-4.17.1.0, base-4.17.0.0, base-4.16.4.0,
+base-4.16.3.0, base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0,
+base-4.15.0.0, base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0,
+base-4.13.0.0, base-4.12.0.0 (has the same characteristics that caused the
+previous version to fail: excluded by constraint '>=4.3 && <4.12' from 'stm')
+[__2] rejecting: base-4.11.1.0, base-4.11.0.0, base-4.10.1.0, base-4.10.0.0,
+base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0, base-4.8.0.0,
+base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1, base-4.6.0.0,
+base-4.5.1.0, base-4.5.0.0, base-4.4.1.0, base-4.4.0.0, base-4.3.1.0,
+base-4.3.0.0, base-4.2.0.2, base-4.2.0.1, base-4.2.0.0, base-4.1.0.0,
+base-4.0.0.0, base-3.0.3.2, base-3.0.3.1 (constraint from non-upgradeable
+package requires installed instance)
+[__2] fail (backjumping, conflict set: base, distributed-process, stm)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: base, stm, distributed-process
+

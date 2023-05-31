@@ -26,13 +26,13 @@
       "http2#1.6.5": "09a9e07d34fba12bd0b871c5fbce3708b2e16a9445b080885df6fd53b72858b3",
       "integer-logarithms#1.0.3.1": "336fb40c3af19a59dbeb4e5b7bffe4b4c7fa04ab06006a8d4b70b1febc1bb4ca",
       "iproute#1.7.12": "85d181599fab8ceebf4c849110ad571bea2834d6c8c95ae7da33856c42453f40",
-      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
+      "network#3.1.4.0": "d50e055f45bd09a8238200ec64ffa0f17492c32cdb5807487894388ce1c2f839",
       "network-byte-order#0.1.6": "23d8b609ac43a69d04d5e8f411e5f86a0266c0e8b33b65f8c92ebda64273fe3a",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "psqueues#0.2.7.3": "7213d78598d397255b1861df318d9b5058577f86a9b83a8b652540cbdbc83033",
       "random#1.2.1.1": "dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9",
       "scientific#0.3.7.0": "26d8109106963a345368011081453d25ee1dfa6afae2b1f57b426b4bcd392d91",
-      "simple-sendfile#0.2.30": "c6893e159dc20eea6d0b805bfd8d9b73e6a6ba3fe72cc396acdc24fdcd33cc38",
+      "simple-sendfile#0.2.31": "39b982b18de73f8cfa908c555146ecd1ac6ef571ae4241e271a66b853c58ec0a",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "streaming-commons#0.2.2.6": "f3a6db1e6c12760c00a38393693d473b8b4f9211eed036388eca89996ba50d66",
       "time-manager#0.0.0": "5b6288815180428377d96be9fc3fa9d4d02b7aa2cc04839fb547409b8db68cc3",
@@ -100,11 +100,11 @@
       "1.7.12": [
         [ "appar", "0.1.8" ],
         [ "byteorder", "1.0.4" ],
-        [ "network", "3.1.2.8" ]
+        [ "network", "3.1.4.0" ]
       ]
     },
     "network": {
-      "3.1.2.8": [
+      "3.1.4.0": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -131,14 +131,14 @@
       ]
     },
     "simple-sendfile": {
-      "0.2.30": [
-        [ "network", "3.1.2.8" ]
+      "0.2.31": [
+        [ "network", "3.1.4.0" ]
       ]
     },
     "streaming-commons": {
       "0.2.2.6": [
         [ "async", "2.2.4" ],
-        [ "network", "3.1.2.8" ],
+        [ "network", "3.1.4.0" ],
         [ "random", "1.2.1.1" ],
         [ "zlib", "0.6.3.0" ]
       ]
@@ -162,7 +162,7 @@
     "wai": {
       "3.2.3": [
         [ "http-types", "0.12.3" ],
-        [ "network", "3.1.2.8" ],
+        [ "network", "3.1.4.0" ],
         [ "vault", "0.3.1.5" ]
       ]
     },
@@ -186,8 +186,8 @@
         [ "http-types", "0.12.3" ],
         [ "http2", "1.6.5" ],
         [ "iproute", "1.7.12" ],
-        [ "network", "3.1.2.8" ],
-        [ "simple-sendfile", "0.2.30" ],
+        [ "network", "3.1.4.0" ],
+        [ "simple-sendfile", "0.2.31" ],
         [ "streaming-commons", "0.2.2.6" ],
         [ "time-manager", "0.0.0" ],
         [ "unix-compat", "0.7" ],
@@ -311,10 +311,10 @@
       }
     },
     "network": {
-      "3.1.2.8": {
-        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
+      "3.1.4.0": {
+        "hash": "sha256:b452a2afac95d9207357eb3820c719c7c7d27871ef4b6ed7bfcd03a036b9158e",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.4.0.tar.gz"
       }
     },
     "network-byte-order": {
@@ -353,10 +353,10 @@
       }
     },
     "simple-sendfile": {
-      "0.2.30": {
-        "hash": "sha256:b6864d2b3c62ff8ea23fa24e9e26f751bfe5253c8efb1f1e4fee2ba91d065284",
+      "0.2.31": {
+        "hash": "sha256:66076e220e3ae707bc5c6df727b3279000e2fdd1c3a4f1e0bf9b715eb76dc560",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/simple-sendfile-0.2.30.tar.gz"
+        "url": "https://hackage.haskell.org/package/simple-sendfile-0.2.31.tar.gz"
       }
     },
     "splitmix": {

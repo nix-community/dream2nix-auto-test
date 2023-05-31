@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "djinn-ghc",
+    "location": "",
+    "packages": {
+      "djinn-ghc": "0.0.2.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {
+      "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
+      "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
+      "data-array-byte#0.1.0.1": "2ef1bd3511e82ba56f7f23cd793dd2da84338a1e7c2cbea5b151417afe3baada",
+      "djinn-lib#0.0.1.4": "b143628933e2721c9668c655ab7ab6dc5eaa20475518459aa49adabaef372599",
+      "hashable#1.4.2.0": "585792335d5541dba78fa8dfcb291a89cd5812a281825ff7a44afa296ab5d58a"
+    },
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async": {
+      "2.2.4": [
+        [ "hashable", "1.4.2.0" ]
+      ]
+    },
+    "djinn-ghc": {
+      "0.0.2.3": [
+        [ "async", "2.2.4" ],
+        [ "djinn-lib", "0.0.1.4" ]
+      ]
+    },
+    "hashable": {
+      "1.4.2.0": [
+        [ "base-orphans", "0.9.0" ],
+        [ "data-array-byte", "0.1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "async": {
+      "2.2.4": {
+        "hash": "sha256:484df85be0e76c4fed9376451e48e1d0c6e97952ce79735b72d54297e7e0a725",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/async-2.2.4.tar.gz"
+      }
+    },
+    "base-orphans": {
+      "0.9.0": {
+        "hash": "sha256:613ed4d8241ed5a648a59ae6569a6962990bb545711d020d49fb83fa12d16e62",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/base-orphans-0.9.0.tar.gz"
+      }
+    },
+    "data-array-byte": {
+      "0.1.0.1": {
+        "hash": "sha256:1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/data-array-byte-0.1.0.1.tar.gz"
+      }
+    },
+    "djinn-ghc": {
+      "0.0.2.3": {
+        "hash": "sha256:cb956aed69bc5c342b45ef1b1142b6555fd2865dde1a80ac6ab3ef86aca314a4",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/djinn-ghc-0.0.2.3/djinn-ghc-0.0.2.3.tar.gz"
+      }
+    },
+    "djinn-lib": {
+      "0.0.1.4": {
+        "hash": "sha256:882376cc58b6425c20059beb880b7ed0bccbc59225e183b68810c86da0e993e8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/djinn-lib-0.0.1.4.tar.gz"
+      }
+    },
+    "hashable": {
+      "1.4.2.0": {
+        "hash": "sha256:1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/hashable-1.4.2.0.tar.gz"
+      }
+    }
+  }
+}

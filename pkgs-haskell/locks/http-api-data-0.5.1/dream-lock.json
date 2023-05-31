@@ -13,13 +13,13 @@
       "HUnit#1.6.2.0": "1a79174e8af616117ad39464cac9de205ca923da6582825e97c10786fda933a4",
       "OneTuple#0.4.1.1": "be0324c77a0eaf1d48b771b7e86f2b19d53a9f5ecc6ab2c914dab7dad309c671",
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
-      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal#1.0": "640ffecfd95471388d939fcacb57bdc0cef15f0457746c234a12cdd5a6c6d1e8",
       "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
       "assoc#1.1": "ac83c915110288bca295386daf834936b9fd16d654bea8d8898bf091626c5c82",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
-      "attoparsec-iso8601#1.1.0.0": "29d590f21adc4112973ad5e874d095f8b403b886932fe7e15567b239f5483539",
-      "base-compat#0.12.2": "85d820a15e3f00f1781ac939cb9cdccdcc6f38c43e4c74a6e83e5d75f67b61a0",
-      "base-compat-batteries#0.12.2": "ecf0bb2b39be54f1ffa185d37663702b0651d34d1cdcc32d32bb8f7279396afe",
+      "attoparsec-iso8601#1.1.0.0": "61384a1b2950ee2d0e19baa05235ef692c88917e02a3ec48997c9628e55e04c1",
+      "base-compat#0.13.0": "5ebd0e68acc0de64a945bf0bebcd39d4869a4ea3618cdd5ec639aac527bf599e",
+      "base-compat-batteries#0.13.0": "bc348124f46ed073989389d3c91e21d4d595db76a1fa975665c84229a7332e28",
       "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
       "call-stack#0.4.0": "ac44d2c00931dc20b01750da8c92ec443eb63a7231e8550188cb2ac2385f7feb",
       "case-insensitive#1.2.1.0": "9dfd3171fc7698cf8d931727d3af3a7b389135b583e46b5adac1f9d2026fff61",
@@ -98,7 +98,7 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.5": [
+      "1.0": [
         [ "ansi-terminal-types", "0.11.5" ],
         [ "colour", "2.3.6" ]
       ]
@@ -122,13 +122,15 @@
     "attoparsec-iso8601": {
       "1.1.0.0": [
         [ "attoparsec", "0.14.4" ],
-        [ "base-compat-batteries", "0.12.2" ],
+        [ "base-compat-batteries", "0.13.0" ],
         [ "time-compat", "1.9.6.1" ]
       ]
     },
     "base-compat-batteries": {
-      "0.12.2": [
-        [ "base-compat", "0.12.2" ]
+      "0.13.0": [
+        [ "OneTuple", "0.4.1.1" ],
+        [ "base-compat", "0.13.0" ],
+        [ "foldable1-classes-compat", "0.1" ]
       ]
     },
     "case-insensitive": {
@@ -169,7 +171,7 @@
       "2.10.10": [
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
-        [ "ansi-terminal", "0.11.5" ],
+        [ "ansi-terminal", "1.0" ],
         [ "call-stack", "0.4.0" ],
         [ "haskell-lexer", "1.1.1" ],
         [ "hspec-expectations", "0.8.2" ],
@@ -194,7 +196,7 @@
       "0.5.1": [
         [ "attoparsec", "0.14.4" ],
         [ "attoparsec-iso8601", "1.1.0.0" ],
-        [ "base-compat", "0.12.2" ],
+        [ "base-compat", "0.13.0" ],
         [ "cookie", "0.4.6" ],
         [ "hashable", "1.4.2.0" ],
         [ "http-types", "0.12.3" ],
@@ -204,7 +206,7 @@
         [ "uuid-types", "1.0.5" ],
         [ "HUnit", "1.6.2.0" ],
         [ "QuickCheck", "2.14.2" ],
-        [ "base-compat", "0.12.2" ],
+        [ "base-compat", "0.13.0" ],
         [ "cookie", "0.4.6" ],
         [ "hspec", "2.10.10" ],
         [ "http-api-data", "0.5.1" ],
@@ -344,10 +346,10 @@
       }
     },
     "ansi-terminal": {
-      "0.11.5": {
-        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
+      "1.0": {
+        "hash": "sha256:0798a98f79189e62b5ff0aa247ba95fc3845f0f6f1e14ecceb37facfbdd5cfc9",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-1.0.tar.gz"
       }
     },
     "ansi-terminal-types": {
@@ -379,17 +381,17 @@
       }
     },
     "base-compat": {
-      "0.12.2": {
-        "hash": "sha256:a62adc883a5ac436f80e4ae02c3c56111cf1007492f267c291139a668d2150bd",
+      "0.13.0": {
+        "hash": "sha256:8bf66075da849a037974a7feb9d7ecd81ce57e4522a0df40daf11db14fcea30d",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-compat-0.12.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-compat-0.13.0.tar.gz"
       }
     },
     "base-compat-batteries": {
-      "0.12.2": {
-        "hash": "sha256:ede9092e07f904e0759160bf1ecd3fb7eb043bae6dc89a37c3dc94829ec5eb99",
+      "0.13.0": {
+        "hash": "sha256:3768af40d1d64f9b0845a8ddb18e63ba3a4c765d0d96db9dc28b5b66d1232f98",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/base-compat-batteries-0.12.2.tar.gz"
+        "url": "https://hackage.haskell.org/package/base-compat-batteries-0.13.0.tar.gz"
       }
     },
     "base-orphans": {

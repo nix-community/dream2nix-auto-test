@@ -19,7 +19,7 @@
       "assoc#1.1": "ac83c915110288bca295386daf834936b9fd16d654bea8d8898bf091626c5c82",
       "async#2.2.4": "46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08",
       "attoparsec#0.14.4": "50475b722305175f57a3ee3dbaee10aa4b91f61c9717b85b718a7df37c223fb2",
-      "attoparsec-iso8601#1.1.0.0": "29d590f21adc4112973ad5e874d095f8b403b886932fe7e15567b239f5483539",
+      "attoparsec-iso8601#1.1.0.0": "61384a1b2950ee2d0e19baa05235ef692c88917e02a3ec48997c9628e55e04c1",
       "base-compat#0.11.2": "31bfcb04e73c994e46fa1b6136dffbea75d2f6e27a67c493a97095bc53c8db40",
       "base-compat-batteries#0.11.2": "eb3b976007754ddc16e8d4afacdd1e575ae746edb57dcd0a1a728ccd4b372a69",
       "base-orphans#0.9.0": "0bdd3486d3a1bcbed0513b46af4a13ca74b395313fa5b6e0068d6b7413b76a04",
@@ -57,7 +57,7 @@
       "mime-types#0.1.1.0": "c68f421c569e325ec4c5595a6916cc6336cf11c7f11bc569a62c6a32214454ad",
       "mmorph#1.2.0": "df9b213ec18f811cb3137b478d148f3f1680ee43f841cb775835fa282fdb0295",
       "monad-control#1.0.3.1": "2d657279839e1a760c86a69f00f0c36473ef6972d413ec0f83a40249c70e098e",
-      "network#3.1.2.8": "29b28d2e19ae9f5ff92cea4ab8d2e185408ee5de73b4127f7b485a904c9a8b15",
+      "network#3.1.4.0": "d50e055f45bd09a8238200ec64ffa0f17492c32cdb5807487894388ce1c2f839",
       "network-uri#2.6.4.2": "1fde59abf5d82a9666b4415bc2b2e9e33f6c1309074fda12d50410c7dbd95f3b",
       "primitive#0.8.0.0": "826bf2a702a26ef87532a135808abad69d74f70ead39f26c06d034b1f0537a19",
       "profunctors#5.6.2": "e178ba4468982326656626e2089e296f64485e68fdddc9f4476dcd5d612b4f78",
@@ -71,7 +71,7 @@
       "servant-client-core#0.19": "f001c3cee1db87aab7967de3b3c0439a888202f46c2278cf641f5d0ec3d1fc90",
       "singleton-bool#0.1.6": "b940e8393ddf9d2d7b20a2141672c3120821edd32d1618c7fcfc71458ce996d0",
       "some#1.0.5": "73c92435fa929a9c589678f41680d1a7cb96364e351adeefd4ba5e85026e3804",
-      "sop-core#0.5.0.2": "ff598e3bf9d080dfafa5b743df280419d39784b438d8a99bf52f08a024f6dfdc",
+      "sop-core#0.5.0.2": "2f6ac799b1b4438db1ead14a39d7586cfaf00c3cbab0c219184c67ae61376335",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "streaming-commons#0.2.2.6": "f3a6db1e6c12760c00a38393693d473b8b4f9211eed036388eca89996ba50d66",
       "strict#0.5": "76f07389001fa7a9036cbf13a1753c0f16556bde3b79c862a8bbe1201aac2326",
@@ -292,7 +292,7 @@
         [ "http-types", "0.12.3" ],
         [ "iproute", "1.7.12" ],
         [ "mime-types", "0.1.1.0" ],
-        [ "network", "3.1.2.8" ],
+        [ "network", "3.1.4.0" ],
         [ "network-uri", "2.6.4.2" ],
         [ "random", "1.2.1.1" ],
         [ "streaming-commons", "0.2.2.6" ]
@@ -335,7 +335,7 @@
       "1.7.12": [
         [ "appar", "0.1.8" ],
         [ "byteorder", "1.0.4" ],
-        [ "network", "3.1.2.8" ]
+        [ "network", "3.1.4.0" ]
       ]
     },
     "kan-extensions": {
@@ -364,7 +364,7 @@
       ]
     },
     "network": {
-      "3.1.2.8": [
+      "3.1.4.0": [
         [ "hsc2hs", "0.68.9" ]
       ]
     },
@@ -486,7 +486,7 @@
     "streaming-commons": {
       "0.2.2.6": [
         [ "async", "2.2.4" ],
-        [ "network", "3.1.2.8" ],
+        [ "network", "3.1.4.0" ],
         [ "random", "1.2.1.1" ],
         [ "zlib", "0.6.3.0" ]
       ]
@@ -892,10 +892,10 @@
       }
     },
     "network": {
-      "3.1.2.8": {
-        "hash": "sha256:fde2d4b065f1984c76755004c64a29ae9ec52c8bf74f2485d805ef577e7c7822",
+      "3.1.4.0": {
+        "hash": "sha256:b452a2afac95d9207357eb3820c719c7c7d27871ef4b6ed7bfcd03a036b9158e",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/network-3.1.2.8.tar.gz"
+        "url": "https://hackage.haskell.org/package/network-3.1.4.0.tar.gz"
       }
     },
     "network-uri": {

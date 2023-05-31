@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "alex",
+    "location": "",
+    "packages": {
+      "alex": "3.3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "haskell"
+  },
+  "_subsystem": {
+    "cabalHashes": {},
+    "compiler": {
+      "name": "ghc",
+      "version": "9.0.2"
+    }
+  },
+  "cyclicDependencies": {
+    "alex": {
+      "3.3.0.0": [
+        [ "alex", "3.3.0.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "alex": {
+      "3.3.0.0": [
+        [ "alex", "3.3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "alex": {
+      "3.3.0.0": {
+        "hash": "sha256:810f8e85ea6b87c37cba10f7660d7f1aa0ba251c1275e3a18c312964bb329a63",
+        "type": "http",
+        "url": "https://hackage.haskell.org/package/alex-3.3.0.0/alex-3.3.0.0.tar.gz"
+      }
+    }
+  }
+}

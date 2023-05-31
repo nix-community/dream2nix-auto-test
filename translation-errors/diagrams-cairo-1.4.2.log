@@ -2,26 +2,26 @@
 Translating:: diagrams-cairo (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/diagrams-cairo-1.4.2/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1681193794
++ indexTime=1685513832
 ++ date +%s
-+ age=721
-+ '[' 721 -gt 86400 ']'
-/tmp/tmp.jsoVZS5M8i/tmp.h6lh5CfjB8/tmp.EZ1K5pIdz5 ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=685
++ '[' 685 -gt 86400 ']'
+/tmp/tmp.DGTz6tK7sZ/tmp.h2iUaiVzTT/tmp.Vjgm77NvKx ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/diagrams-cairo-1.4.2/diagrams-cairo-1.4.2.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 21650    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 21650  100 21650    0     0  94449      0 --:--:-- --:--:-- --:--:-- 94130
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 21650  100 21650    0     0   103k      0 --:--:-- --:--:-- --:--:--  103k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: diagrams-cairo-1.4.2 (user goal)
 [__1] next goal: pango (dependency of diagrams-cairo)
-[__1] rejecting: pango-0.13.8.2, pango-0.13.8.1, pango-0.13.8.0,
-pango-0.13.6.1, pango-0.13.6.0, pango-0.13.5.0, pango-0.13.4.0,
-pango-0.13.3.1, pango-0.13.3.0, pango-0.13.2.0, pango-0.13.1.1,
-pango-0.13.1.0, pango-0.13.0.5, pango-0.13.0.4, pango-0.13.0.3,
-pango-0.13.0.2, pango-0.13.0.1, pango-0.13.0.0, pango-0.12.5.3, pango-0.12.5.0
-(conflict: pkg-config package pango>=1.0, not found in the pkg-config
-database)
+[__1] rejecting: pango-0.13.10.0, pango-0.13.8.2, pango-0.13.8.1,
+pango-0.13.8.0, pango-0.13.6.1, pango-0.13.6.0, pango-0.13.5.0,
+pango-0.13.4.0, pango-0.13.3.1, pango-0.13.3.0, pango-0.13.2.0,
+pango-0.13.1.1, pango-0.13.1.0, pango-0.13.0.5, pango-0.13.0.4,
+pango-0.13.0.3, pango-0.13.0.2, pango-0.13.0.1, pango-0.13.0.0,
+pango-0.12.5.3, pango-0.12.5.0 (conflict: pkg-config package pango>=1.0, not
+found in the pkg-config database)
 [__1] rejecting: pango-0.12.4 (conflict: diagrams-cairo => pango>=0.12.5 &&
 <0.14)
 [__1] skipping: pango-0.12.3, pango-0.12.2, pango-0.12.1, pango-0.12.0,
@@ -30,5 +30,5 @@ caused the previous version to fail: excluded by constraint '>=0.12.5 &&
 <0.14' from 'diagrams-cairo')
 [__1] fail (backjumping, conflict set: diagrams-cairo, pango)
 After searching the rest of the dependency tree exhaustively, these were the
-goals I've had most trouble fulfilling: diagrams-cairo, pango
+goals I've had most trouble fulfilling: pango, diagrams-cairo
 

@@ -2,27 +2,27 @@
 Translating:: circle-packing (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/circle-packing-0.1.0.6/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
 ++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1681193794
++ indexTime=1685513832
 ++ date +%s
-+ age=667
-+ '[' 667 -gt 86400 ']'
-/tmp/tmp.hkAwfya6Sg/tmp.h3L2SYABJf/tmp.wZTspucFlP ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ age=581
++ '[' 581 -gt 86400 ']'
+/tmp/tmp.EfivwNF3RO/tmp.BmyZNRGq2A/tmp.ePgk7tL1cE ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/circle-packing-0.1.0.6/circle-packing-0.1.0.6.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  250k  100  250k    0     0   804k      0 --:--:-- --:--:-- --:--:--  804k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  250k  100  250k    0     0   882k      0 --:--:-- --:--:-- --:--:--  884k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] trying: circle-packing-0.1.0.6 (user goal)
 [__1] next goal: base (dependency of circle-packing)
 [__1] rejecting: base-4.15.1.0/installed-4.15.1.0 (conflict: circle-packing =>
 base>=4.2 && <4.11)
-[__1] skipping: base-4.18.0.0, base-4.17.0.0, base-4.16.4.0, base-4.16.3.0,
-base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0, base-4.15.0.0,
-base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0, base-4.13.0.0,
-base-4.12.0.0, base-4.11.1.0, base-4.11.0.0 (has the same characteristics that
-caused the previous version to fail: excluded by constraint '>=4.2 && <4.11'
-from 'circle-packing')
+[__1] skipping: base-4.18.0.0, base-4.17.1.0, base-4.17.0.0, base-4.16.4.0,
+base-4.16.3.0, base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0,
+base-4.15.0.0, base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0,
+base-4.13.0.0, base-4.12.0.0, base-4.11.1.0, base-4.11.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '>=4.2 && <4.11' from 'circle-packing')
 [__1] rejecting: base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0,
 base-4.8.2.0, base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1,
 base-4.7.0.0, base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0,

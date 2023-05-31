@@ -11,16 +11,16 @@
   "_subsystem": {
     "cabalHashes": {
       "QuickCheck#2.14.2": "4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa",
-      "ansi-terminal#0.11.5": "2fe3d006b9ea0dc1a5537a029edb0bc2bbe56a33a6d95264b38b54c58e931e51",
+      "ansi-terminal#1.0": "640ffecfd95471388d939fcacb57bdc0cef15f0457746c234a12cdd5a6c6d1e8",
       "ansi-terminal-types#0.11.5": "f78440dfd95c4509e88855ac7cc2d9566ddf956a92c1290404cac93ad1a1b00a",
-      "ansi-wl-pprint#0.6.9": "212144ea0623b1170807a4162db05d87f26cf10b334aeadd0edb377aba06a1ce",
+      "ansi-wl-pprint#0.6.9": "fb737bc96e2aef34ad595d54ced7a73f648c521ebcb00fe0679aff45ccd49212",
       "colour#2.3.6": "ebdcbf15023958838a527e381ab3c3b1e99ed12d1b25efeb7feaa4ad8c37664a",
-      "optparse-applicative#0.17.0.0": "0713e54cbb341e5cae979e2ac441eb3a5ff42e303001f432bd58c19e5638bdda",
+      "optparse-applicative#0.17.1.0": "665fc6909fa6b8196ec5f40e40e0d9a4375890b169e7f44ff1e708e9e27aa3f3",
       "random#1.1": "7b67624fd76ddf97c206de0801dc7e888097e9d572974be9b9ea6551d76965df",
       "splitmix#0.1.0.4": "db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e",
       "tagged#0.8.7": "9013e1491dc0d291cb37c2845973293a03c230374f44792bfc96e14fdfb426dc",
       "tasty#1.4.3": "5b53fded93109f6704b599c3498eb73c5b0ed1a975f1912dd98b4b19c61f8bc9",
-      "tasty-bench#0.3.3": "efeb9e1fcb98fdab3271227432762ad723b020768a335d2c336a3ad7c28be26d",
+      "tasty-bench#0.3.4": "adbc60cf89f9a7aeab46891790f20ea3d34f9a68f0932c922e029d9c4486f4a8",
       "tasty-quickcheck#0.10.2": "76bf07f500e258903e9a1df6f19788e0ef75e83f33ebe6b6b14b287418e0b7c1",
       "transformers-compat#0.7.2": "044fb9955f63ee138fcebedfdcbe54afe741f2d5892a2d0bdf3a8052bd342643"
     },
@@ -44,7 +44,7 @@
       ]
     },
     "ansi-terminal": {
-      "0.11.5": [
+      "1.0": [
         [ "ansi-terminal-types", "0.11.5" ],
         [ "colour", "2.3.6" ]
       ]
@@ -56,14 +56,14 @@
     },
     "ansi-wl-pprint": {
       "0.6.9": [
-        [ "ansi-terminal", "0.11.5" ]
+        [ "ansi-terminal", "1.0" ]
       ]
     },
     "bytestring": {
       "0.11.4.0": [
         [ "bytestring", "0.11.4.0" ],
         [ "random", "1.1" ],
-        [ "tasty-bench", "0.3.3" ],
+        [ "tasty-bench", "0.3.4" ],
         [ "QuickCheck", "2.14.2" ],
         [ "bytestring", "0.11.4.0" ],
         [ "tasty", "1.4.3" ],
@@ -71,27 +71,27 @@
       ]
     },
     "optparse-applicative": {
-      "0.17.0.0": [
+      "0.17.1.0": [
         [ "ansi-wl-pprint", "0.6.9" ],
         [ "transformers-compat", "0.7.2" ]
       ]
     },
     "tasty": {
       "1.4.3": [
-        [ "ansi-terminal", "0.11.5" ],
-        [ "optparse-applicative", "0.17.0.0" ],
+        [ "ansi-terminal", "1.0" ],
+        [ "optparse-applicative", "0.17.1.0" ],
         [ "tagged", "0.8.7" ]
       ]
     },
     "tasty-bench": {
-      "0.3.3": [
+      "0.3.4": [
         [ "tasty", "1.4.3" ]
       ]
     },
     "tasty-quickcheck": {
       "0.10.2": [
         [ "QuickCheck", "2.14.2" ],
-        [ "optparse-applicative", "0.17.0.0" ],
+        [ "optparse-applicative", "0.17.1.0" ],
         [ "random", "1.1" ],
         [ "tagged", "0.8.7" ],
         [ "tasty", "1.4.3" ]
@@ -107,10 +107,10 @@
       }
     },
     "ansi-terminal": {
-      "0.11.5": {
-        "hash": "sha256:5b4acedc55eb558381f0b694c2d31a50c332856b823db44cbbf2df78e8c097cb",
+      "1.0": {
+        "hash": "sha256:0798a98f79189e62b5ff0aa247ba95fc3845f0f6f1e14ecceb37facfbdd5cfc9",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/ansi-terminal-0.11.5.tar.gz"
+        "url": "https://hackage.haskell.org/package/ansi-terminal-1.0.tar.gz"
       }
     },
     "ansi-terminal-types": {
@@ -142,10 +142,10 @@
       }
     },
     "optparse-applicative": {
-      "0.17.0.0": {
-        "hash": "sha256:825b2e4d3dafe0ba64a073366a88062b3712b81f851793d9ce2327bee70af724",
+      "0.17.1.0": {
+        "hash": "sha256:d179cb740139c55e6dada3c00efaea45f6853a1974d374668323bbbd07e0a5ef",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.0.0.tar.gz"
+        "url": "https://hackage.haskell.org/package/optparse-applicative-0.17.1.0.tar.gz"
       }
     },
     "random": {
@@ -177,10 +177,10 @@
       }
     },
     "tasty-bench": {
-      "0.3.3": {
-        "hash": "sha256:757486ffcf9d4cd4afee4ff1b78e2174fda37cbda74aa887115e4d55d5531a8e",
+      "0.3.4": {
+        "hash": "sha256:4de671ebafafe5cba7ba14a4503f25ac080a8eedc4e9f815b5cb3ba8f8a9ce1e",
         "type": "http",
-        "url": "https://hackage.haskell.org/package/tasty-bench-0.3.3.tar.gz"
+        "url": "https://hackage.haskell.org/package/tasty-bench-0.3.4.tar.gz"
       }
     },
     "tasty-quickcheck": {
