@@ -1,30 +1,32 @@
 
 Translating:: base (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/base-4.18.0.0/dream-lock.json)
 + '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
-++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
-+ indexTime=1681193794
-++ date +%s
-+ age=1
-+ '[' 1 -gt 86400 ']'
-/tmp/tmp.Ts8gN0yUpK/tmp.PSxpKD8JKO/tmp.JwLwjfpLUT ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
++ cabal update
+Config file path source is default config file.
+Config file not found: /home/runner/.cabal/config
+Writing default configuration to /home/runner/.cabal/config
+Downloading the latest package list from hackage.haskell.org
+Package list of hackage.haskell.org has been updated.
+The index-state is set to 2023-05-31T01:01:17Z.
+/tmp/tmp.zpZxcTNMyW/tmp.YbLoh8vgPF/tmp.dMQBJtGBnB ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
 downloading https://hackage.haskell.org/package/base-4.18.0.0/base-4.18.0.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  877k  100  877k    0     0  4757k      0 --:--:-- --:--:-- --:--:-- 4768k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  877k  100  877k    0     0  2692k      0 --:--:-- --:--:-- --:--:-- 2699k
 Resolving dependencies...
 Error: cabal: Could not resolve dependencies:
 [__0] next goal: base (user goal)
 [__0] rejecting: base-4.18.0.0 (only already installed instances can be used)
-[__0] rejecting: base-4.17.0.0, base-4.16.4.0, base-4.16.3.0, base-4.16.2.0,
-base-4.16.1.0, base-4.16.0.0, base-4.15.1.0/installed-4.15.1.0, base-4.15.1.0,
-base-4.15.0.0, base-4.14.3.0, base-4.14.2.0, base-4.14.1.0, base-4.14.0.0,
-base-4.13.0.0, base-4.12.0.0, base-4.11.1.0, base-4.11.0.0, base-4.10.1.0,
-base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0, base-4.8.1.0,
-base-4.8.0.0, base-4.7.0.2, base-4.7.0.1, base-4.7.0.0, base-4.6.0.1,
-base-4.6.0.0, base-4.5.1.0, base-4.5.0.0, base-4.4.1.0, base-4.4.0.0,
-base-4.3.1.0, base-4.3.0.0, base-4.2.0.2, base-4.2.0.1, base-4.2.0.0,
-base-4.1.0.0, base-4.0.0.0, base-3.0.3.2, base-3.0.3.1 (constraint from user
-target requires ==4.18.0.0)
+[__0] rejecting: base-4.17.1.0, base-4.17.0.0, base-4.16.4.0, base-4.16.3.0,
+base-4.16.2.0, base-4.16.1.0, base-4.16.0.0, base-4.15.1.0/installed-4.15.1.0,
+base-4.15.1.0, base-4.15.0.0, base-4.14.3.0, base-4.14.2.0, base-4.14.1.0,
+base-4.14.0.0, base-4.13.0.0, base-4.12.0.0, base-4.11.1.0, base-4.11.0.0,
+base-4.10.1.0, base-4.10.0.0, base-4.9.1.0, base-4.9.0.0, base-4.8.2.0,
+base-4.8.1.0, base-4.8.0.0, base-4.7.0.2, base-4.7.0.1, base-4.7.0.0,
+base-4.6.0.1, base-4.6.0.0, base-4.5.1.0, base-4.5.0.0, base-4.4.1.0,
+base-4.4.0.0, base-4.3.1.0, base-4.3.0.0, base-4.2.0.2, base-4.2.0.1,
+base-4.2.0.0, base-4.1.0.0, base-4.0.0.0, base-3.0.3.2, base-3.0.3.1
+(constraint from user target requires ==4.18.0.0)
 [__0] fail (backjumping, conflict set: base)
 After searching the rest of the dependency tree exhaustively, these were the
 goals I've had most trouble fulfilling: base

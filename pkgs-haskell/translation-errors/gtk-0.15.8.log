@@ -1,0 +1,31 @@
+
+Translating:: gtk (translator: hackage) (lock path: /home/runner/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks/gtk-0.15.8/dream-lock.json)
++ '[' -e /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache ']'
+++ stat -c %Y /home/runner/.cabal/packages/hackage.haskell.org/01-index.cache
++ indexTime=1685513832
+++ date +%s
++ age=822
++ '[' 822 -gt 86400 ']'
+/tmp/tmp.ULFOiQ42pm/tmp.RqxylwYKI2/tmp.hkVJuZvMao ~/work/dream2nix-auto-test/dream2nix-auto-test/pkgs-haskell/locks
+downloading https://hackage.haskell.org/package/gtk-0.15.8/gtk-0.15.8.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  462k    0  462k    0     0  1593k      0 --:--:-- --:--:-- --:--:-- 1591k100  663k    0  663k    0     0  2110k      0 --:--:-- --:--:-- --:--:-- 2104k
+Resolving dependencies...
+Error: cabal: Could not resolve dependencies:
+[__0] next goal: gtk (user goal)
+[__0] rejecting: gtk-0.15.8 (conflict: pkg-config package gtk+-2.0-any, not
+found in the pkg-config database)
+[__0] rejecting: gtk-0.15.7, gtk-0.15.5, gtk-0.15.4, gtk-0.15.3, gtk-0.15.2,
+gtk-0.15.1, gtk-0.15.0, gtk-0.14.7, gtk-0.14.6, gtk-0.14.5, gtk-0.14.4,
+gtk-0.14.3, gtk-0.14.2, gtk-0.13.9, gtk-0.13.8.1, gtk-0.13.8, gtk-0.13.7,
+gtk-0.13.6, gtk-0.13.4, gtk-0.13.3, gtk-0.13.2, gtk-0.13.1, gtk-0.13.0.3,
+gtk-0.13.0.2, gtk-0.13.0.1, gtk-0.13.0.0, gtk-0.12.5.7, gtk-0.12.5.6,
+gtk-0.12.5.5, gtk-0.12.5.4, gtk-0.12.5.3, gtk-0.12.5.2, gtk-0.12.5.1,
+gtk-0.12.5.0, gtk-0.12.4, gtk-0.12.3.1, gtk-0.12.3, gtk-0.12.2, gtk-0.12.1,
+gtk-0.12.0, gtk-0.11.2, gtk-0.11.1, gtk-0.11.0, gtk-0.14.10, gtk-0.14.9
+(constraint from user target requires ==0.15.8)
+[__0] fail (backjumping, conflict set: gtk)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: gtk
+
