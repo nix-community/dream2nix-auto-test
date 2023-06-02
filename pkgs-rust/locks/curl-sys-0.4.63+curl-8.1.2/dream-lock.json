@@ -3,7 +3,7 @@
     "defaultPackage": "curl-sys",
     "location": "",
     "packages": {
-      "curl-sys": "0.4.62+curl-8.1.0"
+      "curl-sys": "0.4.63+curl-8.1.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "curl-sys": {
-        "0.4.62+curl-8.1.0": {
+        "0.4.63+curl-8.1.2": {
           "description": "Native bindings to the libcurl library", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "curl-sys": {
-        "0.4.62+curl-8.1.0": {}
+        "0.4.63+curl-8.1.2": {}
       }
     }
   },
@@ -32,7 +32,7 @@
       ]
     },
     "curl-sys": {
-      "0.4.62+curl-8.1.0": [
+      "0.4.63+curl-8.1.2": [
         [ "cc", "1.0.79" ],
         [ "libc", "0.2.144" ],
         [ "libnghttp2-sys", "0.1.7+1.45.0" ],
@@ -84,7 +84,7 @@
       ]
     },
     "openssl-src": {
-      "111.25.3+1.1.1t": [
+      "111.26.0+1.1.1u": [
         [ "cc", "1.0.79" ]
       ]
     },
@@ -92,7 +92,7 @@
       "0.9.88": [
         [ "cc", "1.0.79" ],
         [ "libc", "0.2.144" ],
-        [ "openssl-src", "111.25.3+1.1.1t" ],
+        [ "openssl-src", "111.26.0+1.1.1u" ],
         [ "pkg-config", "0.3.27" ],
         [ "vcpkg", "0.2.15" ]
       ]
@@ -279,8 +279,8 @@
       }
     },
     "curl-sys": {
-      "0.4.62+curl-8.1.0": {
-        "hash": "274ef7ef7c1113c7611af49ce248a700afa1171045a1aaa40137030773f993b8",
+      "0.4.63+curl-8.1.2": {
+        "hash": "aeb0fef7046022a1e2ad67a004978f0e3cacb9e3123dc62ce768f92197b771dc",
         "type": "crates-io"
       }
     },
@@ -373,11 +373,11 @@
       }
     },
     "openssl-src": {
-      "111.25.3+1.1.1t": {
-        "hash": "924757a6a226bf60da5f7dd0311a34d2b52283dd82ddeb103208ddc66362f80c",
+      "111.26.0+1.1.1u": {
+        "hash": "efc62c9f12b22b8f5208c23a7200a442b2e5999f8bdf80233852122b5a4f6f37",
         "pname": "openssl-src",
         "type": "crates-io",
-        "version": "111.25.3+1.1.1t"
+        "version": "111.26.0+1.1.1u"
       }
     },
     "openssl-sys": {
