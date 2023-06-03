@@ -1,0 +1,1021 @@
+{
+  "_generic": {
+    "defaultPackage": "postcss-preset-env",
+    "location": "",
+    "packages": {
+      "postcss-preset-env": "8.4.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@csstools/css-color-parser": {
+      "1.2.0": [
+        [ "@csstools/color-helpers", "2.1.0" ],
+        [ "@csstools/css-calc", "1.1.1" ]
+      ]
+    },
+    "@csstools/postcss-cascade-layers": {
+      "3.0.1": [
+        [ "@csstools/selector-specificity", "2.2.0" ],
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "@csstools/postcss-color-function": {
+      "2.2.3": [
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ]
+      ]
+    },
+    "@csstools/postcss-color-mix-function": {
+      "1.0.3": [
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ]
+      ]
+    },
+    "@csstools/postcss-font-format-keywords": {
+      "2.0.2": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "@csstools/postcss-gradients-interpolation-method": {
+      "3.0.6": [
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ]
+      ]
+    },
+    "@csstools/postcss-hwb-function": {
+      "2.2.2": [
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ]
+      ]
+    },
+    "@csstools/postcss-ic-unit": {
+      "2.0.4": [
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "@csstools/postcss-is-pseudo-class": {
+      "3.2.1": [
+        [ "@csstools/selector-specificity", "2.2.0" ],
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "@csstools/postcss-logical-resize": {
+      "1.0.1": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "@csstools/postcss-logical-viewport-units": {
+      "1.0.3": [
+        [ "@csstools/css-tokenizer", "2.1.1" ]
+      ]
+    },
+    "@csstools/postcss-media-minmax": {
+      "1.0.3": [
+        [ "@csstools/css-calc", "1.1.1" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/media-query-list-parser", "2.1.0" ]
+      ]
+    },
+    "@csstools/postcss-media-queries-aspect-ratio-number-values": {
+      "1.0.3": [
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/media-query-list-parser", "2.1.0" ]
+      ]
+    },
+    "@csstools/postcss-nested-calc": {
+      "2.0.2": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "@csstools/postcss-normalize-display-values": {
+      "2.0.1": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "@csstools/postcss-oklab-function": {
+      "2.2.3": [
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ]
+      ]
+    },
+    "@csstools/postcss-progressive-custom-properties": {
+      "2.3.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "@csstools/postcss-relative-color-syntax": {
+      "1.0.1": [
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ]
+      ]
+    },
+    "@csstools/postcss-scope-pseudo-class": {
+      "2.0.2": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "@csstools/postcss-stepped-value-functions": {
+      "2.1.1": [
+        [ "@csstools/css-calc", "1.1.1" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ]
+      ]
+    },
+    "@csstools/postcss-text-decoration-shorthand": {
+      "2.2.4": [
+        [ "@csstools/color-helpers", "2.1.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "@csstools/postcss-trigonometric-functions": {
+      "2.1.1": [
+        [ "@csstools/css-calc", "1.1.1" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ]
+      ]
+    },
+    "autoprefixer": {
+      "10.4.14": [
+        [ "browserslist", "4.21.7" ],
+        [ "caniuse-lite", "1.0.30001492" ],
+        [ "fraction.js", "4.2.0" ],
+        [ "normalize-range", "0.1.2" ],
+        [ "picocolors", "1.0.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "browserslist": {
+      "4.21.7": [
+        [ "caniuse-lite", "1.0.30001492" ],
+        [ "electron-to-chromium", "1.4.419" ],
+        [ "node-releases", "2.0.12" ],
+        [ "update-browserslist-db", "1.0.11" ]
+      ]
+    },
+    "css-blank-pseudo": {
+      "5.0.2": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "css-has-pseudo": {
+      "5.0.2": [
+        [ "@csstools/selector-specificity", "2.2.0" ],
+        [ "postcss-selector-parser", "6.0.13" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss": {
+      "8.4.24": [
+        [ "nanoid", "3.3.6" ],
+        [ "picocolors", "1.0.0" ],
+        [ "source-map-js", "1.0.2" ]
+      ]
+    },
+    "postcss-attribute-case-insensitive": {
+      "6.0.2": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-clamp": {
+      "4.1.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-color-functional-notation": {
+      "5.1.0": [
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-color-hex-alpha": {
+      "9.0.2": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-color-rebeccapurple": {
+      "8.0.2": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-custom-media": {
+      "9.1.4": [
+        [ "@csstools/cascade-layer-name-parser", "1.0.2" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/media-query-list-parser", "2.1.0" ]
+      ]
+    },
+    "postcss-custom-properties": {
+      "13.2.0": [
+        [ "@csstools/cascade-layer-name-parser", "1.0.2" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-custom-selectors": {
+      "7.1.3": [
+        [ "@csstools/cascade-layer-name-parser", "1.0.2" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-dir-pseudo-class": {
+      "7.0.2": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-double-position-gradients": {
+      "4.0.4": [
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-focus-visible": {
+      "8.0.2": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-focus-within": {
+      "7.0.2": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-image-set-function": {
+      "5.0.2": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-lab-function": {
+      "5.2.3": [
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ]
+      ]
+    },
+    "postcss-logical": {
+      "6.2.0": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-nesting": {
+      "11.2.2": [
+        [ "@csstools/selector-specificity", "2.2.0" ],
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-overflow-shorthand": {
+      "4.0.1": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-place": {
+      "8.0.1": [
+        [ "postcss-value-parser", "4.2.0" ]
+      ]
+    },
+    "postcss-preset-env": {
+      "8.4.2": [
+        [ "@csstools/postcss-cascade-layers", "3.0.1" ],
+        [ "@csstools/postcss-color-function", "2.2.3" ],
+        [ "@csstools/postcss-color-mix-function", "1.0.3" ],
+        [ "@csstools/postcss-font-format-keywords", "2.0.2" ],
+        [ "@csstools/postcss-gradients-interpolation-method", "3.0.6" ],
+        [ "@csstools/postcss-hwb-function", "2.2.2" ],
+        [ "@csstools/postcss-ic-unit", "2.0.4" ],
+        [ "@csstools/postcss-is-pseudo-class", "3.2.1" ],
+        [ "@csstools/postcss-logical-float-and-clear", "1.0.1" ],
+        [ "@csstools/postcss-logical-resize", "1.0.1" ],
+        [ "@csstools/postcss-logical-viewport-units", "1.0.3" ],
+        [ "@csstools/postcss-media-minmax", "1.0.3" ],
+        [ "@csstools/postcss-media-queries-aspect-ratio-number-values", "1.0.3" ],
+        [ "@csstools/postcss-nested-calc", "2.0.2" ],
+        [ "@csstools/postcss-normalize-display-values", "2.0.1" ],
+        [ "@csstools/postcss-oklab-function", "2.2.3" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ],
+        [ "@csstools/postcss-relative-color-syntax", "1.0.1" ],
+        [ "@csstools/postcss-scope-pseudo-class", "2.0.2" ],
+        [ "@csstools/postcss-stepped-value-functions", "2.1.1" ],
+        [ "@csstools/postcss-text-decoration-shorthand", "2.2.4" ],
+        [ "@csstools/postcss-trigonometric-functions", "2.1.1" ],
+        [ "@csstools/postcss-unset-value", "2.0.1" ],
+        [ "autoprefixer", "10.4.14" ],
+        [ "browserslist", "4.21.7" ],
+        [ "css-blank-pseudo", "5.0.2" ],
+        [ "css-has-pseudo", "5.0.2" ],
+        [ "css-prefers-color-scheme", "8.0.2" ],
+        [ "cssdb", "7.6.0" ],
+        [ "postcss-attribute-case-insensitive", "6.0.2" ],
+        [ "postcss-clamp", "4.1.0" ],
+        [ "postcss-color-functional-notation", "5.1.0" ],
+        [ "postcss-color-hex-alpha", "9.0.2" ],
+        [ "postcss-color-rebeccapurple", "8.0.2" ],
+        [ "postcss-custom-media", "9.1.4" ],
+        [ "postcss-custom-properties", "13.2.0" ],
+        [ "postcss-custom-selectors", "7.1.3" ],
+        [ "postcss-dir-pseudo-class", "7.0.2" ],
+        [ "postcss-double-position-gradients", "4.0.4" ],
+        [ "postcss-focus-visible", "8.0.2" ],
+        [ "postcss-focus-within", "7.0.2" ],
+        [ "postcss-font-variant", "5.0.0" ],
+        [ "postcss-gap-properties", "4.0.1" ],
+        [ "postcss-image-set-function", "5.0.2" ],
+        [ "postcss-initial", "4.0.1" ],
+        [ "postcss-lab-function", "5.2.3" ],
+        [ "postcss-logical", "6.2.0" ],
+        [ "postcss-nesting", "11.2.2" ],
+        [ "postcss-opacity-percentage", "2.0.0" ],
+        [ "postcss-overflow-shorthand", "4.0.1" ],
+        [ "postcss-page-break", "3.0.4" ],
+        [ "postcss-place", "8.0.1" ],
+        [ "postcss-pseudo-class-any-link", "8.0.2" ],
+        [ "postcss-replace-overflow-wrap", "4.0.0" ],
+        [ "postcss-selector-not", "7.0.1" ],
+        [ "postcss-value-parser", "4.2.0" ]
+      ],
+      "unknown": [
+        [ "@csstools/cascade-layer-name-parser", "1.0.2" ],
+        [ "@csstools/color-helpers", "2.1.0" ],
+        [ "@csstools/css-calc", "1.1.1" ],
+        [ "@csstools/css-color-parser", "1.2.0" ],
+        [ "@csstools/css-parser-algorithms", "2.2.0" ],
+        [ "@csstools/css-tokenizer", "2.1.1" ],
+        [ "@csstools/media-query-list-parser", "2.1.0" ],
+        [ "@csstools/postcss-cascade-layers", "3.0.1" ],
+        [ "@csstools/postcss-color-function", "2.2.3" ],
+        [ "@csstools/postcss-color-mix-function", "1.0.3" ],
+        [ "@csstools/postcss-font-format-keywords", "2.0.2" ],
+        [ "@csstools/postcss-gradients-interpolation-method", "3.0.6" ],
+        [ "@csstools/postcss-hwb-function", "2.2.2" ],
+        [ "@csstools/postcss-ic-unit", "2.0.4" ],
+        [ "@csstools/postcss-is-pseudo-class", "3.2.1" ],
+        [ "@csstools/postcss-logical-float-and-clear", "1.0.1" ],
+        [ "@csstools/postcss-logical-resize", "1.0.1" ],
+        [ "@csstools/postcss-logical-viewport-units", "1.0.3" ],
+        [ "@csstools/postcss-media-minmax", "1.0.3" ],
+        [ "@csstools/postcss-media-queries-aspect-ratio-number-values", "1.0.3" ],
+        [ "@csstools/postcss-nested-calc", "2.0.2" ],
+        [ "@csstools/postcss-normalize-display-values", "2.0.1" ],
+        [ "@csstools/postcss-oklab-function", "2.2.3" ],
+        [ "@csstools/postcss-progressive-custom-properties", "2.3.0" ],
+        [ "@csstools/postcss-relative-color-syntax", "1.0.1" ],
+        [ "@csstools/postcss-scope-pseudo-class", "2.0.2" ],
+        [ "@csstools/postcss-stepped-value-functions", "2.1.1" ],
+        [ "@csstools/postcss-text-decoration-shorthand", "2.2.4" ],
+        [ "@csstools/postcss-trigonometric-functions", "2.1.1" ],
+        [ "@csstools/postcss-unset-value", "2.0.1" ],
+        [ "@csstools/selector-specificity", "2.2.0" ],
+        [ "autoprefixer", "10.4.14" ],
+        [ "browserslist", "4.21.7" ],
+        [ "caniuse-lite", "1.0.30001492" ],
+        [ "css-blank-pseudo", "5.0.2" ],
+        [ "css-has-pseudo", "5.0.2" ],
+        [ "css-prefers-color-scheme", "8.0.2" ],
+        [ "cssdb", "7.6.0" ],
+        [ "cssesc", "3.0.0" ],
+        [ "electron-to-chromium", "1.4.419" ],
+        [ "escalade", "3.1.1" ],
+        [ "fraction.js", "4.2.0" ],
+        [ "nanoid", "3.3.6" ],
+        [ "node-releases", "2.0.12" ],
+        [ "normalize-range", "0.1.2" ],
+        [ "picocolors", "1.0.0" ],
+        [ "postcss", "8.4.24" ],
+        [ "postcss-attribute-case-insensitive", "6.0.2" ],
+        [ "postcss-clamp", "4.1.0" ],
+        [ "postcss-color-functional-notation", "5.1.0" ],
+        [ "postcss-color-hex-alpha", "9.0.2" ],
+        [ "postcss-color-rebeccapurple", "8.0.2" ],
+        [ "postcss-custom-media", "9.1.4" ],
+        [ "postcss-custom-properties", "13.2.0" ],
+        [ "postcss-custom-selectors", "7.1.3" ],
+        [ "postcss-dir-pseudo-class", "7.0.2" ],
+        [ "postcss-double-position-gradients", "4.0.4" ],
+        [ "postcss-focus-visible", "8.0.2" ],
+        [ "postcss-focus-within", "7.0.2" ],
+        [ "postcss-font-variant", "5.0.0" ],
+        [ "postcss-gap-properties", "4.0.1" ],
+        [ "postcss-image-set-function", "5.0.2" ],
+        [ "postcss-initial", "4.0.1" ],
+        [ "postcss-lab-function", "5.2.3" ],
+        [ "postcss-logical", "6.2.0" ],
+        [ "postcss-nesting", "11.2.2" ],
+        [ "postcss-opacity-percentage", "2.0.0" ],
+        [ "postcss-overflow-shorthand", "4.0.1" ],
+        [ "postcss-page-break", "3.0.4" ],
+        [ "postcss-place", "8.0.1" ],
+        [ "postcss-preset-env", "8.4.2" ],
+        [ "postcss-pseudo-class-any-link", "8.0.2" ],
+        [ "postcss-replace-overflow-wrap", "4.0.0" ],
+        [ "postcss-selector-not", "7.0.1" ],
+        [ "postcss-selector-parser", "6.0.13" ],
+        [ "postcss-value-parser", "4.2.0" ],
+        [ "source-map-js", "1.0.2" ],
+        [ "update-browserslist-db", "1.0.11" ],
+        [ "util-deprecate", "1.0.2" ]
+      ]
+    },
+    "postcss-pseudo-class-any-link": {
+      "8.0.2": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-selector-not": {
+      "7.0.1": [
+        [ "postcss-selector-parser", "6.0.13" ]
+      ]
+    },
+    "postcss-selector-parser": {
+      "6.0.13": [
+        [ "cssesc", "3.0.0" ],
+        [ "util-deprecate", "1.0.2" ]
+      ]
+    },
+    "update-browserslist-db": {
+      "1.0.11": [
+        [ "escalade", "3.1.1" ],
+        [ "picocolors", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@csstools/cascade-layer-name-parser": {
+      "1.0.2": {
+        "hash": "sha512-xm7Mgwej/wBfLoK0K5LfntmPJzoULayl1XZY9JYgQgT29JiqNw++sLnx95u5y9zCihblzkyaRYJrsRMhIBzRdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/cascade-layer-name-parser/-/cascade-layer-name-parser-1.0.2.tgz"
+      }
+    },
+    "@csstools/color-helpers": {
+      "2.1.0": {
+        "hash": "sha512-OWkqBa7PDzZuJ3Ha7T5bxdSVfSCfTq6K1mbAhbO1MD+GSULGjrp45i5RudyJOedstSarN/3mdwu9upJE7gDXfw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-2.1.0.tgz"
+      }
+    },
+    "@csstools/css-calc": {
+      "1.1.1": {
+        "hash": "sha512-Nh+iLCtjlooTzuR0lpmB8I6hPX/VupcGQ3Z1U2+wgJJ4fa8+cWkub+lCsbZcYPzBGsZLEL8fQAg+Na5dwEFJxg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/css-calc/-/css-calc-1.1.1.tgz"
+      }
+    },
+    "@csstools/css-color-parser": {
+      "1.2.0": {
+        "hash": "sha512-kt9jhqyL/Ig/Tsf1cY+iygxs2nu3/D532048G9BSeg9YjlpZxbor6I+nvgMNB1A1ppL+i15Mb/yyDHYMQmgBtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-1.2.0.tgz"
+      }
+    },
+    "@csstools/css-parser-algorithms": {
+      "2.2.0": {
+        "hash": "sha512-9BoQ/jSrPq4vv3b9jjLW+PNNv56KlDH5JMx5yASSNrCtvq70FCNZUjXRvbCeR9hYj9ZyhURtqpU/RFIgg6kiOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.2.0.tgz"
+      }
+    },
+    "@csstools/css-tokenizer": {
+      "2.1.1": {
+        "hash": "sha512-GbrTj2Z8MCTUv+52GE0RbFGM527xuXZ0Xa5g0Z+YN573uveS4G0qi6WNOMyz3yrFM/jaILTTwJ0+umx81EzqfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-2.1.1.tgz"
+      }
+    },
+    "@csstools/media-query-list-parser": {
+      "2.1.0": {
+        "hash": "sha512-MXkR+TeaS2q9IkpyO6jVCdtA/bfpABJxIrfkLswThFN8EZZgI2RfAHhm6sDNDuYV25d5+b8Lj1fpTccIcSLPsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/media-query-list-parser/-/media-query-list-parser-2.1.0.tgz"
+      }
+    },
+    "@csstools/postcss-cascade-layers": {
+      "3.0.1": {
+        "hash": "sha512-dD8W98dOYNOH/yX4V4HXOhfCOnvVAg8TtsL+qCGNoKXuq5z2C/d026wGWgySgC8cajXXo/wNezS31Glj5GcqrA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-cascade-layers/-/postcss-cascade-layers-3.0.1.tgz"
+      }
+    },
+    "@csstools/postcss-color-function": {
+      "2.2.3": {
+        "hash": "sha512-b1ptNkr1UWP96EEHqKBWWaV5m/0hgYGctgA/RVZhONeP1L3T/8hwoqDm9bB23yVCfOgE9U93KI9j06+pEkJTvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-color-function/-/postcss-color-function-2.2.3.tgz"
+      }
+    },
+    "@csstools/postcss-color-mix-function": {
+      "1.0.3": {
+        "hash": "sha512-QGXjGugTluqFZWzVf+S3wCiRiI0ukXlYqCi7OnpDotP/zaVTyl/aqZujLFzTOXy24BoWnu89frGMc79ohY5eog==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-color-mix-function/-/postcss-color-mix-function-1.0.3.tgz"
+      }
+    },
+    "@csstools/postcss-font-format-keywords": {
+      "2.0.2": {
+        "hash": "sha512-iKYZlIs6JsNT7NKyRjyIyezTCHLh4L4BBB3F5Nx7Dc4Z/QmBgX+YJFuUSar8IM6KclGiAUFGomXFdYxAwJydlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-font-format-keywords/-/postcss-font-format-keywords-2.0.2.tgz"
+      }
+    },
+    "@csstools/postcss-gradients-interpolation-method": {
+      "3.0.6": {
+        "hash": "sha512-rBOBTat/YMmB0G8VHwKqDEx+RZ4KCU9j42K8LwS0IpZnyThalZZF7BCSsZ6TFlZhcRZKlZy3LLFI2pLqjNVGGA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-gradients-interpolation-method/-/postcss-gradients-interpolation-method-3.0.6.tgz"
+      }
+    },
+    "@csstools/postcss-hwb-function": {
+      "2.2.2": {
+        "hash": "sha512-W5Y5oaJ382HSlbdGfPf60d7dAK6Hqf10+Be1yZbd/TNNrQ/3dDdV1c07YwOXPQ3PZ6dvFMhxbIbn8EC3ki3nEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-hwb-function/-/postcss-hwb-function-2.2.2.tgz"
+      }
+    },
+    "@csstools/postcss-ic-unit": {
+      "2.0.4": {
+        "hash": "sha512-9W2ZbV7whWnr1Gt4qYgxMWzbevZMOvclUczT5vk4yR6vS53W/njiiUhtm/jh/BKYwQ1W3PECZjgAd2dH4ebJig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-ic-unit/-/postcss-ic-unit-2.0.4.tgz"
+      }
+    },
+    "@csstools/postcss-is-pseudo-class": {
+      "3.2.1": {
+        "hash": "sha512-AtANdV34kJl04Al62is3eQRk/BfOfyAvEmRJvbt+nx5REqImLC+2XhuE6skgkcPli1l8ONS67wS+l1sBzySc3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-is-pseudo-class/-/postcss-is-pseudo-class-3.2.1.tgz"
+      }
+    },
+    "@csstools/postcss-logical-float-and-clear": {
+      "1.0.1": {
+        "hash": "sha512-eO9z2sMLddvlfFEW5Fxbjyd03zaO7cJafDurK4rCqyRt9P7aaWwha0LcSzoROlcZrw1NBV2JAp2vMKfPMQO1xw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-logical-float-and-clear/-/postcss-logical-float-and-clear-1.0.1.tgz"
+      }
+    },
+    "@csstools/postcss-logical-resize": {
+      "1.0.1": {
+        "hash": "sha512-x1ge74eCSvpBkDDWppl+7FuD2dL68WP+wwP2qvdUcKY17vJksz+XoE1ZRV38uJgS6FNUwC0AxrPW5gy3MxsDHQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-logical-resize/-/postcss-logical-resize-1.0.1.tgz"
+      }
+    },
+    "@csstools/postcss-logical-viewport-units": {
+      "1.0.3": {
+        "hash": "sha512-6zqcyRg9HSqIHIPMYdt6THWhRmE5/tyHKJQLysn2TeDf/ftq7Em9qwMTx98t2C/7UxIsYS8lOiHHxAVjWn2WUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-logical-viewport-units/-/postcss-logical-viewport-units-1.0.3.tgz"
+      }
+    },
+    "@csstools/postcss-media-minmax": {
+      "1.0.3": {
+        "hash": "sha512-os7qe2HV/qBILKCGa/dl5AbpO6c+MZyunFBWPWJBrEVhulCYo13FgEWbhyERFM5FeJghiqYgJxM54oiJASpBnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-media-minmax/-/postcss-media-minmax-1.0.3.tgz"
+      }
+    },
+    "@csstools/postcss-media-queries-aspect-ratio-number-values": {
+      "1.0.3": {
+        "hash": "sha512-JHdwBSNZsur/mJXwzuC/gxyekhfSdWJaTiSOhUITk2D8pYRYcjV1MZiCiWupQNfM2Qp2W7w1A/gEU6U/xlpIyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-media-queries-aspect-ratio-number-values/-/postcss-media-queries-aspect-ratio-number-values-1.0.3.tgz"
+      }
+    },
+    "@csstools/postcss-nested-calc": {
+      "2.0.2": {
+        "hash": "sha512-jbwrP8rN4e7LNaRcpx3xpMUjhtt34I9OV+zgbcsYAAk6k1+3kODXJBf95/JMYWhu9g1oif7r06QVUgfWsKxCFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-nested-calc/-/postcss-nested-calc-2.0.2.tgz"
+      }
+    },
+    "@csstools/postcss-normalize-display-values": {
+      "2.0.1": {
+        "hash": "sha512-TQT5g3JQ5gPXC239YuRK8jFceXF9d25ZvBkyjzBGGoW5st5sPXFVQS8OjYb9IJ/K3CdfK4528y483cgS2DJR/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-normalize-display-values/-/postcss-normalize-display-values-2.0.1.tgz"
+      }
+    },
+    "@csstools/postcss-oklab-function": {
+      "2.2.3": {
+        "hash": "sha512-AgJ2rWMnLCDcbSMTHSqBYn66DNLBym6JpBpCaqmwZ9huGdljjDRuH3DzOYzkgQ7Pm2K92IYIq54IvFHloUOdvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-oklab-function/-/postcss-oklab-function-2.2.3.tgz"
+      }
+    },
+    "@csstools/postcss-progressive-custom-properties": {
+      "2.3.0": {
+        "hash": "sha512-Zd8ojyMlsL919TBExQ1I0CTpBDdyCpH/yOdqatZpuC3sd22K4SwC7+Yez3Q/vmXMWSAl+shjNeFZ7JMyxMjK+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-progressive-custom-properties/-/postcss-progressive-custom-properties-2.3.0.tgz"
+      }
+    },
+    "@csstools/postcss-relative-color-syntax": {
+      "1.0.1": {
+        "hash": "sha512-IskxdQqAkx/pyyOEW3Lhn3nvOu5zlaZ8wQljFl5zc3ABl+gEFf2G42yWK3+wX+J0F4jm7OikOigXo9fAISFEmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-relative-color-syntax/-/postcss-relative-color-syntax-1.0.1.tgz"
+      }
+    },
+    "@csstools/postcss-scope-pseudo-class": {
+      "2.0.2": {
+        "hash": "sha512-6Pvo4uexUCXt+Hz5iUtemQAcIuCYnL+ePs1khFR6/xPgC92aQLJ0zGHonWoewiBE+I++4gXK3pr+R1rlOFHe5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-scope-pseudo-class/-/postcss-scope-pseudo-class-2.0.2.tgz"
+      }
+    },
+    "@csstools/postcss-stepped-value-functions": {
+      "2.1.1": {
+        "hash": "sha512-YCvdF0GCZK35nhLgs7ippcxDlRVe5QsSht3+EghqTjnYnyl3BbWIN6fYQ1dKWYTJ+7Bgi41TgqQFfJDcp9Xy/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-stepped-value-functions/-/postcss-stepped-value-functions-2.1.1.tgz"
+      }
+    },
+    "@csstools/postcss-text-decoration-shorthand": {
+      "2.2.4": {
+        "hash": "sha512-zPN56sQkS/7YTCVZhOBVCWf7AiNge8fXDl7JVaHLz2RyT4pnyK2gFjckWRLpO0A2xkm1lCgZ0bepYZTwAVd/5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-text-decoration-shorthand/-/postcss-text-decoration-shorthand-2.2.4.tgz"
+      }
+    },
+    "@csstools/postcss-trigonometric-functions": {
+      "2.1.1": {
+        "hash": "sha512-XcXmHEFfHXhvYz40FtDlA4Fp4NQln2bWTsCwthd2c+MCnYArUYU3YaMqzR5CrKP3pMoGYTBnp5fMqf1HxItNyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-trigonometric-functions/-/postcss-trigonometric-functions-2.1.1.tgz"
+      }
+    },
+    "@csstools/postcss-unset-value": {
+      "2.0.1": {
+        "hash": "sha512-oJ9Xl29/yU8U7/pnMJRqAZd4YXNCfGEdcP4ywREuqm/xMqcgDNDppYRoCGDt40aaZQIEKBS79LytUDN/DHf0Ew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/postcss-unset-value/-/postcss-unset-value-2.0.1.tgz"
+      }
+    },
+    "@csstools/selector-specificity": {
+      "2.2.0": {
+        "hash": "sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz"
+      }
+    },
+    "autoprefixer": {
+      "10.4.14": {
+        "hash": "sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.14.tgz"
+      }
+    },
+    "browserslist": {
+      "4.21.7": {
+        "hash": "sha512-BauCXrQ7I2ftSqd2mvKHGo85XR0u7Ru3C/Hxsy/0TkfCtjrmAbPdzLGasmoiBxplpDXlPvdjX9u7srIMfgasNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.21.7.tgz"
+      }
+    },
+    "caniuse-lite": {
+      "1.0.30001492": {
+        "hash": "sha512-2efF8SAZwgAX1FJr87KWhvuJxnGJKOnctQa8xLOskAXNXq8oiuqgl6u1kk3fFpsp3GgvzlRjiK1sl63hNtFADw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001492.tgz"
+      }
+    },
+    "css-blank-pseudo": {
+      "5.0.2": {
+        "hash": "sha512-aCU4AZ7uEcVSUzagTlA9pHciz7aWPKA/YzrEkpdSopJ2pvhIxiQ5sYeMz1/KByxlIo4XBdvMNJAVKMg/GRnhfw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-blank-pseudo/-/css-blank-pseudo-5.0.2.tgz"
+      }
+    },
+    "css-has-pseudo": {
+      "5.0.2": {
+        "hash": "sha512-q+U+4QdwwB7T9VEW/LyO6CFrLAeLqOykC5mDqJXc7aKZAhDbq7BvGT13VGJe+IwBfdN2o3Xdw2kJ5IxwV1Sc9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-has-pseudo/-/css-has-pseudo-5.0.2.tgz"
+      }
+    },
+    "css-prefers-color-scheme": {
+      "8.0.2": {
+        "hash": "sha512-OvFghizHJ45x7nsJJUSYLyQNTzsCU8yWjxAc/nhPQg1pbs18LMoET8N3kOweFDPy0JV0OSXN2iqRFhPBHYOeMA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-prefers-color-scheme/-/css-prefers-color-scheme-8.0.2.tgz"
+      }
+    },
+    "cssdb": {
+      "7.6.0": {
+        "hash": "sha512-Nna7rph8V0jC6+JBY4Vk4ndErUmfJfV6NJCaZdurL0omggabiy+QB2HCQtu5c/ACLZ0I7REv7A4QyPIoYzZx0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssdb/-/cssdb-7.6.0.tgz"
+      }
+    },
+    "cssesc": {
+      "3.0.0": {
+        "hash": "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
+      }
+    },
+    "electron-to-chromium": {
+      "1.4.419": {
+        "hash": "sha512-jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz"
+      }
+    },
+    "escalade": {
+      "3.1.1": {
+        "hash": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
+      }
+    },
+    "fraction.js": {
+      "4.2.0": {
+        "hash": "sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
+      }
+    },
+    "nanoid": {
+      "3.3.6": {
+        "hash": "sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz"
+      }
+    },
+    "node-releases": {
+      "2.0.12": {
+        "hash": "sha512-QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.12.tgz"
+      }
+    },
+    "normalize-range": {
+      "0.1.2": {
+        "hash": "sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz"
+      }
+    },
+    "picocolors": {
+      "1.0.0": {
+        "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+      }
+    },
+    "postcss": {
+      "8.4.24": {
+        "hash": "sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss/-/postcss-8.4.24.tgz"
+      }
+    },
+    "postcss-attribute-case-insensitive": {
+      "6.0.2": {
+        "hash": "sha512-IRuCwwAAQbgaLhxQdQcIIK0dCVXg3XDUnzgKD8iwdiYdwU4rMWRWyl/W9/0nA4ihVpq5pyALiHB2veBJ0292pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-attribute-case-insensitive/-/postcss-attribute-case-insensitive-6.0.2.tgz"
+      }
+    },
+    "postcss-clamp": {
+      "4.1.0": {
+        "hash": "sha512-ry4b1Llo/9zz+PKC+030KUnPITTJAHeOwjfAyyB60eT0AorGLdzp52s31OsPRHRf8NchkgFoG2y6fCfn1IV1Ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-clamp/-/postcss-clamp-4.1.0.tgz"
+      }
+    },
+    "postcss-color-functional-notation": {
+      "5.1.0": {
+        "hash": "sha512-w2R4py6zrVE1U7FwNaAc76tNQlG9GLkrBbcFw+VhUjyDDiV28vfZG+l4LyPmpoQpeSJVtu8VgNjE8Jv5SpC7dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-color-functional-notation/-/postcss-color-functional-notation-5.1.0.tgz"
+      }
+    },
+    "postcss-color-hex-alpha": {
+      "9.0.2": {
+        "hash": "sha512-SfPjgr//VQ/DOCf80STIAsdAs7sbIbxATvVmd+Ec7JvR8onz9pjawhq3BJM3Pie40EE3TyB0P6hft16D33Nlyg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-color-hex-alpha/-/postcss-color-hex-alpha-9.0.2.tgz"
+      }
+    },
+    "postcss-color-rebeccapurple": {
+      "8.0.2": {
+        "hash": "sha512-xWf/JmAxVoB5bltHpXk+uGRoGFwu4WDAR7210el+iyvTdqiKpDhtcT8N3edXMoVJY0WHFMrKMUieql/wRNiXkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-color-rebeccapurple/-/postcss-color-rebeccapurple-8.0.2.tgz"
+      }
+    },
+    "postcss-custom-media": {
+      "9.1.4": {
+        "hash": "sha512-4A7WEG3iIyKwfpxL5bkuSlHoHHGRTHl0212Z3uvpwJPyVfZJlkZAQNNgVC+oogrJgksDnfKyuuMbG6HafZPW8Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-custom-media/-/postcss-custom-media-9.1.4.tgz"
+      }
+    },
+    "postcss-custom-properties": {
+      "13.2.0": {
+        "hash": "sha512-UYiPqbqmVayyv56y0mtGhvUKZClflwE9cTTmPaqEX8fOVjVwsotqKGYtJXSLxrJLwf9tt7ka+Luyh1ZAOhGHWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-custom-properties/-/postcss-custom-properties-13.2.0.tgz"
+      }
+    },
+    "postcss-custom-selectors": {
+      "7.1.3": {
+        "hash": "sha512-GTVscax6O/8s7agFF0HsOoIyjrnAbLjgCUle8tn+0oDGJuVx7p56U7ClSRoC49poxFuMfu2B4Q8GnxSCOeuFKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-custom-selectors/-/postcss-custom-selectors-7.1.3.tgz"
+      }
+    },
+    "postcss-dir-pseudo-class": {
+      "7.0.2": {
+        "hash": "sha512-cMnslilYxBf9k3qejnovrUONZx1rXeUZJw06fgIUBzABJe3D2LiLL5WAER7Imt3nrkaIgG05XZBztueLEf5P8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-dir-pseudo-class/-/postcss-dir-pseudo-class-7.0.2.tgz"
+      }
+    },
+    "postcss-double-position-gradients": {
+      "4.0.4": {
+        "hash": "sha512-nUAbUXURemLXIrl4Xoia2tiu5z/n8sY+BVDZApoeT9BlpByyrp02P/lFCRrRvZ/zrGRE+MOGLhk8o7VcMCtPtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-double-position-gradients/-/postcss-double-position-gradients-4.0.4.tgz"
+      }
+    },
+    "postcss-focus-visible": {
+      "8.0.2": {
+        "hash": "sha512-f/Vd+EC/GaKElknU59esVcRYr/Y3t1ZAQyL4u2xSOgkDy4bMCmG7VP5cGvj3+BTLNE9ETfEuz2nnt4qkZwTTeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-focus-visible/-/postcss-focus-visible-8.0.2.tgz"
+      }
+    },
+    "postcss-focus-within": {
+      "7.0.2": {
+        "hash": "sha512-AHAJ89UQBcqBvFgQJE9XasGuwMNkKsGj4D/f9Uk60jFmEBHpAL14DrnSk3Rj+SwZTr/WUG+mh+Rvf8fid/346w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-7.0.2.tgz"
+      }
+    },
+    "postcss-font-variant": {
+      "5.0.0": {
+        "hash": "sha512-1fmkBaCALD72CK2a9i468mA/+tr9/1cBxRRMXOUaZqO43oWPR5imcyPjXwuv7PXbCid4ndlP5zWhidQVVa3hmA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-font-variant/-/postcss-font-variant-5.0.0.tgz"
+      }
+    },
+    "postcss-gap-properties": {
+      "4.0.1": {
+        "hash": "sha512-V5OuQGw4lBumPlwHWk/PRfMKjaq/LTGR4WDTemIMCaMevArVfCCA9wBJiL1VjDAd+rzuCIlkRoRvDsSiAaZ4Fg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-gap-properties/-/postcss-gap-properties-4.0.1.tgz"
+      }
+    },
+    "postcss-image-set-function": {
+      "5.0.2": {
+        "hash": "sha512-Sszjwo0ubETX0Fi5MvpYzsONwrsjeabjMoc5YqHvURFItXgIu3HdCjcVuVKGMPGzKRhgaknmdM5uVWInWPJmeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-image-set-function/-/postcss-image-set-function-5.0.2.tgz"
+      }
+    },
+    "postcss-initial": {
+      "4.0.1": {
+        "hash": "sha512-0ueD7rPqX8Pn1xJIjay0AZeIuDoF+V+VvMt/uOnn+4ezUKhZM/NokDeP6DwMNyIoYByuN/94IQnt5FEkaN59xQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-initial/-/postcss-initial-4.0.1.tgz"
+      }
+    },
+    "postcss-lab-function": {
+      "5.2.3": {
+        "hash": "sha512-fi32AYKzji5/rvgxo5zXHFvAYBw0u0OzELbeCNjEZVLUir18Oj+9RmNphtM8QdLUaUnrfx8zy8vVYLmFLkdmrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-lab-function/-/postcss-lab-function-5.2.3.tgz"
+      }
+    },
+    "postcss-logical": {
+      "6.2.0": {
+        "hash": "sha512-aqlfKGaY0nnbgI9jwUikp4gJKBqcH5noU/EdnIVceghaaDPYhZuyJVxlvWNy55tlTG5tunRKCTAX9yljLiFgmw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-logical/-/postcss-logical-6.2.0.tgz"
+      }
+    },
+    "postcss-nesting": {
+      "11.2.2": {
+        "hash": "sha512-aOTiUniAB1bcPE6GGiynWRa6PZFPhOTAm5q3q5cem6QeSijIHHkWr6gs65ukCZMXeak8yXeZVbBJET3VM+HlhA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-nesting/-/postcss-nesting-11.2.2.tgz"
+      }
+    },
+    "postcss-opacity-percentage": {
+      "2.0.0": {
+        "hash": "sha512-lyDrCOtntq5Y1JZpBFzIWm2wG9kbEdujpNt4NLannF+J9c8CgFIzPa80YQfdza+Y+yFfzbYj/rfoOsYsooUWTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-opacity-percentage/-/postcss-opacity-percentage-2.0.0.tgz"
+      }
+    },
+    "postcss-overflow-shorthand": {
+      "4.0.1": {
+        "hash": "sha512-HQZ0qi/9iSYHW4w3ogNqVNr2J49DHJAl7r8O2p0Meip38jsdnRPgiDW7r/LlLrrMBMe3KHkvNtAV2UmRVxzLIg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-overflow-shorthand/-/postcss-overflow-shorthand-4.0.1.tgz"
+      }
+    },
+    "postcss-page-break": {
+      "3.0.4": {
+        "hash": "sha512-1JGu8oCjVXLa9q9rFTo4MbeeA5FMe00/9C7lN4va606Rdb+HkxXtXsmEDrIraQ11fGz/WvKWa8gMuCKkrXpTsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-page-break/-/postcss-page-break-3.0.4.tgz"
+      }
+    },
+    "postcss-place": {
+      "8.0.1": {
+        "hash": "sha512-Ow2LedN8sL4pq8ubukO77phSVt4QyCm35ZGCYXKvRFayAwcpgB0sjNJglDoTuRdUL32q/ZC1VkPBo0AOEr4Uiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-place/-/postcss-place-8.0.1.tgz"
+      }
+    },
+    "postcss-preset-env": {
+      "8.4.2": {
+        "hash": "sha512-Bihxo+FsyVNjsRADiYYnj9Ez0WBSWSSHAe8WvxoMlqrw8H8m6gK9E0MkDd7P6ForoikRIF3I8grGg/pFM6ECRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-8.4.2.tgz"
+      }
+    },
+    "postcss-pseudo-class-any-link": {
+      "8.0.2": {
+        "hash": "sha512-FYTIuRE07jZ2CW8POvctRgArQJ43yxhr5vLmImdKUvjFCkR09kh8pIdlCwdx/jbFm7MiW4QP58L4oOUv3grQYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-8.0.2.tgz"
+      }
+    },
+    "postcss-replace-overflow-wrap": {
+      "4.0.0": {
+        "hash": "sha512-KmF7SBPphT4gPPcKZc7aDkweHiKEEO8cla/GjcBK+ckKxiZslIu3C4GCRW3DNfL0o7yW7kMQu9xlZ1kXRXLXtw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-replace-overflow-wrap/-/postcss-replace-overflow-wrap-4.0.0.tgz"
+      }
+    },
+    "postcss-selector-not": {
+      "7.0.1": {
+        "hash": "sha512-1zT5C27b/zeJhchN7fP0kBr16Cc61mu7Si9uWWLoA3Px/D9tIJPKchJCkUH3tPO5D0pCFmGeApAv8XpXBQJ8SQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-selector-not/-/postcss-selector-not-7.0.1.tgz"
+      }
+    },
+    "postcss-selector-parser": {
+      "6.0.13": {
+        "hash": "sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz"
+      }
+    },
+    "postcss-value-parser": {
+      "4.2.0": {
+        "hash": "sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
+      }
+    },
+    "source-map-js": {
+      "1.0.2": {
+        "hash": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+      }
+    },
+    "update-browserslist-db": {
+      "1.0.11": {
+        "hash": "sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.11.tgz"
+      }
+    },
+    "util-deprecate": {
+      "1.0.2": {
+        "hash": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+      }
+    }
+  }
+}

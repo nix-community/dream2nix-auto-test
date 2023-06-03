@@ -1,0 +1,515 @@
+{
+  "_generic": {
+    "defaultPackage": "jsdom",
+    "location": "",
+    "packages": {
+      "jsdom": "22.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "agent-base": {
+      "6.0.2": [
+        [ "debug", "4.3.4" ]
+      ]
+    },
+    "combined-stream": {
+      "1.0.8": [
+        [ "delayed-stream", "1.0.0" ]
+      ]
+    },
+    "cssstyle": {
+      "3.0.0": [
+        [ "rrweb-cssom", "0.6.0" ]
+      ]
+    },
+    "data-urls": {
+      "4.0.0": [
+        [ "abab", "2.0.6" ],
+        [ "whatwg-mimetype", "3.0.0" ],
+        [ "whatwg-url", "12.0.1" ]
+      ]
+    },
+    "debug": {
+      "4.3.4": [
+        [ "ms", "2.1.2" ]
+      ]
+    },
+    "domexception": {
+      "4.0.0": [
+        [ "webidl-conversions", "7.0.0" ]
+      ]
+    },
+    "form-data": {
+      "4.0.0": [
+        [ "asynckit", "0.4.0" ],
+        [ "combined-stream", "1.0.8" ],
+        [ "mime-types", "2.1.35" ]
+      ]
+    },
+    "html-encoding-sniffer": {
+      "3.0.0": [
+        [ "whatwg-encoding", "2.0.0" ]
+      ]
+    },
+    "http-proxy-agent": {
+      "5.0.0": [
+        [ "@tootallnate/once", "2.0.0" ],
+        [ "agent-base", "6.0.2" ],
+        [ "debug", "4.3.4" ]
+      ]
+    },
+    "https-proxy-agent": {
+      "5.0.1": [
+        [ "agent-base", "6.0.2" ],
+        [ "debug", "4.3.4" ]
+      ]
+    },
+    "iconv-lite": {
+      "0.6.3": [
+        [ "safer-buffer", "2.1.2" ]
+      ]
+    },
+    "jsdom": {
+      "22.1.0": [
+        [ "abab", "2.0.6" ],
+        [ "cssstyle", "3.0.0" ],
+        [ "data-urls", "4.0.0" ],
+        [ "decimal.js", "10.4.3" ],
+        [ "domexception", "4.0.0" ],
+        [ "form-data", "4.0.0" ],
+        [ "html-encoding-sniffer", "3.0.0" ],
+        [ "http-proxy-agent", "5.0.0" ],
+        [ "https-proxy-agent", "5.0.1" ],
+        [ "is-potential-custom-element-name", "1.0.1" ],
+        [ "nwsapi", "2.2.5" ],
+        [ "parse5", "7.1.2" ],
+        [ "rrweb-cssom", "0.6.0" ],
+        [ "saxes", "6.0.0" ],
+        [ "symbol-tree", "3.2.4" ],
+        [ "tough-cookie", "4.1.2" ],
+        [ "w3c-xmlserializer", "4.0.0" ],
+        [ "webidl-conversions", "7.0.0" ],
+        [ "whatwg-encoding", "2.0.0" ],
+        [ "whatwg-mimetype", "3.0.0" ],
+        [ "whatwg-url", "12.0.1" ],
+        [ "ws", "8.13.0" ],
+        [ "xml-name-validator", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "@tootallnate/once", "2.0.0" ],
+        [ "abab", "2.0.6" ],
+        [ "agent-base", "6.0.2" ],
+        [ "asynckit", "0.4.0" ],
+        [ "combined-stream", "1.0.8" ],
+        [ "cssstyle", "3.0.0" ],
+        [ "data-urls", "4.0.0" ],
+        [ "debug", "4.3.4" ],
+        [ "decimal.js", "10.4.3" ],
+        [ "delayed-stream", "1.0.0" ],
+        [ "domexception", "4.0.0" ],
+        [ "entities", "4.5.0" ],
+        [ "form-data", "4.0.0" ],
+        [ "html-encoding-sniffer", "3.0.0" ],
+        [ "http-proxy-agent", "5.0.0" ],
+        [ "https-proxy-agent", "5.0.1" ],
+        [ "iconv-lite", "0.6.3" ],
+        [ "is-potential-custom-element-name", "1.0.1" ],
+        [ "jsdom", "22.1.0" ],
+        [ "mime-db", "1.52.0" ],
+        [ "mime-types", "2.1.35" ],
+        [ "ms", "2.1.2" ],
+        [ "nwsapi", "2.2.5" ],
+        [ "parse5", "7.1.2" ],
+        [ "psl", "1.9.0" ],
+        [ "punycode", "2.3.0" ],
+        [ "querystringify", "2.2.0" ],
+        [ "requires-port", "1.0.0" ],
+        [ "rrweb-cssom", "0.6.0" ],
+        [ "safer-buffer", "2.1.2" ],
+        [ "saxes", "6.0.0" ],
+        [ "symbol-tree", "3.2.4" ],
+        [ "tough-cookie", "4.1.2" ],
+        [ "tr46", "4.1.1" ],
+        [ "universalify", "0.2.0" ],
+        [ "url-parse", "1.5.10" ],
+        [ "w3c-xmlserializer", "4.0.0" ],
+        [ "webidl-conversions", "7.0.0" ],
+        [ "whatwg-encoding", "2.0.0" ],
+        [ "whatwg-mimetype", "3.0.0" ],
+        [ "whatwg-url", "12.0.1" ],
+        [ "ws", "8.13.0" ],
+        [ "xml-name-validator", "4.0.0" ],
+        [ "xmlchars", "2.2.0" ]
+      ]
+    },
+    "mime-types": {
+      "2.1.35": [
+        [ "mime-db", "1.52.0" ]
+      ]
+    },
+    "parse5": {
+      "7.1.2": [
+        [ "entities", "4.5.0" ]
+      ]
+    },
+    "saxes": {
+      "6.0.0": [
+        [ "xmlchars", "2.2.0" ]
+      ]
+    },
+    "tough-cookie": {
+      "4.1.2": [
+        [ "psl", "1.9.0" ],
+        [ "punycode", "2.3.0" ],
+        [ "universalify", "0.2.0" ],
+        [ "url-parse", "1.5.10" ]
+      ]
+    },
+    "tr46": {
+      "4.1.1": [
+        [ "punycode", "2.3.0" ]
+      ]
+    },
+    "url-parse": {
+      "1.5.10": [
+        [ "querystringify", "2.2.0" ],
+        [ "requires-port", "1.0.0" ]
+      ]
+    },
+    "w3c-xmlserializer": {
+      "4.0.0": [
+        [ "xml-name-validator", "4.0.0" ]
+      ]
+    },
+    "whatwg-encoding": {
+      "2.0.0": [
+        [ "iconv-lite", "0.6.3" ]
+      ]
+    },
+    "whatwg-url": {
+      "12.0.1": [
+        [ "tr46", "4.1.1" ],
+        [ "webidl-conversions", "7.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@tootallnate/once": {
+      "2.0.0": {
+        "hash": "sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tootallnate/once/-/once-2.0.0.tgz"
+      }
+    },
+    "abab": {
+      "2.0.6": {
+        "hash": "sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/abab/-/abab-2.0.6.tgz"
+      }
+    },
+    "agent-base": {
+      "6.0.2": {
+        "hash": "sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz"
+      }
+    },
+    "asynckit": {
+      "0.4.0": {
+        "hash": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
+      }
+    },
+    "combined-stream": {
+      "1.0.8": {
+        "hash": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz"
+      }
+    },
+    "cssstyle": {
+      "3.0.0": {
+        "hash": "sha512-N4u2ABATi3Qplzf0hWbVCdjenim8F3ojEXpBDF5hBpjzW182MjNGLqfmQ0SkSPeQ+V86ZXgeH8aXj6kayd4jgg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssstyle/-/cssstyle-3.0.0.tgz"
+      }
+    },
+    "data-urls": {
+      "4.0.0": {
+        "hash": "sha512-/mMTei/JXPqvFqQtfyTowxmJVwr2PVAeCcDxyFf6LhoOu/09TX2OX3kb2wzi4DMXcfj4OItwDOnhl5oziPnT6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/data-urls/-/data-urls-4.0.0.tgz"
+      }
+    },
+    "debug": {
+      "4.3.4": {
+        "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+      }
+    },
+    "decimal.js": {
+      "10.4.3": {
+        "hash": "sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/decimal.js/-/decimal.js-10.4.3.tgz"
+      }
+    },
+    "delayed-stream": {
+      "1.0.0": {
+        "hash": "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
+      }
+    },
+    "domexception": {
+      "4.0.0": {
+        "hash": "sha512-A2is4PLG+eeSfoTMA95/s4pvAoSo2mKtiM5jlHkAVewmiO8ISFTFKZjH7UAM1Atli/OT/7JHOrJRJiMKUZKYBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domexception/-/domexception-4.0.0.tgz"
+      }
+    },
+    "entities": {
+      "4.5.0": {
+        "hash": "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz"
+      }
+    },
+    "form-data": {
+      "4.0.0": {
+        "hash": "sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz"
+      }
+    },
+    "html-encoding-sniffer": {
+      "3.0.0": {
+        "hash": "sha512-oWv4T4yJ52iKrufjnyZPkrN0CH3QnrUqdB6In1g5Fe1mia8GmF36gnfNySxoZtxD5+NmYw1EElVXiBk93UeskA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-3.0.0.tgz"
+      }
+    },
+    "http-proxy-agent": {
+      "5.0.0": {
+        "hash": "sha512-n2hY8YdoRE1i7r6M0w9DIw5GgZN0G25P8zLCRQ8rjXtTU3vsNFBI/vWK/UIeE6g5MUUz6avwAPXmL6Fy9D/90w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/http-proxy-agent/-/http-proxy-agent-5.0.0.tgz"
+      }
+    },
+    "https-proxy-agent": {
+      "5.0.1": {
+        "hash": "sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz"
+      }
+    },
+    "iconv-lite": {
+      "0.6.3": {
+        "hash": "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz"
+      }
+    },
+    "is-potential-custom-element-name": {
+      "1.0.1": {
+        "hash": "sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz"
+      }
+    },
+    "jsdom": {
+      "22.1.0": {
+        "hash": "sha512-/9AVW7xNbsBv6GfWho4TTNjEo9fe6Zhf9O7s0Fhhr3u+awPwAJMKwAMXnkk5vBxflqLW9hTHX/0cs+P3gW+cQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jsdom/-/jsdom-22.1.0.tgz"
+      }
+    },
+    "mime-db": {
+      "1.52.0": {
+        "hash": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
+      }
+    },
+    "mime-types": {
+      "2.1.35": {
+        "hash": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz"
+      }
+    },
+    "ms": {
+      "2.1.2": {
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+      }
+    },
+    "nwsapi": {
+      "2.2.5": {
+        "hash": "sha512-6xpotnECFy/og7tKSBVmUNft7J3jyXAka4XvG6AUhFWRz+Q/Ljus7znJAA3bxColfQLdS+XsjoodtJfCgeTEFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.5.tgz"
+      }
+    },
+    "parse5": {
+      "7.1.2": {
+        "hash": "sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/parse5/-/parse5-7.1.2.tgz"
+      }
+    },
+    "psl": {
+      "1.9.0": {
+        "hash": "sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/psl/-/psl-1.9.0.tgz"
+      }
+    },
+    "punycode": {
+      "2.3.0": {
+        "hash": "sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/punycode/-/punycode-2.3.0.tgz"
+      }
+    },
+    "querystringify": {
+      "2.2.0": {
+        "hash": "sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/querystringify/-/querystringify-2.2.0.tgz"
+      }
+    },
+    "requires-port": {
+      "1.0.0": {
+        "hash": "sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
+      }
+    },
+    "rrweb-cssom": {
+      "0.6.0": {
+        "hash": "sha512-APM0Gt1KoXBz0iIkkdB/kfvGOwC4UuJFeG/c+yV7wSc7q96cG/kJ0HiYCnzivD9SB53cLV1MlHFNfOuPaadYSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rrweb-cssom/-/rrweb-cssom-0.6.0.tgz"
+      }
+    },
+    "safer-buffer": {
+      "2.1.2": {
+        "hash": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
+      }
+    },
+    "saxes": {
+      "6.0.0": {
+        "hash": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz"
+      }
+    },
+    "symbol-tree": {
+      "3.2.4": {
+        "hash": "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
+      }
+    },
+    "tough-cookie": {
+      "4.1.2": {
+        "hash": "sha512-G9fqXWoYFZgTc2z8Q5zaHy/vJMjm+WV0AkAeHxVCQiEB1b+dGvWzFW6QV07cY5jQ5gRkeid2qIkzkxUnmoQZUQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.2.tgz"
+      }
+    },
+    "tr46": {
+      "4.1.1": {
+        "hash": "sha512-2lv/66T7e5yNyhAAC4NaKe5nVavzuGJQVVtRYLyQ2OI8tsJ61PMLlelehb0wi2Hx6+hT/OJUWZcw8MjlSRnxvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tr46/-/tr46-4.1.1.tgz"
+      }
+    },
+    "universalify": {
+      "0.2.0": {
+        "hash": "sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/universalify/-/universalify-0.2.0.tgz"
+      }
+    },
+    "url-parse": {
+      "1.5.10": {
+        "hash": "sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/url-parse/-/url-parse-1.5.10.tgz"
+      }
+    },
+    "w3c-xmlserializer": {
+      "4.0.0": {
+        "hash": "sha512-d+BFHzbiCx6zGfz0HyQ6Rg69w9k19nviJspaj4yNscGjrHu94sVP+aRm75yEbCh+r2/yR+7q6hux9LVtbuTGBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/w3c-xmlserializer/-/w3c-xmlserializer-4.0.0.tgz"
+      }
+    },
+    "webidl-conversions": {
+      "7.0.0": {
+        "hash": "sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
+      }
+    },
+    "whatwg-encoding": {
+      "2.0.0": {
+        "hash": "sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-2.0.0.tgz"
+      }
+    },
+    "whatwg-mimetype": {
+      "3.0.0": {
+        "hash": "sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-3.0.0.tgz"
+      }
+    },
+    "whatwg-url": {
+      "12.0.1": {
+        "hash": "sha512-Ed/LrqB8EPlGxjS+TrsXcpUond1mhccS3pchLhzSgPCnTimUCKj3IZE75pAs5m6heB2U2TMerKFUXheyHY+VDQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-12.0.1.tgz"
+      }
+    },
+    "ws": {
+      "8.13.0": {
+        "hash": "sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ws/-/ws-8.13.0.tgz"
+      }
+    },
+    "xml-name-validator": {
+      "4.0.0": {
+        "hash": "sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-4.0.0.tgz"
+      }
+    },
+    "xmlchars": {
+      "2.2.0": {
+        "hash": "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz"
+      }
+    }
+  }
+}
