@@ -3,7 +3,7 @@
     "defaultPackage": "memmap2",
     "location": "",
     "packages": {
-      "memmap2": "0.6.2"
+      "memmap2": "0.7.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "memmap2": {
-        "0.6.2": {
+        "0.7.0": {
           "description": "Cross-platform Rust API for memory-mapped file IO", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "memmap2": {
-        "0.6.2": {}
+        "0.7.0": {}
       }
     }
   },
@@ -37,8 +37,8 @@
       ]
     },
     "memmap2": {
-      "0.6.2": [
-        [ "libc", "0.2.139" ],
+      "0.7.0": [
+        [ "libc", "0.2.146" ],
         [ "owning_ref", "0.4.1" ],
         [ "stable_deref_trait", "1.2.0" ],
         [ "tempfile", "3.3.0" ]
@@ -63,7 +63,7 @@
       "3.3.0": [
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
-        [ "libc", "0.2.139" ],
+        [ "libc", "0.2.146" ],
         [ "redox_syscall", "0.2.16" ],
         [ "remove_dir_all", "0.5.3" ],
         [ "winapi", "0.3.9" ]
@@ -110,16 +110,16 @@
       }
     },
     "libc": {
-      "0.2.139": {
-        "hash": "201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79",
+      "0.2.146": {
+        "hash": "f92be4933c13fd498862a9e02a3055f8a8d9c039ce33db97306fd5a6caa7f29b",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.139"
+        "version": "0.2.146"
       }
     },
     "memmap2": {
-      "0.6.2": {
-        "hash": "6d28bba84adfe6646737845bc5ebbfa2c08424eb1c37e94a1fd2a82adb56a872",
+      "0.7.0": {
+        "hash": "180d4b35be83d33392d1d1bfbd2ae1eca7ff5de1a94d3fc87faaa99a069e7cbd",
         "type": "crates-io"
       }
     },

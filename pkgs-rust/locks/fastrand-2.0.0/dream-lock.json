@@ -3,7 +3,7 @@
     "defaultPackage": "fastrand",
     "location": "",
     "packages": {
-      "fastrand": "1.9.0"
+      "fastrand": "2.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "fastrand": {
-        "1.9.0": {
+        "2.0.0": {
           "description": "A simple and fast random number generator", "license": [   "asl20",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "fastrand": {
-        "1.9.0": {}
+        "2.0.0": {}
       }
     }
   },
@@ -33,9 +33,8 @@
       ]
     },
     "fastrand": {
-      "1.9.0": [
+      "2.0.0": [
         [ "getrandom", "0.2.10" ],
-        [ "instant", "0.1.12" ],
         [ "rand", "0.8.5" ],
         [ "wasm-bindgen-test", "0.3.36" ],
         [ "wyhash", "0.5.0" ]
@@ -48,14 +47,6 @@
         [ "libc", "0.2.146" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
         [ "wasm-bindgen", "0.2.86" ]
-      ]
-    },
-    "instant": {
-      "0.1.12": [
-        [ "cfg-if", "1.0.0" ],
-        [ "js-sys", "0.3.63" ],
-        [ "wasm-bindgen", "0.2.86" ],
-        [ "web-sys", "0.3.63" ]
       ]
     },
     "js-sys": {
@@ -192,8 +183,8 @@
       }
     },
     "fastrand": {
-      "1.9.0": {
-        "hash": "e51093e27b0797c359783294ca4f0a911c270184cb10f85783b118614a1501be",
+      "2.0.0": {
+        "hash": "6999dc1837253364c2ebb0704ba97994bd874e8f195d665c50b7548f6ea92764",
         "type": "crates-io"
       }
     },
@@ -203,14 +194,6 @@
         "pname": "getrandom",
         "type": "crates-io",
         "version": "0.2.10"
-      }
-    },
-    "instant": {
-      "0.1.12": {
-        "hash": "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c",
-        "pname": "instant",
-        "type": "crates-io",
-        "version": "0.1.12"
       }
     },
     "js-sys": {
