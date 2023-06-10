@@ -3,7 +3,7 @@
     "defaultPackage": "tokio-rustls",
     "location": "",
     "packages": {
-      "tokio-rustls": "0.24.0"
+      "tokio-rustls": "0.24.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,19 +12,33 @@
     "gitSources": [],
     "meta": {
       "tokio-rustls": {
-        "0.24.0": {
-          "description": "Asynchronous TLS/SSL streams for Tokio using Rustls.", "homepage": "https://github.com/tokio-rs/tls", "license": []
+        "0.24.1": {
+          "description": "Asynchronous TLS/SSL streams for Tokio using Rustls.", "homepage": "https://github.com/rustls/tokio-rustls", "license": []
         }
       }
     },
     "relPathReplacements": {
       "tokio-rustls": {
-        "0.24.0": {}
+        "0.24.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "argh": {
+      "0.1.10": [
+        [ "argh_derive", "0.1.10" ],
+        [ "argh_shared", "0.1.10" ]
+      ]
+    },
+    "argh_derive": {
+      "0.1.10": [
+        [ "argh_shared", "0.1.10" ],
+        [ "proc-macro2", "1.0.60" ],
+        [ "quote", "1.0.28" ],
+        [ "syn", "1.0.109" ]
+      ]
+    },
     "futures-macro": {
       "0.3.28": [
         [ "proc-macro2", "1.0.60" ],
@@ -154,6 +168,11 @@
       ]
     },
     "syn": {
+      "1.0.109": [
+        [ "proc-macro2", "1.0.60" ],
+        [ "quote", "1.0.28" ],
+        [ "unicode-ident", "1.0.9" ]
+      ],
       "2.0.18": [
         [ "proc-macro2", "1.0.60" ],
         [ "quote", "1.0.28" ],
@@ -183,14 +202,15 @@
       ]
     },
     "tokio-rustls": {
-      "0.24.0": [
+      "0.24.1": [
+        [ "argh", "0.1.10" ],
         [ "futures-util", "0.3.28" ],
         [ "lazy_static", "1.4.0" ],
         [ "rustls", "0.21.1" ],
         [ "rustls-pemfile", "1.0.2" ],
         [ "rustls-webpki", "0.100.1" ],
         [ "tokio", "1.28.2" ],
-        [ "webpki-roots", "0.22.6" ]
+        [ "webpki-roots", "0.23.1" ]
       ]
     },
     "wasm-bindgen": {
@@ -231,15 +251,9 @@
         [ "wasm-bindgen", "0.2.86" ]
       ]
     },
-    "webpki": {
-      "0.22.0": [
-        [ "ring", "0.16.20" ],
-        [ "untrusted", "0.7.1" ]
-      ]
-    },
     "webpki-roots": {
-      "0.22.6": [
-        [ "webpki", "0.22.0" ]
+      "0.23.1": [
+        [ "rustls-webpki", "0.100.1" ]
       ]
     },
     "winapi": {
@@ -266,6 +280,30 @@
     }
   },
   "sources": {
+    "argh": {
+      "0.1.10": {
+        "hash": "ab257697eb9496bf75526f0217b5ed64636a9cfafa78b8365c71bd283fcef93e",
+        "pname": "argh",
+        "type": "crates-io",
+        "version": "0.1.10"
+      }
+    },
+    "argh_derive": {
+      "0.1.10": {
+        "hash": "b382dbd3288e053331f03399e1db106c9fb0d8562ad62cb04859ae926f324fa6",
+        "pname": "argh_derive",
+        "type": "crates-io",
+        "version": "0.1.10"
+      }
+    },
+    "argh_shared": {
+      "0.1.10": {
+        "hash": "64cb94155d965e3d37ffbbe7cc5b82c3dd79dd33bd48e536f73d2cfb8d85506f",
+        "pname": "argh_shared",
+        "type": "crates-io",
+        "version": "0.1.10"
+      }
+    },
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
@@ -571,6 +609,12 @@
       }
     },
     "syn": {
+      "1.0.109": {
+        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+        "pname": "syn",
+        "type": "crates-io",
+        "version": "1.0.109"
+      },
       "2.0.18": {
         "hash": "32d41677bcbe24c20c52e7c70b0d8db04134c5d1066bf98662e2871ad200ea3e",
         "pname": "syn",
@@ -595,8 +639,8 @@
       }
     },
     "tokio-rustls": {
-      "0.24.0": {
-        "hash": "e0d409377ff5b1e3ca6437aa86c1eb7d40c134bfec254e44c830defa92669db5",
+      "0.24.1": {
+        "hash": "c28327cf380ac148141087fbfb9de9d7bd4e84ab5d2c28fbc911d753de8a7081",
         "type": "crates-io"
       }
     },
@@ -672,20 +716,12 @@
         "version": "0.3.63"
       }
     },
-    "webpki": {
-      "0.22.0": {
-        "hash": "f095d78192e208183081cc07bc5515ef55216397af48b873e5edcd72637fa1bd",
-        "pname": "webpki",
-        "type": "crates-io",
-        "version": "0.22.0"
-      }
-    },
     "webpki-roots": {
-      "0.22.6": {
-        "hash": "b6c71e40d7d2c34a5106301fb632274ca37242cd0c9d3e64dbece371a40a2d87",
+      "0.23.1": {
+        "hash": "b03058f88386e5ff5310d9111d53f48b17d732b401aeb83a8d5190f2ac459338",
         "pname": "webpki-roots",
         "type": "crates-io",
-        "version": "0.22.6"
+        "version": "0.23.1"
       }
     },
     "winapi": {
