@@ -3,7 +3,7 @@
     "defaultPackage": "os_str_bytes",
     "location": "",
     "packages": {
-      "os_str_bytes": "6.5.0"
+      "os_str_bytes": "6.5.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "os_str_bytes": {
-        "6.5.0": {
+        "6.5.1": {
           "description": "Convert between byte sequences and platform-native strings\n", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,25 +20,15 @@
     },
     "relPathReplacements": {
       "os_str_bytes": {
-        "6.5.0": {}
+        "6.5.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "fastrand": {
-      "1.9.0": [
-        [ "instant", "0.1.12" ]
-      ]
-    },
-    "instant": {
-      "0.1.12": [
-        [ "cfg-if", "1.0.0" ]
-      ]
-    },
     "os_str_bytes": {
-      "6.5.0": [
-        [ "fastrand", "1.9.0" ],
+      "6.5.1": [
+        [ "fastrand", "2.0.0" ],
         [ "memchr", "2.5.0" ],
         [ "print_bytes", "1.2.0" ],
         [ "uniquote", "3.3.0" ]
@@ -67,28 +57,12 @@
     }
   },
   "sources": {
-    "cfg-if": {
-      "1.0.0": {
-        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
-        "pname": "cfg-if",
-        "type": "crates-io",
-        "version": "1.0.0"
-      }
-    },
     "fastrand": {
-      "1.9.0": {
-        "hash": "e51093e27b0797c359783294ca4f0a911c270184cb10f85783b118614a1501be",
+      "2.0.0": {
+        "hash": "6999dc1837253364c2ebb0704ba97994bd874e8f195d665c50b7548f6ea92764",
         "pname": "fastrand",
         "type": "crates-io",
-        "version": "1.9.0"
-      }
-    },
-    "instant": {
-      "0.1.12": {
-        "hash": "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c",
-        "pname": "instant",
-        "type": "crates-io",
-        "version": "0.1.12"
+        "version": "2.0.0"
       }
     },
     "memchr": {
@@ -100,8 +74,8 @@
       }
     },
     "os_str_bytes": {
-      "6.5.0": {
-        "hash": "ceedf44fb00f2d1984b0bc98102627ce622e083e49a5bacdb3e514fa4238e267",
+      "6.5.1": {
+        "hash": "4d5d9eb14b174ee9aa2ef96dc2b94637a2d4b6e7cb873c7e171f0c20c6cf3eac",
         "type": "crates-io"
       }
     },
