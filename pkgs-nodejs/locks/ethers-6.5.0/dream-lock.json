@@ -1,0 +1,99 @@
+{
+  "_generic": {
+    "defaultPackage": "ethers",
+    "location": "",
+    "packages": {
+      "ethers": "6.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "meta": {
+      "license": []
+    },
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ethers": {
+      "6.5.0": [
+        [ "@adraffy/ens-normalize", "1.9.2" ],
+        [ "@noble/hashes", "1.1.2" ],
+        [ "@noble/secp256k1", "1.7.1" ],
+        [ "@types/node", "18.15.13" ],
+        [ "aes-js", "4.0.0-beta.5" ],
+        [ "tslib", "2.4.0" ],
+        [ "ws", "8.5.0" ]
+      ],
+      "unknown": [
+        [ "@adraffy/ens-normalize", "1.9.2" ],
+        [ "@noble/hashes", "1.1.2" ],
+        [ "@noble/secp256k1", "1.7.1" ],
+        [ "@types/node", "18.15.13" ],
+        [ "aes-js", "4.0.0-beta.5" ],
+        [ "ethers", "6.5.0" ],
+        [ "tslib", "2.4.0" ],
+        [ "ws", "8.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@adraffy/ens-normalize": {
+      "1.9.2": {
+        "hash": "sha512-0h+FrQDqe2Wn+IIGFkTCd4aAwTJ+7834Ek1COohCyV26AXhwQ7WQaz+4F/nLOeVl/3BtWHOHLPsq46V8YB46Eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.9.2.tgz"
+      }
+    },
+    "@noble/hashes": {
+      "1.1.2": {
+        "hash": "sha512-KYRCASVTv6aeUi1tsF8/vpyR7zpfs3FUzy2Jqm+MU+LmUKhQ0y2FpfwqkCcxSg2ua4GALJd8k2R76WxwZGbQpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@noble/hashes/-/hashes-1.1.2.tgz"
+      }
+    },
+    "@noble/secp256k1": {
+      "1.7.1": {
+        "hash": "sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@noble/secp256k1/-/secp256k1-1.7.1.tgz"
+      }
+    },
+    "@types/node": {
+      "18.15.13": {
+        "hash": "sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.15.13.tgz"
+      }
+    },
+    "aes-js": {
+      "4.0.0-beta.5": {
+        "hash": "sha512-G965FqalsNyrPqgEGON7nIx1e/OVENSgiEIzyC63haUMuvNnwIgIjMs52hlTCKhkBny7A2ORNlfY9Zu+jmGk1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz"
+      }
+    },
+    "ethers": {
+      "6.5.0": {
+        "hash": "sha512-Z5ttSdPsxb+vHDy5V8PzMoL+QwYDs4oYYfNGLdEk0y5UOAZOXKqpqStqSx4NDfZKU/6NyQw26Mxbbk7VF/7dJw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ethers/-/ethers-6.5.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    },
+    "ws": {
+      "8.5.0": {
+        "hash": "sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ws/-/ws-8.5.0.tgz"
+      }
+    }
+  }
+}

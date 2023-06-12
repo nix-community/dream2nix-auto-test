@@ -196,6 +196,12 @@
         [ "unset-value", "1.0.0" ]
       ]
     },
+    "call-bind": {
+      "1.0.2": [
+        [ "function-bind", "1.1.1" ],
+        [ "get-intrinsic", "1.2.1" ]
+      ]
+    },
     "center-align": {
       "0.1.3": [
         [ "align-text", "0.1.4" ],
@@ -535,6 +541,7 @@
         [ "buffer-xor", "1.0.3" ],
         [ "builtin-status-codes", "3.0.0" ],
         [ "cache-base", "1.0.1" ],
+        [ "call-bind", "1.0.2" ],
         [ "camelcase", "4.1.0" ],
         [ "center-align", "0.1.3" ],
         [ "chokidar", "3.5.3" ],
@@ -595,12 +602,15 @@
         [ "fsevents", "2.3.2" ],
         [ "function-bind", "1.1.1" ],
         [ "get-caller-file", "1.0.3" ],
+        [ "get-intrinsic", "1.2.1" ],
         [ "get-stream", "3.0.0" ],
         [ "get-value", "2.0.6" ],
         [ "glob-parent", "5.1.2" ],
         [ "graceful-fs", "4.2.11" ],
         [ "has", "1.0.3" ],
         [ "has-flag", "2.0.0" ],
+        [ "has-proto", "1.0.1" ],
+        [ "has-symbols", "1.0.3" ],
         [ "has-value", "1.0.0" ],
         [ "has-values", "1.0.0" ],
         [ "hash-base", "3.1.0" ],
@@ -668,6 +678,7 @@
         [ "number-is-nan", "1.0.1" ],
         [ "object-assign", "4.1.1" ],
         [ "object-copy", "0.1.0" ],
+        [ "object-inspect", "1.12.3" ],
         [ "object-visit", "1.0.1" ],
         [ "object.pick", "1.3.0" ],
         [ "os-browserify", "0.3.0" ],
@@ -697,7 +708,7 @@
         [ "pseudomap", "1.0.2" ],
         [ "public-encrypt", "4.0.3" ],
         [ "punycode", "1.4.1" ],
-        [ "querystring", "0.2.0" ],
+        [ "qs", "6.11.2" ],
         [ "querystring-es3", "0.2.1" ],
         [ "randombytes", "2.1.0" ],
         [ "randomfill", "1.0.4" ],
@@ -727,6 +738,7 @@
         [ "sha.js", "2.4.11" ],
         [ "shebang-command", "1.2.0" ],
         [ "shebang-regex", "1.0.0" ],
+        [ "side-channel", "1.0.4" ],
         [ "signal-exit", "3.0.7" ],
         [ "snapdragon", "0.8.2" ],
         [ "snapdragon-node", "2.1.1" ],
@@ -766,7 +778,7 @@
         [ "upath", "1.2.0" ],
         [ "uri-js", "4.4.1" ],
         [ "urix", "0.1.0" ],
-        [ "url", "0.11.0" ],
+        [ "url", "0.11.1" ],
         [ "use", "3.1.1" ],
         [ "util", "0.11.1" ],
         [ "util-deprecate", "1.0.2" ],
@@ -813,6 +825,14 @@
       "1.2.13": [
         [ "bindings", "1.5.0" ],
         [ "nan", "2.17.0" ]
+      ]
+    },
+    "get-intrinsic": {
+      "1.2.1": [
+        [ "function-bind", "1.1.1" ],
+        [ "has", "1.0.3" ],
+        [ "has-proto", "1.0.1" ],
+        [ "has-symbols", "1.0.3" ]
       ]
     },
     "glob-parent": {
@@ -1080,7 +1100,7 @@
         [ "string_decoder", "1.3.0" ],
         [ "timers-browserify", "2.0.12" ],
         [ "tty-browserify", "0.0.0" ],
-        [ "url", "0.11.0" ],
+        [ "url", "0.11.1" ],
         [ "util", "0.11.1" ],
         [ "vm-browserify", "1.1.2" ]
       ]
@@ -1173,6 +1193,11 @@
         [ "parse-asn1", "5.1.6" ],
         [ "randombytes", "2.1.0" ],
         [ "safe-buffer", "5.2.1" ]
+      ]
+    },
+    "qs": {
+      "6.11.2": [
+        [ "side-channel", "1.0.4" ]
       ]
     },
     "randombytes": {
@@ -1276,6 +1301,13 @@
     "shebang-command": {
       "1.2.0": [
         [ "shebang-regex", "1.0.0" ]
+      ]
+    },
+    "side-channel": {
+      "1.0.4": [
+        [ "call-bind", "1.0.2" ],
+        [ "get-intrinsic", "1.2.1" ],
+        [ "object-inspect", "1.12.3" ]
       ]
     },
     "snapdragon": {
@@ -1442,9 +1474,9 @@
       ]
     },
     "url": {
-      "0.11.0": [
-        [ "punycode", "1.3.2" ],
-        [ "querystring", "0.2.0" ]
+      "0.11.1": [
+        [ "punycode", "1.4.1" ],
+        [ "qs", "6.11.2" ]
       ]
     },
     "util": {
@@ -1825,6 +1857,13 @@
         "hash": "sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/cache-base/-/cache-base-1.0.1.tgz"
+      }
+    },
+    "call-bind": {
+      "1.0.2": {
+        "hash": "sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/call-bind/-/call-bind-1.0.2.tgz"
       }
     },
     "camelcase": {
@@ -2297,6 +2336,13 @@
         "url": "https://registry.npmjs.org/get-caller-file/-/get-caller-file-1.0.3.tgz"
       }
     },
+    "get-intrinsic": {
+      "1.2.1": {
+        "hash": "sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz"
+      }
+    },
     "get-stream": {
       "3.0.0": {
         "hash": "sha512-GlhdIUuVakc8SJ6kK0zAFbiGzRFzNnY4jUuEbV9UROo4Y+0Ny4fjvcZFVTeDA4odpFyOQzaw6hXukJSq/f28sQ==",
@@ -2342,6 +2388,20 @@
         "hash": "sha512-P+1n3MnwjR/Epg9BBo1KT8qbye2g2Ou4sFumihwt6I4tsUX7jnLcX4BTOSKg/B1ZrIYMN9FcEnG4x5a7NB8Eng==",
         "type": "http",
         "url": "https://registry.npmjs.org/has-flag/-/has-flag-2.0.0.tgz"
+      }
+    },
+    "has-proto": {
+      "1.0.1": {
+        "hash": "sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
+      }
+    },
+    "has-symbols": {
+      "1.0.3": {
+        "hash": "sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz"
       }
     },
     "has-value": {
@@ -2908,6 +2968,13 @@
         "url": "https://registry.npmjs.org/object-copy/-/object-copy-0.1.0.tgz"
       }
     },
+    "object-inspect": {
+      "1.12.3": {
+        "hash": "sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.3.tgz"
+      }
+    },
     "object-visit": {
       "1.0.1": {
         "hash": "sha512-GBaMwwAVK9qbQN3Scdo0OyvgPW7l3lnaVMj84uTOZlswkX0KpF6fyDBJhtTthf7pymztoN36/KEr1DyhF96zEA==",
@@ -3105,11 +3172,6 @@
       }
     },
     "punycode": {
-      "1.3.2": {
-        "hash": "sha512-RofWgt/7fL5wP1Y7fxE7/EmTLzQVnB0ycyibJ0OOHIlJqTNzglYFxVwETOcIoJqJmpDXJ9xImDv+Fq34F/d4Dw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz"
-      },
       "1.4.1": {
         "hash": "sha512-jmYNElW7yvO7TV33CjSmvSiE2yco3bV2czu/OzDKdMNVZQWfxCblURLhf+47syQRBntjfLdd/H0egrzIG+oaFQ==",
         "type": "http",
@@ -3121,11 +3183,11 @@
         "url": "https://registry.npmjs.org/punycode/-/punycode-2.3.0.tgz"
       }
     },
-    "querystring": {
-      "0.2.0": {
-        "hash": "sha512-X/xY82scca2tau62i9mDyU9K+I+djTMUsvwf7xnUX5GLvVzgJybOJf4Y6o9Zx3oJK/LSXg5tTZBjwzqVPaPO2g==",
+    "qs": {
+      "6.11.2": {
+        "hash": "sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz"
+        "url": "https://registry.npmjs.org/qs/-/qs-6.11.2.tgz"
       }
     },
     "querystring-es3": {
@@ -3344,6 +3406,13 @@
         "hash": "sha512-wpoSFAxys6b2a2wHZ1XpDSgD7N9iVjg29Ph9uV/uaP9Ex/KXlkTZTeddxDPSYQpgvzKLGJke2UU0AzoGCjNIvQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz"
+      }
+    },
+    "side-channel": {
+      "1.0.4": {
+        "hash": "sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz"
       }
     },
     "signal-exit": {
@@ -3650,10 +3719,10 @@
       }
     },
     "url": {
-      "0.11.0": {
-        "hash": "sha512-kbailJa29QrtXnxgq+DdCEGlbTeYM2eJUxsz6vjZavrCYPMIFHMKQmSKYAIuUK2i7hgPm28a8piX5NTUtM/LKQ==",
+      "0.11.1": {
+        "hash": "sha512-rWS3H04/+mzzJkv0eZ7vEDGiQbgquI1fGfOad6zKvgYQi1SzMmhl7c/DdRGxhaWrVH6z0qWITo8rpnxK/RfEhA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/url/-/url-0.11.0.tgz"
+        "url": "https://registry.npmjs.org/url/-/url-0.11.1.tgz"
       }
     },
     "use": {
