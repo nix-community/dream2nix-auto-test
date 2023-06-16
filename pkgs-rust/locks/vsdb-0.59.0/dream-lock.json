@@ -3,7 +3,7 @@
     "defaultPackage": "vsdb",
     "location": "",
     "packages": {
-      "vsdb": "0.58.0"
+      "vsdb": "0.59.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "vsdb": {
-        "0.58.0": {
+        "0.59.0": {
           "description": "A stuctured DB with some 'Git-like' features, mainly used in blockchain projects.", "homepage": "https://github.com/rust-util-collections/vsdb", "license": [   "gpl3"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "vsdb": {
-        "0.58.0": {}
+        "0.59.0": {}
       }
     }
   },
@@ -121,11 +121,6 @@
         [ "os_str_bytes", "6.5.1" ]
       ]
     },
-    "crc32fast": {
-      "1.3.2": [
-        [ "cfg-if", "1.0.0" ]
-      ]
-    },
     "criterion": {
       "0.4.0": [
         [ "anes", "0.1.6" ],
@@ -187,17 +182,6 @@
       ],
       "0.8.0": [
         [ "static_assertions", "1.1.0" ]
-      ]
-    },
-    "fs4": {
-      "0.5.4": [
-        [ "libc", "0.2.146" ],
-        [ "winapi", "0.3.9" ]
-      ]
-    },
-    "fxhash": {
-      "0.2.1": [
-        [ "byteorder", "1.4.3" ]
       ]
     },
     "getrandom": {
@@ -584,7 +568,7 @@
       ]
     },
     "vsdb": {
-      "0.58.0": [
+      "0.59.0": [
         [ "bcs", "0.1.5" ],
         [ "criterion", "0.4.0" ],
         [ "hex", "0.4.3" ],
@@ -595,11 +579,11 @@
         [ "ruc", "4.2.1" ],
         [ "serde", "1.0.164" ],
         [ "serde_json", "1.0.96" ],
-        [ "vsdb_core", "0.58.0" ]
+        [ "vsdb_core", "0.59.0" ]
       ]
     },
     "vsdb_core": {
-      "0.58.0": [
+      "0.59.0": [
         [ "once_cell", "1.18.0" ],
         [ "parking_lot", "0.12.1" ],
         [ "primitive-types", "0.10.1" ],
@@ -610,8 +594,7 @@
         [ "ruc", "4.2.1" ],
         [ "serde", "1.0.164" ],
         [ "threadpool", "1.8.1" ],
-        [ "vsdb_derive", "0.53.0" ],
-        [ "vsdbsled", "0.34.7-p1" ]
+        [ "vsdb_derive", "0.53.0" ]
       ]
     },
     "vsdb_derive": {
@@ -619,19 +602,6 @@
         [ "proc-macro2", "1.0.60" ],
         [ "quote", "1.0.28" ],
         [ "syn", "2.0.18" ]
-      ]
-    },
-    "vsdbsled": {
-      "0.34.7-p1": [
-        [ "crc32fast", "1.3.2" ],
-        [ "crossbeam-epoch", "0.9.15" ],
-        [ "crossbeam-utils", "0.8.16" ],
-        [ "fs4", "0.5.4" ],
-        [ "fxhash", "0.2.1" ],
-        [ "libc", "0.2.146" ],
-        [ "log", "0.4.19" ],
-        [ "parking_lot", "0.12.1" ],
-        [ "zstd", "0.11.2+zstd.1.5.2" ]
       ]
     },
     "walkdir": {
@@ -708,17 +678,6 @@
     "wyz": {
       "0.5.1": [
         [ "tap", "1.0.1" ]
-      ]
-    },
-    "zstd": {
-      "0.11.2+zstd.1.5.2": [
-        [ "zstd-safe", "5.0.2+zstd.1.5.2" ]
-      ]
-    },
-    "zstd-safe": {
-      "5.0.2+zstd.1.5.2": [
-        [ "libc", "0.2.146" ],
-        [ "zstd-sys", "2.0.8+zstd.1.5.5" ]
       ]
     },
     "zstd-sys": {
@@ -914,14 +873,6 @@
         "version": "0.2.4"
       }
     },
-    "crc32fast": {
-      "1.3.2": {
-        "hash": "b540bd8bc810d3885c6ea91e2018302f68baba2129ab3e88f32389ee9370880d",
-        "pname": "crc32fast",
-        "type": "crates-io",
-        "version": "1.3.2"
-      }
-    },
     "criterion": {
       "0.4.0": {
         "hash": "e7c76e09c1aae2bc52b3d2f29e13c6572553b30c4aa1b8a49fd70de6412654cb",
@@ -1000,28 +951,12 @@
         "version": "0.8.0"
       }
     },
-    "fs4": {
-      "0.5.4": {
-        "hash": "cef5c93884e5cef757f63446122c2f420713c3e03f85540d09485b9415983b4a",
-        "pname": "fs4",
-        "type": "crates-io",
-        "version": "0.5.4"
-      }
-    },
     "funty": {
       "2.0.0": {
         "hash": "e6d5a32815ae3f33302d95fdcb2ce17862f8c65363dcfd29360480ba1001fc9c",
         "pname": "funty",
         "type": "crates-io",
         "version": "2.0.0"
-      }
-    },
-    "fxhash": {
-      "0.2.1": {
-        "hash": "c31b6d751ae2c7f11320402d34e41349dd1016f8d5d45e48c4312bc8625af50c",
-        "pname": "fxhash",
-        "type": "crates-io",
-        "version": "0.2.1"
       }
     },
     "getrandom": {
@@ -1791,17 +1726,17 @@
       }
     },
     "vsdb": {
-      "0.58.0": {
-        "hash": "7038128d4f26b7499e676840348ad4e41bb62502913cdc48af9debc855350cfa",
+      "0.59.0": {
+        "hash": "5dd0c3d681c75409cb34da140c4ee07bee8ef170d44a15221a87b35678e040f6",
         "type": "crates-io"
       }
     },
     "vsdb_core": {
-      "0.58.0": {
-        "hash": "df2e5d0fd16c7580acca1e5d8d193aa751d8313c7f91dfd16f9a856c143b4c0e",
+      "0.59.0": {
+        "hash": "37c97742ebcb4b33f454301a4ae05d758885877d1529c2ef8a39106e32b7c5a1",
         "pname": "vsdb_core",
         "type": "crates-io",
-        "version": "0.58.0"
+        "version": "0.59.0"
       }
     },
     "vsdb_derive": {
@@ -1810,14 +1745,6 @@
         "pname": "vsdb_derive",
         "type": "crates-io",
         "version": "0.53.0"
-      }
-    },
-    "vsdbsled": {
-      "0.34.7-p1": {
-        "hash": "7b42602d283268f887952376e41ce60f5ab5f79e8725dab731de4ab1b0e70e53",
-        "pname": "vsdbsled",
-        "type": "crates-io",
-        "version": "0.34.7-p1"
       }
     },
     "walkdir": {
@@ -1994,22 +1921,6 @@
         "pname": "wyz",
         "type": "crates-io",
         "version": "0.5.1"
-      }
-    },
-    "zstd": {
-      "0.11.2+zstd.1.5.2": {
-        "hash": "20cc960326ece64f010d2d2107537f26dc589a6573a316bd5b1dba685fa5fde4",
-        "pname": "zstd",
-        "type": "crates-io",
-        "version": "0.11.2+zstd.1.5.2"
-      }
-    },
-    "zstd-safe": {
-      "5.0.2+zstd.1.5.2": {
-        "hash": "1d2a5585e04f9eea4b2a3d1eca508c4dee9592a89ef6f450c11719da0726f4db",
-        "pname": "zstd-safe",
-        "type": "crates-io",
-        "version": "5.0.2+zstd.1.5.2"
       }
     },
     "zstd-sys": {
