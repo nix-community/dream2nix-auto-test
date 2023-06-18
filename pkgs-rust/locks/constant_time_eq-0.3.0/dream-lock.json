@@ -3,7 +3,7 @@
     "defaultPackage": "constant_time_eq",
     "location": "",
     "packages": {
-      "constant_time_eq": "0.2.6"
+      "constant_time_eq": "0.3.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "constant_time_eq": {
-        "0.2.6": {
+        "0.3.0": {
           "description": "Compares two equal-sized byte strings in constant time.", "license": [   "cc0",   "mit0",   "asl20"
           ]
         }
@@ -20,19 +20,12 @@
     },
     "relPathReplacements": {
       "constant_time_eq": {
-        "0.2.6": {}
+        "0.3.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "atty": {
-      "0.2.14": [
-        [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.146" ],
-        [ "winapi", "0.3.9" ]
-      ]
-    },
     "ciborium": {
       "0.2.1": [
         [ "ciborium-io", "0.2.1" ],
@@ -47,41 +40,40 @@
       ]
     },
     "clap": {
-      "3.2.25": [
-        [ "bitflags", "1.3.2" ],
-        [ "clap_lex", "0.2.4" ],
-        [ "indexmap", "1.9.3" ],
-        [ "textwrap", "0.16.0" ]
+      "4.3.4": [
+        [ "clap_builder", "4.3.4" ]
       ]
     },
-    "clap_lex": {
-      "0.2.4": [
-        [ "os_str_bytes", "6.5.1" ]
+    "clap_builder": {
+      "4.3.4": [
+        [ "anstyle", "1.0.0" ],
+        [ "bitflags", "1.3.2" ],
+        [ "clap_lex", "0.5.0" ]
       ]
     },
     "constant_time_eq": {
-      "0.2.6": [
-        [ "count_instructions", "0.1.2" ],
-        [ "criterion", "0.4.0" ]
+      "0.3.0": [
+        [ "count_instructions", "0.1.3" ],
+        [ "criterion", "0.5.1" ]
       ]
     },
     "count_instructions": {
-      "0.1.2": [
+      "0.1.3": [
         [ "libc", "0.2.146" ],
         [ "rustix", "0.37.20" ]
       ]
     },
     "criterion": {
-      "0.4.0": [
+      "0.5.1": [
         [ "anes", "0.1.6" ],
-        [ "atty", "0.2.14" ],
         [ "cast", "0.3.0" ],
         [ "ciborium", "0.2.1" ],
-        [ "clap", "3.2.25" ],
+        [ "clap", "4.3.4" ],
         [ "criterion-plot", "0.5.0" ],
+        [ "is-terminal", "0.4.7" ],
         [ "itertools", "0.10.5" ],
-        [ "lazy_static", "1.4.0" ],
         [ "num-traits", "0.2.15" ],
+        [ "once_cell", "1.18.0" ],
         [ "oorandom", "11.1.3" ],
         [ "plotters", "0.3.5" ],
         [ "rayon", "1.7.0" ],
@@ -140,23 +132,22 @@
       ]
     },
     "hermit-abi": {
-      "0.1.19": [
-        [ "libc", "0.2.146" ]
-      ],
       "0.2.6": [
         [ "libc", "0.2.146" ]
-      ]
-    },
-    "indexmap": {
-      "1.9.3": [
-        [ "autocfg", "1.1.0" ],
-        [ "hashbrown", "0.12.3" ]
       ]
     },
     "io-lifetimes": {
       "1.0.11": [
         [ "hermit-abi", "0.3.1" ],
         [ "libc", "0.2.146" ],
+        [ "windows-sys", "0.48.0" ]
+      ]
+    },
+    "is-terminal": {
+      "0.4.7": [
+        [ "hermit-abi", "0.3.1" ],
+        [ "io-lifetimes", "1.0.11" ],
+        [ "rustix", "0.37.20" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -357,12 +348,12 @@
         "version": "0.1.6"
       }
     },
-    "atty": {
-      "0.2.14": {
-        "hash": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
-        "pname": "atty",
+    "anstyle": {
+      "1.0.0": {
+        "hash": "41ed9a86bf92ae6580e0a31281f65a1b1d867c0cc68d5346e2ae128dddfa6a7d",
+        "pname": "anstyle",
         "type": "crates-io",
-        "version": "0.2.14"
+        "version": "1.0.0"
       }
     },
     "autocfg": {
@@ -438,41 +429,49 @@
       }
     },
     "clap": {
-      "3.2.25": {
-        "hash": "4ea181bf566f71cb9a5d17a59e1871af638180a18fb0035c92ae62b705207123",
+      "4.3.4": {
+        "hash": "80672091db20273a15cf9fdd4e47ed43b5091ec9841bf4c6145c9dfbbcae09ed",
         "pname": "clap",
         "type": "crates-io",
-        "version": "3.2.25"
+        "version": "4.3.4"
+      }
+    },
+    "clap_builder": {
+      "4.3.4": {
+        "hash": "c1458a1df40e1e2afebb7ab60ce55c1fa8f431146205aa5f4887e0b111c27636",
+        "pname": "clap_builder",
+        "type": "crates-io",
+        "version": "4.3.4"
       }
     },
     "clap_lex": {
-      "0.2.4": {
-        "hash": "2850f2f5a82cbf437dd5af4d49848fbdfc27c157c3d010345776f952765261c5",
+      "0.5.0": {
+        "hash": "2da6da31387c7e4ef160ffab6d5e7f00c42626fe39aea70a7b0f1773f7dd6c1b",
         "pname": "clap_lex",
         "type": "crates-io",
-        "version": "0.2.4"
+        "version": "0.5.0"
       }
     },
     "constant_time_eq": {
-      "0.2.6": {
-        "hash": "21a53c0a4d288377e7415b53dcfc3c04da5cdc2cc95c8d5ac178b58f0b861ad6",
+      "0.3.0": {
+        "hash": "f7144d30dcf0fafbce74250a3963025d8d52177934239851c917d29f1df280c2",
         "type": "crates-io"
       }
     },
     "count_instructions": {
-      "0.1.2": {
-        "hash": "e66a0eddbeb844b86e0772d9208118bb40e2fb4583e804baab6d827b0027e8c9",
+      "0.1.3": {
+        "hash": "9341d680a72c7c3047ffb7f502d048b99c19dbedc33351ba71864f6af053b40f",
         "pname": "count_instructions",
         "type": "crates-io",
-        "version": "0.1.2"
+        "version": "0.1.3"
       }
     },
     "criterion": {
-      "0.4.0": {
-        "hash": "e7c76e09c1aae2bc52b3d2f29e13c6572553b30c4aa1b8a49fd70de6412654cb",
+      "0.5.1": {
+        "hash": "f2b12d017a929603d80db1831cd3a24082f8137ce19c69e6447f54f5fc8d692f",
         "pname": "criterion",
         "type": "crates-io",
-        "version": "0.4.0"
+        "version": "0.5.1"
       }
     },
     "criterion-plot": {
@@ -547,21 +546,7 @@
         "version": "1.8.2"
       }
     },
-    "hashbrown": {
-      "0.12.3": {
-        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
-        "pname": "hashbrown",
-        "type": "crates-io",
-        "version": "0.12.3"
-      }
-    },
     "hermit-abi": {
-      "0.1.19": {
-        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
-        "pname": "hermit-abi",
-        "type": "crates-io",
-        "version": "0.1.19"
-      },
       "0.2.6": {
         "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
         "pname": "hermit-abi",
@@ -575,20 +560,20 @@
         "version": "0.3.1"
       }
     },
-    "indexmap": {
-      "1.9.3": {
-        "hash": "bd070e393353796e801d209ad339e89596eb4c8d430d18ede6a1cced8fafbd99",
-        "pname": "indexmap",
-        "type": "crates-io",
-        "version": "1.9.3"
-      }
-    },
     "io-lifetimes": {
       "1.0.11": {
         "hash": "eae7b9aee968036d54dce06cebaefd919e4472e753296daccd6d344e3e2df0c2",
         "pname": "io-lifetimes",
         "type": "crates-io",
         "version": "1.0.11"
+      }
+    },
+    "is-terminal": {
+      "0.4.7": {
+        "hash": "adcf93614601c8129ddf72e2d5633df827ba6551541c6d8c59520a371475be1f",
+        "pname": "is-terminal",
+        "type": "crates-io",
+        "version": "0.4.7"
       }
     },
     "itertools": {
@@ -613,14 +598,6 @@
         "pname": "js-sys",
         "type": "crates-io",
         "version": "0.3.64"
-      }
-    },
-    "lazy_static": {
-      "1.4.0": {
-        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
-        "pname": "lazy_static",
-        "type": "crates-io",
-        "version": "1.4.0"
       }
     },
     "libc": {
@@ -685,14 +662,6 @@
         "pname": "oorandom",
         "type": "crates-io",
         "version": "11.1.3"
-      }
-    },
-    "os_str_bytes": {
-      "6.5.1": {
-        "hash": "4d5d9eb14b174ee9aa2ef96dc2b94637a2d4b6e7cb873c7e171f0c20c6cf3eac",
-        "pname": "os_str_bytes",
-        "type": "crates-io",
-        "version": "6.5.1"
       }
     },
     "plotters": {
@@ -829,14 +798,6 @@
         "pname": "syn",
         "type": "crates-io",
         "version": "2.0.18"
-      }
-    },
-    "textwrap": {
-      "0.16.0": {
-        "hash": "222a222a5bfe1bba4a77b45ec488a741b3cb8872e5e499451fd7d0129c9c7c3d",
-        "pname": "textwrap",
-        "type": "crates-io",
-        "version": "0.16.0"
       }
     },
     "tinytemplate": {

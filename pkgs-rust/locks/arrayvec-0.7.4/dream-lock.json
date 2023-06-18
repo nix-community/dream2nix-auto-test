@@ -3,7 +3,7 @@
     "defaultPackage": "arrayvec",
     "location": "",
     "packages": {
-      "arrayvec": "0.7.3"
+      "arrayvec": "0.7.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "arrayvec": {
-        "0.7.3": {
+        "0.7.4": {
           "description": "A vector with fixed capacity, backed by an array (it can be stored on the stack too). Implements fixed capacity ArrayVec and ArrayString.", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,18 +20,19 @@
     },
     "relPathReplacements": {
       "arrayvec": {
-        "0.7.3": {}
+        "0.7.4": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "arrayvec": {
-      "0.7.3": [
+      "0.7.4": [
         [ "bencher", "0.1.5" ],
         [ "matches", "0.1.10" ],
         [ "serde", "1.0.164" ],
-        [ "serde_test", "1.0.164" ]
+        [ "serde_test", "1.0.164" ],
+        [ "zeroize", "1.6.0" ]
       ]
     },
     "serde_test": {
@@ -42,8 +43,8 @@
   },
   "sources": {
     "arrayvec": {
-      "0.7.3": {
-        "hash": "8868f09ff8cea88b079da74ae569d9b8c62a23c68c746240b704ee6f7525c89c",
+      "0.7.4": {
+        "hash": "96d30a06541fbafbc7f82ed10c06164cfbd2c401138f6addd8404629c4b16711",
         "type": "crates-io"
       }
     },
@@ -77,6 +78,14 @@
         "pname": "serde_test",
         "type": "crates-io",
         "version": "1.0.164"
+      }
+    },
+    "zeroize": {
+      "1.6.0": {
+        "hash": "2a0956f1ba7c7909bfb66c2e9e4124ab6f6482560f6628b5aaeba39207c9aad9",
+        "pname": "zeroize",
+        "type": "crates-io",
+        "version": "1.6.0"
       }
     }
   }

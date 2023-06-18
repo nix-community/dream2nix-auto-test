@@ -3,7 +3,7 @@
     "defaultPackage": "pest",
     "location": "",
     "packages": {
-      "pest": "2.6.0"
+      "pest": "2.6.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,50 +12,50 @@
     "gitSources": [],
     "meta": {
       "pest": {
-        "2.6.0": {
+        "2.6.1": {
           "description": "The Elegant Parser", "homepage": "https://pest.rs/", "license": []
         }
       }
     },
     "relPathReplacements": {
       "pest": {
-        "2.6.0": {}
+        "2.6.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "pest": {
-      "2.6.0": [
+      "2.6.1": [
         [ "memchr", "2.5.0" ],
-        [ "serde", "1.0.160" ],
-        [ "serde_json", "1.0.96" ],
+        [ "serde", "1.0.164" ],
+        [ "serde_json", "1.0.97" ],
         [ "thiserror", "1.0.40" ],
         [ "ucd-trie", "0.1.5" ]
       ]
     },
     "proc-macro2": {
-      "1.0.56": [
-        [ "unicode-ident", "1.0.8" ]
+      "1.0.60": [
+        [ "unicode-ident", "1.0.9" ]
       ]
     },
     "quote": {
-      "1.0.26": [
-        [ "proc-macro2", "1.0.56" ]
+      "1.0.28": [
+        [ "proc-macro2", "1.0.60" ]
       ]
     },
     "serde_json": {
-      "1.0.96": [
+      "1.0.97": [
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
-        [ "serde", "1.0.160" ]
+        [ "serde", "1.0.164" ]
       ]
     },
     "syn": {
-      "2.0.15": [
-        [ "proc-macro2", "1.0.56" ],
-        [ "quote", "1.0.26" ],
-        [ "unicode-ident", "1.0.8" ]
+      "2.0.18": [
+        [ "proc-macro2", "1.0.60" ],
+        [ "quote", "1.0.28" ],
+        [ "unicode-ident", "1.0.9" ]
       ]
     },
     "thiserror": {
@@ -65,9 +65,9 @@
     },
     "thiserror-impl": {
       "1.0.40": [
-        [ "proc-macro2", "1.0.56" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "2.0.15" ]
+        [ "proc-macro2", "1.0.60" ],
+        [ "quote", "1.0.28" ],
+        [ "syn", "2.0.18" ]
       ]
     }
   },
@@ -89,25 +89,25 @@
       }
     },
     "pest": {
-      "2.6.0": {
-        "hash": "e68e84bfb01f0507134eac1e9b410a12ba379d064eab48c50ba4ce329a527b70",
+      "2.6.1": {
+        "hash": "16833386b02953ca926d19f64af613b9bf742c48dcd5e09b32fbfc9740bf84e2",
         "type": "crates-io"
       }
     },
     "proc-macro2": {
-      "1.0.56": {
-        "hash": "2b63bdb0cd06f1f4dedf69b254734f9b45af66e4a031e42a7480257d9898b435",
+      "1.0.60": {
+        "hash": "dec2b086b7a862cf4de201096214fa870344cf922b2b30c167badb3af3195406",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.56"
+        "version": "1.0.60"
       }
     },
     "quote": {
-      "1.0.26": {
-        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
+      "1.0.28": {
+        "hash": "1b9ab9c7eadfd8df19006f1cf1a4aed13540ed5cbc047010ece5826e10825488",
         "pname": "quote",
         "type": "crates-io",
-        "version": "1.0.26"
+        "version": "1.0.28"
       }
     },
     "ryu": {
@@ -119,27 +119,27 @@
       }
     },
     "serde": {
-      "1.0.160": {
-        "hash": "bb2f3770c8bce3bcda7e149193a069a0f4365bda1fa5cd88e03bca26afc1216c",
+      "1.0.164": {
+        "hash": "9e8c8cf938e98f769bc164923b06dce91cea1751522f46f8466461af04c9027d",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.160"
+        "version": "1.0.164"
       }
     },
     "serde_json": {
-      "1.0.96": {
-        "hash": "057d394a50403bcac12672b2b18fb387ab6d289d957dab67dd201875391e52f1",
+      "1.0.97": {
+        "hash": "bdf3bf93142acad5821c99197022e170842cdbc1c30482b98750c688c640842a",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.96"
+        "version": "1.0.97"
       }
     },
     "syn": {
-      "2.0.15": {
-        "hash": "a34fcf3e8b60f57e6a14301a2e916d323af98b0ea63c599441eec8558660c822",
+      "2.0.18": {
+        "hash": "32d41677bcbe24c20c52e7c70b0d8db04134c5d1066bf98662e2871ad200ea3e",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.15"
+        "version": "2.0.18"
       }
     },
     "thiserror": {
@@ -167,11 +167,11 @@
       }
     },
     "unicode-ident": {
-      "1.0.8": {
-        "hash": "e5464a87b239f13a63a501f2701565754bae92d243d4bb7eb12f6d57d2269bf4",
+      "1.0.9": {
+        "hash": "b15811caf2415fb889178633e7724bad2509101cde276048e013b9def5e51fa0",
         "pname": "unicode-ident",
         "type": "crates-io",
-        "version": "1.0.8"
+        "version": "1.0.9"
       }
     }
   }
