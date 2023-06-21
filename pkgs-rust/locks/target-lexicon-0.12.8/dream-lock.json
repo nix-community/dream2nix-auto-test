@@ -3,7 +3,7 @@
     "defaultPackage": "target-lexicon",
     "location": "",
     "packages": {
-      "target-lexicon": "0.12.7"
+      "target-lexicon": "0.12.8"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,69 +12,69 @@
     "gitSources": [],
     "meta": {
       "target-lexicon": {
-        "0.12.7": {
+        "0.12.8": {
           "description": "Targeting utilities for compilers and related tools", "license": []
         }
       }
     },
     "relPathReplacements": {
       "target-lexicon": {
-        "0.12.7": {}
+        "0.12.8": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "serde_json": {
-      "1.0.93": [
-        [ "itoa", "1.0.5" ],
-        [ "ryu", "1.0.12" ],
-        [ "serde", "1.0.152" ]
+      "1.0.97": [
+        [ "itoa", "1.0.6" ],
+        [ "ryu", "1.0.13" ],
+        [ "serde", "1.0.164" ]
       ]
     },
     "target-lexicon": {
-      "0.12.7": [
-        [ "serde", "1.0.152" ],
-        [ "serde_json", "1.0.93" ]
+      "0.12.8": [
+        [ "serde", "1.0.164" ],
+        [ "serde_json", "1.0.97" ]
       ]
     }
   },
   "sources": {
     "itoa": {
-      "1.0.5": {
-        "hash": "fad582f4b9e86b6caa621cabeb0963332d92eea04729ab12892c2533951e6440",
+      "1.0.6": {
+        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
         "pname": "itoa",
         "type": "crates-io",
-        "version": "1.0.5"
+        "version": "1.0.6"
       }
     },
     "ryu": {
-      "1.0.12": {
-        "hash": "7b4b9743ed687d4b4bcedf9ff5eaa7398495ae14e61cba0a295704edbc7decde",
+      "1.0.13": {
+        "hash": "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041",
         "pname": "ryu",
         "type": "crates-io",
-        "version": "1.0.12"
+        "version": "1.0.13"
       }
     },
     "serde": {
-      "1.0.152": {
-        "hash": "bb7d1f0d3021d347a83e556fc4683dea2ea09d87bccdf88ff5c12545d89d5efb",
+      "1.0.164": {
+        "hash": "9e8c8cf938e98f769bc164923b06dce91cea1751522f46f8466461af04c9027d",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.152"
+        "version": "1.0.164"
       }
     },
     "serde_json": {
-      "1.0.93": {
-        "hash": "cad406b69c91885b5107daf2c29572f6c8cdb3c66826821e286c533490c0bc76",
+      "1.0.97": {
+        "hash": "bdf3bf93142acad5821c99197022e170842cdbc1c30482b98750c688c640842a",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.93"
+        "version": "1.0.97"
       }
     },
     "target-lexicon": {
-      "0.12.7": {
-        "hash": "fd1ba337640d60c3e96bc6f0638a939b9c9a7f2c316a1598c279828b3d1dc8c5",
+      "0.12.8": {
+        "hash": "1b1c7f239eb94671427157bd93b3694320f3668d4e1eff08c7285366fd777fac",
         "type": "crates-io"
       }
     }
