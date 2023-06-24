@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "toml_edit",
+    "defaultPackage": "toml",
     "location": "",
     "packages": {
-      "toml_edit": "0.19.10"
+      "toml": "0.7.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "toml_edit": {
-        "0.19.10": {
-          "description": "Yet another format-preserving TOML parser.", "license": [   "mit",   "asl20"
+      "toml": {
+        "0.7.5": {
+          "description": "A native Rust encoder and decoder of TOML-formatted files and streams. Provides\nimplementations of the standard Serialize/Deserialize traits for TOML data to\nfacilitate deserializing and serializing Rust structures.\n", "homepage": "https://github.com/toml-rs/toml", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "toml_edit": {
-        "0.19.10": {}
+      "toml": {
+        "0.7.5": {}
       }
     }
   },
@@ -153,9 +153,9 @@
       ]
     },
     "indexmap": {
-      "1.9.1": [
-        [ "autocfg", "1.1.0" ],
-        [ "hashbrown", "0.12.3" ]
+      "2.0.0": [
+        [ "equivalent", "1.0.0" ],
+        [ "hashbrown", "0.14.0" ]
       ]
     },
     "io-lifetimes": {
@@ -170,11 +170,6 @@
         [ "io-lifetimes", "1.0.3" ],
         [ "rustix", "0.37.7" ],
         [ "windows-sys", "0.48.0" ]
-      ]
-    },
-    "kstring": {
-      "2.0.0": [
-        [ "static_assertions", "1.1.0" ]
       ]
     },
     "libtest-mimic": {
@@ -274,7 +269,7 @@
       ]
     },
     "serde_spanned": {
-      "0.6.2": [
+      "0.6.3": [
         [ "serde", "1.0.160" ]
       ]
     },
@@ -282,8 +277,6 @@
       "0.4.11": [
         [ "anstream", "0.3.1" ],
         [ "anstyle", "1.0.0" ],
-        [ "ignore", "0.4.18" ],
-        [ "libtest-mimic", "0.6.0" ],
         [ "normalize-line-endings", "0.3.0" ],
         [ "similar", "2.2.0" ],
         [ "snapbox-macros", "0.3.4" ]
@@ -321,6 +314,18 @@
         [ "num_cpus", "1.13.1" ]
       ]
     },
+    "toml": {
+      "0.7.5": [
+        [ "indexmap", "2.0.0" ],
+        [ "serde", "1.0.160" ],
+        [ "serde_json", "1.0.96" ],
+        [ "serde_spanned", "0.6.3" ],
+        [ "snapbox", "0.4.11" ],
+        [ "toml-test-harness", "0.4.3" ],
+        [ "toml_datetime", "0.6.3" ],
+        [ "toml_edit", "0.19.11" ]
+      ]
+    },
     "toml-test": {
       "0.3.4": [
         [ "chrono", "0.4.22" ],
@@ -342,22 +347,16 @@
       ]
     },
     "toml_datetime": {
-      "0.6.2": [
+      "0.6.3": [
         [ "serde", "1.0.160" ]
       ]
     },
     "toml_edit": {
-      "0.19.10": [
-        [ "indexmap", "1.9.1" ],
-        [ "kstring", "2.0.0" ],
-        [ "libtest-mimic", "0.6.0" ],
+      "0.19.11": [
+        [ "indexmap", "2.0.0" ],
         [ "serde", "1.0.160" ],
-        [ "serde_json", "1.0.96" ],
-        [ "serde_spanned", "0.6.2" ],
-        [ "snapbox", "0.4.11" ],
-        [ "toml-test-data", "1.3.0" ],
-        [ "toml-test-harness", "0.4.3" ],
-        [ "toml_datetime", "0.6.2" ],
+        [ "serde_spanned", "0.6.3" ],
+        [ "toml_datetime", "0.6.3" ],
         [ "winnow", "0.4.6" ]
       ]
     },
@@ -559,6 +558,14 @@
         "version": "0.8.11"
       }
     },
+    "equivalent": {
+      "1.0.0": {
+        "hash": "88bffebc5d80432c9b140ee17875ff173a8ab62faad5b257da912bd2f6c1c0a1",
+        "pname": "equivalent",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    },
     "errno": {
       "0.3.1": {
         "hash": "4bcfec3a70f97c962c307b2d2c56e358cf1d00b558d74262b5f929ee8cc7e73a",
@@ -592,11 +599,11 @@
       }
     },
     "hashbrown": {
-      "0.12.3": {
-        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
+      "0.14.0": {
+        "hash": "2c6201b9ff9fd90a5a3bac2e56a830d0caa509576f0e503818ee82c181b3437a",
         "pname": "hashbrown",
         "type": "crates-io",
-        "version": "0.12.3"
+        "version": "0.14.0"
       }
     },
     "heck": {
@@ -646,11 +653,11 @@
       }
     },
     "indexmap": {
-      "1.9.1": {
-        "hash": "10a35a97730320ffe8e2d410b5d3b69279b98d2c14bdb8b70ea89ecf7888d41e",
+      "2.0.0": {
+        "hash": "d5477fe2230a79769d8dc68e0eabf5437907c0457a5614a9e8dddb67f65eb65d",
         "pname": "indexmap",
         "type": "crates-io",
-        "version": "1.9.1"
+        "version": "2.0.0"
       }
     },
     "io-lifetimes": {
@@ -675,14 +682,6 @@
         "pname": "itoa",
         "type": "crates-io",
         "version": "1.0.3"
-      }
-    },
-    "kstring": {
-      "2.0.0": {
-        "hash": "ec3066350882a1cd6d950d055997f379ac37fd39f81cd4d8ed186032eb3c5747",
-        "pname": "kstring",
-        "type": "crates-io",
-        "version": "2.0.0"
       }
     },
     "lazy_static": {
@@ -878,11 +877,11 @@
       }
     },
     "serde_spanned": {
-      "0.6.2": {
-        "hash": "93107647184f6027e3b7dcb2e11034cf95ffa1e3a682c67951963ac69c1c007d",
+      "0.6.3": {
+        "hash": "96426c9936fd7a0124915f9185ea1d20aa9445cc9821142f0a73bc9207a2e186",
         "pname": "serde_spanned",
         "type": "crates-io",
-        "version": "0.6.2"
+        "version": "0.6.3"
       }
     },
     "similar": {
@@ -907,14 +906,6 @@
         "pname": "snapbox-macros",
         "type": "crates-io",
         "version": "0.3.4"
-      }
-    },
-    "static_assertions": {
-      "1.1.0": {
-        "hash": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
-        "pname": "static_assertions",
-        "type": "crates-io",
-        "version": "1.1.0"
       }
     },
     "strsim": {
@@ -963,6 +954,12 @@
         "version": "1.8.1"
       }
     },
+    "toml": {
+      "0.7.5": {
+        "hash": "1ebafdf5ad1220cb59e7d17cf4d2c72015297b75b19a10472f99b89225089240",
+        "type": "crates-io"
+      }
+    },
     "toml-test": {
       "0.3.4": {
         "hash": "37351256790aa1dbd6d60f4ff08e55e7f372e292f3e9040d6e077463d9a779c3",
@@ -988,17 +985,19 @@
       }
     },
     "toml_datetime": {
-      "0.6.2": {
-        "hash": "5a76a9312f5ba4c2dec6b9161fdf25d87ad8a09256ccea5a556fef03c706a10f",
+      "0.6.3": {
+        "hash": "7cda73e2f1397b1262d6dfdcef8aafae14d1de7748d66822d3bfeeb6d03e5e4b",
         "pname": "toml_datetime",
         "type": "crates-io",
-        "version": "0.6.2"
+        "version": "0.6.3"
       }
     },
     "toml_edit": {
-      "0.19.10": {
-        "hash": "2380d56e8670370eee6566b0bfd4265f65b3f432e8c6d85623f728d4fa31f739",
-        "type": "crates-io"
+      "0.19.11": {
+        "hash": "266f016b7f039eec8a1a80dfe6156b633d208b9fccca5e4db1d6775b0c4e34a7",
+        "pname": "toml_edit",
+        "type": "crates-io",
+        "version": "0.19.11"
       }
     },
     "unicode-ident": {

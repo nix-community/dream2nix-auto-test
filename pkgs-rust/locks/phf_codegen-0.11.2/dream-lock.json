@@ -3,7 +3,7 @@
     "defaultPackage": "phf_codegen",
     "location": "",
     "packages": {
-      "phf_codegen": "0.11.1"
+      "phf_codegen": "0.11.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "phf_codegen": {
-        "0.11.1": {
+        "0.11.2": {
           "description": "Codegen library for PHF types", "license": [   "mit"
           ]
         }
@@ -20,26 +20,26 @@
     },
     "relPathReplacements": {
       "phf_codegen": {
-        "0.11.1": {}
+        "0.11.2": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "phf_codegen": {
-      "0.11.1": [
-        [ "phf_generator", "0.11.1" ],
-        [ "phf_shared", "0.11.1" ]
+      "0.11.2": [
+        [ "phf_generator", "0.11.2" ],
+        [ "phf_shared", "0.11.2" ]
       ]
     },
     "phf_generator": {
-      "0.11.1": [
-        [ "phf_shared", "0.11.1" ],
+      "0.11.2": [
+        [ "phf_shared", "0.11.2" ],
         [ "rand", "0.8.5" ]
       ]
     },
     "phf_shared": {
-      "0.11.1": [
+      "0.11.2": [
         [ "siphasher", "0.3.10" ]
       ]
     },
@@ -51,25 +51,25 @@
   },
   "sources": {
     "phf_codegen": {
-      "0.11.1": {
-        "hash": "a56ac890c5e3ca598bbdeaa99964edb5b0258a583a9eb6ef4e89fc85d9224770",
+      "0.11.2": {
+        "hash": "e8d39688d359e6b34654d328e262234662d16cc0f60ec8dcbe5e718709342a5a",
         "type": "crates-io"
       }
     },
     "phf_generator": {
-      "0.11.1": {
-        "hash": "b1181c94580fa345f50f19d738aaa39c0ed30a600d95cb2d3e23f94266f14fbf",
+      "0.11.2": {
+        "hash": "48e4cc64c2ad9ebe670cb8fd69dd50ae301650392e81c05f9bfcb2d5bdbc24b0",
         "pname": "phf_generator",
         "type": "crates-io",
-        "version": "0.11.1"
+        "version": "0.11.2"
       }
     },
     "phf_shared": {
-      "0.11.1": {
-        "hash": "e1fb5f6f826b772a8d4c0394209441e7d37cbbb967ae9c7e0e8134365c9ee676",
+      "0.11.2": {
+        "hash": "90fcb95eef784c2ac79119d1dd819e162b5da872ce6f3c3abe1e8ca1c082f72b",
         "pname": "phf_shared",
         "type": "crates-io",
-        "version": "0.11.1"
+        "version": "0.11.2"
       }
     },
     "rand": {

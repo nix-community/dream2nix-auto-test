@@ -3,7 +3,7 @@
     "defaultPackage": "serde_yaml",
     "location": "",
     "packages": {
-      "serde_yaml": "0.9.21"
+      "serde_yaml": "0.9.22"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "serde_yaml": {
-        "0.9.21": {
+        "0.9.22": {
           "description": "YAML data format for Serde", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,16 +20,16 @@
     },
     "relPathReplacements": {
       "serde_yaml": {
-        "0.9.21": {}
+        "0.9.22": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "indexmap": {
-      "1.9.3": [
-        [ "autocfg", "1.1.0" ],
-        [ "hashbrown", "0.12.3" ]
+      "2.0.0": [
+        [ "equivalent", "1.0.0" ],
+        [ "hashbrown", "0.14.0" ]
       ]
     },
     "proc-macro2": {
@@ -46,13 +46,13 @@
       "1.0.164": [
         [ "proc-macro2", "1.0.60" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "2.0.18" ]
+        [ "syn", "2.0.20" ]
       ]
     },
     "serde_yaml": {
-      "0.9.21": [
+      "0.9.22": [
         [ "anyhow", "1.0.71" ],
-        [ "indexmap", "1.9.3" ],
+        [ "indexmap", "2.0.0" ],
         [ "indoc", "2.0.1" ],
         [ "itoa", "1.0.6" ],
         [ "ryu", "1.0.13" ],
@@ -62,7 +62,7 @@
       ]
     },
     "syn": {
-      "2.0.18": [
+      "2.0.20": [
         [ "proc-macro2", "1.0.60" ],
         [ "quote", "1.0.28" ],
         [ "unicode-ident", "1.0.9" ]
@@ -78,28 +78,28 @@
         "version": "1.0.71"
       }
     },
-    "autocfg": {
-      "1.1.0": {
-        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
-        "pname": "autocfg",
+    "equivalent": {
+      "1.0.0": {
+        "hash": "88bffebc5d80432c9b140ee17875ff173a8ab62faad5b257da912bd2f6c1c0a1",
+        "pname": "equivalent",
         "type": "crates-io",
-        "version": "1.1.0"
+        "version": "1.0.0"
       }
     },
     "hashbrown": {
-      "0.12.3": {
-        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
+      "0.14.0": {
+        "hash": "2c6201b9ff9fd90a5a3bac2e56a830d0caa509576f0e503818ee82c181b3437a",
         "pname": "hashbrown",
         "type": "crates-io",
-        "version": "0.12.3"
+        "version": "0.14.0"
       }
     },
     "indexmap": {
-      "1.9.3": {
-        "hash": "bd070e393353796e801d209ad339e89596eb4c8d430d18ede6a1cced8fafbd99",
+      "2.0.0": {
+        "hash": "d5477fe2230a79769d8dc68e0eabf5437907c0457a5614a9e8dddb67f65eb65d",
         "pname": "indexmap",
         "type": "crates-io",
-        "version": "1.9.3"
+        "version": "2.0.0"
       }
     },
     "indoc": {
@@ -159,17 +159,17 @@
       }
     },
     "serde_yaml": {
-      "0.9.21": {
-        "hash": "d9d684e3ec7de3bf5466b32bd75303ac16f0736426e5a4e0d6e489559ce1249c",
+      "0.9.22": {
+        "hash": "452e67b9c20c37fa79df53201dc03839651086ed9bbe92b3ca585ca9fdaa7d85",
         "type": "crates-io"
       }
     },
     "syn": {
-      "2.0.18": {
-        "hash": "32d41677bcbe24c20c52e7c70b0d8db04134c5d1066bf98662e2871ad200ea3e",
+      "2.0.20": {
+        "hash": "fcb8d4cebc40aa517dfb69618fa647a346562e67228e2236ae0042ee6ac14775",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.18"
+        "version": "2.0.20"
       }
     },
     "unicode-ident": {

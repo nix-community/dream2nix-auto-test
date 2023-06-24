@@ -3,7 +3,7 @@
     "defaultPackage": "phf",
     "location": "",
     "packages": {
-      "phf": "0.11.1"
+      "phf": "0.11.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "phf": {
-        "0.11.1": {
+        "0.11.2": {
           "description": "Runtime support for perfect hash function data structures", "license": [   "mit"
           ]
         }
@@ -20,37 +20,37 @@
     },
     "relPathReplacements": {
       "phf": {
-        "0.11.1": {}
+        "0.11.2": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "phf": {
-      "0.11.1": [
-        [ "phf_macros", "0.11.1" ],
-        [ "phf_shared", "0.11.1" ],
+      "0.11.2": [
+        [ "phf_macros", "0.11.2" ],
+        [ "phf_shared", "0.11.2" ],
         [ "serde", "1.0.164" ]
       ]
     },
     "phf_generator": {
-      "0.11.1": [
-        [ "phf_shared", "0.11.1" ],
+      "0.11.2": [
+        [ "phf_shared", "0.11.2" ],
         [ "rand", "0.8.5" ]
       ]
     },
     "phf_macros": {
-      "0.11.1": [
-        [ "phf_generator", "0.11.1" ],
-        [ "phf_shared", "0.11.1" ],
+      "0.11.2": [
+        [ "phf_generator", "0.11.2" ],
+        [ "phf_shared", "0.11.2" ],
         [ "proc-macro2", "1.0.60" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "1.0.109" ],
+        [ "syn", "2.0.20" ],
         [ "unicase", "2.6.0" ]
       ]
     },
     "phf_shared": {
-      "0.11.1": [
+      "0.11.2": [
         [ "siphasher", "0.3.10" ],
         [ "uncased", "0.9.9" ],
         [ "unicase", "2.6.0" ]
@@ -72,7 +72,7 @@
       ]
     },
     "syn": {
-      "1.0.109": [
+      "2.0.20": [
         [ "proc-macro2", "1.0.60" ],
         [ "quote", "1.0.28" ],
         [ "unicode-ident", "1.0.9" ]
@@ -91,33 +91,33 @@
   },
   "sources": {
     "phf": {
-      "0.11.1": {
-        "hash": "928c6535de93548188ef63bb7c4036bd415cd8f36ad25af44b9789b2ee72a48c",
+      "0.11.2": {
+        "hash": "ade2d8b8f33c7333b51bcf0428d37e217e9f32192ae4772156f65063b8ce03dc",
         "type": "crates-io"
       }
     },
     "phf_generator": {
-      "0.11.1": {
-        "hash": "b1181c94580fa345f50f19d738aaa39c0ed30a600d95cb2d3e23f94266f14fbf",
+      "0.11.2": {
+        "hash": "48e4cc64c2ad9ebe670cb8fd69dd50ae301650392e81c05f9bfcb2d5bdbc24b0",
         "pname": "phf_generator",
         "type": "crates-io",
-        "version": "0.11.1"
+        "version": "0.11.2"
       }
     },
     "phf_macros": {
-      "0.11.1": {
-        "hash": "92aacdc5f16768709a569e913f7451034034178b05bdc8acda226659a3dccc66",
+      "0.11.2": {
+        "hash": "3444646e286606587e49f3bcf1679b8cef1dc2c5ecc29ddacaffc305180d464b",
         "pname": "phf_macros",
         "type": "crates-io",
-        "version": "0.11.1"
+        "version": "0.11.2"
       }
     },
     "phf_shared": {
-      "0.11.1": {
-        "hash": "e1fb5f6f826b772a8d4c0394209441e7d37cbbb967ae9c7e0e8134365c9ee676",
+      "0.11.2": {
+        "hash": "90fcb95eef784c2ac79119d1dd819e162b5da872ce6f3c3abe1e8ca1c082f72b",
         "pname": "phf_shared",
         "type": "crates-io",
-        "version": "0.11.1"
+        "version": "0.11.2"
       }
     },
     "proc-macro2": {
@@ -169,11 +169,11 @@
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.20": {
+        "hash": "fcb8d4cebc40aa517dfb69618fa647a346562e67228e2236ae0042ee6ac14775",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.109"
+        "version": "2.0.20"
       }
     },
     "uncased": {
