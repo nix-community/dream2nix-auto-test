@@ -3,7 +3,7 @@
     "defaultPackage": "proc-macro2",
     "location": "",
     "packages": {
-      "proc-macro2": "1.0.60"
+      "proc-macro2": "1.0.63"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "proc-macro2": {
-        "1.0.60": {
+        "1.0.63": {
           "description": "A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,39 +20,39 @@
     },
     "relPathReplacements": {
       "proc-macro2": {
-        "1.0.60": {}
+        "1.0.63": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "proc-macro2": {
-      "1.0.60": [
+      "1.0.63": [
         [ "quote", "1.0.28" ],
         [ "rustversion", "1.0.12" ],
         [ "unicode-ident", "1.0.9" ]
       ],
-      "1.0.60$crates-io": [
+      "1.0.63$crates-io": [
         [ "unicode-ident", "1.0.9" ]
       ]
     },
     "quote": {
       "1.0.28": [
-        [ "proc-macro2", "1.0.60$crates-io" ]
+        [ "proc-macro2", "1.0.63$crates-io" ]
       ]
     }
   },
   "sources": {
     "proc-macro2": {
-      "1.0.60": {
-        "hash": "dec2b086b7a862cf4de201096214fa870344cf922b2b30c167badb3af3195406",
+      "1.0.63": {
+        "hash": "7b368fba921b0dce7e60f5e04ec15e565b3303972b42bcfde1d0713b881959eb",
         "type": "crates-io"
       },
-      "1.0.60$crates-io": {
-        "hash": "dec2b086b7a862cf4de201096214fa870344cf922b2b30c167badb3af3195406",
+      "1.0.63$crates-io": {
+        "hash": "7b368fba921b0dce7e60f5e04ec15e565b3303972b42bcfde1d0713b881959eb",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.60"
+        "version": "1.0.63"
       }
     },
     "quote": {

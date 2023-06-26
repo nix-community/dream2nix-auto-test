@@ -3,7 +3,7 @@
     "defaultPackage": "syn",
     "location": "",
     "packages": {
-      "syn": "2.0.20"
+      "syn": "2.0.22"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "syn": {
-        "2.0.20": {
+        "2.0.22": {
           "description": "Parser for Rust source code", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "syn": {
-        "2.0.20": {}
+        "2.0.22": {}
       }
     }
   },
@@ -33,23 +33,23 @@
     },
     "automod": {
       "1.0.8": [
-        [ "proc-macro2", "1.0.60" ],
+        [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "2.0.20$crates-io" ]
+        [ "syn", "2.0.22$crates-io" ]
       ]
     },
     "console": {
       "0.15.7": [
         [ "encode_unicode", "0.3.6" ],
         [ "lazy_static", "1.4.0" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
     "core-foundation": {
       "0.9.3": [
         [ "core-foundation-sys", "0.8.4" ],
-        [ "libc", "0.2.146" ]
+        [ "libc", "0.2.147" ]
       ]
     },
     "crc32fast": {
@@ -92,14 +92,14 @@
     "errno": {
       "0.3.1": [
         [ "errno-dragonfly", "0.1.2" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
     "errno-dragonfly": {
       "0.1.2": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.146" ]
+        [ "libc", "0.2.147" ]
       ]
     },
     "fastrand": {
@@ -110,7 +110,7 @@
     "filetime": {
       "0.2.21": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "redox_syscall", "0.2.16" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -164,7 +164,7 @@
     },
     "hermit-abi": {
       "0.2.6": [
-        [ "libc", "0.2.146" ]
+        [ "libc", "0.2.147" ]
       ]
     },
     "http": {
@@ -239,7 +239,7 @@
     "io-lifetimes": {
       "1.0.11": [
         [ "hermit-abi", "0.3.1" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -260,7 +260,7 @@
     },
     "mio": {
       "0.8.8": [
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -268,7 +268,7 @@
     "native-tls": {
       "0.2.11": [
         [ "lazy_static", "1.4.0" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "log", "0.4.19" ],
         [ "openssl", "0.10.55" ],
         [ "openssl-probe", "0.1.5" ],
@@ -282,7 +282,7 @@
     "num_cpus": {
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
-        [ "libc", "0.2.146" ]
+        [ "libc", "0.2.147" ]
       ]
     },
     "openssl": {
@@ -290,7 +290,7 @@
         [ "bitflags", "1.3.2" ],
         [ "cfg-if", "1.0.0" ],
         [ "foreign-types", "0.3.2" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "once_cell", "1.18.0" ],
         [ "openssl-macros", "0.1.1" ],
         [ "openssl-sys", "0.9.90" ]
@@ -298,27 +298,27 @@
     },
     "openssl-macros": {
       "0.1.1": [
-        [ "proc-macro2", "1.0.60" ],
+        [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "2.0.20$crates-io" ]
+        [ "syn", "2.0.22$crates-io" ]
       ]
     },
     "openssl-sys": {
       "0.9.90": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "pkg-config", "0.3.27" ],
         [ "vcpkg", "0.2.15" ]
       ]
     },
     "proc-macro2": {
-      "1.0.60": [
+      "1.0.63": [
         [ "unicode-ident", "1.0.9" ]
       ]
     },
     "quote": {
       "1.0.28": [
-        [ "proc-macro2", "1.0.60" ]
+        [ "proc-macro2", "1.0.63" ]
       ]
     },
     "rayon": {
@@ -350,9 +350,9 @@
     },
     "ref-cast-impl": {
       "1.0.16": [
-        [ "proc-macro2", "1.0.60" ],
+        [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "2.0.20$crates-io" ]
+        [ "syn", "2.0.22$crates-io" ]
       ]
     },
     "regex": {
@@ -400,7 +400,7 @@
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.11" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "linux-raw-sys", "0.3.8" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -420,14 +420,14 @@
         [ "bitflags", "1.3.2" ],
         [ "core-foundation", "0.9.3" ],
         [ "core-foundation-sys", "0.8.4" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "security-framework-sys", "2.9.0" ]
       ]
     },
     "security-framework-sys": {
       "2.9.0": [
         [ "core-foundation-sys", "0.8.4" ],
-        [ "libc", "0.2.146" ]
+        [ "libc", "0.2.147" ]
       ]
     },
     "serde_json": {
@@ -452,17 +452,17 @@
     },
     "socket2": {
       "0.4.9": [
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "winapi", "0.3.9" ]
       ]
     },
     "syn": {
-      "2.0.20": [
+      "2.0.22": [
         [ "anyhow", "1.0.71" ],
         [ "automod", "1.0.8" ],
         [ "flate2", "1.0.26" ],
         [ "insta", "1.30.0" ],
-        [ "proc-macro2", "1.0.60" ],
+        [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
         [ "rayon", "1.7.0" ],
         [ "ref-cast", "1.0.16" ],
@@ -475,8 +475,8 @@
         [ "unicode-ident", "1.0.9" ],
         [ "walkdir", "2.3.3" ]
       ],
-      "2.0.20$crates-io": [
-        [ "proc-macro2", "1.0.60" ],
+      "2.0.22$crates-io": [
+        [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
         [ "unicode-ident", "1.0.9" ]
       ]
@@ -484,7 +484,7 @@
     "tar": {
       "0.4.38": [
         [ "filetime", "0.2.21" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "xattr", "0.2.3" ]
       ]
     },
@@ -512,7 +512,7 @@
       "1.28.2": [
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.4.0" ],
-        [ "libc", "0.2.146" ],
+        [ "libc", "0.2.147" ],
         [ "mio", "0.8.8" ],
         [ "num_cpus", "1.15.0" ],
         [ "pin-project-lite", "0.2.9" ],
@@ -582,9 +582,9 @@
         [ "bumpalo", "3.13.0" ],
         [ "log", "0.4.19" ],
         [ "once_cell", "1.18.0" ],
-        [ "proc-macro2", "1.0.60" ],
+        [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "2.0.20$crates-io" ],
+        [ "syn", "2.0.22$crates-io" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
     },
@@ -604,9 +604,9 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.87": [
-        [ "proc-macro2", "1.0.60" ],
+        [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
-        [ "syn", "2.0.20$crates-io" ],
+        [ "syn", "2.0.22$crates-io" ],
         [ "wasm-bindgen-backend", "0.2.87" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
@@ -672,7 +672,7 @@
     },
     "xattr": {
       "0.2.3": [
-        [ "libc", "0.2.146" ]
+        [ "libc", "0.2.147" ]
       ]
     },
     "yaml-rust": {
@@ -1129,11 +1129,11 @@
       }
     },
     "libc": {
-      "0.2.146": {
-        "hash": "f92be4933c13fd498862a9e02a3055f8a8d9c039ce33db97306fd5a6caa7f29b",
+      "0.2.147": {
+        "hash": "b4668fb0ea861c1df094127ac5f1da3409a82116a4ba74fca2e58ef927159bb3",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.146"
+        "version": "0.2.147"
       }
     },
     "linked-hash-map": {
@@ -1289,11 +1289,11 @@
       }
     },
     "proc-macro2": {
-      "1.0.60": {
-        "hash": "dec2b086b7a862cf4de201096214fa870344cf922b2b30c167badb3af3195406",
+      "1.0.63": {
+        "hash": "7b368fba921b0dce7e60f5e04ec15e565b3303972b42bcfde1d0713b881959eb",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.60"
+        "version": "1.0.63"
       }
     },
     "quote": {
@@ -1487,15 +1487,15 @@
       }
     },
     "syn": {
-      "2.0.20": {
-        "hash": "fcb8d4cebc40aa517dfb69618fa647a346562e67228e2236ae0042ee6ac14775",
+      "2.0.22": {
+        "hash": "2efbeae7acf4eabd6bcdcbd11c92f45231ddda7539edc7806bd1a04a03b24616",
         "type": "crates-io"
       },
-      "2.0.20$crates-io": {
-        "hash": "fcb8d4cebc40aa517dfb69618fa647a346562e67228e2236ae0042ee6ac14775",
+      "2.0.22$crates-io": {
+        "hash": "2efbeae7acf4eabd6bcdcbd11c92f45231ddda7539edc7806bd1a04a03b24616",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.20"
+        "version": "2.0.22"
       }
     },
     "syn-test-suite": {
