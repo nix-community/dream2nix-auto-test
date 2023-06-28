@@ -26,6 +26,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "addr2line": {
+      "0.19.0": [
+        [ "gimli", "0.27.3" ]
+      ]
+    },
     "aho-corasick": {
       "1.0.2": [
         [ "memchr", "2.5.0" ]
@@ -43,7 +48,7 @@
         [ "futures-core", "0.3.28" ],
         [ "memchr", "2.5.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.2" ]
+        [ "tokio", "1.29.0" ]
       ]
     },
     "async-trait": {
@@ -85,7 +90,7 @@
         [ "sha1", "0.10.5" ],
         [ "sync_wrapper", "0.1.2" ],
         [ "time", "0.3.22" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-stream", "0.1.14" ],
         [ "tokio-tungstenite", "0.18.0" ],
         [ "tower", "0.4.13" ],
@@ -117,6 +122,17 @@
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
         [ "syn", "2.0.22" ]
+      ]
+    },
+    "backtrace": {
+      "0.3.67": [
+        [ "addr2line", "0.19.0" ],
+        [ "cc", "1.0.79" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.147" ],
+        [ "miniz_oxide", "0.6.2" ],
+        [ "object", "0.30.4" ],
+        [ "rustc-demangle", "0.1.23" ]
       ]
     },
     "block-buffer": {
@@ -229,7 +245,7 @@
         [ "http", "0.2.9" ],
         [ "indexmap", "1.9.3" ],
         [ "slab", "0.4.8" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-util", "0.7.8" ],
         [ "tracing", "0.1.37" ]
       ]
@@ -290,7 +306,7 @@
         [ "itoa", "1.0.6" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tower-service", "0.3.2" ],
         [ "tracing", "0.1.37" ],
         [ "want", "0.3.1" ]
@@ -326,6 +342,9 @@
       ]
     },
     "miniz_oxide": {
+      "0.6.2": [
+        [ "adler", "1.0.2" ]
+      ],
       "0.7.1": [
         [ "adler", "1.0.2" ]
       ]
@@ -366,6 +385,11 @@
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
         [ "libc", "0.2.147" ]
+      ]
+    },
+    "object": {
+      "0.30.4": [
+        [ "memchr", "2.5.0" ]
       ]
     },
     "pin-project": {
@@ -451,7 +475,7 @@
         [ "serde", "1.0.164" ],
         [ "serde_json", "1.0.99" ],
         [ "serde_urlencoded", "0.7.1" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-util", "0.7.8" ],
         [ "tower-service", "0.3.2" ],
         [ "url", "2.4.0" ],
@@ -566,8 +590,9 @@
       ]
     },
     "tokio": {
-      "1.28.2": [
+      "1.29.0": [
         [ "autocfg", "1.1.0" ],
+        [ "backtrace", "0.3.67" ],
         [ "bytes", "1.4.0" ],
         [ "libc", "0.2.147" ],
         [ "mio", "0.8.8" ],
@@ -589,14 +614,14 @@
       "0.1.14": [
         [ "futures-core", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.2" ]
+        [ "tokio", "1.29.0" ]
       ]
     },
     "tokio-tungstenite": {
       "0.18.0": [
         [ "futures-util", "0.3.28" ],
         [ "log", "0.4.19" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tungstenite", "0.18.0" ]
       ]
     },
@@ -606,7 +631,7 @@
         [ "futures-core", "0.3.28" ],
         [ "futures-sink", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tracing", "0.1.37" ]
       ]
     },
@@ -620,7 +645,7 @@
         [ "pin-project-lite", "0.2.9" ],
         [ "rand", "0.8.5" ],
         [ "slab", "0.4.8" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-util", "0.7.8" ],
         [ "tower-layer", "0.3.2" ],
         [ "tower-service", "0.3.2" ],
@@ -644,7 +669,7 @@
         [ "mime_guess", "2.0.4" ],
         [ "percent-encoding", "2.3.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-util", "0.7.8" ],
         [ "tower", "0.4.13" ],
         [ "tower-layer", "0.3.2" ],
@@ -828,6 +853,14 @@
     }
   },
   "sources": {
+    "addr2line": {
+      "0.19.0": {
+        "hash": "a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97",
+        "pname": "addr2line",
+        "type": "crates-io",
+        "version": "0.19.0"
+      }
+    },
     "adler": {
       "1.0.2": {
         "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
@@ -914,6 +947,14 @@
         "version": "0.3.7"
       }
     },
+    "backtrace": {
+      "0.3.67": {
+        "hash": "233d376d6d185f2a3093e58f283f60f880315b6c60075b01f36b3b85154564ca",
+        "pname": "backtrace",
+        "type": "crates-io",
+        "version": "0.3.67"
+      }
+    },
     "base64": {
       "0.13.1": {
         "hash": "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8",
@@ -994,6 +1035,14 @@
         "pname": "bytes",
         "type": "crates-io",
         "version": "1.4.0"
+      }
+    },
+    "cc": {
+      "1.0.79": {
+        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
+        "pname": "cc",
+        "type": "crates-io",
+        "version": "1.0.79"
       }
     },
     "cfg-if": {
@@ -1146,6 +1195,14 @@
         "pname": "getrandom",
         "type": "crates-io",
         "version": "0.2.10"
+      }
+    },
+    "gimli": {
+      "0.27.3": {
+        "hash": "b6c80984affa11d98d1b88b66ac8853f143217b399d3c74116778ff8fdb4ed2e",
+        "pname": "gimli",
+        "type": "crates-io",
+        "version": "0.27.3"
       }
     },
     "h2": {
@@ -1357,6 +1414,12 @@
       }
     },
     "miniz_oxide": {
+      "0.6.2": {
+        "hash": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa",
+        "pname": "miniz_oxide",
+        "type": "crates-io",
+        "version": "0.6.2"
+      },
       "0.7.1": {
         "hash": "e7810e0be55b428ada41041c41f32c9f1a42817901b4ccf45fa3d4b6561e74c7",
         "pname": "miniz_oxide",
@@ -1402,6 +1465,14 @@
         "pname": "num_cpus",
         "type": "crates-io",
         "version": "1.15.0"
+      }
+    },
+    "object": {
+      "0.30.4": {
+        "hash": "03b4680b86d9cfafba8fc491dc9b6df26b68cf40e9e6cd73909194759a63c385",
+        "pname": "object",
+        "type": "crates-io",
+        "version": "0.30.4"
       }
     },
     "once_cell": {
@@ -1546,6 +1617,14 @@
         "pname": "reqwest",
         "type": "crates-io",
         "version": "0.11.18"
+      }
+    },
+    "rustc-demangle": {
+      "0.1.23": {
+        "hash": "d626bb9dae77e28219937af045c257c28bfd3f69333c512553507f5f9798cb76",
+        "pname": "rustc-demangle",
+        "type": "crates-io",
+        "version": "0.1.23"
       }
     },
     "rustversion": {
@@ -1739,11 +1818,11 @@
       }
     },
     "tokio": {
-      "1.28.2": {
-        "hash": "94d7b1cfd2aa4011f2de74c2c4c63665e27a71006b0a192dcd2710272e73dfa2",
+      "1.29.0": {
+        "hash": "374442f06ee49c3a28a8fc9f01a2596fed7559c6b99b31279c3261778e77d84f",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.28.2"
+        "version": "1.29.0"
       }
     },
     "tokio-macros": {

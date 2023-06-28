@@ -26,6 +26,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "addr2line": {
+      "0.19.0": [
+        [ "gimli", "0.27.3" ]
+      ]
+    },
     "async-stream": {
       "0.3.5": [
         [ "async-stream-impl", "0.3.5" ],
@@ -38,6 +43,17 @@
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.28" ],
         [ "syn", "2.0.22" ]
+      ]
+    },
+    "backtrace": {
+      "0.3.67": [
+        [ "addr2line", "0.19.0" ],
+        [ "cc", "1.0.79" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.147" ],
+        [ "miniz_oxide", "0.6.2" ],
+        [ "object", "0.30.4" ],
+        [ "rustc-demangle", "0.1.23" ]
       ]
     },
     "futures": {
@@ -76,6 +92,11 @@
         [ "scopeguard", "1.1.0" ]
       ]
     },
+    "miniz_oxide": {
+      "0.6.2": [
+        [ "adler", "1.0.2" ]
+      ]
+    },
     "mio": {
       "0.8.8": [
         [ "libc", "0.2.147" ],
@@ -87,6 +108,11 @@
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
         [ "libc", "0.2.147" ]
+      ]
+    },
+    "object": {
+      "0.30.4": [
+        [ "memchr", "2.5.0" ]
       ]
     },
     "parking_lot": {
@@ -138,8 +164,9 @@
       ]
     },
     "tokio": {
-      "1.28.2": [
+      "1.29.0": [
         [ "autocfg", "1.1.0" ],
+        [ "backtrace", "0.3.67" ],
         [ "bytes", "1.4.0" ],
         [ "libc", "0.2.147" ],
         [ "mio", "0.8.8" ],
@@ -166,7 +193,7 @@
         [ "futures-core", "0.3.28" ],
         [ "parking_lot", "0.12.1" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-util", "0.7.8" ]
       ]
     },
@@ -176,7 +203,7 @@
         [ "futures-core", "0.3.28" ],
         [ "futures-sink", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.2" ]
+        [ "tokio", "1.29.0" ]
       ]
     },
     "winapi": {
@@ -203,6 +230,22 @@
     }
   },
   "sources": {
+    "addr2line": {
+      "0.19.0": {
+        "hash": "a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97",
+        "pname": "addr2line",
+        "type": "crates-io",
+        "version": "0.19.0"
+      }
+    },
+    "adler": {
+      "1.0.2": {
+        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
+        "pname": "adler",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    },
     "async-stream": {
       "0.3.5": {
         "hash": "cd56dd203fef61ac097dd65721a419ddccb106b2d2b70ba60a6b529f03961a51",
@@ -227,6 +270,14 @@
         "version": "1.1.0"
       }
     },
+    "backtrace": {
+      "0.3.67": {
+        "hash": "233d376d6d185f2a3093e58f283f60f880315b6c60075b01f36b3b85154564ca",
+        "pname": "backtrace",
+        "type": "crates-io",
+        "version": "0.3.67"
+      }
+    },
     "bitflags": {
       "1.3.2": {
         "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
@@ -241,6 +292,14 @@
         "pname": "bytes",
         "type": "crates-io",
         "version": "1.4.0"
+      }
+    },
+    "cc": {
+      "1.0.79": {
+        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
+        "pname": "cc",
+        "type": "crates-io",
+        "version": "1.0.79"
       }
     },
     "cfg-if": {
@@ -307,6 +366,14 @@
         "version": "0.3.28"
       }
     },
+    "gimli": {
+      "0.27.3": {
+        "hash": "b6c80984affa11d98d1b88b66ac8853f143217b399d3c74116778ff8fdb4ed2e",
+        "pname": "gimli",
+        "type": "crates-io",
+        "version": "0.27.3"
+      }
+    },
     "hermit-abi": {
       "0.2.6": {
         "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
@@ -331,6 +398,22 @@
         "version": "0.4.10"
       }
     },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "pname": "memchr",
+        "type": "crates-io",
+        "version": "2.5.0"
+      }
+    },
+    "miniz_oxide": {
+      "0.6.2": {
+        "hash": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa",
+        "pname": "miniz_oxide",
+        "type": "crates-io",
+        "version": "0.6.2"
+      }
+    },
     "mio": {
       "0.8.8": {
         "hash": "927a765cd3fc26206e66b296465fa9d3e5ab003e651c1b3c060e7956d96b19d2",
@@ -345,6 +428,14 @@
         "pname": "num_cpus",
         "type": "crates-io",
         "version": "1.15.0"
+      }
+    },
+    "object": {
+      "0.30.4": {
+        "hash": "03b4680b86d9cfafba8fc491dc9b6df26b68cf40e9e6cd73909194759a63c385",
+        "pname": "object",
+        "type": "crates-io",
+        "version": "0.30.4"
       }
     },
     "parking_lot": {
@@ -403,6 +494,14 @@
         "version": "0.3.5"
       }
     },
+    "rustc-demangle": {
+      "0.1.23": {
+        "hash": "d626bb9dae77e28219937af045c257c28bfd3f69333c512553507f5f9798cb76",
+        "pname": "rustc-demangle",
+        "type": "crates-io",
+        "version": "0.1.23"
+      }
+    },
     "scopeguard": {
       "1.1.0": {
         "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
@@ -444,11 +543,11 @@
       }
     },
     "tokio": {
-      "1.28.2": {
-        "hash": "94d7b1cfd2aa4011f2de74c2c4c63665e27a71006b0a192dcd2710272e73dfa2",
+      "1.29.0": {
+        "hash": "374442f06ee49c3a28a8fc9f01a2596fed7559c6b99b31279c3261778e77d84f",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.28.2"
+        "version": "1.29.0"
       }
     },
     "tokio-macros": {

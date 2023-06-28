@@ -143,7 +143,7 @@
         [ "http", "0.2.9" ],
         [ "indexmap", "1.9.3" ],
         [ "slab", "0.4.8" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-util", "0.7.8" ],
         [ "tracing", "0.1.37" ]
       ]
@@ -283,7 +283,7 @@
         [ "quinn-udp", "0.1.4" ],
         [ "rustls", "0.20.8" ],
         [ "thiserror", "1.0.40" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tracing", "0.1.37" ],
         [ "webpki", "0.22.0" ]
       ]
@@ -310,7 +310,7 @@
         [ "libc", "0.2.147" ],
         [ "quinn-proto", "0.8.4" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tracing", "0.1.37" ]
       ]
     },
@@ -497,8 +497,9 @@
       ]
     },
     "tokio": {
-      "1.28.2": [
+      "1.29.0": [
         [ "autocfg", "1.1.0" ],
+        [ "backtrace", "0.3.67" ],
         [ "bytes", "1.4.0" ],
         [ "libc", "0.2.147" ],
         [ "mio", "0.8.8" ],
@@ -519,7 +520,7 @@
     "tokio-native-tls": {
       "0.3.1": [
         [ "native-tls", "0.2.11" ],
-        [ "tokio", "1.28.2" ]
+        [ "tokio", "1.29.0" ]
       ]
     },
     "tokio-openssl": {
@@ -527,13 +528,13 @@
         [ "futures-util", "0.3.28" ],
         [ "openssl", "0.10.55" ],
         [ "openssl-sys", "0.9.90" ],
-        [ "tokio", "1.28.2" ]
+        [ "tokio", "1.29.0" ]
       ]
     },
     "tokio-rustls": {
       "0.23.4": [
         [ "rustls", "0.20.8" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "webpki", "0.22.0" ]
       ]
     },
@@ -543,7 +544,7 @@
         [ "futures-core", "0.3.28" ],
         [ "futures-sink", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tracing", "0.1.37" ]
       ]
     },
@@ -619,7 +620,7 @@
         [ "socket2", "0.4.9" ],
         [ "thiserror", "1.0.40" ],
         [ "tinyvec", "1.6.0" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "tokio-native-tls", "0.3.1" ],
         [ "tokio-openssl", "0.6.3" ],
         [ "tokio-rustls", "0.23.4" ],
@@ -1611,11 +1612,11 @@
       }
     },
     "tokio": {
-      "1.28.2": {
-        "hash": "94d7b1cfd2aa4011f2de74c2c4c63665e27a71006b0a192dcd2710272e73dfa2",
+      "1.29.0": {
+        "hash": "374442f06ee49c3a28a8fc9f01a2596fed7559c6b99b31279c3261778e77d84f",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.28.2"
+        "version": "1.29.0"
       }
     },
     "tokio-macros": {

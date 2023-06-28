@@ -26,6 +26,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "addr2line": {
+      "0.19.0": [
+        [ "gimli", "0.27.3" ]
+      ]
+    },
     "approx": {
       "0.5.1": [
         [ "num-traits", "0.2.15" ]
@@ -132,6 +137,17 @@
         [ "wasm-bindgen-futures", "0.4.37" ]
       ]
     },
+    "backtrace": {
+      "0.3.67": [
+        [ "addr2line", "0.19.0" ],
+        [ "cc", "1.0.79" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.147" ],
+        [ "miniz_oxide", "0.6.2" ],
+        [ "object", "0.30.4" ],
+        [ "rustc-demangle", "0.1.23" ]
+      ]
+    },
     "blocking": {
       "1.3.1": [
         [ "async-channel", "1.8.0" ],
@@ -200,7 +216,7 @@
         [ "smol", "1.3.0" ],
         [ "tempfile", "3.5.0" ],
         [ "tinytemplate", "1.2.1" ],
-        [ "tokio", "1.28.2" ],
+        [ "tokio", "1.29.0" ],
         [ "walkdir", "2.3.3" ]
       ]
     },
@@ -381,6 +397,11 @@
         [ "autocfg", "1.1.0" ]
       ]
     },
+    "miniz_oxide": {
+      "0.6.2": [
+        [ "adler", "1.0.2" ]
+      ]
+    },
     "num-traits": {
       "0.2.15": [
         [ "autocfg", "1.1.0" ]
@@ -390,6 +411,11 @@
       "1.15.0": [
         [ "hermit-abi", "0.2.6" ],
         [ "libc", "0.2.147" ]
+      ]
+    },
+    "object": {
+      "0.30.4": [
+        [ "memchr", "2.5.0" ]
       ]
     },
     "plotters": {
@@ -567,10 +593,10 @@
       ]
     },
     "tokio": {
-      "1.28.2": [
+      "1.29.0": [
         [ "autocfg", "1.1.0" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "windows-sys", "0.48.0" ]
+        [ "backtrace", "0.3.67" ],
+        [ "pin-project-lite", "0.2.9" ]
       ]
     },
     "walkdir": {
@@ -666,6 +692,22 @@
     }
   },
   "sources": {
+    "addr2line": {
+      "0.19.0": {
+        "hash": "a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97",
+        "pname": "addr2line",
+        "type": "crates-io",
+        "version": "0.19.0"
+      }
+    },
+    "adler": {
+      "1.0.2": {
+        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
+        "pname": "adler",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    },
     "anes": {
       "0.1.6": {
         "hash": "4b46cbb362ab8752921c97e041f5e366ee6297bd428a31275b9fcf1e380f7299",
@@ -784,6 +826,14 @@
         "pname": "autocfg",
         "type": "crates-io",
         "version": "1.1.0"
+      }
+    },
+    "backtrace": {
+      "0.3.67": {
+        "hash": "233d376d6d185f2a3093e58f283f60f880315b6c60075b01f36b3b85154564ca",
+        "pname": "backtrace",
+        "type": "crates-io",
+        "version": "0.3.67"
       }
     },
     "bitflags": {
@@ -1072,6 +1122,14 @@
         "version": "0.2.10"
       }
     },
+    "gimli": {
+      "0.27.3": {
+        "hash": "b6c80984affa11d98d1b88b66ac8853f143217b399d3c74116778ff8fdb4ed2e",
+        "pname": "gimli",
+        "type": "crates-io",
+        "version": "0.27.3"
+      }
+    },
     "gloo-timers": {
       "0.2.6": {
         "hash": "9b995a66bb87bebce9a0f4a95aed01daca4872c050bfcb21653361c03bc35e5c",
@@ -1198,6 +1256,14 @@
         "version": "0.9.0"
       }
     },
+    "miniz_oxide": {
+      "0.6.2": {
+        "hash": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa",
+        "pname": "miniz_oxide",
+        "type": "crates-io",
+        "version": "0.6.2"
+      }
+    },
     "num-traits": {
       "0.2.15": {
         "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
@@ -1212,6 +1278,14 @@
         "pname": "num_cpus",
         "type": "crates-io",
         "version": "1.15.0"
+      }
+    },
+    "object": {
+      "0.30.4": {
+        "hash": "03b4680b86d9cfafba8fc491dc9b6df26b68cf40e9e6cd73909194759a63c385",
+        "pname": "object",
+        "type": "crates-io",
+        "version": "0.30.4"
       }
     },
     "once_cell": {
@@ -1382,6 +1456,14 @@
         "version": "0.7.2"
       }
     },
+    "rustc-demangle": {
+      "0.1.23": {
+        "hash": "d626bb9dae77e28219937af045c257c28bfd3f69333c512553507f5f9798cb76",
+        "pname": "rustc-demangle",
+        "type": "crates-io",
+        "version": "0.1.23"
+      }
+    },
     "rustix": {
       "0.37.20": {
         "hash": "b96e891d04aa506a6d1f318d2771bcb1c7dfda84e126660ace067c9b474bb2c0",
@@ -1503,11 +1585,11 @@
       }
     },
     "tokio": {
-      "1.28.2": {
-        "hash": "94d7b1cfd2aa4011f2de74c2c4c63665e27a71006b0a192dcd2710272e73dfa2",
+      "1.29.0": {
+        "hash": "374442f06ee49c3a28a8fc9f01a2596fed7559c6b99b31279c3261778e77d84f",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.28.2"
+        "version": "1.29.0"
       }
     },
     "unicode-ident": {
