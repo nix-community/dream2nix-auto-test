@@ -26,7 +26,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "addr2line": {
-      "0.19.0": [
+      "0.20.0": [
         [ "gimli", "0.27.3" ]
       ]
     },
@@ -38,13 +38,13 @@
       ]
     },
     "backtrace": {
-      "0.3.67": [
-        [ "addr2line", "0.19.0" ],
+      "0.3.68": [
+        [ "addr2line", "0.20.0" ],
         [ "cc", "1.0.79" ],
         [ "cfg-if", "1.0.0" ],
         [ "libc", "0.2.147" ],
-        [ "miniz_oxide", "0.6.2" ],
-        [ "object", "0.30.4" ],
+        [ "miniz_oxide", "0.7.1" ],
+        [ "object", "0.31.1" ],
         [ "rustc-demangle", "0.1.23" ]
       ]
     },
@@ -143,14 +143,9 @@
         [ "http", "0.2.9" ],
         [ "indexmap", "1.9.3" ],
         [ "slab", "0.4.8" ],
-        [ "tokio", "1.29.0" ],
+        [ "tokio", "1.29.1" ],
         [ "tokio-util", "0.7.8" ],
         [ "tracing", "0.1.37" ]
-      ]
-    },
-    "hermit-abi": {
-      "0.2.6": [
-        [ "libc", "0.2.147" ]
       ]
     },
     "http": {
@@ -200,7 +195,7 @@
       ]
     },
     "miniz_oxide": {
-      "0.6.2": [
+      "0.7.1": [
         [ "adler", "1.0.2" ]
       ]
     },
@@ -232,13 +227,13 @@
       ]
     },
     "num_cpus": {
-      "1.15.0": [
-        [ "hermit-abi", "0.2.6" ],
+      "1.16.0": [
+        [ "hermit-abi", "0.3.1" ],
         [ "libc", "0.2.147" ]
       ]
     },
     "object": {
-      "0.30.4": [
+      "0.31.1": [
         [ "memchr", "2.5.0" ]
       ]
     },
@@ -283,7 +278,7 @@
         [ "quinn-udp", "0.1.4" ],
         [ "rustls", "0.20.8" ],
         [ "thiserror", "1.0.40" ],
-        [ "tokio", "1.29.0" ],
+        [ "tokio", "1.29.1" ],
         [ "tracing", "0.1.37" ],
         [ "webpki", "0.22.0" ]
       ]
@@ -310,7 +305,7 @@
         [ "libc", "0.2.147" ],
         [ "quinn-proto", "0.8.4" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio", "1.29.0" ],
+        [ "tokio", "1.29.1" ],
         [ "tracing", "0.1.37" ]
       ]
     },
@@ -364,7 +359,7 @@
       ]
     },
     "rustix": {
-      "0.37.20": [
+      "0.37.21": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.11" ],
@@ -469,7 +464,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.20" ],
+        [ "rustix", "0.37.21" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -497,13 +492,13 @@
       ]
     },
     "tokio": {
-      "1.29.0": [
+      "1.29.1": [
         [ "autocfg", "1.1.0" ],
-        [ "backtrace", "0.3.67" ],
+        [ "backtrace", "0.3.68" ],
         [ "bytes", "1.4.0" ],
         [ "libc", "0.2.147" ],
         [ "mio", "0.8.8" ],
-        [ "num_cpus", "1.15.0" ],
+        [ "num_cpus", "1.16.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "socket2", "0.4.9" ],
         [ "tokio-macros", "2.1.0" ],
@@ -520,7 +515,7 @@
     "tokio-native-tls": {
       "0.3.1": [
         [ "native-tls", "0.2.11" ],
-        [ "tokio", "1.29.0" ]
+        [ "tokio", "1.29.1" ]
       ]
     },
     "tokio-openssl": {
@@ -528,13 +523,13 @@
         [ "futures-util", "0.3.28" ],
         [ "openssl", "0.10.55" ],
         [ "openssl-sys", "0.9.90" ],
-        [ "tokio", "1.29.0" ]
+        [ "tokio", "1.29.1" ]
       ]
     },
     "tokio-rustls": {
       "0.23.4": [
         [ "rustls", "0.20.8" ],
-        [ "tokio", "1.29.0" ],
+        [ "tokio", "1.29.1" ],
         [ "webpki", "0.22.0" ]
       ]
     },
@@ -544,7 +539,7 @@
         [ "futures-core", "0.3.28" ],
         [ "futures-sink", "0.3.28" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.29.0" ],
+        [ "tokio", "1.29.1" ],
         [ "tracing", "0.1.37" ]
       ]
     },
@@ -593,7 +588,7 @@
     "trust-dns-proto": {
       "0.22.0": [
         [ "async-trait", "0.1.68" ],
-        [ "backtrace", "0.3.67" ],
+        [ "backtrace", "0.3.68" ],
         [ "bytes", "1.4.0" ],
         [ "cfg-if", "1.0.0" ],
         [ "data-encoding", "2.4.0" ],
@@ -620,7 +615,7 @@
         [ "socket2", "0.4.9" ],
         [ "thiserror", "1.0.40" ],
         [ "tinyvec", "1.6.0" ],
-        [ "tokio", "1.29.0" ],
+        [ "tokio", "1.29.1" ],
         [ "tokio-native-tls", "0.3.1" ],
         [ "tokio-openssl", "0.6.3" ],
         [ "tokio-rustls", "0.23.4" ],
@@ -728,11 +723,11 @@
   },
   "sources": {
     "addr2line": {
-      "0.19.0": {
-        "hash": "a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97",
+      "0.20.0": {
+        "hash": "f4fa78e18c64fce05e902adecd7a5eed15a5e0a3439f7b0e169f0252214865e3",
         "pname": "addr2line",
         "type": "crates-io",
-        "version": "0.19.0"
+        "version": "0.20.0"
       }
     },
     "adler": {
@@ -760,11 +755,11 @@
       }
     },
     "backtrace": {
-      "0.3.67": {
-        "hash": "233d376d6d185f2a3093e58f283f60f880315b6c60075b01f36b3b85154564ca",
+      "0.3.68": {
+        "hash": "4319208da049c43661739c5fade2ba182f09d1dc2299b32298d3a31692b17e12",
         "pname": "backtrace",
         "type": "crates-io",
-        "version": "0.3.67"
+        "version": "0.3.68"
       }
     },
     "base64": {
@@ -1030,12 +1025,6 @@
       }
     },
     "hermit-abi": {
-      "0.2.6": {
-        "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
-        "pname": "hermit-abi",
-        "type": "crates-io",
-        "version": "0.2.6"
-      },
       "0.3.1": {
         "hash": "fed44880c466736ef9a5c5b5facefb5ed0785676d0c02d612db14e54f0d84286",
         "pname": "hermit-abi",
@@ -1170,11 +1159,11 @@
       }
     },
     "miniz_oxide": {
-      "0.6.2": {
-        "hash": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa",
+      "0.7.1": {
+        "hash": "e7810e0be55b428ada41041c41f32c9f1a42817901b4ccf45fa3d4b6561e74c7",
         "pname": "miniz_oxide",
         "type": "crates-io",
-        "version": "0.6.2"
+        "version": "0.7.1"
       }
     },
     "mio": {
@@ -1202,19 +1191,19 @@
       }
     },
     "num_cpus": {
-      "1.15.0": {
-        "hash": "0fac9e2da13b5eb447a6ce3d392f23a29d8694bff781bf03a16cd9ac8697593b",
+      "1.16.0": {
+        "hash": "4161fcb6d602d4d2081af7c3a45852d875a03dd337a6bfdd6e06407b61342a43",
         "pname": "num_cpus",
         "type": "crates-io",
-        "version": "1.15.0"
+        "version": "1.16.0"
       }
     },
     "object": {
-      "0.30.4": {
-        "hash": "03b4680b86d9cfafba8fc491dc9b6df26b68cf40e9e6cd73909194759a63c385",
+      "0.31.1": {
+        "hash": "8bda667d9f2b5051b8833f59f3bf748b28ef54f850f4fcb389a252aa383866d1",
         "pname": "object",
         "type": "crates-io",
-        "version": "0.30.4"
+        "version": "0.31.1"
       }
     },
     "once_cell": {
@@ -1424,11 +1413,11 @@
       }
     },
     "rustix": {
-      "0.37.20": {
-        "hash": "b96e891d04aa506a6d1f318d2771bcb1c7dfda84e126660ace067c9b474bb2c0",
+      "0.37.21": {
+        "hash": "62f25693a73057a1b4cb56179dd3c7ea21a7c6c5ee7d85781f5749b46f34b79c",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.37.20"
+        "version": "0.37.21"
       }
     },
     "rustls": {
@@ -1612,11 +1601,11 @@
       }
     },
     "tokio": {
-      "1.29.0": {
-        "hash": "374442f06ee49c3a28a8fc9f01a2596fed7559c6b99b31279c3261778e77d84f",
+      "1.29.1": {
+        "hash": "532826ff75199d5833b9d2c5fe410f29235e25704ee5f0ef599fb51c21f4a4da",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.29.0"
+        "version": "1.29.1"
       }
     },
     "tokio-macros": {

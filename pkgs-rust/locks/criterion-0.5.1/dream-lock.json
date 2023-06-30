@@ -27,7 +27,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "addr2line": {
-      "0.19.0": [
+      "0.20.0": [
         [ "gimli", "0.27.3" ]
       ]
     },
@@ -82,7 +82,7 @@
         [ "log", "0.4.19" ],
         [ "parking", "2.1.0" ],
         [ "polling", "2.8.0" ],
-        [ "rustix", "0.37.20" ],
+        [ "rustix", "0.37.21" ],
         [ "slab", "0.4.8" ],
         [ "socket2", "0.4.9" ],
         [ "waker-fn", "1.1.0" ]
@@ -110,7 +110,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "event-listener", "2.5.3" ],
         [ "futures-lite", "1.13.0" ],
-        [ "rustix", "0.37.20" ],
+        [ "rustix", "0.37.21" ],
         [ "signal-hook", "0.3.15" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -138,13 +138,13 @@
       ]
     },
     "backtrace": {
-      "0.3.67": [
-        [ "addr2line", "0.19.0" ],
+      "0.3.68": [
+        [ "addr2line", "0.20.0" ],
         [ "cc", "1.0.79" ],
         [ "cfg-if", "1.0.0" ],
         [ "libc", "0.2.147" ],
-        [ "miniz_oxide", "0.6.2" ],
-        [ "object", "0.30.4" ],
+        [ "miniz_oxide", "0.7.1" ],
+        [ "object", "0.31.1" ],
         [ "rustc-demangle", "0.1.23" ]
       ]
     },
@@ -173,14 +173,13 @@
       ]
     },
     "clap": {
-      "4.3.9": [
-        [ "clap_builder", "4.3.9" ]
+      "4.3.10": [
+        [ "clap_builder", "4.3.10" ]
       ]
     },
     "clap_builder": {
-      "4.3.9": [
+      "4.3.10": [
         [ "anstyle", "1.0.1" ],
-        [ "bitflags", "1.3.2" ],
         [ "clap_lex", "0.5.0" ]
       ]
     },
@@ -196,11 +195,11 @@
         [ "async-std", "1.12.0" ],
         [ "cast", "0.3.0" ],
         [ "ciborium", "0.2.1" ],
-        [ "clap", "4.3.9" ],
+        [ "clap", "4.3.10" ],
         [ "criterion-plot", "0.5.0" ],
         [ "csv", "1.2.2" ],
         [ "futures", "0.3.28" ],
-        [ "is-terminal", "0.4.7" ],
+        [ "is-terminal", "0.4.8" ],
         [ "itertools", "0.10.5" ],
         [ "num-traits", "0.2.15" ],
         [ "once_cell", "1.18.0" ],
@@ -216,7 +215,7 @@
         [ "smol", "1.3.0" ],
         [ "tempfile", "3.5.0" ],
         [ "tinytemplate", "1.2.1" ],
-        [ "tokio", "1.29.0" ],
+        [ "tokio", "1.29.1" ],
         [ "walkdir", "2.3.3" ]
       ]
     },
@@ -347,11 +346,6 @@
         [ "wasm-bindgen", "0.2.87" ]
       ]
     },
-    "hermit-abi": {
-      "0.2.6": [
-        [ "libc", "0.2.147" ]
-      ]
-    },
     "instant": {
       "0.1.12": [
         [ "cfg-if", "1.0.0" ]
@@ -365,10 +359,9 @@
       ]
     },
     "is-terminal": {
-      "0.4.7": [
+      "0.4.8": [
         [ "hermit-abi", "0.3.1" ],
-        [ "io-lifetimes", "1.0.11" ],
-        [ "rustix", "0.37.20" ],
+        [ "rustix", "0.38.1" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -398,7 +391,7 @@
       ]
     },
     "miniz_oxide": {
-      "0.6.2": [
+      "0.7.1": [
         [ "adler", "1.0.2" ]
       ]
     },
@@ -408,13 +401,13 @@
       ]
     },
     "num_cpus": {
-      "1.15.0": [
-        [ "hermit-abi", "0.2.6" ],
+      "1.16.0": [
+        [ "hermit-abi", "0.3.1" ],
         [ "libc", "0.2.147" ]
       ]
     },
     "object": {
-      "0.30.4": [
+      "0.31.1": [
         [ "memchr", "2.5.0" ]
       ]
     },
@@ -488,7 +481,7 @@
         [ "crossbeam-channel", "0.5.8" ],
         [ "crossbeam-deque", "0.8.3" ],
         [ "crossbeam-utils", "0.8.16" ],
-        [ "num_cpus", "1.15.0" ]
+        [ "num_cpus", "1.16.0" ]
       ]
     },
     "redox_syscall": {
@@ -502,12 +495,19 @@
       ]
     },
     "rustix": {
-      "0.37.20": [
+      "0.37.21": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.11" ],
         [ "libc", "0.2.147" ],
         [ "linux-raw-sys", "0.3.8" ],
+        [ "windows-sys", "0.48.0" ]
+      ],
+      "0.38.1": [
+        [ "bitflags", "2.3.3" ],
+        [ "errno", "0.3.1" ],
+        [ "libc", "0.2.147" ],
+        [ "linux-raw-sys", "0.4.3" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -582,7 +582,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.20" ],
+        [ "rustix", "0.37.21" ],
         [ "windows-sys", "0.45.0" ]
       ]
     },
@@ -593,9 +593,9 @@
       ]
     },
     "tokio": {
-      "1.29.0": [
+      "1.29.1": [
         [ "autocfg", "1.1.0" ],
-        [ "backtrace", "0.3.67" ],
+        [ "backtrace", "0.3.68" ],
         [ "pin-project-lite", "0.2.9" ]
       ]
     },
@@ -693,11 +693,11 @@
   },
   "sources": {
     "addr2line": {
-      "0.19.0": {
-        "hash": "a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97",
+      "0.20.0": {
+        "hash": "f4fa78e18c64fce05e902adecd7a5eed15a5e0a3439f7b0e169f0252214865e3",
         "pname": "addr2line",
         "type": "crates-io",
-        "version": "0.19.0"
+        "version": "0.20.0"
       }
     },
     "adler": {
@@ -829,11 +829,11 @@
       }
     },
     "backtrace": {
-      "0.3.67": {
-        "hash": "233d376d6d185f2a3093e58f283f60f880315b6c60075b01f36b3b85154564ca",
+      "0.3.68": {
+        "hash": "4319208da049c43661739c5fade2ba182f09d1dc2299b32298d3a31692b17e12",
         "pname": "backtrace",
         "type": "crates-io",
-        "version": "0.3.67"
+        "version": "0.3.68"
       }
     },
     "bitflags": {
@@ -842,6 +842,12 @@
         "pname": "bitflags",
         "type": "crates-io",
         "version": "1.3.2"
+      },
+      "2.3.3": {
+        "hash": "630be753d4e58660abd17930c71b647fe46c27ea6b63cc59e1e3851406972e42",
+        "pname": "bitflags",
+        "type": "crates-io",
+        "version": "2.3.3"
       }
     },
     "blocking": {
@@ -909,19 +915,19 @@
       }
     },
     "clap": {
-      "4.3.9": {
-        "hash": "bba77a07e4489fb41bd90e8d4201c3eb246b3c2c9ea2ba0bddd6c1d1df87db7d",
+      "4.3.10": {
+        "hash": "384e169cc618c613d5e3ca6404dda77a8685a63e08660dcc64abaf7da7cb0c7a",
         "pname": "clap",
         "type": "crates-io",
-        "version": "4.3.9"
+        "version": "4.3.10"
       }
     },
     "clap_builder": {
-      "4.3.9": {
-        "hash": "2c9b4a88bb4bc35d3d6f65a21b0f0bafe9c894fa00978de242c555ec28bea1c0",
+      "4.3.10": {
+        "hash": "ef137bbe35aab78bdb468ccfba75a5f4d8321ae011d34063770780545176af2d",
         "pname": "clap_builder",
         "type": "crates-io",
-        "version": "4.3.9"
+        "version": "4.3.10"
       }
     },
     "clap_lex": {
@@ -1147,12 +1153,6 @@
       }
     },
     "hermit-abi": {
-      "0.2.6": {
-        "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
-        "pname": "hermit-abi",
-        "type": "crates-io",
-        "version": "0.2.6"
-      },
       "0.3.1": {
         "hash": "fed44880c466736ef9a5c5b5facefb5ed0785676d0c02d612db14e54f0d84286",
         "pname": "hermit-abi",
@@ -1177,11 +1177,11 @@
       }
     },
     "is-terminal": {
-      "0.4.7": {
-        "hash": "adcf93614601c8129ddf72e2d5633df827ba6551541c6d8c59520a371475be1f",
+      "0.4.8": {
+        "hash": "24fddda5af7e54bf7da53067d6e802dbcc381d0a8eef629df528e3ebf68755cb",
         "pname": "is-terminal",
         "type": "crates-io",
-        "version": "0.4.7"
+        "version": "0.4.8"
       }
     },
     "itertools": {
@@ -1230,6 +1230,12 @@
         "pname": "linux-raw-sys",
         "type": "crates-io",
         "version": "0.3.8"
+      },
+      "0.4.3": {
+        "hash": "09fc20d2ca12cb9f044c93e3bd6d32d523e6e2ec3db4f7b2939cd99026ecd3f0",
+        "pname": "linux-raw-sys",
+        "type": "crates-io",
+        "version": "0.4.3"
       }
     },
     "log": {
@@ -1257,11 +1263,11 @@
       }
     },
     "miniz_oxide": {
-      "0.6.2": {
-        "hash": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa",
+      "0.7.1": {
+        "hash": "e7810e0be55b428ada41041c41f32c9f1a42817901b4ccf45fa3d4b6561e74c7",
         "pname": "miniz_oxide",
         "type": "crates-io",
-        "version": "0.6.2"
+        "version": "0.7.1"
       }
     },
     "num-traits": {
@@ -1273,19 +1279,19 @@
       }
     },
     "num_cpus": {
-      "1.15.0": {
-        "hash": "0fac9e2da13b5eb447a6ce3d392f23a29d8694bff781bf03a16cd9ac8697593b",
+      "1.16.0": {
+        "hash": "4161fcb6d602d4d2081af7c3a45852d875a03dd337a6bfdd6e06407b61342a43",
         "pname": "num_cpus",
         "type": "crates-io",
-        "version": "1.15.0"
+        "version": "1.16.0"
       }
     },
     "object": {
-      "0.30.4": {
-        "hash": "03b4680b86d9cfafba8fc491dc9b6df26b68cf40e9e6cd73909194759a63c385",
+      "0.31.1": {
+        "hash": "8bda667d9f2b5051b8833f59f3bf748b28ef54f850f4fcb389a252aa383866d1",
         "pname": "object",
         "type": "crates-io",
-        "version": "0.30.4"
+        "version": "0.31.1"
       }
     },
     "once_cell": {
@@ -1465,11 +1471,17 @@
       }
     },
     "rustix": {
-      "0.37.20": {
-        "hash": "b96e891d04aa506a6d1f318d2771bcb1c7dfda84e126660ace067c9b474bb2c0",
+      "0.37.21": {
+        "hash": "62f25693a73057a1b4cb56179dd3c7ea21a7c6c5ee7d85781f5749b46f34b79c",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.37.20"
+        "version": "0.37.21"
+      },
+      "0.38.1": {
+        "hash": "fbc6396159432b5c8490d4e301d8c705f61860b8b6c863bf79942ce5401968f3",
+        "pname": "rustix",
+        "type": "crates-io",
+        "version": "0.38.1"
       }
     },
     "ryu": {
@@ -1585,11 +1597,11 @@
       }
     },
     "tokio": {
-      "1.29.0": {
-        "hash": "374442f06ee49c3a28a8fc9f01a2596fed7559c6b99b31279c3261778e77d84f",
+      "1.29.1": {
+        "hash": "532826ff75199d5833b9d2c5fe410f29235e25704ee5f0ef599fb51c21f4a4da",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.29.0"
+        "version": "1.29.1"
       }
     },
     "unicode-ident": {

@@ -3,7 +3,7 @@
     "defaultPackage": "num-derive",
     "location": "",
     "packages": {
-      "num-derive": "0.3.3"
+      "num-derive": "0.4.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "num-derive": {
-        "0.3.3": {
+        "0.4.0": {
           "description": "Numeric syntax extensions", "homepage": "https://github.com/rust-num/num-derive", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,41 +20,41 @@
     },
     "relPathReplacements": {
       "num-derive": {
-        "0.3.3": {}
+        "0.4.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "num": {
-      "0.3.1": [
-        [ "num-bigint", "0.3.3" ],
-        [ "num-complex", "0.3.1" ],
+      "0.4.0": [
+        [ "num-bigint", "0.4.3" ],
+        [ "num-complex", "0.4.3" ],
         [ "num-integer", "0.1.45" ],
         [ "num-iter", "0.1.43" ],
-        [ "num-rational", "0.3.2" ],
+        [ "num-rational", "0.4.1" ],
         [ "num-traits", "0.2.15" ]
       ]
     },
     "num-bigint": {
-      "0.3.3": [
+      "0.4.3": [
         [ "autocfg", "1.1.0" ],
         [ "num-integer", "0.1.45" ],
         [ "num-traits", "0.2.15" ]
       ]
     },
     "num-complex": {
-      "0.3.1": [
+      "0.4.3": [
         [ "num-traits", "0.2.15" ]
       ]
     },
     "num-derive": {
-      "0.3.3": [
-        [ "num", "0.3.1" ],
+      "0.4.0": [
+        [ "num", "0.4.0" ],
         [ "num-traits", "0.2.15" ],
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "1.0.109" ]
+        [ "syn", "2.0.22" ]
       ]
     },
     "num-integer": {
@@ -71,9 +71,9 @@
       ]
     },
     "num-rational": {
-      "0.3.2": [
+      "0.4.1": [
         [ "autocfg", "1.1.0" ],
-        [ "num-bigint", "0.3.3" ],
+        [ "num-bigint", "0.4.3" ],
         [ "num-integer", "0.1.45" ],
         [ "num-traits", "0.2.15" ]
       ]
@@ -94,7 +94,7 @@
       ]
     },
     "syn": {
-      "1.0.109": [
+      "2.0.22": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.9" ]
@@ -111,32 +111,32 @@
       }
     },
     "num": {
-      "0.3.1": {
-        "hash": "8b7a8e9be5e039e2ff869df49155f1c06bd01ade2117ec783e56ab0932b67a8f",
+      "0.4.0": {
+        "hash": "43db66d1170d347f9a065114077f7dccb00c1b9478c89384490a3425279a4606",
         "pname": "num",
         "type": "crates-io",
-        "version": "0.3.1"
+        "version": "0.4.0"
       }
     },
     "num-bigint": {
-      "0.3.3": {
-        "hash": "5f6f7833f2cbf2360a6cfd58cd41a53aa7a90bd4c202f5b1c7dd2ed73c57b2c3",
+      "0.4.3": {
+        "hash": "f93ab6289c7b344a8a9f60f88d80aa20032336fe78da341afc91c8a2341fc75f",
         "pname": "num-bigint",
         "type": "crates-io",
-        "version": "0.3.3"
+        "version": "0.4.3"
       }
     },
     "num-complex": {
-      "0.3.1": {
-        "hash": "747d632c0c558b87dbabbe6a82f3b4ae03720d0646ac5b7b4dae89394be5f2c5",
+      "0.4.3": {
+        "hash": "02e0d21255c828d6f128a1e41534206671e8c3ea0c62f32291e808dc82cff17d",
         "pname": "num-complex",
         "type": "crates-io",
-        "version": "0.3.1"
+        "version": "0.4.3"
       }
     },
     "num-derive": {
-      "0.3.3": {
-        "hash": "876a53fff98e03a936a674b29568b0e605f06b29372c2489ff4de23f1949743d",
+      "0.4.0": {
+        "hash": "9e6a0fd4f737c707bd9086cc16c925f294943eb62eb71499e9fd4cf71f8b9f4e",
         "type": "crates-io"
       }
     },
@@ -157,11 +157,11 @@
       }
     },
     "num-rational": {
-      "0.3.2": {
-        "hash": "12ac428b1cb17fce6f731001d307d351ec70a6d202fc2e60f7d4c5e42d8f4f07",
+      "0.4.1": {
+        "hash": "0638a1c9d0a3c0914158145bc76cff373a75a627e6ecbfb71cbe6f453a5a19b0",
         "pname": "num-rational",
         "type": "crates-io",
-        "version": "0.3.2"
+        "version": "0.4.1"
       }
     },
     "num-traits": {
@@ -189,11 +189,11 @@
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.22": {
+        "hash": "2efbeae7acf4eabd6bcdcbd11c92f45231ddda7539edc7806bd1a04a03b24616",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.109"
+        "version": "2.0.22"
       }
     },
     "unicode-ident": {
