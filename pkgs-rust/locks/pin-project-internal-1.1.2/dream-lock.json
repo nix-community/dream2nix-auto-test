@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "itoa",
+    "defaultPackage": "pin-project-internal",
     "location": "",
     "packages": {
-      "itoa": "1.0.6"
+      "pin-project-internal": "1.1.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,31 +11,26 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "itoa": {
-        "1.0.6": {
-          "description": "Fast integer primitive to string conversion", "license": [   "mit",   "asl20"
+      "pin-project-internal": {
+        "1.1.2": {
+          "description": "Implementation detail of the `pin-project` crate.\n", "license": [   "asl20",   "mit"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "itoa": {
-        "1.0.6": {}
+      "pin-project-internal": {
+        "1.1.2": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "itoa": {
-      "1.0.6": [
-        [ "no-panic", "0.1.23" ]
-      ]
-    },
-    "no-panic": {
-      "0.1.23": [
+    "pin-project-internal": {
+      "1.1.2": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22" ]
+        [ "syn", "2.0.23" ]
       ]
     },
     "proc-macro2": {
@@ -49,7 +44,7 @@
       ]
     },
     "syn": {
-      "2.0.22": [
+      "2.0.23": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.9" ]
@@ -57,18 +52,10 @@
     }
   },
   "sources": {
-    "itoa": {
-      "1.0.6": {
-        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
+    "pin-project-internal": {
+      "1.1.2": {
+        "hash": "ec2e072ecce94ec471b13398d5402c188e76ac03cf74dd1a975161b23a3f6d9c",
         "type": "crates-io"
-      }
-    },
-    "no-panic": {
-      "0.1.23": {
-        "hash": "9a10f40e1ad2a8330c9a69e6fcbc2ddd9727a4548510811b2fa4d29b845bc156",
-        "pname": "no-panic",
-        "type": "crates-io",
-        "version": "0.1.23"
       }
     },
     "proc-macro2": {
@@ -88,11 +75,11 @@
       }
     },
     "syn": {
-      "2.0.22": {
-        "hash": "2efbeae7acf4eabd6bcdcbd11c92f45231ddda7539edc7806bd1a04a03b24616",
+      "2.0.23": {
+        "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.22"
+        "version": "2.0.23"
       }
     },
     "unicode-ident": {

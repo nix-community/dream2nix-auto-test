@@ -3,7 +3,7 @@
     "defaultPackage": "syn",
     "location": "",
     "packages": {
-      "syn": "2.0.22"
+      "syn": "2.0.23"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "syn": {
-        "2.0.22": {
+        "2.0.23": {
           "description": "Parser for Rust source code", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "syn": {
-        "2.0.22": {}
+        "2.0.23": {}
       }
     }
   },
@@ -37,10 +37,10 @@
       ]
     },
     "automod": {
-      "1.0.8": [
+      "1.0.9": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22$crates-io" ]
+        [ "syn", "2.0.23$crates-io" ]
       ]
     },
     "backtrace": {
@@ -158,7 +158,7 @@
         [ "futures-io", "0.3.28" ],
         [ "futures-task", "0.3.28" ],
         [ "memchr", "2.5.0" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "pin-utils", "0.1.0" ],
         [ "slab", "0.4.8" ]
       ]
@@ -182,14 +182,14 @@
       "0.2.9": [
         [ "bytes", "1.4.0" ],
         [ "fnv", "1.0.7" ],
-        [ "itoa", "1.0.6" ]
+        [ "itoa", "1.0.7" ]
       ]
     },
     "http-body": {
       "0.4.5": [
         [ "bytes", "1.4.0" ],
         [ "http", "0.2.9" ],
-        [ "pin-project-lite", "0.2.9" ]
+        [ "pin-project-lite", "0.2.10" ]
       ]
     },
     "hyper": {
@@ -203,8 +203,8 @@
         [ "http-body", "0.4.5" ],
         [ "httparse", "1.8.0" ],
         [ "httpdate", "1.0.2" ],
-        [ "itoa", "1.0.6" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "itoa", "1.0.7" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "socket2", "0.4.9" ],
         [ "tokio", "1.29.1" ],
         [ "tower-service", "0.3.2" ],
@@ -316,7 +316,7 @@
       "0.1.1": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22$crates-io" ]
+        [ "syn", "2.0.23$crates-io" ]
       ]
     },
     "openssl-sys": {
@@ -368,7 +368,7 @@
       "1.0.16": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22$crates-io" ]
+        [ "syn", "2.0.23$crates-io" ]
       ]
     },
     "regex": {
@@ -397,7 +397,7 @@
         [ "native-tls", "0.2.11" ],
         [ "once_cell", "1.18.0" ],
         [ "percent-encoding", "2.3.0" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "serde", "1.0.164" ],
         [ "serde_json", "1.0.99" ],
         [ "serde_urlencoded", "0.7.1" ],
@@ -412,7 +412,7 @@
       ]
     },
     "rustix": {
-      "0.37.21": [
+      "0.37.22": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.11" ],
@@ -448,7 +448,7 @@
     },
     "serde_json": {
       "1.0.99": [
-        [ "itoa", "1.0.6" ],
+        [ "itoa", "1.0.7" ],
         [ "ryu", "1.0.13" ],
         [ "serde", "1.0.164" ]
       ]
@@ -456,7 +456,7 @@
     "serde_urlencoded": {
       "0.7.1": [
         [ "form_urlencoded", "1.2.0" ],
-        [ "itoa", "1.0.6" ],
+        [ "itoa", "1.0.7" ],
         [ "ryu", "1.0.13" ],
         [ "serde", "1.0.164" ]
       ]
@@ -473,9 +473,9 @@
       ]
     },
     "syn": {
-      "2.0.22": [
+      "2.0.23": [
         [ "anyhow", "1.0.71" ],
-        [ "automod", "1.0.8" ],
+        [ "automod", "1.0.9" ],
         [ "flate2", "1.0.26" ],
         [ "insta", "1.30.0" ],
         [ "proc-macro2", "1.0.63" ],
@@ -491,7 +491,7 @@
         [ "unicode-ident", "1.0.9" ],
         [ "walkdir", "2.3.3" ]
       ],
-      "2.0.22$crates-io": [
+      "2.0.23$crates-io": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.9" ]
@@ -510,7 +510,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.21" ],
+        [ "rustix", "0.37.22" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -532,7 +532,7 @@
         [ "libc", "0.2.147" ],
         [ "mio", "0.8.8" ],
         [ "num_cpus", "1.16.0" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "socket2", "0.4.9" ],
         [ "windows-sys", "0.48.0" ]
       ]
@@ -548,7 +548,7 @@
         [ "bytes", "1.4.0" ],
         [ "futures-core", "0.3.28" ],
         [ "futures-sink", "0.3.28" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "tokio", "1.29.1" ],
         [ "tracing", "0.1.37" ]
       ]
@@ -556,7 +556,7 @@
     "tracing": {
       "0.1.37": [
         [ "cfg-if", "1.0.0" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "tracing-core", "0.1.31" ]
       ]
     },
@@ -601,7 +601,7 @@
         [ "once_cell", "1.18.0" ],
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22$crates-io" ],
+        [ "syn", "2.0.23$crates-io" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
     },
@@ -623,7 +623,7 @@
       "0.2.87": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22$crates-io" ],
+        [ "syn", "2.0.23$crates-io" ],
         [ "wasm-bindgen-backend", "0.2.87" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
@@ -740,11 +740,11 @@
       }
     },
     "automod": {
-      "1.0.8": {
-        "hash": "2820ec8709207251544277a96c4e97692107868a6c6096f2c8e0b32b66e942d6",
+      "1.0.9": {
+        "hash": "9280733af8790e2105ff5b4f76ca1399213c65655336122ac14dfe3295a3f9b7",
         "pname": "automod",
         "type": "crates-io",
-        "version": "1.0.8"
+        "version": "1.0.9"
       }
     },
     "backtrace": {
@@ -1140,11 +1140,11 @@
       }
     },
     "itoa": {
-      "1.0.6": {
-        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
+      "1.0.7": {
+        "hash": "c0aa48fab2893d8a49caa94082ae8488f4e1050d73b367881dcd2198f4199fd8",
         "pname": "itoa",
         "type": "crates-io",
-        "version": "1.0.6"
+        "version": "1.0.7"
       }
     },
     "js-sys": {
@@ -1308,11 +1308,11 @@
       }
     },
     "pin-project-lite": {
-      "0.2.9": {
-        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+      "0.2.10": {
+        "hash": "4c40d25201921e5ff0c862a505c6557ea88568a4e3ace775ab55e93f2f4f9d57",
         "pname": "pin-project-lite",
         "type": "crates-io",
-        "version": "0.2.9"
+        "version": "0.2.10"
       }
     },
     "pin-utils": {
@@ -1426,11 +1426,11 @@
       }
     },
     "rustix": {
-      "0.37.21": {
-        "hash": "62f25693a73057a1b4cb56179dd3c7ea21a7c6c5ee7d85781f5749b46f34b79c",
+      "0.37.22": {
+        "hash": "8818fa822adcc98b18fedbb3632a6a33213c070556b5aa7c4c8cc21cff565c4c",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.37.21"
+        "version": "0.37.22"
       }
     },
     "rustversion": {
@@ -1538,15 +1538,15 @@
       }
     },
     "syn": {
-      "2.0.22": {
-        "hash": "2efbeae7acf4eabd6bcdcbd11c92f45231ddda7539edc7806bd1a04a03b24616",
+      "2.0.23": {
+        "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
         "type": "crates-io"
       },
-      "2.0.22$crates-io": {
-        "hash": "2efbeae7acf4eabd6bcdcbd11c92f45231ddda7539edc7806bd1a04a03b24616",
+      "2.0.23$crates-io": {
+        "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.22"
+        "version": "2.0.23"
       }
     },
     "syn-test-suite": {

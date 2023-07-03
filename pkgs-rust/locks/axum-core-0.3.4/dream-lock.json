@@ -32,15 +32,15 @@
       ]
     },
     "async-trait": {
-      "0.1.68": [
+      "0.1.69": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22" ]
+        [ "syn", "2.0.23" ]
       ]
     },
     "axum": {
       "0.6.18": [
-        [ "async-trait", "0.1.68" ],
+        [ "async-trait", "0.1.69" ],
         [ "axum-core", "0.3.4$crates-io" ],
         [ "bitflags", "1.3.2" ],
         [ "bytes", "1.4.0" ],
@@ -49,16 +49,16 @@
         [ "http", "0.2.9" ],
         [ "http-body", "0.4.5" ],
         [ "hyper", "0.14.27" ],
-        [ "itoa", "1.0.6" ],
+        [ "itoa", "1.0.7" ],
         [ "matchit", "0.7.0" ],
         [ "memchr", "2.5.0" ],
         [ "mime", "0.3.17" ],
         [ "percent-encoding", "2.3.0" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "rustversion", "1.0.12" ],
         [ "serde", "1.0.164" ],
         [ "serde_json", "1.0.99" ],
-        [ "serde_path_to_error", "0.1.11" ],
+        [ "serde_path_to_error", "0.1.12" ],
         [ "serde_urlencoded", "0.7.1" ],
         [ "sync_wrapper", "0.1.2" ],
         [ "tokio", "1.29.1" ],
@@ -69,7 +69,7 @@
     },
     "axum-core": {
       "0.3.4": [
-        [ "async-trait", "0.1.68" ],
+        [ "async-trait", "0.1.69" ],
         [ "axum", "0.6.18" ],
         [ "bytes", "1.4.0" ],
         [ "futures-util", "0.3.28" ],
@@ -85,7 +85,7 @@
         [ "tracing", "0.1.37" ]
       ],
       "0.3.4$crates-io": [
-        [ "async-trait", "0.1.68" ],
+        [ "async-trait", "0.1.69" ],
         [ "bytes", "1.4.0" ],
         [ "futures-util", "0.3.28" ],
         [ "http", "0.2.9" ],
@@ -143,7 +143,7 @@
       "0.3.28": [
         [ "futures-core", "0.3.28" ],
         [ "futures-task", "0.3.28" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "pin-utils", "0.1.0" ]
       ]
     },
@@ -174,14 +174,14 @@
       "0.2.9": [
         [ "bytes", "1.4.0" ],
         [ "fnv", "1.0.7" ],
-        [ "itoa", "1.0.6" ]
+        [ "itoa", "1.0.7" ]
       ]
     },
     "http-body": {
       "0.4.5": [
         [ "bytes", "1.4.0" ],
         [ "http", "0.2.9" ],
-        [ "pin-project-lite", "0.2.9" ]
+        [ "pin-project-lite", "0.2.10" ]
       ]
     },
     "hyper": {
@@ -194,8 +194,8 @@
         [ "http-body", "0.4.5" ],
         [ "httparse", "1.8.0" ],
         [ "httpdate", "1.0.2" ],
-        [ "itoa", "1.0.6" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "itoa", "1.0.7" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "socket2", "0.4.9" ],
         [ "tokio", "1.29.1" ],
         [ "tower-service", "0.3.2" ],
@@ -221,15 +221,15 @@
       ]
     },
     "pin-project": {
-      "1.1.1": [
-        [ "pin-project-internal", "1.1.1" ]
+      "1.1.2": [
+        [ "pin-project-internal", "1.1.2" ]
       ]
     },
     "pin-project-internal": {
-      "1.1.1": [
+      "1.1.2": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22" ]
+        [ "syn", "2.0.23" ]
       ]
     },
     "proc-macro2": {
@@ -244,20 +244,21 @@
     },
     "serde_json": {
       "1.0.99": [
-        [ "itoa", "1.0.6" ],
+        [ "itoa", "1.0.7" ],
         [ "ryu", "1.0.13" ],
         [ "serde", "1.0.164" ]
       ]
     },
     "serde_path_to_error": {
-      "0.1.11": [
+      "0.1.12": [
+        [ "itoa", "1.0.7" ],
         [ "serde", "1.0.164" ]
       ]
     },
     "serde_urlencoded": {
       "0.7.1": [
         [ "form_urlencoded", "1.2.0" ],
-        [ "itoa", "1.0.6" ],
+        [ "itoa", "1.0.7" ],
         [ "ryu", "1.0.13" ],
         [ "serde", "1.0.164" ]
       ]
@@ -276,7 +277,7 @@
       ]
     },
     "syn": {
-      "2.0.22": [
+      "2.0.23": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.9" ]
@@ -288,7 +289,7 @@
         [ "backtrace", "0.3.68" ],
         [ "libc", "0.2.147" ],
         [ "mio", "0.8.8" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "socket2", "0.4.9" ],
         [ "tokio-macros", "2.1.0" ],
         [ "windows-sys", "0.48.0" ]
@@ -298,15 +299,15 @@
       "2.1.0": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.22" ]
+        [ "syn", "2.0.23" ]
       ]
     },
     "tower": {
       "0.4.13": [
         [ "futures-core", "0.3.28" ],
         [ "futures-util", "0.3.28" ],
-        [ "pin-project", "1.1.1" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project", "1.1.2" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "tokio", "1.29.1" ],
         [ "tower-layer", "0.3.2" ],
         [ "tower-service", "0.3.2" ],
@@ -322,7 +323,7 @@
         [ "http", "0.2.9" ],
         [ "http-body", "0.4.5" ],
         [ "http-range-header", "0.3.0" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "tower-layer", "0.3.2" ],
         [ "tower-service", "0.3.2" ]
       ]
@@ -331,7 +332,7 @@
       "0.1.37": [
         [ "cfg-if", "1.0.0" ],
         [ "log", "0.4.19" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "tracing-core", "0.1.31" ]
       ]
     },
@@ -386,11 +387,11 @@
       }
     },
     "async-trait": {
-      "0.1.68": {
-        "hash": "b9ccdd8f2a161be9bd5c023df56f1b2a0bd1d83872ae53b71a84a12c9bf6e842",
+      "0.1.69": {
+        "hash": "7b2d0f03b3640e3a630367e40c468cb7f309529c708ed1d88597047b0e7c6ef7",
         "pname": "async-trait",
         "type": "crates-io",
-        "version": "0.1.68"
+        "version": "0.1.69"
       }
     },
     "autocfg": {
@@ -636,11 +637,11 @@
       }
     },
     "itoa": {
-      "1.0.6": {
-        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
+      "1.0.7": {
+        "hash": "c0aa48fab2893d8a49caa94082ae8488f4e1050d73b367881dcd2198f4199fd8",
         "pname": "itoa",
         "type": "crates-io",
-        "version": "1.0.6"
+        "version": "1.0.7"
       }
     },
     "libc": {
@@ -724,27 +725,27 @@
       }
     },
     "pin-project": {
-      "1.1.1": {
-        "hash": "6e138fdd8263907a2b0e1b4e80b7e58c721126479b6e6eedfb1b402acea7b9bd",
+      "1.1.2": {
+        "hash": "030ad2bc4db10a8944cb0d837f158bdfec4d4a4873ab701a95046770d11f8842",
         "pname": "pin-project",
         "type": "crates-io",
-        "version": "1.1.1"
+        "version": "1.1.2"
       }
     },
     "pin-project-internal": {
-      "1.1.1": {
-        "hash": "d1fef411b303e3e12d534fb6e7852de82da56edd937d895125821fb7c09436c7",
+      "1.1.2": {
+        "hash": "ec2e072ecce94ec471b13398d5402c188e76ac03cf74dd1a975161b23a3f6d9c",
         "pname": "pin-project-internal",
         "type": "crates-io",
-        "version": "1.1.1"
+        "version": "1.1.2"
       }
     },
     "pin-project-lite": {
-      "0.2.9": {
-        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+      "0.2.10": {
+        "hash": "4c40d25201921e5ff0c862a505c6557ea88568a4e3ace775ab55e93f2f4f9d57",
         "pname": "pin-project-lite",
         "type": "crates-io",
-        "version": "0.2.9"
+        "version": "0.2.10"
       }
     },
     "pin-utils": {
@@ -812,11 +813,11 @@
       }
     },
     "serde_path_to_error": {
-      "0.1.11": {
-        "hash": "f7f05c1d5476066defcdfacce1f52fc3cae3af1d3089727100c02ae92e5abbe0",
+      "0.1.12": {
+        "hash": "0b1b6471d7496b051e03f1958802a73f88b947866f5146f329e47e36554f4e55",
         "pname": "serde_path_to_error",
         "type": "crates-io",
-        "version": "0.1.11"
+        "version": "0.1.12"
       }
     },
     "serde_urlencoded": {
@@ -844,11 +845,11 @@
       }
     },
     "syn": {
-      "2.0.22": {
-        "hash": "2efbeae7acf4eabd6bcdcbd11c92f45231ddda7539edc7806bd1a04a03b24616",
+      "2.0.23": {
+        "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.22"
+        "version": "2.0.23"
       }
     },
     "sync_wrapper": {
