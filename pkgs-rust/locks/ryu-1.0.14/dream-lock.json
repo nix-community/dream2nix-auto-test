@@ -3,7 +3,7 @@
     "defaultPackage": "ryu",
     "location": "",
     "packages": {
-      "ryu": "1.0.13"
+      "ryu": "1.0.14"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "ryu": {
-        "1.0.13": {
+        "1.0.14": {
           "description": "Fast floating point to string conversion", "license": [   "asl20",   "boost"
           ]
         }
@@ -20,63 +20,58 @@
     },
     "relPathReplacements": {
       "ryu": {
-        "1.0.13": {}
+        "1.0.14": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "getrandom": {
-      "0.2.7": [
+      "0.2.10": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.147" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
-    "hermit-abi": {
-      "0.1.19": [
-        [ "libc", "0.2.134" ]
-      ]
-    },
     "no-panic": {
-      "0.1.16": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ]
+      "0.1.23": [
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "syn", "2.0.23" ]
       ]
     },
     "num_cpus": {
-      "1.13.1": [
-        [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.134" ]
+      "1.16.0": [
+        [ "hermit-abi", "0.3.1" ],
+        [ "libc", "0.2.147" ]
       ]
     },
     "proc-macro2": {
-      "1.0.46": [
-        [ "unicode-ident", "1.0.4" ]
+      "1.0.63": [
+        [ "unicode-ident", "1.0.9" ]
       ]
     },
     "quote": {
-      "1.0.21": [
-        [ "proc-macro2", "1.0.46" ]
+      "1.0.29": [
+        [ "proc-macro2", "1.0.63" ]
       ]
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.147" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.4" ]
       ]
     },
     "rand_chacha": {
       "0.3.1": [
-        [ "ppv-lite86", "0.2.16" ],
+        [ "ppv-lite86", "0.2.17" ],
         [ "rand_core", "0.6.4" ]
       ]
     },
     "rand_core": {
       "0.6.4": [
-        [ "getrandom", "0.2.7" ]
+        [ "getrandom", "0.2.10" ]
       ]
     },
     "rand_xorshift": {
@@ -85,18 +80,18 @@
       ]
     },
     "ryu": {
-      "1.0.13": [
-        [ "no-panic", "0.1.16" ],
-        [ "num_cpus", "1.13.1" ],
+      "1.0.14": [
+        [ "no-panic", "0.1.23" ],
+        [ "num_cpus", "1.16.0" ],
         [ "rand", "0.8.5" ],
         [ "rand_xorshift", "0.3.0" ]
       ]
     },
     "syn": {
-      "1.0.102": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.4" ]
+      "2.0.23": [
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "unicode-ident", "1.0.9" ]
       ]
     }
   },
@@ -110,67 +105,67 @@
       }
     },
     "getrandom": {
-      "0.2.7": {
-        "hash": "4eb1a864a501629691edf6c15a593b7a51eebaa1e8468e9ddc623de7c9b58ec6",
+      "0.2.10": {
+        "hash": "be4136b2a15dd319360be1c07d9933517ccf0be8f16bf62a3bee4f0d618df427",
         "pname": "getrandom",
         "type": "crates-io",
-        "version": "0.2.7"
+        "version": "0.2.10"
       }
     },
     "hermit-abi": {
-      "0.1.19": {
-        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+      "0.3.1": {
+        "hash": "fed44880c466736ef9a5c5b5facefb5ed0785676d0c02d612db14e54f0d84286",
         "pname": "hermit-abi",
         "type": "crates-io",
-        "version": "0.1.19"
+        "version": "0.3.1"
       }
     },
     "libc": {
-      "0.2.134": {
-        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
+      "0.2.147": {
+        "hash": "b4668fb0ea861c1df094127ac5f1da3409a82116a4ba74fca2e58ef927159bb3",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.134"
+        "version": "0.2.147"
       }
     },
     "no-panic": {
-      "0.1.16": {
-        "hash": "12f10d4b6dcf2138f0fc171f4cc8f49517cc71ac57e29aa061c61aa57ec2dffc",
+      "0.1.23": {
+        "hash": "9a10f40e1ad2a8330c9a69e6fcbc2ddd9727a4548510811b2fa4d29b845bc156",
         "pname": "no-panic",
         "type": "crates-io",
-        "version": "0.1.16"
+        "version": "0.1.23"
       }
     },
     "num_cpus": {
-      "1.13.1": {
-        "hash": "19e64526ebdee182341572e50e9ad03965aa510cd94427a4549448f285e957a1",
+      "1.16.0": {
+        "hash": "4161fcb6d602d4d2081af7c3a45852d875a03dd337a6bfdd6e06407b61342a43",
         "pname": "num_cpus",
         "type": "crates-io",
-        "version": "1.13.1"
+        "version": "1.16.0"
       }
     },
     "ppv-lite86": {
-      "0.2.16": {
-        "hash": "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872",
+      "0.2.17": {
+        "hash": "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de",
         "pname": "ppv-lite86",
         "type": "crates-io",
-        "version": "0.2.16"
+        "version": "0.2.17"
       }
     },
     "proc-macro2": {
-      "1.0.46": {
-        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
+      "1.0.63": {
+        "hash": "7b368fba921b0dce7e60f5e04ec15e565b3303972b42bcfde1d0713b881959eb",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.46"
+        "version": "1.0.63"
       }
     },
     "quote": {
-      "1.0.21": {
-        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
+      "1.0.29": {
+        "hash": "573015e8ab27661678357f27dc26460738fd2b6c86e46f386fde94cb5d913105",
         "pname": "quote",
         "type": "crates-io",
-        "version": "1.0.21"
+        "version": "1.0.29"
       }
     },
     "rand": {
@@ -206,25 +201,25 @@
       }
     },
     "ryu": {
-      "1.0.13": {
-        "hash": "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041",
+      "1.0.14": {
+        "hash": "fe232bdf6be8c8de797b22184ee71118d63780ea42ac85b61d1baa6d3b782ae9",
         "type": "crates-io"
       }
     },
     "syn": {
-      "1.0.102": {
-        "hash": "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1",
+      "2.0.23": {
+        "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.102"
+        "version": "2.0.23"
       }
     },
     "unicode-ident": {
-      "1.0.4": {
-        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
+      "1.0.9": {
+        "hash": "b15811caf2415fb889178633e7724bad2509101cde276048e013b9def5e51fa0",
         "pname": "unicode-ident",
         "type": "crates-io",
-        "version": "1.0.4"
+        "version": "1.0.9"
       }
     },
     "wasi": {

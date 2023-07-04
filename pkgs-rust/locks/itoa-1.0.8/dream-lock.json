@@ -3,7 +3,7 @@
     "defaultPackage": "itoa",
     "location": "",
     "packages": {
-      "itoa": "1.0.7"
+      "itoa": "1.0.8"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "itoa": {
-        "1.0.7": {
+        "1.0.8": {
           "description": "Fast integer primitive to string conversion", "license": [   "mit",   "asl20"
           ]
         }
@@ -20,19 +20,19 @@
     },
     "relPathReplacements": {
       "itoa": {
-        "1.0.7": {}
+        "1.0.8": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "itoa": {
-      "1.0.7": [
-        [ "no-panic", "0.1.23" ]
+      "1.0.8": [
+        [ "no-panic", "0.1.24" ]
       ]
     },
     "no-panic": {
-      "0.1.23": [
+      "0.1.24": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "syn", "2.0.23" ]
@@ -40,7 +40,7 @@
     },
     "proc-macro2": {
       "1.0.63": [
-        [ "unicode-ident", "1.0.9" ]
+        [ "unicode-ident", "1.0.10" ]
       ]
     },
     "quote": {
@@ -52,23 +52,23 @@
       "2.0.23": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "unicode-ident", "1.0.9" ]
+        [ "unicode-ident", "1.0.10" ]
       ]
     }
   },
   "sources": {
     "itoa": {
-      "1.0.7": {
-        "hash": "c0aa48fab2893d8a49caa94082ae8488f4e1050d73b367881dcd2198f4199fd8",
+      "1.0.8": {
+        "hash": "62b02a5381cc465bd3041d84623d0fa3b66738b52b8e2fc3bab8ad63ab032f4a",
         "type": "crates-io"
       }
     },
     "no-panic": {
-      "0.1.23": {
-        "hash": "9a10f40e1ad2a8330c9a69e6fcbc2ddd9727a4548510811b2fa4d29b845bc156",
+      "0.1.24": {
+        "hash": "14ebbd75cb09a9c7dd32085330797572e4811adcc807d332797cf54f16fa7255",
         "pname": "no-panic",
         "type": "crates-io",
-        "version": "0.1.23"
+        "version": "0.1.24"
       }
     },
     "proc-macro2": {
@@ -96,11 +96,11 @@
       }
     },
     "unicode-ident": {
-      "1.0.9": {
-        "hash": "b15811caf2415fb889178633e7724bad2509101cde276048e013b9def5e51fa0",
+      "1.0.10": {
+        "hash": "22049a19f4a68748a168c0fc439f9516686aa045927ff767eca0a85101fb6e73",
         "pname": "unicode-ident",
         "type": "crates-io",
-        "version": "1.0.9"
+        "version": "1.0.10"
       }
     }
   }

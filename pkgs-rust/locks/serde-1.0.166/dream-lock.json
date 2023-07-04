@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "strum_macros",
+    "defaultPackage": "serde",
     "location": "",
     "packages": {
-      "strum_macros": "0.25.0"
+      "serde": "1.0.166"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "strum_macros": {
-        "0.25.0": {
-          "description": "Helpful macros for working with enums and strings", "homepage": "https://github.com/Peternator7/strum", "license": [   "mit"
+      "serde": {
+        "1.0.166": {
+          "description": "A generic serialization/deserialization framework", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "strum_macros": {
-        "0.25.0": {}
+      "serde": {
+        "1.0.166": {}
       }
     }
   },
@@ -28,7 +28,7 @@
   "dependencies": {
     "proc-macro2": {
       "1.0.63": [
-        [ "unicode-ident", "1.0.9" ]
+        [ "unicode-ident", "1.0.10" ]
       ]
     },
     "quote": {
@@ -36,13 +36,15 @@
         [ "proc-macro2", "1.0.63" ]
       ]
     },
-    "strum_macros": {
-      "0.25.0": [
-        [ "heck", "0.4.1" ],
+    "serde": {
+      "1.0.166": [
+        [ "serde_derive", "1.0.166" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.166": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "rustversion", "1.0.12" ],
-        [ "strum", "0.24.1" ],
         [ "syn", "2.0.23" ]
       ]
     },
@@ -50,19 +52,11 @@
       "2.0.23": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "unicode-ident", "1.0.9" ]
+        [ "unicode-ident", "1.0.10" ]
       ]
     }
   },
   "sources": {
-    "heck": {
-      "0.4.1": {
-        "hash": "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8",
-        "pname": "heck",
-        "type": "crates-io",
-        "version": "0.4.1"
-      }
-    },
     "proc-macro2": {
       "1.0.63": {
         "hash": "7b368fba921b0dce7e60f5e04ec15e565b3303972b42bcfde1d0713b881959eb",
@@ -79,26 +73,18 @@
         "version": "1.0.29"
       }
     },
-    "rustversion": {
-      "1.0.12": {
-        "hash": "4f3208ce4d8448b3f3e7d168a73f5e0c43a61e32930de3bceeccedb388b6bf06",
-        "pname": "rustversion",
-        "type": "crates-io",
-        "version": "1.0.12"
-      }
-    },
-    "strum": {
-      "0.24.1": {
-        "hash": "063e6045c0e62079840579a7e47a355ae92f60eb74daaf156fb1e84ba164e63f",
-        "pname": "strum",
-        "type": "crates-io",
-        "version": "0.24.1"
-      }
-    },
-    "strum_macros": {
-      "0.25.0": {
-        "hash": "fe9f3bd7d2e45dcc5e265fbb88d6513e4747d8ef9444cf01a533119bce28a157",
+    "serde": {
+      "1.0.166": {
+        "hash": "d01b7404f9d441d3ad40e6a636a7782c377d2abdbe4fa2440e2edcc2f4f10db8",
         "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.166": {
+        "hash": "5dd83d6dde2b6b2d466e14d9d1acce8816dedee94f735eac6395808b3483c6d6",
+        "pname": "serde_derive",
+        "type": "crates-io",
+        "version": "1.0.166"
       }
     },
     "syn": {
@@ -110,11 +96,11 @@
       }
     },
     "unicode-ident": {
-      "1.0.9": {
-        "hash": "b15811caf2415fb889178633e7724bad2509101cde276048e013b9def5e51fa0",
+      "1.0.10": {
+        "hash": "22049a19f4a68748a168c0fc439f9516686aa045927ff767eca0a85101fb6e73",
         "pname": "unicode-ident",
         "type": "crates-io",
-        "version": "1.0.9"
+        "version": "1.0.10"
       }
     }
   }
