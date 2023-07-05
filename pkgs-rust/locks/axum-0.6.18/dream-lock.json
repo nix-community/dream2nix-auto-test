@@ -52,7 +52,7 @@
       ]
     },
     "async-trait": {
-      "0.1.69": [
+      "0.1.70": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "syn", "2.0.23" ]
@@ -61,7 +61,7 @@
     "axum": {
       "0.6.18": [
         [ "anyhow", "1.0.71" ],
-        [ "async-trait", "0.1.69" ],
+        [ "async-trait", "0.1.70" ],
         [ "axum-core", "0.3.4" ],
         [ "axum-macros", "0.3.7" ],
         [ "base64", "0.21.2" ],
@@ -84,7 +84,7 @@
         [ "reqwest", "0.11.18" ],
         [ "rustversion", "1.0.13" ],
         [ "serde", "1.0.166" ],
-        [ "serde_json", "1.0.99" ],
+        [ "serde_json", "1.0.100" ],
         [ "serde_path_to_error", "0.1.12" ],
         [ "serde_urlencoded", "0.7.1" ],
         [ "sha1", "0.10.5" ],
@@ -104,7 +104,7 @@
     },
     "axum-core": {
       "0.3.4": [
-        [ "async-trait", "0.1.69" ],
+        [ "async-trait", "0.1.70" ],
         [ "bytes", "1.4.0" ],
         [ "futures-util", "0.3.28" ],
         [ "http", "0.2.9" ],
@@ -375,7 +375,7 @@
     },
     "num_cpus": {
       "1.16.0": [
-        [ "hermit-abi", "0.3.1" ],
+        [ "hermit-abi", "0.3.2" ],
         [ "libc", "0.2.147" ]
       ]
     },
@@ -465,7 +465,7 @@
         [ "percent-encoding", "2.3.0" ],
         [ "pin-project-lite", "0.2.10" ],
         [ "serde", "1.0.166" ],
-        [ "serde_json", "1.0.99" ],
+        [ "serde_json", "1.0.100" ],
         [ "serde_urlencoded", "0.7.1" ],
         [ "tokio", "1.29.1" ],
         [ "tokio-util", "0.7.8" ],
@@ -491,7 +491,7 @@
       ]
     },
     "serde_json": {
-      "1.0.99": [
+      "1.0.100": [
         [ "itoa", "1.0.8" ],
         [ "ryu", "1.0.14" ],
         [ "serde", "1.0.166" ]
@@ -547,12 +547,12 @@
       ]
     },
     "thiserror": {
-      "1.0.40": [
-        [ "thiserror-impl", "1.0.40" ]
+      "1.0.41": [
+        [ "thiserror-impl", "1.0.41" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.40": [
+      "1.0.41": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "syn", "2.0.23" ]
@@ -710,7 +710,7 @@
       "0.3.17": [
         [ "nu-ansi-term", "0.46.0" ],
         [ "serde", "1.0.166" ],
-        [ "serde_json", "1.0.99" ],
+        [ "serde_json", "1.0.100" ],
         [ "sharded-slab", "0.1.4" ],
         [ "smallvec", "1.10.0" ],
         [ "thread_local", "1.1.7" ],
@@ -729,7 +729,7 @@
         [ "log", "0.4.19" ],
         [ "rand", "0.8.5" ],
         [ "sha1", "0.10.5" ],
-        [ "thiserror", "1.0.40" ],
+        [ "thiserror", "1.0.41" ],
         [ "url", "2.4.0" ],
         [ "utf-8", "0.7.6" ]
       ]
@@ -903,11 +903,11 @@
       }
     },
     "async-trait": {
-      "0.1.69": {
-        "hash": "7b2d0f03b3640e3a630367e40c468cb7f309529c708ed1d88597047b0e7c6ef7",
+      "0.1.70": {
+        "hash": "79fa67157abdfd688a259b6648808757db9347af834624f27ec646da976aee5d",
         "pname": "async-trait",
         "type": "crates-io",
-        "version": "0.1.69"
+        "version": "0.1.70"
       }
     },
     "autocfg": {
@@ -1247,11 +1247,11 @@
       }
     },
     "hermit-abi": {
-      "0.3.1": {
-        "hash": "fed44880c466736ef9a5c5b5facefb5ed0785676d0c02d612db14e54f0d84286",
+      "0.3.2": {
+        "hash": "443144c8cdadd93ebf52ddb4056d257f5b52c04d3c804e657d19eb73fc33668b",
         "pname": "hermit-abi",
         "type": "crates-io",
-        "version": "0.3.1"
+        "version": "0.3.2"
       }
     },
     "http": {
@@ -1647,11 +1647,11 @@
       }
     },
     "serde_json": {
-      "1.0.99": {
-        "hash": "46266871c240a00b8f503b877622fe33430b3c7d963bdc0f2adc511e54a1eae3",
+      "1.0.100": {
+        "hash": "0f1e14e89be7aa4c4b78bdbdc9eb5bf8517829a600ae8eaa39a6e1d960b5185c",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.99"
+        "version": "1.0.100"
       }
     },
     "serde_path_to_error": {
@@ -1741,19 +1741,19 @@
       }
     },
     "thiserror": {
-      "1.0.40": {
-        "hash": "978c9a314bd8dc99be594bc3c175faaa9794be04a5a5e153caba6915336cebac",
+      "1.0.41": {
+        "hash": "c16a64ba9387ef3fdae4f9c1a7f07a0997fce91985c0336f1ddc1822b3b37802",
         "pname": "thiserror",
         "type": "crates-io",
-        "version": "1.0.40"
+        "version": "1.0.41"
       }
     },
     "thiserror-impl": {
-      "1.0.40": {
-        "hash": "f9456a42c5b0d803c8cd86e73dd7cc9edd429499f37a3550d286d5e86720569f",
+      "1.0.41": {
+        "hash": "d14928354b01c4d6a4f0e549069adef399a284e7995c7ccca94e8a07a5346c59",
         "pname": "thiserror-impl",
         "type": "crates-io",
-        "version": "1.0.40"
+        "version": "1.0.41"
       }
     },
     "thread_local": {

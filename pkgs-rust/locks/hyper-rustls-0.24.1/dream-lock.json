@@ -3,7 +3,7 @@
     "defaultPackage": "hyper-rustls",
     "location": "",
     "packages": {
-      "hyper-rustls": "0.24.0"
+      "hyper-rustls": "0.24.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,23 +12,40 @@
     "gitSources": [],
     "meta": {
       "hyper-rustls": {
-        "0.24.0": {
-          "description": "Rustls+hyper integration for pure rust HTTPS", "homepage": "https://github.com/ctz/hyper-rustls", "license": []
+        "0.24.1": {
+          "description": "Rustls+hyper integration for pure rust HTTPS", "homepage": "https://github.com/rustls/hyper-rustls", "license": [   "asl20",   "isc",   "mit"
+          ]
         }
       }
     },
     "relPathReplacements": {
       "hyper-rustls": {
-        "0.24.0": {}
+        "0.24.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "addr2line": {
+      "0.20.0": [
+        [ "gimli", "0.27.3" ]
+      ]
+    },
+    "backtrace": {
+      "0.3.68": [
+        [ "addr2line", "0.20.0" ],
+        [ "cc", "1.0.79" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.147" ],
+        [ "miniz_oxide", "0.7.1" ],
+        [ "object", "0.31.1" ],
+        [ "rustc-demangle", "0.1.23" ]
+      ]
+    },
     "core-foundation": {
       "0.9.3": [
-        [ "core-foundation-sys", "0.8.3" ],
-        [ "libc", "0.2.140" ]
+        [ "core-foundation-sys", "0.8.4" ],
+        [ "libc", "0.2.147" ]
       ]
     },
     "futures-channel": {
@@ -36,16 +53,25 @@
         [ "futures-core", "0.3.28" ]
       ]
     },
+    "futures-macro": {
+      "0.3.28": [
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "syn", "2.0.23" ]
+      ]
+    },
     "futures-util": {
       "0.3.28": [
         [ "futures-core", "0.3.28" ],
+        [ "futures-macro", "0.3.28" ],
         [ "futures-task", "0.3.28" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "pin-utils", "0.1.0" ]
+        [ "pin-project-lite", "0.2.10" ],
+        [ "pin-utils", "0.1.0" ],
+        [ "slab", "0.4.8" ]
       ]
     },
     "h2": {
-      "0.3.16": [
+      "0.3.20": [
         [ "bytes", "1.4.0" ],
         [ "fnv", "1.0.7" ],
         [ "futures-core", "0.3.28" ],
@@ -54,62 +80,57 @@
         [ "http", "0.2.9" ],
         [ "indexmap", "1.9.3" ],
         [ "slab", "0.4.8" ],
-        [ "tokio", "1.27.0" ],
-        [ "tokio-util", "0.7.7" ],
+        [ "tokio", "1.29.1" ],
+        [ "tokio-util", "0.7.8" ],
         [ "tracing", "0.1.37" ]
-      ]
-    },
-    "hermit-abi": {
-      "0.2.6": [
-        [ "libc", "0.2.140" ]
       ]
     },
     "http": {
       "0.2.9": [
         [ "bytes", "1.4.0" ],
         [ "fnv", "1.0.7" ],
-        [ "itoa", "1.0.6" ]
+        [ "itoa", "1.0.8" ]
       ]
     },
     "http-body": {
       "0.4.5": [
         [ "bytes", "1.4.0" ],
         [ "http", "0.2.9" ],
-        [ "pin-project-lite", "0.2.9" ]
+        [ "pin-project-lite", "0.2.10" ]
       ]
     },
     "hyper": {
-      "0.14.25": [
+      "0.14.27": [
         [ "bytes", "1.4.0" ],
         [ "futures-channel", "0.3.28" ],
         [ "futures-core", "0.3.28" ],
         [ "futures-util", "0.3.28" ],
-        [ "h2", "0.3.16" ],
+        [ "h2", "0.3.20" ],
         [ "http", "0.2.9" ],
         [ "http-body", "0.4.5" ],
         [ "httparse", "1.8.0" ],
         [ "httpdate", "1.0.2" ],
-        [ "itoa", "1.0.6" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "itoa", "1.0.8" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio", "1.27.0" ],
+        [ "tokio", "1.29.1" ],
         [ "tower-service", "0.3.2" ],
         [ "tracing", "0.1.37" ],
-        [ "want", "0.3.0" ]
+        [ "want", "0.3.1" ]
       ]
     },
     "hyper-rustls": {
-      "0.24.0": [
+      "0.24.1": [
         [ "futures-util", "0.3.28" ],
         [ "http", "0.2.9" ],
-        [ "hyper", "0.14.25" ],
-        [ "log", "0.4.17" ],
-        [ "rustls", "0.21.0" ],
-        [ "rustls-native-certs", "0.6.2" ],
-        [ "rustls-pemfile", "1.0.2" ],
-        [ "tokio", "1.27.0" ],
-        [ "tokio-rustls", "0.24.0" ],
-        [ "webpki-roots", "0.23.0" ]
+        [ "hyper", "0.14.27" ],
+        [ "log", "0.4.19" ],
+        [ "rustls", "0.21.2" ],
+        [ "rustls-native-certs", "0.6.3" ],
+        [ "rustls-pemfile", "1.0.3" ],
+        [ "tokio", "1.29.1" ],
+        [ "tokio-rustls", "0.24.1" ],
+        [ "webpki-roots", "0.23.1" ]
       ]
     },
     "indexmap": {
@@ -119,69 +140,73 @@
       ]
     },
     "js-sys": {
-      "0.3.61": [
-        [ "wasm-bindgen", "0.2.84" ]
+      "0.3.64": [
+        [ "wasm-bindgen", "0.2.87" ]
       ]
     },
-    "log": {
-      "0.4.17": [
-        [ "cfg-if", "1.0.0" ]
+    "miniz_oxide": {
+      "0.7.1": [
+        [ "adler", "1.0.2" ]
       ]
     },
     "mio": {
-      "0.8.6": [
-        [ "libc", "0.2.140" ],
-        [ "log", "0.4.17" ],
+      "0.8.8": [
+        [ "libc", "0.2.147" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
-        [ "windows-sys", "0.45.0" ]
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "num_cpus": {
-      "1.15.0": [
-        [ "hermit-abi", "0.2.6" ],
-        [ "libc", "0.2.140" ]
+      "1.16.0": [
+        [ "hermit-abi", "0.3.2" ],
+        [ "libc", "0.2.147" ]
+      ]
+    },
+    "object": {
+      "0.31.1": [
+        [ "memchr", "2.5.0" ]
       ]
     },
     "proc-macro2": {
-      "1.0.54": [
-        [ "unicode-ident", "1.0.8" ]
+      "1.0.63": [
+        [ "unicode-ident", "1.0.10" ]
       ]
     },
     "quote": {
-      "1.0.26": [
-        [ "proc-macro2", "1.0.54" ]
+      "1.0.29": [
+        [ "proc-macro2", "1.0.63" ]
       ]
     },
     "ring": {
       "0.16.20": [
         [ "cc", "1.0.79" ],
-        [ "libc", "0.2.140" ],
-        [ "once_cell", "1.17.1" ],
+        [ "libc", "0.2.147" ],
+        [ "once_cell", "1.18.0" ],
         [ "spin", "0.5.2" ],
         [ "untrusted", "0.7.1" ],
-        [ "web-sys", "0.3.61" ],
+        [ "web-sys", "0.3.64" ],
         [ "winapi", "0.3.9" ]
       ]
     },
     "rustls": {
-      "0.21.0": [
-        [ "log", "0.4.17" ],
+      "0.21.2": [
+        [ "log", "0.4.19" ],
         [ "ring", "0.16.20" ],
         [ "rustls-webpki", "0.100.1" ],
         [ "sct", "0.7.0" ]
       ]
     },
     "rustls-native-certs": {
-      "0.6.2": [
+      "0.6.3": [
         [ "openssl-probe", "0.1.5" ],
-        [ "rustls-pemfile", "1.0.2" ],
-        [ "schannel", "0.1.21" ],
-        [ "security-framework", "2.8.2" ]
+        [ "rustls-pemfile", "1.0.3" ],
+        [ "schannel", "0.1.22" ],
+        [ "security-framework", "2.9.1" ]
       ]
     },
     "rustls-pemfile": {
-      "1.0.2": [
-        [ "base64", "0.21.0" ]
+      "1.0.3": [
+        [ "base64", "0.21.2" ]
       ]
     },
     "rustls-webpki": {
@@ -191,8 +216,8 @@
       ]
     },
     "schannel": {
-      "0.1.21": [
-        [ "windows-sys", "0.42.0" ]
+      "0.1.22": [
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "sct": {
@@ -202,18 +227,18 @@
       ]
     },
     "security-framework": {
-      "2.8.2": [
+      "2.9.1": [
         [ "bitflags", "1.3.2" ],
         [ "core-foundation", "0.9.3" ],
-        [ "core-foundation-sys", "0.8.3" ],
-        [ "libc", "0.2.140" ],
-        [ "security-framework-sys", "2.8.0" ]
+        [ "core-foundation-sys", "0.8.4" ],
+        [ "libc", "0.2.147" ],
+        [ "security-framework-sys", "2.9.0" ]
       ]
     },
     "security-framework-sys": {
-      "2.8.0": [
-        [ "core-foundation-sys", "0.8.3" ],
-        [ "libc", "0.2.140" ]
+      "2.9.0": [
+        [ "core-foundation-sys", "0.8.4" ],
+        [ "libc", "0.2.147" ]
       ]
     },
     "slab": {
@@ -223,116 +248,111 @@
     },
     "socket2": {
       "0.4.9": [
-        [ "libc", "0.2.140" ],
+        [ "libc", "0.2.147" ],
         [ "winapi", "0.3.9" ]
       ]
     },
     "syn": {
-      "1.0.109": [
-        [ "proc-macro2", "1.0.54" ],
-        [ "quote", "1.0.26" ],
-        [ "unicode-ident", "1.0.8" ]
-      ],
-      "2.0.12": [
-        [ "proc-macro2", "1.0.54" ],
-        [ "quote", "1.0.26" ],
-        [ "unicode-ident", "1.0.8" ]
+      "2.0.23": [
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "unicode-ident", "1.0.10" ]
       ]
     },
     "tokio": {
-      "1.27.0": [
+      "1.29.1": [
         [ "autocfg", "1.1.0" ],
+        [ "backtrace", "0.3.68" ],
         [ "bytes", "1.4.0" ],
-        [ "libc", "0.2.140" ],
-        [ "mio", "0.8.6" ],
-        [ "num_cpus", "1.15.0" ],
-        [ "pin-project-lite", "0.2.9" ],
+        [ "libc", "0.2.147" ],
+        [ "mio", "0.8.8" ],
+        [ "num_cpus", "1.16.0" ],
+        [ "pin-project-lite", "0.2.10" ],
         [ "socket2", "0.4.9" ],
-        [ "tokio-macros", "2.0.0" ],
-        [ "windows-sys", "0.45.0" ]
+        [ "tokio-macros", "2.1.0" ],
+        [ "windows-sys", "0.48.0" ]
       ]
     },
     "tokio-macros": {
-      "2.0.0": [
-        [ "proc-macro2", "1.0.54" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "2.0.12" ]
+      "2.1.0": [
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "syn", "2.0.23" ]
       ]
     },
     "tokio-rustls": {
-      "0.24.0": [
-        [ "rustls", "0.21.0" ],
-        [ "tokio", "1.27.0" ]
+      "0.24.1": [
+        [ "rustls", "0.21.2" ],
+        [ "tokio", "1.29.1" ]
       ]
     },
     "tokio-util": {
-      "0.7.7": [
+      "0.7.8": [
         [ "bytes", "1.4.0" ],
         [ "futures-core", "0.3.28" ],
         [ "futures-sink", "0.3.28" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.27.0" ],
+        [ "pin-project-lite", "0.2.10" ],
+        [ "tokio", "1.29.1" ],
         [ "tracing", "0.1.37" ]
       ]
     },
     "tracing": {
       "0.1.37": [
         [ "cfg-if", "1.0.0" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "tracing-core", "0.1.30" ]
+        [ "pin-project-lite", "0.2.10" ],
+        [ "tracing-core", "0.1.31" ]
       ]
     },
     "tracing-core": {
-      "0.1.30": [
-        [ "once_cell", "1.17.1" ]
+      "0.1.31": [
+        [ "once_cell", "1.18.0" ]
       ]
     },
     "want": {
-      "0.3.0": [
-        [ "log", "0.4.17" ],
+      "0.3.1": [
         [ "try-lock", "0.2.4" ]
       ]
     },
     "wasm-bindgen": {
-      "0.2.84": [
+      "0.2.87": [
         [ "cfg-if", "1.0.0" ],
-        [ "wasm-bindgen-macro", "0.2.84" ]
+        [ "wasm-bindgen-macro", "0.2.87" ]
       ]
     },
     "wasm-bindgen-backend": {
-      "0.2.84": [
-        [ "bumpalo", "3.12.0" ],
-        [ "log", "0.4.17" ],
-        [ "once_cell", "1.17.1" ],
-        [ "proc-macro2", "1.0.54" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ],
-        [ "wasm-bindgen-shared", "0.2.84" ]
+      "0.2.87": [
+        [ "bumpalo", "3.13.0" ],
+        [ "log", "0.4.19" ],
+        [ "once_cell", "1.18.0" ],
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "syn", "2.0.23" ],
+        [ "wasm-bindgen-shared", "0.2.87" ]
       ]
     },
     "wasm-bindgen-macro": {
-      "0.2.84": [
-        [ "quote", "1.0.26" ],
-        [ "wasm-bindgen-macro-support", "0.2.84" ]
+      "0.2.87": [
+        [ "quote", "1.0.29" ],
+        [ "wasm-bindgen-macro-support", "0.2.87" ]
       ]
     },
     "wasm-bindgen-macro-support": {
-      "0.2.84": [
-        [ "proc-macro2", "1.0.54" ],
-        [ "quote", "1.0.26" ],
-        [ "syn", "1.0.109" ],
-        [ "wasm-bindgen-backend", "0.2.84" ],
-        [ "wasm-bindgen-shared", "0.2.84" ]
+      "0.2.87": [
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "syn", "2.0.23" ],
+        [ "wasm-bindgen-backend", "0.2.87" ],
+        [ "wasm-bindgen-shared", "0.2.87" ]
       ]
     },
     "web-sys": {
-      "0.3.61": [
-        [ "js-sys", "0.3.61" ],
-        [ "wasm-bindgen", "0.2.84" ]
+      "0.3.64": [
+        [ "js-sys", "0.3.64" ],
+        [ "wasm-bindgen", "0.2.87" ]
       ]
     },
     "webpki-roots": {
-      "0.23.0": [
+      "0.23.1": [
         [ "rustls-webpki", "0.100.1" ]
       ]
     },
@@ -343,32 +363,39 @@
       ]
     },
     "windows-sys": {
-      "0.42.0": [
-        [ "windows_aarch64_gnullvm", "0.42.2" ],
-        [ "windows_aarch64_msvc", "0.42.2" ],
-        [ "windows_i686_gnu", "0.42.2" ],
-        [ "windows_i686_msvc", "0.42.2" ],
-        [ "windows_x86_64_gnu", "0.42.2" ],
-        [ "windows_x86_64_gnullvm", "0.42.2" ],
-        [ "windows_x86_64_msvc", "0.42.2" ]
-      ],
-      "0.45.0": [
-        [ "windows-targets", "0.42.2" ]
+      "0.48.0": [
+        [ "windows-targets", "0.48.1" ]
       ]
     },
     "windows-targets": {
-      "0.42.2": [
-        [ "windows_aarch64_gnullvm", "0.42.2" ],
-        [ "windows_aarch64_msvc", "0.42.2" ],
-        [ "windows_i686_gnu", "0.42.2" ],
-        [ "windows_i686_msvc", "0.42.2" ],
-        [ "windows_x86_64_gnu", "0.42.2" ],
-        [ "windows_x86_64_gnullvm", "0.42.2" ],
-        [ "windows_x86_64_msvc", "0.42.2" ]
+      "0.48.1": [
+        [ "windows_aarch64_gnullvm", "0.48.0" ],
+        [ "windows_aarch64_msvc", "0.48.0" ],
+        [ "windows_i686_gnu", "0.48.0" ],
+        [ "windows_i686_msvc", "0.48.0" ],
+        [ "windows_x86_64_gnu", "0.48.0" ],
+        [ "windows_x86_64_gnullvm", "0.48.0" ],
+        [ "windows_x86_64_msvc", "0.48.0" ]
       ]
     }
   },
   "sources": {
+    "addr2line": {
+      "0.20.0": {
+        "hash": "f4fa78e18c64fce05e902adecd7a5eed15a5e0a3439f7b0e169f0252214865e3",
+        "pname": "addr2line",
+        "type": "crates-io",
+        "version": "0.20.0"
+      }
+    },
+    "adler": {
+      "1.0.2": {
+        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
+        "pname": "adler",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    },
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
@@ -377,12 +404,20 @@
         "version": "1.1.0"
       }
     },
+    "backtrace": {
+      "0.3.68": {
+        "hash": "4319208da049c43661739c5fade2ba182f09d1dc2299b32298d3a31692b17e12",
+        "pname": "backtrace",
+        "type": "crates-io",
+        "version": "0.3.68"
+      }
+    },
     "base64": {
-      "0.21.0": {
-        "hash": "a4a4ddaa51a5bc52a6948f74c06d20aaaddb71924eab79b8c97a8c556e942d6a",
+      "0.21.2": {
+        "hash": "604178f6c5c21f02dc555784810edfb88d34ac2c73b2eae109655649ee73ce3d",
         "pname": "base64",
         "type": "crates-io",
-        "version": "0.21.0"
+        "version": "0.21.2"
       }
     },
     "bitflags": {
@@ -394,11 +429,11 @@
       }
     },
     "bumpalo": {
-      "3.12.0": {
-        "hash": "0d261e256854913907f67ed06efbc3338dfe6179796deefc1ff763fc1aee5535",
+      "3.13.0": {
+        "hash": "a3e2c3daef883ecc1b5d58c15adae93470a91d425f3532ba1695849656af3fc1",
         "pname": "bumpalo",
         "type": "crates-io",
-        "version": "3.12.0"
+        "version": "3.13.0"
       }
     },
     "bytes": {
@@ -434,11 +469,11 @@
       }
     },
     "core-foundation-sys": {
-      "0.8.3": {
-        "hash": "5827cebf4670468b8772dd191856768aedcb1b0278a04f989f7766351917b9dc",
+      "0.8.4": {
+        "hash": "e496a50fda8aacccc86d7529e2c1e0892dbd0f898a6b5645b5561b89c3210efa",
         "pname": "core-foundation-sys",
         "type": "crates-io",
-        "version": "0.8.3"
+        "version": "0.8.4"
       }
     },
     "fnv": {
@@ -461,6 +496,14 @@
       "0.3.28": {
         "hash": "4bca583b7e26f571124fe5b7561d49cb2868d79116cfa0eefce955557c6fee8c",
         "pname": "futures-core",
+        "type": "crates-io",
+        "version": "0.3.28"
+      }
+    },
+    "futures-macro": {
+      "0.3.28": {
+        "hash": "89ca545a94061b6365f2c7355b4b32bd20df3ff95f02da9329b34ccc3bd6ee72",
+        "pname": "futures-macro",
         "type": "crates-io",
         "version": "0.3.28"
       }
@@ -489,12 +532,20 @@
         "version": "0.3.28"
       }
     },
+    "gimli": {
+      "0.27.3": {
+        "hash": "b6c80984affa11d98d1b88b66ac8853f143217b399d3c74116778ff8fdb4ed2e",
+        "pname": "gimli",
+        "type": "crates-io",
+        "version": "0.27.3"
+      }
+    },
     "h2": {
-      "0.3.16": {
-        "hash": "5be7b54589b581f624f566bf5d8eb2bab1db736c51528720b6bd36b96b55924d",
+      "0.3.20": {
+        "hash": "97ec8491ebaf99c8eaa73058b045fe58073cd6be7f596ac993ced0b0a0c01049",
         "pname": "h2",
         "type": "crates-io",
-        "version": "0.3.16"
+        "version": "0.3.20"
       }
     },
     "hashbrown": {
@@ -506,11 +557,11 @@
       }
     },
     "hermit-abi": {
-      "0.2.6": {
-        "hash": "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7",
+      "0.3.2": {
+        "hash": "443144c8cdadd93ebf52ddb4056d257f5b52c04d3c804e657d19eb73fc33668b",
         "pname": "hermit-abi",
         "type": "crates-io",
-        "version": "0.2.6"
+        "version": "0.3.2"
       }
     },
     "http": {
@@ -546,16 +597,16 @@
       }
     },
     "hyper": {
-      "0.14.25": {
-        "hash": "cc5e554ff619822309ffd57d8734d77cd5ce6238bc956f037ea06c58238c9899",
+      "0.14.27": {
+        "hash": "ffb1cfd654a8219eaef89881fdb3bb3b1cdc5fa75ded05d6933b2b382e395468",
         "pname": "hyper",
         "type": "crates-io",
-        "version": "0.14.25"
+        "version": "0.14.27"
       }
     },
     "hyper-rustls": {
-      "0.24.0": {
-        "hash": "0646026eb1b3eea4cd9ba47912ea5ce9cc07713d105b1a14698f4e6433d348b7",
+      "0.24.1": {
+        "hash": "8d78e1e73ec14cf7375674f74d7dde185c8206fd9dea6fb6295e8a98098aaa97",
         "type": "crates-io"
       }
     },
@@ -568,59 +619,83 @@
       }
     },
     "itoa": {
-      "1.0.6": {
-        "hash": "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6",
+      "1.0.8": {
+        "hash": "62b02a5381cc465bd3041d84623d0fa3b66738b52b8e2fc3bab8ad63ab032f4a",
         "pname": "itoa",
         "type": "crates-io",
-        "version": "1.0.6"
+        "version": "1.0.8"
       }
     },
     "js-sys": {
-      "0.3.61": {
-        "hash": "445dde2150c55e483f3d8416706b97ec8e8237c307e5b7b4b8dd15e6af2a0730",
+      "0.3.64": {
+        "hash": "c5f195fe497f702db0f318b07fdd68edb16955aed830df8363d837542f8f935a",
         "pname": "js-sys",
         "type": "crates-io",
-        "version": "0.3.61"
+        "version": "0.3.64"
       }
     },
     "libc": {
-      "0.2.140": {
-        "hash": "99227334921fae1a979cf0bfdfcc6b3e5ce376ef57e16fb6fb3ea2ed6095f80c",
+      "0.2.147": {
+        "hash": "b4668fb0ea861c1df094127ac5f1da3409a82116a4ba74fca2e58ef927159bb3",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.140"
+        "version": "0.2.147"
       }
     },
     "log": {
-      "0.4.17": {
-        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+      "0.4.19": {
+        "hash": "b06a4cde4c0f271a446782e3eff8de789548ce57dbc8eca9292c27f4a42004b4",
         "pname": "log",
         "type": "crates-io",
-        "version": "0.4.17"
+        "version": "0.4.19"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "pname": "memchr",
+        "type": "crates-io",
+        "version": "2.5.0"
+      }
+    },
+    "miniz_oxide": {
+      "0.7.1": {
+        "hash": "e7810e0be55b428ada41041c41f32c9f1a42817901b4ccf45fa3d4b6561e74c7",
+        "pname": "miniz_oxide",
+        "type": "crates-io",
+        "version": "0.7.1"
       }
     },
     "mio": {
-      "0.8.6": {
-        "hash": "5b9d9a46eff5b4ff64b45a9e316a6d1e0bc719ef429cbec4dc630684212bfdf9",
+      "0.8.8": {
+        "hash": "927a765cd3fc26206e66b296465fa9d3e5ab003e651c1b3c060e7956d96b19d2",
         "pname": "mio",
         "type": "crates-io",
-        "version": "0.8.6"
+        "version": "0.8.8"
       }
     },
     "num_cpus": {
-      "1.15.0": {
-        "hash": "0fac9e2da13b5eb447a6ce3d392f23a29d8694bff781bf03a16cd9ac8697593b",
+      "1.16.0": {
+        "hash": "4161fcb6d602d4d2081af7c3a45852d875a03dd337a6bfdd6e06407b61342a43",
         "pname": "num_cpus",
         "type": "crates-io",
-        "version": "1.15.0"
+        "version": "1.16.0"
+      }
+    },
+    "object": {
+      "0.31.1": {
+        "hash": "8bda667d9f2b5051b8833f59f3bf748b28ef54f850f4fcb389a252aa383866d1",
+        "pname": "object",
+        "type": "crates-io",
+        "version": "0.31.1"
       }
     },
     "once_cell": {
-      "1.17.1": {
-        "hash": "b7e5500299e16ebb147ae15a00a942af264cf3688f47923b8fc2cd5858f23ad3",
+      "1.18.0": {
+        "hash": "dd8b5dd2ae5ed71462c540258bedcb51965123ad7e7ccf4b9a8cafaa4a63576d",
         "pname": "once_cell",
         "type": "crates-io",
-        "version": "1.17.1"
+        "version": "1.18.0"
       }
     },
     "openssl-probe": {
@@ -632,11 +707,11 @@
       }
     },
     "pin-project-lite": {
-      "0.2.9": {
-        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+      "0.2.10": {
+        "hash": "4c40d25201921e5ff0c862a505c6557ea88568a4e3ace775ab55e93f2f4f9d57",
         "pname": "pin-project-lite",
         "type": "crates-io",
-        "version": "0.2.9"
+        "version": "0.2.10"
       }
     },
     "pin-utils": {
@@ -648,19 +723,19 @@
       }
     },
     "proc-macro2": {
-      "1.0.54": {
-        "hash": "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534",
+      "1.0.63": {
+        "hash": "7b368fba921b0dce7e60f5e04ec15e565b3303972b42bcfde1d0713b881959eb",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.54"
+        "version": "1.0.63"
       }
     },
     "quote": {
-      "1.0.26": {
-        "hash": "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc",
+      "1.0.29": {
+        "hash": "573015e8ab27661678357f27dc26460738fd2b6c86e46f386fde94cb5d913105",
         "pname": "quote",
         "type": "crates-io",
-        "version": "1.0.26"
+        "version": "1.0.29"
       }
     },
     "ring": {
@@ -671,28 +746,36 @@
         "version": "0.16.20"
       }
     },
+    "rustc-demangle": {
+      "0.1.23": {
+        "hash": "d626bb9dae77e28219937af045c257c28bfd3f69333c512553507f5f9798cb76",
+        "pname": "rustc-demangle",
+        "type": "crates-io",
+        "version": "0.1.23"
+      }
+    },
     "rustls": {
-      "0.21.0": {
-        "hash": "07180898a28ed6a7f7ba2311594308f595e3dd2e3c3812fa0a80a47b45f17e5d",
+      "0.21.2": {
+        "hash": "e32ca28af694bc1bbf399c33a516dbdf1c90090b8ab23c2bc24f834aa2247f5f",
         "pname": "rustls",
         "type": "crates-io",
-        "version": "0.21.0"
+        "version": "0.21.2"
       }
     },
     "rustls-native-certs": {
-      "0.6.2": {
-        "hash": "0167bac7a9f490495f3c33013e7722b53cb087ecbe082fb0c6387c96f634ea50",
+      "0.6.3": {
+        "hash": "a9aace74cb666635c918e9c12bc0d348266037aa8eb599b5cba565709a8dff00",
         "pname": "rustls-native-certs",
         "type": "crates-io",
-        "version": "0.6.2"
+        "version": "0.6.3"
       }
     },
     "rustls-pemfile": {
-      "1.0.2": {
-        "hash": "d194b56d58803a43635bdc398cd17e383d6f71f9182b9a192c127ca42494a59b",
+      "1.0.3": {
+        "hash": "2d3987094b1d07b653b7dfdc3f70ce9a1da9c51ac18c1b06b662e4f9a0e9f4b2",
         "pname": "rustls-pemfile",
         "type": "crates-io",
-        "version": "1.0.2"
+        "version": "1.0.3"
       }
     },
     "rustls-webpki": {
@@ -704,11 +787,11 @@
       }
     },
     "schannel": {
-      "0.1.21": {
-        "hash": "713cfb06c7059f3588fb8044c0fad1d09e3c01d225e25b9220dbfdcf16dbb1b3",
+      "0.1.22": {
+        "hash": "0c3733bf4cf7ea0880754e19cb5a462007c4a8c1914bff372ccc95b464f1df88",
         "pname": "schannel",
         "type": "crates-io",
-        "version": "0.1.21"
+        "version": "0.1.22"
       }
     },
     "sct": {
@@ -720,19 +803,19 @@
       }
     },
     "security-framework": {
-      "2.8.2": {
-        "hash": "a332be01508d814fed64bf28f798a146d73792121129962fdf335bb3c49a4254",
+      "2.9.1": {
+        "hash": "1fc758eb7bffce5b308734e9b0c1468893cae9ff70ebf13e7090be8dcbcc83a8",
         "pname": "security-framework",
         "type": "crates-io",
-        "version": "2.8.2"
+        "version": "2.9.1"
       }
     },
     "security-framework-sys": {
-      "2.8.0": {
-        "hash": "31c9bb296072e961fcbd8853511dd39c2d8be2deb1e17c6860b1d30732b323b4",
+      "2.9.0": {
+        "hash": "f51d0c0d83bec45f16480d0ce0058397a69e48fcdc52d1dc8855fb68acbd31a7",
         "pname": "security-framework-sys",
         "type": "crates-io",
-        "version": "2.8.0"
+        "version": "2.9.0"
       }
     },
     "slab": {
@@ -760,49 +843,43 @@
       }
     },
     "syn": {
-      "1.0.109": {
-        "hash": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237",
+      "2.0.23": {
+        "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.109"
-      },
-      "2.0.12": {
-        "hash": "79d9531f94112cfc3e4c8f5f02cb2b58f72c97b7efd85f70203cc6d8efda5927",
-        "pname": "syn",
-        "type": "crates-io",
-        "version": "2.0.12"
+        "version": "2.0.23"
       }
     },
     "tokio": {
-      "1.27.0": {
-        "hash": "d0de47a4eecbe11f498978a9b29d792f0d2692d1dd003650c24c76510e3bc001",
+      "1.29.1": {
+        "hash": "532826ff75199d5833b9d2c5fe410f29235e25704ee5f0ef599fb51c21f4a4da",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.27.0"
+        "version": "1.29.1"
       }
     },
     "tokio-macros": {
-      "2.0.0": {
-        "hash": "61a573bdc87985e9d6ddeed1b3d864e8a302c847e40d647746df2f1de209d1ce",
+      "2.1.0": {
+        "hash": "630bdcf245f78637c13ec01ffae6187cca34625e8c63150d424b59e55af2675e",
         "pname": "tokio-macros",
         "type": "crates-io",
-        "version": "2.0.0"
+        "version": "2.1.0"
       }
     },
     "tokio-rustls": {
-      "0.24.0": {
-        "hash": "e0d409377ff5b1e3ca6437aa86c1eb7d40c134bfec254e44c830defa92669db5",
+      "0.24.1": {
+        "hash": "c28327cf380ac148141087fbfb9de9d7bd4e84ab5d2c28fbc911d753de8a7081",
         "pname": "tokio-rustls",
         "type": "crates-io",
-        "version": "0.24.0"
+        "version": "0.24.1"
       }
     },
     "tokio-util": {
-      "0.7.7": {
-        "hash": "5427d89453009325de0d8f342c9490009f76e999cb7672d77e46267448f7e6b2",
+      "0.7.8": {
+        "hash": "806fe8c2c87eccc8b3267cbae29ed3ab2d0bd37fca70ab622e46aaa9375ddb7d",
         "pname": "tokio-util",
         "type": "crates-io",
-        "version": "0.7.7"
+        "version": "0.7.8"
       }
     },
     "tower-service": {
@@ -822,11 +899,11 @@
       }
     },
     "tracing-core": {
-      "0.1.30": {
-        "hash": "24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a",
+      "0.1.31": {
+        "hash": "0955b8137a1df6f1a2e9a37d8a6656291ff0297c1a97c24e0d8425fe2312f79a",
         "pname": "tracing-core",
         "type": "crates-io",
-        "version": "0.1.30"
+        "version": "0.1.31"
       }
     },
     "try-lock": {
@@ -838,11 +915,11 @@
       }
     },
     "unicode-ident": {
-      "1.0.8": {
-        "hash": "e5464a87b239f13a63a501f2701565754bae92d243d4bb7eb12f6d57d2269bf4",
+      "1.0.10": {
+        "hash": "22049a19f4a68748a168c0fc439f9516686aa045927ff767eca0a85101fb6e73",
         "pname": "unicode-ident",
         "type": "crates-io",
-        "version": "1.0.8"
+        "version": "1.0.10"
       }
     },
     "untrusted": {
@@ -854,11 +931,11 @@
       }
     },
     "want": {
-      "0.3.0": {
-        "hash": "1ce8a968cb1cd110d136ff8b819a556d6fb6d919363c61534f6860c7eb172ba0",
+      "0.3.1": {
+        "hash": "bfa7760aed19e106de2c7c0b581b509f2f25d3dacaf737cb82ac61bc6d760b0e",
         "pname": "want",
         "type": "crates-io",
-        "version": "0.3.0"
+        "version": "0.3.1"
       }
     },
     "wasi": {
@@ -870,59 +947,59 @@
       }
     },
     "wasm-bindgen": {
-      "0.2.84": {
-        "hash": "31f8dcbc21f30d9b8f2ea926ecb58f6b91192c17e9d33594b3df58b2007ca53b",
+      "0.2.87": {
+        "hash": "7706a72ab36d8cb1f80ffbf0e071533974a60d0a308d01a5d0375bf60499a342",
         "pname": "wasm-bindgen",
         "type": "crates-io",
-        "version": "0.2.84"
+        "version": "0.2.87"
       }
     },
     "wasm-bindgen-backend": {
-      "0.2.84": {
-        "hash": "95ce90fd5bcc06af55a641a86428ee4229e44e07033963a2290a8e241607ccb9",
+      "0.2.87": {
+        "hash": "5ef2b6d3c510e9625e5fe6f509ab07d66a760f0885d858736483c32ed7809abd",
         "pname": "wasm-bindgen-backend",
         "type": "crates-io",
-        "version": "0.2.84"
+        "version": "0.2.87"
       }
     },
     "wasm-bindgen-macro": {
-      "0.2.84": {
-        "hash": "4c21f77c0bedc37fd5dc21f897894a5ca01e7bb159884559461862ae90c0b4c5",
+      "0.2.87": {
+        "hash": "dee495e55982a3bd48105a7b947fd2a9b4a8ae3010041b9e0faab3f9cd028f1d",
         "pname": "wasm-bindgen-macro",
         "type": "crates-io",
-        "version": "0.2.84"
+        "version": "0.2.87"
       }
     },
     "wasm-bindgen-macro-support": {
-      "0.2.84": {
-        "hash": "2aff81306fcac3c7515ad4e177f521b5c9a15f2b08f4e32d823066102f35a5f6",
+      "0.2.87": {
+        "hash": "54681b18a46765f095758388f2d0cf16eb8d4169b639ab575a8f5693af210c7b",
         "pname": "wasm-bindgen-macro-support",
         "type": "crates-io",
-        "version": "0.2.84"
+        "version": "0.2.87"
       }
     },
     "wasm-bindgen-shared": {
-      "0.2.84": {
-        "hash": "0046fef7e28c3804e5e38bfa31ea2a0f73905319b677e57ebe37e49358989b5d",
+      "0.2.87": {
+        "hash": "ca6ad05a4870b2bf5fe995117d3728437bd27d7cd5f06f13c17443ef369775a1",
         "pname": "wasm-bindgen-shared",
         "type": "crates-io",
-        "version": "0.2.84"
+        "version": "0.2.87"
       }
     },
     "web-sys": {
-      "0.3.61": {
-        "hash": "e33b99f4b23ba3eec1a53ac264e35a755f00e966e0065077d6027c0f575b0b97",
+      "0.3.64": {
+        "hash": "9b85cbef8c220a6abc02aefd892dfc0fc23afb1c6a426316ec33253a3877249b",
         "pname": "web-sys",
         "type": "crates-io",
-        "version": "0.3.61"
+        "version": "0.3.64"
       }
     },
     "webpki-roots": {
-      "0.23.0": {
-        "hash": "aa54963694b65584e170cf5dc46aeb4dcaa5584e652ff5f3952e56d66aff0125",
+      "0.23.1": {
+        "hash": "b03058f88386e5ff5310d9111d53f48b17d732b401aeb83a8d5190f2ac459338",
         "pname": "webpki-roots",
         "type": "crates-io",
-        "version": "0.23.0"
+        "version": "0.23.1"
       }
     },
     "winapi": {
@@ -950,81 +1027,75 @@
       }
     },
     "windows-sys": {
-      "0.42.0": {
-        "hash": "5a3e1820f08b8513f676f7ab6c1f99ff312fb97b553d30ff4dd86f9f15728aa7",
+      "0.48.0": {
+        "hash": "677d2418bec65e3338edb076e806bc1ec15693c5d0104683f2efe857f61056a9",
         "pname": "windows-sys",
         "type": "crates-io",
-        "version": "0.42.0"
-      },
-      "0.45.0": {
-        "hash": "75283be5efb2831d37ea142365f009c02ec203cd29a3ebecbc093d52315b66d0",
-        "pname": "windows-sys",
-        "type": "crates-io",
-        "version": "0.45.0"
+        "version": "0.48.0"
       }
     },
     "windows-targets": {
-      "0.42.2": {
-        "hash": "8e5180c00cd44c9b1c88adb3693291f1cd93605ded80c250a75d472756b4d071",
+      "0.48.1": {
+        "hash": "05d4b17490f70499f20b9e791dcf6a299785ce8af4d709018206dc5b4953e95f",
         "pname": "windows-targets",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.1"
       }
     },
     "windows_aarch64_gnullvm": {
-      "0.42.2": {
-        "hash": "597a5118570b68bc08d8d59125332c54f1ba9d9adeedeef5b99b02ba2b0698f8",
+      "0.48.0": {
+        "hash": "91ae572e1b79dba883e0d315474df7305d12f569b400fcf90581b06062f7e1bc",
         "pname": "windows_aarch64_gnullvm",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.0"
       }
     },
     "windows_aarch64_msvc": {
-      "0.42.2": {
-        "hash": "e08e8864a60f06ef0d0ff4ba04124db8b0fb3be5776a5cd47641e942e58c4d43",
+      "0.48.0": {
+        "hash": "b2ef27e0d7bdfcfc7b868b317c1d32c641a6fe4629c171b8928c7b08d98d7cf3",
         "pname": "windows_aarch64_msvc",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.0"
       }
     },
     "windows_i686_gnu": {
-      "0.42.2": {
-        "hash": "c61d927d8da41da96a81f029489353e68739737d3beca43145c8afec9a31a84f",
+      "0.48.0": {
+        "hash": "622a1962a7db830d6fd0a69683c80a18fda201879f0f447f065a3b7467daa241",
         "pname": "windows_i686_gnu",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.0"
       }
     },
     "windows_i686_msvc": {
-      "0.42.2": {
-        "hash": "44d840b6ec649f480a41c8d80f9c65108b92d89345dd94027bfe06ac444d1060",
+      "0.48.0": {
+        "hash": "4542c6e364ce21bf45d69fdd2a8e455fa38d316158cfd43b3ac1c5b1b19f8e00",
         "pname": "windows_i686_msvc",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_gnu": {
-      "0.42.2": {
-        "hash": "8de912b8b8feb55c064867cf047dda097f92d51efad5b491dfb98f6bbb70cb36",
+      "0.48.0": {
+        "hash": "ca2b8a661f7628cbd23440e50b05d705db3686f894fc9580820623656af974b1",
         "pname": "windows_x86_64_gnu",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_gnullvm": {
-      "0.42.2": {
-        "hash": "26d41b46a36d453748aedef1486d5c7a85db22e56aff34643984ea85514e94a3",
+      "0.48.0": {
+        "hash": "7896dbc1f41e08872e9d5e8f8baa8fdd2677f29468c4e156210174edc7f7b953",
         "pname": "windows_x86_64_gnullvm",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.0"
       }
     },
     "windows_x86_64_msvc": {
-      "0.42.2": {
-        "hash": "9aec5da331524158c6d1a4ac0ab1541149c0b9505fde06423b02f5ef0106b9f0",
+      "0.48.0": {
+        "hash": "1a515f5799fe4961cb532f983ce2b23082366b898e52ffbce459c86f67c8378a",
         "pname": "windows_x86_64_msvc",
         "type": "crates-io",
-        "version": "0.42.2"
+        "version": "0.48.0"
       }
     }
   }
