@@ -51,7 +51,7 @@
       ]
     },
     "async-trait": {
-      "0.1.70": [
+      "0.1.71": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "syn", "2.0.23" ]
@@ -59,7 +59,7 @@
     },
     "axum": {
       "0.6.18": [
-        [ "async-trait", "0.1.70" ],
+        [ "async-trait", "0.1.71" ],
         [ "axum-core", "0.3.4" ],
         [ "bitflags", "1.3.2" ],
         [ "bytes", "1.4.0" ],
@@ -83,7 +83,7 @@
     },
     "axum-core": {
       "0.3.4": [
-        [ "async-trait", "0.1.70" ],
+        [ "async-trait", "0.1.71" ],
         [ "bytes", "1.4.0" ],
         [ "futures-util", "0.3.28" ],
         [ "http", "0.2.9" ],
@@ -119,7 +119,7 @@
     "env_logger": {
       "0.8.4": [
         [ "log", "0.4.19" ],
-        [ "regex", "1.8.4" ]
+        [ "regex", "1.9.0" ]
       ]
     },
     "flate2": {
@@ -304,10 +304,18 @@
       ]
     },
     "regex": {
-      "1.8.4": [
+      "1.9.0": [
         [ "aho-corasick", "1.0.2" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-syntax", "0.7.2" ]
+        [ "regex-automata", "0.3.0" ],
+        [ "regex-syntax", "0.7.3" ]
+      ]
+    },
+    "regex-automata": {
+      "0.3.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.7.3" ]
       ]
     },
     "ring": {
@@ -322,10 +330,10 @@
       ]
     },
     "rustls": {
-      "0.21.2": [
+      "0.21.3": [
         [ "log", "0.4.19" ],
         [ "ring", "0.16.20" ],
-        [ "rustls-webpki", "0.100.1" ],
+        [ "rustls-webpki", "0.101.1" ],
         [ "sct", "0.7.0" ]
       ]
     },
@@ -344,6 +352,10 @@
     },
     "rustls-webpki": {
       "0.100.1": [
+        [ "ring", "0.16.20" ],
+        [ "untrusted", "0.7.1" ]
+      ],
+      "0.101.1": [
         [ "ring", "0.16.20" ],
         [ "untrusted", "0.7.1" ]
       ]
@@ -425,7 +437,7 @@
     },
     "tokio-rustls": {
       "0.24.1": [
-        [ "rustls", "0.21.2" ],
+        [ "rustls", "0.21.3" ],
         [ "tokio", "1.29.1" ]
       ]
     },
@@ -449,7 +461,7 @@
     "tonic": {
       "0.9.2": [
         [ "async-stream", "0.3.5" ],
-        [ "async-trait", "0.1.70" ],
+        [ "async-trait", "0.1.71" ],
         [ "axum", "0.6.18" ],
         [ "base64", "0.21.2" ],
         [ "bencher", "0.1.5" ],
@@ -632,11 +644,11 @@
       }
     },
     "async-trait": {
-      "0.1.70": {
-        "hash": "79fa67157abdfd688a259b6648808757db9347af834624f27ec646da976aee5d",
+      "0.1.71": {
+        "hash": "a564d521dd56509c4c47480d00b80ee55f7e385ae48db5744c67ad50c92d2ebf",
         "pname": "async-trait",
         "type": "crates-io",
-        "version": "0.1.70"
+        "version": "0.1.71"
       }
     },
     "autocfg": {
@@ -1136,19 +1148,27 @@
       }
     },
     "regex": {
-      "1.8.4": {
-        "hash": "d0ab3ca65655bb1e41f2a8c8cd662eb4fb035e67c3f78da1d61dffe89d07300f",
+      "1.9.0": {
+        "hash": "89089e897c013b3deb627116ae56a6955a72b8bed395c9526af31c9fe528b484",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.8.4"
+        "version": "1.9.0"
+      }
+    },
+    "regex-automata": {
+      "0.3.0": {
+        "hash": "fa250384981ea14565685dea16a9ccc4d1c541a13f82b9c168572264d1df8c56",
+        "pname": "regex-automata",
+        "type": "crates-io",
+        "version": "0.3.0"
       }
     },
     "regex-syntax": {
-      "0.7.2": {
-        "hash": "436b050e76ed2903236f032a59761c1eb99e1b0aead2c257922771dab1fc8c78",
+      "0.7.3": {
+        "hash": "2ab07dc67230e4a4718e70fd5c20055a4334b121f1f9db8fe63ef39ce9b8c846",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.7.2"
+        "version": "0.7.3"
       }
     },
     "ring": {
@@ -1168,11 +1188,11 @@
       }
     },
     "rustls": {
-      "0.21.2": {
-        "hash": "e32ca28af694bc1bbf399c33a516dbdf1c90090b8ab23c2bc24f834aa2247f5f",
+      "0.21.3": {
+        "hash": "b19faa85ecb5197342b54f987b142fb3e30d0c90da40f80ef4fa9a726e6676ed",
         "pname": "rustls",
         "type": "crates-io",
-        "version": "0.21.2"
+        "version": "0.21.3"
       }
     },
     "rustls-native-certs": {
@@ -1197,6 +1217,12 @@
         "pname": "rustls-webpki",
         "type": "crates-io",
         "version": "0.100.1"
+      },
+      "0.101.1": {
+        "hash": "15f36a6828982f422756984e47912a7a51dcbc2a197aa791158f8ca61cd8204e",
+        "pname": "rustls-webpki",
+        "type": "crates-io",
+        "version": "0.101.1"
       }
     },
     "rustversion": {

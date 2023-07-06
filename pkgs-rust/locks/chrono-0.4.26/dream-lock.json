@@ -32,6 +32,11 @@
         [ "version_check", "0.9.4" ]
       ]
     },
+    "aho-corasick": {
+      "1.0.2": [
+        [ "memchr", "2.5.0" ]
+      ]
+    },
     "android_system_properties": {
       "0.1.5": [
         [ "libc", "0.2.147" ]
@@ -144,7 +149,7 @@
         [ "oorandom", "11.1.3" ],
         [ "plotters", "0.3.5" ],
         [ "rayon", "1.7.0" ],
-        [ "regex", "1.8.4" ],
+        [ "regex", "1.9.0" ],
         [ "serde", "1.0.166" ],
         [ "serde_derive", "1.0.166" ],
         [ "serde_json", "1.0.100" ],
@@ -307,8 +312,18 @@
       ]
     },
     "regex": {
-      "1.8.4": [
-        [ "regex-syntax", "0.7.2" ]
+      "1.9.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-automata", "0.3.0" ],
+        [ "regex-syntax", "0.7.3" ]
+      ]
+    },
+    "regex-automata": {
+      "0.3.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.7.3" ]
       ]
     },
     "rend": {
@@ -498,6 +513,14 @@
         "pname": "ahash",
         "type": "crates-io",
         "version": "0.7.6"
+      }
+    },
+    "aho-corasick": {
+      "1.0.2": {
+        "hash": "43f6cb1bf222025340178f382c426f13757b2960e89779dfcb319c32542a5a41",
+        "pname": "aho-corasick",
+        "type": "crates-io",
+        "version": "1.0.2"
       }
     },
     "android-tzdata": {
@@ -872,6 +895,14 @@
         "version": "0.4.19"
       }
     },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "pname": "memchr",
+        "type": "crates-io",
+        "version": "2.5.0"
+      }
+    },
     "memoffset": {
       "0.9.0": {
         "hash": "5a634b1c61a95585bd15607c6ab0c4e5b226e695ff2800ba0cdccddf208c406c",
@@ -1009,19 +1040,27 @@
       }
     },
     "regex": {
-      "1.8.4": {
-        "hash": "d0ab3ca65655bb1e41f2a8c8cd662eb4fb035e67c3f78da1d61dffe89d07300f",
+      "1.9.0": {
+        "hash": "89089e897c013b3deb627116ae56a6955a72b8bed395c9526af31c9fe528b484",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.8.4"
+        "version": "1.9.0"
+      }
+    },
+    "regex-automata": {
+      "0.3.0": {
+        "hash": "fa250384981ea14565685dea16a9ccc4d1c541a13f82b9c168572264d1df8c56",
+        "pname": "regex-automata",
+        "type": "crates-io",
+        "version": "0.3.0"
       }
     },
     "regex-syntax": {
-      "0.7.2": {
-        "hash": "436b050e76ed2903236f032a59761c1eb99e1b0aead2c257922771dab1fc8c78",
+      "0.7.3": {
+        "hash": "2ab07dc67230e4a4718e70fd5c20055a4334b121f1f9db8fe63ef39ce9b8c846",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.7.2"
+        "version": "0.7.3"
       }
     },
     "rend": {

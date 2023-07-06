@@ -26,6 +26,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "aho-corasick": {
+      "1.0.2": [
+        [ "memchr", "2.5.0" ]
+      ]
+    },
     "env_logger": {
       "0.8.4": [
         [ "log", "0.4.19" ]
@@ -110,7 +115,7 @@
         [ "prost-types", "0.11.9" ],
         [ "pulldown-cmark", "0.9.3" ],
         [ "pulldown-cmark-to-cmark", "10.0.4" ],
-        [ "regex", "1.8.4" ],
+        [ "regex", "1.9.0" ],
         [ "syn", "1.0.109" ],
         [ "tempfile", "3.6.0" ],
         [ "which", "4.4.0" ]
@@ -153,12 +158,22 @@
       ]
     },
     "regex": {
-      "1.8.4": [
-        [ "regex-syntax", "0.7.2" ]
+      "1.9.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-automata", "0.3.0" ],
+        [ "regex-syntax", "0.7.3" ]
+      ]
+    },
+    "regex-automata": {
+      "0.3.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.7.3" ]
       ]
     },
     "rustix": {
-      "0.37.22": [
+      "0.37.23": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.11" ],
@@ -180,7 +195,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.22" ],
+        [ "rustix", "0.37.23" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -214,6 +229,14 @@
     }
   },
   "sources": {
+    "aho-corasick": {
+      "1.0.2": {
+        "hash": "43f6cb1bf222025340178f382c426f13757b2960e89779dfcb319c32542a5a41",
+        "pname": "aho-corasick",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    },
     "anyhow": {
       "1.0.71": {
         "hash": "9c7d0618f0e0b7e8ff11427422b64564d5fb0be1940354bfe2e0529b18a9d9b8",
@@ -509,27 +532,35 @@
       }
     },
     "regex": {
-      "1.8.4": {
-        "hash": "d0ab3ca65655bb1e41f2a8c8cd662eb4fb035e67c3f78da1d61dffe89d07300f",
+      "1.9.0": {
+        "hash": "89089e897c013b3deb627116ae56a6955a72b8bed395c9526af31c9fe528b484",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.8.4"
+        "version": "1.9.0"
+      }
+    },
+    "regex-automata": {
+      "0.3.0": {
+        "hash": "fa250384981ea14565685dea16a9ccc4d1c541a13f82b9c168572264d1df8c56",
+        "pname": "regex-automata",
+        "type": "crates-io",
+        "version": "0.3.0"
       }
     },
     "regex-syntax": {
-      "0.7.2": {
-        "hash": "436b050e76ed2903236f032a59761c1eb99e1b0aead2c257922771dab1fc8c78",
+      "0.7.3": {
+        "hash": "2ab07dc67230e4a4718e70fd5c20055a4334b121f1f9db8fe63ef39ce9b8c846",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.7.2"
+        "version": "0.7.3"
       }
     },
     "rustix": {
-      "0.37.22": {
-        "hash": "8818fa822adcc98b18fedbb3632a6a33213c070556b5aa7c4c8cc21cff565c4c",
+      "0.37.23": {
+        "hash": "4d69718bf81c6127a49dc64e44a742e8bb9213c0ff8869a22c308f84c1d4ab06",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.37.22"
+        "version": "0.37.23"
       }
     },
     "syn": {

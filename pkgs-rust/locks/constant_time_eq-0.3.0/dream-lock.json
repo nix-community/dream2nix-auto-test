@@ -26,6 +26,11 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "aho-corasick": {
+      "1.0.2": [
+        [ "memchr", "2.5.0" ]
+      ]
+    },
     "ciborium": {
       "0.2.1": [
         [ "ciborium-io", "0.2.1" ],
@@ -40,12 +45,12 @@
       ]
     },
     "clap": {
-      "4.3.10": [
-        [ "clap_builder", "4.3.10" ]
+      "4.3.11": [
+        [ "clap_builder", "4.3.11" ]
       ]
     },
     "clap_builder": {
-      "4.3.10": [
+      "4.3.11": [
         [ "anstyle", "1.0.1" ],
         [ "clap_lex", "0.5.0" ]
       ]
@@ -59,7 +64,7 @@
     "count_instructions": {
       "0.1.4": [
         [ "libc", "0.2.147" ],
-        [ "rustix", "0.38.2" ]
+        [ "rustix", "0.38.3" ]
       ]
     },
     "criterion": {
@@ -67,7 +72,7 @@
         [ "anes", "0.1.6" ],
         [ "cast", "0.3.0" ],
         [ "ciborium", "0.2.1" ],
-        [ "clap", "4.3.10" ],
+        [ "clap", "4.3.11" ],
         [ "criterion-plot", "0.5.0" ],
         [ "is-terminal", "0.4.8" ],
         [ "itertools", "0.10.5" ],
@@ -76,7 +81,7 @@
         [ "oorandom", "11.1.3" ],
         [ "plotters", "0.3.5" ],
         [ "rayon", "1.7.0" ],
-        [ "regex", "1.8.4" ],
+        [ "regex", "1.9.0" ],
         [ "serde", "1.0.166" ],
         [ "serde_derive", "1.0.166" ],
         [ "serde_json", "1.0.100" ],
@@ -133,7 +138,7 @@
     "is-terminal": {
       "0.4.8": [
         [ "hermit-abi", "0.3.2" ],
-        [ "rustix", "0.38.2" ],
+        [ "rustix", "0.38.3" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -202,12 +207,22 @@
       ]
     },
     "regex": {
-      "1.8.4": [
-        [ "regex-syntax", "0.7.2" ]
+      "1.9.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-automata", "0.3.0" ],
+        [ "regex-syntax", "0.7.3" ]
+      ]
+    },
+    "regex-automata": {
+      "0.3.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.7.3" ]
       ]
     },
     "rustix": {
-      "0.38.2": [
+      "0.38.3": [
         [ "bitflags", "2.3.3" ],
         [ "errno", "0.3.1" ],
         [ "libc", "0.2.147" ],
@@ -325,6 +340,14 @@
     }
   },
   "sources": {
+    "aho-corasick": {
+      "1.0.2": {
+        "hash": "43f6cb1bf222025340178f382c426f13757b2960e89779dfcb319c32542a5a41",
+        "pname": "aho-corasick",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    },
     "anes": {
       "0.1.6": {
         "hash": "4b46cbb362ab8752921c97e041f5e366ee6297bd428a31275b9fcf1e380f7299",
@@ -414,19 +437,19 @@
       }
     },
     "clap": {
-      "4.3.10": {
-        "hash": "384e169cc618c613d5e3ca6404dda77a8685a63e08660dcc64abaf7da7cb0c7a",
+      "4.3.11": {
+        "hash": "1640e5cc7fb47dbb8338fd471b105e7ed6c3cb2aeb00c2e067127ffd3764a05d",
         "pname": "clap",
         "type": "crates-io",
-        "version": "4.3.10"
+        "version": "4.3.11"
       }
     },
     "clap_builder": {
-      "4.3.10": {
-        "hash": "ef137bbe35aab78bdb468ccfba75a5f4d8321ae011d34063770780545176af2d",
+      "4.3.11": {
+        "hash": "98c59138d527eeaf9b53f35a77fcc1fad9d883116070c63d5de1c7dc7b00c72b",
         "pname": "clap_builder",
         "type": "crates-io",
-        "version": "4.3.10"
+        "version": "4.3.11"
       }
     },
     "clap_lex": {
@@ -595,6 +618,14 @@
         "version": "0.4.19"
       }
     },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "pname": "memchr",
+        "type": "crates-io",
+        "version": "2.5.0"
+      }
+    },
     "memoffset": {
       "0.9.0": {
         "hash": "5a634b1c61a95585bd15607c6ab0c4e5b226e695ff2800ba0cdccddf208c406c",
@@ -692,27 +723,35 @@
       }
     },
     "regex": {
-      "1.8.4": {
-        "hash": "d0ab3ca65655bb1e41f2a8c8cd662eb4fb035e67c3f78da1d61dffe89d07300f",
+      "1.9.0": {
+        "hash": "89089e897c013b3deb627116ae56a6955a72b8bed395c9526af31c9fe528b484",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.8.4"
+        "version": "1.9.0"
+      }
+    },
+    "regex-automata": {
+      "0.3.0": {
+        "hash": "fa250384981ea14565685dea16a9ccc4d1c541a13f82b9c168572264d1df8c56",
+        "pname": "regex-automata",
+        "type": "crates-io",
+        "version": "0.3.0"
       }
     },
     "regex-syntax": {
-      "0.7.2": {
-        "hash": "436b050e76ed2903236f032a59761c1eb99e1b0aead2c257922771dab1fc8c78",
+      "0.7.3": {
+        "hash": "2ab07dc67230e4a4718e70fd5c20055a4334b121f1f9db8fe63ef39ce9b8c846",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.7.2"
+        "version": "0.7.3"
       }
     },
     "rustix": {
-      "0.38.2": {
-        "hash": "aabcb0461ebd01d6b79945797c27f8529082226cb630a9865a71870ff63532a4",
+      "0.38.3": {
+        "hash": "ac5ffa1efe7548069688cd7028f32591853cd7b5b756d41bcffd2353e4fc75b4",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.38.2"
+        "version": "0.38.3"
       }
     },
     "ryu": {

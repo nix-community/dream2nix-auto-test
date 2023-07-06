@@ -71,10 +71,9 @@
       ]
     },
     "bstr": {
-      "1.5.0": [
+      "1.6.0": [
         [ "memchr", "2.5.0" ],
-        [ "once_cell", "1.18.0" ],
-        [ "regex-automata", "0.1.10" ],
+        [ "regex-automata", "0.3.0" ],
         [ "serde", "1.0.166" ]
       ]
     },
@@ -85,7 +84,7 @@
         [ "bytesize", "1.2.0" ],
         [ "cargo-platform", "0.1.2" ],
         [ "cargo-util", "0.2.4" ],
-        [ "clap", "4.3.10" ],
+        [ "clap", "4.3.11" ],
         [ "crates-io", "0.36.0" ],
         [ "curl", "0.4.44" ],
         [ "curl-sys", "0.4.63+curl-8.1.2" ],
@@ -122,7 +121,7 @@
         [ "semver", "1.0.17" ],
         [ "serde", "1.0.166" ],
         [ "serde-value", "0.7.0" ],
-        [ "serde_ignored", "0.1.7" ],
+        [ "serde_ignored", "0.1.8" ],
         [ "serde_json", "1.0.100" ],
         [ "sha1", "0.10.5" ],
         [ "shell-escape", "0.1.5" ],
@@ -131,8 +130,8 @@
         [ "tempfile", "3.6.0" ],
         [ "termcolor", "1.2.0" ],
         [ "time", "0.3.22" ],
-        [ "toml", "0.7.5" ],
-        [ "toml_edit", "0.19.11" ],
+        [ "toml", "0.7.6" ],
+        [ "toml_edit", "0.19.12" ],
         [ "unicode-width", "0.1.10" ],
         [ "unicode-xid", "0.2.4" ],
         [ "url", "2.4.0" ],
@@ -169,12 +168,12 @@
       ]
     },
     "clap": {
-      "4.3.10": [
-        [ "clap_builder", "4.3.10" ]
+      "4.3.11": [
+        [ "clap_builder", "4.3.11" ]
       ]
     },
     "clap_builder": {
-      "4.3.10": [
+      "4.3.11": [
         [ "anstream", "0.3.2" ],
         [ "anstyle", "1.0.1" ],
         [ "clap_lex", "0.5.0" ],
@@ -188,7 +187,7 @@
       ]
     },
     "cpufeatures": {
-      "0.2.8": [
+      "0.2.9": [
         [ "libc", "0.2.147" ]
       ]
     },
@@ -296,7 +295,7 @@
         [ "humantime", "2.1.0" ],
         [ "is-terminal", "0.4.8" ],
         [ "log", "0.4.19" ],
-        [ "regex", "1.8.4" ],
+        [ "regex", "1.9.0" ],
         [ "termcolor", "1.2.0" ]
       ]
     },
@@ -388,10 +387,10 @@
     "globset": {
       "0.4.10": [
         [ "aho-corasick", "0.7.20" ],
-        [ "bstr", "1.5.0" ],
+        [ "bstr", "1.6.0" ],
         [ "fnv", "1.0.7" ],
         [ "log", "0.4.19" ],
-        [ "regex", "1.8.4" ]
+        [ "regex", "1.9.0" ]
       ]
     },
     "group": {
@@ -433,7 +432,7 @@
         [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.19" ],
         [ "memchr", "2.5.0" ],
-        [ "regex", "1.8.4" ],
+        [ "regex", "1.9.0" ],
         [ "same-file", "1.0.6" ],
         [ "thread_local", "1.1.7" ],
         [ "walkdir", "2.3.3" ],
@@ -475,7 +474,7 @@
     "is-terminal": {
       "0.4.8": [
         [ "hermit-abi", "0.3.2" ],
-        [ "rustix", "0.38.2" ],
+        [ "rustix", "0.38.3" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -545,7 +544,7 @@
     },
     "opener": {
       "0.5.2": [
-        [ "bstr", "1.5.0" ],
+        [ "bstr", "1.6.0" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -592,7 +591,7 @@
         [ "orion", "0.17.5" ],
         [ "p384", "0.13.0" ],
         [ "rand_core", "0.6.4" ],
-        [ "regex", "1.8.4" ],
+        [ "regex", "1.9.0" ],
         [ "serde", "1.0.166" ],
         [ "serde_json", "1.0.100" ],
         [ "sha2", "0.10.7" ],
@@ -660,10 +659,18 @@
       ]
     },
     "regex": {
-      "1.8.4": [
+      "1.9.0": [
         [ "aho-corasick", "1.0.2" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-syntax", "0.7.2" ]
+        [ "regex-automata", "0.3.0" ],
+        [ "regex-syntax", "0.7.3" ]
+      ]
+    },
+    "regex-automata": {
+      "0.3.0": [
+        [ "aho-corasick", "1.0.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.7.3" ]
       ]
     },
     "rfc6979": {
@@ -681,7 +688,7 @@
       ]
     },
     "rustix": {
-      "0.37.22": [
+      "0.37.23": [
         [ "bitflags", "1.3.2" ],
         [ "errno", "0.3.1" ],
         [ "io-lifetimes", "1.0.11" ],
@@ -689,7 +696,7 @@
         [ "linux-raw-sys", "0.3.8" ],
         [ "windows-sys", "0.48.0" ]
       ],
-      "0.38.2": [
+      "0.38.3": [
         [ "bitflags", "2.3.3" ],
         [ "errno", "0.3.1" ],
         [ "libc", "0.2.147" ],
@@ -741,7 +748,7 @@
       ]
     },
     "serde_ignored": {
-      "0.1.7": [
+      "0.1.8": [
         [ "serde", "1.0.166" ]
       ]
     },
@@ -760,14 +767,14 @@
     "sha1": {
       "0.10.5": [
         [ "cfg-if", "1.0.0" ],
-        [ "cpufeatures", "0.2.8" ],
+        [ "cpufeatures", "0.2.9" ],
         [ "digest", "0.10.7" ]
       ]
     },
     "sha2": {
       "0.10.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "cpufeatures", "0.2.8" ],
+        [ "cpufeatures", "0.2.9" ],
         [ "digest", "0.10.7" ]
       ]
     },
@@ -819,7 +826,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.9.0" ],
         [ "redox_syscall", "0.3.5" ],
-        [ "rustix", "0.37.22" ],
+        [ "rustix", "0.37.23" ],
         [ "windows-sys", "0.48.0" ]
       ]
     },
@@ -865,11 +872,11 @@
       ]
     },
     "toml": {
-      "0.7.5": [
+      "0.7.6": [
         [ "serde", "1.0.166" ],
         [ "serde_spanned", "0.6.3" ],
         [ "toml_datetime", "0.6.3" ],
-        [ "toml_edit", "0.19.11" ]
+        [ "toml_edit", "0.19.12" ]
       ]
     },
     "toml_datetime": {
@@ -878,7 +885,7 @@
       ]
     },
     "toml_edit": {
-      "0.19.11": [
+      "0.19.12": [
         [ "indexmap", "2.0.0" ],
         [ "serde", "1.0.166" ],
         [ "serde_spanned", "0.6.3" ],
@@ -1145,11 +1152,11 @@
       }
     },
     "bstr": {
-      "1.5.0": {
-        "hash": "a246e68bb43f6cd9db24bea052a53e40405417c5fb372e3d1a8a7f770a564ef5",
+      "1.6.0": {
+        "hash": "6798148dccfbff0fae41c7574d2fa8f1ef3492fba0face179de5d8d447d67b05",
         "pname": "bstr",
         "type": "crates-io",
-        "version": "1.5.0"
+        "version": "1.6.0"
       }
     },
     "bumpalo": {
@@ -1209,19 +1216,19 @@
       }
     },
     "clap": {
-      "4.3.10": {
-        "hash": "384e169cc618c613d5e3ca6404dda77a8685a63e08660dcc64abaf7da7cb0c7a",
+      "4.3.11": {
+        "hash": "1640e5cc7fb47dbb8338fd471b105e7ed6c3cb2aeb00c2e067127ffd3764a05d",
         "pname": "clap",
         "type": "crates-io",
-        "version": "4.3.10"
+        "version": "4.3.11"
       }
     },
     "clap_builder": {
-      "4.3.10": {
-        "hash": "ef137bbe35aab78bdb468ccfba75a5f4d8321ae011d34063770780545176af2d",
+      "4.3.11": {
+        "hash": "98c59138d527eeaf9b53f35a77fcc1fad9d883116070c63d5de1c7dc7b00c72b",
         "pname": "clap_builder",
         "type": "crates-io",
-        "version": "4.3.10"
+        "version": "4.3.11"
       }
     },
     "clap_lex": {
@@ -1265,11 +1272,11 @@
       }
     },
     "cpufeatures": {
-      "0.2.8": {
-        "hash": "03e69e28e9f7f77debdedbaafa2866e1de9ba56df55a8bd7cfc724c25a09987c",
+      "0.2.9": {
+        "hash": "a17b76ff3a4162b0b27f354a0c87015ddad39d35f9c0c36607a3bdd175dde1f1",
         "pname": "cpufeatures",
         "type": "crates-io",
-        "version": "0.2.8"
+        "version": "0.2.9"
       }
     },
     "crates-io": {
@@ -1983,27 +1990,27 @@
       }
     },
     "regex": {
-      "1.8.4": {
-        "hash": "d0ab3ca65655bb1e41f2a8c8cd662eb4fb035e67c3f78da1d61dffe89d07300f",
+      "1.9.0": {
+        "hash": "89089e897c013b3deb627116ae56a6955a72b8bed395c9526af31c9fe528b484",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.8.4"
+        "version": "1.9.0"
       }
     },
     "regex-automata": {
-      "0.1.10": {
-        "hash": "6c230d73fb8d8c1b9c0b3135c5142a8acee3a0558fb8db5cf1cb65f8d7862132",
+      "0.3.0": {
+        "hash": "fa250384981ea14565685dea16a9ccc4d1c541a13f82b9c168572264d1df8c56",
         "pname": "regex-automata",
         "type": "crates-io",
-        "version": "0.1.10"
+        "version": "0.3.0"
       }
     },
     "regex-syntax": {
-      "0.7.2": {
-        "hash": "436b050e76ed2903236f032a59761c1eb99e1b0aead2c257922771dab1fc8c78",
+      "0.7.3": {
+        "hash": "2ab07dc67230e4a4718e70fd5c20055a4334b121f1f9db8fe63ef39ce9b8c846",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.7.2"
+        "version": "0.7.3"
       }
     },
     "rfc6979": {
@@ -2031,17 +2038,17 @@
       }
     },
     "rustix": {
-      "0.37.22": {
-        "hash": "8818fa822adcc98b18fedbb3632a6a33213c070556b5aa7c4c8cc21cff565c4c",
+      "0.37.23": {
+        "hash": "4d69718bf81c6127a49dc64e44a742e8bb9213c0ff8869a22c308f84c1d4ab06",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.37.22"
+        "version": "0.37.23"
       },
-      "0.38.2": {
-        "hash": "aabcb0461ebd01d6b79945797c27f8529082226cb630a9865a71870ff63532a4",
+      "0.38.3": {
+        "hash": "ac5ffa1efe7548069688cd7028f32591853cd7b5b756d41bcffd2353e4fc75b4",
         "pname": "rustix",
         "type": "crates-io",
-        "version": "0.38.2"
+        "version": "0.38.3"
       }
     },
     "ryu": {
@@ -2109,11 +2116,11 @@
       }
     },
     "serde_ignored": {
-      "0.1.7": {
-        "hash": "94eb4a4087ba8bdf14a9208ac44fddbf55c01a6195f7edfc511ddaff6cae45a6",
+      "0.1.8": {
+        "hash": "6de9d103529a9ba50008099785839df1e6f40b4576ed4c000cbfdb051182b827",
         "pname": "serde_ignored",
         "type": "crates-io",
-        "version": "0.1.7"
+        "version": "0.1.8"
       }
     },
     "serde_json": {
@@ -2309,11 +2316,11 @@
       }
     },
     "toml": {
-      "0.7.5": {
-        "hash": "1ebafdf5ad1220cb59e7d17cf4d2c72015297b75b19a10472f99b89225089240",
+      "0.7.6": {
+        "hash": "c17e963a819c331dcacd7ab957d80bc2b9a9c1e71c804826d2f283dd65306542",
         "pname": "toml",
         "type": "crates-io",
-        "version": "0.7.5"
+        "version": "0.7.6"
       }
     },
     "toml_datetime": {
@@ -2325,11 +2332,11 @@
       }
     },
     "toml_edit": {
-      "0.19.11": {
-        "hash": "266f016b7f039eec8a1a80dfe6156b633d208b9fccca5e4db1d6775b0c4e34a7",
+      "0.19.12": {
+        "hash": "c500344a19072298cd05a7224b3c0c629348b78692bf48466c5238656e315a78",
         "pname": "toml_edit",
         "type": "crates-io",
-        "version": "0.19.11"
+        "version": "0.19.12"
       }
     },
     "typenum": {

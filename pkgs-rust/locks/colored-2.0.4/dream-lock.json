@@ -1,0 +1,295 @@
+{
+  "_generic": {
+    "defaultPackage": "colored",
+    "location": "",
+    "packages": {
+      "colored": "2.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "meta": {
+      "colored": {
+        "2.0.4": {
+          "description": "The most simple way to add colors in your terminal", "homepage": "https://github.com/mackwic/colored", "license": [   "mpl20"
+          ]
+        }
+      }
+    },
+    "relPathReplacements": {
+      "colored": {
+        "2.0.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi_term": {
+      "0.12.1": [
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "colored": {
+      "2.0.4": [
+        [ "ansi_term", "0.12.1" ],
+        [ "is-terminal", "0.4.8" ],
+        [ "lazy_static", "1.4.0" ],
+        [ "rspec", "1.0.0-beta.3" ],
+        [ "windows-sys", "0.48.0" ]
+      ]
+    },
+    "errno": {
+      "0.3.1": [
+        [ "errno-dragonfly", "0.1.2" ],
+        [ "libc", "0.2.147" ],
+        [ "windows-sys", "0.48.0" ]
+      ]
+    },
+    "errno-dragonfly": {
+      "0.1.2": [
+        [ "cc", "1.0.79" ],
+        [ "libc", "0.2.147" ]
+      ]
+    },
+    "is-terminal": {
+      "0.4.8": [
+        [ "hermit-abi", "0.3.2" ],
+        [ "rustix", "0.38.2" ],
+        [ "windows-sys", "0.48.0" ]
+      ]
+    },
+    "rustix": {
+      "0.38.2": [
+        [ "bitflags", "2.3.3" ],
+        [ "errno", "0.3.1" ],
+        [ "libc", "0.2.147" ],
+        [ "linux-raw-sys", "0.4.3" ],
+        [ "windows-sys", "0.48.0" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "windows-sys": {
+      "0.48.0": [
+        [ "windows-targets", "0.48.1" ]
+      ]
+    },
+    "windows-targets": {
+      "0.48.1": [
+        [ "windows_aarch64_gnullvm", "0.48.0" ],
+        [ "windows_aarch64_msvc", "0.48.0" ],
+        [ "windows_i686_gnu", "0.48.0" ],
+        [ "windows_i686_msvc", "0.48.0" ],
+        [ "windows_x86_64_gnu", "0.48.0" ],
+        [ "windows_x86_64_gnullvm", "0.48.0" ],
+        [ "windows_x86_64_msvc", "0.48.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi_term": {
+      "0.12.1": {
+        "hash": "d52a9bb7ec0cf484c551830a7ce27bd20d67eac647e1befb56b0be4ee39a55d2",
+        "pname": "ansi_term",
+        "type": "crates-io",
+        "version": "0.12.1"
+      }
+    },
+    "bitflags": {
+      "2.3.3": {
+        "hash": "630be753d4e58660abd17930c71b647fe46c27ea6b63cc59e1e3851406972e42",
+        "pname": "bitflags",
+        "type": "crates-io",
+        "version": "2.3.3"
+      }
+    },
+    "cc": {
+      "1.0.79": {
+        "hash": "50d30906286121d95be3d479533b458f87493b30a4b5f79a607db8f5d11aa91f",
+        "pname": "cc",
+        "type": "crates-io",
+        "version": "1.0.79"
+      }
+    },
+    "colored": {
+      "2.0.4": {
+        "hash": "2674ec482fbc38012cf31e6c42ba0177b431a0cb6f15fe40efa5aab1bda516f6",
+        "type": "crates-io"
+      }
+    },
+    "errno": {
+      "0.3.1": {
+        "hash": "4bcfec3a70f97c962c307b2d2c56e358cf1d00b558d74262b5f929ee8cc7e73a",
+        "pname": "errno",
+        "type": "crates-io",
+        "version": "0.3.1"
+      }
+    },
+    "errno-dragonfly": {
+      "0.1.2": {
+        "hash": "aa68f1b12764fab894d2755d2518754e71b4fd80ecfb822714a1206c2aab39bf",
+        "pname": "errno-dragonfly",
+        "type": "crates-io",
+        "version": "0.1.2"
+      }
+    },
+    "hermit-abi": {
+      "0.3.2": {
+        "hash": "443144c8cdadd93ebf52ddb4056d257f5b52c04d3c804e657d19eb73fc33668b",
+        "pname": "hermit-abi",
+        "type": "crates-io",
+        "version": "0.3.2"
+      }
+    },
+    "is-terminal": {
+      "0.4.8": {
+        "hash": "24fddda5af7e54bf7da53067d6e802dbcc381d0a8eef629df528e3ebf68755cb",
+        "pname": "is-terminal",
+        "type": "crates-io",
+        "version": "0.4.8"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "pname": "lazy_static",
+        "type": "crates-io",
+        "version": "1.4.0"
+      }
+    },
+    "libc": {
+      "0.2.147": {
+        "hash": "b4668fb0ea861c1df094127ac5f1da3409a82116a4ba74fca2e58ef927159bb3",
+        "pname": "libc",
+        "type": "crates-io",
+        "version": "0.2.147"
+      }
+    },
+    "linux-raw-sys": {
+      "0.4.3": {
+        "hash": "09fc20d2ca12cb9f044c93e3bd6d32d523e6e2ec3db4f7b2939cd99026ecd3f0",
+        "pname": "linux-raw-sys",
+        "type": "crates-io",
+        "version": "0.4.3"
+      }
+    },
+    "rspec": {
+      "1.0.0-beta.3": {
+        "hash": "292964ba6cf097dd3a1fc94c286c8eabf74a0afe709d059d2370e4f1fc766ae2",
+        "pname": "rspec",
+        "type": "crates-io",
+        "version": "1.0.0-beta.3"
+      }
+    },
+    "rustix": {
+      "0.38.2": {
+        "hash": "aabcb0461ebd01d6b79945797c27f8529082226cb630a9865a71870ff63532a4",
+        "pname": "rustix",
+        "type": "crates-io",
+        "version": "0.38.2"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "pname": "winapi",
+        "type": "crates-io",
+        "version": "0.3.9"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "pname": "winapi-i686-pc-windows-gnu",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "pname": "winapi-x86_64-pc-windows-gnu",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "windows-sys": {
+      "0.48.0": {
+        "hash": "677d2418bec65e3338edb076e806bc1ec15693c5d0104683f2efe857f61056a9",
+        "pname": "windows-sys",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    },
+    "windows-targets": {
+      "0.48.1": {
+        "hash": "05d4b17490f70499f20b9e791dcf6a299785ce8af4d709018206dc5b4953e95f",
+        "pname": "windows-targets",
+        "type": "crates-io",
+        "version": "0.48.1"
+      }
+    },
+    "windows_aarch64_gnullvm": {
+      "0.48.0": {
+        "hash": "91ae572e1b79dba883e0d315474df7305d12f569b400fcf90581b06062f7e1bc",
+        "pname": "windows_aarch64_gnullvm",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    },
+    "windows_aarch64_msvc": {
+      "0.48.0": {
+        "hash": "b2ef27e0d7bdfcfc7b868b317c1d32c641a6fe4629c171b8928c7b08d98d7cf3",
+        "pname": "windows_aarch64_msvc",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    },
+    "windows_i686_gnu": {
+      "0.48.0": {
+        "hash": "622a1962a7db830d6fd0a69683c80a18fda201879f0f447f065a3b7467daa241",
+        "pname": "windows_i686_gnu",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    },
+    "windows_i686_msvc": {
+      "0.48.0": {
+        "hash": "4542c6e364ce21bf45d69fdd2a8e455fa38d316158cfd43b3ac1c5b1b19f8e00",
+        "pname": "windows_i686_msvc",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    },
+    "windows_x86_64_gnu": {
+      "0.48.0": {
+        "hash": "ca2b8a661f7628cbd23440e50b05d705db3686f894fc9580820623656af974b1",
+        "pname": "windows_x86_64_gnu",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    },
+    "windows_x86_64_gnullvm": {
+      "0.48.0": {
+        "hash": "7896dbc1f41e08872e9d5e8f8baa8fdd2677f29468c4e156210174edc7f7b953",
+        "pname": "windows_x86_64_gnullvm",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    },
+    "windows_x86_64_msvc": {
+      "0.48.0": {
+        "hash": "1a515f5799fe4961cb532f983ce2b23082366b898e52ffbce459c86f67c8378a",
+        "pname": "windows_x86_64_msvc",
+        "type": "crates-io",
+        "version": "0.48.0"
+      }
+    }
+  }
+}
