@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "serde_derive",
+    "defaultPackage": "serde",
     "location": "",
     "packages": {
-      "serde_derive": "1.0.166"
+      "serde": "1.0.167"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "serde_derive": {
-        "1.0.166": {
-          "description": "Macros 1.1 implementation of #[derive(Serialize, Deserialize)]", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
+      "serde": {
+        "1.0.167": {
+          "description": "A generic serialization/deserialization framework", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "serde_derive": {
-        "1.0.166": {}
+      "serde": {
+        "1.0.167": {}
       }
     }
   },
@@ -36,11 +36,15 @@
         [ "proc-macro2", "1.0.63" ]
       ]
     },
+    "serde": {
+      "1.0.167": [
+        [ "serde_derive", "1.0.167" ]
+      ]
+    },
     "serde_derive": {
-      "1.0.166": [
+      "1.0.167": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
-        [ "serde", "1.0.166" ],
         [ "syn", "2.0.23" ]
       ]
     },
@@ -70,17 +74,17 @@
       }
     },
     "serde": {
-      "1.0.166": {
-        "hash": "d01b7404f9d441d3ad40e6a636a7782c377d2abdbe4fa2440e2edcc2f4f10db8",
-        "pname": "serde",
-        "type": "crates-io",
-        "version": "1.0.166"
+      "1.0.167": {
+        "hash": "7daf513456463b42aa1d94cff7e0c24d682b429f020b9afa4f5ba5c40a22b237",
+        "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.166": {
-        "hash": "5dd83d6dde2b6b2d466e14d9d1acce8816dedee94f735eac6395808b3483c6d6",
-        "type": "crates-io"
+      "1.0.167": {
+        "hash": "b69b106b68bc8054f0e974e70d19984040f8a5cf9215ca82626ea4853f82c4b9",
+        "pname": "serde_derive",
+        "type": "crates-io",
+        "version": "1.0.167"
       }
     },
     "syn": {

@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "serde",
+    "defaultPackage": "thiserror-impl",
     "location": "",
     "packages": {
-      "serde": "1.0.166"
+      "thiserror-impl": "1.0.43"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -11,16 +11,16 @@
   "_subsystem": {
     "gitSources": [],
     "meta": {
-      "serde": {
-        "1.0.166": {
-          "description": "A generic serialization/deserialization framework", "homepage": "https://serde.rs", "license": [   "mit",   "asl20"
+      "thiserror-impl": {
+        "1.0.43": {
+          "description": "Implementation detail of the `thiserror` crate", "license": [   "mit",   "asl20"
           ]
         }
       }
     },
     "relPathReplacements": {
-      "serde": {
-        "1.0.166": {}
+      "thiserror-impl": {
+        "1.0.43": {}
       }
     }
   },
@@ -36,23 +36,18 @@
         [ "proc-macro2", "1.0.63" ]
       ]
     },
-    "serde": {
-      "1.0.166": [
-        [ "serde_derive", "1.0.166" ]
-      ]
-    },
-    "serde_derive": {
-      "1.0.166": [
-        [ "proc-macro2", "1.0.63" ],
-        [ "quote", "1.0.29" ],
-        [ "syn", "2.0.23" ]
-      ]
-    },
     "syn": {
       "2.0.23": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.10" ]
+      ]
+    },
+    "thiserror-impl": {
+      "1.0.43": [
+        [ "proc-macro2", "1.0.63" ],
+        [ "quote", "1.0.29" ],
+        [ "syn", "2.0.23" ]
       ]
     }
   },
@@ -73,26 +68,18 @@
         "version": "1.0.29"
       }
     },
-    "serde": {
-      "1.0.166": {
-        "hash": "d01b7404f9d441d3ad40e6a636a7782c377d2abdbe4fa2440e2edcc2f4f10db8",
-        "type": "crates-io"
-      }
-    },
-    "serde_derive": {
-      "1.0.166": {
-        "hash": "5dd83d6dde2b6b2d466e14d9d1acce8816dedee94f735eac6395808b3483c6d6",
-        "pname": "serde_derive",
-        "type": "crates-io",
-        "version": "1.0.166"
-      }
-    },
     "syn": {
       "2.0.23": {
         "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
         "pname": "syn",
         "type": "crates-io",
         "version": "2.0.23"
+      }
+    },
+    "thiserror-impl": {
+      "1.0.43": {
+        "hash": "463fe12d7993d3b327787537ce8dd4dfa058de32fc2b195ef3cde03dc4771e8f",
+        "type": "crates-io"
       }
     },
     "unicode-ident": {

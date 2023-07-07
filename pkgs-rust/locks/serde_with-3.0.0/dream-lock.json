@@ -41,14 +41,8 @@
         [ "android-tzdata", "0.1.1" ],
         [ "iana-time-zone", "0.1.57" ],
         [ "num-traits", "0.2.15" ],
-        [ "serde", "1.0.166" ],
+        [ "serde", "1.0.167" ],
         [ "winapi", "0.3.9" ]
-      ]
-    },
-    "ctor": {
-      "0.1.26": [
-        [ "quote", "1.0.29" ],
-        [ "syn", "1.0.109" ]
       ]
     },
     "darling": {
@@ -110,7 +104,7 @@
       "1.9.3": [
         [ "autocfg", "1.1.0" ],
         [ "hashbrown", "0.12.3" ],
-        [ "serde", "1.0.166" ]
+        [ "serde", "1.0.167" ]
       ],
       "2.0.0": [
         [ "equivalent", "1.0.0" ],
@@ -127,16 +121,9 @@
         [ "autocfg", "1.1.0" ]
       ]
     },
-    "output_vt100": {
-      "0.1.3": [
-        [ "winapi", "0.3.9" ]
-      ]
-    },
     "pretty_assertions": {
-      "1.3.0": [
-        [ "ctor", "0.1.26" ],
+      "1.4.0": [
         [ "diff", "0.1.13" ],
-        [ "output_vt100", "0.1.3" ],
         [ "yansi", "0.5.1" ]
       ]
     },
@@ -183,31 +170,31 @@
       "1.1.1": [
         [ "byteorder", "1.4.3" ],
         [ "rmp", "0.8.11" ],
-        [ "serde", "1.0.166" ]
+        [ "serde", "1.0.167" ]
       ]
     },
     "ron": {
       "0.8.0": [
         [ "base64", "0.13.1" ],
         [ "bitflags", "1.3.2" ],
-        [ "serde", "1.0.166" ]
+        [ "serde", "1.0.167" ]
       ]
     },
     "serde": {
-      "1.0.166": [
-        [ "serde_derive", "1.0.166" ]
+      "1.0.167": [
+        [ "serde_derive", "1.0.167" ]
       ]
     },
     "serde-xml-rs": {
       "0.6.0": [
         [ "log", "0.4.19" ],
-        [ "serde", "1.0.166" ],
-        [ "thiserror", "1.0.41" ],
+        [ "serde", "1.0.167" ],
+        [ "thiserror", "1.0.43" ],
         [ "xml-rs", "0.8.15" ]
       ]
     },
     "serde_derive": {
-      "1.0.166": [
+      "1.0.167": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "syn", "2.0.23" ]
@@ -218,12 +205,12 @@
         [ "indexmap", "2.0.0" ],
         [ "itoa", "1.0.8" ],
         [ "ryu", "1.0.14" ],
-        [ "serde", "1.0.166" ]
+        [ "serde", "1.0.167" ]
       ]
     },
     "serde_test": {
-      "1.0.166": [
-        [ "serde", "1.0.166" ]
+      "1.0.167": [
+        [ "serde", "1.0.167" ]
       ]
     },
     "serde_with": {
@@ -237,15 +224,15 @@
         [ "hex", "0.4.3" ],
         [ "indexmap", "1.9.3" ],
         [ "mime", "0.3.17" ],
-        [ "pretty_assertions", "1.3.0" ],
+        [ "pretty_assertions", "1.4.0" ],
         [ "regex", "1.9.0" ],
         [ "rmp-serde", "1.1.1" ],
         [ "ron", "0.8.0" ],
         [ "rustversion", "1.0.13" ],
-        [ "serde", "1.0.166" ],
+        [ "serde", "1.0.167" ],
         [ "serde-xml-rs", "0.6.0" ],
         [ "serde_json", "1.0.100" ],
-        [ "serde_test", "1.0.166" ],
+        [ "serde_test", "1.0.167" ],
         [ "serde_with_macros", "3.0.0" ],
         [ "serde_yaml", "0.9.22" ],
         [ "time", "0.3.22" ],
@@ -265,7 +252,7 @@
         [ "indexmap", "2.0.0" ],
         [ "itoa", "1.0.8" ],
         [ "ryu", "1.0.14" ],
-        [ "serde", "1.0.166" ],
+        [ "serde", "1.0.167" ],
         [ "unsafe-libyaml", "0.2.8" ]
       ]
     },
@@ -282,12 +269,12 @@
       ]
     },
     "thiserror": {
-      "1.0.41": [
-        [ "thiserror-impl", "1.0.41" ]
+      "1.0.43": [
+        [ "thiserror-impl", "1.0.43" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.41": [
+      "1.0.43": [
         [ "proc-macro2", "1.0.63" ],
         [ "quote", "1.0.29" ],
         [ "syn", "2.0.23" ]
@@ -296,7 +283,7 @@
     "time": {
       "0.3.22": [
         [ "itoa", "1.0.8" ],
-        [ "serde", "1.0.166" ],
+        [ "serde", "1.0.167" ],
         [ "time-core", "0.1.1" ],
         [ "time-macros", "0.2.9" ]
       ]
@@ -313,7 +300,7 @@
     },
     "toml": {
       "0.5.11": [
-        [ "serde", "1.0.166" ]
+        [ "serde", "1.0.167" ]
       ]
     },
     "unicase": {
@@ -500,14 +487,6 @@
         "pname": "core-foundation-sys",
         "type": "crates-io",
         "version": "0.8.4"
-      }
-    },
-    "ctor": {
-      "0.1.26": {
-        "hash": "6d2301688392eb071b0bf1a37be05c469d3cc4dbbd95df672fe28ab021e6a096",
-        "pname": "ctor",
-        "type": "crates-io",
-        "version": "0.1.26"
       }
     },
     "darling": {
@@ -730,14 +709,6 @@
         "version": "1.18.0"
       }
     },
-    "output_vt100": {
-      "0.1.3": {
-        "hash": "628223faebab4e3e40667ee0b2336d34a5b960ff60ea743ddfdbcf7770bcfb66",
-        "pname": "output_vt100",
-        "type": "crates-io",
-        "version": "0.1.3"
-      }
-    },
     "paste": {
       "1.0.13": {
         "hash": "b4b27ab7be369122c218afc2079489cdcb4b517c0a3fc386ff11e1fedfcc2b35",
@@ -755,11 +726,11 @@
       }
     },
     "pretty_assertions": {
-      "1.3.0": {
-        "hash": "a25e9bcb20aa780fd0bb16b72403a9064d6b3f22f026946029acb941a50af755",
+      "1.4.0": {
+        "hash": "af7cee1a6c8a5b9208b3cb1061f10c0cb689087b3d8ce85fb9d2dd7a29b6ba66",
         "pname": "pretty_assertions",
         "type": "crates-io",
-        "version": "1.3.0"
+        "version": "1.4.0"
       }
     },
     "proc-macro2": {
@@ -859,11 +830,11 @@
       }
     },
     "serde": {
-      "1.0.166": {
-        "hash": "d01b7404f9d441d3ad40e6a636a7782c377d2abdbe4fa2440e2edcc2f4f10db8",
+      "1.0.167": {
+        "hash": "7daf513456463b42aa1d94cff7e0c24d682b429f020b9afa4f5ba5c40a22b237",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.166"
+        "version": "1.0.167"
       }
     },
     "serde-xml-rs": {
@@ -875,11 +846,11 @@
       }
     },
     "serde_derive": {
-      "1.0.166": {
-        "hash": "5dd83d6dde2b6b2d466e14d9d1acce8816dedee94f735eac6395808b3483c6d6",
+      "1.0.167": {
+        "hash": "b69b106b68bc8054f0e974e70d19984040f8a5cf9215ca82626ea4853f82c4b9",
         "pname": "serde_derive",
         "type": "crates-io",
-        "version": "1.0.166"
+        "version": "1.0.167"
       }
     },
     "serde_json": {
@@ -891,11 +862,11 @@
       }
     },
     "serde_test": {
-      "1.0.166": {
-        "hash": "65c75585b65852643a745182a6fa82b0420165a70f67c5d3af80139c74ee12cc",
+      "1.0.167": {
+        "hash": "d17e26cd73d15ce7a578b7bcd0046c32d3c068276c932fe749c4f3ccbed3c085",
         "pname": "serde_test",
         "type": "crates-io",
-        "version": "1.0.166"
+        "version": "1.0.167"
       }
     },
     "serde_with": {
@@ -943,19 +914,19 @@
       }
     },
     "thiserror": {
-      "1.0.41": {
-        "hash": "c16a64ba9387ef3fdae4f9c1a7f07a0997fce91985c0336f1ddc1822b3b37802",
+      "1.0.43": {
+        "hash": "a35fc5b8971143ca348fa6df4f024d4d55264f3468c71ad1c2f365b0a4d58c42",
         "pname": "thiserror",
         "type": "crates-io",
-        "version": "1.0.41"
+        "version": "1.0.43"
       }
     },
     "thiserror-impl": {
-      "1.0.41": {
-        "hash": "d14928354b01c4d6a4f0e549069adef399a284e7995c7ccca94e8a07a5346c59",
+      "1.0.43": {
+        "hash": "463fe12d7993d3b327787537ce8dd4dfa058de32fc2b195ef3cde03dc4771e8f",
         "pname": "thiserror-impl",
         "type": "crates-io",
-        "version": "1.0.41"
+        "version": "1.0.43"
       }
     },
     "time": {
