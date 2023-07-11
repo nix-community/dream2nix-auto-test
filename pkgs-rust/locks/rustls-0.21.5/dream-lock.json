@@ -3,7 +3,7 @@
     "defaultPackage": "rustls",
     "location": "",
     "packages": {
-      "rustls": "0.21.3"
+      "rustls": "0.21.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "rustls": {
-        "0.21.3": {
+        "0.21.5": {
           "description": "Rustls is a modern TLS library written in Rust.", "homepage": "https://github.com/rustls/rustls", "license": [   "asl20",   "isc",   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "rustls": {
-        "0.21.3": {}
+        "0.21.5": {}
       }
     }
   },
@@ -34,9 +34,9 @@
     "env_logger": {
       "0.10.0": [
         [ "humantime", "2.1.0" ],
-        [ "is-terminal", "0.4.8" ],
+        [ "is-terminal", "0.4.9" ],
         [ "log", "0.4.19" ],
-        [ "regex", "1.9.0" ],
+        [ "regex", "1.9.1" ],
         [ "termcolor", "1.2.0" ]
       ]
     },
@@ -54,7 +54,7 @@
       ]
     },
     "is-terminal": {
-      "0.4.8": [
+      "0.4.9": [
         [ "hermit-abi", "0.3.2" ],
         [ "rustix", "0.38.3" ],
         [ "windows-sys", "0.48.0" ]
@@ -66,25 +66,25 @@
       ]
     },
     "proc-macro2": {
-      "1.0.63": [
+      "1.0.64": [
         [ "unicode-ident", "1.0.10" ]
       ]
     },
     "quote": {
       "1.0.29": [
-        [ "proc-macro2", "1.0.63" ]
+        [ "proc-macro2", "1.0.64" ]
       ]
     },
     "regex": {
-      "1.9.0": [
+      "1.9.1": [
         [ "aho-corasick", "1.0.2" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-automata", "0.3.0" ],
+        [ "regex-automata", "0.3.2" ],
         [ "regex-syntax", "0.7.3" ]
       ]
     },
     "regex-automata": {
-      "0.3.0": [
+      "0.3.2": [
         [ "aho-corasick", "1.0.2" ],
         [ "memchr", "2.5.0" ],
         [ "regex-syntax", "0.7.3" ]
@@ -111,17 +111,17 @@
       ]
     },
     "rustls": {
-      "0.21.3": [
+      "0.21.5": [
         [ "base64", "0.21.2" ],
         [ "bencher", "0.1.5" ],
         [ "env_logger", "0.10.0" ],
         [ "log", "0.4.19" ],
         [ "ring", "0.16.20" ],
         [ "rustls-pemfile", "1.0.3" ],
-        [ "rustls-webpki", "0.101.0" ],
+        [ "rustls-webpki", "0.101.1" ],
         [ "rustversion", "1.0.13" ],
         [ "sct", "0.7.0" ],
-        [ "webpki-roots", "0.23.1" ]
+        [ "webpki-roots", "0.24.0" ]
       ]
     },
     "rustls-pemfile": {
@@ -130,11 +130,7 @@
       ]
     },
     "rustls-webpki": {
-      "0.100.1": [
-        [ "ring", "0.16.20" ],
-        [ "untrusted", "0.7.1" ]
-      ],
-      "0.101.0": [
+      "0.101.1": [
         [ "ring", "0.16.20" ],
         [ "untrusted", "0.7.1" ]
       ]
@@ -146,8 +142,8 @@
       ]
     },
     "syn": {
-      "2.0.23": [
-        [ "proc-macro2", "1.0.63" ],
+      "2.0.25": [
+        [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.10" ]
       ]
@@ -168,9 +164,9 @@
         [ "bumpalo", "3.13.0" ],
         [ "log", "0.4.19" ],
         [ "once_cell", "1.18.0" ],
-        [ "proc-macro2", "1.0.63" ],
+        [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.23" ],
+        [ "syn", "2.0.25" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
     },
@@ -182,9 +178,9 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.87": [
-        [ "proc-macro2", "1.0.63" ],
+        [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.23" ],
+        [ "syn", "2.0.25" ],
         [ "wasm-bindgen-backend", "0.2.87" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
@@ -196,8 +192,8 @@
       ]
     },
     "webpki-roots": {
-      "0.23.1": [
-        [ "rustls-webpki", "0.100.1" ]
+      "0.24.0": [
+        [ "rustls-webpki", "0.101.1" ]
       ]
     },
     "winapi": {
@@ -326,11 +322,11 @@
       }
     },
     "is-terminal": {
-      "0.4.8": {
-        "hash": "24fddda5af7e54bf7da53067d6e802dbcc381d0a8eef629df528e3ebf68755cb",
+      "0.4.9": {
+        "hash": "cb0889898416213fab133e1d33a0e5858a48177452750691bde3666d0fdbaf8b",
         "pname": "is-terminal",
         "type": "crates-io",
-        "version": "0.4.8"
+        "version": "0.4.9"
       }
     },
     "js-sys": {
@@ -382,11 +378,11 @@
       }
     },
     "proc-macro2": {
-      "1.0.63": {
-        "hash": "7b368fba921b0dce7e60f5e04ec15e565b3303972b42bcfde1d0713b881959eb",
+      "1.0.64": {
+        "hash": "78803b62cbf1f46fde80d7c0e803111524b9877184cfe7c3033659490ac7a7da",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.63"
+        "version": "1.0.64"
       }
     },
     "quote": {
@@ -398,19 +394,19 @@
       }
     },
     "regex": {
-      "1.9.0": {
-        "hash": "89089e897c013b3deb627116ae56a6955a72b8bed395c9526af31c9fe528b484",
+      "1.9.1": {
+        "hash": "b2eae68fc220f7cf2532e4494aded17545fce192d59cd996e0fe7887f4ceb575",
         "pname": "regex",
         "type": "crates-io",
-        "version": "1.9.0"
+        "version": "1.9.1"
       }
     },
     "regex-automata": {
-      "0.3.0": {
-        "hash": "fa250384981ea14565685dea16a9ccc4d1c541a13f82b9c168572264d1df8c56",
+      "0.3.2": {
+        "hash": "83d3daa6976cffb758ec878f108ba0e062a45b2d6ca3a2cca965338855476caf",
         "pname": "regex-automata",
         "type": "crates-io",
-        "version": "0.3.0"
+        "version": "0.3.2"
       }
     },
     "regex-syntax": {
@@ -438,8 +434,8 @@
       }
     },
     "rustls": {
-      "0.21.3": {
-        "hash": "b19faa85ecb5197342b54f987b142fb3e30d0c90da40f80ef4fa9a726e6676ed",
+      "0.21.5": {
+        "hash": "79ea77c539259495ce8ca47f53e66ae0330a8819f67e23ac96ca02f50e7b7d36",
         "type": "crates-io"
       }
     },
@@ -452,17 +448,11 @@
       }
     },
     "rustls-webpki": {
-      "0.100.1": {
-        "hash": "d6207cd5ed3d8dca7816f8f3725513a34609c0c765bf652b8c3cb4cfd87db46b",
+      "0.101.1": {
+        "hash": "15f36a6828982f422756984e47912a7a51dcbc2a197aa791158f8ca61cd8204e",
         "pname": "rustls-webpki",
         "type": "crates-io",
-        "version": "0.100.1"
-      },
-      "0.101.0": {
-        "hash": "89efed4bd0af2a8de0feb22ba38030244c93db56112b8aa67d27022286852b1c",
-        "pname": "rustls-webpki",
-        "type": "crates-io",
-        "version": "0.101.0"
+        "version": "0.101.1"
       }
     },
     "rustversion": {
@@ -490,11 +480,11 @@
       }
     },
     "syn": {
-      "2.0.23": {
-        "hash": "59fb7d6d8281a51045d62b8eb3a7d1ce347b76f312af50cd3dc0af39c87c1737",
+      "2.0.25": {
+        "hash": "15e3fc8c0c74267e2df136e5e5fb656a464158aa57624053375eb9c8c6e25ae2",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.23"
+        "version": "2.0.25"
       }
     },
     "termcolor": {
@@ -570,11 +560,11 @@
       }
     },
     "webpki-roots": {
-      "0.23.1": {
-        "hash": "b03058f88386e5ff5310d9111d53f48b17d732b401aeb83a8d5190f2ac459338",
+      "0.24.0": {
+        "hash": "b291546d5d9d1eab74f069c77749f2cb8504a12caa20f0f2de93ddbf6f411888",
         "pname": "webpki-roots",
         "type": "crates-io",
-        "version": "0.23.1"
+        "version": "0.24.0"
       }
     },
     "winapi": {

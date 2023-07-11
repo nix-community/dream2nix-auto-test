@@ -47,14 +47,14 @@
       "0.3.5": [
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.24" ]
+        [ "syn", "2.0.25" ]
       ]
     },
     "async-trait": {
       "0.1.71": [
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.24" ]
+        [ "syn", "2.0.25" ]
       ]
     },
     "axum": {
@@ -74,7 +74,7 @@
         [ "percent-encoding", "2.3.0" ],
         [ "pin-project-lite", "0.2.10" ],
         [ "rustversion", "1.0.13" ],
-        [ "serde", "1.0.169" ],
+        [ "serde", "1.0.171" ],
         [ "sync_wrapper", "0.1.2" ],
         [ "tower", "0.4.13" ],
         [ "tower-layer", "0.3.2" ],
@@ -253,7 +253,7 @@
       "1.1.2": [
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.24" ]
+        [ "syn", "2.0.25" ]
       ]
     },
     "proc-macro2": {
@@ -308,14 +308,14 @@
         [ "aho-corasick", "1.0.2" ],
         [ "memchr", "2.5.0" ],
         [ "regex-automata", "0.3.2" ],
-        [ "regex-syntax", "0.7.3" ]
+        [ "regex-syntax", "0.7.4" ]
       ]
     },
     "regex-automata": {
       "0.3.2": [
         [ "aho-corasick", "1.0.2" ],
         [ "memchr", "2.5.0" ],
-        [ "regex-syntax", "0.7.3" ]
+        [ "regex-syntax", "0.7.4" ]
       ]
     },
     "ring": {
@@ -330,7 +330,7 @@
       ]
     },
     "rustls": {
-      "0.21.3": [
+      "0.21.5": [
         [ "log", "0.4.19" ],
         [ "ring", "0.16.20" ],
         [ "rustls-webpki", "0.101.1" ],
@@ -403,7 +403,7 @@
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.10" ]
       ],
-      "2.0.24": [
+      "2.0.25": [
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
         [ "unicode-ident", "1.0.10" ]
@@ -432,12 +432,12 @@
       "2.1.0": [
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.24" ]
+        [ "syn", "2.0.25" ]
       ]
     },
     "tokio-rustls": {
       "0.24.1": [
-        [ "rustls", "0.21.3" ],
+        [ "rustls", "0.21.5" ],
         [ "tokio", "1.29.1" ]
       ]
     },
@@ -523,7 +523,7 @@
       "0.1.26": [
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.24" ]
+        [ "syn", "2.0.25" ]
       ]
     },
     "tracing-core": {
@@ -549,7 +549,7 @@
         [ "once_cell", "1.18.0" ],
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.24" ],
+        [ "syn", "2.0.25" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
     },
@@ -563,7 +563,7 @@
       "0.2.87": [
         [ "proc-macro2", "1.0.64" ],
         [ "quote", "1.0.29" ],
-        [ "syn", "2.0.24" ],
+        [ "syn", "2.0.25" ],
         [ "wasm-bindgen-backend", "0.2.87" ],
         [ "wasm-bindgen-shared", "0.2.87" ]
       ]
@@ -1164,11 +1164,11 @@
       }
     },
     "regex-syntax": {
-      "0.7.3": {
-        "hash": "2ab07dc67230e4a4718e70fd5c20055a4334b121f1f9db8fe63ef39ce9b8c846",
+      "0.7.4": {
+        "hash": "e5ea92a5b6195c6ef2a0295ea818b312502c6fc94dde986c5553242e18fd4ce2",
         "pname": "regex-syntax",
         "type": "crates-io",
-        "version": "0.7.3"
+        "version": "0.7.4"
       }
     },
     "ring": {
@@ -1188,11 +1188,11 @@
       }
     },
     "rustls": {
-      "0.21.3": {
-        "hash": "b19faa85ecb5197342b54f987b142fb3e30d0c90da40f80ef4fa9a726e6676ed",
+      "0.21.5": {
+        "hash": "79ea77c539259495ce8ca47f53e66ae0330a8819f67e23ac96ca02f50e7b7d36",
         "pname": "rustls",
         "type": "crates-io",
-        "version": "0.21.3"
+        "version": "0.21.5"
       }
     },
     "rustls-native-certs": {
@@ -1266,11 +1266,11 @@
       }
     },
     "serde": {
-      "1.0.169": {
-        "hash": "bd51c3db8f9500d531e6c12dd0fd4ad13d133e9117f5aebac3cdbb8b6d9824b0",
+      "1.0.171": {
+        "hash": "30e27d1e4fd7659406c492fd6cfaf2066ba8773de45ca75e855590f856dc34a9",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.169"
+        "version": "1.0.171"
       }
     },
     "slab": {
@@ -1312,11 +1312,11 @@
         "type": "crates-io",
         "version": "1.0.109"
       },
-      "2.0.24": {
-        "hash": "36ccaf716a23c35ff908f91c971a86a9a71af5998c1d8f10e828d9f55f68ac00",
+      "2.0.25": {
+        "hash": "15e3fc8c0c74267e2df136e5e5fb656a464158aa57624053375eb9c8c6e25ae2",
         "pname": "syn",
         "type": "crates-io",
-        "version": "2.0.24"
+        "version": "2.0.25"
       }
     },
     "sync_wrapper": {
