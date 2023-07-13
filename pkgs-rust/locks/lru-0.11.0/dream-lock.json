@@ -3,7 +3,7 @@
     "defaultPackage": "lru",
     "location": "",
     "packages": {
-      "lru": "0.10.1"
+      "lru": "0.11.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
     "gitSources": [],
     "meta": {
       "lru": {
-        "0.10.1": {
+        "0.11.0": {
           "description": "A LRU cache implementation", "homepage": "https://github.com/jeromefroe/lru-rs", "license": [   "mit"
           ]
         }
@@ -20,7 +20,7 @@
     },
     "relPathReplacements": {
       "lru": {
-        "0.10.1": {}
+        "0.11.0": {}
       }
     }
   },
@@ -34,13 +34,14 @@
       ]
     },
     "hashbrown": {
-      "0.13.2": [
-        [ "ahash", "0.8.3" ]
+      "0.14.0": [
+        [ "ahash", "0.8.3" ],
+        [ "allocator-api2", "0.2.15" ]
       ]
     },
     "lru": {
-      "0.10.1": [
-        [ "hashbrown", "0.13.2" ],
+      "0.11.0": [
+        [ "hashbrown", "0.14.0" ],
         [ "scoped_threadpool", "0.1.9" ],
         [ "stats_alloc", "0.1.10" ]
       ]
@@ -55,6 +56,14 @@
         "version": "0.8.3"
       }
     },
+    "allocator-api2": {
+      "0.2.15": {
+        "hash": "56fc6cf8dc8c4158eed8649f9b8b0ea1518eb62b544fe9490d66fa0b349eafe9",
+        "pname": "allocator-api2",
+        "type": "crates-io",
+        "version": "0.2.15"
+      }
+    },
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
@@ -64,16 +73,16 @@
       }
     },
     "hashbrown": {
-      "0.13.2": {
-        "hash": "43a3c133739dddd0d2990f9a4bdf8eb4b21ef50e4851ca85ab661199821d510e",
+      "0.14.0": {
+        "hash": "2c6201b9ff9fd90a5a3bac2e56a830d0caa509576f0e503818ee82c181b3437a",
         "pname": "hashbrown",
         "type": "crates-io",
-        "version": "0.13.2"
+        "version": "0.14.0"
       }
     },
     "lru": {
-      "0.10.1": {
-        "hash": "718e8fae447df0c7e1ba7f5189829e63fd536945c8988d61444c19039f16b670",
+      "0.11.0": {
+        "hash": "eedb2bdbad7e0634f83989bf596f497b070130daaa398ab22d84c39e266deec5",
         "type": "crates-io"
       }
     },
